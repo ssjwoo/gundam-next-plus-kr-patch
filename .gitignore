@@ -1,0 +1,52 @@
+# Copyrighted game inputs and generated playable images
+*.iso
+*.cso
+*.chd
+*.pbp
+*.bin
+*.elf
+*.prx
+*.pgf
+*.gim
+*.pzz
+*.adx
+*.at3
+*.pmf
+*.sfd
+*.bgm
+*.snd
+*.gmf
+
+# Extracted or rendered game assets and runtime evidence
+build/
+extracted/
+runtime/
+analysis/
+work/
+renders/
+screenshots/
+*.png
+*.bmp
+*.tga
+*.wav
+*.log
+
+# Third-party binaries and archives
+*.exe
+*.dll
+*.zip
+*.7z
+*.rar
+
+# Local Python/editor state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+

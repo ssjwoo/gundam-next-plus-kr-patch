@@ -1,0 +1,5 @@
+capstone>=5.0,<6
+Pillow>=10.0
+pyelftools>=0.31
+websocket-client>=1.8
+

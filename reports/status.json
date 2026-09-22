@@ -1,0 +1,34 @@
+{
+  "project": "Kidou Senshi Gundam: Gundam vs. Gundam NEXT PLUS Korean fan translation",
+  "title_id": "NPJH50107",
+  "source_profile": {
+    "region": "Japan",
+    "iso_size": 1757806592,
+    "iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3"
+  },
+  "text": {
+    "candidate_rows": 7283,
+    "translated_draft_rows": 120,
+    "independently_approved_rows": 0,
+    "unresolved_rows": 7163,
+    "verified_direct_pointer_fields": 140
+  },
+  "graphics": {
+    "pzz_found": 2125,
+    "pzz_parsed": 2125,
+    "pzz_failures": 0,
+    "gim_surfaces": 4272,
+    "index4_surfaces": 680,
+    "index8_surfaces": 3592
+  },
+  "latest_local_development_artifact": {
+    "label": "batch004_symbolfix",
+    "elf_sha256": "061884e3bfda7cd90555f2fc4a7babcb54c5bc9cd40e986b4264027d04349a7d",
+    "iso_sha256": "e32fbb584aec3f462127d98797720dcb1888225b3bbbe5d3f90ff943024ef474",
+    "iso_size": 1757806592,
+    "distributed": false,
+    "release_ready": false
+  },
+  "known_issue": "CP932 0x81A5 continuation marker handling is experimental; the Hangul-looking collision is removed but a visible replacement marker is not yet verified.",
+  "release_ready": false
+}

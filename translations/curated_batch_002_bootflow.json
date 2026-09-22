@@ -1,0 +1,12 @@
+[
+  {"id":"EBOOT_04706","source":" はい ","target":" 예 ","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04707","source":"いいえ","target":"아니요","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04730","source":"セーブデータがありません。","target":"저장 데이터가 없습니다.","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04731","source":"新規に作成しますか？","target":"새로 만드시겠습니까?","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04732","source":"※「いいえ」を選択すると、","target":"* '아니요'를 선택하면","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04733","source":"このままゲームを開始します。","target":"저장 없이 게임을 시작합니다.","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04753","source":"パイロットネームを入力して下さい。%r","target":"파일럿 이름을 입력하세요.%r","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04754","source":"この名前でよろしいですか？","target":"이 이름으로 하시겠습니까?","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04755","source":"セーブを完了せずに","target":"저장하지 않고","note":"first-boot flow; curated Korean draft; independent QA pending"},
+  {"id":"EBOOT_04756","source":"このままゲームを続けてもよろしいですか？","target":"이대로 계속하시겠습니까?","note":"first-boot flow; curated Korean draft; independent QA pending"}
+]
