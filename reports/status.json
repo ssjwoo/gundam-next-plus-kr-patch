@@ -69,6 +69,6 @@
       "save and pilot-name round trip"
     ]
   },
-  "known_issue": "Half-width printable ASCII (0x21-0x7E) inside decoded strings draws neither a glyph nor an advance; the space character is unaffected. A 17-word decoder variant that maps those bytes to full-width forms renders Korean correctly in a probe build, but its on-screen full-width output is not yet confirmed.",
+  "known_issue": "Only Hangul syllables (U+AC00..U+D7A3) render through the replaced text decoder. Half-width ASCII (U+0021..U+007E) and full-width Latin (U+FF12 tested) both draw nothing, with no advance. ASCII bytes do reach the decoder and the cursor advance is correct; delegating the byte to the game's own code-table routine (0x089BC598) also draws nothing. The remaining question is which code the renderer accepts for digits and letters.",
   "release_ready": false
 }
