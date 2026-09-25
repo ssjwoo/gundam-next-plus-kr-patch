@@ -37,6 +37,13 @@ screenshots/
 *.zip
 *.7z
 *.rar
+tools/ppsspp-*/
+tools/GJConv/
+tools/pspdecrypt-*/
+tools/pzzcompressor_jojo/
+*.rco
+*.sfo
+*.zim
 
 # Local Python/editor state
 .venv/
@@ -49,4 +56,3 @@ __pycache__/
 .vscode/
 .DS_Store
 Thumbs.db
-

@@ -5,7 +5,8 @@ param(
     [string]$OutputPath,
     [int]$InitialDelayMilliseconds = 0,
     [int]$IntervalMilliseconds = 250,
-    [int]$Count = 1
+    [int]$Count = 1,
+    [switch]$IncludeHidden
 )
 
 Add-Type -AssemblyName System.Drawing
@@ -19,11 +20,35 @@ public static class WindowCaptureNative {
     public static extern bool GetWindowRect(IntPtr hWnd, out RECT rect);
     [DllImport("user32.dll")]
     public static extern bool PrintWindow(IntPtr hWnd, IntPtr hdcBlt, uint flags);
+    public delegate bool EnumWindowsCallback(IntPtr hWnd, IntPtr lParam);
+    [DllImport("user32.dll")]
+    public static extern bool EnumWindows(EnumWindowsCallback callback, IntPtr lParam);
+    [DllImport("user32.dll")]
+    public static extern uint GetWindowThreadProcessId(IntPtr hWnd, out uint processId);
+    [DllImport("user32.dll", CharSet = CharSet.Unicode)]
+    public static extern int GetWindowText(IntPtr hWnd, System.Text.StringBuilder text, int count);
 }
 "@
 
 $process = Get-Process -Id $ProcessId -ErrorAction Stop
 $handle = $process.MainWindowHandle
+if ($handle -eq [IntPtr]::Zero -and $IncludeHidden) {
+    $targetId = [uint32]$ProcessId
+    $matches = New-Object 'System.Collections.Generic.List[System.IntPtr]'
+    $callback = [WindowCaptureNative+EnumWindowsCallback]{
+        param([IntPtr]$candidate, [IntPtr]$unused)
+        $ownerId = [uint32]0
+        [WindowCaptureNative]::GetWindowThreadProcessId($candidate, [ref]$ownerId) | Out-Null
+        if ($ownerId -eq $targetId) {
+            $title = New-Object System.Text.StringBuilder 256
+            [WindowCaptureNative]::GetWindowText($candidate, $title, 256) | Out-Null
+            if ($title.ToString().StartsWith('PPSSPP')) { $matches.Add($candidate) }
+        }
+        return $true
+    }
+    [WindowCaptureNative]::EnumWindows($callback, [IntPtr]::Zero) | Out-Null
+    if ($matches.Count -eq 1) { $handle = $matches[0] }
+}
 if ($handle -eq [IntPtr]::Zero) {
     throw "Process does not have a main window"
 }

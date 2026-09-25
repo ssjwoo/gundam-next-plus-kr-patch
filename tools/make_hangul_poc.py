@@ -8,9 +8,11 @@ ASCII remains one byte.  Hangul syllables U+AC00..U+D7A3 are encoded as:
     lead  = 0x80 + ((codepoint - 0xAC00) >> 7)
     trail = 0x80 + ((codepoint - 0xAC00) & 0x7F)
 
-This spans the precomposed Hangul block without NUL bytes.  The byte pair
-0x81A5 is reserved for the game's CP932 down-triangle continuation marker
-(U+25BC), so U+ACA5 is deliberately rejected by the encoder.  Keeping lead
+This spans the precomposed Hangul block without NUL bytes. Source pairs
+0x8199/0x819A encode open/filled stars, and 0x81A5 is the down-triangle
+continuation marker. Their colliding syllables U+AC99/U+AC9A/U+ACA5 are
+rejected by the encoder. The current decoder only maps the down-triangle;
+star rendering remains unresolved. Keeping lead
 bytes below 0xF0 is required because the game's outer text parser treats
 0xF0-0xFF as one-byte control tokens before calling the decoder.
 """
@@ -32,7 +34,11 @@ DECODE_FUNCTION_VA = 0x089BC550
 POC_STRING_FILE_OFFSET = 0x26E2C8
 POC_SOURCE = "このゲームはオートセーブ機能に対応しています。"
 POC_TARGET = "이 게임은 한글 출력을 지원합니다."
-RESERVED_HANGUL_CODEPOINT = 0xACA5
+RESERVED_HANGUL_CODEPOINTS = {
+    0xAC99: "CP932 0x8199 open star",
+    0xAC9A: "CP932 0x819A filled star",
+    0xACA5: "CP932 0x81A5 continuation marker",
+}
 
 
 def r_type(op: int, rs: int, rt: int, rd: int, shamt: int, funct: int) -> int:
@@ -74,8 +80,9 @@ def encode_hangul(text: str) -> bytes:
         if codepoint < 0x80:
             out.append(codepoint)
         elif 0xAC00 <= codepoint <= 0xD7A3:
-            if codepoint == RESERVED_HANGUL_CODEPOINT:
-                raise ValueError("U+ACA5 is reserved for the CP932 0x81A5 continuation marker")
+            if codepoint in RESERVED_HANGUL_CODEPOINTS:
+                reason = RESERVED_HANGUL_CODEPOINTS[codepoint]
+                raise ValueError(f"U+{codepoint:04X} is reserved for {reason}")
             index = codepoint - 0xAC00
             out.extend((0x80 + (index >> 7), 0x80 + (index & 0x7F)))
         else:

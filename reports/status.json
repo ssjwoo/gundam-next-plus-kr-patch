@@ -8,10 +8,24 @@
   },
   "text": {
     "candidate_rows": 7283,
-    "translated_draft_rows": 120,
+    "translated_draft_rows": 1543,
     "independently_approved_rows": 0,
-    "unresolved_rows": 7163,
-    "verified_direct_pointer_fields": 140
+    "unresolved_rows": 5740,
+    "verified_direct_pointer_fields": 2595,
+    "public_korean_only_draft": {
+      "path": "translations/development_draft_2026-09-24_ko_only.jsonl",
+      "rows": 1543,
+      "sha256": "a53124d9128487156fbc9ee6a0484a85252856d77139c1d02b2ae72b76922a71",
+      "review_state": "unapproved_draft"
+    }
+  },
+  "next_plus_missions": {
+    "structurally_verified_records": 274,
+    "legacy_inventory_matches": 208,
+    "newly_recovered_records": 66,
+    "translated_and_inserted_records": 0,
+    "text_complete": false,
+    "graphics_deferred": true
   },
   "graphics": {
     "pzz_found": 2125,
@@ -22,13 +36,13 @@
     "index8_surfaces": 3592
   },
   "latest_local_development_artifact": {
-    "label": "batch004_symbolfix",
-    "elf_sha256": "061884e3bfda7cd90555f2fc4a7babcb54c5bc9cd40e986b4264027d04349a7d",
-    "iso_sha256": "e32fbb584aec3f462127d98797720dcb1888225b3bbbe5d3f90ff943024ef474",
+    "label": "next_plus_development_v4_2026-09-24",
+    "elf_sha256": "61840739a796fe49d42996d1b131625f4c224e29c322e4c9550c2727a71fecea",
+    "iso_sha256": "fa6d8eaf4ddcd922f53c7523c3167386aa43df6321d290d29c78ddcf0fe5f407",
     "iso_size": 1757806592,
     "distributed": false,
     "release_ready": false
   },
-  "known_issue": "CP932 0x81A5 continuation marker handling is experimental; the Hangul-looking collision is removed but a visible replacement marker is not yet verified.",
+  "known_issue": "NEXT-PLUS mission text remains untranslated; some ASCII letters and digits are absent in runtime, and CP932 0x81A5 continuation-marker behavior still needs full verification.",
   "release_ready": false
 }

@@ -45,7 +45,7 @@ def parse(path: Path) -> dict:
         return None if value >= pointer_len else value
 
     probes = {}
-    for char in "Aあ亜가각힣▼▲▽↓":
+    for char in "A0-+%\"あ亜가각힣▼▲▽↓☆★":
         codepoint = ord(char)
         probes[f"U+{codepoint:04X} {char}"] = glyph_index(codepoint)
     for encoded in (0x82A0, 0xB0A1):

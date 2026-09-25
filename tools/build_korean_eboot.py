@@ -31,6 +31,14 @@ def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
 def decode_hangul(raw: bytes) -> str:
     out = []
     index = 0
@@ -82,13 +90,24 @@ def main() -> None:
     parser.add_argument("--output-iso", type=Path)
     parser.add_argument("--report", type=Path)
     parser.add_argument("--allow-partial", action="store_true")
+    parser.add_argument("--development-input-marker", type=Path)
     args = parser.parse_args()
     if bool(args.source_iso) != bool(args.output_iso):
         raise SystemExit("--source-iso and --output-iso must be supplied together")
+    if args.allow_partial != bool(args.development_input_marker):
+        raise SystemExit("partial builds require --allow-partial and --development-input-marker together")
 
     original = args.source_elf.read_bytes()
     if sha256(original) != EXPECTED_SOURCE_SHA256:
         raise SystemExit("source ELF hash does not match the analysed Japanese executable")
+    development_input = None
+    if args.development_input_marker:
+        development_input = json.loads(args.development_input_marker.read_text(encoding="utf-8"))
+        if (development_input.get("input_policy") != "development"
+                or development_input.get("non_distributable") is not True
+                or development_input.get("workbook_sha256") != sha256_file(args.translations_csv)
+                or development_input.get("source_elf_sha256") != EXPECTED_SOURCE_SHA256):
+            raise SystemExit("development input marker is missing, stale, or distributable")
     with args.inventory_csv.open(encoding="utf-8-sig", newline="") as handle:
         inventory = {row["id"]: row for row in csv.DictReader(handle)}
     with args.translations_csv.open(encoding="utf-8-sig", newline="") as handle:
@@ -221,12 +240,32 @@ def main() -> None:
             {
                 "output_iso": str(args.output_iso.resolve()),
                 "output_iso_size": args.output_iso.stat().st_size,
-                "output_iso_sha256": sha256(args.output_iso.read_bytes()),
+                "output_iso_sha256": sha256_file(args.output_iso),
             }
         )
+    if development_input is not None:
+        report["development_only"] = True
+        report["distributable"] = False
+        report["development_input_marker"] = str(args.development_input_marker.resolve())
     report_path = args.report or args.output_elf.with_suffix(args.output_elf.suffix + ".json")
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if development_input is not None:
+        marker_path = (args.output_iso or args.output_elf).with_suffix(".development-only.json")
+        marker = {
+            "schema_version": 1,
+            "non_distributable": True,
+            "runtime_verified": False,
+            "output_elf": str(args.output_elf.resolve()),
+            "output_elf_sha256": report["output_sha256"],
+            "output_iso": str(args.output_iso.resolve()) if args.output_iso else None,
+            "output_iso_sha256": report.get("output_iso_sha256"),
+            "workbook_sha256": development_input["workbook_sha256"],
+            "unresolved_rows": len(unresolved),
+            "translated_unapproved_rows": len(not_approved),
+            "report": str(report_path.resolve()),
+        }
+        marker_path.write_text(json.dumps(marker, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: value for key, value in report.items() if key not in {"applied", "write_plan"}}, ensure_ascii=True, indent=2))
 
 
