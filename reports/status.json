@@ -47,9 +47,8 @@
     "index8_surfaces": 3592
   },
   "latest_local_development_artifact": {
-    "label": "next_plus_development_v5_2026-09-25",
-    "elf_sha256": "64823a33794bcaa7f1f2f1b01d238f24a136805d444d8b6349e4f25dca4ed189",
-    "iso_sha256": "50e3a385fda7347347c2d4cfb9632a62a2486f92a1e1e93ac21e0b9f2fea7630",
+    "label": "next_plus_development_v8_2026-09-26",
+    "elf_sha256": "63d3363cad8df21f6bf7d41334e2ee07d73921620c2893fb7a1b0adb1c6fdc30",
     "iso_size": 1757806592,
     "applied_rows": 1624,
     "mission_inserted_rows": 271,
@@ -62,7 +61,10 @@
   "runtime_verified": {
     "first_mission_only": true,
     "emulator": "PPSSPP v1.20.4 development build",
-    "observation": "MISSION 1 title and both description lines render in Korean, together with the map label, mode description and help panels.",
+    "observations": [
+      "MISSION 1 title and both description lines render in Korean, together with the map label, mode description and help panels.",
+      "The main menu description changed from '인 협력 플레이도 …' to '두 명이 협력 플레이…', confirming Hangul numerals render where digits did not."
+    ],
     "not_verified": [
       "stages other than the first",
       "real PSP hardware",
@@ -70,5 +72,12 @@
     ]
   },
   "known_issue": "Only Hangul syllables (U+AC00..U+D7A3) render through the replaced text decoder. Half-width ASCII (U+0021..U+007E) and full-width Latin (U+FF12 tested) both draw nothing, with no advance. ASCII bytes do reach the decoder and the cursor advance is correct; delegating the byte to the game's own code-table routine (0x089BC598) also draws nothing. The remaining question is which code the renderer accepts for digits and letters.",
-  "release_ready": false
+  "release_ready": false,
+  "notation_policy": {
+    "decided": "2026-09-26",
+    "english": "kept as English",
+    "kanji_and_japanese": "written in Korean",
+    "digits": "written as Hangul numerals because digits do not render (e.g. 육십초, 두 기)",
+    "digits_left_alone": "names, model numbers and era designations such as F91, V2, Mk-II, 제08MS소대, 사이드 7, 우주세기 0079, 기동전사 건담 0080"
+  }
 }
