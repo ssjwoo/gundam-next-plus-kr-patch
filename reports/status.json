@@ -8,24 +8,35 @@
   },
   "text": {
     "candidate_rows": 7283,
-    "translated_draft_rows": 1543,
+    "translated_draft_rows": 1624,
     "independently_approved_rows": 0,
-    "unresolved_rows": 5740,
-    "verified_direct_pointer_fields": 2595,
+    "unresolved_rows": 5659,
+    "verified_direct_pointer_fields": 2676,
     "public_korean_only_draft": {
       "path": "translations/development_draft_2026-09-24_ko_only.jsonl",
       "rows": 1543,
       "sha256": "a53124d9128487156fbc9ee6a0484a85252856d77139c1d02b2ae72b76922a71",
-      "review_state": "unapproved_draft"
+      "review_state": "unapproved_draft",
+      "note": "The 2026-09-25 map and mission drafts are local-only for now; the public exporter only accepts EBOOT_05-digit IDs."
     }
   },
   "next_plus_missions": {
     "structurally_verified_records": 274,
     "legacy_inventory_matches": 208,
     "newly_recovered_records": 66,
-    "translated_and_inserted_records": 0,
+    "korean_draft_rows": 271,
+    "held_for_term_decision_rows": 3,
+    "inserted_and_pointer_verified_records": 271,
     "text_complete": false,
     "graphics_deferred": true
+  },
+  "next_plus_map_and_descriptions": {
+    "translation_rows": 99,
+    "korean_draft_rows": 99,
+    "recovered_title_rows": 17,
+    "structure_held_rows": 1,
+    "auto_applicable_workbook_rows": 81,
+    "auto_applicable_recovered_title_rows": 17
   },
   "graphics": {
     "pzz_found": 2125,
@@ -36,13 +47,28 @@
     "index8_surfaces": 3592
   },
   "latest_local_development_artifact": {
-    "label": "next_plus_development_v4_2026-09-24",
-    "elf_sha256": "61840739a796fe49d42996d1b131625f4c224e29c322e4c9550c2727a71fecea",
-    "iso_sha256": "fa6d8eaf4ddcd922f53c7523c3167386aa43df6321d290d29c78ddcf0fe5f407",
+    "label": "next_plus_development_v5_2026-09-25",
+    "elf_sha256": "64823a33794bcaa7f1f2f1b01d238f24a136805d444d8b6349e4f25dca4ed189",
+    "iso_sha256": "50e3a385fda7347347c2d4cfb9632a62a2486f92a1e1e93ac21e0b9f2fea7630",
     "iso_size": 1757806592,
+    "applied_rows": 1624,
+    "mission_inserted_rows": 271,
+    "map_inserted_rows": 17,
+    "write_plan_entries": 1914,
+    "unexpected_changed_bytes": 0,
     "distributed": false,
     "release_ready": false
   },
-  "known_issue": "NEXT-PLUS mission text remains untranslated; some ASCII letters and digits are absent in runtime, and CP932 0x81A5 continuation-marker behavior still needs full verification.",
+  "runtime_verified": {
+    "first_mission_only": true,
+    "emulator": "PPSSPP v1.20.4 development build",
+    "observation": "MISSION 1 title and both description lines render in Korean, together with the map label, mode description and help panels.",
+    "not_verified": [
+      "stages other than the first",
+      "real PSP hardware",
+      "save and pilot-name round trip"
+    ]
+  },
+  "known_issue": "Half-width printable ASCII (0x21-0x7E) inside decoded strings draws neither a glyph nor an advance; the space character is unaffected. A 17-word decoder variant that maps those bytes to full-width forms renders Korean correctly in a probe build, but its on-screen full-width output is not yet confirmed.",
   "release_ready": false
 }
