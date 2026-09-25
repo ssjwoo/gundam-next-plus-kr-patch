@@ -71,7 +71,7 @@
       "save and pilot-name round trip"
     ]
   },
-  "known_issue": "Only Hangul syllables (U+AC00..U+D7A3) render through the replaced text decoder. Half-width ASCII (U+0021..U+007E) and full-width Latin (U+FF12 tested) both draw nothing, with no advance. ASCII bytes do reach the decoder and the cursor advance is correct; delegating the byte to the game's own code-table routine (0x089BC598) also draws nothing. The remaining question is which code the renderer accepts for digits and letters.",
+  "known_issue": "The replaced message decoder only draws Hangul syllables (U+AC00..U+D7A3). Half-width ASCII, full-width Latin and kana all draw nothing through that path, so English words and digits cannot be shown in translated message text. The decoder returns the same code the stock function did (table[0x32]=0x32 read from the running Japanese build) and kr0.pgf carries valid glyph data for those codes, so the cause is inside the message path's code-to-glyph resolution, not the decoder or the font. The game's own HUD path draws ASCII digits with the same font.",
   "release_ready": false,
   "notation_policy": {
     "decided": "2026-09-26",
@@ -79,5 +79,11 @@
     "kanji_and_japanese": "written in Korean",
     "digits": "written as Hangul numerals because digits do not render (e.g. 육십초, 두 기)",
     "digits_left_alone": "names, model numbers and era designations such as F91, V2, Mk-II, 제08MS소대, 사이드 7, 우주세기 0079, 기동전사 건담 0080"
+  },
+  "english_and_digits": {
+    "state": "not displayable in translated message text",
+    "workaround": "quantities and durations are written as Hangul numerals",
+    "next_step": "trace the message path from the decoder callers at 0x08883364 / 0x088838F4 to the sceFont call",
+    "decided": "2026-09-26"
   }
 }
