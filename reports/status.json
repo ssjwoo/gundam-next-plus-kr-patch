@@ -47,14 +47,16 @@
     "index8_surfaces": 3592
   },
   "latest_local_development_artifact": {
-    "label": "next_plus_development_v8_2026-09-26",
-    "elf_sha256": "63d3363cad8df21f6bf7d41334e2ee07d73921620c2893fb7a1b0adb1c6fdc30",
+    "label": "next_plus_development_v10_2026-09-26",
+    "elf_sha256": "349a9085854c21c42d16eb547e2393d8",
+    "iso_sha256": "c8d63b8a7592f1817494d885b8238c0c",
     "iso_size": 1757806592,
     "applied_rows": 1624,
     "mission_inserted_rows": 271,
     "map_inserted_rows": 17,
     "write_plan_entries": 1914,
     "unexpected_changed_bytes": 0,
+    "bundled_font_bytes": 108845,
     "distributed": false,
     "release_ready": false
   },
@@ -62,8 +64,8 @@
     "first_mission_only": true,
     "emulator": "PPSSPP v1.20.4 development build",
     "observations": [
-      "MISSION 1 title and both description lines render in Korean, together with the map label, mode description and help panels.",
-      "The main menu description changed from '인 협력 플레이도 …' to '두 명이 협력 플레이…', confirming Hangul numerals render where digits did not."
+      "MISSION 1 title and both description lines render in Korean.",
+      "With the patch-owned font, the main menu line now shows '2인 협력 플레이도 가능!' and '모드입니다.' with the digit and the full stop visible."
     ],
     "not_verified": [
       "stages other than the first",
@@ -71,19 +73,26 @@
       "save and pilot-name round trip"
     ]
   },
-  "known_issue": "The replaced message decoder only draws Hangul syllables (U+AC00..U+D7A3). Half-width ASCII, full-width Latin and kana all draw nothing through that path, so English words and digits cannot be shown in translated message text. The decoder returns the same code the stock function did (table[0x32]=0x32 read from the running Japanese build) and kr0.pgf carries valid glyph data for those codes, so the cause is inside the message path's code-to-glyph resolution, not the decoder or the font. The game's own HUD path draws ASCII digits with the same font.",
+  "known_issue": "Half-width ASCII, full-width Latin and kana do not render with the firmware font. Resolved by shipping a patch-owned font loaded through sceFontOpenUserFile: digits, English and punctuation now draw. The shipped subset comes from Sony's kr0.pgf, so a freely licensed font still has to be rasterised into a PGF before the patch can be distributed.",
   "release_ready": false,
   "notation_policy": {
     "decided": "2026-09-26",
-    "english": "kept as English",
-    "kanji_and_japanese": "written in Korean",
-    "digits": "written as Hangul numerals because digits do not render (e.g. 육십초, 두 기)",
-    "digits_left_alone": "names, model numbers and era designations such as F91, V2, Mk-II, 제08MS소대, 사이드 7, 우주세기 0079, 기동전사 건담 0080"
+    "english": "kept as English; now renders because the patch ships its own font",
+    "digits": "restored to ASCII digits; the Hangul-numeral workaround was reverted once digits rendered again",
+    "kanji_and_japanese": "written in Korean where translated"
   },
   "english_and_digits": {
     "state": "not displayable in translated message text",
     "workaround": "quantities and durations are written as Hangul numerals",
     "next_step": "trace the message path from the decoder callers at 0x08883364 / 0x088838F4 to the sceFont call",
     "decided": "2026-09-26"
+  },
+  "font_control": {
+    "state": "working",
+    "approach": "repurpose an unused sceFont import slot for sceFontOpenUserFile and load the font with disc0:",
+    "decoder_change": "Hangul base moved from 0xAC00 to 0x0100 so the font character map stays small",
+    "font": "108845-byte PGF subset, 844 glyphs, written into /PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
+    "size_limit": "the game's libfont fails to open user fonts above roughly 160-192KB",
+    "distribution_blocker": "the current subset is extracted from Sony's kr0.pgf and cannot be redistributed; a free font must be rasterised into a PGF instead"
   }
 }
