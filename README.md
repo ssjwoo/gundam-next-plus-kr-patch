@@ -17,6 +17,22 @@ PSP 일본판 **『기동전사 건담: 건담 VS. 건담 NEXT PLUS』**의 한�
 
 자세한 공개 경계는 [docs/PUBLICATION_POLICY.md](docs/PUBLICATION_POLICY.md)를 보세요.
 
+## 배포 패치 (2026-09-26)
+
+원본 일본판 ISO에 적용하는 차분 패치를 개발 릴리스로 공개합니다.
+게임 코드 변경만 들어 있고 게임 데이터·폰트·그래픽은 들어 있지 않습니다.
+
+```
+xdelta3 -d -s original_jp.iso next_plus_development_v11_2026-09-26.xdelta out.iso
+```
+
+영문·숫자가 안 나오던 문제를 **폰트를 우리가 통제하는 방식**으로 해결했습니다.
+게임이 펌웨어 폰트를 여는 호출을 `sceFontOpenUserFile`로 바꾸고, 폰트를
+`ms0:/PSP/SAVEDATA/NPJH50107/kr.pgf`에서 읽습니다. 소니 폰트를 재배포하지 않기 위해
+사용자가 자기 PSP 펌웨어에서 `tools/make_subset_pgf.py`로 뽑아 씁니다.
+
+자세한 내용과 확인된 동작, 남은 작업은 `docs/RELEASE_2026-09-26.md`를 보세요.
+
 ## 현재 상태
 
 - EBOOT 문자열 후보: 7,283개
