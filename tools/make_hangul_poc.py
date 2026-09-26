@@ -40,6 +40,33 @@ RESERVED_HANGUL_CODEPOINTS = {
     0xACA5: "CP932 0x81A5 continuation marker",
 }
 
+# Indices the game fills in at runtime.  `%t` expands to a trademark sign, and
+# that sign turned out to live at index 8226, which is also the natural index of
+# U+CC22.  A Hangul syllable there would be replaced by the token's glyph (the
+# dialog showed "메모리 스틱 듀오찢"), so the syllables below move aside and the
+# index is left to the token.
+RUNTIME_INDEX_GLYPHS = {
+    8226: "\u2122",
+}
+
+# The game keeps its decimal digit table at file offset 0x28D3B4 as CP932
+# full-width digits, i.e. 82 4f 82 50 ... 82 58.  It reads that table TWO BYTES
+# PER DIGIT when it builds "destroy N" text, so the entries have to stay
+# two-byte wide.  Under the patched decoder those bytes land on indices
+# 207..216, so the digit glyphs belong there.  (Translating the table to ASCII
+# made every digit copy two characters: the real count 10 printed as "2301"
+# and 3 as "67".)
+DIGIT_TABLE_FIRST_INDEX = 207
+for _digit in range(10):
+    RUNTIME_INDEX_GLYPHS[DIGIT_TABLE_FIRST_INDEX + _digit] = str(_digit)
+
+# Syllable -> the index it is stored at instead of its natural one.  The target
+# index must not collide with any other character index; the font builder
+# refuses to build when it does.
+DISPLACED_HANGUL = {
+    0xCC22: 12000,
+}
+
 
 def r_type(op: int, rs: int, rt: int, rd: int, shamt: int, funct: int) -> int:
     return (op << 26) | (rs << 21) | (rt << 16) | (rd << 11) | (shamt << 6) | funct
@@ -83,7 +110,9 @@ def encode_hangul(text: str) -> bytes:
             if codepoint in RESERVED_HANGUL_CODEPOINTS:
                 reason = RESERVED_HANGUL_CODEPOINTS[codepoint]
                 raise ValueError(f"U+{codepoint:04X} is reserved for {reason}")
-            index = codepoint - 0xAC00
+            index = DISPLACED_HANGUL.get(codepoint, codepoint - 0xAC00)
+            if index in RUNTIME_INDEX_GLYPHS:
+                raise ValueError(f"U+{codepoint:04X} would sit on runtime index {index}")
             out.extend((0x80 + (index >> 7), 0x80 + (index & 0x7F)))
         else:
             raise ValueError(f"unsupported character U+{codepoint:04X}: {char!r}")

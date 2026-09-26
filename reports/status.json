@@ -8,16 +8,40 @@
   },
   "text": {
     "candidate_rows": 7283,
-    "translated_draft_rows": 1624,
+    "translated_draft_rows": 4271,
     "independently_approved_rows": 0,
-    "unresolved_rows": 5659,
+    "unresolved_rows": 3012,
+    "unresolved_breakdown": {
+      "byte_noise_not_a_real_string": 2958,
+      "reviewed_rewrite_still_over_slot": 41,
+      "codec_rejected_characters": 12,
+      "binary_table_left_as_shipped": 1
+    },
     "verified_direct_pointer_fields": 2676,
+    "machine_pass": {
+      "provider": "google_translate_gtx",
+      "rows_drafted": 2557,
+      "rows_fitting_the_slot": 1931
+    },
+    "external_review": {
+      "rows_reviewed": 2701,
+      "applied": 2125,
+      "held": 576,
+      "held_breakdown": {
+        "needs_context": 407,
+        "not_text_candidate": 168,
+        "needs_term_decision": 1
+      },
+      "validator_errors": 0,
+      "validator_warnings": 0
+    },
+    "slot_fit_rewrites": 179,
+    "slot_fit_from_mission_package": 79,
     "public_korean_only_draft": {
-      "path": "translations/development_draft_2026-09-24_ko_only.jsonl",
-      "rows": 1543,
-      "sha256": "a53124d9128487156fbc9ee6a0484a85252856d77139c1d02b2ae72b76922a71",
-      "review_state": "unapproved_draft",
-      "note": "The 2026-09-25 map and mission drafts are local-only for now; the public exporter only accepts EBOOT_05-digit IDs."
+      "path": "translations/development_draft_2026-09-26_ko_only.jsonl",
+      "rows": 4271,
+      "sha256": "67ef910107d3c573a0fbe9bd3b9a216e88b564215fb1299989ff64fa206fd0a6",
+      "review_state": "unapproved_draft"
     }
   },
   "next_plus_missions": {
@@ -47,52 +71,62 @@
     "index8_surfaces": 3592
   },
   "latest_local_development_artifact": {
-    "label": "next_plus_development_v10_2026-09-26",
-    "elf_sha256": "349a9085854c21c42d16eb547e2393d8fcfa4b4d95fec112c7935fc6a798bfa3",
-    "iso_sha256": "c8d63b8a7592f1817494d885b8238c0c286e36b177c518b0239e1a7b471846a3",
+    "label": "next_plus_development_v19_2026-09-26",
+    "elf_sha256": "14f397f095d3acf34a498d2eb97f3ee74e24faac448a57717246475ff0f24756",
+    "iso_sha256": "a7118fce947fa72db5bd3e52fcf4f8fd397acaaa01468c9bc2a0548ed4ba789a",
     "iso_size": 1757806592,
-    "applied_rows": 1624,
-    "mission_inserted_rows": 271,
-    "map_inserted_rows": 17,
-    "write_plan_entries": 1914,
-    "unexpected_changed_bytes": 0,
-    "bundled_font_bytes": 108845,
+    "xdelta": "next_plus_development_v19_2026-09-26.xdelta",
+    "xdelta_bytes": 1708688,
+    "translated_rows": 4271,
+    "bundled_font_bytes": 124084,
+    "bundled_font_glyphs": 1038,
     "distributed": false,
-    "release_ready": false
+    "release_ready": true,
+    "hardware_verified": false,
+    "xdelta_sha256": "c0c0609033c609980fac8b9d62287ce703080ba5f73fdbc7e0a1ad2162adc27f"
   },
   "runtime_verified": {
-    "first_mission_only": true,
     "emulator": "PPSSPP v1.20.4 development build",
+    "libfont_breaks": 0,
     "observations": [
-      "MISSION 1 title and both description lines render in Korean.",
-      "With the patch-owned font, the main menu line now shows '2인 협력 플레이도 가능!' and '모드입니다.' with the digit and the full stop visible."
+      "The game's real sceFont_Library accepts the patch-owned font and draws glyphs.",
+      "The main menu description panel renders its translated Korean paragraph.",
+      "The autosave notice renders '메모리 스틱 듀오' followed by the trademark sign.",
+      "A newly translated string ('스킬이 선택되지 않았습니다') appears on the mission screen."
     ],
     "not_verified": [
-      "stages other than the first",
       "real PSP hardware",
+      "mission condition digits after the 2026-09-26 digit-table fix",
       "save and pilot-name round trip"
     ]
   },
-  "known_issue": "Half-width ASCII, full-width Latin and kana do not render with the firmware font. Resolved by shipping a patch-owned font loaded through sceFontOpenUserFile: digits, English and punctuation now draw. The shipped subset comes from Sony's kr0.pgf, so a freely licensed font still has to be rasterised into a PGF before the patch can be distributed.",
-  "release_ready": false,
-  "notation_policy": {
-    "decided": "2026-09-26",
-    "english": "kept as English; now renders because the patch ships its own font",
-    "digits": "restored to ASCII digits; the Hangul-numeral workaround was reverted once digits rendered again",
-    "kanji_and_japanese": "written in Korean where translated"
-  },
-  "english_and_digits": {
-    "state": "not displayable in translated message text",
-    "workaround": "quantities and durations are written as Hangul numerals",
-    "next_step": "trace the message path from the decoder callers at 0x08883364 / 0x088838F4 to the sceFont call",
-    "decided": "2026-09-26"
-  },
   "font_control": {
-    "state": "working",
+    "state": "working and freely licensed",
     "approach": "repurpose an unused sceFont import slot for sceFontOpenUserFile and load the font with disc0:",
     "decoder_change": "Hangul base moved from 0xAC00 to 0x0100 so the font character map stays small",
-    "font": "108845-byte PGF subset, 844 glyphs, written into /PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
-    "size_limit": "the game's libfont fails to open user fonts above roughly 160-192KB",
-    "distribution_blocker": "the current subset is extracted from Sony's kr0.pgf and cannot be redistributed; a free font must be rasterised into a PGF instead"
+    "font": "124084-byte PGF, 1038 glyphs, written into /PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
+    "licenses": [
+      "OFL 1.1 (NanumGothic, NAVER)",
+      "OFL 1.1 (Noto Sans JP, Google)"
+    ],
+    "size_limit": "the game's libfont renders up to about 165KB; 235KB still opens but draws nothing",
+    "header_rule": "header bytes 32, 33 and 372 are alignment divisors inside the real libfont; zero makes it trap",
+    "charmap_rule": "unmapped character map slots must hold (1 << bpe) - 1, the way kr0.pgf does, or glyph 0 is drawn"
+  },
+  "reserved_indices": {
+    "8226": "the %t token substitutes a trademark sign here",
+    "207-216": "the decimal digit table at 0x28D3B4 is read two bytes per digit",
+    "12000": "U+CC22 moved here because its natural index collides with %t"
+  },
+  "known_issues": [
+    "Text inside PZZ data files (MS edit skill descriptions) still renders as the wrong Hangul: those strings are not in the EBOOT and their index pairs collide with the Korean ones.",
+    "Menu labels and unit names are GIM images, not font text."
+  ],
+  "release_ready": true,
+  "notation_policy": {
+    "decided": "2026-09-26",
+    "english": "kept as English; the patch ships its own font",
+    "digits": "ASCII digits; the digit table in the game data stays two bytes per entry",
+    "kanji_and_japanese": "written in Korean where translated"
   }
 }
