@@ -40,8 +40,11 @@
     "public_korean_only_draft": {
       "path": "translations/development_draft_2026-09-26_ko_only.jsonl",
       "rows": 4271,
-      "sha256": "67ef910107d3c573a0fbe9bd3b9a216e88b564215fb1299989ff64fa206fd0a6",
-      "review_state": "unapproved_draft"
+      "sha256": "fceeb44bd8884b3a36a0117a27643c86c1ec19b4c6065dd27009f0fd539bf7f3",
+      "review_state": "unapproved_draft",
+      "hash_representation": "UTF-8 LF; enforced by .gitattributes",
+      "updated": "2026-10-02",
+      "integrated_into_iso": false
     },
     "inventory_as_of": "2026-09-26"
   },
@@ -202,5 +205,29 @@
     "handoff": "docs/HANDOFF_CURRENT.md",
     "reproduction": "docs/UPDATE_2026-10-02.md",
     "publication_scope": "Code, metadata, checks and handoff; local game artifacts/workbook excluded"
+  },
+  "translation_review_2026_10_02": {
+    "report": "reports/translation_review_2026-10-02.json",
+    "counts": {
+      "files": 5,
+      "file_rows_reviewed": 5934,
+      "distinct_input_wording_variants_read": 4012,
+      "user_edited_file_rows": 548,
+      "ai_further_edited_file_rows": 237,
+      "ai_further_edited_ids": 188,
+      "changed_file_rows_from_git": 691,
+      "catalog_integrity_errors": 0,
+      "mechanical_review_flags": 74,
+      "cross_file_wording_conflicts": 0
+    },
+    "source_candidate_length_flags": 55,
+    "missing_existing_font_flags": 2,
+    "game_rebuilt": false,
+    "human_full_translation_approval": false,
+    "recovery_baseline": {
+      "path": "translations/baselines/development_draft_2026-09-26_ko_only_pre_polish.jsonl",
+      "sha256_utf8_lf": "d1b78ab6fca06e58a148081194a059941311b9de01b81d0252cabaf796c30166",
+      "historical_crlf_sha256": "67ef910107d3c573a0fbe9bd3b9a216e88b564215fb1299989ff64fa206fd0a6"
+    }
   }
 }

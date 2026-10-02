@@ -5,32 +5,32 @@
 {"id":"EBOOT_00917","target_ko":"이 파일을 삭제합니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_00918","target_ko":"PSP~pS~mR~pE (~pSPlayStation~mRPortable~pE)의 음성 출력을","review_state":"unapproved_draft"}
 {"id":"EBOOT_00919","target_ko":"돌비 프로 로직 II 지원 AV 기기에 연결하면","review_state":"unapproved_draft"}
-{"id":"EBOOT_00920","target_ko":"서라운드 음향을 즐길 수 있어요.","review_state":"unapproved_draft"}
-{"id":"EBOOT_00921","target_ko":"PSP~pS~mR~pE (~pSPlayStation~mRPortable~pE) 본체에서의","review_state":"unapproved_draft"}
+{"id":"EBOOT_00920","target_ko":"서라운드 사운드를 즐길 수 있습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_00921","target_ko":"PSP~pS~mR~pE (~pSPlayStation~mRPortable~pE) 본체의","review_state":"unapproved_draft"}
 {"id":"EBOOT_00922","target_ko":"스피커 출력에 적합한 설정입니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_00923","target_ko":"헤드폰 출력에는 적합하지 않습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_00924","target_ko":"스테이지를 공략하는","review_state":"unapproved_draft"}
+{"id":"EBOOT_00924","target_ko":"스테이지를 클리어해 나가는","review_state":"unapproved_draft"}
 {"id":"EBOOT_00925","target_ko":"모드입니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_00926","target_ko":"난이도가 다른 여러 코스가","review_state":"unapproved_draft"}
-{"id":"EBOOT_00927","target_ko":"코스가 준비되며 통신으로","review_state":"unapproved_draft"}
+{"id":"EBOOT_00927","target_ko":"준비되어 있습니다. 통신으로","review_state":"unapproved_draft"}
 {"id":"EBOOT_00928","target_ko":"2인 협력 플레이도 가능!","review_state":"unapproved_draft"}
 {"id":"EBOOT_00929","target_ko":"MS, 스테이지, BGM 등을","review_state":"unapproved_draft"}
-{"id":"EBOOT_00930","target_ko":"자유롭게 설정해 대전합니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_00930","target_ko":"자유롭게 설정해 싸우는 모드입니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_00931","target_ko":"통신으로 최대 4명까지","review_state":"unapproved_draft"}
 {"id":"EBOOT_00932","target_ko":"협력/대전 플레이 가능!","review_state":"unapproved_draft"}
-{"id":"EBOOT_00933","target_ko":"모빌슈트 네 기로","review_state":"unapproved_draft"}
-{"id":"EBOOT_00934","target_ko":"팀을 꾸려 미션에","review_state":"unapproved_draft"}
-{"id":"EBOOT_00935","target_ko":"도전하는 모드","review_state":"unapproved_draft"}
-{"id":"EBOOT_00936","target_ko":"둘이 협력하거나","review_state":"unapproved_draft"}
-{"id":"EBOOT_00937","target_ko":"키운 팀으로 대전!","review_state":"unapproved_draft"}
+{"id":"EBOOT_00933","target_ko":"4기의 MS로 나만의 팀을","review_state":"unapproved_draft"}
+{"id":"EBOOT_00934","target_ko":"편성해 다양한 미션에","review_state":"unapproved_draft"}
+{"id":"EBOOT_00935","target_ko":"도전하는 모드입니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_00936","target_ko":"2인 협력 플레이 외에도","review_state":"unapproved_draft"}
+{"id":"EBOOT_00937","target_ko":"육성한 팀으로 대전도 가능!","review_state":"unapproved_draft"}
 {"id":"EBOOT_00938","target_ko":"게임 내 일러스트와 BGM,","review_state":"unapproved_draft"}
 {"id":"EBOOT_00939","target_ko":"영상 등을 감상할 수 있습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_00940","target_ko":"다른 모드를 플레이하면","review_state":"unapproved_draft"}
-{"id":"EBOOT_00941","target_ko":"감상할 자료가 늘어납니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_00942","target_ko":"저장/불러오기와 게임의","review_state":"unapproved_draft"}
-{"id":"EBOOT_00943","target_ko":"각종 설정 변경과","review_state":"unapproved_draft"}
+{"id":"EBOOT_00941","target_ko":"감상 가능한 콘텐츠가 늘어납니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_00942","target_ko":"저장/불러오기, 게임 내","review_state":"unapproved_draft"}
+{"id":"EBOOT_00943","target_ko":"각종 설정 변경,","review_state":"unapproved_draft"}
 {"id":"EBOOT_00944","target_ko":"파일럿 데이터 편집 등을","review_state":"unapproved_draft"}
-{"id":"EBOOT_00945","target_ko":"수행합니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_00945","target_ko":"할 수 있습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_00946","target_ko":"건담 시작 3호기 (덴드로비움)","review_state":"unapproved_draft"}
 {"id":"EBOOT_00947","target_ko":"오프닝 영상","review_state":"unapproved_draft"}
 {"id":"EBOOT_00948","target_ko":"기동전사 건담 - 연방 -","review_state":"unapproved_draft"}
@@ -41,20 +41,20 @@
 {"id":"EBOOT_00953","target_ko":"기동전사 건담 ~pSSEED ~pSDESTINY~pE","review_state":"unapproved_draft"}
 {"id":"EBOOT_00954","target_ko":"기동전사 건담 ~pS0080~pE 주머니 속의 전쟁","review_state":"unapproved_draft"}
 {"id":"EBOOT_00955","target_ko":"기동전사 건담 ~pS0083 STARDUST MEMORY~pE","review_state":"unapproved_draft"}
-{"id":"EBOOT_00956","target_ko":"기동전사 건담 제08MS소대","review_state":"unapproved_draft"}
+{"id":"EBOOT_00956","target_ko":"기동전사 건담 제08MS 소대","review_state":"unapproved_draft"}
 {"id":"EBOOT_00958","target_ko":"건캐논","review_state":"unapproved_draft"}
 {"id":"EBOOT_00959","target_ko":"건탱크","review_state":"unapproved_draft"}
 {"id":"EBOOT_00960","target_ko":"지옹","review_state":"unapproved_draft"}
 {"id":"EBOOT_00961","target_ko":"샤아 전용 자쿠","review_state":"unapproved_draft"}
 {"id":"EBOOT_00962","target_ko":"돔","review_state":"unapproved_draft"}
 {"id":"EBOOT_00963","target_ko":"앗가이","review_state":"unapproved_draft"}
-{"id":"EBOOT_00964","target_ko":"Z건담","review_state":"unapproved_draft"}
+{"id":"EBOOT_00964","target_ko":"Z 건담","review_state":"unapproved_draft"}
 {"id":"EBOOT_00965","target_ko":"건담 Mk-II","review_state":"unapproved_draft"}
 {"id":"EBOOT_00966","target_ko":"건담 Mk-II (카미유 기)","review_state":"unapproved_draft"}
 {"id":"EBOOT_00967","target_ko":"디 오","review_state":"unapproved_draft"}
 {"id":"EBOOT_00968","target_ko":"큐베레이","review_state":"unapproved_draft"}
 {"id":"EBOOT_00969","target_ko":"백식","review_state":"unapproved_draft"}
-{"id":"EBOOT_00970","target_ko":"ZZ건담","review_state":"unapproved_draft"}
+{"id":"EBOOT_00970","target_ko":"ZZ 건담","review_state":"unapproved_draft"}
 {"id":"EBOOT_00971","target_ko":"큐베레이 Mk-II","review_state":"unapproved_draft"}
 {"id":"EBOOT_00972","target_ko":"함마 함마","review_state":"unapproved_draft"}
 {"id":"EBOOT_00973","target_ko":"큐베레이 Mk-II (플 투 기)","review_state":"unapproved_draft"}
@@ -221,7 +221,7 @@
 {"id":"EBOOT_01387","target_ko":"접속하려면 무선 LAN 스위치를","review_state":"unapproved_draft"}
 {"id":"EBOOT_01388","target_ko":"켜 주세요","review_state":"unapproved_draft"}
 {"id":"EBOOT_01389","target_ko":"정원이 차서 입장하지 못했습니다","review_state":"unapproved_draft"}
-{"id":"EBOOT_01390","target_ko":"정상 접속에 실패했습니다","review_state":"unapproved_draft"}
+{"id":"EBOOT_01390","target_ko":"정상적으로 접속하지 못했습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01391","target_ko":"종료 중입니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01392","target_ko":"정원이 차서 접속에 실패했습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01393","target_ko":"정상적으로 접속하지 못했습니다","review_state":"unapproved_draft"}
@@ -229,16 +229,16 @@
 {"id":"EBOOT_01395","target_ko":"로비 정보를 불러오는 중입니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01396","target_ko":"참가 인원이 가득 찼습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01397","target_ko":"참가하지 못했습니다","review_state":"unapproved_draft"}
-{"id":"EBOOT_01398","target_ko":"참가 접수가 끝났습니다","review_state":"unapproved_draft"}
+{"id":"EBOOT_01398","target_ko":"참가 접수가 종료되었습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01399","target_ko":"해산합니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01400","target_ko":"해산되었습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01401","target_ko":"시작합니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01402","target_ko":"시작 중입니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01403","target_ko":"이 게임의 참가 접수가 종료되었습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01404","target_ko":"시작하지 못했습니다","review_state":"unapproved_draft"}
-{"id":"EBOOT_01405","target_ko":"준비가 안 된 멤버가 있습니다","review_state":"unapproved_draft"}
+{"id":"EBOOT_01405","target_ko":"준비되지 않은 멤버가 있습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01406","target_ko":"시작하시겠습니까?","review_state":"unapproved_draft"}
-{"id":"EBOOT_01407","target_ko":"출격 준비를 완료하지 못했습니다","review_state":"unapproved_draft"}
+{"id":"EBOOT_01407","target_ko":"출격 준비가 완료되지 않았습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01408","target_ko":"통신 트라이얼을 시작하려면","review_state":"unapproved_draft"}
 {"id":"EBOOT_01409","target_ko":"멤버 2명이 필요합니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01410","target_ko":"멤버가 부족합니다","review_state":"unapproved_draft"}
@@ -246,29 +246,29 @@
 {"id":"EBOOT_01412","target_ko":"데이터를 편집하시겠습니까?","review_state":"unapproved_draft"}
 {"id":"EBOOT_01413","target_ko":"파일럿 데이터를 전송 중입니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01415","target_ko":"2P가 이탈했습니다","review_state":"unapproved_draft"}
-{"id":"EBOOT_01416","target_ko":"CPU가 대신합니다","review_state":"unapproved_draft"}
+{"id":"EBOOT_01416","target_ko":"CPU가 대신 조작합니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01417","target_ko":"3P가 이탈했습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01418","target_ko":"4P가 이탈했습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01419","target_ko":"네트워크 연결이 끊겼습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_01421","target_ko":"전송할 상대를 선택하세요","review_state":"unapproved_draft"}
-{"id":"EBOOT_01423","target_ko":"여기서는 모빌슈트 레벨 업과","review_state":"unapproved_draft"}
-{"id":"EBOOT_01424","target_ko":"상태 확인, 팀 편성을 합니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_01423","target_ko":"여기서는 모빌슈트의 레벨 업과","review_state":"unapproved_draft"}
+{"id":"EBOOT_01424","target_ko":"상태 확인, 팀 편성을 할 수 있습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01425","target_ko":"<레벨 업>","review_state":"unapproved_draft"}
 {"id":"EBOOT_01426","target_ko":"[O 버튼]으로 배틀에서 얻은 [경험치]를","review_state":"unapproved_draft"}
-{"id":"EBOOT_01427","target_ko":"강화할 파라미터에 배분하세요.","review_state":"unapproved_draft"}
+{"id":"EBOOT_01427","target_ko":"강화할 능력치에 배분하세요.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01428","target_ko":"<팀 멤버 교체>","review_state":"unapproved_draft"}
 {"id":"EBOOT_01429","target_ko":"[세모 버튼]으로 엔트리 슬롯의","review_state":"unapproved_draft"}
 {"id":"EBOOT_01430","target_ko":"모빌슈트를 변경할 수 있습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_01431","target_ko":"여기서는 팀 멤버로 삼을","review_state":"unapproved_draft"}
-{"id":"EBOOT_01432","target_ko":"모빌슈트를 선택하고 획득합니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_01431","target_ko":"여기서는 팀에 추가할","review_state":"unapproved_draft"}
+{"id":"EBOOT_01432","target_ko":"모빌슈트를 선택해 획득합니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01433","target_ko":"배틀에서 얻는 [GP]를 모아","review_state":"unapproved_draft"}
-{"id":"EBOOT_01434","target_ko":"새로운 모빌슈트를 팀 멤버로","review_state":"unapproved_draft"}
-{"id":"EBOOT_01435","target_ko":"획득하세요.","review_state":"unapproved_draft"}
-{"id":"EBOOT_01436","target_ko":"<첫 보너스 2000 GP!>","review_state":"unapproved_draft"}
+{"id":"EBOOT_01434","target_ko":"새로운 모빌슈트를 팀에","review_state":"unapproved_draft"}
+{"id":"EBOOT_01435","target_ko":"추가하세요.","review_state":"unapproved_draft"}
+{"id":"EBOOT_01436","target_ko":"<첫 플레이 보너스 2000 GP!>","review_state":"unapproved_draft"}
 {"id":"EBOOT_01437","target_ko":"넥스트 플러스는 모빌슈트 네 기로","review_state":"unapproved_draft"}
 {"id":"EBOOT_01438","target_ko":"팀을 꾸려 다양한 미션에","review_state":"unapproved_draft"}
 {"id":"EBOOT_01439","target_ko":"도전하는 모드입니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_01440","target_ko":"먼저 플레이할 미션 레벨인","review_state":"unapproved_draft"}
+{"id":"EBOOT_01440","target_ko":"먼저 플레이할 미션의 난도인","review_state":"unapproved_draft"}
 {"id":"EBOOT_01441","target_ko":"\"트라이얼\"을 선택하세요.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01442","target_ko":"이어서 맵을 선택하세요.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01443","target_ko":"맵을 클리어하면 새 맵과","review_state":"unapproved_draft"}
@@ -276,17 +276,17 @@
 {"id":"EBOOT_01445","target_ko":"출격할 팀 멤버를 확인합니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01446","target_ko":"멤버를 바꾸려면 \"팀 편집\"을","review_state":"unapproved_draft"}
 {"id":"EBOOT_01447","target_ko":"선택하세요.","review_state":"unapproved_draft"}
-{"id":"EBOOT_01448","target_ko":"이 팀으로 괜찮다면 출격입니다!","review_state":"unapproved_draft"}
+{"id":"EBOOT_01448","target_ko":"이 팀으로 괜찮다면 출격하세요!","review_state":"unapproved_draft"}
 {"id":"EBOOT_01449","target_ko":"<프리 모드 안내>","review_state":"unapproved_draft"}
 {"id":"EBOOT_01450","target_ko":"모든 미션을 제패하고 랭크 A","review_state":"unapproved_draft"}
-{"id":"EBOOT_01451","target_ko":"이상으로 MAP을 클리어하면","review_state":"unapproved_draft"}
+{"id":"EBOOT_01451","target_ko":"이상으로 맵을 클리어하면","review_state":"unapproved_draft"}
 {"id":"EBOOT_01452","target_ko":"\"프리 모드\"가 열립니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01453","target_ko":"\"프리 모드\"에서는 원하는","review_state":"unapproved_draft"}
 {"id":"EBOOT_01454","target_ko":"미션을 자유롭게 몇 번이든","review_state":"unapproved_draft"}
 {"id":"EBOOT_01455","target_ko":"플레이할 수 있습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_01456","target_ko":"또한 골이나 실패 판정은 없습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_01456","target_ko":"또한 목표 도달이나 실패 판정은 없습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_01457","target_ko":"[SELECT 버튼]으로","review_state":"unapproved_draft"}
-{"id":"EBOOT_01458","target_ko":"언제든 끝낼 수 있습니다","review_state":"unapproved_draft"}
+{"id":"EBOOT_01458","target_ko":"언제든 종료할 수 있습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_02919","target_ko":"건담","review_state":"unapproved_draft"}
 {"id":"EBOOT_02920","target_ko":"건캐논","review_state":"unapproved_draft"}
 {"id":"EBOOT_02921","target_ko":"건탱크","review_state":"unapproved_draft"}
@@ -701,10 +701,10 @@
 {"id":"EBOOT_04716","target_ko":"저장 데이터가 있습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04717","target_ko":"불러올까요?","review_state":"unapproved_draft"}
 {"id":"EBOOT_04718","target_ko":"메모리 스틱%t에서","review_state":"unapproved_draft"}
-{"id":"EBOOT_04719","target_ko":"저장 데이터 로드 중입니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04719","target_ko":"저장 데이터를 불러오는 중입니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04720","target_ko":"저장 데이터","review_state":"unapproved_draft"}
-{"id":"EBOOT_04721","target_ko":"로드가 완료되었습니다.%r","review_state":"unapproved_draft"}
-{"id":"EBOOT_04722","target_ko":"로드에 실패했습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04721","target_ko":"불러오기가 완료되었습니다.%r","review_state":"unapproved_draft"}
+{"id":"EBOOT_04722","target_ko":"불러오기에 실패했습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04723","target_ko":"저장 데이터가 없습니다.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04724","target_ko":"저장 데이터가 손상되었습니다.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04725","target_ko":"메모리 스틱%t이 빠졌습니다.%r","review_state":"unapproved_draft"}
@@ -714,13 +714,13 @@
 {"id":"EBOOT_04729","target_ko":"불러오기를 중단할까요?","review_state":"unapproved_draft"}
 {"id":"EBOOT_04730","target_ko":"저장 데이터가 없습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04731","target_ko":"새로 만드시겠습니까?","review_state":"unapproved_draft"}
-{"id":"EBOOT_04732","target_ko":"* '아니요'를 선택하면","review_state":"unapproved_draft"}
-{"id":"EBOOT_04733","target_ko":"저장 없이 게임을 시작합니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04732","target_ko":"* '아니요'를 선택하면,","review_state":"unapproved_draft"}
+{"id":"EBOOT_04733","target_ko":"이대로 게임을 시작합니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04734","target_ko":"덮어쓸까요?","review_state":"unapproved_draft"}
 {"id":"EBOOT_04735","target_ko":"저장 데이터가 손상되었습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04736","target_ko":"저장 데이터가 변경되었습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04737","target_ko":"메모리 스틱%t에","review_state":"unapproved_draft"}
-{"id":"EBOOT_04738","target_ko":"저장 데이터를 저장 중입니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04738","target_ko":"저장 데이터를 기록하는 중입니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04739","target_ko":"저장이 완료되었습니다.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04740","target_ko":"저장에 실패했습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04741","target_ko":"메모리 스틱%t의","review_state":"unapproved_draft"}
@@ -730,27 +730,27 @@
 {"id":"EBOOT_04745","target_ko":"%nKB 이상 더 필요합니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04746","target_ko":"저장을 중단할까요?","review_state":"unapproved_draft"}
 {"id":"EBOOT_04747","target_ko":"메모리 스틱%t이 빠졌습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04748","target_ko":"저장 처리가 중단되었습니다.%r","review_state":"unapproved_draft"}
-{"id":"EBOOT_04749","target_ko":"저장 처리가 중단되었습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04748","target_ko":"저장이 중단되었습니다.%r","review_state":"unapproved_draft"}
+{"id":"EBOOT_04749","target_ko":"저장이 중단되었습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04750","target_ko":"메모리 스틱%t이 잠겨 있습니다.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04751","target_ko":"메모리 스틱%t이 잠겨 있습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04752","target_ko":"메모리 스틱%t에 접근할 수 없습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04753","target_ko":"파일럿 이름을 입력하세요.%r","review_state":"unapproved_draft"}
+{"id":"EBOOT_04753","target_ko":"파일럿 이름을 입력해 주세요.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04754","target_ko":"이 이름으로 하시겠습니까?","review_state":"unapproved_draft"}
-{"id":"EBOOT_04755","target_ko":"저장하지 않고","review_state":"unapproved_draft"}
-{"id":"EBOOT_04756","target_ko":"이대로 계속하시겠습니까?","review_state":"unapproved_draft"}
-{"id":"EBOOT_04757","target_ko":"삭제 처리가 중단되었습니다.%r","review_state":"unapproved_draft"}
-{"id":"EBOOT_04758","target_ko":"저장 데이터 자동 로드 중입니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04759","target_ko":"자동 로드가 완료되었습니다.%r","review_state":"unapproved_draft"}
+{"id":"EBOOT_04755","target_ko":"저장을 완료하지 않고","review_state":"unapproved_draft"}
+{"id":"EBOOT_04756","target_ko":"이대로 게임을 계속하시겠습니까?","review_state":"unapproved_draft"}
+{"id":"EBOOT_04757","target_ko":"삭제가 중단되었습니다.%r","review_state":"unapproved_draft"}
+{"id":"EBOOT_04758","target_ko":"저장 데이터를 자동으로 불러오는 중입니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04759","target_ko":"자동 불러오기가 완료되었습니다.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04760","target_ko":"들어 있지 않습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04761","target_ko":"저장 데이터를 저장하려면","review_state":"unapproved_draft"}
-{"id":"EBOOT_04762","target_ko":"여유 공간 %nKB 이상 필요합니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04763","target_ko":"자동 로드에 실패했습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04764","target_ko":"여유 공간 %nKB 이상 더 필요합니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04765","target_ko":"자동 로드가 중단되었습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04762","target_ko":"여유 공간이 %nKB 이상 필요합니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04763","target_ko":"자동 불러오기에 실패했습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04764","target_ko":"여유 공간이 %nKB 이상 더 필요합니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04765","target_ko":"자동 불러오기가 중단되었습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04766","target_ko":"자동 저장 기능을 [ON]으로 설정했습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04767","target_ko":"각종 설정과 파일럿 데이터 등 저장 대상","review_state":"unapproved_draft"}
-{"id":"EBOOT_04768","target_ko":"데이터가 바뀌면 자동으로 저장됩니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04767","target_ko":"각종 설정과 파일럿 데이터 등","review_state":"unapproved_draft"}
+{"id":"EBOOT_04768","target_ko":"저장할 데이터가 바뀌면 자동으로 저장됩니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04769","target_ko":"자동 저장 중에는","review_state":"unapproved_draft"}
 {"id":"EBOOT_04770","target_ko":"메모리 스틱 듀오%t 액세스 램프가","review_state":"unapproved_draft"}
 {"id":"EBOOT_04771","target_ko":"깜빡이므로 그동안 메모리 스틱%t을","review_state":"unapproved_draft"}
@@ -760,15 +760,15 @@
 {"id":"EBOOT_04775","target_ko":"자동 저장이 완료되었습니다.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04776","target_ko":"자동 저장을 중단할까요?","review_state":"unapproved_draft"}
 {"id":"EBOOT_04777","target_ko":"자동 저장에 실패했습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04778","target_ko":"저장 데이터 선택 삭제 기능으로","review_state":"unapproved_draft"}
+{"id":"EBOOT_04778","target_ko":"저장 데이터를 선택해 삭제하여","review_state":"unapproved_draft"}
 {"id":"EBOOT_04779","target_ko":"여유 공간을 확보할까요?","review_state":"unapproved_draft"}
-{"id":"EBOOT_04780","target_ko":"자동 저장 처리가 중단되었습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04780","target_ko":"자동 저장이 중단되었습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04781","target_ko":"자동 저장을 완료하지 않고","review_state":"unapproved_draft"}
 {"id":"EBOOT_04782","target_ko":"<미디어 설치 안내>","review_state":"unapproved_draft"}
 {"id":"EBOOT_04783","target_ko":"메모리 스틱%t에 데이터 일부를","review_state":"unapproved_draft"}
 {"id":"EBOOT_04784","target_ko":"\"설치 데이터\"로 저장하고","review_state":"unapproved_draft"}
 {"id":"EBOOT_04785","target_ko":"설치 데이터와 UMD%R에서","review_state":"unapproved_draft"}
-{"id":"EBOOT_04786","target_ko":"불러와 로딩 시간을 줄이는 기능인","review_state":"unapproved_draft"}
+{"id":"EBOOT_04786","target_ko":"데이터를 불러와 로딩 시간을 줄이는","review_state":"unapproved_draft"}
 {"id":"EBOOT_04787","target_ko":"\"미디어 설치\"를 사용할 수 있습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04788","target_ko":"설치 데이터를 저장하려면","review_state":"unapproved_draft"}
 {"id":"EBOOT_04789","target_ko":"267MB 이상의 여유 공간이 있는","review_state":"unapproved_draft"}
@@ -778,7 +778,7 @@
 {"id":"EBOOT_04793","target_ko":"설치 데이터를 저장할까요?","review_state":"unapproved_draft"}
 {"id":"EBOOT_04794","target_ko":"* 저장에는 약 10분이 걸립니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04795","target_ko":"* 충분히 충전하거나 AC 어댑터로","review_state":"unapproved_draft"}
-{"id":"EBOOT_04796","target_ko":"전원 연결 후 저장하길 권장합니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04796","target_ko":"전원을 연결한 후 저장하는 것을 권장합니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04797","target_ko":"설치 데이터가 이미 있습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04798","target_ko":"덮어쓰시겠습니까?","review_state":"unapproved_draft"}
 {"id":"EBOOT_04799","target_ko":"저장 중입니다.","review_state":"unapproved_draft"}
@@ -787,17 +787,17 @@
 {"id":"EBOOT_04802","target_ko":"설치 데이터를 불러오는 중에는","review_state":"unapproved_draft"}
 {"id":"EBOOT_04803","target_ko":"설치 데이터 사용을","review_state":"unapproved_draft"}
 {"id":"EBOOT_04805","target_ko":"로 설정했습니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04806","target_ko":"512MB 이상 메모리 스틱%t이 아니면,","review_state":"unapproved_draft"}
-{"id":"EBOOT_04814","target_ko":"파일럿 이름을 입력하지 않았습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04806","target_ko":"512MB 이상의 메모리 스틱%t이 아니면,","review_state":"unapproved_draft"}
+{"id":"EBOOT_04814","target_ko":"파일럿 이름이 입력되지 않았습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04815","target_ko":"파일럿 이름을","review_state":"unapproved_draft"}
-{"id":"EBOOT_04816","target_ko":"입력하세요.%r","review_state":"unapproved_draft"}
+{"id":"EBOOT_04816","target_ko":"입력해 주세요.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04817","target_ko":"사용할 수 없는 이름입니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04818","target_ko":"* 이 게임을 플레이하려면,","review_state":"unapproved_draft"}
-{"id":"EBOOT_04819","target_ko":"파일럿 데이터용 이름","review_state":"unapproved_draft"}
-{"id":"EBOOT_04820","target_ko":"[파일럿 이름]","review_state":"unapproved_draft"}
+{"id":"EBOOT_04819","target_ko":"파일럿 데이터에 사용할","review_state":"unapproved_draft"}
+{"id":"EBOOT_04820","target_ko":"<<파일럿 이름>>","review_state":"unapproved_draft"}
 {"id":"EBOOT_04821","target_ko":"을 입력해야 합니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_04822","target_ko":"한 번 정한 파일럿 이름은","review_state":"unapproved_draft"}
-{"id":"EBOOT_04823","target_ko":"게임에서 다시 바꿀 수 없습니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_04822","target_ko":"* 한 번 결정한 파일럿 이름은","review_state":"unapproved_draft"}
+{"id":"EBOOT_04823","target_ko":"이후 게임 내에서 변경할 수 없습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_04824","target_ko":"자동 저장 기능을","review_state":"unapproved_draft"}
 {"id":"EBOOT_04826","target_ko":"로 설정했습니다.%r","review_state":"unapproved_draft"}
 {"id":"EBOOT_04830","target_ko":"<스킬>","review_state":"unapproved_draft"}
@@ -1005,13 +1005,13 @@
 {"id":"EBOOT_06986","target_ko":"빈사 시 공격력과 방어력 급증","review_state":"unapproved_draft"}
 {"id":"EBOOT_06987","target_ko":"대상: 연방","review_state":"unapproved_draft"}
 {"id":"EBOOT_06988","target_ko":"내구력 100 증가","review_state":"unapproved_draft"}
-{"id":"EBOOT_06989","target_ko":"유효 사거리 2배로 확대","review_state":"unapproved_draft"}
+{"id":"EBOOT_06989","target_ko":"유효 사거리가 2배로 확대","review_state":"unapproved_draft"}
 {"id":"EBOOT_06990","target_ko":"방어 급증, 공격 절반","review_state":"unapproved_draft"}
 {"id":"EBOOT_06991","target_ko":"내구력 300 증가","review_state":"unapproved_draft"}
 {"id":"EBOOT_06992","target_ko":"대상: 저코스트","review_state":"unapproved_draft"}
 {"id":"EBOOT_06993","target_ko":"전력 게이지 1000 증가","review_state":"unapproved_draft"}
-{"id":"EBOOT_06994","target_ko":"다른 플레이어의 스킬 무효화","review_state":"unapproved_draft"}
-{"id":"EBOOT_06995","target_ko":"CPU 판단력 대폭 향상","review_state":"unapproved_draft"}
+{"id":"EBOOT_06994","target_ko":"다른 플레이어의 스킬을 무효화","review_state":"unapproved_draft"}
+{"id":"EBOOT_06995","target_ko":"CPU 판단력이 대폭 향상","review_state":"unapproved_draft"}
 {"id":"EBOOT_06996","target_ko":"대상: 아군 CPU 기체","review_state":"unapproved_draft"}
 {"id":"EBOOT_06997","target_ko":"대상: 가면","review_state":"unapproved_draft"}
 {"id":"EBOOT_06999","target_ko":"대상: 지온","review_state":"unapproved_draft"}
@@ -1052,9 +1052,9 @@
 {"id":"EBOOT_07034","target_ko":"CPU 판단력 조금 향상","review_state":"unapproved_draft"}
 {"id":"EBOOT_07035","target_ko":"대상: 고코스트","review_state":"unapproved_draft"}
 {"id":"EBOOT_07036","target_ko":"대상: 이노베이터","review_state":"unapproved_draft"}
-{"id":"EBOOT_07037","target_ko":"아군 CPU 기체 판단력 조금 향상","review_state":"unapproved_draft"}
-{"id":"EBOOT_07038","target_ko":"아군 CPU 기체 판단력 상당히 향상","review_state":"unapproved_draft"}
-{"id":"EBOOT_07039","target_ko":"아군 CPU 기체 판단력 대폭 향상","review_state":"unapproved_draft"}
+{"id":"EBOOT_07037","target_ko":"아군 CPU 기체의 판단력이 조금 향상","review_state":"unapproved_draft"}
+{"id":"EBOOT_07038","target_ko":"아군 CPU 기체의 판단력이 상당히 향상","review_state":"unapproved_draft"}
+{"id":"EBOOT_07039","target_ko":"아군 CPU 기체의 판단력이 대폭 향상","review_state":"unapproved_draft"}
 {"id":"EBOOT_07040","target_ko":"전투 후 획득 EXP 대폭 증가","review_state":"unapproved_draft"}
 {"id":"EBOOT_07041","target_ko":"내구력/공격력/기동력 조금 증가","review_state":"unapproved_draft"}
 {"id":"EBOOT_07042","target_ko":"내구력/공격력/기동력 상당히 증가","review_state":"unapproved_draft"}
@@ -1062,8 +1062,8 @@
 {"id":"EBOOT_07044","target_ko":"방어력 급증, 공격력 절반","review_state":"unapproved_draft"}
 {"id":"EBOOT_07045","target_ko":"공격력 급증, 방어력 절반","review_state":"unapproved_draft"}
 {"id":"EBOOT_07046","target_ko":"내구력 100 이하 시 공방 급증","review_state":"unapproved_draft"}
-{"id":"EBOOT_07047","target_ko":"실탄 사격 피해 1/3로 감소","review_state":"unapproved_draft"}
-{"id":"EBOOT_07048","target_ko":"빔 사격 피해 1/3로 감소","review_state":"unapproved_draft"}
+{"id":"EBOOT_07047","target_ko":"실탄 사격 피해가 1/3로 감소","review_state":"unapproved_draft"}
+{"id":"EBOOT_07048","target_ko":"빔 사격 피해가 1/3로 감소","review_state":"unapproved_draft"}
 {"id":"EBOOT_07049","target_ko":"아군 전력 게이지 1000 증가","review_state":"unapproved_draft"}
 {"id":"EBOOT_07050","target_ko":"아군 전력 게이지 2000 증가","review_state":"unapproved_draft"}
 {"id":"EBOOT_07051","target_ko":"아군 전력 게이지 3000 증가","review_state":"unapproved_draft"}
@@ -1106,15 +1106,15 @@
 {"id":"EBOOT_07089","target_ko":"아군 전원","review_state":"unapproved_draft"}
 {"id":"EBOOT_07090","target_ko":"내 기체","review_state":"unapproved_draft"}
 {"id":"EBOOT_07091","target_ko":"아군기","review_state":"unapproved_draft"}
-{"id":"EBOOT_07093","target_ko":"이 맵에서는,","review_state":"unapproved_draft"}
+{"id":"EBOOT_07093","target_ko":"이 맵에서는","review_state":"unapproved_draft"}
 {"id":"EBOOT_07094","target_ko":"NEXT-PLUS 모드의","review_state":"unapproved_draft"}
 {"id":"EBOOT_07095","target_ko":"연습을 합니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07096","target_ko":"여기서 MS를 조종하며,","review_state":"unapproved_draft"}
+{"id":"EBOOT_07096","target_ko":"여기서 MS를 조종하며","review_state":"unapproved_draft"}
 {"id":"EBOOT_07097","target_ko":"기본 조작을 익혀 봅시다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07099","target_ko":"실습을 합니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07100","target_ko":"다양한 조건의 미션에 도전해","review_state":"unapproved_draft"}
 {"id":"EBOOT_07101","target_ko":"실력을 키워 봅시다!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07103","target_ko":"1미션 도전.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07103","target_ko":"1개 미션에 도전.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07104","target_ko":"이 맵부터 실전에 돌입!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07105","target_ko":"양산형 MS 대부대를 상대로","review_state":"unapproved_draft"}
 {"id":"EBOOT_07106","target_ko":"더 실전적인 조종 실력을","review_state":"unapproved_draft"}
@@ -1122,24 +1122,24 @@
 {"id":"EBOOT_07109","target_ko":"분기 없는 5미션 전투.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07110","target_ko":"단, 네 번째엔 특정 조건을","review_state":"unapproved_draft"}
 {"id":"EBOOT_07111","target_ko":"채우면 비밀 임무가 나타난다!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07112","target_ko":"직전 미션에서 10000","review_state":"unapproved_draft"}
+{"id":"EBOOT_07112","target_ko":"직전 미션에서 10,000","review_state":"unapproved_draft"}
 {"id":"EBOOT_07113","target_ko":"점 이상 획득하면...?","review_state":"unapproved_draft"}
 {"id":"EBOOT_07115","target_ko":"정해진 수의 표적기를 격파하라!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07116","target_ko":"상대는 같은 MS로","review_state":"unapproved_draft"}
 {"id":"EBOOT_07117","target_ko":"편성된 부대로 보인다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07119","target_ko":"장치가 많은 중형 맵이다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07120","target_ko":"단판 승부의 실력 시험과","review_state":"unapproved_draft"}
+{"id":"EBOOT_07119","target_ko":"다양한 장치가 있는 중형 맵이다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07120","target_ko":"단판 승부로 실력을 시험하고","review_state":"unapproved_draft"}
 {"id":"EBOOT_07121","target_ko":"제한이 있는 숨겨진 미션도!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07122","target_ko":"참가 조건은 LV.10 이상의","review_state":"unapproved_draft"}
-{"id":"EBOOT_07123","target_ko":"멤버가 있는 것이다!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07123","target_ko":"멤버가 있어야 한다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07125","target_ko":"거대 MA와의 전투!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07126","target_ko":"목표는 지구연방군의 검은 거체,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07127","target_ko":"사이코 건담이다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07129","target_ko":"초급 승급 시험 맵.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07130","target_ko":"초급 NO.1-7 맵과","review_state":"unapproved_draft"}
 {"id":"EBOOT_07131","target_ko":"이 맵을 깨면 중급으로 승급!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07132","target_ko":"게다가 난관인 미션 7","review_state":"unapproved_draft"}
-{"id":"EBOOT_07133","target_ko":"에는 비밀이...?","review_state":"unapproved_draft"}
+{"id":"EBOOT_07132","target_ko":"게다가 난관인 미션 7에는","review_state":"unapproved_draft"}
+{"id":"EBOOT_07133","target_ko":"비밀이...?","review_state":"unapproved_draft"}
 {"id":"EBOOT_07135","target_ko":"특수 조건 속 긴박한 전투!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07136","target_ko":"내구력 1, 게다가 마그마!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07137","target_ko":"침착한 조종과 판단이","review_state":"unapproved_draft"}
@@ -1154,10 +1154,10 @@
 {"id":"EBOOT_07148","target_ko":"점점 더 치열해진다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07149","target_ko":"미션 4에서 높은 점수를","review_state":"unapproved_draft"}
 {"id":"EBOOT_07150","target_ko":"얻으면 비밀 임무 참가 자격이!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07152","target_ko":"2미션 도전.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07153","target_ko":"시간제한이 걸린 미션이","review_state":"unapproved_draft"}
-{"id":"EBOOT_07154","target_ko":"2개 준비된 맵이다!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07155","target_ko":"시간에 쫓기지 말고 조종해!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07152","target_ko":"2개 미션에 도전.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07153","target_ko":"시간 제한이 있는 미션이","review_state":"unapproved_draft"}
+{"id":"EBOOT_07154","target_ko":"2개나 준비된 맵이다!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07155","target_ko":"시간에 쫓기지 말고 침착하게 조종해!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07157","target_ko":"두 갈래 길의 중형 맵.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07158","target_ko":"위아래 두 경로가 있다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07159","target_ko":"총 소요 시간 5분 이내에","review_state":"unapproved_draft"}
@@ -1167,18 +1167,18 @@
 {"id":"EBOOT_07164","target_ko":"표적은 코스모 바빌로니아의","review_state":"unapproved_draft"}
 {"id":"EBOOT_07165","target_ko":"시제 MA 라플레시아다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07167","target_ko":"경로 분기가 있는 중형 맵.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07168","target_ko":"최단 3미션 만에 완료!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07168","target_ko":"최단 3개 미션만에 완료!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07169","target_ko":"엄호와 섬멸 미션으로","review_state":"unapproved_draft"}
 {"id":"EBOOT_07170","target_ko":"구성된 맵이다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07172","target_ko":"끊임없이 오는 증원을 막아라!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07173","target_ko":"잇달아 몰려오는 도트레스를","review_state":"unapproved_draft"}
 {"id":"EBOOT_07174","target_ko":"계속 격파하는 훈련이다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07175","target_ko":"G링을 회수하면 훈련 종료.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07177","target_ko":"변화가 여럿 있는 맵.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07177","target_ko":"다양한 변화가 있는 맵.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07178","target_ko":"맵을 깨는 데 그치지 말고,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07179","target_ko":"모든 미션 완료를 노려라!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07180","target_ko":"미션 2와 3에서 정규와","review_state":"unapproved_draft"}
-{"id":"EBOOT_07181","target_ko":"비밀 중 어느 쪽일지는 반반!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07180","target_ko":"미션 2와 3에서는 일반과","review_state":"unapproved_draft"}
+{"id":"EBOOT_07181","target_ko":"비밀 중 어느 쪽이 나올지 반반!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07183","target_ko":"분기가 여럿인 대형 맵.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07184","target_ko":"가는 곳마다 여러 조건의","review_state":"unapproved_draft"}
 {"id":"EBOOT_07185","target_ko":"미션이 기다리고 있다!","review_state":"unapproved_draft"}
@@ -1195,7 +1195,7 @@
 {"id":"EBOOT_07198","target_ko":"실력을 확실히 다지자!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07200","target_ko":"일직선으로 진행하는 맵이지만,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07201","target_ko":"5개 미션 모두","review_state":"unapproved_draft"}
-{"id":"EBOOT_07202","target_ko":"강렬한 난제뿐이다!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07202","target_ko":"만만치 않은 난제로 가득하다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07204","target_ko":"중급 무작위 맵.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07205","target_ko":"중급 미션 중에서","review_state":"unapproved_draft"}
 {"id":"EBOOT_07206","target_ko":"무작위로 8종의 미션이 배치된다.","review_state":"unapproved_draft"}
@@ -1205,11 +1205,11 @@
 {"id":"EBOOT_07211","target_ko":"이 맵의 숨겨진 임무는","review_state":"unapproved_draft"}
 {"id":"EBOOT_07212","target_ko":"미션 4에서 획득한","review_state":"unapproved_draft"}
 {"id":"EBOOT_07213","target_ko":"점수가 열쇠다. 강적을 격파하라!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07215","target_ko":"완료만 한다면 그리 어렵지 않은","review_state":"unapproved_draft"}
-{"id":"EBOOT_07216","target_ko":"2미션 맵이다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07217","target_ko":"하지만 전부 완료하려면,","review_state":"unapproved_draft"}
-{"id":"EBOOT_07218","target_ko":"미션 2를 높은 성적으로 완료","review_state":"unapproved_draft"}
-{"id":"EBOOT_07219","target_ko":"해야 한다!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07215","target_ko":"클리어만 한다면 그리 어렵지 않은","review_state":"unapproved_draft"}
+{"id":"EBOOT_07216","target_ko":"2미션짜리 맵이다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07217","target_ko":"하지만 전부 클리어하려면,","review_state":"unapproved_draft"}
+{"id":"EBOOT_07218","target_ko":"미션 2에서 높은 성적을 거둬야","review_state":"unapproved_draft"}
+{"id":"EBOOT_07219","target_ko":"한다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07221","target_ko":"목표까지의 경로가 전혀","review_state":"unapproved_draft"}
 {"id":"EBOOT_07222","target_ko":"보이지 않는 맵이다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07223","target_ko":"게다가 극한까지 단련한","review_state":"unapproved_draft"}
@@ -1218,21 +1218,21 @@
 {"id":"EBOOT_07227","target_ko":"1미션 도전!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07228","target_ko":"수많은 데스 아미를","review_state":"unapproved_draft"}
 {"id":"EBOOT_07229","target_ko":"시간 안에 격파할 수 있을까!?","review_state":"unapproved_draft"}
-{"id":"EBOOT_07231","target_ko":"5미션으로 된 중형 맵.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07232","target_ko":"최단 완료라면 3미션.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07231","target_ko":"5개 미션으로 이루어진 중형 맵.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07232","target_ko":"최단 3개 미션으로 완료할 수 있다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07233","target_ko":"하지만 재도전 횟수는","review_state":"unapproved_draft"}
 {"id":"EBOOT_07234","target_ko":"무려 0회! 랭크를 올리려면","review_state":"unapproved_draft"}
 {"id":"EBOOT_07236","target_ko":"가시밭길일지도!?","review_state":"unapproved_draft"}
-{"id":"EBOOT_07238","target_ko":"내구력이 남는 한 적을","review_state":"unapproved_draft"}
+{"id":"EBOOT_07238","target_ko":"내구력이 남아 있는 동안 적을","review_state":"unapproved_draft"}
 {"id":"EBOOT_07239","target_ko":"계속 쓰러뜨리는 생존 미션!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07240","target_ko":"완료만 하면 쉽지만 더","review_state":"unapproved_draft"}
-{"id":"EBOOT_07241","target_ko":"높은 곳을 노리면 한계와 싸워야!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07240","target_ko":"클리어만 노리면 쉽지만, 더","review_state":"unapproved_draft"}
+{"id":"EBOOT_07241","target_ko":"높은 곳을 노리면 한계와 싸워야 한다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07243","target_ko":"8미션으로 구성된 대형","review_state":"unapproved_draft"}
 {"id":"EBOOT_07244","target_ko":"맵이다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07245","target_ko":"하지만 마지막 미션 내용은","review_state":"unapproved_draft"}
 {"id":"EBOOT_07246","target_ko":"5턴째에 바뀐다!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07247","target_ko":"서두를까, 돌아갈까, 어쩔까!?","review_state":"unapproved_draft"}
-{"id":"EBOOT_07249","target_ko":"시간제한 미션이 여러 개","review_state":"unapproved_draft"}
+{"id":"EBOOT_07247","target_ko":"서두를까, 돌아갈까? 어떻게 할까!?","review_state":"unapproved_draft"}
+{"id":"EBOOT_07249","target_ko":"시간 제한 미션이 여러 개","review_state":"unapproved_draft"}
 {"id":"EBOOT_07250","target_ko":"준비된 상급 맵이다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07251","target_ko":"게다가 총 4분 이내에","review_state":"unapproved_draft"}
 {"id":"EBOOT_07252","target_ko":"미션 3을 완료하면","review_state":"unapproved_draft"}
@@ -1246,7 +1246,7 @@
 {"id":"EBOOT_07262","target_ko":"이 맵을 깨면 NEXT로!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07263","target_ko":"난관인 미션 9의 비밀 임무","review_state":"unapproved_draft"}
 {"id":"EBOOT_07264","target_ko":"완료가 숨겨진 길의 열쇠다!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07266","target_ko":"목표를 고르는 상급 맵!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07266","target_ko":"목표를 선택하는 상급 맵!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07267","target_ko":"각 목표에는 플레이어의","review_state":"unapproved_draft"}
 {"id":"EBOOT_07268","target_ko":"앞길을 막는 강적이...!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07269","target_ko":"어느 길이든 만만치 않다!","review_state":"unapproved_draft"}
@@ -1259,44 +1259,44 @@
 {"id":"EBOOT_07279","target_ko":"대형 맵이다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07283","target_ko":"NEXT 트라이얼 돌입!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07284","target_ko":"마침내 NEXT-PLUS도","review_state":"unapproved_draft"}
-{"id":"EBOOT_07285","target_ko":"막바지, 어려운 미션이","review_state":"unapproved_draft"}
-{"id":"EBOOT_07286","target_ko":"여럿 앞을 가로막는다! 먼저","review_state":"unapproved_draft"}
+{"id":"EBOOT_07285","target_ko":"막바지다. 어려운 미션이","review_state":"unapproved_draft"}
+{"id":"EBOOT_07286","target_ko":"여럿 앞을 가로막는다! 우선","review_state":"unapproved_draft"}
 {"id":"EBOOT_07288","target_ko":"이 5미션에 도전하자!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07290","target_ko":"좁은 링에서 180초 동안,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07291","target_ko":"양산기와 끝까지 싸우자.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07292","target_ko":"살아남는 데 그치지 말고,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07293","target_ko":"격파 기록도 경신하라!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07295","target_ko":"중형 맵이지만 목표 너머","review_state":"unapproved_draft"}
-{"id":"EBOOT_07296","target_ko":"에도 미션이 있다고?","review_state":"unapproved_draft"}
+{"id":"EBOOT_07295","target_ko":"중형 맵이지만 목표 너머에도","review_state":"unapproved_draft"}
+{"id":"EBOOT_07296","target_ko":"미션이 있다고?","review_state":"unapproved_draft"}
 {"id":"EBOOT_07297","target_ko":"맞은편에 도착하려면,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07298","target_ko":"뛰어난 조종 실력과 여유를","review_state":"unapproved_draft"}
 {"id":"EBOOT_07299","target_ko":"미션 4에서 보여 줘야 한다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07301","target_ko":"놀라운 보스 연전 맵!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07302","target_ko":"맵 자체는 3미션으로","review_state":"unapproved_draft"}
-{"id":"EBOOT_07303","target_ko":"작지만 내용은 특대급!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07303","target_ko":"작지만 내용은 엄청나다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07305","target_ko":"넘어선다면 실력은 초일류!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07307","target_ko":"액시즈를 지키는 강철 여신들","review_state":"unapproved_draft"}
-{"id":"EBOOT_07308","target_ko":"과의 치열한 싸움.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07307","target_ko":"액시즈를 지키는 강철 여신들과의","review_state":"unapproved_draft"}
+{"id":"EBOOT_07308","target_ko":"치열한 싸움.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07309","target_ko":"고고한 여제 하만 칸에게","review_state":"unapproved_draft"}
-{"id":"EBOOT_07310","target_ko":"도달해 쓰러뜨려라!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07310","target_ko":"찾아가 쓰러뜨려라!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07312","target_ko":"난관투성이인 대형 맵!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07313","target_ko":"숨겨진 임무의 출현 조건은","review_state":"unapproved_draft"}
 {"id":"EBOOT_07314","target_ko":"미션 6에서 빔의 폭풍을","review_state":"unapproved_draft"}
 {"id":"EBOOT_07315","target_ko":"멋지게 버티는 것.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07316","target_ko":"기회는 첫 1턴뿐!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07316","target_ko":"기회는 첫 턴뿐!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07318","target_ko":"잇단 신형 고코스트기들","review_state":"unapproved_draft"}
 {"id":"EBOOT_07320","target_ko":"물러날 때도 알아야 하지만,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07321","target_ko":"더 높은 곳은 그 너머에...?","review_state":"unapproved_draft"}
-{"id":"EBOOT_07323","target_ko":"선택받은 팀만이 도전","review_state":"unapproved_draft"}
-{"id":"EBOOT_07324","target_ko":"할 수 있는 초특급 대형 맵!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07323","target_ko":"선택받은 팀만이 도전할 수 있는","review_state":"unapproved_draft"}
+{"id":"EBOOT_07324","target_ko":"초특급 대형 맵!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07325","target_ko":"NEXT 완주까지 조금 남았다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07326","target_ko":"숨겨진 임무는 미션 8까지","review_state":"unapproved_draft"}
-{"id":"EBOOT_07327","target_ko":"전과 30만 점이면 출현!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07329","target_ko":"전 미션이 보스 스테이지","review_state":"unapproved_draft"}
-{"id":"EBOOT_07330","target_ko":"인 악몽 같은 대형 맵!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07327","target_ko":"전과가 30만 점이면 출현!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07329","target_ko":"전 미션이 보스 스테이지인","review_state":"unapproved_draft"}
+{"id":"EBOOT_07330","target_ko":"악몽 같은 대형 맵!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07331","target_ko":"게다가 위협은 그뿐이 아니다...","review_state":"unapproved_draft"}
-{"id":"EBOOT_07332","target_ko":"완료만 하면 3미션","review_state":"unapproved_draft"}
-{"id":"EBOOT_07333","target_ko":"이지만 제패는 어렵다!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07332","target_ko":"완료만 하면 3미션이지만","review_state":"unapproved_draft"}
+{"id":"EBOOT_07333","target_ko":"제패는 어렵다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07335","target_ko":"NEXT 트라이얼에서 8종의","review_state":"unapproved_draft"}
 {"id":"EBOOT_07336","target_ko":"미션을 무작위로 뽑는","review_state":"unapproved_draft"}
 {"id":"EBOOT_07337","target_ko":"맵.","review_state":"unapproved_draft"}
@@ -1315,7 +1315,7 @@
 {"id":"EBOOT_07353","target_ko":"강적 퀸 만사가 습격한다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07354","target_ko":"상대보다 단 1초라도 더","review_state":"unapproved_draft"}
 {"id":"EBOOT_07355","target_ko":"살아남아라!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07357","target_ko":"각 플레이어가 3기씩","review_state":"unapproved_draft"}
+{"id":"EBOOT_07357","target_ko":"각 플레이어가 기체 3기를","review_state":"unapproved_draft"}
 {"id":"EBOOT_07359","target_ko":"1대1 승자 진출전이다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07360","target_ko":"상대의 3기를 격파하라!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07362","target_ko":"너와 상대가 벌이는","review_state":"unapproved_draft"}
@@ -1335,7 +1335,7 @@
 {"id":"EBOOT_07380","target_ko":"다채로운 맵.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07381","target_ko":"어느 경로를 고를지,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07382","target_ko":"어느 전투에 승부를 걸지도","review_state":"unapproved_draft"}
-{"id":"EBOOT_07383","target_ko":"중요한 전략!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07383","target_ko":"중요한 전략 요소다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07385","target_ko":"11미션으로 구성된","review_state":"unapproved_draft"}
 {"id":"EBOOT_07386","target_ko":"대형 대전 맵.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07387","target_ko":"경로 선택과 스킬 등","review_state":"unapproved_draft"}
@@ -1357,7 +1357,7 @@
 {"id":"EBOOT_07408","target_ko":"소년 아무로는 지온군의 기습을","review_state":"unapproved_draft"}
 {"id":"EBOOT_07409","target_ko":"계기로 지구연방군의 신형","review_state":"unapproved_draft"}
 {"id":"EBOOT_07410","target_ko":"MS 건담에 올라탄다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07411","target_ko":"모든 이야기가 여기서 시작된다..","review_state":"unapproved_draft"}
+{"id":"EBOOT_07411","target_ko":"모든 이야기가 여기서 시작된다...","review_state":"unapproved_draft"}
 {"id":"EBOOT_07413","target_ko":"반지구연방 조직 에우고에","review_state":"unapproved_draft"}
 {"id":"EBOOT_07414","target_ko":"합류한 카미유는 Z 건담을","review_state":"unapproved_draft"}
 {"id":"EBOOT_07415","target_ko":"몰고 부패한 연방 내부 조직","review_state":"unapproved_draft"}
@@ -1382,8 +1382,8 @@
 {"id":"EBOOT_07439","target_ko":"시작됐다. 그 가운데 도몬은","review_state":"unapproved_draft"}
 {"id":"EBOOT_07440","target_ko":"데빌 건담을 가지고 달아난","review_state":"unapproved_draft"}
 {"id":"EBOOT_07441","target_ko":"형을 쓰러뜨릴 수 있을까?","review_state":"unapproved_draft"}
-{"id":"EBOOT_07443","target_ko":"건담 5기가 지구에 내려왔다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07444","target_ko":"각자 신념을 위해 싸우는 건담.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07443","target_ko":"다섯 기의 건담이 지구에 내려왔다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07444","target_ko":"각자의 신념을 위해 싸우는 건담들.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07445","target_ko":"하지만 비밀결사 OZ는 그들을","review_state":"unapproved_draft"}
 {"id":"EBOOT_07448","target_ko":"황폐한 지구에서 사는 가로드.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07449","target_ko":"어느 사건으로 신비한","review_state":"unapproved_draft"}
@@ -1406,9 +1406,9 @@
 {"id":"EBOOT_07470","target_ko":"수많은 분쟁을 끝내기 위해","review_state":"unapproved_draft"}
 {"id":"EBOOT_07471","target_ko":"일어선 사설 무장 조직,","review_state":"unapproved_draft"}
 {"id":"EBOOT_07472","target_ko":"그 이름은 솔레스탈 비잉.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07473","target_ko":"무력으로 전쟁 근절이 시작된다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07473","target_ko":"무력에 의한 전쟁 근절이 시작된다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07475","target_ko":"훗날 '1년 전쟁'이라 불릴","review_state":"unapproved_draft"}
-{"id":"EBOOT_07476","target_ko":"전쟁 한복판에 있었다. 시로와","review_state":"unapproved_draft"}
+{"id":"EBOOT_07476","target_ko":"전쟁 한복판에서 만난 시로와","review_state":"unapproved_draft"}
 {"id":"EBOOT_07477","target_ko":"아이나. 전쟁과 냉혹한 현실이","review_state":"unapproved_draft"}
 {"id":"EBOOT_07478","target_ko":"한때 멀어진 둘을 다시 잇는다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07480","target_ko":"중립 콜로니에 신형 건담이","review_state":"unapproved_draft"}
@@ -1421,7 +1421,7 @@
 {"id":"EBOOT_07488","target_ko":"탑재한 건담 시작 2호기가","review_state":"unapproved_draft"}
 {"id":"EBOOT_07489","target_ko":"지온군 잔당에게 강탈당했다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07490","target_ko":"코우는 빼앗긴 건담을 쫓는다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_07492","target_ko":"지구권은 평화로운 시대였다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_07492","target_ko":"지구권은 평화로운 시대로 접어들었다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07493","target_ko":"하지만 모든 것이 수수께끼인","review_state":"unapproved_draft"}
 {"id":"EBOOT_07494","target_ko":"라플라스 계획으로 깨어난","review_state":"unapproved_draft"}
 {"id":"EBOOT_07495","target_ko":"하얀 짐승이 시대를 바꾼다...","review_state":"unapproved_draft"}
@@ -1429,7 +1429,7 @@
 {"id":"EBOOT_07498","target_ko":"NEXT 트라이얼에 도달한","review_state":"unapproved_draft"}
 {"id":"EBOOT_07499","target_ko":"너를 위한 궁극의 전투!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07500","target_ko":"역사를 대표하는 초강력 3기에","review_state":"unapproved_draft"}
-{"id":"EBOOT_07501","target_ko":"너의 팀으로 도전하라!!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07501","target_ko":"너의 팀을 이끌고 도전하라!!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07503","target_ko":"스토리 미션 중 무작위로","review_state":"unapproved_draft"}
 {"id":"EBOOT_07504","target_ko":"3종의 미션이 등장한다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07505","target_ko":"매번 장면이 달라진다!","review_state":"unapproved_draft"}
@@ -1440,15 +1440,15 @@
 {"id":"EBOOT_07512","target_ko":"네 팀에서 출격할 기체","review_state":"unapproved_draft"}
 {"id":"EBOOT_07513","target_ko":"3기를 골라 출격!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07514","target_ko":"팀의 총력을 모아 격파 수","review_state":"unapproved_draft"}
-{"id":"EBOOT_07515","target_ko":"한계에 도전해!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07515","target_ko":"기록에 도전해!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07516","target_ko":"기록 경신은 자신과의 싸움!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07518","target_ko":"건담 파이터 4명과","review_state":"unapproved_draft"}
 {"id":"EBOOT_07519","target_ko":"치열한 4연전!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07520","target_ko":"단기로 출격해 모두 이기고","review_state":"unapproved_draft"}
-{"id":"EBOOT_07521","target_ko":"건담 더 건담의 영예","review_state":"unapproved_draft"}
-{"id":"EBOOT_07522","target_ko":"를 거머쥐어라!!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07524","target_ko":"쥬도가 이끄는 건담 팀","review_state":"unapproved_draft"}
-{"id":"EBOOT_07525","target_ko":"과 대사막에서 4대1 전투!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07520","target_ko":"단독으로 출격해 모두 이기고","review_state":"unapproved_draft"}
+{"id":"EBOOT_07521","target_ko":"'건담 더 건담'의 영예를","review_state":"unapproved_draft"}
+{"id":"EBOOT_07522","target_ko":"거머쥐어라!!","review_state":"unapproved_draft"}
+{"id":"EBOOT_07524","target_ko":"쥬도가 이끄는 건담 팀과","review_state":"unapproved_draft"}
+{"id":"EBOOT_07525","target_ko":"대사막에서 4대1 전투!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07526","target_ko":"쉴 새 없는 공격을 어찌 막을까?","review_state":"unapproved_draft"}
 {"id":"EBOOT_07527","target_ko":"너의 뉴타입 자질이","review_state":"unapproved_draft"}
 {"id":"EBOOT_07528","target_ko":"시험받는다!","review_state":"unapproved_draft"}
@@ -1457,11 +1457,11 @@
 {"id":"EBOOT_07532","target_ko":"MA 3기를 쓰러뜨려라!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07533","target_ko":"팀의 종합 실력이 시험대에!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07535","target_ko":"다섯 소년이 모는 다섯","review_state":"unapproved_draft"}
-{"id":"EBOOT_07536","target_ko":"건담. 모두를 상대로 단기로","review_state":"unapproved_draft"}
+{"id":"EBOOT_07536","target_ko":"건담. 모두를 상대로 단독으로","review_state":"unapproved_draft"}
 {"id":"EBOOT_07537","target_ko":"도전하는 마지막 시험!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07538","target_ko":"끝내 해낸다면 바로 네가","review_state":"unapproved_draft"}
 {"id":"EBOOT_07539","target_ko":"진정한 건담 파일럿이다!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07541","target_ko":"등급 상승이 인정되어","review_state":"unapproved_draft"}
+{"id":"EBOOT_07541","target_ko":"승급이 인정되어","review_state":"unapproved_draft"}
 {"id":"EBOOT_07542","target_ko":"중급 트라이얼이 개방됐습니다!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07543","target_ko":"중급 라이선스 맵 완료!","review_state":"unapproved_draft"}
 {"id":"EBOOT_07544","target_ko":"상급 트라이얼이 개방됐습니다!","review_state":"unapproved_draft"}
@@ -1487,7 +1487,7 @@
 {"id":"EBOOT_07566","target_ko":"크샤트리아","review_state":"unapproved_draft"}
 {"id":"EBOOT_07567","target_ko":"이 맵의 프리 모드를","review_state":"unapproved_draft"}
 {"id":"EBOOT_07568","target_ko":"선택할 수 있게 됐습니다!","review_state":"unapproved_draft"}
-{"id":"EBOOT_07570","target_ko":"(획득한 EXP와 GP는 더해집니다)","review_state":"unapproved_draft"}
+{"id":"EBOOT_07570","target_ko":"(획득한 EXP와 GP는 합산됩니다)","review_state":"unapproved_draft"}
 {"id":"EBOOT_07571","target_ko":"프리 모드를 종료합니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_07572","target_ko":"미션 데이터를 삭제했습니다.","review_state":"unapproved_draft"}
 {"id":"EBOOT_07573","target_ko":"통신이 끊겼습니다","review_state":"unapproved_draft"}
@@ -1510,7 +1510,7 @@
 {"id":"EBOOT_07592","target_ko":"적군 표적","review_state":"unapproved_draft"}
 {"id":"EBOOT_07593","target_ko":"표적","review_state":"unapproved_draft"}
 {"id":"EBOOT_07594","target_ko":"격추되지 않음","review_state":"unapproved_draft"}
-{"id":"EBOOT_07595","target_ko":"상대가 승리조건 선달성","review_state":"unapproved_draft"}
+{"id":"EBOOT_07595","target_ko":"상대가 승리 조건을 먼저 달성","review_state":"unapproved_draft"}
 {"id":"EBOOT_07597","target_ko":"상대보다 %s 격파 수가 적음","review_state":"unapproved_draft"}
 {"id":"EBOOT_07599","target_ko":"상대보다 %s 회수 수가 적음","review_state":"unapproved_draft"}
 {"id":"EBOOT_07601","target_ko":"부스트 절반","review_state":"unapproved_draft"}
@@ -1518,11 +1518,11 @@
 {"id":"EBOOT_07603","target_ko":"내구력 1","review_state":"unapproved_draft"}
 {"id":"EBOOT_07604","target_ko":"내구력 25%","review_state":"unapproved_draft"}
 {"id":"EBOOT_07605","target_ko":"내구력 50%","review_state":"unapproved_draft"}
-{"id":"EBOOT_07606","target_ko":"전 무장 탄수 0","review_state":"unapproved_draft"}
+{"id":"EBOOT_07606","target_ko":"모든 무장의 탄약 0","review_state":"unapproved_draft"}
 {"id":"EBOOT_07607","target_ko":"록온 거리 감소","review_state":"unapproved_draft"}
 {"id":"EBOOT_07608","target_ko":"0123456789","review_state":"unapproved_draft"}
-{"id":"EBOOT_08113","target_ko":"기동전사 건담 건담 VS. 건담 NEXT PLUS의 저장 데이터입니다.","review_state":"unapproved_draft"}
-{"id":"EBOOT_08114","target_ko":"기동전사 건담 건담 VS. 건담 NEXT PLUS","review_state":"unapproved_draft"}
+{"id":"EBOOT_08113","target_ko":"기동전사 건담: 건담 VS. 건담 NEXT PLUS의 저장 데이터입니다.","review_state":"unapproved_draft"}
+{"id":"EBOOT_08114","target_ko":"기동전사 건담: 건담 VS. 건담 NEXT PLUS","review_state":"unapproved_draft"}
 {"id":"EBOOT_08115","target_ko":"저장 데이터","review_state":"unapproved_draft"}
 {"id":"EBOOT_08122","target_ko":"설치 데이터","review_state":"unapproved_draft"}
 {"id":"EBOOT_08449","target_ko":"동영상","review_state":"unapproved_draft"}
@@ -1532,7 +1532,7 @@
 {"id":"EBOOT_08453","target_ko":"BGM 선택","review_state":"unapproved_draft"}
 {"id":"EBOOT_08455","target_ko":"새 방을 만듭니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_08456","target_ko":"선택한 방에 들어갑니다","review_state":"unapproved_draft"}
-{"id":"EBOOT_08457","target_ko":"게임 설정 변경이 가능합니다","review_state":"unapproved_draft"}
+{"id":"EBOOT_08457","target_ko":"게임 설정을 변경할 수 있습니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_08458","target_ko":"이 방의 게임 설정입니다","review_state":"unapproved_draft"}
 {"id":"EBOOT_08459","target_ko":"%m을 누르면 출격 준비 완료","review_state":"unapproved_draft"}
 {"id":"EBOOT_08460","target_ko":"호스트의 게임 시작을 기다리고 있습니다","review_state":"unapproved_draft"}

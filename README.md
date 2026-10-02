@@ -34,6 +34,11 @@ xdelta3 -d -s original_jp.iso next_plus_development_v19_2026-09-26.xdelta out.is
 
 ## 최신 작업 (2026-10-02)
 
+사용자가 다듬은 번역 파일 5개를 재검토해 번역투·용어·미션 조건을 수정했습니다.
+파일 기준 5,934행을 검토했고, 제출본에서 188개 ID(237행)를 추가로 다듬었습니다.
+이 번역 자료 갱신은 아직 ISO에 반영하지 않았습니다. 수정 예시와 문맥·용량·폰트 확인이
+남은 항목은 [번역 검수 기록](docs/TRANSLATION_REVIEW_2026-10-02.md)에 정리했습니다.
+
 기존 작업 폴더 없이 일본판 원본과 사용자가 보관한 한국어 패치 ISO에서 작업을 복구했습니다.
 
 - 원문 위치·슬롯 용량·삽입 바이트를 확인해 3,920개 번역 슬롯을 복원했습니다(미션 271개 포함).
@@ -43,7 +48,7 @@ xdelta3 -d -s original_jp.iso next_plus_development_v19_2026-09-26.xdelta out.is
 
 최신 로컬 개발 산출물은 `next_plus_digit_repair_2026-10-02.iso`입니다.
 SHA-256: `886bd04022581981d0d391a7aa0e0044d8291e53cff112ac422d7fb8e88d2d8b`.
-이번 GitHub 갱신에는 소스 코드·재현 절차·검증 집계·인계 문서를 포함합니다.
+GitHub에는 소스 코드·재현 절차·검증 집계·인계 문서와 검토한 번역 자료를 공개합니다.
 현재 공개 릴리스 자산은 위 2026-09-26 패치입니다.
 
 현재 집계는 [reports/status.json](reports/status.json), 재현 절차는
@@ -103,11 +108,14 @@ pip install -e ..\hanpatch
 - `inspect_gim.py`, `replace_gim_picture.py`: GIM 팔레트 보존 분석·교체
 - `ppsspp_*.py`: PPSSPP WebSocket 디버거 자동화
 - `prepare_ai_translation_handoff.py`, `validate_ai_translation_response.py`: 로컬 원문 인계·응답 검증
+- `validate_korean_catalog_revision.py`: 공개 번역 파일의 ID·보호 필드·제어 토큰·코덱 왕복 검사
 - `parse_next_plus_mission_records.py`, `validate_next_plus_mission_response.py`: 넥스트 플러스 미션 포인터 체인 추출·번역 응답 검사
 
 ## 번역 데이터
 
-`translations/development_draft_2026-09-26_ko_only.jsonl`에는 ID와 한글 초안만 4,271건 수록했습니다. 일본어 원문·원시 바이트·포인터·로컬 작업용 전체 워크북은 공개하지 않습니다. 기존 `curated_batch_*.json`은 초기 초안 기록입니다. 모두 `approved`가 아니며 릴리스 품질이나 바로 적용 가능한 패치 입력을 의미하지 않습니다.
+`translations/development_draft_2026-09-26_ko_only.jsonl`에는 ID와 한글 초안만 4,271건 수록했습니다. 일본어 원문·원시 바이트·포인터·로컬 작업용 전체 워크북은 공개하지 않습니다. 이 파일과 2026-09-24 초안, 기존 `curated_batch_*.json` 3개는 2026-10-02에 문장을 재검토했습니다. 검수 상태는 승격하지 않았으며 릴리스 품질이나 바로 적용 가능한 패치 입력을 의미하지 않습니다.
+
+기존 패치에서 작업을 복구할 때는 문장 수정 전의 [고정 초안](translations/baselines/README.md)을 사용합니다. 현재 초안의 바뀐 문장으로 과거 삽입 바이트를 찾아서는 안 됩니다. 이번 파일별 해시·수정 이력·보류 ID는 [검수 보고서](reports/translation_review_2026-10-02.json)에 기록했습니다.
 
 넥스트 플러스 미션 274건의 원문 인계 패키지는 저작권이 있는 원문·원시 바이트를 포함하므로 로컬에만 둡니다. 공개 저장소에는 재추출·검증 도구와 구조·진행 현황만 올립니다.
 
