@@ -32,7 +32,25 @@ xdelta3 -d -s original_jp.iso next_plus_development_v19_2026-09-26.xdelta out.is
 
 자세한 내용과 확인된 동작, 남은 작업은 `docs/RELEASE_2026-09-26.md`를 보세요.
 
-## 현재 상태
+## 최신 작업 (2026-10-02)
+
+기존 작업 폴더 없이 일본판 원본과 사용자가 보관한 한국어 패치 ISO에서 작업을 복구했습니다.
+
+- 원문 위치·슬롯 용량·삽입 바이트를 확인해 3,920개 번역 슬롯을 복원했습니다(미션 271개 포함).
+- 고정 2바이트 숫자 테이블과 폰트의 숫자 매핑을 복구했습니다. 제공 패치 ISO에서 37바이트만 바뀝니다.
+- 이동 한글 `찢`의 호스트 역변환을 수정하고 회귀 테스트 7개를 통과했습니다.
+- 새 ISO와 원본 기반 xdelta의 재적용 해시가 일치했습니다. 사용자가 이번 작업을 수용하고 추가 CMD 검증 요청을 종료했습니다.
+
+최신 로컬 개발 산출물은 `next_plus_digit_repair_2026-10-02.iso`입니다.
+SHA-256: `886bd04022581981d0d391a7aa0e0044d8291e53cff112ac422d7fb8e88d2d8b`.
+이번 GitHub 갱신에는 소스 코드·재현 절차·검증 집계·인계 문서를 포함합니다.
+현재 공개 릴리스 자산은 위 2026-09-26 패치입니다.
+
+현재 집계는 [reports/status.json](reports/status.json), 재현 절차는
+[docs/UPDATE_2026-10-02.md](docs/UPDATE_2026-10-02.md), 다음 작업 인계는
+[docs/HANDOFF_CURRENT.md](docs/HANDOFF_CURRENT.md)를 참고하세요.
+
+## 이전 개발 기준 (2026-09-26)
 
 - EBOOT 문자열 후보: 7,283개
 - 한글 번역 초안: 4,271개 (독립 승인 0개)
@@ -45,7 +63,7 @@ xdelta3 -d -s original_jp.iso next_plus_development_v19_2026-09-26.xdelta out.is
 - GIM 그래픽 표면: 4,272개
 - PPSSPP에서 한글 폰트·커스텀 인코딩 출력 성공
 
-최신 로컬 개발 ISO는 v19(ISO SHA-256 `a7118fce947fa72db5bd3e52fcf4f8fd397acaaa01468c9bc2a0548ed4ba789a`)입니다. PPSSPP에서 게임의 실제 libfont가 우리 폰트를 `break` 0회로 받아들이고, 메뉴 설명 패널·자동저장 안내문·미션 화면 문자열이 한국어로 그려지는 것을 확인했습니다. 실기 PSP는 아직 검수하지 않았습니다. 이 ISO와 xdelta는 저장소에 포함하지 않으며 릴리스 자산으로만 배포합니다. 이미지 글자는 후속 작업입니다.
+2026-09-26 당시 로컬 개발 ISO는 v19(ISO SHA-256 `a7118fce947fa72db5bd3e52fcf4f8fd397acaaa01468c9bc2a0548ed4ba789a`)입니다. PPSSPP에서 게임의 실제 libfont가 우리 폰트를 `break` 0회로 받아들이고, 메뉴 설명 패널·자동저장 안내문·미션 화면 문자열이 한국어로 그려지는 것을 확인했습니다. 실기 PSP는 아직 검수하지 않았습니다. 이 ISO와 xdelta는 저장소에 포함하지 않으며 릴리스 자산으로만 배포합니다. 이미지 글자는 후속 작업입니다.
 
 정확한 현황은 [reports/status.json](reports/status.json), 구조 조사 결과는 [docs/RESEARCH_NOTES.md](docs/RESEARCH_NOTES.md)에 정리했습니다.
 
@@ -89,7 +107,7 @@ pip install -e ..\hanpatch
 
 ## 번역 데이터
 
-`translations/development_draft_2026-09-24_ko_only.jsonl`에는 ID와 한글 초안만 1,543건 수록했습니다. 일본어 원문·원시 바이트·포인터·로컬 작업용 전체 워크북은 공개하지 않습니다. 기존 `curated_batch_*.json`은 초기 초안 기록입니다. 모두 `approved`가 아니며 릴리스 품질이나 바로 적용 가능한 패치 입력을 의미하지 않습니다.
+`translations/development_draft_2026-09-26_ko_only.jsonl`에는 ID와 한글 초안만 4,271건 수록했습니다. 일본어 원문·원시 바이트·포인터·로컬 작업용 전체 워크북은 공개하지 않습니다. 기존 `curated_batch_*.json`은 초기 초안 기록입니다. 모두 `approved`가 아니며 릴리스 품질이나 바로 적용 가능한 패치 입력을 의미하지 않습니다.
 
 넥스트 플러스 미션 274건의 원문 인계 패키지는 저작권이 있는 원문·원시 바이트를 포함하므로 로컬에만 둡니다. 공개 저장소에는 재추출·검증 도구와 구조·진행 현황만 올립니다.
 

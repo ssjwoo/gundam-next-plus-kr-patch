@@ -15,6 +15,7 @@ from hanpatch.platforms.psp import iso9660
 from make_hangul_poc import (
     DECODE_FUNCTION_VA,
     FONT_LANGUAGE_INSN_VA,
+    decode_hangul,
     decoder_words,
     encode_hangul,
     i_type,
@@ -37,26 +38,6 @@ def sha256_file(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
-
-
-def decode_hangul(raw: bytes) -> str:
-    out = []
-    index = 0
-    while index < len(raw):
-        lead = raw[index]
-        if lead < 0x80:
-            out.append(chr(lead))
-            index += 1
-            continue
-        if index + 1 >= len(raw):
-            raise ValueError("truncated custom Hangul pair")
-        trail = raw[index + 1]
-        value = ((lead - 0x80) << 7) + (trail - 0x80) + 0xAC00
-        if not 0xAC00 <= value <= 0xD7A3:
-            raise ValueError(f"invalid custom Hangul pair {lead:02X} {trail:02X}")
-        out.append(chr(value))
-        index += 2
-    return "".join(out)
 
 
 def add_plan(plans: list[dict], owner: str, start: int, before: bytes, after: bytes) -> None:

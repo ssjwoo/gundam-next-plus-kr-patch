@@ -41,6 +41,9 @@ tools/ppsspp-*/
 tools/GJConv/
 tools/pspdecrypt-*/
 tools/pzzcompressor_jojo/
+# Per-machine resume state, launchers, saves and user test evidence
+PROJECT_STATE.json
+05_QA/
 *.rco
 *.sfo
 *.zim

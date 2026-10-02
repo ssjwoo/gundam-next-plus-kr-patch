@@ -119,6 +119,42 @@ def encode_hangul(text: str) -> bytes:
     return bytes(out)
 
 
+def decode_hangul(raw: bytes) -> str:
+    """Read back encoder output, including syllables moved to another index.
+
+    This is a host-side inverse for translated strings, not a decoder for
+    original Japanese text or runtime-generated symbols. Reject malformed or
+    reserved pairs rather than accepting a partial string as verified.
+    """
+    displaced = {index: codepoint for codepoint, index in DISPLACED_HANGUL.items()}
+    out: list[str] = []
+    cursor = 0
+    while cursor < len(raw):
+        lead = raw[cursor]
+        if lead < 0x80:
+            out.append(chr(lead))
+            cursor += 1
+            continue
+        if lead >= 0xF0:
+            raise ValueError(f"control-token lead byte {lead:02X} in custom Hangul")
+        if cursor + 1 >= len(raw):
+            raise ValueError("truncated custom Hangul pair")
+        trail = raw[cursor + 1]
+        if trail < 0x80:
+            raise ValueError(f"invalid custom Hangul pair {lead:02X} {trail:02X}")
+        index = ((lead - 0x80) << 7) + (trail - 0x80)
+        if index in RUNTIME_INDEX_GLYPHS:
+            raise ValueError(f"runtime index {index} in custom Hangul")
+        codepoint = displaced.get(index, 0xAC00 + index)
+        if not 0xAC00 <= codepoint <= 0xD7A3:
+            raise ValueError(f"invalid custom Hangul pair {lead:02X} {trail:02X}")
+        if codepoint in RESERVED_HANGUL_CODEPOINTS:
+            raise ValueError(f"U+{codepoint:04X} is reserved")
+        out.append(chr(codepoint))
+        cursor += 2
+    return "".join(out)
+
+
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 

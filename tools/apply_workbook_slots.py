@@ -27,30 +27,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from make_hangul_poc import encode_hangul  # noqa: E402
+from make_hangul_poc import decode_hangul, encode_hangul  # noqa: E402
 
 APPLY_STATUSES = {"translated", "approved"}
-
-
-def decode_hangul(raw: bytes) -> str:
-    """Inverse of encode_hangul: bytes below 0x80 are literal, 0x80+hi/0x80+lo
-    pairs are syllables -- the same rule the patched decoder uses."""
-    out = []
-    cursor = 0
-    while cursor < len(raw):
-        byte = raw[cursor]
-        if byte < 0x80:
-            out.append(chr(byte))
-            cursor += 1
-            continue
-        if cursor + 1 >= len(raw):
-            break
-        index = ((byte - 0x80) << 7) + (raw[cursor + 1] - 0x80)
-        if not 0 <= index < 0x2BA4:
-            break
-        out.append(chr(0xAC00 + index))
-        cursor += 2
-    return "".join(out)
 
 
 def main() -> None:

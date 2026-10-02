@@ -1,0 +1,136 @@
+# 현재 인계 — 2026-10-02
+
+## 이번 작업 종료 — 사용자 확인 반영
+
+현재 기준은 **제공 패치에서 숫자 처리만 37바이트 복구한 개발 산출물**이다.
+원본/제공 ISO를 보존했고 패치 재적용 왕복과 복원 문장·폰트 정적 검증은 통과했다.
+2026-10-02 사용자가 이번 작업을 확인하고 잘 마무리됐다고 보고했으며, 추가 CMD 실행 검증은
+필요하지 않다고 명시했다. **이번 작업은 사용자 확인으로 종료하고 추가 실행·캡처 요청을 닫았다.**
+기록: `work/resume_2026-10-02/user_acceptance_2026-10-02.json`.
+이 확인은 이번 변경 범위의 수용이다. 새 장면별 캡처/로그나 정확한 실행 빌드 해시는 제출되지 않았으며,
+전체 게임·실기·릴리스 검증 완료 또는 번역 초안 전체 승인을 뜻하지 않는다.
+
+다음 세션은 사용자가 추가 작업을 요청하면 이 문서와 상태를 먼저 읽고 현재 산출물에서 이어간다.
+이미 종료된 CMD 검증을 다시 필수 단계로 요구하지 않는다. 남은 조사 대상은 아래 기록을 참고하며,
+옛 PZZ 가설만으로 전면 인덱스 변경을 시작하지 않는다.
+
+사용자 조건: **Codex 5시간(300분) 한도 잔여 20% 이하에서 새 작업을 시작하지 말고,
+진행 중인 안전한 검증을 정리한 뒤 다음 세션용 상태·인계를 갱신할 것.** 한도 조회 기록은 로컬 상태에 보관한다.
+한도는 `get_usage_limits`의 primary.usedPercent로 확인한다. 새 채팅 생성은 요청되지 않았다.
+
+## 입력과 기준 — 이번 환경에서 검증됨
+
+| 파일 | SHA-256 | 설명 |
+|---|---|---|
+| `Kidou Senshi Gundam - Gundam vs. Gundam Next Plus (Japan, Asia).iso` | `a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3` | 기록과 일치하는 일본판 NPJH50107 원본 |
+| `original_jp_.iso` | `c0e2ac8154cf240649229a95bcf2a52f37688096ae2918e16c7857c1491a4992` | 사용자가 준 기존 패치; 공개 v19와 다름 |
+| `build/restored_v19_2026-10-02/v19.iso` | `a7118fce947fa72db5bd3e52fcf4f8fd397acaaa01468c9bc2a0548ed4ba789a` | 공개 v19 xdelta를 확인된 원본에 적용하여 복구 |
+| `build/digit_repair_2026-10-02/next_plus_digit_repair_2026-10-02.iso` | `886bd04022581981d0d391a7aa0e0044d8291e53cff112ac422d7fb8e88d2d8b` | 현재 테스트 후보, CRC32 `38A21F92` |
+
+ISO 모두 1,757,806,592바이트. 원본 ELF는 `analysis/original_decrypted_eboot.elf`,
+SHA-256 `ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06`.
+제공 ELF는 `analysis/resume_2026-10-02/iso_comparison/changed/patched/PSP_GAME/SYSDIR/EBOOT.BIN`,
+SHA-256 `e671072f042f8f166b46f80e08612d0e066187ee90f739e6223251934f0df045`.
+제공 폰트는 같은 폴더의 `UPDATE/DATA.BIN`: 158,464바이트·1,349글리프,
+SHA-256 `475435e283c078425512863b2470d6f1de442e4badb54598943421fd559f1378`.
+v19 폰트는 124,084바이트·1,038글리프.
+
+원본/제공 패치의 ISO 내부 19파일 중 차이는 EBOOT와 UPDATE/DATA.BIN뿐(17파일 동일).
+제공 ELF와 v19는 779바이트 차이, 전부 `.data`; `.text`와 18워드 한글 디코더는 동일.
+제공 패치를 v19로 이름만 바꾸거나 v19 위에 다시 덮어쓰지 않는다.
+
+## 복구·분석 결과
+
+- 공개 저장소 main `2f7a4715c8e3c154557aba9955b6004c98456e4b`를 복제했다.
+  `.venv` Python 3.12.14, hanpatch `14d6405e94882da37ff777d50474bc06830b001b` editable 설치.
+  EBOOT 복호화는 pyeboot 0.2.3으로 수행, 원본 ELF 해시 일치.
+- 원본 EBOOT 재추출 후보 8,731개. 공개 번역 ID는 새 추출 ID와 다르므로 ID만으로 연결 금지.
+- `tools/recover_source_workbook.py`는 원본/v19 해시·코드 동일성·원문 바이트·NUL/용량·코덱 왕복을
+  확인하고 미션 포인터 구조를 병합하여 **3,920슬롯(미션 271개 포함)**을 복원했다.
+  ID는 원문 위치 또는 검증된 NPMIS 구조 ID를 사용한다.
+  현재 결과 `work/restored_2026-10-02/mission_complete/recovered_translations.csv`;
+  SHA-256 `2c18fd0d43783ee7f39d3aa4c92dca98acfe99855490db4fb57b713a4b1af59a`.
+  이전 source_bound/with_missions 결과는 중간 조사 자료다.
+- 기존 삽입 도구 `--check-only`로 새 후보 ELF에서 3,920개 전부 이미 삽입됨, 용량/원문/코덱 오류 0.
+  **전체 워크북 복구·번역 승인·화면 품질 완료를 뜻하지 않는다.** 313후보는 보류,
+  일부 CP932 별칭/원문 복귀/불분명한 용량이 포함돼 있어 모두 실제 결함인 것은 아니다.
+- 공개 한국어 초안 4,271행은 해시·중복·코덱 왕복 확인, 모두 `unapproved_draft` 유지.
+- 원본 미션 레코드 274개와 포인터를 재구성, 구조 오류 0. 결과 `work/next_plus_mission_handoff_v2`.
+  제공 패치의 274개 메타데이터/자기 포인터가 원본과 모두 일치한다. 공개 v19의 NPMIS_0189/0190은
+  메타데이터가 원본과 달라 제공 패치의 복구를 보존했다. 증거 `v19_mission_metadata_changes.json`.
+  미션 271개는 3줄 한글 바이트를 복원; NPMIS_0083/0190/0263의 원문 복귀는 별도 조사 대상이다.
+  번역 의미·줄바꿈·숫자와 원문 내용의 관계는 아직 사람/화면 검수를 통과하지 않았다.
+- Z_DATA의 PZZ 2,125개와 기타 BIN 467개를 읽기 전용 조사했다. UNKNOWN PZZ부품 1,104개 및
+  BIN에서 제한된 CP932 NUL 문자열 검색 결과 0개; 파싱 실패 0.
+  **PZZ에 텍스트가 없다는 증거가 아니다.** 조사 스크립트와 survey는 로컬 work/analysis에 있다.
+- MS 편집 스킬 설명의 PZZ 인덱스 충돌은 옛 인계의 가설이다. EBOOT에도 스킬/효과 원문이 있으며,
+  제공 패치에서는 화면이 달라졌을 수 있다. 현재 장면을 확인하기 전 대규모 인덱스 재배정 금지.
+- `tools/audit_workbook_font.py`로 최종 복구 문장에 필요한 **961개 폰트 코드**가 후보에 모두 존재함을 확인했다.
+  제공 PGF에는 런타임 숫자 7/8의 코드 **470/471(0x1D6/0x1D7)**가 없었다.
+  v19와 비교해 추가 코드 329, 제거 코드 18. 공통 글리프 기록/메트릭도 달라 외형 동일성 미확인.
+- 제공 EBOOT의 `0x28D3B4` 숫자 테이블은 ASCII `0123456789` + NUL 10개로 바뀌었다.
+  원본 및 검증된 v19는 CP932 2바이트 숫자 `82 4F ... 82 58`이다. 실행 코드가 동일하므로
+  고정 2바이트 읽기와 어긋난 회귀를 새 후보에서 복구했다. 증거 `analysis/resume_2026-10-02/digit_gap_evidence.json`.
+
+## 숫자 수정 산출물 — 정적 검증 완료, 이번 변경 사용자 수용
+
+`tools/repair_fixed_width_digits.py`가 정확히 확인된 원본/제공 ELF·PGF만 받아 별도 출력한다.
+숫자 테이블 20바이트를 원본 CP932 2바이트 배열로 복구했고, 폰트의 10개 런타임 코드(463~472)를
+동일 폰트 안의 ASCII 숫자 글리프로 연결했다(맵 17바이트 변화). 글리프/메트릭/폰트 크기는 유지됐다.
+다른 문자 매핑과 복원된 3,920개의 문장은 변하지 않았다.
+
+공개 빌드 스크립트: `tools/build_digit_repair_iso.py`. 입력과 실행 순서는 `docs/UPDATE_2026-10-02.md` 참고.
+전체 ISO 바이트 비교 결과 **37바이트만 변경**, 디렉터리·파일 길이·섹터·다른 모든 데이터 동일.
+후보 ELF SHA-256 `077e99a31d470b7b2234312197b0d3537b4e9a6e6af55efc497e9ebba3090781`.
+후보 PGF SHA-256 `4e75a6cb3d797faa8ea86f80645620c61c5b64e8673c672f041ab7b624ae86ec`.
+Manifest/repair_report는 `build/digit_repair_2026-10-02/`에 있다.
+
+원본 일본판 ISO에서 적용하는 xdelta: `next_plus_digit_repair_2026-10-02.xdelta`, 1,424,961바이트,
+SHA-256 `b0a4d45d1e60976ff94df9900b6f92a27b33612cd12453acddd1867c8db53f61`.
+재적용 ISO SHA-256이 후보와 일치했다. 이 패치는 제공 패치 ISO가 아니라 **A00C... 일본판 원본**에 적용한다.
+별도 CMD 검증 요청은 사용자 지시에 따라 종료됐다. 에이전트가 직접 게임을 실행하거나
+새 캡처/로그로 장면별 판정을 내리지는 않았다. 실기·저장/로드·전체 미션 등의 개별 검증 기록은 미완료로 보존한다.
+
+## 코드 수정 및 확인
+
+- `make_hangul_poc.decode_hangul` 공통 역변환 도입. 이동 음절 `찢`(DD E0) 읽기 오류 수정,
+  잘린 쌍·예약/런타임 인덱스·비정규 바이트 거부. 두 빌드 도구가 사용.
+  인코더·게임 디코더는 변경하지 않았다.
+- 코덱·합성 슬롯 쓰기/재적용 테스트 7개 통과. `pip check` 통과.
+- 폰트/XLSX 도구에 필요한 freetype-py, openpyxl을 requirements.txt에 추가.
+- 복원 CLI는 원본/v19가 다르거나 제공 코드가 다르면 실패하며 기존 출력 폴더를 덮어쓰지 않는다.
+- 새 도구는 프로젝트 tools/에 두어 삭제된 옛 작업 폴더 없이 다시 사용할 수 있다.
+- 2026-10-02 GitHub 갱신 범위는 코드·의존성·재현 절차·검증 집계·현재 인계다.
+  ISO·추출 데이터·원문 워크북·에뮬레이터·로컬 세이브/캡처는 공개 추적에서 제외한다.
+  기존 공개 릴리스 `dev-2026-09-26`은 보존하고 새 차분 패치는 로컬 산출물로 보관한다.
+
+## 보관된 실행 검증 준비 — 추가 실행 요청 종료
+
+공식 PPSSPP 1.20.4를 `tools/ppsspp-1.20.4`에 준비했고 실행은 하지 않았다.
+Windows64 EXE SHA-256 `27d3edbb06dc623dab60877d3e3a975aef4034c7d4fac464e92fd4998864d2ec`.
+공식 소스에서 ISO 인자, `--windowed`, `--log=` 및 exe 옆 memstick 사용을 확인했다.
+**종료된 요청:** `05_QA/TEST_REQUESTS/TEST_20261002_DIGIT_REPAIR.md`.
+**실행기:** `05_QA/USER_TEST/TEST_20261002_DIGIT_REPAIR/RUN_TEST_20261002_DIGIT_REPAIR.cmd`.
+**캡처/로그 폴더:** `05_QA/USER_TEST/TEST_20261002_DIGIT_REPAIR/`.
+사용자가 이번 작업을 확인하고 추가 실행은 필요하지 않다고 명시하여 요청을 종료했다.
+CMD와 요청 문서는 보관 자료이며 현재 사용자에게 필요한 실행·캡처 제출은 없다.
+실행기는 실제 경로·인자를 확인하고 텍스트만 생성했다. 제공 본 비교용 BASELINE 준비도 보관한다.
+
+## 다음 세션에서 읽을 것과 명령
+
+상태: `PROJECT_STATE.json` 및 `work/resume_2026-10-02/state.json`(동기화된 로컬 상태).
+이 문서가 최신; `docs/HANDOFF_2026-09-26.md`와 reports/status.json은 역사적 기준이다.
+작업 재개 시 usage limits를 조회하고 위 한도 조건을 지킨다. 추가 검증은 현재 사용자 지시를 우선한다.
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tools -p 'test_*.py' -v
+.\.venv\Scripts\python.exe -m pip check
+git diff --check
+```
+
+복원 CLI 순서: source_elf, v19_elf, provided_elf, inventory_json, draft_jsonl, 새 outdir;
+`--mission-records work/next_plus_mission_handoff_v2/structural_records.jsonl`를 함께 지정한다.
+inventory: `analysis/eboot_inventory/eboot_text_inventory.json`. 제공 ELF를 복원 입력으로 사용하고,
+숫자 수정 후보 ELF에서는 삽입 확인만 한다. 2바이트 숫자 테이블은 번역 대상에서 제외해야 한다.
+복구 CSV는 미승인 초안이며 커밋/배포하지 않는다. 전체 추가 번역은 실제 슬롯/원문 연결을 검증한 뒤 별도 후보로 한다.
+추가 파일·원본 게임 내용·ISO·세이브·캡처는 공개 Git 추적에서 제외된다.

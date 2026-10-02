@@ -42,7 +42,8 @@
       "rows": 4271,
       "sha256": "67ef910107d3c573a0fbe9bd3b9a216e88b564215fb1299989ff64fa206fd0a6",
       "review_state": "unapproved_draft"
-    }
+    },
+    "inventory_as_of": "2026-09-26"
   },
   "next_plus_missions": {
     "structurally_verified_records": 274,
@@ -71,19 +72,28 @@
     "index8_surfaces": 3592
   },
   "latest_local_development_artifact": {
-    "label": "next_plus_development_v19_2026-09-26",
-    "elf_sha256": "14f397f095d3acf34a498d2eb97f3ee74e24faac448a57717246475ff0f24756",
-    "iso_sha256": "a7118fce947fa72db5bd3e52fcf4f8fd397acaaa01468c9bc2a0548ed4ba789a",
+    "label": "next_plus_digit_repair_2026-10-02",
+    "elf_sha256": "077e99a31d470b7b2234312197b0d3537b4e9a6e6af55efc497e9ebba3090781",
+    "iso_sha256": "886bd04022581981d0d391a7aa0e0044d8291e53cff112ac422d7fb8e88d2d8b",
     "iso_size": 1757806592,
-    "xdelta": "next_plus_development_v19_2026-09-26.xdelta",
-    "xdelta_bytes": 1708688,
-    "translated_rows": 4271,
-    "bundled_font_bytes": 124084,
-    "bundled_font_glyphs": 1038,
+    "iso_crc32": "38A21F92",
+    "xdelta": "next_plus_digit_repair_2026-10-02.xdelta",
+    "xdelta_bytes": 1424961,
+    "xdelta_sha256": "b0a4d45d1e60976ff94df9900b6f92a27b33612cd12453acddd1867c8db53f61",
+    "xdelta_source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "xdelta_roundtrip": "PASS",
+    "provided_patch_iso_sha256": "c0e2ac8154cf240649229a95bcf2a52f37688096ae2918e16c7857c1491a4992",
+    "changed_disc_bytes": 37,
+    "recovered_source_bound_rows": 3920,
+    "bundled_font_bytes": 158464,
+    "bundled_font_glyphs": 1349,
     "distributed": false,
-    "release_ready": true,
+    "release_ready": false,
     "hardware_verified": false,
-    "xdelta_sha256": "c0c0609033c609980fac8b9d62287ce703080ba5f73fdbc7e0a1ad2162adc27f"
+    "static_verdict": "PASS",
+    "user_current_scope_accepted": true,
+    "additional_cmd_verification_required": false,
+    "new_scene_capture_or_log_evidence": false
   },
   "runtime_verified": {
     "emulator": "PPSSPP v1.20.4 development build",
@@ -98,7 +108,9 @@
       "real PSP hardware",
       "mission condition digits after the 2026-09-26 digit-table fix",
       "save and pilot-name round trip"
-    ]
+    ],
+    "artifact_label": "next_plus_development_v19_2026-09-26",
+    "recorded_on": "2026-09-26"
   },
   "font_control": {
     "state": "working and freely licensed",
@@ -111,7 +123,8 @@
     ],
     "size_limit": "the game's libfont renders up to about 165KB; 235KB still opens but draws nothing",
     "header_rule": "header bytes 32, 33 and 372 are alignment divisors inside the real libfont; zero makes it trap",
-    "charmap_rule": "unmapped character map slots must hold (1 << bpe) - 1, the way kr0.pgf does, or glyph 0 is drawn"
+    "charmap_rule": "unmapped character map slots must hold (1 << bpe) - 1, the way kr0.pgf does, or glyph 0 is drawn",
+    "artifact_label": "next_plus_development_v19_2026-09-26"
   },
   "reserved_indices": {
     "8226": "the %t token substitutes a trademark sign here",
@@ -119,14 +132,75 @@
     "12000": "U+CC22 moved here because its natural index collides with %t"
   },
   "known_issues": [
-    "Text inside PZZ data files (MS edit skill descriptions) still renders as the wrong Hangul: those strings are not in the EBOOT and their index pairs collide with the Korean ones.",
-    "Menu labels and unit names are GIM images, not font text."
+    "MS-edit skill-description problems were recorded in the prior handoff; current scene/source not re-established. PZZ origin and index collision remain hypotheses.",
+    "Menu labels and unit names are GIM images, not font text.",
+    "Three source mission records remain untranslated/held: NPMIS_0083, NPMIS_0190, NPMIS_0263."
   ],
-  "release_ready": true,
+  "release_ready": false,
   "notation_policy": {
     "decided": "2026-09-26",
     "english": "kept as English; the patch ships its own font",
     "digits": "ASCII digits; the digit table in the game data stays two bytes per entry",
     "kanji_and_japanese": "written in Korean where translated"
+  },
+  "historical_local_development_artifacts": [
+    {
+      "label": "next_plus_development_v19_2026-09-26",
+      "elf_sha256": "14f397f095d3acf34a498d2eb97f3ee74e24faac448a57717246475ff0f24756",
+      "iso_sha256": "a7118fce947fa72db5bd3e52fcf4f8fd397acaaa01468c9bc2a0548ed4ba789a",
+      "iso_size": 1757806592,
+      "xdelta": "next_plus_development_v19_2026-09-26.xdelta",
+      "xdelta_bytes": 1708688,
+      "translated_rows": 4271,
+      "bundled_font_bytes": 124084,
+      "bundled_font_glyphs": 1038,
+      "distributed": false,
+      "release_ready": true,
+      "hardware_verified": false,
+      "xdelta_sha256": "c0c0609033c609980fac8b9d62287ce703080ba5f73fdbc7e0a1ad2162adc27f"
+    }
+  ],
+  "latest_public_release_tag": "dev-2026-09-26",
+  "resume_2026_10_02": {
+    "original_inventory_candidates": 8731,
+    "recovered_source_bound_rows": 3920,
+    "recovered_mission_rows": 271,
+    "held_changed_source_candidates": 313,
+    "recovered_workbook_sha256": "2c18fd0d43783ee7f39d3aa4c92dca98acfe99855490db4fb57b713a4b1af59a",
+    "human_approved_translation_rows": 0,
+    "slot_readback_already_applied": 3920,
+    "slot_readback_errors": 0,
+    "required_font_codes": 961,
+    "missing_required_font_codes": 0,
+    "missing_runtime_digit_or_trademark_codes": 0,
+    "codec_regression_tests_passed": 7,
+    "provided_mission_metadata_and_pointers_match_original": true,
+    "historical_v19_mission_metadata_changed_ids": [
+      "NPMIS_0189",
+      "NPMIS_0190"
+    ],
+    "held_original_mission_ids": [
+      "NPMIS_0083",
+      "NPMIS_0190",
+      "NPMIS_0263"
+    ],
+    "archive_survey": {
+      "pzz_members": 2125,
+      "other_bin_members": 467,
+      "unknown_parts": 1104,
+      "restricted_cp932_nul_candidates": 0,
+      "parse_failures": 0,
+      "scope": "Restricted survey; does not establish absence of text inside PZZ"
+    },
+    "user_acceptance": {
+      "date": "2026-10-02",
+      "scope": "Work performed in this session accepted by user",
+      "additional_cmd_test_required": false,
+      "new_scene_capture_or_log_evidence": false,
+      "whole_game_or_release_runtime_pass_claimed": false
+    },
+    "handoff": "docs/HANDOFF_CURRENT.md",
+    "reproduction": "docs/UPDATE_2026-10-02.md",
+    "publication_scope": "Code, metadata, checks and handoff; local game artifacts/workbook excluded"
   }
 }
