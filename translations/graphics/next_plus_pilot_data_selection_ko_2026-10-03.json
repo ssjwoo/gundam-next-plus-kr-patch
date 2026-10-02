@@ -1,0 +1,2573 @@
+{
+  "schema_version": 2,
+  "development_only": true,
+  "approved": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_scope_complete": false,
+  "pilot_data_and_certificate_regions": 32,
+  "selection_name_cells": 56,
+  "selection_name_consumers_reviewed": 66,
+  "preserved_latin_digit_symbol_quads": [
+    {
+      "source_quad_id": "Q1239",
+      "box": [
+        208,
+        19,
+        221,
+        35
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1240",
+      "box": [
+        448,
+        1,
+        486,
+        17
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1241",
+      "box": [
+        236,
+        19,
+        259,
+        35
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1243",
+      "box": [
+        223,
+        19,
+        234,
+        35
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1246",
+      "box": [
+        118,
+        19,
+        145,
+        35
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1249",
+      "box": [
+        178,
+        19,
+        190,
+        35
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1250",
+      "box": [
+        237,
+        37,
+        250,
+        53
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1257",
+      "box": [
+        239,
+        1,
+        253,
+        17
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1259",
+      "box": [
+        192,
+        19,
+        206,
+        35
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1270",
+      "box": [
+        252,
+        37,
+        263,
+        53
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1271",
+      "box": [
+        147,
+        19,
+        176,
+        35
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1277",
+      "box": [
+        228,
+        37,
+        235,
+        53
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1280",
+      "box": [
+        261,
+        19,
+        265,
+        35
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1293",
+      "box": [
+        448,
+        1,
+        487,
+        17
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "source_quad_id": "Q1295",
+      "box": [
+        453,
+        73,
+        478,
+        89
+      ],
+      "status": "preserved_original_latin_digit_or_symbol",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    }
+  ],
+  "rows": [
+    {
+      "id": "PILOT_DATA_Q0901",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        1,
+        33,
+        93,
+        51
+      ],
+      "inner_box": [
+        1,
+        33,
+        93,
+        51
+      ],
+      "target_ko": "탑승 기체 TOP 5",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9b9062c3d29276667e5c9c467e797f03b5b87f4605e1e79dd869f53d9f106d1a"
+    },
+    {
+      "id": "PILOT_DATA_Q0904",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        64,
+        211,
+        134,
+        229
+      ],
+      "inner_box": [
+        64,
+        212,
+        134,
+        228
+      ],
+      "target_ko": "통신 플레이",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "53e2a69ae1051d3deb2fe8b18c14794bc87f4d2c0caf1ac47d8290506f48b18c"
+    },
+    {
+      "id": "PILOT_DATA_Q0905",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        1,
+        194,
+        43,
+        210
+      ],
+      "inner_box": [
+        1,
+        195,
+        43,
+        209
+      ],
+      "target_ko": "출격 수",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "1044df2c729d138bc1a3dfc2367331836de0d8dd5289dbf6a21510d908755c06"
+    },
+    {
+      "id": "PILOT_DATA_Q0906",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        45,
+        194,
+        89,
+        210
+      ],
+      "inner_box": [
+        45,
+        195,
+        89,
+        209
+      ],
+      "target_ko": "격파 수",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "97bc12668d2a5508921e677f0d97a5109e833b50851146c576fc7c5d9a902d7f"
+    },
+    {
+      "id": "PILOT_DATA_Q0907",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        1,
+        211,
+        62,
+        229
+      ],
+      "inner_box": [
+        1,
+        212,
+        62,
+        228
+      ],
+      "target_ko": "1인 플레이",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "0e8108937f324d3e6727bbdef462268bd93fb4608abd9c20c9befa0cecfdfc79"
+    },
+    {
+      "id": "PILOT_DATA_Q0908",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        110,
+        194,
+        127,
+        210
+      ],
+      "inner_box": [
+        110,
+        195,
+        127,
+        209
+      ],
+      "target_ko": "기",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "17ac8f26171f52619809250df2bfe6c747ef954fde1e40a56416cc7f7c0677f6"
+    },
+    {
+      "id": "PILOT_DATA_Q0909",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        91,
+        194,
+        108,
+        210
+      ],
+      "inner_box": [
+        91,
+        195,
+        108,
+        209
+      ],
+      "target_ko": "회",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6da58e85dfb1ca2395dff79904e8bafd94842fbb5157cea6ab85b338111a9979"
+    },
+    {
+      "id": "PILOT_DATA_Q0913",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        0,
+        53,
+        120,
+        71
+      ],
+      "inner_box": [
+        1,
+        53,
+        120,
+        71
+      ],
+      "target_ko": "획득 엠블럼 목록",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a8b6d595c219c58758e50cb490f8ed72e403940a05862b58a5f01168132d894e"
+    },
+    {
+      "id": "PILOT_DATA_Q0918",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        1,
+        73,
+        146,
+        91
+      ],
+      "inner_box": [
+        1,
+        73,
+        146,
+        91
+      ],
+      "target_ko": "코스별 최고 기록",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "be50caf44bcf7ef204708ced0578d49055115d7e8dff34338256c0bde5473b3d"
+    },
+    {
+      "id": "PILOT_DATA_Q0944",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        143,
+        33,
+        194,
+        51
+      ],
+      "inner_box": [
+        143,
+        33,
+        194,
+        51
+      ],
+      "target_ko": "기록",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "43637b8db540422b883494429583964f6868545977a2c44bf019c10038781dd8"
+    },
+    {
+      "id": "PILOT_DATA_Q0948",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        84,
+        138,
+        116,
+        155
+      ],
+      "inner_box": [
+        84,
+        138,
+        116,
+        155
+      ],
+      "target_ko": "횟수",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "07fce7cff0083b04cfe0af994fba041f60723afa453f495812bfb54efaea2294"
+    },
+    {
+      "id": "PILOT_DATA_Q0949",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        77,
+        121,
+        94,
+        136
+      ],
+      "inner_box": [
+        77,
+        121,
+        94,
+        135
+      ],
+      "target_ko": "급",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "53a8c557768ad1cf3bb943a170a3a69be7e28239619744e131cc6f56c1ea18ee"
+    },
+    {
+      "id": "PILOT_DATA_Q0950",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        94,
+        157,
+        202,
+        174
+      ],
+      "inner_box": [
+        94,
+        157,
+        202,
+        174
+      ],
+      "target_ko": "총 플레이 시간",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "69a353c404d39ab812f913318e213063c26c9ff78b7073c6301cf2cdc3928525"
+    },
+    {
+      "id": "PILOT_DATA_Q0951",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        1,
+        157,
+        92,
+        174
+      ],
+      "inner_box": [
+        1,
+        157,
+        92,
+        174
+      ],
+      "target_ko": "등급별 맵 클리어",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e9a9ba5ad799a37ce271ea5f3e332ffa900511787d3600a81b5c6659364d6343"
+    },
+    {
+      "id": "PILOT_DATA_Q0952",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        1,
+        176,
+        97,
+        193
+      ],
+      "inner_box": [
+        1,
+        176,
+        97,
+        193
+      ],
+      "target_ko": "미션 달성률",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4d34d10454cffeef64f3289b401c87ce5c6500bad1a6eba8fadc2818870cf01f"
+    },
+    {
+      "id": "PILOT_DATA_Q0953",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        118,
+        138,
+        225,
+        155
+      ],
+      "inner_box": [
+        118,
+        138,
+        225,
+        155
+      ],
+      "target_ko": "프리 모드 개방률",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5b3efb1df5b36732f191c2bd2c1d87755efd7a9e5aace9cfaf7b99df058c48e8"
+    },
+    {
+      "id": "PILOT_DATA_Q0954",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        1,
+        138,
+        82,
+        155
+      ],
+      "inner_box": [
+        1,
+        138,
+        82,
+        155
+      ],
+      "target_ko": "총 맵 플레이",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a7c8e4d73ca9283f882f39676f4fd1ce956a77c9bd674fb9ccea64c4d3cc0cfb"
+    },
+    {
+      "id": "PILOT_DATA_Q0957",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        224,
+        157,
+        241,
+        172
+      ],
+      "inner_box": [
+        224,
+        157,
+        241,
+        171
+      ],
+      "target_ko": "초",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "58283a994278e440422972770885beb4841d8f82a7ed7e1a83e92e72f7cd87aa"
+    },
+    {
+      "id": "PILOT_DATA_Q0958",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        20,
+        121,
+        37,
+        136
+      ],
+      "inner_box": [
+        20,
+        121,
+        37,
+        135
+      ],
+      "target_ko": "초",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "306fe8d03eeb47809db5143f4184e2fe468137e2319b26b8ae17f43cd10dc312"
+    },
+    {
+      "id": "PILOT_DATA_Q0959",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        58,
+        121,
+        75,
+        136
+      ],
+      "inner_box": [
+        58,
+        121,
+        75,
+        135
+      ],
+      "target_ko": "상",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "94d3cf5017a22f60ceb976448703f6655ba74741d4ec107bc1dd9c9f2e57931c"
+    },
+    {
+      "id": "PILOT_DATA_Q0960",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        39,
+        121,
+        56,
+        136
+      ],
+      "inner_box": [
+        39,
+        121,
+        56,
+        135
+      ],
+      "target_ko": "중",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ccadcceebced9d789bd548292cba824bc961335cbfa9b8644ddb248d623d3bab"
+    },
+    {
+      "id": "PILOT_DATA_Q0962",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        205,
+        157,
+        222,
+        172
+      ],
+      "inner_box": [
+        205,
+        157,
+        222,
+        171
+      ],
+      "target_ko": "분",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5b762fab8ca299a08433bf7dca4e7dd273df63598613e19e93c0bcc2aa4449c3"
+    },
+    {
+      "id": "PILOT_DATA_Q0963",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        164,
+        76,
+        195,
+        91
+      ],
+      "inner_box": [
+        164,
+        76,
+        195,
+        90
+      ],
+      "target_ko": "시간",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3d74d8b438cc98e47836d535f3bd178173f71f0fd3ad000ad7255fc1494477d6"
+    },
+    {
+      "id": "PILOT_DATA_Q0973",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        148,
+        195,
+        255,
+        212
+      ],
+      "inner_box": [
+        148,
+        195,
+        255,
+        212
+      ],
+      "target_ko": "최근 출격 팀",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "023619bc970849bef3669029a5c2fd86651c17411d1aab4ad1b40df283aea651"
+    },
+    {
+      "id": "PILOT_DATA_Q0974",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        99,
+        176,
+        163,
+        193
+      ],
+      "inner_box": [
+        99,
+        176,
+        163,
+        193
+      ],
+      "target_ko": "기체 획득 수",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8f32dc884d697a5a66c55675eb416864a448db53ad79b04f8c706a6b34f7debe"
+    },
+    {
+      "id": "PILOT_DATA_Q0975",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "box": [
+        165,
+        176,
+        255,
+        193
+      ],
+      "inner_box": [
+        165,
+        176,
+        255,
+        193
+      ],
+      "target_ko": "스킬 습득률",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c76f6ff5a73fb18dfe3d2bb22521e60371e490630c314d266aed9fe496ebdfc8"
+    },
+    {
+      "id": "PILOT_DATA_Q0985",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        512,
+        256
+      ],
+      "box": [
+        1,
+        222,
+        73,
+        241
+      ],
+      "inner_box": [
+        1,
+        222,
+        73,
+        241
+      ],
+      "target_ko": "현재 설정",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9b7e4b13445426a5628fa21bf18f836689e0280024cffa9da054c44b9eda7770"
+    },
+    {
+      "id": "PILOT_DATA_Q1319",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 3,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        93,
+        13,
+        127,
+        25
+      ],
+      "inner_box": [
+        93,
+        13,
+        127,
+        25
+      ],
+      "target_ko": "선택 중",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5cff7e85b6c53953b4924688c9e33042a51f979f6b21d82fa28f6318da2f507c"
+    },
+    {
+      "id": "SELECT_WAIT_MESSAGE",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 8,
+      "dimensions": [
+        256,
+        64
+      ],
+      "box": [
+        134,
+        49,
+        252,
+        63
+      ],
+      "inner_box": [
+        134,
+        49,
+        252,
+        63
+      ],
+      "target_ko": "잠시만 기다려 주세요",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4c3130a537e0db9c5171c8a1d635ee675fcb05562ff00e241802c16334ac8392"
+    },
+    {
+      "id": "CERTIFICATE_GRADE_129",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        512,
+        256
+      ],
+      "box": [
+        129,
+        147,
+        189,
+        253
+      ],
+      "inner_box": [
+        129,
+        147,
+        189,
+        253
+      ],
+      "target_ko": "초급",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "angle": 90,
+      "source_crop_rgba_sha256": "b0d3c262a213c329d5354db300f69f41aa11dc3c06974732d5ed4797c5573338"
+    },
+    {
+      "id": "CERTIFICATE_GRADE_231",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        512,
+        256
+      ],
+      "box": [
+        231,
+        147,
+        291,
+        253
+      ],
+      "inner_box": [
+        231,
+        147,
+        291,
+        253
+      ],
+      "target_ko": "중급",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "angle": 90,
+      "source_crop_rgba_sha256": "29774868a70e269c7974175c09ae46fdbd9f452b5669040c215436e00ff08602"
+    },
+    {
+      "id": "CERTIFICATE_GRADE_333",
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        512,
+        256
+      ],
+      "box": [
+        333,
+        147,
+        393,
+        253
+      ],
+      "inner_box": [
+        333,
+        147,
+        393,
+        253
+      ],
+      "target_ko": "상급",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "angle": 90,
+      "source_crop_rgba_sha256": "57bf378005f74fbec946d2c846c2797da43b9fab2e0b5fa9c0a8fc5f96d18bd0"
+    },
+    {
+      "id": "SELECT_NAME_Q1232",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        1,
+        1,
+        53,
+        17
+      ],
+      "inner_box": [
+        1,
+        1,
+        53,
+        17
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9811ef88987ee8538118523e250eb2d626a6b180c0b2ca65611a5a66def877c9"
+    },
+    {
+      "id": "SELECT_NAME_Q1233",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        55,
+        1,
+        127,
+        17
+      ],
+      "inner_box": [
+        55,
+        1,
+        127,
+        17
+      ],
+      "target_ko": "건캐논",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "fe0eaf46aa70f724779aabf924bae9abda56eb95ef7b6897c7e6e357814dadba"
+    },
+    {
+      "id": "SELECT_NAME_Q1234",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        129,
+        1,
+        193,
+        17
+      ],
+      "inner_box": [
+        129,
+        1,
+        193,
+        17
+      ],
+      "target_ko": "건탱크",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ed008ff8b97d150c448dcd4eff4e9e9c497c9b41b7ed1b1ec2bba8951f3b5dde"
+    },
+    {
+      "id": "SELECT_NAME_Q1235",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        255,
+        1,
+        318,
+        17
+      ],
+      "inner_box": [
+        255,
+        1,
+        318,
+        17
+      ],
+      "target_ko": "샤아 전용",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2158f092162fa979377528019ecac566c8d04779e957f8da4475e4782f813e8e"
+    },
+    {
+      "id": "SELECT_NAME_Q1236",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        195,
+        1,
+        220,
+        17
+      ],
+      "inner_box": [
+        195,
+        1,
+        220,
+        17
+      ],
+      "target_ko": "자쿠",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "578c9f6c188fa40fa738c6dee27037da727256b2a425db3a16e7b0ca9f00043c"
+    },
+    {
+      "id": "SELECT_NAME_Q1237",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        320,
+        1,
+        342,
+        17
+      ],
+      "inner_box": [
+        320,
+        1,
+        342,
+        17
+      ],
+      "target_ko": "돔",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "b259a6332d3d5f63a6ed61f76ff45c3b169958fbc18c6c2acbcc754ad1e1333e"
+    },
+    {
+      "id": "SELECT_NAME_Q1238",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        344,
+        1,
+        394,
+        17
+      ],
+      "inner_box": [
+        344,
+        1,
+        394,
+        17
+      ],
+      "target_ko": "앗가이",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4d77859dfa07fb84b969285f6411265adb84c45fcc44958d6bda4cefd14d677b"
+    },
+    {
+      "id": "SELECT_NAME_Q1242",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        1,
+        19,
+        63,
+        35
+      ],
+      "inner_box": [
+        1,
+        19,
+        63,
+        35
+      ],
+      "target_ko": "큐베레이",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f48365b0bf199ae150a06ff2193d57ab61d4252efe0b3ea022149af64994b0b3"
+    },
+    {
+      "id": "SELECT_NAME_Q1244",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        489,
+        37,
+        509,
+        43
+      ],
+      "inner_box": [
+        489,
+        37,
+        509,
+        43
+      ],
+      "target_ko": "뉴",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "367ce0bcc58cac28ba6583ca791ec143e2d259fe541dda79763a856d8b85f038"
+    },
+    {
+      "id": "SELECT_NAME_Q1245",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        65,
+        19,
+        116,
+        35
+      ],
+      "inner_box": [
+        65,
+        19,
+        116,
+        35
+      ],
+      "target_ko": "사자비",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e42102647a7432e7ef6c064f2d2434b032351232aaa83ebdd6b435303a3d57be"
+    },
+    {
+      "id": "SELECT_NAME_Q1247",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        267,
+        19,
+        338,
+        35
+      ],
+      "inner_box": [
+        267,
+        19,
+        338,
+        35
+      ],
+      "target_ko": "비기나 기나",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "b9482a8118dcddd6d4b2d1dd5fea5f485125e9bfcc9c7f41b4b7c5a6d18ef4fe"
+    },
+    {
+      "id": "SELECT_NAME_Q1248",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        1,
+        109,
+        66,
+        125
+      ],
+      "inner_box": [
+        1,
+        109,
+        66,
+        125
+      ],
+      "target_ko": "빅토리",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4bbb596eb619b0612557807cde506e5cd5c5ed06d3ca81d26ead60cce9c6137b"
+    },
+    {
+      "id": "SELECT_NAME_Q1251",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        340,
+        19,
+        375,
+        35
+      ],
+      "inner_box": [
+        340,
+        19,
+        375,
+        35
+      ],
+      "target_ko": "갓",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a5058adeb11c13d29cc6a41ecbb6749d3ad3a434c579e6eefa6edfa37d8bcec8"
+    },
+    {
+      "id": "SELECT_NAME_Q1252",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        396,
+        1,
+        446,
+        17
+      ],
+      "inner_box": [
+        396,
+        1,
+        446,
+        17
+      ],
+      "target_ko": "마스터",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5b96cfca907057e4e7b0e7deb2f9b299d11d55a9e86b29de6ee69b7de9ed232d"
+    },
+    {
+      "id": "SELECT_NAME_Q1253",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        53,
+        37,
+        106,
+        53
+      ],
+      "inner_box": [
+        54,
+        37,
+        106,
+        52
+      ],
+      "target_ko": "윙",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c21d62079678cfa7ba9634abe3c047952b4f2fee5a44c430a5d4b75831ba2583"
+    },
+    {
+      "id": "SELECT_NAME_Q1254",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        108,
+        37,
+        135,
+        53
+      ],
+      "inner_box": [
+        108,
+        37,
+        135,
+        53
+      ],
+      "target_ko": "제로",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2970614449009b2f0aeaa930100cb38b9c6612b8c1d429ece5cef232ec99f179"
+    },
+    {
+      "id": "SELECT_NAME_Q1255",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        137,
+        37,
+        226,
+        53
+      ],
+      "inner_box": [
+        137,
+        37,
+        226,
+        53
+      ],
+      "target_ko": "헤비암즈",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a8d70d6d92270ff8834a41d5f6264497d48c5870b99fe826491108b9e92286eb"
+    },
+    {
+      "id": "SELECT_NAME_Q1256",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        222,
+        1,
+        237,
+        17
+      ],
+      "inner_box": [
+        222,
+        1,
+        237,
+        17
+      ],
+      "target_ko": "개",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "31f57d3ef61b4a789376351eb8198c8a304940d3018cafb8993fae7094956971"
+    },
+    {
+      "id": "SELECT_NAME_Q1258",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        319,
+        37,
+        382,
+        53
+      ],
+      "inner_box": [
+        319,
+        37,
+        382,
+        53
+      ],
+      "target_ko": "버사고",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6bfe780748859e64c5246e8e66f0fc8c2f8e7c0a1621091b39d7cce83fa8a034"
+    },
+    {
+      "id": "SELECT_NAME_Q1260",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        470,
+        19,
+        503,
+        26
+      ],
+      "inner_box": [
+        470,
+        19,
+        503,
+        26
+      ],
+      "target_ko": "턴에이",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d59b3d4c32b68f9141aa7612c16c4a3a7208c6ae925f542231930a1104f25f9f"
+    },
+    {
+      "id": "SELECT_NAME_Q1261",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        384,
+        37,
+        425,
+        53
+      ],
+      "inner_box": [
+        384,
+        37,
+        425,
+        53
+      ],
+      "target_ko": "카풀",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "40677b200ea10cd455443f57e1f5b5cce4f81a7baafeaea536cd0310e561fd80"
+    },
+    {
+      "id": "SELECT_NAME_Q1262",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        427,
+        37,
+        487,
+        53
+      ],
+      "inner_box": [
+        427,
+        37,
+        487,
+        53
+      ],
+      "target_ko": "스트라이크",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8ba4696f11e6d7b799bdfdf8441b97d5cdea33a9c6cdf7c7542ccd2def95078a"
+    },
+    {
+      "id": "SELECT_NAME_Q1263",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        1,
+        37,
+        51,
+        53
+      ],
+      "inner_box": [
+        1,
+        37,
+        51,
+        53
+      ],
+      "target_ko": "이지스",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e46a3362230ec4240f2be224a109e1335c227feda12240d665b9e683a7727ae6"
+    },
+    {
+      "id": "SELECT_NAME_Q1264",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        76,
+        55,
+        142,
+        71
+      ],
+      "inner_box": [
+        76,
+        55,
+        142,
+        71
+      ],
+      "target_ko": "임펄스",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2e2d5dda742f29e027caf44aa054d0330b1de839dde899b2204af402ab6a16d1"
+    },
+    {
+      "id": "SELECT_NAME_Q1265",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        144,
+        55,
+        203,
+        71
+      ],
+      "inner_box": [
+        144,
+        55,
+        203,
+        71
+      ],
+      "target_ko": "프리덤",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "544511ce96dc6e11bf87ada5abc2a433d6f8d2c9430a627da34f7dda5f2ae3ae"
+    },
+    {
+      "id": "SELECT_NAME_Q1266",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        205,
+        55,
+        278,
+        71
+      ],
+      "inner_box": [
+        205,
+        55,
+        278,
+        71
+      ],
+      "target_ko": "캠퍼",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4bea4c15da97b61148e57abd854f39b58bfcfd01da44d113e43959c24693b856"
+    },
+    {
+      "id": "SELECT_NAME_Q1267",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        310,
+        55,
+        370,
+        71
+      ],
+      "inner_box": [
+        310,
+        55,
+        370,
+        71
+      ],
+      "target_ko": "알렉스",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6edcf91ec883926f6bc8f6640daf4e504c08c7784d45bd24afded83ecd88cdb7"
+    },
+    {
+      "id": "SELECT_NAME_Q1268",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        405,
+        55,
+        435,
+        71
+      ],
+      "inner_box": [
+        405,
+        55,
+        435,
+        71
+      ],
+      "target_ko": "호기",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a1919f9f0597a614743522036dfa8b248e580b400122f8978c3e0da83eb0eead"
+    },
+    {
+      "id": "SELECT_NAME_Q1269",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        372,
+        55,
+        403,
+        71
+      ],
+      "inner_box": [
+        372,
+        55,
+        403,
+        71
+      ],
+      "target_ko": "시작",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3277c408c329f0a67d6b48772130f5a146340b1700eed5cbada056a5f7049384"
+    },
+    {
+      "id": "SELECT_NAME_Q1272",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        1,
+        73,
+        46,
+        89
+      ],
+      "inner_box": [
+        1,
+        73,
+        46,
+        89
+      ],
+      "target_ko": "육전형",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c1ace54137d28958b1a24adf67021857a3e766d3f866ac7e4ac3be35c195ed59"
+    },
+    {
+      "id": "SELECT_NAME_Q1273",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        178,
+        109,
+        229,
+        125
+      ],
+      "inner_box": [
+        178,
+        109,
+        229,
+        125
+      ],
+      "target_ko": "커스텀",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "72ca77dcb6c670d87d731388c3b0e5cfcad74064ad568230e705f5b196bedd5c"
+    },
+    {
+      "id": "SELECT_NAME_Q1274",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        48,
+        73,
+        78,
+        89
+      ],
+      "inner_box": [
+        48,
+        73,
+        78,
+        89
+      ],
+      "target_ko": "구프",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9c081870d7e6abbef9e3f81be9c0557d795b68db2a437f64f0a3f0130e363fd0"
+    },
+    {
+      "id": "SELECT_NAME_Q1275",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        265,
+        37,
+        317,
+        53
+      ],
+      "inner_box": [
+        265,
+        37,
+        317,
+        53
+      ],
+      "target_ko": "엑시아",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6610e5d0a6655005bbb04673c1e62d5711dbfc0cb75229eb51829826127e0397"
+    },
+    {
+      "id": "SELECT_NAME_Q1276",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        1,
+        55,
+        74,
+        71
+      ],
+      "inner_box": [
+        1,
+        55,
+        74,
+        71
+      ],
+      "target_ko": "데스티니",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c51890493da12677124fd6662f4071a307ce06f0f05866dc952f8a46fd0ca00e"
+    },
+    {
+      "id": "SELECT_NAME_Q1278",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        280,
+        55,
+        308,
+        71
+      ],
+      "inner_box": [
+        280,
+        55,
+        308,
+        71
+      ],
+      "target_ko": "백식",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9296d03522b1c1f1995194e5fa6b73f8ea7e3c910a1ffac0c456193920fed004"
+    },
+    {
+      "id": "SELECT_NAME_Q1279",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        80,
+        73,
+        121,
+        89
+      ],
+      "inner_box": [
+        80,
+        73,
+        121,
+        89
+      ],
+      "target_ko": "함마",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f99295a4f0197d2bf7db4225903d3199ae90c2206be132910d113aea468f7dc6"
+    },
+    {
+      "id": "SELECT_NAME_Q1281",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        1,
+        91,
+        48,
+        107
+      ],
+      "inner_box": [
+        1,
+        91,
+        48,
+        107
+      ],
+      "target_ko": "게드라프",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8e0b73e69a854d00a381ac667a3f215a6a9d69682a122bebed6bd24e636368c9"
+    },
+    {
+      "id": "SELECT_NAME_Q1282",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        123,
+        73,
+        176,
+        89
+      ],
+      "inner_box": [
+        123,
+        73,
+        176,
+        89
+      ],
+      "target_ko": "노벨",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3f4c5decbba868b1f236275b5fcc14ba7a01978c4cad73a28882cd8be5b209d7"
+    },
+    {
+      "id": "SELECT_NAME_Q1283",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        50,
+        91,
+        141,
+        107
+      ],
+      "inner_box": [
+        50,
+        91,
+        141,
+        107
+      ],
+      "target_ko": "데스사이즈 헬",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d99b0c8ba20e10a07e9d11af195d5e2e52e74c8bd2b4eb68970cf218c691b747"
+    },
+    {
+      "id": "SELECT_NAME_Q1284",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        296,
+        91,
+        359,
+        107
+      ],
+      "inner_box": [
+        296,
+        91,
+        359,
+        107
+      ],
+      "target_ko": "톨기스",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "200bbc5fb61144113f0500ae4e0612d4f408524b85edda018baebdf8ff00ca2b"
+    },
+    {
+      "id": "SELECT_NAME_Q1285",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        143,
+        91,
+        180,
+        107
+      ],
+      "inner_box": [
+        143,
+        91,
+        180,
+        107
+      ],
+      "target_ko": "턴",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "94e2f26d9301e1aa4902a2c72d77c3926df23ee2ff23e173ba765db9116f0fdd"
+    },
+    {
+      "id": "SELECT_NAME_Q1286",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        182,
+        91,
+        233,
+        107
+      ],
+      "inner_box": [
+        182,
+        91,
+        233,
+        107
+      ],
+      "target_ko": "아카츠키",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "616a7d54208358830aac3a931a880544ded39f8d2cdc02b52171a14e46ad9008"
+    },
+    {
+      "id": "SELECT_NAME_Q1287",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        235,
+        91,
+        294,
+        107
+      ],
+      "inner_box": [
+        235,
+        91,
+        294,
+        107
+      ],
+      "target_ko": "바체",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c76413341c2bfcd7e5244d1547b84d42b0233f7ee2d2957561fda589c7146cd3"
+    },
+    {
+      "id": "SELECT_NAME_Q1288",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        437,
+        55,
+        503,
+        71
+      ],
+      "inner_box": [
+        437,
+        55,
+        503,
+        71
+      ],
+      "target_ko": "유니콘",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "46003400e84554e535b6439db4315d0e6ce62654786c78fbc71687f6b8c0caee"
+    },
+    {
+      "id": "SELECT_NAME_Q1289",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        178,
+        73,
+        253,
+        89
+      ],
+      "inner_box": [
+        178,
+        73,
+        253,
+        89
+      ],
+      "target_ko": "슈피겔",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9b8fd8d6a602910fd66674c3165f79c85bdc8dbe23a8cdcc18494cef72b7b027"
+    },
+    {
+      "id": "SELECT_NAME_Q1290",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        346,
+        73,
+        451,
+        89
+      ],
+      "inner_box": [
+        346,
+        73,
+        451,
+        89
+      ],
+      "target_ko": "어설트 슈라우드",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "bf760e36da0c39d7cb647ae0c8feea9a267ee78a1e4dcc4138aaca904be522bf"
+    },
+    {
+      "id": "SELECT_NAME_Q1291",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        361,
+        91,
+        413,
+        107
+      ],
+      "inner_box": [
+        361,
+        91,
+        413,
+        107
+      ],
+      "target_ko": "듀얼",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e2fedbb5571ce212532d41b6bc88feb9a194adf505e4f54154bf85a78c476031"
+    },
+    {
+      "id": "SELECT_NAME_Q1292",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        415,
+        91,
+        468,
+        107
+      ],
+      "inner_box": [
+        415,
+        91,
+        468,
+        107
+      ],
+      "target_ko": "에피온",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c4e9e6645ebf7c023e4754c5181feb1774d573185e8afd6bb463b5f8d12ba23e"
+    },
+    {
+      "id": "SELECT_NAME_Q1294",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        377,
+        19,
+        452,
+        35
+      ],
+      "inner_box": [
+        377,
+        19,
+        452,
+        35
+      ],
+      "target_ko": "샤이닝",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "21c2ef1aff7f633578cf8df361b97af9a78a912c4d23acb6b4031d1fd7dee9b9"
+    },
+    {
+      "id": "SELECT_NAME_Q1296",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        372,
+        109,
+        488,
+        125
+      ],
+      "inner_box": [
+        372,
+        109,
+        488,
+        125
+      ],
+      "target_ko": "더블오 라이저",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "40b12bcf395b5e287860e639dbb55a9d5af006b4399ac8786fe1ad52f73c0b81"
+    },
+    {
+      "id": "SELECT_NAME_Q1297",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        255,
+        73,
+        316,
+        89
+      ],
+      "inner_box": [
+        255,
+        73,
+        316,
+        89
+      ],
+      "target_ko": "리본즈",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e6aedf4a85207c5c44ca60af1071af5e0e2801fa376d797c2fbeb4b8516b2327"
+    },
+    {
+      "id": "SELECT_NAME_Q1298",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        470,
+        91,
+        504,
+        107
+      ],
+      "inner_box": [
+        470,
+        91,
+        504,
+        107
+      ],
+      "target_ko": "디오",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "285b2de8d39e9cf8ee79a70ed7094ef6e33549088f8f46d42c5804f7bb960384"
+    },
+    {
+      "id": "SELECT_NAME_Q1299",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        138,
+        109,
+        176,
+        125
+      ],
+      "inner_box": [
+        138,
+        109,
+        176,
+        125
+      ],
+      "target_ko": "나타쿠",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ea30e9c2f7ea911462fed798cc2530a62e7c008e737b3705a5ec6a9e67bcf439"
+    },
+    {
+      "id": "SELECT_NAME_Q1300",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        231,
+        109,
+        284,
+        125
+      ],
+      "inner_box": [
+        231,
+        109,
+        284,
+        125
+      ],
+      "target_ko": "지옹",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8fa2a4ca31afe0d1fd4ea816f845db1ff44c64f348a32c243b68721e287d0eae"
+    },
+    {
+      "id": "SELECT_NAME_Q1301",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        286,
+        109,
+        370,
+        125
+      ],
+      "inner_box": [
+        286,
+        109,
+        370,
+        125
+      ],
+      "target_ko": "프로비던스",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "94632c70564308a215aed5f70818e443cebfd4a64c160ed9c96a0c98d8069916"
+    },
+    {
+      "id": "SELECT_NAME_Q1302",
+      "asset": "sel02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        512,
+        128
+      ],
+      "box": [
+        68,
+        109,
+        136,
+        125
+      ],
+      "inner_box": [
+        68,
+        109,
+        136,
+        125
+      ],
+      "target_ko": "크샤트리아",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "0e22e5325ebea5ff10e60d94f6d29c7ec3643e07f4b51315f16c88570ac89bdc"
+    }
+  ]
+}

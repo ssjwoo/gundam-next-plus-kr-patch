@@ -80,7 +80,7 @@ def main():
         for off,data,_ in writes:
             f.seek(off)
             f.write(data)
-    ranges=[(off,off+len(data)) for off,data,_ in writes]
+    ranges=sorted((off,off+len(data)) for off,data,_ in writes)
     changed=0
     with a.baseline_iso.open('rb') as f0,a.output_iso.open('rb') as f1:
         at=0
@@ -88,10 +88,18 @@ def main():
             after=f1.read(len(before))
             assert len(after)==len(before)
             if before!=after:
-                for i,(x,y) in enumerate(zip(before,after)):
-                    if x!=y:
-                        assert any(lo<=at+i<hi for lo,hi in ranges),'Unexpected disc change'
-                        changed+=1
+                # Compare protected gaps directly. Counting differences only in
+                # verified extents avoids scanning every extent for every byte.
+                cursor=0
+                for lo,hi in ranges:
+                    start=max(0,lo-at)
+                    end=min(len(before),hi-at)
+                    if start>=end:
+                        continue
+                    assert before[cursor:start]==after[cursor:start],'Unexpected disc change'
+                    changed+=sum(x!=y for x,y in zip(before[start:end],after[start:end]))
+                    cursor=end
+                assert before[cursor:]==after[cursor:],'Unexpected disc change'
             at+=len(before)
         assert not f1.read(1)
     with iso9660.Iso.from_path(a.output_iso) as iso:

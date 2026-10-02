@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "development_only": true,
+  "approved": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_scope_complete": false,
+  "edited_regions": 3,
+  "rows": [
+    {
+      "id": "MAIN_GAME_LOGO",
+      "target_ko": "건담 VS. 건담",
+      "box": [
+        23,
+        39,
+        219,
+        79
+      ],
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "asset": "menu.pzz",
+      "part": 1,
+      "picture": 3,
+      "source_pzz_sha256": "c160c8a1f1dee53c766a981acb627a88f0da229e22e5e870a528ecc75ccd5013"
+    },
+    {
+      "id": "MAIN_GAME_HEADER",
+      "target_ko": "기동전사 건담",
+      "box": [
+        13,
+        35,
+        73,
+        44
+      ],
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "asset": "menu.pzz",
+      "part": 1,
+      "picture": 3,
+      "source_pzz_sha256": "c160c8a1f1dee53c766a981acb627a88f0da229e22e5e870a528ecc75ccd5013"
+    },
+    {
+      "id": "MAIN_GAME_NEXT_SUBTITLE",
+      "target_ko": "넥스트 플러스",
+      "box": [
+        104,
+        97,
+        155,
+        106
+      ],
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "asset": "menu.pzz",
+      "part": 1,
+      "picture": 3,
+      "source_pzz_sha256": "c160c8a1f1dee53c766a981acb627a88f0da229e22e5e870a528ecc75ccd5013"
+    }
+  ]
+}

@@ -1,0 +1,710 @@
+{
+  "schema_version": 2,
+  "development_only": true,
+  "approved": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_scope_complete": false,
+  "edited_regions": 25,
+  "edited_assets": 13,
+  "source_series_assets": 18,
+  "source_japanese_series_assets": 17,
+  "all_identified_japanese_labels_replaced_assets": [
+    "stitle00.pzz",
+    "stitle01.pzz",
+    "stitle03.pzz",
+    "stitle04.pzz",
+    "stitle05.pzz",
+    "stitle06.pzz",
+    "stitle07.pzz",
+    "stitle0d.pzz",
+    "stitle0e.pzz",
+    "stitle02.pzz",
+    "stitle08.pzz"
+  ],
+  "remaining_japanese_assets": [
+    "stitle09.pzz",
+    "stitle0a.pzz",
+    "stitle0b.pzz",
+    "stitle0c.pzz",
+    "stitle0f.pzz",
+    "stitle10.pzz"
+  ],
+  "original_english_only_asset": "stitle11.pzz",
+  "rows": [
+    {
+      "id": "SERIES_00_HEADER",
+      "asset": "stitle00.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        143,
+        0,
+        248,
+        22
+      ],
+      "inner_box": [
+        143,
+        0,
+        248,
+        22
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "cde26ff54cfd0c6b46669af6996b73062b21718a9fc5f114998087ac352e0b08"
+    },
+    {
+      "id": "SERIES_00_TITLE",
+      "asset": "stitle00.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        74,
+        22,
+        251,
+        83
+      ],
+      "inner_box": [
+        74,
+        22,
+        251,
+        83
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "fdd253ade16d78697adca65b0337a6a0645c9f0abc974329fc9fafdd3618a8dd"
+    },
+    {
+      "id": "SERIES_01_HEADER_FIRST",
+      "asset": "stitle01.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        225,
+        0,
+        256,
+        30
+      ],
+      "inner_box": [
+        225,
+        0,
+        256,
+        30
+      ],
+      "target_ko": "기",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "218cec5f51bd8d04433100e95818c9804d554d2cba6ff71738dbe2e6a8e8f7f6"
+    },
+    {
+      "id": "SERIES_01_HEADER_REST",
+      "asset": "stitle01.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        24,
+        79,
+        53
+      ],
+      "inner_box": [
+        0,
+        24,
+        79,
+        53
+      ],
+      "target_ko": "동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c78bd25a361daa33babbab41bb70f42123567c3cf0a6ddb47dbd3eceb8c544eb"
+    },
+    {
+      "id": "SERIES_02_HEADER",
+      "asset": "stitle02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        29,
+        7,
+        126,
+        33
+      ],
+      "inner_box": [
+        29,
+        7,
+        126,
+        33
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "dc0df3e4d45a357b0a7e873789fe49615bd27fb909fd9b2673c1c4ffd1b02cb6"
+    },
+    {
+      "id": "SERIES_03_HEADER",
+      "asset": "stitle03.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        48,
+        14,
+        152,
+        34
+      ],
+      "inner_box": [
+        48,
+        14,
+        152,
+        34
+      ],
+      "target_ko": "기동전사 건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2493b2ecfa558a5c505f10d714d470cb683cd46903eab95826d69c4b63199a2b"
+    },
+    {
+      "id": "SERIES_03_SUBTITLE",
+      "asset": "stitle03.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        63,
+        83,
+        253,
+        121
+      ],
+      "inner_box": [
+        63,
+        83,
+        253,
+        121
+      ],
+      "target_ko": "역습의 샤아",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e1375b30e89497620a1947cdd8818a6f87e7423aaec35461de1969aa6b2e5ad5"
+    },
+    {
+      "id": "SERIES_04_HEADER",
+      "asset": "stitle04.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        17,
+        21,
+        140,
+        39
+      ],
+      "inner_box": [
+        17,
+        21,
+        140,
+        39
+      ],
+      "target_ko": "기동전사 건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8b4f9aa9858555be8a5c7ca7f05f3df77a54f14b656ed6f7a1f531198b83933a"
+    },
+    {
+      "id": "SERIES_05_HEADER",
+      "asset": "stitle05.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        64,
+        0,
+        160,
+        26
+      ],
+      "inner_box": [
+        64,
+        0,
+        160,
+        26
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "61f6cbae1a27c73e4c4721f1cc76089ee4981a139aa96c649d1bd0f8c080d12d"
+    },
+    {
+      "id": "SERIES_06_HEADER",
+      "asset": "stitle06.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        94,
+        29,
+        256,
+        68
+      ],
+      "inner_box": [
+        94,
+        29,
+        256,
+        68
+      ],
+      "target_ko": "기동무투전",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "1835c15dc4989f7703fd760f6ed8903680d74feae5b66101a630f10240b8002b"
+    },
+    {
+      "id": "SERIES_07_HEADER",
+      "asset": "stitle07.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        34,
+        26,
+        124,
+        48
+      ],
+      "inner_box": [
+        34,
+        26,
+        124,
+        48
+      ],
+      "target_ko": "신기동전기",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "538bb0b38548266128432de20a177adca47c50b20c0a4a5e233eb69d960cf002"
+    },
+    {
+      "id": "SERIES_07_WING",
+      "asset": "stitle07.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        165,
+        21,
+        207,
+        37
+      ],
+      "inner_box": [
+        165,
+        21,
+        207,
+        37
+      ],
+      "target_ko": "윙",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4fcf54fb6f63377e4aa2b1617808c5c173f45dd55d115bf3df36780542ed45e2"
+    },
+    {
+      "id": "SERIES_08_HEADER",
+      "asset": "stitle08.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        8,
+        0,
+        123,
+        30
+      ],
+      "inner_box": [
+        8,
+        0,
+        123,
+        30
+      ],
+      "target_ko": "기동신세기",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "38a222015643f156ccae1dae56f3ff71c596599cfda9ab32bea04384c8a60eb6"
+    },
+    {
+      "id": "SERIES_0d_HEADER",
+      "asset": "stitle0d.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        52,
+        6,
+        238,
+        29
+      ],
+      "inner_box": [
+        52,
+        6,
+        238,
+        29
+      ],
+      "target_ko": "기동전사 건담 0083",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9837ec5b4fcc3e8c7e72759868a97062161dfc8d695123c53ecbe2a87b0da5f1"
+    },
+    {
+      "id": "SERIES_0e_HEADER",
+      "asset": "stitle0e.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        122,
+        28,
+        256,
+        51
+      ],
+      "inner_box": [
+        122,
+        28,
+        256,
+        51
+      ],
+      "target_ko": "기동전사 건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "007b00762b39d135eb63cb0126b582f11c2091ff6f11fa36846f5d2a55d52675"
+    },
+    {
+      "id": "SERIES_0e_PREFIX",
+      "asset": "stitle0e.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        38,
+        45,
+        97
+      ],
+      "inner_box": [
+        0,
+        38,
+        45,
+        97
+      ],
+      "target_ko": "제",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "bdaea82d761568b8b15ef9052c01ac15f70e6d072487bb3dd8eb530337179099"
+    },
+    {
+      "id": "SERIES_0e_SUFFIX",
+      "asset": "stitle0e.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        181,
+        52,
+        256,
+        97
+      ],
+      "inner_box": [
+        181,
+        52,
+        256,
+        97
+      ],
+      "target_ko": "소대",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5ed4bc3486600c89582b675e6598c774c720ec2d36c03b32e5ca9feb9d332289"
+    },
+    {
+      "id": "SERIES_0f_HEADER",
+      "asset": "stitle0f.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        12,
+        13,
+        60,
+        25
+      ],
+      "inner_box": [
+        12,
+        13,
+        60,
+        25
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "401bbb339aa7fb872270357c3fafd233ba9f47a394623bc5f96a3c59398ad18d"
+    },
+    {
+      "id": "SERIES_10_HEADER",
+      "asset": "stitle10.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        95,
+        16,
+        153,
+        31
+      ],
+      "inner_box": [
+        95,
+        16,
+        153,
+        31
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "50934ffec6c88a53dc6c4f0dca748cb5ba9bf0db018456fd9a678b3b9e44f7b6"
+    },
+    {
+      "id": "SERIES_01_TITLE",
+      "asset": "stitle01.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        80,
+        35,
+        256,
+        108
+      ],
+      "inner_box": [
+        80,
+        35,
+        256,
+        108
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "287ad6afb4dac116a3da2c8d8118aab20f35b957b91300af776457edd4498a07"
+    },
+    {
+      "id": "SERIES_05_TITLE",
+      "asset": "stitle05.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        11,
+        26,
+        255,
+        91
+      ],
+      "inner_box": [
+        11,
+        26,
+        255,
+        91
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "0488662cec324d0947656438009d7b02cf74d66527b31d04aa0b5284bb4645d1"
+    },
+    {
+      "id": "SERIES_06_TITLE",
+      "asset": "stitle06.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        60,
+        68,
+        256,
+        123
+      ],
+      "inner_box": [
+        60,
+        68,
+        256,
+        123
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "cb1b3397bf1a67d8c6b12c97ec923bef2f80e99f52a82867fa4f29e97db72094"
+    },
+    {
+      "id": "SERIES_07_TITLE",
+      "asset": "stitle07.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        49,
+        154,
+        102
+      ],
+      "inner_box": [
+        0,
+        49,
+        154,
+        102
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a8a5fbbc77e30b63a1fab2f8c0431a80ce426a35df0eaf33debbfa2030a97b2c"
+    },
+    {
+      "id": "SERIES_02_TITLE",
+      "asset": "stitle02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        33,
+        126,
+        86
+      ],
+      "inner_box": [
+        0,
+        33,
+        126,
+        86
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "96b004f3f8dec59e865a8a913ef21876c87183c6497388a451a94944715342f1"
+    },
+    {
+      "id": "SERIES_08_TITLE",
+      "asset": "stitle08.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        31,
+        138,
+        88
+      ],
+      "inner_box": [
+        0,
+        31,
+        138,
+        88
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5b5239a3f1feb07618c48abc1c9e3d13d61416883cdd6af0809877cccfcd1284"
+    }
+  ]
+}
