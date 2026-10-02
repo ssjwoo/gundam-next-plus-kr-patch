@@ -1,95 +1,4072 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "development_only": true,
+  "approved": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_scope_complete": false,
+  "unique_labels": 205,
+  "label_instances": 335,
+  "assets": 66,
   "rows": [
     {
-      "id": "NP_SKILL00_ALL_STATS",
-      "asset": "trsk00.pzz/part_001/picture_000",
+      "id": "S000",
       "target_ko": "전 성능 강화 LV.1",
-      "box": [
-        1,
-        0,
-        88,
-        16
-      ],
-      "font_size": 10,
       "approved": false,
       "status": "development_source_reviewed",
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8cf19641662668b8c30c352ef19508aacbf2ef5fc1e9a06fe5721b900295dfdf",
+      "instances": [
+        {
+          "asset": "trsk00.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
     },
     {
-      "id": "NP_SKILL00_POWER",
-      "asset": "trsk00.pzz/part_001/picture_000",
+      "id": "S001",
       "target_ko": "파워 강화 LV.2",
-      "box": [
-        1,
-        16,
-        88,
-        32
-      ],
-      "font_size": 10,
       "approved": false,
       "status": "development_source_reviewed",
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "23fa0f428240c39f4656907033abbc16684365d287ef19ae5b0d55cdccf9fd7f",
+      "instances": [
+        {
+          "asset": "trsk00.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
     },
     {
-      "id": "NP_SKILL00_SPEED",
-      "asset": "trsk00.pzz/part_001/picture_000",
+      "id": "S002",
       "target_ko": "스피드 강화 LV.2",
-      "box": [
-        1,
-        32,
-        94,
-        48
-      ],
-      "font_size": 10,
       "approved": false,
       "status": "development_source_reviewed",
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "751d61a77aff7efacd27619880b543a2eac70ca35f64da9cac476eb6bed7da0f",
+      "instances": [
+        {
+          "asset": "trsk00.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
     },
     {
-      "id": "NP_SKILL00_BOOST",
-      "asset": "trsk00.pzz/part_001/picture_000",
-      "target_ko": "부스트 강화 LV.3/3",
-      "box": [
-        1,
-        48,
-        102,
-        64
-      ],
-      "font_size": 10,
+      "id": "S003",
+      "target_ko": "부스트 강화 LV.3β",
       "approved": false,
       "status": "development_source_reviewed",
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a97d3a877009121b9c5a4b221a9b0dd42d00d574c1cdce1f0b35be1b4eba91e1",
+      "instances": [
+        {
+          "asset": "trsk00.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
     },
     {
-      "id": "NP_SKILL00_FATHER",
-      "asset": "trsk00.pzz/part_001/picture_000",
+      "id": "S004",
       "target_ko": "아버지가 푹 빠질 만하군",
-      "box": [
-        1,
-        64,
-        113,
-        80
-      ],
-      "font_size": 10,
       "approved": false,
       "status": "development_source_reviewed",
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6687c0d8af65642ef8a894d54749b79b7ebcff10b5bf8f22336502eb2ad057f6",
+      "instances": [
+        {
+          "asset": "trsk00.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
     },
     {
-      "id": "NP_SKILL00_FIGHT",
-      "asset": "trsk00.pzz/part_001/picture_000",
+      "id": "S005",
       "target_ko": "우리가 싸워야 해...!",
-      "box": [
-        1,
-        80,
-        102,
-        96
-      ],
-      "font_size": 10,
       "approved": false,
       "status": "development_source_reviewed",
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "aef62a71570e4d83b707783701b98791f9720aa7342c70c8dcded10d3891f350",
+      "instances": [
+        {
+          "asset": "trsk00.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 5
+        }
+      ]
+    },
+    {
+      "id": "S006",
+      "target_ko": "GP 증가",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "0d67c8c9446d67ccbd1ada66a94dd6c5465bf8c170471c7bfcae333c25e37537",
+      "instances": [
+        {
+          "asset": "trsk01.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk08.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk34.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S007",
+      "target_ko": "빠른 재장전",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "1c7ce070d7534f0baf49d2e33fdc250c70d54b57cb1b43270858ff241dd7b92b",
+      "instances": [
+        {
+          "asset": "trsk01.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk13.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S008",
+      "target_ko": "빠른 재장전 α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "66dc20c62684ed048a74082767705c41565cdebd1d554d83469fafb55dd8bec3",
+      "instances": [
+        {
+          "asset": "trsk01.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S009",
+      "target_ko": "장갑 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "cc6ba48f2f6ea6acc7b4b5ef191a9530cb9a5f674620decf66038bab9dea1f5e",
+      "instances": [
+        {
+          "asset": "trsk01.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S010",
+      "target_ko": "무, 물러서지 않아!!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d45f7764661e47b7e7c3f6da5f9652861eb99cf8ed1742118bd09da8c58fa69a",
+      "instances": [
+        {
+          "asset": "trsk01.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S011",
+      "target_ko": "장갑 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "dde710817231784cc1c1395e8d885813743c6667ee02ba2df83ded19745d0459",
+      "instances": [
+        {
+          "asset": "trsk02.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S012",
+      "target_ko": "사거리 확장",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ef37453e7c1825288111974c804529b55af1afe0067f79d3382342d75fe208b0",
+      "instances": [
+        {
+          "asset": "trsk02.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk09.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk13.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk14.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk2d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk44.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S013",
+      "target_ko": "사거리 확장 α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9edd6c378d414bcb2d8dd1b473c437142cf797f0ad3fedba51e06d204b0460cf",
+      "instances": [
+        {
+          "asset": "trsk02.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S014",
+      "target_ko": "방어 특화 β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6f37b43e49a7aca73641d9b6521d1ad5683e69e13c02338496e6fabd6e5cbdee",
+      "instances": [
+        {
+          "asset": "trsk02.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S015",
+      "target_ko": "튼튼하게 만들었거든요",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8579121fed8e4c81e9192eb9b32c2bcd7b5280fdf8f35bfb7f675c00253c4412",
+      "instances": [
+        {
+          "asset": "trsk02.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S016",
+      "target_ko": "전력 보충 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "31f3a1ee4d5158abc68eedcc3579e49f63f0332abbc4abef392c5ecd3bc198b9",
+      "instances": [
+        {
+          "asset": "trsk03.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S017",
+      "target_ko": "스킬 제거",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "883afa3f6299034c0af86e1fe9be16ea72cd2cddc0e55e7cf313ce7c67dcc8f7",
+      "instances": [
+        {
+          "asset": "trsk03.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk15.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk1f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk24.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk32.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk43.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S018",
+      "target_ko": "지휘의 진수",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9a3b41d6b9c4ceca5bedcd09cd86e6887972207481518e48384ddc8730b9547c",
+      "instances": [
+        {
+          "asset": "trsk03.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk0a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk33.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S019",
+      "target_ko": "스피드 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6d709a2de5b5e3c87e1551d5942936921eda5baaab6676517ddaa2712aa8fd25",
+      "instances": [
+        {
+          "asset": "trsk03.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S020",
+      "target_ko": "가면의 의미",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "370f1662c0cb7f511b365457b493c79e4da7d8428c48135de399ef29dee57342",
+      "instances": [
+        {
+          "asset": "trsk03.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S021",
+      "target_ko": "붉은 혜성",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "075686391e171f3b3b643df046ff6126f6e1521093e75e076bbf694a8b4011e0",
+      "instances": [
+        {
+          "asset": "trsk03.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 5
+        }
+      ]
+    },
+    {
+      "id": "S022",
+      "target_ko": "부스트 강화 LV.1α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4d7b9ac99e60976a111fa7634ce418e0b434918522ed9327483998172e9e87e3",
+      "instances": [
+        {
+          "asset": "trsk04.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S023",
+      "target_ko": "스피드 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "593b0baebaf6b19133c197a7f3546e4c53a53c5822ab98f24e2e5a75f22a88cf",
+      "instances": [
+        {
+          "asset": "trsk04.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S024",
+      "target_ko": "부스트 강화 LV.3α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ba7025ec420edb504a48506764b56b6451c1b8a5555cc2a6bf1f6c7c83f954c1",
+      "instances": [
+        {
+          "asset": "trsk04.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S025",
+      "target_ko": "스피드 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e6c8ce7631650b51b6823c16138fe7eae630d02716a86d46456a3f0733f49e1e",
+      "instances": [
+        {
+          "asset": "trsk04.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S026",
+      "target_ko": "소문만큼은 아니네!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "45e6965bcc3f0707596cf3a4a41c5b57c8ae338ca822bbe09ce8bcef49babde1",
+      "instances": [
+        {
+          "asset": "trsk04.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S027",
+      "target_ko": "EXP 증가",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2f68bda5cd5b5665814b90c9da4de69f7cfac70ad15be62763574d2b162d6a11",
+      "instances": [
+        {
+          "asset": "trsk05.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk09.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk0f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk30.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S028",
+      "target_ko": "GP 증가+",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2cd20c88c0651a6ef2851790d60fe59490d30ba7769b1be2695319fbd32a85b6",
+      "instances": [
+        {
+          "asset": "trsk05.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk0b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk14.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk28.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk39.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S029",
+      "target_ko": "EXP 증가+",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "015071d4259a06bfba1d0d475a3fd45a9453e98d57f84ffc9a0f62f32d3dbea2",
+      "instances": [
+        {
+          "asset": "trsk05.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk2d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk36.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk39.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S030",
+      "target_ko": "전력 보충 LV.3",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c7da16bb0b34a5bcebcab8f776d55471db9675360280a1e2b60224062ecf632e",
+      "instances": [
+        {
+          "asset": "trsk05.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S031",
+      "target_ko": "한꺼번에 덤벼라!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c6a6476dfd39901104efbfd3822a59a96f3badb3f371bc4f0238f8ff03235bac",
+      "instances": [
+        {
+          "asset": "trsk05.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S032",
+      "target_ko": "부스트 강화 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "7f1552bea1a7e4f8f7b72d2864cf0238c81243d8205faf9d7af904de16b73317",
+      "instances": [
+        {
+          "asset": "trsk06.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S033",
+      "target_ko": "파워 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e3dec9f70e53b3c62bc57746359a2c4db7e5de47d2221c29cac09a4366dc47eb",
+      "instances": [
+        {
+          "asset": "trsk06.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S034",
+      "target_ko": "전 성능 강화 LV.2β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "92433fd7f6bfdd1c50e3a15b0c1883a62525d4ee57e95d95de66d3bf16ec40fb",
+      "instances": [
+        {
+          "asset": "trsk06.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S035",
+      "target_ko": "부스트 강화 LV.3",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "30b93543826b128e7716c907aee7026c86e408eaf2e3d312aebf1e10d00d2d1e",
+      "instances": [
+        {
+          "asset": "trsk06.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S036",
+      "target_ko": "시간의 눈물",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4a02bc23771dbdf61d08d0e77940cdbb694e3e2cdfa0b70136e51731aebbaa62",
+      "instances": [
+        {
+          "asset": "trsk06.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S037",
+      "target_ko": "장갑 강화 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "58fcb1f79bf403363ea3ed0fc6f57b74f382c05b04ca8d6e6fbcbd933dabfe0e",
+      "instances": [
+        {
+          "asset": "trsk07.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S038",
+      "target_ko": "전 성능 강화 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "721f67644a016b3ca9dfc0971993ef2486e9df731996e21aaefd7ec1c4536749",
+      "instances": [
+        {
+          "asset": "trsk07.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S039",
+      "target_ko": "빠른 재장전 α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "80aa50bd32dbc364bc2207f5283d21b3fb4647799f5d717c0b685c10b8d3e662",
+      "instances": [
+        {
+          "asset": "trsk07.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S040",
+      "target_ko": "장갑 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "10c290842a6ee8be77a8a355595957a1ab4c7dbf1eb86d73c5417e46efe60bc4",
+      "instances": [
+        {
+          "asset": "trsk07.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S041",
+      "target_ko": "내 생명을 빨아들여",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "29443a8776af31ba9ab9eb5cff0d46c0b1c02d3e3cc0a991ce4581ea5aa76d22",
+      "instances": [
+        {
+          "asset": "trsk07.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S042",
+      "target_ko": "장갑 강화 LV.1α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "45010ff4ca2230a9d27d2231e4ff9bb08c9ef8ea165181b73adc0d645487c206",
+      "instances": [
+        {
+          "asset": "trsk08.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk22.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk24.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S043",
+      "target_ko": "파워 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "66e8a401cf19314cb958e7281a05499b92f10dc7ac44682333b2aba8512b8bec",
+      "instances": [
+        {
+          "asset": "trsk08.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk2a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S044",
+      "target_ko": "장갑 강화 LV.4β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ee244afe99d78fe901f0072096cd6a1d452beffa34f3093711900f85d46ac24b",
+      "instances": [
+        {
+          "asset": "trsk08.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk11.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk13.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk1e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk38.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S045",
+      "target_ko": "파워가 차원이 달라!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "b9c7a5b4bb547f70c71d4a81e96a8b87b2d2fb818fec56593fa185e2a02a0161",
+      "instances": [
+        {
+          "asset": "trsk08.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S046",
+      "target_ko": "플플~!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d025face1a32a6628d0ee897acc46ba2f1d89f2d02f2a2ac04f2580bb7dc6f61",
+      "instances": [
+        {
+          "asset": "trsk09.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S047",
+      "target_ko": "부스트 강화 LV.3",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6e9d36b71cc4ab32102d96c7714482424548b050ca89664a06c34416277493ff",
+      "instances": [
+        {
+          "asset": "trsk09.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk0f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        },
+        {
+          "asset": "trsk18.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk31.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk44.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S048",
+      "target_ko": "플플플플~!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "27053b23a2a001de84548b5f7d3638e313c3f3873f3aa70a9a02e7e3ffc691de",
+      "instances": [
+        {
+          "asset": "trsk09.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S049",
+      "target_ko": "전력 보충 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "196892737c8ed177db2025bc97f12f0f0eeab9f3fe2a4c20002fbb52b06d0734",
+      "instances": [
+        {
+          "asset": "trsk0a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk0c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk16.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk1b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk30.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk33.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk41.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk46.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk47.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S050",
+      "target_ko": "역경의 저력 β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "7ffd319976ca28b17a12c48e8ca16d7277428c329255dcb02d178ad7c4dc94f5",
+      "instances": [
+        {
+          "asset": "trsk0a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk14.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S051",
+      "target_ko": "판넬 배리어",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "64e502f71b773e8130d7933f91fdaf781c957251650e905637d179c57ce2c5c5",
+      "instances": [
+        {
+          "asset": "trsk0a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S052",
+      "target_ko": "건담의 힘은...!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f077015cf99a209c4a5de67b07543305fa5e237068f584343c89fc85a78f8bf9",
+      "instances": [
+        {
+          "asset": "trsk0a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S053",
+      "target_ko": "스피드 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8840e328fcfe0418ca5f7ff0930e2e785576a22fcd44ae447553e7c226f98454",
+      "instances": [
+        {
+          "asset": "trsk0b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk11.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk19.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk23.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk25.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk32.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S054",
+      "target_ko": "지크 지온!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "33bb4e9054929741dfa561f6b90f2c8bef3b3cb35f1ee00e0578d723349dfdc0",
+      "instances": [
+        {
+          "asset": "trsk0b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S055",
+      "target_ko": "전 성능 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "acd3ec3571e19680134b06048144dbe5487f26458f0dd5cc51e9321c2fb0e671",
+      "instances": [
+        {
+          "asset": "trsk0b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S056",
+      "target_ko": "숙청하겠다는 것이다",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9e1e848f8eb835ca78f8eeda5a39dbdd1f967c3faee3a163f47802f62b20d527",
+      "instances": [
+        {
+          "asset": "trsk0b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S057",
+      "target_ko": "부스트 강화 LV.1α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6a7ef9a2404f85de7386b11708973b87b974c10463900bb0412eeb7ae429c388",
+      "instances": [
+        {
+          "asset": "trsk0c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk0e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk1b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S058",
+      "target_ko": "전 성능 강화 LV.2β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8b032eb81c186db7208e1ff9f9a494ff83d380103005ac5711f00049ac1eacfa",
+      "instances": [
+        {
+          "asset": "trsk0c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk1b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk1c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk27.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk2d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk2e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk32.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S059",
+      "target_ko": "나한테 맡기면 돼!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "eb0f65d47b9722c211045b11e1cf33052f4545c7a27a9abb76e9839225fa435c",
+      "instances": [
+        {
+          "asset": "trsk0c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S060",
+      "target_ko": "허술하군, 더 움직여!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "792d9f70a8627fc2197409316aefbd957546a0cd239e2d658cdc142fdd2e89ac",
+      "instances": [
+        {
+          "asset": "trsk0c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S061",
+      "target_ko": "스피드 강화 LV.1α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4a8f96873eede43422f66d8690129a522555916d3d4742a11a5ed0beccefb724",
+      "instances": [
+        {
+          "asset": "trsk0d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk29.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk2a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S062",
+      "target_ko": "장갑 강화 LV.2α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8b95c4b13952a9db3ab1e2fb5d7ae29731130b5a9039387427e58c23e0e0049f",
+      "instances": [
+        {
+          "asset": "trsk0d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk0e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk1e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk30.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S063",
+      "target_ko": "날 수 있어...!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6f6bf11927aac98764aae8f90e0c0fa586fc18beb0f4efbfb7493f0710d49754",
+      "instances": [
+        {
+          "asset": "trsk0d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S064",
+      "target_ko": "파워 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f91a37da492e38ea18e3a7773faed909a4bdafa4a27e62a9b6c28042e6c0cccc",
+      "instances": [
+        {
+          "asset": "trsk0d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk19.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk1d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk29.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk2b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk34.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S065",
+      "target_ko": "가면을 못 벗는 당신은",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3938929b695d3cb271bbe4e22cad69e77ebc9d80020bb616beeb213d563f44e4",
+      "instances": [
+        {
+          "asset": "trsk0d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S066",
+      "target_ko": "전력 보충 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "dd1cce996b013af221fa6a6862e3c596610385043f4ead63406ad81cc3723283",
+      "instances": [
+        {
+          "asset": "trsk0e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S067",
+      "target_ko": "방어 특화 β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2ce7818ab9995b1ea5fb491aa036528dd36b08c328cac79fafb8adbdaf2c268f",
+      "instances": [
+        {
+          "asset": "trsk0e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk2f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S068",
+      "target_ko": "비상사태다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "03e081980f4007892155e5d9b425022129d9e973fec67ec7a5e8055251519244",
+      "instances": [
+        {
+          "asset": "trsk0e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S069",
+      "target_ko": "전 성능 강화 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "21f391599c03908bdd8ccdb4bce22bbc658307eb5f76127666dc322141cbc724",
+      "instances": [
+        {
+          "asset": "trsk0f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk20.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk2e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk41.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S070",
+      "target_ko": "생명을 낳는 여성을 위해",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "759a6c1b74f56aacfb1ea5c3f6ff12cfe3cf17bf065bf288fab5fd093d313e65",
+      "instances": [
+        {
+          "asset": "trsk0f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S071",
+      "target_ko": "전 성능 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "7e9b233b7c4cf9ae07d93722d2e0742501e649541b6c91691439dfab1b6e65bd",
+      "instances": [
+        {
+          "asset": "trsk0f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk37.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S072",
+      "target_ko": "건다아암!!!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f40c047f4d884baa0b7ff728f5dda227f8fea4fcb154e9f6faecdb864d2e5782",
+      "instances": [
+        {
+          "asset": "trsk0f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 5
+        }
+      ]
+    },
+    {
+      "id": "S073",
+      "target_ko": "파이터의 혼",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "147246fbf54e9099347466d3962dfd3d36f1d6e77b94afddf1090303caabfc87",
+      "instances": [
+        {
+          "asset": "trsk10.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S074",
+      "target_ko": "장갑 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5a83bf70d30362aa9e19c294cb55d72f57e522ff18a2bb4c5d0af64e1d179771",
+      "instances": [
+        {
+          "asset": "trsk10.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk2f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk38.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S075",
+      "target_ko": "공격 특화",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d3b638d26025ffb5d8f538667bc3024721224e388fa3df4933e9f8067eb290d6",
+      "instances": [
+        {
+          "asset": "trsk10.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk15.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk17.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk29.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk34.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk45.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S076",
+      "target_ko": "역경의 저력",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3aa42b08456f2decb240b110a7d84793c82fb231881bfe0b45b33064032adb86",
+      "instances": [
+        {
+          "asset": "trsk10.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk1c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S077",
+      "target_ko": "파워 강화 LV.4β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ea98e0f2aa99fa55730b71eee9e95f6b439d8731edc0e32c1413b2a23c415479",
+      "instances": [
+        {
+          "asset": "trsk10.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        },
+        {
+          "asset": "trsk25.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk45.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S078",
+      "target_ko": "불굴의 파이터",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "728d5e7d9d3c87e18ab1fcd490f14b5729e38acfaaa134de97d5c217830fffd7",
+      "instances": [
+        {
+          "asset": "trsk10.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 5
+        }
+      ]
+    },
+    {
+      "id": "S079",
+      "target_ko": "DG 세포",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "059f8ca37cf5504c31908f0847bc8ee9b1e05da645185cd35b465b2230e9315b",
+      "instances": [
+        {
+          "asset": "trsk11.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S080",
+      "target_ko": "병력 운용의 기본",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "1d036b4a6c9e8c43b26c643a9329187aaccba15a86c943dd8935bfd4a1ff4251",
+      "instances": [
+        {
+          "asset": "trsk11.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S081",
+      "target_ko": "자체 재생",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "bd887b57654103d5d2b2943dde49ff9e1b9bfe9e25b37b04c1382da8a2e76367",
+      "instances": [
+        {
+          "asset": "trsk11.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S082",
+      "target_ko": "스피드 강화 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "cfb14e0bb48f742171ff60c9915a91d2dc3d74a524c3d2935d0689a815130b3b",
+      "instances": [
+        {
+          "asset": "trsk12.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk26.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S083",
+      "target_ko": "부스트 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "100a02eddd9aa25f4651e77e1f61ac8f9fcc4ec01a51135ee5e31c97b96baf0a",
+      "instances": [
+        {
+          "asset": "trsk12.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S084",
+      "target_ko": "파워 강화 LV.3",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "dcc8f13ac7cd6703d45087164fe43e9dee82d7a04510098024534199ae377b32",
+      "instances": [
+        {
+          "asset": "trsk12.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk38.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk39.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S085",
+      "target_ko": "부스트 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "785cc32be1ae5203669448b96c30e926fb8e7aec91c4b99678cf84cf3b365e69",
+      "instances": [
+        {
+          "asset": "trsk12.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk24.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk26.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk2c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk46.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S086",
+      "target_ko": "너를 죽이겠다",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d8a5e13cdecf5247e5c975052410114ad1daf2e43d1aa7694ffe2e2c5ba6f408",
+      "instances": [
+        {
+          "asset": "trsk12.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S087",
+      "target_ko": "건담을 본 자는...!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "80ec90e9f4885c7038dc05cff89016a2267d4069666047b05f307fa1434c1081",
+      "instances": [
+        {
+          "asset": "trsk13.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S088",
+      "target_ko": "집중 포화",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4990c4066469782bfaec8537eef31dc3c0efb06f0d4e67dbce886f796c6fb397",
+      "instances": [
+        {
+          "asset": "trsk13.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S089",
+      "target_ko": "당신에게 힘을...!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "27bb1443d8e33b63ec2a23813fc57130fd0b1b8e26a8a628fe22ae87a1abb7cd",
+      "instances": [
+        {
+          "asset": "trsk14.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S090",
+      "target_ko": "불꽃의 MS 파일럿",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c3dda2913881020ce8e820bca787aec3c02b403cb572a6787206e6f2928d4e77",
+      "instances": [
+        {
+          "asset": "trsk14.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S091",
+      "target_ko": "전술적 후퇴",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c8d0875a28e738272b81549ded0c74b109a11df96ba5f0ba1d2655adf5df739c",
+      "instances": [
+        {
+          "asset": "trsk15.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk1c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk42.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk47.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S092",
+      "target_ko": "방어 특화",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3be2f634590ce6c263a841a09059c0c97c211100a298cb7ff185a3d787b97adb",
+      "instances": [
+        {
+          "asset": "trsk15.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk16.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk1e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S093",
+      "target_ko": "내 애마는 사납답니다",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "267efaf64312455cb1b0b61bbc8ad2bf91dbfcc16f0dd85c83861b8a096d9108",
+      "instances": [
+        {
+          "asset": "trsk15.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S094",
+      "target_ko": "나노 스킨",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d7a19d7f491a81d0a9a5294cd25531fb17e1708ba055d5062e6aad89264a7cff",
+      "instances": [
+        {
+          "asset": "trsk16.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S095",
+      "target_ko": "장갑 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "63a4ec616a211f5b6fae0f125e119d6d2da7715adcc1ca9f423ae84163005bdc",
+      "instances": [
+        {
+          "asset": "trsk16.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk28.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk39.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S096",
+      "target_ko": "유니버스!!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "1a43a3bf78ff4f1a755ef12f60239b597903768e78ddbf9800f28599611c5d01",
+      "instances": [
+        {
+          "asset": "trsk16.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S097",
+      "target_ko": "파워 강화 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "bdde9875e7bb6ae226c2da5c358da44e98d8eded973ebb6c3dbffd7817658b05",
+      "instances": [
+        {
+          "asset": "trsk17.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk25.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk29.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S098",
+      "target_ko": "EXP 증가+",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a38a8673e93ec31e0283bb935df78fb61bcdb1abd3f1ee7ee2a050754a71504a",
+      "instances": [
+        {
+          "asset": "trsk17.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S099",
+      "target_ko": "우습게 보지 마~!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2f392ade964e93f567a712bad2d8fda3ab469ecbd2ea0c55fae0036c9fbfa18b",
+      "instances": [
+        {
+          "asset": "trsk17.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S100",
+      "target_ko": "돌격 소녀!?",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d0af7c3c84dab93b9ef7fe780801e0375cdb5fb713dad7d2b154c8ea61ccb323",
+      "instances": [
+        {
+          "asset": "trsk17.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S101",
+      "target_ko": "GP 증가+",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4acee4bbd7fe615262d115a7bd76c937f6d961cbecd0ac127b9b3ddc8ba1ae6e",
+      "instances": [
+        {
+          "asset": "trsk18.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S102",
+      "target_ko": "전 성능 강화 LV.1β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "0a54c04000e99278f5d09d898605fbe1914442fda41ad59b70cf8773e8e35fba",
+      "instances": [
+        {
+          "asset": "trsk18.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S103",
+      "target_ko": "페이즈 시프트",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4aabbd9b15039e21896c38e9db7df3d3dae75e74849dcbb3edfafce7af767afd",
+      "instances": [
+        {
+          "asset": "trsk18.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk19.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S104",
+      "target_ko": "그만해 줘",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "7b67014c06aac1016dae63a8f77815a85d9836fd00f99f1b5bb99e136e492aee",
+      "instances": [
+        {
+          "asset": "trsk18.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S105",
+      "target_ko": "부스트 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8b5e001ea5390a5f434605a7f6c9da0a475e9fd6c4bdd4fa426d195c3146ce94",
+      "instances": [
+        {
+          "asset": "trsk19.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S106",
+      "target_ko": "내가 너를 쓰러뜨린다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "656d64c944220b41f53eddd925c5b4063ba7eb923cf7805bf5b75798c17b24ea",
+      "instances": [
+        {
+          "asset": "trsk19.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S107",
+      "target_ko": "EXP 증가+",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "66d4d55df51847b66ffcb4e2e31aa8aab350b3f20cd60026504234c9dd391b08",
+      "instances": [
+        {
+          "asset": "trsk1a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S108",
+      "target_ko": "부스트 강화 LV.2α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "074eb19b2da250ec0534e7be890d0405ff8dc5eea2ba79d3f43a84fc70b07ab1",
+      "instances": [
+        {
+          "asset": "trsk1a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S109",
+      "target_ko": "스피드 강화 LV.2β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6e50ddbcb156b01f79b4b0a2dc7eefd830457806374eae48b7f4499d751b323e",
+      "instances": [
+        {
+          "asset": "trsk1a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk31.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk47.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S110",
+      "target_ko": "파워 강화 LV.2α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f190d73b2fb66cc663762b0287759a52ae3cf28aa6535a46ae0b1dd3fb21a441",
+      "instances": [
+        {
+          "asset": "trsk1a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S111",
+      "target_ko": "너는 내가 상대한다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "aef9c9575dd31a572981cad00aea2af360845b70d3643a3869949543ef682147",
+      "instances": [
+        {
+          "asset": "trsk1a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S112",
+      "target_ko": "스피드 강화 LV.2α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e2f88f2262d8850db82e21089a24f2e91ba461ee46e899fd0c4968c94e224c1f",
+      "instances": [
+        {
+          "asset": "trsk1b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S113",
+      "target_ko": "자유의 날개",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e6132d08122568d92d1f6e18b407069d0c3f038b7a90017b91dca2e61c656099",
+      "instances": [
+        {
+          "asset": "trsk1b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S114",
+      "target_ko": "EXP 증가+",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d93ee350166562b22eea734ea6ad798b9dd4e6e35c8c7a1682915f26a5ff40cf",
+      "instances": [
+        {
+          "asset": "trsk1c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S115",
+      "target_ko": "훗, 낙승이군",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "7115140b98405956238a02691c937d4c564baeb9165bc05bde21a22586330897",
+      "instances": [
+        {
+          "asset": "trsk1c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S116",
+      "target_ko": "에이스의 기회",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "1c0f1af36ea36601683c46a0ca5e65622de192318ed9797eda08b100b2991a30",
+      "instances": [
+        {
+          "asset": "trsk1c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 5
+        }
+      ]
+    },
+    {
+      "id": "S117",
+      "target_ko": "파워 강화 LV.1α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2fed3f22aa06519a27d091f850d776ac05e696720d1ed0a681fd9bbd581a6ff7",
+      "instances": [
+        {
+          "asset": "trsk1d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk23.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk34.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S118",
+      "target_ko": "싸우는 법을 알려 주마",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c747ed690cfde15d5f64eff901b2e69a100752d926bac2686ca827dcc812c6c4",
+      "instances": [
+        {
+          "asset": "trsk1d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S119",
+      "target_ko": "스피드 강화 LV.3",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "cda0a88d1c85144140a214e71d86d1be64f348714b395cd877b276ce4d79e251",
+      "instances": [
+        {
+          "asset": "trsk1d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S120",
+      "target_ko": "스러져 가는 이들을 위해",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d5e19551ef40c0c31cfbcac4837f5cf189ea91181a8cec6ec0d49193ccda9ea4",
+      "instances": [
+        {
+          "asset": "trsk1d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S121",
+      "target_ko": "연방의 특수 장갑",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "507c83ffbc5ebbe03ba2bf8d97dca27a6b9628b8664037153510032cd2a12d88",
+      "instances": [
+        {
+          "asset": "trsk1e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S122",
+      "target_ko": "초밤 아머",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "33c749a582d1f63c0fbdade66958f0242f6de70f17cef99fd0f3dfb14673c7e9",
+      "instances": [
+        {
+          "asset": "trsk1e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S123",
+      "target_ko": "지휘의 기본",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2b0ea8e0a437c68c58199376edaa813cfec72bd3f773be89cf38654e0e565f2b",
+      "instances": [
+        {
+          "asset": "trsk1f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk27.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S124",
+      "target_ko": "파워 강화 LV.2β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5e1f74da909f7cafe328343b0e9871cd6c8a4827ca4ef9f06027c91010ead1ce",
+      "instances": [
+        {
+          "asset": "trsk1f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk43.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S125",
+      "target_ko": "지온의 부흥을 위해",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3c131662d9139c10d47a5af3f587d556b065738e9025d30a4db126d3f9748a5b",
+      "instances": [
+        {
+          "asset": "trsk1f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S126",
+      "target_ko": "별 부스러기 작전 완수",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5c6892429bfa38ecd226781d3bbe0f644862d454ac12430e2e00b52e85cdbf2b",
+      "instances": [
+        {
+          "asset": "trsk1f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S127",
+      "target_ko": "무장 컨테이너",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9c6b2494ceaae2051cf100a8e3c4b27e684cf500d27b2c61b77f013928b81b72",
+      "instances": [
+        {
+          "asset": "trsk20.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S128",
+      "target_ko": "전력 보충 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3e33bb4f09bfd1d5193b88e95984a11f3c65f96d8f9eb4b344ea807aa73c43be",
+      "instances": [
+        {
+          "asset": "trsk20.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk21.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk23.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk2c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk31.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk43.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S129",
+      "target_ko": "전 성능 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "825592bf4aff0fe64fd4af986f57b261292e5d001e6d40336069e5f0329c9fef",
+      "instances": [
+        {
+          "asset": "trsk20.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk30.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk36.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk41.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S130",
+      "target_ko": "이 바다는 지옥이야...!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f4fa667cd99767e37a6f013e5b1a14877a0d2e2a540265d39d000eaedc2b2390",
+      "instances": [
+        {
+          "asset": "trsk20.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S131",
+      "target_ko": "지휘의 요령",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "77e68ffddb7f1a19ce2cae4cd81ff3ae678aa577f4380cd022f2ac1c3af6bc0d",
+      "instances": [
+        {
+          "asset": "trsk21.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk31.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk42.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk46.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S132",
+      "target_ko": "빠른 재장전 β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "538b76b67a9773a1461b5b6af2f80b2e224509e3270fd9a146fdd6047fd0c222",
+      "instances": [
+        {
+          "asset": "trsk21.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk42.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk48.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S133",
+      "target_ko": "나는 살고 싶어!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "34a697535453d1a55bf5c022966dff133e6b10c6aeb58bbfa585d3a8e66cdff7",
+      "instances": [
+        {
+          "asset": "trsk21.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S134",
+      "target_ko": "두 배로 갚아 주마!!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5245ed34050a81cb191e5d79063baa300015ee8544aa0aa48a4e67a3e13f893d",
+      "instances": [
+        {
+          "asset": "trsk21.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S135",
+      "target_ko": "빗맞히지 마...!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c0b0b5546741dda7c23b08cd1d8924e80b53069c8b897b647f98e56fc57d3cc6",
+      "instances": [
+        {
+          "asset": "trsk22.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S136",
+      "target_ko": "역경의 저력 β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4578a3688a2028c26dab0ac18fc09da4af2186d0b027503379c72cfbcc498ade",
+      "instances": [
+        {
+          "asset": "trsk22.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S137",
+      "target_ko": "장갑 강화 LV.3α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d60aabcfb8cb8a26a9b164fcedf8368878fb155c483c7beaa77d8607c81ff9d1",
+      "instances": [
+        {
+          "asset": "trsk22.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk37.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        },
+        {
+          "asset": "trsk43.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S138",
+      "target_ko": "수비만 하면 진다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "85d67d1506584a63484e1bda82cea41cfad418921d4461bb243454fbc5784ddb",
+      "instances": [
+        {
+          "asset": "trsk22.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S139",
+      "target_ko": "스피드 강화 LV.3β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "640becd65409336b00a3eabf086369d06d71d32e4f1a0c038c610e8390d386b9",
+      "instances": [
+        {
+          "asset": "trsk23.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk2a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        },
+        {
+          "asset": "trsk44.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S140",
+      "target_ko": "겁먹어라, 움츠러들어라!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ca9bc97477b506cc7449a6c3807833c862d31415d4f5f1342c967ec13c2eed38",
+      "instances": [
+        {
+          "asset": "trsk23.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S141",
+      "target_ko": "내가 건담이다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "01e5c35a65e42d7e5c8960e76fa386b5018988519284b5c220add6687377b7de",
+      "instances": [
+        {
+          "asset": "trsk24.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S142",
+      "target_ko": "우리가 건담이다!!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "483222b9baff655b2e157531c5229f047d0b1fcf3cdb4b28fff22663f5b00bf2",
+      "instances": [
+        {
+          "asset": "trsk24.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S143",
+      "target_ko": "데스티니 플랜",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "92a2b567150a6495acfd57c705773850afaa889ec19b1f14bf32cd54cf57d322",
+      "instances": [
+        {
+          "asset": "trsk25.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S144",
+      "target_ko": "당신이란 사람은!!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8f08d3ee54cac31e73e8be880069a68818819bf3362b7ae3c0bbab3c56be30b6",
+      "instances": [
+        {
+          "asset": "trsk25.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S145",
+      "target_ko": "부스트 강화 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a904095814761119c4211207aa579279d285bebf68e817b8dd42acd8d30f8e42",
+      "instances": [
+        {
+          "asset": "trsk26.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk37.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk44.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S146",
+      "target_ko": "돌격합니다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "42f20480bec32ddd42afb2b20aeb38d93b086ec98d6dd63441ce52852e951569",
+      "instances": [
+        {
+          "asset": "trsk26.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S147",
+      "target_ko": "풀 버니언",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9f72f19efd26fb1167c9870af6ca73171e3e9a66beca99ba61cd82db0961e085",
+      "instances": [
+        {
+          "asset": "trsk26.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S148",
+      "target_ko": "대빔 코팅",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "24141251ba722a8274c7bbeb47ba5a9b536fda2dac55ba2d505b31921e04dfbb",
+      "instances": [
+        {
+          "asset": "trsk27.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        },
+        {
+          "asset": "trsk2b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        },
+        {
+          "asset": "trsk2e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S149",
+      "target_ko": "황혼의 혜성",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "0191f4a925774fc70a3c783115ec23b7149d557ee9c6030cd7abdfc371a1909d",
+      "instances": [
+        {
+          "asset": "trsk27.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S150",
+      "target_ko": "아직 끝나지 않았다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "95006b36f17d0f1e1dbc98fe4ad89a708203925e98b1bf844ad883c93700372c",
+      "instances": [
+        {
+          "asset": "trsk27.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S151",
+      "target_ko": "아아, 하만 님!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2b2855c348d0c66deae9b07963377b019fe6fe395a75dfe175de73d59047b326",
+      "instances": [
+        {
+          "asset": "trsk28.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S152",
+      "target_ko": "전력 보충 LV.3",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "097839c92b2cfd7e888688bed2c797295d0285bffde8837db5463d7e031a9225",
+      "instances": [
+        {
+          "asset": "trsk28.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk33.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S153",
+      "target_ko": "이 꽃의 향기에 맹세해",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "221b061096b2f6ce8076a897be6c13c773238e15eb210ed2887a0821c50d44be",
+      "instances": [
+        {
+          "asset": "trsk28.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S154",
+      "target_ko": "온몸과 영혼의 포옹",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "38c046f29c7dbd581edf4b14cb6636176e1190336b36667ad59306e82028f111",
+      "instances": [
+        {
+          "asset": "trsk29.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S155",
+      "target_ko": "장갑 강화 LV.4",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "90b1d01f3cd5e2f355ddda96fd2d0ea7a86b7d991d961d5cf7dc86f0b82026db",
+      "instances": [
+        {
+          "asset": "trsk2a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk2f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        },
+        {
+          "asset": "trsk35.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S156",
+      "target_ko": "버서커 시스템",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "3413769b3d4a7091cb68035ff6a969d73cd5bba9c5e6591ea8f29b1b21f9a7c7",
+      "instances": [
+        {
+          "asset": "trsk2a.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S157",
+      "target_ko": "장갑 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f7191b73ff79082375159bde778316c488f3b70b520ce4d31bd3de4ec2541973",
+      "instances": [
+        {
+          "asset": "trsk2b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S158",
+      "target_ko": "장갑 강화 LV.3",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c7b4c590669f3e7c5a1d9bfe5e27cb1b748f861bb331e761bde75786f9e340fa",
+      "instances": [
+        {
+          "asset": "trsk2b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S159",
+      "target_ko": "사신",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "313db7ce84f93f4b409edf2f00c3520ad19d876b058394f35f7c3e6d0b45445a",
+      "instances": [
+        {
+          "asset": "trsk2b.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S160",
+      "target_ko": "가면이 깨질 때까지의 인연",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c8f133a8bfaa08485618ebbff83600ccbf72c9efe5eea3e052f7681590378d37",
+      "instances": [
+        {
+          "asset": "trsk2c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S161",
+      "target_ko": "슈퍼 버니어",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c4e18f7fe52fa74d767db4429893fac51bed754e1d9e765b94b66838fb147cc1",
+      "instances": [
+        {
+          "asset": "trsk2c.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S162",
+      "target_ko": "역시 ∀의 형님이야!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "e320e67974480658f1b7852854bad26cc7e729bc8c67eac4e975a35d8fd7bb53",
+      "instances": [
+        {
+          "asset": "trsk2d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S163",
+      "target_ko": "흑역사의 유산",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4d2f17b2c1f70ba7c3c2024c9593fd329cd7bcacb3c60fb8b1333806cabfc059",
+      "instances": [
+        {
+          "asset": "trsk2d.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S164",
+      "target_ko": "야타의 거울",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a5e35eaaf01e4ec384542ffafe943cfd1b9fd9ee2fd42bfd48cfcb7d6f7f5308",
+      "instances": [
+        {
+          "asset": "trsk2e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S165",
+      "target_ko": "불가능을 가능으로!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f433ff3047c246f9a9ab8342970636afe76ceb6a62918ba1f45f201f4ea3f399",
+      "instances": [
+        {
+          "asset": "trsk2e.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S166",
+      "target_ko": "마이스터의 자격",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "bc931de3705333ff2df5a145ab22efa31f476f2c7224009d1d00c34b1203192b",
+      "instances": [
+        {
+          "asset": "trsk2f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S167",
+      "target_ko": "만 번 죽어 마땅하다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "229b2e98aae797ef5e4178406a4a869c1a6b728951e7e5a25a72bffed3391025",
+      "instances": [
+        {
+          "asset": "trsk2f.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S168",
+      "target_ko": "가능성의 짐승",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2dff45a99cd022cdce35a1cc220e93ec243addde1f3d41665fdf629ebad02e8c",
+      "instances": [
+        {
+          "asset": "trsk30.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S169",
+      "target_ko": "그런 세계는 오만해",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "87dd07f4964b70fa0fc986580be8aed412c20aa886d99ea0a97d57270f90746f",
+      "instances": [
+        {
+          "asset": "trsk31.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S170",
+      "target_ko": "명경지수의 경지",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "516b3b63310a8a453659a137bd0bfaf0d021d9d46af80c9e44cdda44357d760e",
+      "instances": [
+        {
+          "asset": "trsk32.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S171",
+      "target_ko": "사람을 믿는 마음으로",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "1711e58f44c4f06a2fc0a037358d46e804cecf256e3b6a0e5582e0a61971a47f",
+      "instances": [
+        {
+          "asset": "trsk32.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S172",
+      "target_ko": "액시즈의 지도자",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "c20d958577e122cdbf7ef752ab9e561733f21c8f0c91a00434abf19304160eed",
+      "instances": [
+        {
+          "asset": "trsk33.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S173",
+      "target_ko": "속물 같으니!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "fdb65103b0eabab58390b32cdbed2a433fdbdd92dba954b70299005d26deac4c",
+      "instances": [
+        {
+          "asset": "trsk33.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S174",
+      "target_ko": "내추럴 따위에게!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "4c75870ce74f6c59c16044d728fd1c1770bfaeca59ebf16a48417373b5c41cf6",
+      "instances": [
+        {
+          "asset": "trsk34.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S175",
+      "target_ko": "파워 강화 LV.2β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "be0e23fc7dbbc2670fd55c35b23719fbcc7c2a5cc60df1498e99be5af5a82584",
+      "instances": [
+        {
+          "asset": "trsk35.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S176",
+      "target_ko": "전력 보충 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "66d32c8e9466f6c7cc21cd13ce2c69d5a7b0d1e7312a41b2362fa98b7f3bd68f",
+      "instances": [
+        {
+          "asset": "trsk35.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S177",
+      "target_ko": "아니, 절대로 아니다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "2633d2e8c5b428f641082f07467bbee27beb0ed1b8c43cc830171d570abcde47",
+      "instances": [
+        {
+          "asset": "trsk35.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S178",
+      "target_ko": "결투자의 날개",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "ef9abdf1b65a79fa45713481fbe4556481371d3f8ca7f982437ebdc6b7035025",
+      "instances": [
+        {
+          "asset": "trsk35.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S179",
+      "target_ko": "빠른 재장전 α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "546e231a335514c4828415f9f5800a89db8f3fba6234767a9cc7f7d84c76f4f6",
+      "instances": [
+        {
+          "asset": "trsk36.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S180",
+      "target_ko": "사거리 확장 α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "eec2579ce17ee6ebbc08024d086ca48dc34fc3164aee46554a7aaeb204f39154",
+      "instances": [
+        {
+          "asset": "trsk36.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S181",
+      "target_ko": "불쾌한 녀석!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "f19cafa86fe91ba181bd5b64ae93c52d39a6e20b93cf59401ecf3b2ecc243b85",
+      "instances": [
+        {
+          "asset": "trsk36.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S182",
+      "target_ko": "장갑 강화 LV.1",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5bb122611fd2ee46e2a727365becb7d489d7643af8aab1a7285a63b8cee74038",
+      "instances": [
+        {
+          "asset": "trsk37.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S183",
+      "target_ko": "장갑 강화 LV.2β",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6913d98d99152d2dce8ee646aa7a7719a2616aa3fc19ec6f22fb737b61b90d05",
+      "instances": [
+        {
+          "asset": "trsk37.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S184",
+      "target_ko": "죽을 거라면 너도 함께다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "1e7dc3f6d4a5c03fdcbb0b1b5f14722af9413627ca68aa5cbc54a50905c71f37",
+      "instances": [
+        {
+          "asset": "trsk37.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 5
+        }
+      ]
+    },
+    {
+      "id": "S185",
+      "target_ko": "파워 강화 LV.2",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a3bb9310985491eb74f6f77fb3f32c6682700559d06decf8ec486b66f36019d0",
+      "instances": [
+        {
+          "asset": "trsk38.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S186",
+      "target_ko": "유파 동방불패",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "83db9daf28b68ea60719f36300c751d05fd1a636c1361f624918a27aac02301c",
+      "instances": [
+        {
+          "asset": "trsk38.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S187",
+      "target_ko": "D.O.M.E.의 인도",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "716ac89bb92952408e248e161aab3d7f1b267d81b86539fedfd80e9f0becdfef",
+      "instances": [
+        {
+          "asset": "trsk39.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S188",
+      "target_ko": "혁신의 여파",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6b6f459d5f027359e592b967bf78dca06128ee3a0d92e33f6c3857f9aba05dc0",
+      "instances": [
+        {
+          "asset": "trsk41.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S189",
+      "target_ko": "미래를 여는 힘",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "dd9292dab33ce078e316871d1a15c3a98b70ee37b329e2799264b2d075fcea51",
+      "instances": [
+        {
+          "asset": "trsk41.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S190",
+      "target_ko": "장갑 강화 LV.4α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5165f0cc5dadb70bd57faf909216260af87ad0748e1e39c226d8470d74f03587",
+      "instances": [
+        {
+          "asset": "trsk42.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S191",
+      "target_ko": "새로운 구세주",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "a8e417d296c23d562728d89b95a65e29a16680d908543479b51de54a1c51cda5",
+      "instances": [
+        {
+          "asset": "trsk42.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S192",
+      "target_ko": "너라는 사람이 좋아",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "95aef88ecb39c2a6bfb178ebe108e5e21b070d0f8f54a2ff26e05d00c762214e",
+      "instances": [
+        {
+          "asset": "trsk43.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S193",
+      "target_ko": "해방의 날개",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "5d33d75ed72be0724126feb47e3da0b1c91b096dd8a19c162a0bb4aa7ddb98e9",
+      "instances": [
+        {
+          "asset": "trsk44.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S194",
+      "target_ko": "파워 강화 LV.1α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "954bd5a617651b8abbb23c9b8a8b3d29784f2d821af6db0ab4fecca004167884",
+      "instances": [
+        {
+          "asset": "trsk45.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S195",
+      "target_ko": "파워 강화 LV.2α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "8427e988058d7faa2ebbefc0a38eceae643edd775ac30ca24dca572eab14f8ae",
+      "instances": [
+        {
+          "asset": "trsk45.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S196",
+      "target_ko": "내가 정의다!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "dba261acd05f0f0ff2fe3ee009447c9ffad25778372d27e5821cd5bcec868ac5",
+      "instances": [
+        {
+          "asset": "trsk45.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S197",
+      "target_ko": "나도 적이 보여",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "9f8ce41c31e34c5fb98fb3a33286d3fe6f7b1e5a966a9bce27ac66b3b0e06010",
+      "instances": [
+        {
+          "asset": "trsk46.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S198",
+      "target_ko": "나를 이끌어 줘...!",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "6ef266bb15b712061ad7c7d042730f3fb54cf5556230542aab14316d3c0238d0",
+      "instances": [
+        {
+          "asset": "trsk46.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S199",
+      "target_ko": "만들어진 생명",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "223a015a62f8d6cfd02fb37c7e8338b65776705a6846745fb097cf8937f2681e",
+      "instances": [
+        {
+          "asset": "trsk47.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": "S200",
+      "target_ko": "가면 속의 야심",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "26eedb04c28145b5af963f9a88c8ee7c43de595afba1c02db69e3d64a144e7cb",
+      "instances": [
+        {
+          "asset": "trsk47.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": "S201",
+      "target_ko": "장갑 강화 LV.1α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "d97c5e1245729280b3b58400704e4bd1142779e8523354a890b8ec5e7a080c2b",
+      "instances": [
+        {
+          "asset": "trsk48.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": "S202",
+      "target_ko": "방어 특화 α",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "42ebe373104650d392252ed5e4e868a7659165b0f827673d5dcd2ce0d14be487",
+      "instances": [
+        {
+          "asset": "trsk48.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": "S203",
+      "target_ko": "외눈의 거인",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "bf4a2b2bd478c51c80c5d44ed3856af4c153f3001e1ba940f35de62acd06f037",
+      "instances": [
+        {
+          "asset": "trsk48.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": "S204",
+      "target_ko": "희망의 빛",
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "source_crop_rgba_sha256": "30f0127f8d3c9361183454e7067993d83f6cc0b9f2bd9703c51c2612dde5149d",
+      "instances": [
+        {
+          "asset": "trsk48.pzz",
+          "part": 1,
+          "picture": 0,
+          "row": 4
+        }
+      ]
     }
   ]
 }

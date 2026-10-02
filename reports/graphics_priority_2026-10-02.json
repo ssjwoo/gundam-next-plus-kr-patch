@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "user_first_goal": "Initial mode-selection main screen, then every NEXT PLUS mode image",
   "completed_main_mode_labels": [
     "아케이드",
@@ -32,14 +32,25 @@
     "rtms00": "Unit thumbnail without Japanese text",
     "newget0": "Background/frame without Japanese text",
     "dmedfont": "Credits/logo and song-information pages; deferred from current first priority",
-    "ntm": "Ten combat illustrations without Japanese text; filename alone does not prove mode association"
+    "ntm": "Ten combat illustrations without Japanese text; filename alone does not prove mode association",
+    "trsk": "All 66 source members reviewed and localized; 335 instances, 205 distinct source label crops",
+    "trms": "All 66 source members reviewed, 64 Korean unit-name surfaces and three Latin surfaces preserved",
+    "selpi": "All 66 source members reviewed, 66 Korean pilot-name surfaces; actual rotated consumer strips reconstructed",
+    "briefing": "341 source-verified members extracted/rendered; local work in progress"
   },
   "next_actions": [
-    "Finish visible main-screen common controls without atlas relocation",
-    "Review every trsk member individually; first member done, remaining members pending",
-    "Review shared trms/selpi labels used in NEXT PLUS",
-    "Establish all mode-specific and shared image dependencies before claiming full coverage"
+    "Finish remaining main-menu banks and main logo",
+    "Finish briefing card names, series logos and stage/location banners",
+    "Review remaining shared HUD, results and pilot-data images",
+    "Establish every mode-specific and shared consumer before claiming full coverage"
   ],
   "runtime_verdict": "NOT_TESTED",
-  "whole_game_graphics_complete": false
+  "whole_game_graphics_complete": false,
+  "completed_skill_assets": 66,
+  "completed_skill_labels": 335,
+  "completed_name_assets": 129,
+  "completed_name_surfaces": 130,
+  "completed_shared_ui_regions": 342,
+  "briefing_sources_extracted": 341,
+  "briefing_source_surfaces": 532
 }

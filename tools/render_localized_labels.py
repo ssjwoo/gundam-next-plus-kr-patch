@@ -8,9 +8,40 @@ It does not infer translations, change palettes or launch the game.
 import argparse
 import hashlib
 import json
+import math
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from freetype import Face
+
+
+def mixed_text_layer(text, fonts, faces, fill, stroke, stroke_width):
+    """Render explicit fallback runs on a common baseline, with no tofu glyphs."""
+    assert '\n' not in text, 'Mixed-font labels currently require a single line'
+    runs = []
+    for character in text:
+        index = next((i for i, face in enumerate(faces)
+                      if face.get_char_index(ord(character))), None)
+        assert index is not None, ('Missing font glyph', character)
+        if runs and runs[-1][0] == index:
+            runs[-1][1] += character
+        else:
+            runs.append([index, character])
+    lengths = [font.getlength(run) for i, run in runs for font in [fonts[i]]]
+    ascent = max(font.getmetrics()[0] for font in fonts)
+    descent = max(font.getmetrics()[1] for font in fonts)
+    padding = stroke_width + 2
+    layer = Image.new('RGBA', (math.ceil(sum(lengths))+2*padding,
+                             ascent+descent+2*padding))
+    draw = ImageDraw.Draw(layer)
+    x = padding
+    for (index, run), length in zip(runs, lengths):
+        draw.text((x, padding+ascent), run, font=fonts[index], anchor='ls',
+                  fill=fill, stroke_width=stroke_width, stroke_fill=stroke)
+        x += length
+    bounds = layer.getchannel('A').getbbox()
+    assert bounds, 'Label has no visible glyphs'
+    return layer.crop(bounds)
 
 
 def heal_lettering(source, box, minimum=195):
@@ -69,13 +100,23 @@ def main():
     p.add_argument('output', type=Path)
     p.add_argument('--expected-source-sha256', required=True)
     p.add_argument('--expected-font-sha256', required=True)
+    p.add_argument('--fallback-font', action='append', type=Path, default=[])
+    p.add_argument('--expected-fallback-font-sha256', action='append', default=[])
     p.add_argument('--light-text', action='store_true')
     a = p.parse_args()
     assert hashlib.sha256(a.source.read_bytes()).hexdigest() == a.expected_source_sha256
     assert hashlib.sha256(a.font.read_bytes()).hexdigest() == a.expected_font_sha256
+    assert len(a.fallback_font) == len(a.expected_fallback_font_sha256)
+    for path, digest in zip(a.fallback_font, a.expected_fallback_font_sha256):
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == digest
     if a.output.exists():
         p.error('Use a fresh output filename')
     rules = json.loads(a.rules.read_bytes())
+    faces = [Face(str(path)) for path in [a.font, *a.fallback_font]]
+    face = faces[0]
+    missing = sorted({c for r in rules['labels'] for c in r['text']
+                      if c not in '\n\r\t' and not any(f.get_char_index(ord(c)) for f in faces)})
+    assert not missing, ('Missing font glyphs', missing)
     original = Image.open(a.source).convert('RGBA')
     assert list(original.size) == rules['dimensions']
     edited = original.copy()
@@ -127,7 +168,20 @@ def main():
         stroke = tuple(r.get('stroke',[255,255,255,255]))
         if a.light_text and r['id'] not in {'heading','footnote'}:
             fill,stroke = stroke,fill
-        if r.get('angle'):
+        uses_fallback = any(not face.get_char_index(ord(c)) for c in r['text']
+                            if c not in '\n\r\t')
+        if uses_fallback:
+            fonts = [font, *[ImageFont.truetype(str(path), r['size']) for path in a.fallback_font]]
+            layer = mixed_text_layer(r['text'], fonts, faces, fill, stroke, stroke_width)
+            if r.get('angle'):
+                layer = layer.rotate(r['angle'], expand=True, resample=Image.Resampling.BICUBIC)
+            w, h = layer.size
+            assert w <= x1-x0 and h <= y1-y0, (r['id'], (w,h), r['box'])
+            alignment = r.get('align', 'center')
+            assert alignment in {'left', 'center', 'right'}
+            x = x0 if alignment == 'left' else (x1-w if alignment == 'right' else x0+(x1-x0-w)//2)
+            edited.alpha_composite(layer, (x, y0+(y1-y0-h)//2))
+        elif r.get('angle'):
             layer=Image.new('RGBA',(w,h),(0,0,0,0))
             ImageDraw.Draw(layer).multiline_text((-bbox[0],-bbox[1]),r['text'],font=font,fill=fill,stroke_width=stroke_width,stroke_fill=stroke,spacing=r.get('line_spacing',1),align='center')
             layer=layer.rotate(r['angle'],expand=True,resample=Image.Resampling.BICUBIC)
@@ -136,10 +190,14 @@ def main():
             edited.alpha_composite(layer,(x0+(x1-x0-w)//2,y0+(y1-y0-h)//2))
         else:
             assert w <= x1-x0 and h <= y1-y0, (r['id'],(w,h),r['box'])
-            xy = (x0+(x1-x0-w)//2-bbox[0],y0+(y1-y0-h)//2-bbox[1])
+            alignment = r.get('align', 'center')
+            assert alignment in {'left', 'center', 'right'}
+            x = x0 if alignment == 'left' else (x1-w if alignment == 'right' else x0+(x1-x0-w)//2)
+            xy = (x-bbox[0],y0+(y1-y0-h)//2-bbox[1])
             draw.multiline_text(xy,r['text'],font=font,fill=fill,stroke_width=stroke_width,stroke_fill=stroke,spacing=r.get('line_spacing',1),align='center')
         md.rectangle((x0,y0,x1-1,y1-1),fill=1)
-        placed.append({'id':r['id'],'box':r['box'],'text':r['text'],'font_size':r['size'],'ink_size':[w,h]})
+        placed.append({'id':r['id'],'box':r['box'],'text':r['text'],'font_size':r['size'],'ink_size':[w,h],
+                       'fallback_font_used':uses_fallback})
     diffs = protected = 0
     for x in range(original.width):
         for y in range(original.height):
@@ -152,6 +210,7 @@ def main():
     edited.save(a.output)
     mask.convert('L').save(a.output.with_suffix('.mask.png'))
     report = {'asset':rules['asset'],'source_sha256':a.expected_source_sha256,'font_sha256':a.expected_font_sha256,
+        'fallback_font_sha256':a.expected_fallback_font_sha256,
         'output_sha256':hashlib.sha256(a.output.read_bytes()).hexdigest(),'dimensions':list(edited.size),
         'labels':placed,'changed_pixels':diffs,'changed_pixels_outside_authored_boxes':protected,
         'runtime_verdict':'NOT_TESTED','palette_conversion_required':True}
