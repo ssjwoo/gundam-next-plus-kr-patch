@@ -44,7 +44,8 @@
       "review_state": "unapproved_draft",
       "hash_representation": "UTF-8 LF; enforced by .gitattributes",
       "updated": "2026-10-02",
-      "integrated_into_iso": false
+      "integrated_into_iso": false,
+      "integration_scope": "Source-bound selected rows integrated with per-slot fitting; whole public catalog not injected"
     },
     "inventory_as_of": "2026-09-26"
   },
@@ -52,11 +53,12 @@
     "structurally_verified_records": 274,
     "legacy_inventory_matches": 208,
     "newly_recovered_records": 66,
-    "korean_draft_rows": 271,
-    "held_for_term_decision_rows": 3,
-    "inserted_and_pointer_verified_records": 271,
-    "text_complete": false,
-    "graphics_deferred": true
+    "korean_draft_rows": 274,
+    "held_for_term_decision_rows": 0,
+    "inserted_and_pointer_verified_records": 274,
+    "text_complete": true,
+    "graphics_deferred": true,
+    "text_complete_scope": "274 structurally verified three-line mission records; semantic/runtime approval pending"
   },
   "next_plus_map_and_descriptions": {
     "translation_rows": 99,
@@ -72,29 +74,54 @@
     "pzz_failures": 0,
     "gim_surfaces": 4272,
     "index4_surfaces": 680,
-    "index8_surfaces": 3592
+    "index8_surfaces": 3592,
+    "localization_2026_10_02": {
+      "manual_pages": 10,
+      "edited_elements": 91,
+      "korean_translations": 89,
+      "english_NEXT_elements": 2,
+      "main_menu_labels": 6,
+      "pilot_name_images": 2,
+      "next_plus_skill_labels": 6,
+      "total_edited_elements": 105,
+      "total_korean_translations": 103,
+      "width": 480,
+      "height": 272,
+      "protected_pixel_changes": 0,
+      "palette_preserved": true,
+      "afs_and_pzz_geometry_preserved": true,
+      "graphic_disc_byte_changes_against_text_002": 618798,
+      "catalog": "translations/graphics/manual_ko_2026-10-02.json",
+      "additional_catalogs": [
+        "translations/graphics/menu_and_pilot_ko_2026-10-02.json",
+        "translations/graphics/next_plus_skills_ko_2026-10-02.json"
+      ]
+    }
   },
   "latest_local_development_artifact": {
-    "label": "next_plus_digit_repair_2026-10-02",
-    "elf_sha256": "077e99a31d470b7b2234312197b0d3537b4e9a6e6af55efc497e9ebba3090781",
-    "iso_sha256": "886bd04022581981d0d391a7aa0e0044d8291e53cff112ac422d7fb8e88d2d8b",
+    "label": "next_plus_graphics_revision_005",
+    "path": "build/graphics_revision_2026-10-02/next_plus_graphics_revision_005.iso",
+    "iso_sha256": "05c659fe1fb59b1d32692a0aef62ea6780ae688006299560b5d26d3ec7863638",
     "iso_size": 1757806592,
-    "iso_crc32": "38A21F92",
-    "xdelta": "next_plus_digit_repair_2026-10-02.xdelta",
-    "xdelta_bytes": 1424961,
-    "xdelta_sha256": "b0a4d45d1e60976ff94df9900b6f92a27b33612cd12453acddd1867c8db53f61",
+    "iso_crc32": "BBCD6188",
+    "elf_sha256": "29cba21ef1f6c9a8e198545dd927c3703841b1e7da08462ac6ab0ea414e64013",
+    "xdelta": "next_plus_graphics_revision_005.xdelta",
+    "xdelta_bytes": 1988983,
+    "xdelta_sha256": "90d7773f82c66865514526906c131e524d4481c5175f616a01fb78129ad96a57",
     "xdelta_source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
     "xdelta_roundtrip": "PASS",
-    "provided_patch_iso_sha256": "c0e2ac8154cf240649229a95bcf2a52f37688096ae2918e16c7857c1491a4992",
-    "changed_disc_bytes": 37,
-    "recovered_source_bound_rows": 3920,
-    "bundled_font_bytes": 158464,
-    "bundled_font_glyphs": 1349,
+    "changed_text_slots": 368,
+    "recovered_source_bound_rows": 3930,
+    "manual_pages_localized": 10,
+    "main_menu_labels_localized": 6,
+    "pilot_name_images_localized": 2,
+    "next_plus_skill_labels_localized": 6,
     "distributed": false,
     "release_ready": false,
     "hardware_verified": false,
     "static_verdict": "PASS",
-    "user_current_scope_accepted": true,
+    "runtime_verdict": "NOT_TESTED",
+    "user_current_scope_accepted": false,
     "additional_cmd_verification_required": false,
     "new_scene_capture_or_log_evidence": false
   },
@@ -137,7 +164,10 @@
   "known_issues": [
     "MS-edit skill-description problems were recorded in the prior handoff; current scene/source not re-established. PZZ origin and index collision remain hypotheses.",
     "Menu labels and unit names are GIM images, not font text.",
-    "Three source mission records remain untranslated/held: NPMIS_0083, NPMIS_0190, NPMIS_0263."
+    "Latest graphics candidate is statically verified only. Whole-game text and graphic localization remain incomplete.",
+    "Latest graphics candidate is statically verified only. Whole-game text and graphic localization remain incomplete.",
+    "Latest graphics candidate is statically verified only. Whole-game text and graphic localization remain incomplete.",
+    "Latest graphics candidate is statically verified only. Whole-game text and graphic localization remain incomplete."
   ],
   "release_ready": false,
   "notation_policy": {
@@ -161,6 +191,56 @@
       "release_ready": true,
       "hardware_verified": false,
       "xdelta_sha256": "c0c0609033c609980fac8b9d62287ce703080ba5f73fdbc7e0a1ad2162adc27f"
+    },
+    {
+      "label": "next_plus_digit_repair_2026-10-02",
+      "elf_sha256": "077e99a31d470b7b2234312197b0d3537b4e9a6e6af55efc497e9ebba3090781",
+      "iso_sha256": "886bd04022581981d0d391a7aa0e0044d8291e53cff112ac422d7fb8e88d2d8b",
+      "iso_size": 1757806592,
+      "iso_crc32": "38A21F92",
+      "xdelta": "next_plus_digit_repair_2026-10-02.xdelta",
+      "xdelta_bytes": 1424961,
+      "xdelta_sha256": "b0a4d45d1e60976ff94df9900b6f92a27b33612cd12453acddd1867c8db53f61",
+      "xdelta_source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+      "xdelta_roundtrip": "PASS",
+      "provided_patch_iso_sha256": "c0e2ac8154cf240649229a95bcf2a52f37688096ae2918e16c7857c1491a4992",
+      "changed_disc_bytes": 37,
+      "recovered_source_bound_rows": 3920,
+      "bundled_font_bytes": 158464,
+      "bundled_font_glyphs": 1349,
+      "distributed": false,
+      "release_ready": false,
+      "hardware_verified": false,
+      "static_verdict": "PASS",
+      "user_current_scope_accepted": true,
+      "additional_cmd_verification_required": false,
+      "new_scene_capture_or_log_evidence": false
+    },
+    {
+      "label": "next_plus_graphics_revision_004",
+      "path": "build/graphics_revision_2026-10-02/next_plus_graphics_revision_004.iso",
+      "iso_sha256": "d20aa889599aeaff832d737c3a392bfb88192540e9ec7830a8e23b8df84939ee",
+      "iso_size": 1757806592,
+      "iso_crc32": "269E4939",
+      "elf_sha256": "29cba21ef1f6c9a8e198545dd927c3703841b1e7da08462ac6ab0ea414e64013",
+      "xdelta": "next_plus_graphics_revision_004.xdelta",
+      "xdelta_bytes": 1987336,
+      "xdelta_sha256": "5dd90e6f443a3dcafeb224d3210ccf2afbbecfc33f7ad5f90ea97b1e5f714b54",
+      "xdelta_source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+      "xdelta_roundtrip": "PASS",
+      "changed_text_slots": 368,
+      "recovered_source_bound_rows": 3930,
+      "manual_pages_localized": 10,
+      "main_menu_labels_localized": 6,
+      "pilot_name_images_localized": 2,
+      "distributed": false,
+      "release_ready": false,
+      "hardware_verified": false,
+      "static_verdict": "PASS",
+      "runtime_verdict": "NOT_TESTED",
+      "user_current_scope_accepted": false,
+      "additional_cmd_verification_required": false,
+      "new_scene_capture_or_log_evidence": false
     }
   ],
   "latest_public_release_tag": "dev-2026-09-26",
@@ -229,5 +309,13 @@
       "sha256_utf8_lf": "d1b78ab6fca06e58a148081194a059941311b9de01b81d0252cabaf796c30166",
       "historical_crlf_sha256": "67ef910107d3c573a0fbe9bd3b9a216e88b564215fb1299989ff64fa206fd0a6"
     }
+  },
+  "integration_2026_10_02": {
+    "report": "reports/integration_2026-10-02.json",
+    "changed_text_slots": 368,
+    "source_bound_readback_slots": 3930,
+    "unbound_changed_public_ids": 162,
+    "whole_game_text_complete": false,
+    "whole_game_graphics_complete": false
   }
 }

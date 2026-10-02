@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "rows": [
+    {
+      "id": "NP_SKILL00_ALL_STATS",
+      "asset": "trsk00.pzz/part_001/picture_000",
+      "target_ko": "전 성능 강화 LV.1",
+      "box": [
+        1,
+        0,
+        88,
+        16
+      ],
+      "font_size": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "NP_SKILL00_POWER",
+      "asset": "trsk00.pzz/part_001/picture_000",
+      "target_ko": "파워 강화 LV.2",
+      "box": [
+        1,
+        16,
+        88,
+        32
+      ],
+      "font_size": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "NP_SKILL00_SPEED",
+      "asset": "trsk00.pzz/part_001/picture_000",
+      "target_ko": "스피드 강화 LV.2",
+      "box": [
+        1,
+        32,
+        94,
+        48
+      ],
+      "font_size": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "NP_SKILL00_BOOST",
+      "asset": "trsk00.pzz/part_001/picture_000",
+      "target_ko": "부스트 강화 LV.3/3",
+      "box": [
+        1,
+        48,
+        102,
+        64
+      ],
+      "font_size": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "NP_SKILL00_FATHER",
+      "asset": "trsk00.pzz/part_001/picture_000",
+      "target_ko": "아버지가 푹 빠질 만하군",
+      "box": [
+        1,
+        64,
+        113,
+        80
+      ],
+      "font_size": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "NP_SKILL00_FIGHT",
+      "asset": "trsk00.pzz/part_001/picture_000",
+      "target_ko": "우리가 싸워야 해...!",
+      "box": [
+        1,
+        80,
+        102,
+        96
+      ],
+      "font_size": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    }
+  ]
+}

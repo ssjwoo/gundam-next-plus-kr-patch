@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-02",
+  "user_first_goal": "Initial mode-selection main screen, then every NEXT PLUS mode image",
+  "completed_main_mode_labels": [
+    "아케이드",
+    "프리 배틀",
+    "넥스트 플러스",
+    "갤러리",
+    "각종 설정",
+    "파일럿 데이터"
+  ],
+  "whole_main_screen_localized": false,
+  "whole_next_plus_mode_images_localized": false,
+  "family_member_counts": {
+    "trsk": 66,
+    "trms": 66,
+    "selpi": 66,
+    "edms": 66,
+    "trmsh": 66,
+    "selms": 66,
+    "rtms": 77,
+    "newget": 11
+  },
+  "representative_samples_only": true,
+  "source_review": {
+    "trsk00": "Six Japanese skill labels; localized within original rows",
+    "trms00": "Two unit-name labels in picture 0; portrait picture 1",
+    "selpi00": "Pilot name alongside portrait; Japanese label remains",
+    "edms00": "Seven combat illustrations without Japanese text",
+    "trmsh00": "Silhouette without Japanese text",
+    "selms00": "Unit portrait without Japanese text",
+    "rtms00": "Unit thumbnail without Japanese text",
+    "newget0": "Background/frame without Japanese text",
+    "dmedfont": "Credits/logo and song-information pages; deferred from current first priority",
+    "ntm": "Ten combat illustrations without Japanese text; filename alone does not prove mode association"
+  },
+  "next_actions": [
+    "Finish visible main-screen common controls without atlas relocation",
+    "Review every trsk member individually; first member done, remaining members pending",
+    "Review shared trms/selpi labels used in NEXT PLUS",
+    "Establish all mode-specific and shared image dependencies before claiming full coverage"
+  ],
+  "runtime_verdict": "NOT_TESTED",
+  "whole_game_graphics_complete": false
+}

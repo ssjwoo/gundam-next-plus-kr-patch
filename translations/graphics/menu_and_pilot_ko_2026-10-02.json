@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "rows": [
+    {
+      "id": "MAIN_MENU_ARCADE",
+      "asset": "menu.pzz/part_001/picture_001",
+      "target_ko": "아케이드",
+      "box": [
+        1,
+        0,
+        72,
+        18
+      ],
+      "font_size": 14,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MAIN_MENU_FREE_BATTLE",
+      "asset": "menu.pzz/part_001/picture_001",
+      "target_ko": "프리 배틀",
+      "box": [
+        75,
+        0,
+        158,
+        18
+      ],
+      "font_size": 14,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MAIN_MENU_GALLERY",
+      "asset": "menu.pzz/part_001/picture_001",
+      "target_ko": "갤러리",
+      "box": [
+        160,
+        0,
+        229,
+        18
+      ],
+      "font_size": 14,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MAIN_MENU_NEXT_PLUS",
+      "asset": "menu.pzz/part_001/picture_001",
+      "target_ko": "넥스트 플러스",
+      "box": [
+        0,
+        20,
+        106,
+        39
+      ],
+      "font_size": 14,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MAIN_MENU_SETTINGS",
+      "asset": "menu.pzz/part_001/picture_001",
+      "target_ko": "각종 설정",
+      "box": [
+        124,
+        20,
+        192,
+        39
+      ],
+      "font_size": 14,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MAIN_MENU_PILOT_DATA",
+      "asset": "menu.pzz/part_001/picture_001",
+      "target_ko": "파일럿 데이터",
+      "box": [
+        1,
+        40,
+        100,
+        59
+      ],
+      "font_size": 14,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "GLC00_PILOT_NAME",
+      "asset": "glc00.pzz/part_001/picture_001",
+      "target_ko": "아무로 레이",
+      "box": [
+        3,
+        3,
+        29,
+        115
+      ],
+      "font_size": 18,
+      "angle": 90,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "GLC01_PILOT_NAME",
+      "asset": "glc01.pzz/part_001/picture_001",
+      "target_ko": "카이 시덴",
+      "box": [
+        3,
+        3,
+        29,
+        115
+      ],
+      "font_size": 18,
+      "angle": 90,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    }
+  ]
+}

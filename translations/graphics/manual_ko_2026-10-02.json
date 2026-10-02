@@ -1,0 +1,1648 @@
+{
+  "schema_version": 1,
+  "image_dimensions": [
+    480,
+    272
+  ],
+  "scope": "10 in-game manual textures; other graphical Japanese remains",
+  "rows": [
+    {
+      "id": "MANUAL_00_HEADING",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "기본 조작",
+      "text_role": "localized",
+      "text_box": [
+        15,
+        24,
+        92,
+        46
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_SHOOT",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "사격",
+      "text_role": "localized",
+      "text_box": [
+        251,
+        30,
+        285,
+        47
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_SPECIAL_MELEE",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "특수 격투",
+      "text_role": "localized",
+      "text_box": [
+        52,
+        60,
+        108,
+        75
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_SUB_SHOOT",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "보조 사격",
+      "text_role": "localized",
+      "text_box": [
+        321,
+        60,
+        374,
+        75
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_MELEE",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "격투",
+      "text_role": "localized",
+      "text_box": [
+        346,
+        90,
+        381,
+        106
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_TARGET",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "타깃 변경",
+      "text_role": "localized",
+      "text_box": [
+        355,
+        124,
+        441,
+        142
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_JUMP_DASH",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "점프·NEXT 대시",
+      "text_role": "localized",
+      "text_box": [
+        340,
+        160,
+        462,
+        177
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_MOVE",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "이동",
+      "text_role": "localized",
+      "text_box": [
+        83,
+        195,
+        111,
+        213
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_COMMAND",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "지시·통신",
+      "text_role": "localized",
+      "text_box": [
+        195,
+        195,
+        257,
+        213
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_PAUSE",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "일시정지",
+      "text_role": "localized",
+      "text_box": [
+        343,
+        195,
+        386,
+        213
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_00_FOOTNOTE",
+      "asset": "manual00.pzz/part_000/picture_000",
+      "page": 1,
+      "target_ko": "※ 버튼 설정에서 원하는 대로 변경할 수 있습니다.",
+      "text_role": "localized",
+      "text_box": [
+        80,
+        231,
+        391,
+        249
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_SHOOT_HEADING",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "사격",
+      "text_role": "localized",
+      "text_box": [
+        36,
+        24,
+        90,
+        47
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_MELEE_HEADING",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "격투",
+      "text_role": "localized",
+      "text_box": [
+        185,
+        24,
+        240,
+        47
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_AIM_HEADING",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "조준",
+      "text_role": "localized",
+      "text_box": [
+        338,
+        24,
+        398,
+        47
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_AMMO_NOTICE",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "탄약 소진 주의!",
+      "text_role": "localized",
+      "text_box": [
+        68,
+        153,
+        149,
+        175
+      ],
+      "font_size": 10,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_SHOOT_BUTTON",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "사격",
+      "text_role": "localized",
+      "text_box": [
+        104,
+        184,
+        137,
+        204
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_MELEE_BUTTON",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "격투",
+      "text_role": "localized",
+      "text_box": [
+        255,
+        174,
+        287,
+        193
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_AIM_NOTICE_A",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "조준이 빨갛게 되면",
+      "text_role": "localized",
+      "text_box": [
+        343,
+        138,
+        453,
+        155
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_AIM_NOTICE_B",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "공격할 기회다!",
+      "text_role": "localized",
+      "text_box": [
+        356,
+        153,
+        450,
+        171
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_01_TARGET_BUTTON",
+      "asset": "manual01.pzz/part_000/picture_000",
+      "page": 2,
+      "target_ko": "타깃 변경",
+      "text_role": "localized",
+      "text_box": [
+        342,
+        182,
+        430,
+        203
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_STEP_HEADING",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "스텝",
+      "text_role": "localized",
+      "text_box": [
+        40,
+        24,
+        133,
+        48
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_ASSIST_HEADING",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "모빌 어시스트",
+      "text_role": "localized",
+      "text_box": [
+        250,
+        24,
+        393,
+        49
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_STEP_A",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "방향키나 아날로그 패드를",
+      "text_role": "localized",
+      "text_box": [
+        23,
+        144,
+        202,
+        162
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_STEP_B",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "같은 방향으로 빠르게 2번!",
+      "text_role": "localized",
+      "text_box": [
+        23,
+        161,
+        181,
+        180
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_MOVE_BUTTON",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "이동",
+      "text_role": "localized",
+      "text_box": [
+        55,
+        188,
+        86,
+        205
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_CALL_ASSIST",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "지원기를 불러라!",
+      "text_role": "localized",
+      "text_box": [
+        316,
+        97,
+        415,
+        147
+      ],
+      "font_size": 11,
+      "angle": 15,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_ASSIST_COMBO",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "격투·사격·점프",
+      "text_role": "localized",
+      "text_box": [
+        289,
+        146,
+        420,
+        168
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_SIMULTANEOUS",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "동시 입력!",
+      "text_role": "localized",
+      "text_box": [
+        389,
+        173,
+        451,
+        193
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_SUB_COMBO",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "보조 사격·점프",
+      "text_role": "localized",
+      "text_box": [
+        302,
+        198,
+        422,
+        218
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_02_ALTERNATE_COMBO",
+      "asset": "manual02.pzz/part_000/picture_000",
+      "page": 3,
+      "target_ko": "도 가능!",
+      "text_role": "localized",
+      "text_box": [
+        379,
+        219,
+        439,
+        238
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_NEXT_HEADING",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "NEXT 대시",
+      "text_role": "localized",
+      "text_box": [
+        37,
+        25,
+        187,
+        51
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_CANCEL_BANNER",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "모든 행동을 취소할 수 있다!",
+      "text_role": "localized",
+      "text_box": [
+        237,
+        31,
+        454,
+        56
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_JUMP_A",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "점프 버튼을",
+      "text_role": "localized",
+      "text_box": [
+        64,
+        145,
+        151,
+        164
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_JUMP_B",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "빠르게 2번!",
+      "text_role": "localized",
+      "text_box": [
+        64,
+        162,
+        137,
+        182
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_JUMP_BUTTON",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "점프",
+      "text_role": "localized",
+      "text_box": [
+        110,
+        198,
+        155,
+        216
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_NEXT_ENGLISH",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "NEXT",
+      "text_role": "preserved_english",
+      "text_box": [
+        361,
+        127,
+        413,
+        159
+      ],
+      "font_size": 13,
+      "angle": 15,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_NEXT_COMBO",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "다음 동작으로!",
+      "text_role": "localized",
+      "text_box": [
+        375,
+        138,
+        468,
+        181
+      ],
+      "font_size": 10,
+      "angle": 15,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_BOOST_A",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "부스트 게이지가 남아 있으면,",
+      "text_role": "localized",
+      "text_box": [
+        298,
+        199,
+        464,
+        220
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_03_BOOST_B",
+      "asset": "manual03.pzz/part_000/picture_000",
+      "page": 4,
+      "target_ko": "몇 번이든 사용할 수 있다!",
+      "text_role": "localized",
+      "text_box": [
+        299,
+        218,
+        458,
+        237
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_SPECIAL_HEADING",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "특수 조작",
+      "text_role": "localized",
+      "text_box": [
+        15,
+        24,
+        107,
+        49
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_SPECIAL_BANNER",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "버튼 조합으로 새로운 공격을 할 수 있다!",
+      "text_role": "localized",
+      "text_box": [
+        161,
+        31,
+        469,
+        56
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_MELEE_BUTTON",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "격투",
+      "text_role": "localized",
+      "text_box": [
+        175,
+        80,
+        203,
+        100
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_SHOOT_BUTTON",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "사격",
+      "text_role": "localized",
+      "text_box": [
+        59,
+        146,
+        95,
+        166
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_JUMP_BUTTON",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "점프",
+      "text_role": "localized",
+      "text_box": [
+        142,
+        181,
+        187,
+        202
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_SUBSHOOT_COMBO",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "보조 사격",
+      "text_role": "localized",
+      "text_box": [
+        367,
+        89,
+        425,
+        109
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_SPECIALSHOOT_COMBO",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "특수 사격",
+      "text_role": "localized",
+      "text_box": [
+        367,
+        120,
+        430,
+        141
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_SPECIALMELEE_COMBO",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "특수 격투",
+      "text_role": "localized",
+      "text_box": [
+        367,
+        151,
+        430,
+        173
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_SPECIAL_NOTE_A",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "기체마다 다르니",
+      "text_role": "localized",
+      "text_box": [
+        341,
+        182,
+        464,
+        202
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_SPECIAL_NOTE_B",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "여러 조합을 시도!",
+      "text_role": "localized",
+      "text_box": [
+        358,
+        200,
+        464,
+        221
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_04_FOOTNOTE",
+      "asset": "manual04.pzz/part_000/picture_000",
+      "page": 5,
+      "target_ko": "※ 버튼 설정에서 원하는 대로 변경할 수 있습니다.",
+      "text_role": "localized",
+      "text_box": [
+        80,
+        231,
+        391,
+        249
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_05_RULES_HEADING",
+      "asset": "manual05.pzz/part_000/picture_000",
+      "page": 6,
+      "target_ko": "게임 규칙",
+      "text_role": "localized",
+      "text_box": [
+        14,
+        24,
+        147,
+        50
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_05_WIN_BANNER",
+      "asset": "manual05.pzz/part_000/picture_000",
+      "page": 6,
+      "target_ko": "적을 격파해 전력 게이지를 0으로 만들면 승리!",
+      "text_role": "localized",
+      "text_box": [
+        189,
+        31,
+        470,
+        56
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_05_OWN_TEAM",
+      "asset": "manual05.pzz/part_000/picture_000",
+      "page": 6,
+      "target_ko": "아군 팀",
+      "text_role": "localized",
+      "text_box": [
+        169,
+        68,
+        224,
+        90
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_05_ENEMY_TEAM",
+      "asset": "manual05.pzz/part_000/picture_000",
+      "page": 6,
+      "target_ko": "적군 팀",
+      "text_role": "localized",
+      "text_box": [
+        169,
+        95,
+        224,
+        116
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_05_COST_NOTICE",
+      "asset": "manual05.pzz/part_000/picture_000",
+      "page": 6,
+      "target_ko": "격파 시 기체 코스트(GP)만큼 전력 게이지가 감소!",
+      "text_role": "localized",
+      "text_box": [
+        87,
+        124,
+        391,
+        147
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_05_GAUGE_AMOUNT",
+      "asset": "manual05.pzz/part_000/picture_000",
+      "page": 6,
+      "target_ko": "게이지 감소량",
+      "text_role": "localized",
+      "text_box": [
+        48,
+        228,
+        120,
+        246
+      ],
+      "font_size": 10,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_06_MEDAL_HEADING",
+      "asset": "manual06.pzz/part_000/picture_000",
+      "page": 7,
+      "target_ko": "훈장",
+      "text_role": "localized",
+      "text_box": [
+        14,
+        24,
+        76,
+        50
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_06_MEDAL_BANNER",
+      "asset": "manual06.pzz/part_000/picture_000",
+      "page": 7,
+      "target_ko": "전투 종료 시 정해진 조건을 만족하면 획득합니다.",
+      "text_role": "localized",
+      "text_box": [
+        153,
+        31,
+        470,
+        56
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_06_MEDAL_NOTE_A",
+      "asset": "manual06.pzz/part_000/picture_000",
+      "page": 7,
+      "target_ko": "보너스 점수가 붙는 것도 있으니,",
+      "text_role": "localized",
+      "text_box": [
+        26,
+        61,
+        241,
+        83
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_06_MEDAL_NOTE_B",
+      "asset": "manual06.pzz/part_000/picture_000",
+      "page": 7,
+      "target_ko": "고득점을 노리며 조건을 찾아보자!",
+      "text_role": "localized",
+      "text_box": [
+        26,
+        80,
+        240,
+        101
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_06_MEDAL_FOOTNOTE",
+      "asset": "manual06.pzz/part_000/picture_000",
+      "page": 7,
+      "target_ko": "※ 모드에 따라 획득 가능한 훈장이 일부 다릅니다.",
+      "text_role": "localized",
+      "text_box": [
+        176,
+        230,
+        454,
+        251
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_EDITION",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "[아케이드판]",
+      "text_role": "localized",
+      "text_box": [
+        5,
+        0,
+        87,
+        17
+      ],
+      "font_size": 10,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_BASIC_HEADING",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "기본 조작",
+      "text_role": "localized",
+      "text_box": [
+        34,
+        24,
+        130,
+        49
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_SHOOT_BUTTON",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "사격",
+      "text_role": "localized",
+      "text_box": [
+        43,
+        76,
+        74,
+        94
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_MELEE_BUTTON",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "격투",
+      "text_role": "localized",
+      "text_box": [
+        105,
+        76,
+        140,
+        94
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_JUMP_BUTTON",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "점프",
+      "text_role": "localized",
+      "text_box": [
+        162,
+        76,
+        210,
+        94
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_MOVE_BUTTON",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "이동",
+      "text_role": "localized",
+      "text_box": [
+        44,
+        185,
+        77,
+        207
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_TARGET_BUTTON",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "타깃 변경",
+      "text_role": "localized",
+      "text_box": [
+        107,
+        185,
+        207,
+        207
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_SHOOT_HEADING",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "사격",
+      "text_role": "localized",
+      "text_box": [
+        229,
+        35,
+        270,
+        59
+      ],
+      "font_size": 14,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_MELEE_HEADING",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "격투",
+      "text_role": "localized",
+      "text_box": [
+        345,
+        35,
+        389,
+        59
+      ],
+      "font_size": 14,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_COMBO_A",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "버튼 조합에 따라",
+      "text_role": "localized",
+      "text_box": [
+        297,
+        117,
+        451,
+        153
+      ],
+      "font_size": 12,
+      "angle": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_COMBO_B",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "기술이 달라진다!",
+      "text_role": "localized",
+      "text_box": [
+        321,
+        139,
+        445,
+        173
+      ],
+      "font_size": 11,
+      "angle": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_07_AIM_NOTICE",
+      "asset": "manual07.pzz/part_000/picture_000",
+      "page": 8,
+      "target_ko": "조준이 빨갛게 되면 공격할 기회!",
+      "text_role": "localized",
+      "text_box": [
+        229,
+        223,
+        450,
+        246
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_EDITION",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "[아케이드판]",
+      "text_role": "localized",
+      "text_box": [
+        5,
+        0,
+        87,
+        17
+      ],
+      "font_size": 10,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_ASSIST_HEADING",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "모빌 어시스트",
+      "text_role": "localized",
+      "text_box": [
+        34,
+        24,
+        174,
+        50
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_SIMULTANEOUS",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "버튼 3개\n동시 입력!",
+      "text_role": "localized",
+      "text_box": [
+        20,
+        58,
+        80,
+        99
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_SHOOT_BUTTON",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "사격",
+      "text_role": "localized",
+      "text_box": [
+        85,
+        56,
+        124,
+        79
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_MELEE_BUTTON",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "격투",
+      "text_role": "localized",
+      "text_box": [
+        142,
+        56,
+        182,
+        79
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_JUMP_BUTTON",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "점프",
+      "text_role": "localized",
+      "text_box": [
+        204,
+        56,
+        256,
+        79
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_ASSIST_CALL",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "지원기를 불러라!",
+      "text_role": "localized",
+      "text_box": [
+        369,
+        30,
+        474,
+        79
+      ],
+      "font_size": 11,
+      "angle": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_STEP_HEADING",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "스텝",
+      "text_role": "localized",
+      "text_box": [
+        34,
+        133,
+        114,
+        162
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_LEVER_NOTE",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "레버를 같은 방향으로\n빠르게 2번!",
+      "text_role": "localized",
+      "text_box": [
+        22,
+        171,
+        140,
+        212
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_EVADE_NOTE",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "적의 공격을 피하라!",
+      "text_role": "localized",
+      "text_box": [
+        348,
+        132,
+        474,
+        178
+      ],
+      "font_size": 11,
+      "angle": 10,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_08_BOOST_NOTE",
+      "asset": "manual08.pzz/part_000/picture_000",
+      "page": 9,
+      "target_ko": "※ 부스트 게이지의\n잔량에 주의!",
+      "text_role": "localized",
+      "text_box": [
+        366,
+        182,
+        464,
+        221
+      ],
+      "font_size": 10,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_09_EDITION",
+      "asset": "manual09.pzz/part_000/picture_000",
+      "page": 10,
+      "target_ko": "[아케이드판]",
+      "text_role": "localized",
+      "text_box": [
+        5,
+        0,
+        87,
+        17
+      ],
+      "font_size": 10,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_09_NEXT_HEADING",
+      "asset": "manual09.pzz/part_000/picture_000",
+      "page": 10,
+      "target_ko": "NEXT 대시",
+      "text_role": "localized",
+      "text_box": [
+        32,
+        25,
+        183,
+        53
+      ],
+      "font_size": 17,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_09_JUMP_NOTE",
+      "asset": "manual09.pzz/part_000/picture_000",
+      "page": 10,
+      "target_ko": "점프 버튼을 빠르게 2번!",
+      "text_role": "localized",
+      "text_box": [
+        23,
+        55,
+        190,
+        82
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_09_CANCEL_NOTE",
+      "asset": "manual09.pzz/part_000/picture_000",
+      "page": 10,
+      "target_ko": "모든 행동을\n취소할 수 있다!",
+      "text_role": "localized",
+      "text_box": [
+        230,
+        71,
+        336,
+        112
+      ],
+      "font_size": 12,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_09_NEXT_ENGLISH",
+      "asset": "manual09.pzz/part_000/picture_000",
+      "page": 10,
+      "target_ko": "NEXT",
+      "text_role": "preserved_english",
+      "text_box": [
+        355,
+        139,
+        404,
+        174
+      ],
+      "font_size": 12,
+      "angle": 9,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_09_NEXT_COMBO",
+      "asset": "manual09.pzz/part_000/picture_000",
+      "page": 10,
+      "target_ko": "다음 동작으로!",
+      "text_role": "localized",
+      "text_box": [
+        357,
+        153,
+        472,
+        188
+      ],
+      "font_size": 11,
+      "angle": 9,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "MANUAL_09_BOOST_NOTE",
+      "asset": "manual09.pzz/part_000/picture_000",
+      "page": 10,
+      "target_ko": "※ 부스트가 남아 있으면 몇 번이든 사용 가능!",
+      "text_role": "localized",
+      "text_box": [
+        197,
+        200,
+        454,
+        225
+      ],
+      "font_size": 11,
+      "angle": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    }
+  ]
+}
