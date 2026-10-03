@@ -38,14 +38,13 @@
     "selpi": "All 66 source members reviewed, 66 Korean pilot-name surfaces; actual rotated consumer strips reconstructed",
     "briefing": "341 verified source members; 63 standalone unit labels and 302 card-name surfaces localized; embedded series logos remain",
     "stage_banners": "43 source-reviewed series/location titles localized in trl03 picture 2/3",
-    "series_titles": "18 sources reviewed; 13 assets edited in 25 regions; eleven have all identified Japanese labels replaced; six still contain Japanese; one source English-only",
+    "series_titles": "18 source assets reviewed: 16 contain Japanese, localized in 42 regions including glow consumers; TURN A GUNDAM and Endless Waltz are English-only and preserved",
     "selection_name_bank": "56 authored cells in sel02 picture 0; 66 actual object consumers reconstructed and visually reviewed; 15 Latin/digit/symbol quads preserved",
     "pilot_data": "32 source-reviewed stats, grade and wait/selection labels inserted; pcard picture 3/4 are text-free art"
   },
   "next_actions": [
-    "Finish six Japanese series-logo assets; include all fragmented glyphs, glow layers and small subtitles",
-    "Localize shared series-logo banks and small logos embedded in briefing cards",
-    "Review remaining unidentified shared label cells and every NEXT PLUS consumer/variant"
+    "Embedded card logos: 154 source cards reviewed individually; protect models and Korean names",
+    "Unresolved common labels and every NEXT PLUS consumer/variant inventory"
   ],
   "runtime_verdict": "NOT_TESTED",
   "whole_game_graphics_complete": false,
@@ -65,5 +64,16 @@
   "series_source_assets": 18,
   "series_japanese_source_assets": 17,
   "series_assets_all_identified_japanese_labels_replaced": 11,
-  "series_assets_remaining_japanese": 6
+  "series_assets_remaining_japanese": 6,
+  "completed_series_assets": 16,
+  "completed_series_regions": 42,
+  "remaining_series_assets": [],
+  "alpha_repaired_surfaces": 43,
+  "shared_series_banks": {
+    "regions": 48,
+    "surfaces": 3,
+    "static": "PASS",
+    "runtime": "NOT_TESTED",
+    "english_consumers_pixel_identical": 3
+  }
 }

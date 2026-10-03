@@ -49,8 +49,10 @@ def encode_indices(indexes: list[int], info: dict) -> bytes:
 
 
 def distance(a: tuple[int, int, int, int], b: tuple[int, int, int, int]) -> int:
-    # Alpha errors are especially visible around antialiased glyph edges.
-    return sum((a[i] - b[i]) ** 2 * (3 if i == 3 else 1) for i in range(4))
+    # Compare visible color, not hidden RGB in transparent palette entries.
+    # Straight-RGB distance can map transparent black to visible gray when the
+    # palette stores transparent white, producing rectangles around new labels.
+    return sum((a[i] * a[3] - b[i] * b[3]) ** 2 for i in range(3)) + 3 * 255 ** 2 * (a[3] - b[3]) ** 2
 
 
 def main() -> None:

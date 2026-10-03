@@ -1,0 +1,1678 @@
+{
+  "schema_version": 1,
+  "development_only": true,
+  "approved": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_scope_complete": false,
+  "edited_regions": 48,
+  "edited_surfaces": 3,
+  "source_english_consumers_pixel_identical": 3,
+  "rows": [
+    {
+      "id": "SERIES_BANK_sel00_00",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        0,
+        0,
+        42,
+        21
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "9a83f3affaf6bdf0e3a0e1e933af9efc65ce4b62ad7a989b46684de8a07df41c",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "lines": [
+        {
+          "text": "건담",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_01",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        42,
+        0,
+        84,
+        21
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "4cbaecc234c32a5052efad5e6259955cdb8d7014a70007c043cd80e8e5d046a0",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "G 건담",
+      "lines": [
+        {
+          "text": "G 건담",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_02",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        84,
+        0,
+        126,
+        21
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "d6e2f617ecb67f28b24fa15850e84e8ded1fa3bd005a851adb3c5855fba14622",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "lines": [
+        {
+          "text": "건담 0080",
+          "font_size": 10,
+          "scale_x": 0.8888888888888888
+        },
+        {
+          "text": "주머니 속의 전쟁",
+          "font_size": 9,
+          "scale_x": 0.6451612903225806
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_03",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        0,
+        21,
+        42,
+        42
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "0f79304eb5eb50eafec3d51ebdbc991fcc2ff83f2631bb4e78b921a3b1bdf679",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "lines": [
+        {
+          "text": "Z 건담",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_04",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        42,
+        21,
+        84,
+        42
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "e765b84a0e99ac27504aef2be130a745d99b06b4c720c3bd33e26d623ffe1de5",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담 W(윙)",
+      "lines": [
+        {
+          "text": "건담 W(윙)",
+          "font_size": 10,
+          "scale_x": 0.851063829787234
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_05",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        84,
+        21,
+        126,
+        42
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "c3454a512d4c3f82473f41887596080b99ab312d4ce927d98deaa379c74b344a",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "건담 0083 / STARDUST MEMORY",
+      "lines": [
+        {
+          "text": "건담 0083",
+          "font_size": 10,
+          "scale_x": 0.8888888888888888
+        },
+        {
+          "text": "STARDUST MEMORY",
+          "font_size": 6,
+          "scale_x": 0.6896551724137931
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_06",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        0,
+        42,
+        42,
+        63
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "395c7dd508dde78c6c56b81bc88fd8d3d4a2ecb5127a6fec59257dbe41b0c187",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "ZZ 건담",
+      "lines": [
+        {
+          "text": "ZZ 건담",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_07",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        42,
+        42,
+        84,
+        63
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "2250cdaa344328aa3b3985edcd74c374ba9e300c5a61645880eeb7a260fb20b2",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담 X",
+      "lines": [
+        {
+          "text": "건담 X",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_08",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        84,
+        42,
+        126,
+        63
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "76ef399510f969a86b6a9f41ffaf7be116b6fa652835abfd2773112cbea29070",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "lines": [
+        {
+          "text": "제08MS소대",
+          "font_size": 10,
+          "scale_x": 0.7407407407407407
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_09",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        0,
+        63,
+        42,
+        84
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "c62ce7d9e1f5f089f7e54465268133b5dd73ef011de82c8d5926e5b3b1504e0b",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "역습의 샤아",
+      "lines": [
+        {
+          "text": "역습의 샤아",
+          "font_size": 10,
+          "scale_x": 0.8163265306122449
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_11",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        84,
+        63,
+        126,
+        84
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "3e622df4cb9f9d315dc307f796b1cfb7e7eaaf8fec4df8406d48e258eea7dcbe",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "lines": [
+        {
+          "text": "건담 00",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_12",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        0,
+        84,
+        42,
+        105
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "5d2ad8df7bd84c899c66322a8af0c1a499c8d1f6267d05e5329d7e0a0262cd68",
+      "series_asset": "stitle04.pzz",
+      "target_ko": "건담 F91",
+      "lines": [
+        {
+          "text": "건담 F91",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_13",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        42,
+        84,
+        84,
+        105
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "a45b92a0e76b6a424540f4d1db3ec1af3bd14609ef9ad677e2a58061e064b0f2",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "lines": [
+        {
+          "text": "건담 SEED",
+          "font_size": 10,
+          "scale_x": 0.8888888888888888
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_14",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        84,
+        84,
+        126,
+        105
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "8c3917e07c89f32d89cd854b6a6689ac442048948503285c61291d85ddd7b212",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "건담 UC / 유니콘",
+      "lines": [
+        {
+          "text": "건담 UC",
+          "font_size": 10,
+          "scale_x": 1
+        },
+        {
+          "text": "유니콘",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_15",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        0,
+        105,
+        42,
+        126
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "4f00bfce89d167d93ebb47a69f35c2867cf7e738d4eaa99c584097bd9890da58",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "V 건담",
+      "lines": [
+        {
+          "text": "V 건담",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_sel00_16",
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "box": [
+        42,
+        105,
+        84,
+        126
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_crop_rgba_sha256": "2bdff6e1f45d77de552339b9059e898653fc8269801824e22d77a3f7d34b3777",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담 SEED / 데스티니",
+      "lines": [
+        {
+          "text": "건담 SEED",
+          "font_size": 10,
+          "scale_x": 0.8888888888888888
+        },
+        {
+          "text": "데스티니",
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_00",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        1,
+        1,
+        45,
+        41
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "d362de1c2f3019a9515fa0ef9c19b570681ddddbb586dde67e902d0c2d33b6c4",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "lines": [
+        {
+          "text": "건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        93,
+        27
+      ],
+      "shared_uv_pixels_preserved": 5,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_01",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        44,
+        1,
+        108,
+        28
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "2dbddff1c68c12626573cb31a1545dec4a8fcf395720ba7243597840b386ea98",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "lines": [
+        {
+          "text": "Z 건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        1,
+        0,
+        95,
+        32
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_02",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        108,
+        1,
+        176,
+        26
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "be96aba42b953492d18f62b9b469bedf7cbe56b69b2a89a226cdf6a3deee8817",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "ZZ 건담",
+      "lines": [
+        {
+          "text": "ZZ 건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        95,
+        34
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_03",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        1,
+        28,
+        88,
+        59
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "e11bd3521feb5f66e0941951304b204ac2ecaea31f53d08bff102f948568aeb9",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "역습의 샤아",
+      "lines": [
+        {
+          "text": "역습의 샤아",
+          "font_size": 18,
+          "scale_x": 0.6853932584269663
+        }
+      ],
+      "world_safe_rect": [
+        32,
+        16,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 5,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_04",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        78,
+        23,
+        150,
+        57
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "56cb76a33cf8ef17d3ff4bce5f971e7d02b7da4c42b3ce36d96d4f702104ee1c",
+      "series_asset": "stitle04.pzz",
+      "target_ko": "건담 F91",
+      "lines": [
+        {
+          "text": "건담 F91",
+          "font_size": 18,
+          "scale_x": 0.9846153846153847
+        }
+      ],
+      "world_safe_rect": [
+        13,
+        0,
+        79,
+        38
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_05",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        139,
+        26,
+        196,
+        67
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "cf9af5f6c7a31c6b36511b98a2398e1a5b63b2d0f3c8d967e3f852cfdd2af1a6",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "V 건담",
+      "lines": [
+        {
+          "text": "V 건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        15,
+        7,
+        94,
+        27
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_06",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        1,
+        59,
+        65,
+        83
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "c4dfed5f6c18241778c44cc137f97363e8b5ca1a9ebf2eac72f1bf4d6fad4cc6",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "G 건담",
+      "lines": [
+        {
+          "text": "G 건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_07",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        184,
+        100,
+        255,
+        127
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "fa01226cf035ee670c9976a486f91e8ac371072db0a9d808b44027f69e64323c",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담 W(윙)",
+      "lines": [
+        {
+          "text": "건담 W(윙)",
+          "font_size": 18,
+          "scale_x": 0.9425287356321839
+        }
+      ],
+      "world_safe_rect": [
+        11,
+        3,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_08",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        1,
+        83,
+        57,
+        127
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "acbb32bc1b52512139c7f7e809271217cc967de98efa5bde5ed01fb1b8acb97c",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담 X",
+      "lines": [
+        {
+          "text": "건담 X",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        72,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_0a",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        120,
+        89,
+        192,
+        127
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "f9da3b9cb6c7e2c0b797df38326f5ba5ab6f56db3fa0d706f9f5028fe82eac87",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "lines": [
+        {
+          "text": "건담 SEED",
+          "font_size": 18,
+          "scale_x": 0.85
+        }
+      ],
+      "world_safe_rect": [
+        14,
+        9,
+        84,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_0b",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        131,
+        59,
+        213,
+        98
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "fb32cff7eca980b2014a31581d40290dbe7c084766d18001e78b9d5ab5aeac9c",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "SEED 데스티니",
+      "lines": [
+        {
+          "text": "SEED 데스티니",
+          "font_size": 15,
+          "scale_x": 0.6210526315789474
+        }
+      ],
+      "world_safe_rect": [
+        34,
+        8,
+        95,
+        30
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_0c",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        57,
+        83,
+        131,
+        102
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "3294be320ac9d675719766246acd3241aa0ecd2e6d8e60a8ec94cd00f50a07e5",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "lines": [
+        {
+          "text": "건담 0080",
+          "font_size": 18,
+          "scale_x": 1
+        },
+        {
+          "text": "주머니 속의 전쟁",
+          "font_size": 18,
+          "scale_x": 0.6796875
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        89,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_0d",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        65,
+        48,
+        131,
+        83
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "279f93cc69663cd8539d666220e4458417a983b3e86c249cf2c9879374298be5",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "건담 0083 / STARDUST MEMORY",
+      "lines": [
+        {
+          "text": "건담 0083",
+          "font_size": 14,
+          "scale_x": 1
+        },
+        {
+          "text": "STARDUST MEMORY",
+          "font_size": 15,
+          "scale_x": 0.6326530612244898
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        10,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_0e",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        176,
+        19,
+        255,
+        37
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "387c0ffd028d31cac834bae2c9584487a3ef01980a3d875fae5ce66c7b0528e4",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "lines": [
+        {
+          "text": "제08MS소대",
+          "font_size": 18,
+          "scale_x": 0.8585858585858586
+        }
+      ],
+      "world_safe_rect": [
+        8,
+        0,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_0f",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        176,
+        1,
+        255,
+        18
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "84230ef0b72bf240243c88bf4ecd4ef831e869b75ebdd53002af2e7c06e76d1b",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "lines": [
+        {
+          "text": "건담 00",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl01_10",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        43,
+        102,
+        120,
+        127
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "a234b18e1fcf4af38dbf3b905b58c9fc875d73a36f01787acb9b00cd95ae8aae",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "건담 UC / 유니콘",
+      "lines": [
+        {
+          "text": "건담 UC",
+          "font_size": 18,
+          "scale_x": 1
+        },
+        {
+          "text": "유니콘",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        16,
+        0,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_00",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        1,
+        1,
+        45,
+        41
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "52b1a022d67219f53c523f3efd7332e341eb4ef169182c4f8e5dbc97e5274f94",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "lines": [
+        {
+          "text": "건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        93,
+        27
+      ],
+      "shared_uv_pixels_preserved": 12,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_01",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        44,
+        1,
+        108,
+        28
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "ddf13c4879e14381735fa71922b5d367ef7fdf536b74dc2f8e784490a9bee49d",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "lines": [
+        {
+          "text": "Z 건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        1,
+        0,
+        95,
+        32
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_02",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        108,
+        1,
+        176,
+        26
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "3e871e499658602511b31ffe621f0773f83474ff01205a8196395a6777fba7b2",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "ZZ 건담",
+      "lines": [
+        {
+          "text": "ZZ 건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        95,
+        34
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_03",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        1,
+        28,
+        88,
+        59
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "facf0ee12d0f88fc983205cc979b147a988315e5dfb04d382139ea70c21a024e",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "역습의 샤아",
+      "lines": [
+        {
+          "text": "역습의 샤아",
+          "font_size": 10,
+          "scale_x": 0.9591836734693877
+        }
+      ],
+      "world_safe_rect": [
+        21,
+        1,
+        70,
+        32
+      ],
+      "shared_uv_pixels_preserved": 12,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_04",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        78,
+        23,
+        150,
+        57
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "2157b8b86765c20dfd42c73875cd897d05f0304b1da61c3a5e56a65f6860aeea",
+      "series_asset": "stitle04.pzz",
+      "target_ko": "건담 F91",
+      "lines": [
+        {
+          "text": "건담 F91",
+          "font_size": 18,
+          "scale_x": 0.9846153846153847
+        }
+      ],
+      "world_safe_rect": [
+        13,
+        0,
+        79,
+        38
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_05",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        139,
+        26,
+        196,
+        67
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "046736eca5df8cfa3be57fcfc3d68ce9ee1f4876187d58b96c661eb7084665cc",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "V 건담",
+      "lines": [
+        {
+          "text": "V 건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        16,
+        7,
+        92,
+        30
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_06",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        1,
+        59,
+        65,
+        83
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "f5d80b042433bab0722e0da0de7d365f3e1c69b77fd5bc2efcab4f610d60f386",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "G 건담",
+      "lines": [
+        {
+          "text": "G 건담",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_07",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        184,
+        100,
+        255,
+        127
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "fddda30322cdb84dd09bffb82a7059544228768d3ac5fd64bca5f2b8525af875",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담 W(윙)",
+      "lines": [
+        {
+          "text": "건담 W(윙)",
+          "font_size": 18,
+          "scale_x": 0.9425287356321839
+        }
+      ],
+      "world_safe_rect": [
+        11,
+        3,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_08",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        1,
+        83,
+        57,
+        127
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "8321b0d6d616db96eb527289f4de08ef5f6d1686709e7e583f2ed81e15165d3f",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담 X",
+      "lines": [
+        {
+          "text": "건담 X",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        72,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_0a",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        120,
+        89,
+        192,
+        127
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "bd9e7b85acab55ad5d691d71957030c7b6a46e62b58dd46d0787204548e2e586",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "lines": [
+        {
+          "text": "건담 SEED",
+          "font_size": 18,
+          "scale_x": 0.85
+        }
+      ],
+      "world_safe_rect": [
+        14,
+        9,
+        84,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_0b",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        131,
+        59,
+        213,
+        98
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "cb2253188a13465b8d4ec1bd20d831d0cffe331ee2d4219d8861950eb26bf048",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "SEED 데스티니",
+      "lines": [
+        {
+          "text": "SEED 데스티니",
+          "font_size": 15,
+          "scale_x": 0.6210526315789474
+        }
+      ],
+      "world_safe_rect": [
+        34,
+        8,
+        95,
+        30
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_0c",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        57,
+        83,
+        131,
+        102
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "7b08ad0e0cf0a7aa84d65cf92067a53a16701a592ed154e2e49f51d41c17b5be",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "lines": [
+        {
+          "text": "건담 0080",
+          "font_size": 18,
+          "scale_x": 1
+        },
+        {
+          "text": "주머니 속의 전쟁",
+          "font_size": 18,
+          "scale_x": 0.6796875
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        89,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_0d",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        65,
+        48,
+        131,
+        83
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "fee0d2d0d10a8309d1b6358ed88834bb14e320cd75b95a2324e1bec855eb9d00",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "건담 0083 / STARDUST MEMORY",
+      "lines": [
+        {
+          "text": "건담 0083",
+          "font_size": 14,
+          "scale_x": 1
+        },
+        {
+          "text": "STARDUST MEMORY",
+          "font_size": 15,
+          "scale_x": 0.6326530612244898
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        10,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_0e",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        176,
+        18,
+        255,
+        36
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "5fe09b8314fd2c25e43725963dfc8f4f54eedcf142129e7c74430aa2bba044d8",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "lines": [
+        {
+          "text": "제08MS소대",
+          "font_size": 18,
+          "scale_x": 0.8787878787878788
+        }
+      ],
+      "world_safe_rect": [
+        6,
+        0,
+        95,
+        35
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_0f",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        176,
+        1,
+        255,
+        18
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "81f47a1e9649d79a5866c63ed88ecb08cb0a194af03a1ce14bdf813c26a12210",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "lines": [
+        {
+          "text": "건담 00",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        0,
+        0,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "SERIES_BANK_trl02_10",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "box": [
+        43,
+        102,
+        120,
+        127
+      ],
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_crop_rgba_sha256": "9f3029fb7492a76353cceaf6fbace2f46246ddfcbb5ed822241d394c60a93101",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "건담 UC / 유니콘",
+      "lines": [
+        {
+          "text": "건담 UC",
+          "font_size": 18,
+          "scale_x": 1
+        },
+        {
+          "text": "유니콘",
+          "font_size": 18,
+          "scale_x": 1
+        }
+      ],
+      "world_safe_rect": [
+        16,
+        0,
+        95,
+        39
+      ],
+      "shared_uv_pixels_preserved": 0,
+      "approved": false,
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED"
+    }
+  ]
+}

@@ -1,35 +1,37 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "development_only": true,
   "approved": false,
   "runtime_verdict": "NOT_TESTED",
   "whole_scope_complete": false,
-  "edited_regions": 25,
-  "edited_assets": 13,
+  "edited_regions": 42,
+  "edited_assets": 16,
   "source_series_assets": 18,
-  "source_japanese_series_assets": 17,
+  "source_japanese_series_assets": 16,
   "all_identified_japanese_labels_replaced_assets": [
     "stitle00.pzz",
     "stitle01.pzz",
+    "stitle02.pzz",
     "stitle03.pzz",
     "stitle04.pzz",
     "stitle05.pzz",
     "stitle06.pzz",
     "stitle07.pzz",
-    "stitle0d.pzz",
-    "stitle0e.pzz",
-    "stitle02.pzz",
-    "stitle08.pzz"
-  ],
-  "remaining_japanese_assets": [
-    "stitle09.pzz",
+    "stitle08.pzz",
     "stitle0a.pzz",
     "stitle0b.pzz",
     "stitle0c.pzz",
+    "stitle0d.pzz",
+    "stitle0e.pzz",
     "stitle0f.pzz",
     "stitle10.pzz"
   ],
-  "original_english_only_asset": "stitle11.pzz",
+  "remaining_japanese_assets": [],
+  "original_english_only_assets": [
+    "stitle09.pzz",
+    "stitle11.pzz"
+  ],
+  "glow_derivation": "Immutable PMF2 foreground XY baked into background UV triangles",
   "rows": [
     {
       "id": "SERIES_00_HEADER",
@@ -56,6 +58,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "cde26ff54cfd0c6b46669af6996b73062b21718a9fc5f114998087ac352e0b08"
     },
     {
@@ -83,6 +86,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "fdd253ade16d78697adca65b0337a6a0645c9f0abc974329fc9fafdd3618a8dd"
     },
     {
@@ -110,6 +114,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "218cec5f51bd8d04433100e95818c9804d554d2cba6ff71738dbe2e6a8e8f7f6"
     },
     {
@@ -137,6 +142,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "c78bd25a361daa33babbab41bb70f42123567c3cf0a6ddb47dbd3eceb8c544eb"
     },
     {
@@ -164,6 +170,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "dc0df3e4d45a357b0a7e873789fe49615bd27fb909fd9b2673c1c4ffd1b02cb6"
     },
     {
@@ -191,6 +198,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "2493b2ecfa558a5c505f10d714d470cb683cd46903eab95826d69c4b63199a2b"
     },
     {
@@ -218,6 +226,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "e1375b30e89497620a1947cdd8818a6f87e7423aaec35461de1969aa6b2e5ad5"
     },
     {
@@ -245,6 +254,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "8b4f9aa9858555be8a5c7ca7f05f3df77a54f14b656ed6f7a1f531198b83933a"
     },
     {
@@ -272,6 +282,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "61f6cbae1a27c73e4c4721f1cc76089ee4981a139aa96c649d1bd0f8c080d12d"
     },
     {
@@ -299,6 +310,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "1835c15dc4989f7703fd760f6ed8903680d74feae5b66101a630f10240b8002b"
     },
     {
@@ -326,6 +338,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "538bb0b38548266128432de20a177adca47c50b20c0a4a5e233eb69d960cf002"
     },
     {
@@ -353,6 +366,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "4fcf54fb6f63377e4aa2b1617808c5c173f45dd55d115bf3df36780542ed45e2"
     },
     {
@@ -380,6 +394,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "38a222015643f156ccae1dae56f3ff71c596599cfda9ab32bea04384c8a60eb6"
     },
     {
@@ -407,6 +422,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "9837ec5b4fcc3e8c7e72759868a97062161dfc8d695123c53ecbe2a87b0da5f1"
     },
     {
@@ -434,6 +450,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "007b00762b39d135eb63cb0126b582f11c2091ff6f11fa36846f5d2a55d52675"
     },
     {
@@ -461,6 +478,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "bdaea82d761568b8b15ef9052c01ac15f70e6d072487bb3dd8eb530337179099"
     },
     {
@@ -488,61 +506,8 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "5ed4bc3486600c89582b675e6598c774c720ec2d36c03b32e5ca9feb9d332289"
-    },
-    {
-      "id": "SERIES_0f_HEADER",
-      "asset": "stitle0f.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        128
-      ],
-      "box": [
-        12,
-        13,
-        60,
-        25
-      ],
-      "inner_box": [
-        12,
-        13,
-        60,
-        25
-      ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "401bbb339aa7fb872270357c3fafd233ba9f47a394623bc5f96a3c59398ad18d"
-    },
-    {
-      "id": "SERIES_10_HEADER",
-      "asset": "stitle10.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        128
-      ],
-      "box": [
-        95,
-        16,
-        153,
-        31
-      ],
-      "inner_box": [
-        95,
-        16,
-        153,
-        31
-      ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "50934ffec6c88a53dc6c4f0dca748cb5ba9bf0db018456fd9a678b3b9e44f7b6"
     },
     {
       "id": "SERIES_01_TITLE",
@@ -569,6 +534,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "287ad6afb4dac116a3da2c8d8118aab20f35b957b91300af776457edd4498a07"
     },
     {
@@ -596,6 +562,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "0488662cec324d0947656438009d7b02cf74d66527b31d04aa0b5284bb4645d1"
     },
     {
@@ -623,6 +590,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "cb1b3397bf1a67d8c6b12c97ec923bef2f80e99f52a82867fa4f29e97db72094"
     },
     {
@@ -650,6 +618,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "a8a5fbbc77e30b63a1fab2f8c0431a80ce426a35df0eaf33debbfa2030a97b2c"
     },
     {
@@ -677,6 +646,7 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "96b004f3f8dec59e865a8a913ef21876c87183c6497388a451a94944715342f1"
     },
     {
@@ -704,7 +674,540 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
       "source_crop_rgba_sha256": "5b5239a3f1feb07618c48abc1c9e3d13d61416883cdd6af0809877cccfcd1284"
+    },
+    {
+      "id": "SERIES_0c_SUBTITLE",
+      "asset": "stitle0c.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        82,
+        256,
+        128
+      ],
+      "inner_box": [
+        0,
+        82,
+        256,
+        128
+      ],
+      "target_ko": "주머니 속의 전쟁",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "6404d666a51ca432582a7aa70cc04c71e475305df048026f10bb7af7c8a66d2c"
+    },
+    {
+      "id": "SERIES_0f_TITLE",
+      "asset": "stitle0f.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        25,
+        177,
+        58
+      ],
+      "inner_box": [
+        35,
+        26,
+        174,
+        57
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "1fd43791a57d671939cd77e747936a67672f0cc2486351f2a13a4600dee1688e"
+    },
+    {
+      "id": "SERIES_10_HEADER",
+      "asset": "stitle10.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        88,
+        10,
+        161,
+        34
+      ],
+      "inner_box": [
+        96,
+        16,
+        153,
+        31
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "6808c42e8ff18c4c54448e9c780e631835d0a0918496d78b8794b95757945a6c"
+    },
+    {
+      "id": "SERIES_10_TITLE",
+      "asset": "stitle10.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        34,
+        256,
+        61
+      ],
+      "inner_box": [
+        12,
+        34,
+        242,
+        61
+      ],
+      "target_ko": "건담 UC",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "88de821a9869d6e0057fe7b627b2732a1a047574577c1112ed05577f1ad8b3b5"
+    },
+    {
+      "id": "SERIES_10_UNICORN",
+      "asset": "stitle10.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        61,
+        256,
+        81
+      ],
+      "inner_box": [
+        60,
+        62,
+        205,
+        80
+      ],
+      "target_ko": "유니콘",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "9bdf34cb5091a98e4cd91f9257e0af4fe5135688c560b01383b7f59c0d3bb9f1"
+    },
+    {
+      "id": "SERIES_0a_HEADER",
+      "asset": "stitle0a.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        103,
+        59,
+        150,
+        73
+      ],
+      "inner_box": [
+        103,
+        59,
+        150,
+        73
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "10355e312ff293345fd9ac8bcf210330f3406169e5ccc7d9b6adf5898b1f06d9"
+    },
+    {
+      "id": "SERIES_0a_TITLE",
+      "asset": "stitle0a.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        19,
+        73,
+        185,
+        121
+      ],
+      "inner_box": [
+        40,
+        77,
+        174,
+        116
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "2ca5c1d8e8dc9706b1d11c1ba366013e46cb929dab5b57de34411c0bd70218e8"
+    },
+    {
+      "id": "SERIES_0a_SEED",
+      "asset": "stitle0a.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        233,
+        82,
+        256,
+        96
+      ],
+      "inner_box": [
+        233,
+        82,
+        256,
+        96
+      ],
+      "target_ko": "시드",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "a4b2ea22c128bb5c289ad9106c584a46809c3da4102681a85bef7863dd805945"
+    },
+    {
+      "id": "SERIES_0b_HEADER",
+      "asset": "stitle0b.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        87,
+        63,
+        141,
+        81
+      ],
+      "inner_box": [
+        87,
+        63,
+        141,
+        81
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "ff79cdaf13bc6d1395e7558a661f0cf8282dde9e851811afe5e86aeefbc3d75e"
+    },
+    {
+      "id": "SERIES_0b_TITLE",
+      "asset": "stitle0b.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        81,
+        153,
+        122
+      ],
+      "inner_box": [
+        15,
+        82,
+        143,
+        118
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "d9965fd01af9db7ab4ed4a6dfb9397c74ccd78f3924c66f1075e2f530363aecb"
+    },
+    {
+      "id": "SERIES_0b_DESTINY",
+      "asset": "stitle0b.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        178,
+        85,
+        233,
+        97
+      ],
+      "inner_box": [
+        178,
+        85,
+        233,
+        97
+      ],
+      "target_ko": "데스티니",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "individually_reviewed_series_title_or_glow",
+      "source_crop_rgba_sha256": "4dc99968970230cb777fa01ca798a49b019ea8945be2665ade38beff718f91a4"
+    },
+    {
+      "id": "SERIES_0f_HEADER",
+      "asset": "stitle0f.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        12,
+        13,
+        60,
+        25
+      ],
+      "inner_box": [
+        12,
+        13,
+        60,
+        25
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "reviewed_planar_series_logo_label",
+      "source_crop_rgba_sha256": "401bbb339aa7fb872270357c3fafd233ba9f47a394623bc5f96a3c59398ad18d"
+    },
+    {
+      "id": "SERIES_0c_SUBTITLE_GLOW_DERIVED",
+      "asset": "stitle0c.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        82,
+        256,
+        128
+      ],
+      "inner_box": [
+        0,
+        82,
+        256,
+        128
+      ],
+      "target_ko": "주머니 속의 전쟁",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
+      "source_foreground_crop_rgba_sha256": "6404d666a51ca432582a7aa70cc04c71e475305df048026f10bb7af7c8a66d2c"
+    },
+    {
+      "id": "SERIES_0a_HEADER_GLOW_DERIVED",
+      "asset": "stitle0a.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        103,
+        59,
+        150,
+        73
+      ],
+      "inner_box": [
+        103,
+        59,
+        150,
+        73
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
+      "source_foreground_crop_rgba_sha256": "10355e312ff293345fd9ac8bcf210330f3406169e5ccc7d9b6adf5898b1f06d9"
+    },
+    {
+      "id": "SERIES_0a_TITLE_GLOW_DERIVED",
+      "asset": "stitle0a.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        19,
+        73,
+        185,
+        121
+      ],
+      "inner_box": [
+        40,
+        77,
+        174,
+        116
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
+      "source_foreground_crop_rgba_sha256": "2ca5c1d8e8dc9706b1d11c1ba366013e46cb929dab5b57de34411c0bd70218e8"
+    },
+    {
+      "id": "SERIES_0a_SEED_GLOW_DERIVED",
+      "asset": "stitle0a.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        233,
+        82,
+        256,
+        96
+      ],
+      "inner_box": [
+        233,
+        82,
+        256,
+        96
+      ],
+      "target_ko": "시드",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
+      "source_foreground_crop_rgba_sha256": "a4b2ea22c128bb5c289ad9106c584a46809c3da4102681a85bef7863dd805945"
+    },
+    {
+      "id": "SERIES_0b_HEADER_GLOW_DERIVED",
+      "asset": "stitle0b.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        87,
+        63,
+        141,
+        81
+      ],
+      "inner_box": [
+        87,
+        63,
+        141,
+        81
+      ],
+      "target_ko": "기동전사",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
+      "source_foreground_crop_rgba_sha256": "ff79cdaf13bc6d1395e7558a661f0cf8282dde9e851811afe5e86aeefbc3d75e"
+    },
+    {
+      "id": "SERIES_0b_TITLE_GLOW_DERIVED",
+      "asset": "stitle0b.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        0,
+        81,
+        153,
+        122
+      ],
+      "inner_box": [
+        15,
+        82,
+        143,
+        118
+      ],
+      "target_ko": "건담",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
+      "source_foreground_crop_rgba_sha256": "d9965fd01af9db7ab4ed4a6dfb9397c74ccd78f3924c66f1075e2f530363aecb"
+    },
+    {
+      "id": "SERIES_0b_DESTINY_GLOW_DERIVED",
+      "asset": "stitle0b.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "box": [
+        178,
+        85,
+        233,
+        97
+      ],
+      "inner_box": [
+        178,
+        85,
+        233,
+        97
+      ],
+      "target_ko": "데스티니",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
+      "source_foreground_crop_rgba_sha256": "4dc99968970230cb777fa01ca798a49b019ea8945be2665ade38beff718f91a4"
     }
   ]
 }
