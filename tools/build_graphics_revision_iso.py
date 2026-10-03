@@ -16,6 +16,7 @@ from hanpatch.platforms.psp import iso9660
 from repack_pzz import parse
 from unpack_pzz import detect_xor_key, xor_words
 from pzz_integrity import verify_trailer
+from verify_original_title_logos import DEFAULT_POLICY, verify_records, verify_iso
 
 CHUNK = 8 * 1024 * 1024
 
@@ -78,6 +79,12 @@ def main():
             writes.append((absolute,new,{'name':name,'archive':entry.path,'index':s['index'],
                 'absolute_offset':absolute,'bytes':size,'old_sha256':s['sha256'],
                 'new_sha256':hashlib.sha256(new).hexdigest(),'part_count':len(np)}))
+        # Enforce the current user decision before creating another large ISO.
+        logo_policy = None
+        if DEFAULT_POLICY.exists():
+            policy = json.loads(DEFAULT_POLICY.read_text(encoding='utf-8'))
+            planned = {row['name']: data for _, data, row in writes}
+            logo_policy = verify_records(policy, lambda row: planned[row['asset']] if row['asset'] in planned else bytes(iso.blob[row['iso_absolute_offset']:row['iso_absolute_offset'] + row['pzz_bytes']]))
     a.output_iso.parent.mkdir(parents=True,exist_ok=True)
     shutil.copyfile(a.baseline_iso,a.output_iso)
     with a.output_iso.open('r+b') as f:
@@ -110,6 +117,8 @@ def main():
         assert [(r.path,r.lba,r.size) for r in iso.walk()]==geometry
         for off,data,_ in writes:
             assert iso.blob[off:off+len(data)]==data
+    if logo_policy:
+        assert verify_iso(a.output_iso) == logo_policy
     crc=0
     with a.output_iso.open('rb') as f:
         while data:=f.read(CHUNK):
@@ -120,6 +129,7 @@ def main():
         'changed_disc_bytes':changed,'iso_member_geometry_preserved':True,
         'unaffected_iso_bytes_preserved':True,'afs_tables_and_pzz_geometry_preserved':True,
         'pzz_loader_checksums_verified':True,
+        'original_title_logo_policy':logo_policy,
         'static_verdict':'PASS','runtime_verdict':'NOT_TESTED','development_only':True,
         'whole_game_text_complete':False,'graphics_localization_complete':False}
     manifest_out.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')

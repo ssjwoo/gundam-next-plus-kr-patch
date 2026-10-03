@@ -1,0 +1,3862 @@
+{
+  "schema_version": 1,
+  "action": "preserve_original_title_logos",
+  "decision_date": "2026-10-03",
+  "source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+  "policy_document": "docs/GUNDAM_TITLE_LOGO_POLICY.md",
+  "reverted_logo_regions": 311,
+  "records": [
+    {
+      "asset": "stitle00.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500780544,
+      "pzz_bytes": 13968,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "8c86632b45c6b2912564aadf380bf0e026163c0b50c0b890031bd174e5df36d7",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "1bad89d2cdef7db87c8c977aa9b7bbf2df78db48ae33ea7a6fc6cfaff13b301f"
+    },
+    {
+      "asset": "stitle01.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500794880,
+      "pzz_bytes": 13840,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "fe09ca8ecd99a1df1b331647f621150e72270c7fc78c124be73aa96f003e199a",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "2edaf02247dc3db272f2c271139c49a1b2401c9a547984bab3438dad758b741c"
+    },
+    {
+      "asset": "stitle03.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500823552,
+      "pzz_bytes": 11920,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "15a8a2903adad2e6fc5b59fb31417c330d0b9b3754c483c2310f39a871a84e0b",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "c7acc82aa2389feb1d0aedbc0e06d39be52932e298968e73e9f3046c11445dde"
+    },
+    {
+      "asset": "stitle04.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500835840,
+      "pzz_bytes": 11920,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "1407521b29314e87eb258d686f02d93b36335542e46dcbe5b149789b51eab356",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "a13a4b2dc3aa514fd123aad89448529e110275a6190b0daabaffba485123338a"
+    },
+    {
+      "asset": "stitle05.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500848128,
+      "pzz_bytes": 14352,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "614c47fdce77b128e602838d7bfafcb6eb1eff897f7d1b3fef3759acc8d58cf0",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "33272c53eb8393ec2f0d64977eaa829b7e65fe415c9ff41102d2fc80fc1efc76"
+    },
+    {
+      "asset": "stitle06.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500864512,
+      "pzz_bytes": 14864,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "07ef3206a086b4a97882f47a1de7f0d52528288e888b8a5865da854f71bf283a",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "670bbbd839e23feba9bbf542b50438619c1df823f6d3eae1bb1118c880b7c7ac"
+    },
+    {
+      "asset": "stitle07.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500880896,
+      "pzz_bytes": 10768,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "8ca6965cc09ea9055bcffa3df5200e732b7876eb6cc0106c8a84ed4729f87b48",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "d3a49372fcb74808244233417207275b55df3c54e662fabf49ff299f339cd5a7"
+    },
+    {
+      "asset": "stitle08.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500893184,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "7d919e90c3936a241534be88092e2347ed3a25102a9310df15c0c689ebc5efac",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "9b4929a82fdb8776f04ac35bf68c45ca615ab313aefa160c72a08b73d4a4c1f6"
+    },
+    {
+      "asset": "stitle0d.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500975104,
+      "pzz_bytes": 12304,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "c4707bb729c688d9800151b426a577a99c288be821638e3c2add7b3523ce4486",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "60b37feab6e75a87ae486ba441c65abe761d4d12dda6b1264115e1bef1142f86"
+    },
+    {
+      "asset": "stitle0e.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500989440,
+      "pzz_bytes": 11024,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "841aead88c0b8f89151ab5afbd5365f574a0b8e5e6bc1cbdbdb0ef265502471a",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "1a8cad689c30da525aaec11c8e9c9d2baf3386541a0f6bdc5765277f3e15c5ea"
+    },
+    {
+      "asset": "stitle02.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500809216,
+      "pzz_bytes": 12560,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "d34560c815ac5816749ac2b13487abf68a4c7939661120e9cdbe12ae009b6850",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "5432d3fa05c8b8d07a690e97860d41619c4350be5c1bc649ee36a17227658155"
+    },
+    {
+      "asset": "stitle0a.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500923904,
+      "pzz_bytes": 16656,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "51af6f89d8e332dd023bc5133d90d37b2f9d3bc1cb2168d34334ceeffed96fd3",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "d0a422ccc077c06cf7d24591485e4fea053b67bb8ee3b3588af416aa549e92d1"
+    },
+    {
+      "asset": "stitle0b.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500942336,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "ea57b844ea576ef1be2bbabc17d64b12add09cce609d84924077762d0b806fb1",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "42c005f0e7add58d73b596c1c454c9a2115080901edc40d78078563da97516e2"
+    },
+    {
+      "asset": "stitle0c.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1500960768,
+      "pzz_bytes": 13456,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "e7e16ee8a1e2fb9a92265137b3c0d1350c758bc8068a484ed0485ddea56b344a",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "4f53f38147115c43b407549ac637f27476da8a6bbc439de38c844fc01a8e4216"
+    },
+    {
+      "asset": "stitle0f.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1501001728,
+      "pzz_bytes": 8208,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "dedc884dc1fe0d73793d89207fe31070eb02f632502ed01e3c4ae233f5aecf40",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "e91196c134787d33ce1ec89e7fb698a388d8b1e1980097601fd38a9600699e69"
+    },
+    {
+      "asset": "stitle10.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "series_title",
+      "iso_absolute_offset": 1501011968,
+      "pzz_bytes": 14992,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "5e887c36aa963fc046c3b9890888dad8539037c67f1576c07a121fe69ed921aa",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "bbe87871993454f806d1b2263b2453c508feb8082711445391780fe01a966e24"
+    },
+    {
+      "asset": "sel00.pzz",
+      "part": 1,
+      "picture": 4,
+      "category": "selection_title_bank",
+      "iso_absolute_offset": 1496997888,
+      "pzz_bytes": 114960,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "27ccb17cdd8dba422f7d0dbb7d458aa7c87f34aaac78716c4dee20d02c1893f7",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "14e2e664ae26ab083f934358eaea1e23ec6517f2b9fa136b401db0c4cff764dd"
+    },
+    {
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 2,
+      "category": "selection_title_bank",
+      "iso_absolute_offset": 1674975232,
+      "pzz_bytes": 61328,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "b846cebe3d35d27a583a298e880a7d2dcda0f66ccdcb9c453dec1be297529a42",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "e41d9b18d0f0028d96ac85b96d3d08b9ae2e524647ad22de58cccc786b7aa603"
+    },
+    {
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 2,
+      "category": "selection_title_bank",
+      "iso_absolute_offset": 1675036672,
+      "pzz_bytes": 161040,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "88a495f60b3edc076f0ef59719a60dc3fe272a3a54264c7ac15aec37382cbfce",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "de4a1daaf89748e68a3fae09eeef72c9f1573aa2a00b0001a4e03a4ba39a223d"
+    },
+    {
+      "asset": "menu.pzz",
+      "part": 1,
+      "picture": 3,
+      "category": "main_game_title",
+      "iso_absolute_offset": 1483266048,
+      "pzz_bytes": 58512,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "c160c8a1f1dee53c766a981acb627a88f0da229e22e5e870a528ecc75ccd5013",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "52c0634bac9b87091dfd4921d2b2caa05e29af25f20834aa0bc7c9411a74a71a"
+    },
+    {
+      "asset": "brfmb00.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504618496,
+      "pzz_bytes": 17296,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "143ab57a8ebda14d4918ab6a9695523e14a197e7883f4c79e9212b10c38cea64",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "b422ec236f8e9c3dbfd93a8e0bc4008b937fa7f4f0fb4f782e93d7c5a7ac068d"
+    },
+    {
+      "asset": "brfmb01.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504636928,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "5ff9a67a32a1526149e732637e4884b14de3eefa93058b21a7f715422694ce7a",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "840c8f09e6cda36ccd93c6116d8b8591bcafa94c3358cba503c508de9526d777"
+    },
+    {
+      "asset": "brfmb02.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504655360,
+      "pzz_bytes": 17040,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "32c9fe305c12379033c4f509bf8bd7cbaf0d02b0e52dcf26013477a7851197ef",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "41c5107f29382a5ebe415db6960a5dc4aae6af4df15030765c11ddc6d8b073ce"
+    },
+    {
+      "asset": "brfmb03.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504673792,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "157bb7d42d7478ef3c556c7b501bec584b1e0777131dcd64e5ac8aadb2a90c77",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "aa5c77af5665d4d4c54ee296f3e7c066d9aac5e0b0a75f5c33cc03870000dfdf"
+    },
+    {
+      "asset": "brfmb04.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504692224,
+      "pzz_bytes": 17040,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "c3040469211797642c7b5164a2c2a71afb3f7f785e1874f8340f872dd4aef624",
+      "retained_ui_rectangles": [
+        [
+          88,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "f5b4e88d98cbe0fbae7ca026fec1c8685618cb41d6c4a39f7e97336c41600cf6"
+    },
+    {
+      "asset": "brfmb05.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504710656,
+      "pzz_bytes": 17296,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "2abda75b59452b7699c31c050a9a8a5199a049a95295512fa5aa0bcf5dfe8ac6",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "f1df4f31f5f68b61fe1f5987c138d92bc3a42722b61ee60395116200314c2d71"
+    },
+    {
+      "asset": "brfmb06.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504729088,
+      "pzz_bytes": 17040,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "87696b318e9302f54d470002c4157ac5fae600130d38266f9f903d7c6003ff45",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "8577eb87abb0f117e8c96c85d16ec0bc0703c6443fc9144426d272b08e329a93"
+    },
+    {
+      "asset": "brfmb07.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504747520,
+      "pzz_bytes": 17296,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "25ab7c87dd68e9d32c99201c609d7c2bdab8eb6f5285afc64d23b591afa207c5",
+      "retained_ui_rectangles": [
+        [
+          4,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "911111d8955a5699bc4388cd83b05cdc23ffd13318b32da50aab6192b8e67660"
+    },
+    {
+      "asset": "brfmb08.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504765952,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "96490becd86257ab2b2081071bd541f068c7a0fd99fb071a40ba1a45bd7af9c9",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "5e99b2aa0e8624c5b1145c344189e16693b718e3943b3cbc5e378bcf1102c1fe"
+    },
+    {
+      "asset": "brfmb09.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504784384,
+      "pzz_bytes": 17168,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "3e0ea2681936507b8e5f8d16b567fd2040304954dc5698ac4e3160284980e892",
+      "retained_ui_rectangles": [
+        [
+          2,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "51edb8cd860103e5eadfe2419e2c45276975c61ff775011dfaff5c6cc6388462"
+    },
+    {
+      "asset": "brfmb0a.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504802816,
+      "pzz_bytes": 17808,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "068640adc5880b1aa2917ae67f9bf36c099e52dcb6ad08afca53286784562596",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "7590f451d1fcbc97317c37dd201fef2fa883c42a9384f7bbe8d086614601ffee"
+    },
+    {
+      "asset": "brfmb0b.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504821248,
+      "pzz_bytes": 17296,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "7f48576659a08d615a000e594282c8ccd58bee8014f2d39e567ebd72998c954b",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "70b412ba0178ca9432558914f253b2d65cf16e9800505398ebb8366204399e7a"
+    },
+    {
+      "asset": "brfmb0c.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504839680,
+      "pzz_bytes": 17936,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "cc2085991cff33a914f8ade58c25b527f8e7d1cd5bc76154b61c4b0a118f5a39",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "dd9c1f01ddd190ba12e832be7ada60a8884ddc1a0c57592b7f2d19289ad06db9"
+    },
+    {
+      "asset": "brfmb0d.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504858112,
+      "pzz_bytes": 18064,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "a6876d400cad25581dd0c68f5cae7b6e697f0d7e07a98e0b5826944913cf718e",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "6320d33ef35cf6b2766cacc5718a421d38797b85208aef5c484e3129904c2573"
+    },
+    {
+      "asset": "brfmb0e.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504876544,
+      "pzz_bytes": 16912,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "6aca55b9fdbef64f4c96d9c9d70bde4bcc300a2a5161c7eb20e14a21876bfc36",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "40cafc2867565e8ee9085c776e001500e0926701f3f96bf3fb11970d7f392b7b"
+    },
+    {
+      "asset": "brfmb0f.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504894976,
+      "pzz_bytes": 17168,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "07f706dd2e862874cccebe162608f398f51bf0a216bc1b906566389e1b54d398",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "4dc0b48e9f5be2f024e47072736f17225e238bb381160df192adf6cd4d926857"
+    },
+    {
+      "asset": "brfmb10.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504913408,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "d346ee0c0c93d84fee4476e265e9079f6c8fd74068e26debd2c7595ac78daf3e",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "454c67657a1577d165d16246bd5f10fa57f83f6f69abe4f5b8c2cf45a89cc49e"
+    },
+    {
+      "asset": "brfmb11.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504931840,
+      "pzz_bytes": 16912,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "50944830dcd1e7228f8d6b6affdb0bb10a752a73666aa3edf5fdadff7761177d",
+      "retained_ui_rectangles": [
+        [
+          16,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "a8fcd7d00c87c611fe7086d11429618b88d0856e60a27e6870fa7361658e9b6b"
+    },
+    {
+      "asset": "brfmb12.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504950272,
+      "pzz_bytes": 17936,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "e8b127e74bf16398e76527042bde918d62e77b26008856275215523cb5078131",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "2b03817105d52886399d7589565e74d0db5091ba5fe90d13455e156b781aee74"
+    },
+    {
+      "asset": "brfmb13.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504968704,
+      "pzz_bytes": 17296,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "caa41776d7e9cda541ffa38656440e04c90b7ad1cbadfedca6316c397d62de70",
+      "retained_ui_rectangles": [
+        [
+          16,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "04997ea859f7cb1e7069a2f86ae5c89ef24ac1616bae445e34a1158f6f038629"
+    },
+    {
+      "asset": "brfmb14.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1504987136,
+      "pzz_bytes": 17808,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "4f6a7e1a115d4e82da7540147bef66ba35ff112d942bcfad53f40d2fb3f3004e",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "8a1a684e659e0055aa541ed9414928fc22a03eb8a43ffe5059255ab184ee9c4f"
+    },
+    {
+      "asset": "brfmb15.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505005568,
+      "pzz_bytes": 17040,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "bc0b9a0ef6d3493bc5231fd8a47e2209a276fb6e537f437c29fa6bcb6fb89850",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "65918976cc342b1db7e9fd21ec2cab53028ccaea4fae13df495faeeb49da8e5d"
+    },
+    {
+      "asset": "brfmb18.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505060864,
+      "pzz_bytes": 17936,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "1703ea3d5d7c526f72a869589053e6e8f51f4a8c2ccbcb0e37f64bd515577599",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "8b76171acde07b5b0544f2d0a0a6aecdf2aadc7aea78c35a808a746d9cf98b99"
+    },
+    {
+      "asset": "brfmb19.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505079296,
+      "pzz_bytes": 18064,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "c6bb9aeadd15cbc5e85d54609cbcaa40d697296697b74d7b45769b9c4b06bc4c",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "a8f9d401a6fd905e30bd7996e8600f111035b987906f5dd15d01ad446608b06a"
+    },
+    {
+      "asset": "brfmb1a.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505097728,
+      "pzz_bytes": 18192,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "21ca58ef9f88d71e83a9ae8c32572eccdb6a359785f58a469aca1b84b59e8243",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "b9dc2b25cda06b500bd7e7d53de50f19ed64f6653514dd4ea9b6dba3675376b9"
+    },
+    {
+      "asset": "brfmb1b.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505116160,
+      "pzz_bytes": 18192,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "a30892487044aefca2a3d9ab798f8db9fb6c19c661076c1bd50648790c6418f3",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "34bd2a72459e5293cd6339469b9ac6bb8959293c1c665d52e66f48287caa1e50"
+    },
+    {
+      "asset": "brfmb1c.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505134592,
+      "pzz_bytes": 17808,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "6e3dc83dd8b24052b173d6693f6bdc431c874e8a46413cd4a746413ecca2bfe8",
+      "retained_ui_rectangles": [
+        [
+          76,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "4dc84f2f04a548777398c33d6b9d5b2a8beba711104d4cc324f6f74b49c7379a"
+    },
+    {
+      "asset": "brfmb1d.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505153024,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "8c74db55e09abf470cabd5737a1498bc5c622afa1007bd15823cad1479ac1bfb",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "5a4daa4e892b7cf0c27a479d2bad33ae91532308390de41a9fb5f9dde610e613"
+    },
+    {
+      "asset": "brfmb1e.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505171456,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "ffbda80ce9cbed20b45847adc00f413bcbfed9c91d422330fd9bde650294bc2c",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "6d56afb6527c263fabeb1c85798c2c121868a9481345b8075b7267f1e1f42972"
+    },
+    {
+      "asset": "brfmb1f.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505189888,
+      "pzz_bytes": 17808,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "99e6459b2d06ceda5fa0c74586387d15fa4e8313cc1881c9a61fbc442f74a8e5",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "3ac96e91bf3123c8a7528b7db1d750adb15701708476e1461ee2bd9aa24eb51e"
+    },
+    {
+      "asset": "brfmb20.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505208320,
+      "pzz_bytes": 17808,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "1551c5bbf63b63f8002e0a41f7117d983dd660f7832e22726a4bb9088f4d2e0e",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "414f9590098104d79461a650592a617c1cbd706aefee3de91b1d870631bd1530"
+    },
+    {
+      "asset": "brfmb21.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505226752,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "15efe37dcb323e8c83cfe2f366b987c2bd02a894d1f265c253e0a6574dc985b3",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "67f7058b086a35b54d6ee3c2a73d333277f3594a9c2ef118a5701170a8de4227"
+    },
+    {
+      "asset": "brfmb22.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505245184,
+      "pzz_bytes": 17552,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "12980612a441c86713ecd21008837b414bb56f64bf07f1ebc049e62e44997949",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "257d1cc273693d7cb657f9d12a8c8bbdbb5c9359f7249044580e6131f8c0c1d7"
+    },
+    {
+      "asset": "brfmb23.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505263616,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "c8ef350228ebee1cde09e55f8cef26ee99696d38b9b1b2b5ff68f04ace03bf6c",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "271a6baad88e091ea003a706211c14cc8deb1c83997d26007eb416839776f21b"
+    },
+    {
+      "asset": "brfmb24.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505282048,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "c6ec2d302eb7b6277c0382ab9b951053f249b796b9431033d80f95de9fefed0a",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "eea6feaf97cecb4aae8174a23a5b1647a9a2df3a2fc91c1a7735adeab69399e9"
+    },
+    {
+      "asset": "brfmb25.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505300480,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "6e8e36212229a8b5c6745d80748f40ff2890e5e1c982f44f2ca84b3161459382",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "e3e7159c86f0791bfe71ef61e144b54f390ed8e1c2ddacb123b68c5bdb884955"
+    },
+    {
+      "asset": "brfmb26.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505318912,
+      "pzz_bytes": 17552,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "9e6167bc8838d27bfb593386f07b21b0758acabe33696ea77a2d756d0265e748",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "cb547da8aa0f06f6f4ee638ebc6aad7c0f3edd8c04fe23da8719686cfb5efb7b"
+    },
+    {
+      "asset": "brfmb27.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505337344,
+      "pzz_bytes": 17040,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "6471353145e8e269c8f95d1ca89717047d8af8453a8bd8b95fba1486b61acdc1",
+      "retained_ui_rectangles": [
+        [
+          88,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "bbc90f67453d640e1c45c03135719c8347344501dcc65ede9fe74d71c0ae5e24"
+    },
+    {
+      "asset": "brfmb28.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505355776,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "3eeda4527acb5db0cbbf8ede0990b6752749042f2c0ebf40d8b3ba1548dfc195",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "7d29cfb52fd5debfc9e0d37fa0d360b0b0683d38fc8073f888c1417a1addb646"
+    },
+    {
+      "asset": "brfmb29.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505374208,
+      "pzz_bytes": 17552,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "98999ec75a5bc5223ea9b42c257263f1c3b44212c1c7ec0bb0d06be6c0787078",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "477d55b874d57df6779bfaa305ac416028c7f06956f063d83b96fc6a7d38fec7"
+    },
+    {
+      "asset": "brfmb2a.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505392640,
+      "pzz_bytes": 17168,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "e0c31c3f670ca3023ad28160fdd4aaa42e69206ea67b88e2f955aabaa37228b7",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "1d1d5af8f1ca9b5df3132d58a51cedd176c98dd69eeecb32a110ed538defe15d"
+    },
+    {
+      "asset": "brfmb2b.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505411072,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "5451185a77f14de2173f3b44e6f491898655ec95d1a3c4e0cf77b822e24fa2c0",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "3bb137b1e1ddb50b9caa443f5c3fdf9d483e2455412baf827e9c9e4d3b8ba212"
+    },
+    {
+      "asset": "brfmb2c.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505429504,
+      "pzz_bytes": 17296,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "39460f0b8d5baaa7fa3cd05894ed840ebaf05520e2200463b024d04c5eb0c5b0",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "9b49e69692adac724ec9da6b1a208e75da2e7b20f192ecc7fcf4b85a69d14572"
+    },
+    {
+      "asset": "brfmb2e.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505466368,
+      "pzz_bytes": 18448,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "5403155dd4250a4b4f6763bab1385494d4811934ab0a0a5171d8f4cbbb29c003",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "6b20e6300bec401662be3f076ba3683e123330626cbe822f247022d7f1170440"
+    },
+    {
+      "asset": "brfmb2f.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505486848,
+      "pzz_bytes": 17936,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "ec2001ec7b9735cd28ba2e9cbfc7d1f315a0dd972560386923b3cde3f8ed5318",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "7c7acbe9ffeac75baac3a00ea538a5afbaa1ca562d0f9c9b258577e3955f07bf"
+    },
+    {
+      "asset": "brfmb30.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505505280,
+      "pzz_bytes": 18192,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "34d649cea0e0bdb7cbfdb0ef053f1382591fa44df87d190a7a05a65438cc4039",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "f8eb1490769339e77cfa6a09263c4bc4d2fc60f21fa6ca604703cbd1003ee19e"
+    },
+    {
+      "asset": "brfmb31.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505523712,
+      "pzz_bytes": 18320,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "b111001d493481fa851d8d61b139e0724b8cc1b15037e7612d5d5971077bb503",
+      "retained_ui_rectangles": [
+        [
+          2,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "d8b1fd971b25eaadcd218b7a7d3618e3be86be7cd6d876093b32228b57ec0c3e"
+    },
+    {
+      "asset": "brfmb32.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505542144,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "068a26d5f11b8c977c51a8d81de172ce0b3387a0f57f4fd5ecb2c533402b5c2d",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "489a6e25d2477a1d0180ca88ca7aee5efb8ab2c04bdee98c4ca3c80fa8d1c532"
+    },
+    {
+      "asset": "brfmb33.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505560576,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "2d29fef1273a503c0bfdbffd37ade58f734aa6d3547d7e884f0de6628baff1c7",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "f4a5a27c66322ce8ef4e70a4bdd1ab964cfb275021e313a2671fc6e96023cf67"
+    },
+    {
+      "asset": "brfmb34.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505579008,
+      "pzz_bytes": 17808,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "728d57cca124c79deff817d5d74493200f5e5d4f7d383254140dadd941a1c366",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "cba2943cf7a93f45418c27d35fcc45a27b8244bfee2021277af4e536dd8f7c7c"
+    },
+    {
+      "asset": "brfmb35.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505597440,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "1423abb34376da23e49f93f471ce7d9a67984e4577e09df68a5a505a081821b4",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "b2cac51baec0e471d869ea3ba12d27a1062026d21a9ce11eec457ce99e91fc41"
+    },
+    {
+      "asset": "brfmb36.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505615872,
+      "pzz_bytes": 16528,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "9c6653f6b237f947ea2c5b853761ede90544694539037736bafe4afc4016b650",
+      "retained_ui_rectangles": [
+        [
+          2,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "8e6e51840d1a446a64d99e3aaf1186a87a6e5463cfbe65064d14fa7bc77307c3"
+    },
+    {
+      "asset": "brfmb37.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505634304,
+      "pzz_bytes": 16912,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "ac13862ab5fa0093e5cc4c5a125083d8c0c907dbf7cb3fb554f923ddeae42598",
+      "retained_ui_rectangles": [
+        [
+          4,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "3b65f5f436644a421add91666d6cc23bc3ba20dcdfeaa9f0923d85bcafb3be6d"
+    },
+    {
+      "asset": "brfmb38.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505652736,
+      "pzz_bytes": 16400,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "028169cb5fa2cb3a2195d7c39ea48855ddc837228bff71f26c78681d4b2ca61f",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "0b2349fd06637fb0ff2a54afca979c169fda6606fdbd160651e824b1b4546614"
+    },
+    {
+      "asset": "brfmb39.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505671168,
+      "pzz_bytes": 18064,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "0ac29773c3457e8b4883ba9afbdb09e1752f402b80a4ddbdd93a613fa5459193",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "b714adb33a64b1d67ebd8341b0206f641d9eb0eb5316cf0722a23d431be4a79a"
+    },
+    {
+      "asset": "brfmb3a.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505689600,
+      "pzz_bytes": 18704,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "f1980f646e7c0e96e0fc8f79fb1a3391d6cb036b61da3c5b3a004bd26e7bfcf0",
+      "retained_ui_rectangles": [
+        [
+          2,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "aaedd088495d91ca525baf2e42ed405e7078e6dfc612acdd40704a97d6cb959c"
+    },
+    {
+      "asset": "brfmb3b.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505710080,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "9dda066bcfcb0f2352abba42827a67a6927ba9b026c34e3e22d5cf3e909b9249",
+      "retained_ui_rectangles": [
+        [
+          16,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "1c1b175e36072050006533031f1804f7ce1f8bd61161ccaf08a5f8c31d9d6354"
+    },
+    {
+      "asset": "brfmb3c.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505728512,
+      "pzz_bytes": 18064,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "e0b7e19fb574da8446ad0e891cb160e12a68a442f9cc640ceeb01bc8a33c8050",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "90b06830e99ba9afd93f41c2ba34381be4e05c56d5ec56c2329358c5e93dd7a6"
+    },
+    {
+      "asset": "brfmb3d.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505746944,
+      "pzz_bytes": 17808,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "3964b360637736dbb6f375a2a8f45a3e33e64724fb42b00cb024f1bd36364a79",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "1c39b619584ea99d42907a891d1e1df74e6e6e62867050d38f0f84c274e1e270"
+    },
+    {
+      "asset": "brfmb3e.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505765376,
+      "pzz_bytes": 17552,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "c718177c43c2e305c3634bf5f3dcbb65a178316300701033f43aafc1414139c6",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "dcbe0b70f69272d47a81efb42155f5b059622f1a7e7714a728402991cb728d62"
+    },
+    {
+      "asset": "brfmb3f.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505783808,
+      "pzz_bytes": 17168,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "f5f3fba8fd4e92c6004b7846e7a795da1465a144d86cef54bad8e9bdab7206a5",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "be73a953f8fd9c63e0de6395f4eea391139c5ae66e110b4a1a73977fbc9441c3"
+    },
+    {
+      "asset": "brfmb40.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505802240,
+      "pzz_bytes": 18832,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "3956e1d0c69f8c63c61b78d26d905fb87f18f1681af4163cd8eaa508fd5c721f",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "2e2819c68ebc296b56b94655e7062ea1bdf252a9bebbd9e3aad381e2b47c9812"
+    },
+    {
+      "asset": "brfmb41.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505822720,
+      "pzz_bytes": 18320,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "8ce6eab3bef6e2f3a27b37f0089bb274ea3b51f9ef88ebdaec701a47397feb55",
+      "retained_ui_rectangles": [
+        [
+          4,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "e5ad493ef85b2a31a1be33bf4d53b581fc3a781127385e8e1c48882c4ab3b546"
+    },
+    {
+      "asset": "brfmb42.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505841152,
+      "pzz_bytes": 17040,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "79e9946c1597ccca4c61b5d70c8e4ee69cecd65e10e7214f99a2323cb4a8d533",
+      "retained_ui_rectangles": [
+        [
+          4,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "ec41cd06707e24fb20b3fddcaf81ad94ecfcaa85794948b9e9790b9fe29f7c62"
+    },
+    {
+      "asset": "brfmb43.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505859584,
+      "pzz_bytes": 16656,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "17b7aa1251dce19ab149e38547933ff11ed9aa3e4a17099d43eb6a6602a3bf6f",
+      "retained_ui_rectangles": [
+        [
+          76,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "dbefec2406833266f131a1952d398829b74969b4774d0fca8a3ac271a6aad4d8"
+    },
+    {
+      "asset": "brfmb46.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505914880,
+      "pzz_bytes": 16272,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "0b6ad5b349e125acb2bfc1860501e4fe5fc0bab9fd97e9d1d6c9a5f497601605",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "0ef7a7183444fbf6c5c48f5694b488316c1e9196029c474c9e974cb3bc7bf585"
+    },
+    {
+      "asset": "brfmb47.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505931264,
+      "pzz_bytes": 17552,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "25db5b06e2560327c80950389c89b5479eede8d0feb520ad593d53add7f1b6a9",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "f1782843a29204a8976edbbd2ba2ced6aa6f2bb27bc4be3dac5aba20ecb03052"
+    },
+    {
+      "asset": "brfmb48.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505949696,
+      "pzz_bytes": 17808,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "4e0871ec83e867025b284ba4f6ac0a0d59938931ef855f0a39af7b6f421c1759",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "f892c4b8e05c11d4e22d6f7972472da7e489f44f436a8a7f4e99d12e30f3377d"
+    },
+    {
+      "asset": "brfmb49.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505968128,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "7f8967d3d5763878d7dcb5bdf40f6d13dfbecfe4aa22a1d5bad8c190c4a41074",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "e8d6ad56a4dfcf96fa7bae864579689198bc1570575e99fea41185cfe3498361"
+    },
+    {
+      "asset": "brfmb4a.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1505986560,
+      "pzz_bytes": 16784,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "b91be427aac6aadc4f089dd02d78ab28009cd19c64dc72c89221e6246c4b2200",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "0fab641f770af8b8baf76dbfbe897fcc6eb6288d2ce257e59450a8db207c50cc"
+    },
+    {
+      "asset": "brfmb4b.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1506004992,
+      "pzz_bytes": 17680,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "418f1e4574ae972e84002f96b00a0d70aea44fe02a351df8693282cd8f7e258c",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "a22d53d20969653ab53ae77b83f44cc3dbc7883db6b51d13553ce61f414a62e5"
+    },
+    {
+      "asset": "brfmb4c.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1506023424,
+      "pzz_bytes": 18064,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "87d78985e1f2f4578392590398573f2dfa260d3d4a34ba1ccb601b4ab05b2fa4",
+      "retained_ui_rectangles": [
+        [
+          28,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "59f5ee9c3d534f8583e9c61c0c1b5cea48eba5a7a009f3714df4fd19799bbc66"
+    },
+    {
+      "asset": "brfml000.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501067264,
+      "pzz_bytes": 12560,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "51b1fb4dc08d00bf3e0673957d48d8f79a9424074d3025a72c8d25aee8ad2742",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "07d8a1dd319fff91a4b291ad623e84926b82e1780afeb8e7cab4321fa7b7d01b"
+    },
+    {
+      "asset": "brfml010.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501081600,
+      "pzz_bytes": 12688,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "80680ce814a069258d3585faa2d1316b5f4a4b46ada3bc7e33f3b2f193fd9f1a",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "c38a912c1912276c0215ad6dcd45a3587a61d2e30ca8e0720ce08bf991fac29b"
+    },
+    {
+      "asset": "brfml020.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501095936,
+      "pzz_bytes": 12432,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "dfa75e24279900963208b246f229b0459830904c0ca652d9e8780c87a0be32dc",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "322fc84b36be8dd6c50816beaa603d9e8143052c27f74b5d089b72591dc648cb"
+    },
+    {
+      "asset": "brfml030.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501110272,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "fcd70e2f65cde7e48cf4de4d514677613ab656fdda462ec13acaa9257035ff28",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          102,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "74839bad461dfd087eab3302b6150db0e4b108d655f4015598b4a54595386609"
+    },
+    {
+      "asset": "brfml040.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501124608,
+      "pzz_bytes": 12688,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "c2c436495234440754ee4b7574f1d35d2833bbf31dd0f830610ca06519ba3261",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          42,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "136436a7f0538f73474567034dbff4922355e732703a960f03b0279c25100ab2"
+    },
+    {
+      "asset": "brfml050.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501138944,
+      "pzz_bytes": 12560,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "23739478746313bae9a5438cc3a7a4030384185889a5aea20181f2111178bfdf",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "161fb21fb03c7e3d0eb8f8aea2e93b60801a5bbb5047e6a3bc2033bd71d38cb9"
+    },
+    {
+      "asset": "brfml060.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501153280,
+      "pzz_bytes": 12688,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "41442a91818dc0d7dce4fea6fde30aaeb0ca141910a081160df17f8e16b5b015",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "3796e9507b444309431e3d0b218615d88c1d624f08e56442dea1a6fe9401e196"
+    },
+    {
+      "asset": "brfml070.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501167616,
+      "pzz_bytes": 12432,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "445af7860738f33627eed32763206383bb453a29f15f6828f37cad88ac445da5",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          126,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "96fadeca392477d4986fc33c841a591a468bc166b6d79688120ca28601943b1f"
+    },
+    {
+      "asset": "brfml072.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501181952,
+      "pzz_bytes": 12688,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "efe16f38861761e64c2ff6be0a9998009b981f86026de12cde813d13a0f2bc41",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          126,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "06d29cfdb562972fa718060a4e030348683cb878adff7af0b140c3fc616946d4"
+    },
+    {
+      "asset": "brfml080.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501196288,
+      "pzz_bytes": 12816,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "2aeb639b907208fba4feaae083a583182b196949b682ad566a7c961825a31b2f",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "a3a0c9a2aae7fbb58f7fcf8c9d297dc9dd2b328e5fe2fbdd46830703811bba56"
+    },
+    {
+      "asset": "brfml090.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501210624,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "f3648b9d7f69d8bb00fd5b8e5c3ca31d11ffa8ee7c5f25bbd678680b117a70da",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          127,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "884214f4211e97dc1e3cd74b9016c91ec5dd12cdbddb5bf45b24253ae3fe7fc0"
+    },
+    {
+      "asset": "brfml0b0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501239296,
+      "pzz_bytes": 12560,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "a7649fe97cd8b4ff31ca3557b27677b4ce8b4a43858c2a479edb31345ef12088",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "27e1ee4fba5099119cd68e4d8577f7d7c45e3faf508acf8939781ce4775f4529"
+    },
+    {
+      "asset": "brfml0c0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501253632,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "719087e7162e166ffb06b0d5c2eecfac3b64fc8cf637e918a6129fafca71bfe6",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "f9f63d887e5f9f89c4f5cd593e66ba7831494b0b37e200efcbf04467eb5158a1"
+    },
+    {
+      "asset": "brfml0d0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501267968,
+      "pzz_bytes": 13328,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "0025ee9513454a43dc8f917ce7df59e541747f8b8b063c0a0e899376505bc0fd",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "3e4bf1007083131cacf79056974fa3ef8373dcb189e1b3f749088db629fdeebe"
+    },
+    {
+      "asset": "brfml0e0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501282304,
+      "pzz_bytes": 12560,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "ca1c48dd3a00288f941c906ab0ef169e39a6d0c552bfb575cf704844176872d4",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "f6270fa4a53f32e25f2d21ec2296af878ee3a030b00b25f94ae1c874fbc7a275"
+    },
+    {
+      "asset": "brfml0f0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501296640,
+      "pzz_bytes": 12560,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "e50e55461be6e4254632a7304ee06dc2532508e332a0b8aa83655f68058aec44",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "f993c7a31c9e8cbb348dc02feb74a21bf789bab437a346b09ffd711ddb4a73c5"
+    },
+    {
+      "asset": "brfml100.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501310976,
+      "pzz_bytes": 13328,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "5348a3aaa91d451898565272c0d5291d4594c98e98dbc24658e3c1fe5ff5a90e",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          102,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "aa9968b36d09e5e5460bc1f11e573e46c02a712ea7e37437ae5e9566974ee4ed"
+    },
+    {
+      "asset": "brfml110.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501325312,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "e01467e39c4ab3e6fe9afcc3dbeaddd1d8405c2a021cc2eb0582b9468c96e421",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          114,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "fb33b65ccb97fca5f54dacde9ed91eaa0d1439831251ca4cda91efee23eeb8ed"
+    },
+    {
+      "asset": "brfml130.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501353984,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "28f4d47f319ef6e97151b9e4aadf08db2cf33ba02174a7a72e261fe53288b178",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          114,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "aabed797a249dfa19279b00cd372e354253b059f4cd4801f68ac9254355e7811"
+    },
+    {
+      "asset": "brfml140.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501368320,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "818d2a9622b29c5450a88d5ab3af109387cf393660aecfa091454f0288014bb1",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "1fa5f285462e587428fd217d3704005d65b31523dee450fdcafcdede2081fc22"
+    },
+    {
+      "asset": "brfml142.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501382656,
+      "pzz_bytes": 13456,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "9f03317a8db4f6fafa7e06f8e66de422041d4fd43f99f7437db21733f083de77",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "b8da483bd0aa53ac44c0783235d3535583432d401407eda03d0aaef5260eb669"
+    },
+    {
+      "asset": "brfml150.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501396992,
+      "pzz_bytes": 12688,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "e5096df91fdb8fea5d14de048a40b07e5d4c486aafcc43f36f2194d2f73b456e",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "c933463177d824b9a8965cfef16df80964bc0f372a848aa6ba340dd92421be5e"
+    },
+    {
+      "asset": "brfml180.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501440000,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "e42cf6c132692d6c55974dd6ba215873f2f71f2cc2c51daace7087acc8a815d9",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "dbd4b8ea94e138a631361497d94f76ddc8856f239d6aaf45024789af1d581702"
+    },
+    {
+      "asset": "brfml182.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501454336,
+      "pzz_bytes": 13328,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "af9dca644a6e90015d7b645513e240f13e6ee50d024ab9409624aee6578f2261",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "621eaaf8db7f9d86b30a3cf04ef6b50482c9e0dcf1b4ba04f609b63856ddc18f"
+    },
+    {
+      "asset": "brfml183.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501468672,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "e15c756e9391244fe9883a51f6d635c14f2950b741e84e64a96405441d1b93c2",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "1804382601742c25cb5bfe0dee57a226cbf73f6eb371b826ec44a8fadf11ab4b"
+    },
+    {
+      "asset": "brfml190.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501483008,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "cf9443a2ffe3c63bc79eff7f98ab807f73cce11480f16210064099ab0fe8f4d2",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "ed0c3c634b4b1fefff1e58f37741fc9dfda3de5dc931d97914eb63cc1a9d78ce"
+    },
+    {
+      "asset": "brfml1a0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501497344,
+      "pzz_bytes": 13328,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "60939c568b477d2dcda8da60e14c24a03a26dabc60bd5aedc3cf32a514b4c5a6",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "234964ad6518803e852f9622533d10d9ad110d18f5370babe536c1c4838904d2"
+    },
+    {
+      "asset": "brfml1b0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501511680,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "2d5307b15ccbdceb5cba63e4e959282486b94aec16b178ce61bf6124993855a1",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "793b9b5e4289058e3a66a59566bd33fa71921c1f8cd64465da0a1a15133b2684"
+    },
+    {
+      "asset": "brfml1c0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501526016,
+      "pzz_bytes": 12816,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "ec7af486bf7195fcee1a8953fff7d109c5cd9496f8327c48986b407fedb80976",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          54,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "1fa7726000dc06c1f1988183f13b16dd72296f648275f33ebf077c971fa635c7"
+    },
+    {
+      "asset": "brfml1d0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501540352,
+      "pzz_bytes": 12816,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "2e4bb726c43653716c44d34cd599e2525fa3060cbc67a0811a0bc96af27fce59",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "62a212d982afb48b2dc307c3cd78e86981226e9f46d83328420208d113311c48"
+    },
+    {
+      "asset": "brfml1e0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501554688,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "55da310599a04e6cca82f62e29f7ff4352334752c7e8ee24ba05d7b55fefb887",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "88fc578e81d38758acba18679899c1515590715ddf346a4227ffcdf4728e6ed2"
+    },
+    {
+      "asset": "brfml1f0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501569024,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "3a633efbe60d108aebd510177478dbc4716fef99f530b78ffa1449810082bef5",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "f4cbd18f90b9bcb5e0791fd229d8c0ae84280786e2179043b57ede1c1e995a4d"
+    },
+    {
+      "asset": "brfml200.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501583360,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "0f3d677e1f22d2f729fb3e54289e86d9901a10d39336a79a8f02cc10b0407054",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "49494a030586424a0f1a1556e5738ed0977a78d88f83f0ef4857369bbc686dce"
+    },
+    {
+      "asset": "brfml210.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501597696,
+      "pzz_bytes": 12816,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "c60e14d8e58559e458765f6eae685331ee6c789bffe14fab00dc8e3408f6aa53",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "575c7331d1eb6a750d6133e150a8b86a39348cb23da4feb1009f0233cbddfb42"
+    },
+    {
+      "asset": "brfml220.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501612032,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "cd15e0781f855fcc0b60de9d9b0ab3896b737db4d8af17db2b3b425617ee830c",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "76a07288403d9582314ffe9779f9abe989e732660f0dbe4044add4ce523f4193"
+    },
+    {
+      "asset": "brfml221.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501626368,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "1f0530a21cb5cd52fe4698d36dfcc9f49af3cef0806ddd2ee7517d2099737162",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "300fbd5afe902411dfcd759f5a970b9ff57d42d3933d4d01a613d4733d6ffacd"
+    },
+    {
+      "asset": "brfml230.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501640704,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "f947ae45055d156d488c87dd1f721c51248b9f429034ed40333f3ea72a00638c",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          102,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "0f39332422f69783ec6813227d1d70d1ce9876fd4fafda4467848c6907febeb1"
+    },
+    {
+      "asset": "brfml240.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501655040,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "702f93a638b233fb28440e0ffd2661820e2d050974047fa83eb916d1608d4eec",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "3baaa18a407db696a5fefaf966cfbdb2399b5da07104912ac4715de5feaee2fa"
+    },
+    {
+      "asset": "brfml250.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501669376,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "296115b61aad36ea16529e1fad693b2ee61a4e923fea9c0a61706c690c4f81f1",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "8722ee620a954cf73ca47b53a19b79d2b20d481902e4594ad650f841736cbea5"
+    },
+    {
+      "asset": "brfml260.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501683712,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "f27d3cb435ed20210e4dc87a774b51906a975754fa915311a80987fed79d9cbd",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "a8720d1a4fc27cd321adf544ecd21ec6373e62796d005673491c4aad204764d9"
+    },
+    {
+      "asset": "brfml262.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501698048,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "0562a20735a89395124af73cf313e6d82e135bdde916cf95dd0bf5264448c6c0",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          102,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "ddadbe2fa6e78f91429a578fc54ff3675fd1da16b871a525a598e81c56db82d8"
+    },
+    {
+      "asset": "brfml270.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501712384,
+      "pzz_bytes": 12688,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "fb8401db273f139ae5b3d51d6b4866b6bd521d9b9a7debd90bf22b9a38419d68",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          42,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "469b91e95fbe68efe3de99f0919b96b0c982f29f35526ab8a0f7344162c2d35b"
+    },
+    {
+      "asset": "brfml280.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501726720,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "8ba6015e79fa1b8ef7b678e971edf3541a34b2f4e72be4545cdae34502144b20",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          102,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "69519f2344b0c6b84253901a50357c93f180b9c19587d0e0a833fd879505f2aa"
+    },
+    {
+      "asset": "brfml290.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501741056,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "e154937fd8e0c56528ae011db4de9569bd1901c63cb7b5fc36a228611a420aab",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "617297dd0c1e1dbe1f6d799ec3d58c96aa2082705883ad8ea606e28ae1c2b444"
+    },
+    {
+      "asset": "brfml2a0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501755392,
+      "pzz_bytes": 12688,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "7618f35a878ff5a67607beeae788d15a375fe9acdcd9b2a736c4eb911b74f79b",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "cf1acbf94a7ef8ed1679b382d6bda4ed63a9221ac87449e45a2e74358d77561f"
+    },
+    {
+      "asset": "brfml2b0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501769728,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "94781f344c643813509f818c1c294562532248ad42d048ae5f53f385150a3fa7",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          102,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "b973ab756c3c43e815c5b2d404e9e5b82e72b0e658b3a2df630ed52b6377809f"
+    },
+    {
+      "asset": "brfml2c0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501784064,
+      "pzz_bytes": 12816,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "0f7678de0bc5ab2c3c4f03dc0ee5a61ce62ef988d3937cf76cc30a3f24125c5d",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "f15e7cc2f6dc488a0bb5c33eb6a9a77d027958a6aead1d22c8cfbaca2b6e07f0"
+    },
+    {
+      "asset": "brfml2e0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501812736,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "e2e6fc863ce66399c06f850e345ff46f78db3501233a25fca6d35f109f84095c",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "0070521dee179c866a2f17b30c785f36abd74a42026ea538b24135b0d6a28e6e"
+    },
+    {
+      "asset": "brfml2e2.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501827072,
+      "pzz_bytes": 13328,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "6ab2ab4b21652ef767bf540aafb0d6e6359eb0dce762f1aa631b3c005f1ccbab",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "7ec2129078958a4c4d2655ddd6db2884dcb4658c6cb6285301370046eda8dcdd"
+    },
+    {
+      "asset": "brfml2f0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501841408,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "893ac134cf6722ee89023267eb362acb03c7d6f381db495928068d67282dd917",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "1ed4e281cb8c6f0a8a04b1e6c2a097699898821e3c4859ad93c9811902e754c7"
+    },
+    {
+      "asset": "brfml2f2.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501855744,
+      "pzz_bytes": 12816,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "1b650c16d64531ebefe20c55f449c9e5d626c7d12bebda9ea42e12a117c6894e",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          54,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "b4363e6daf8537d8dc03c1a7876db745868d7c0dec9ae47a6594288ad5d1946c"
+    },
+    {
+      "asset": "brfml300.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501870080,
+      "pzz_bytes": 13328,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "5bee8ca32844125fe4a87324007d439563db20131e619c6b59a9e681bbddcfd4",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "295873a2cee32285de875da5cedf05884e54f0e92744eacc641d98800c518bcb"
+    },
+    {
+      "asset": "brfml310.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501884416,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "5ea395c207c7c4ee921b1ba5cb7cb050d02c5967d8df3ccbd16ba68a312cdc15",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          127,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "3393fa99e50345de069fafcec1f1a1668459bad427883c5602701d62d4480549"
+    },
+    {
+      "asset": "brfml320.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501898752,
+      "pzz_bytes": 12816,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "3bf7cee0d8cbc3fc1837aa8dd126474366526d267719c6167f2a0655e64b96c3",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "bf850d48d93675539cbc22b1ca488c2fa848013587b55918e22a908d05ecbfee"
+    },
+    {
+      "asset": "brfml330.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501913088,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "6d8dbc40c97b61bebc478a0c899a17d3ebb7d7f0b70f4b28faa6033cb165a383",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "312ef0ff595d9baceb99e4888d4fc0a045e297608c519edd70833f7cf0884421"
+    },
+    {
+      "asset": "brfml340.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501927424,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "8dc64a6981d3fb1b9306fc1903350bea2e12c04a7de3b9937d4b14517eaecbb7",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "8aef57331d4ebcdb6cd9fa3d5acd632854cdfeec6c792a29f267370b22b16367"
+    },
+    {
+      "asset": "brfml342.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501941760,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "4d527bbbd0789957e804d9245e302b1871f2f5a5e3688d0270cc2349a4547d83",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "533434c8e62b2481af9620c1423ebc711dff20bed5aadb90d4711da912bdaed2"
+    },
+    {
+      "asset": "brfml360.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501970432,
+      "pzz_bytes": 12560,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "caa6ed87b5810be81ad236f367c7a6341ab94e323ddb3343a7e51dfa5135fad0",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          127,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "75853030d188672201ad6dba77e712d1d9732fe93c49c98c837d07cc7f5020c9"
+    },
+    {
+      "asset": "brfml370.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501984768,
+      "pzz_bytes": 12560,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "3a0950ddff3574a2a4ca7032c37e4337c986ba4faf1ed3518ead22cc3896221a",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          126,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "bf9755fdd1b6d590222669a9fe52b4b4dc288431a83956f31b012573222ab97c"
+    },
+    {
+      "asset": "brfml380.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501999104,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "70af8de86ecfd4f3bcae0b38196f2f3b1949e21095e23e084d0bc1ebbd8ba072",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "ba097099d8a77a99481092db04b78b1dd8f57c4e26012600a9fa45bc673c7cad"
+    },
+    {
+      "asset": "brfml390.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1502013440,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "9acdd4fbbda72e98631c9f486b646b78b13ae9a9b4326eff2a1180029493271c",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "31de28f3edf67092af635fbe250495eed6dae96620c6245a6628058ca2fc9c04"
+    },
+    {
+      "asset": "brfml410.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1502027776,
+      "pzz_bytes": 13456,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "697ee8a20de91aeea827cf83263a3d8e31b61e59660f1126854fabd30dca01d3",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          126,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "6f59802c67d29116dfc5fef9d45fc94817fef609547360cad9a261d1f215d095"
+    },
+    {
+      "asset": "brfml420.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1502042112,
+      "pzz_bytes": 12688,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "cb6034858814e54fcf9520b7ff5d71be131d9bb15a59068e47484327053049d3",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          126,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "64eaab2d8b82cbae78c713020b0374af6773db9c9f8c73999c01e0ef01f43978"
+    },
+    {
+      "asset": "brfml430.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1502056448,
+      "pzz_bytes": 12432,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "aa32cf3c08e7ac5a1790e9372ee5410af14c05670341d0119fa59b8a84ca7e67",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          54,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "769511aeb9515ea034f175b7e2250b3a31f5d4b47300ec2b42ca217b00f7b0c1"
+    },
+    {
+      "asset": "brfml460.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1502099456,
+      "pzz_bytes": 12176,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "dcebf71321eba0f8910f9971368659fbe40bd41cf64c95d292c5d97e36d4820f",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "d138e7e678ff3e24c401962f0ffb1f0485559ed497e33b315b24b1a6f29bd0ed"
+    },
+    {
+      "asset": "brfml470.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1502111744,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "c7c757d3a7276b1c54079aec0df66e4f5b25c14329bbf65f35eae0ed67dd2780",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          102,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "f759c4bde410d032366fc1e3b721cbbf9c0d4ebcc65f9b748e9135537d218a8d"
+    },
+    {
+      "asset": "brfml480.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1502126080,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "25febf9ad5516672bbf77003591b228588d977615039772479748f2acba13159",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "fd56e7d578d242941ca0abddcd5d2030c0840b13e5289cfc1e7779178b63a4a5"
+    },
+    {
+      "asset": "brfml0a0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501224960,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "7087670d2b5ce2d228606f1f2ad3faf2e168a75433114a54c247ac06a05323a6",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          102,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "26269fec932e877aa50effe7f15a824af685ade0897a6eb7c17fe1a6e85833fd"
+    },
+    {
+      "asset": "brfml120.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501339648,
+      "pzz_bytes": 13200,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "06bfd9c1c7ad371d8febfd11eea293a631b3d1c2814df3fa948fa3bc3ddffd3f",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "35bd68d04a04bec996f8ec46e047fb4266f9ba9ac1073aeac91f450ba83bbb5c"
+    },
+    {
+      "asset": "brfml350.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "card_title",
+      "iso_absolute_offset": 1501956096,
+      "pzz_bytes": 13328,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "fe6ab10a883e72ad693c53b125642d11f3fd83eab28a0d7c90cffff8dd7f5c30",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "38616ce676fa270c39706c5ecf51a8f672587f25e92c46bfac4f4536fac06905"
+    },
+    {
+      "asset": "newget1.pzz",
+      "part": 0,
+      "picture": 0,
+      "category": "unlock_title",
+      "iso_absolute_offset": 1649276928,
+      "pzz_bytes": 65424,
+      "dimensions": [
+        480,
+        272
+      ],
+      "source_pzz_sha256": "84e0338f210365aae9d3038f56e7f5fabb9d24b9cfc8f19f03d789bb18abfccb",
+      "retained_ui_rectangles": [
+        [
+          44,
+          4,
+          204,
+          43
+        ],
+        [
+          374,
+          188,
+          480,
+          222
+        ],
+        [
+          0,
+          239,
+          172,
+          266
+        ]
+      ],
+      "protected_source_rgba_sha256": "d0cf509179410abcf159b131ff1d731afa13f698562f420e6d8312c41b218da9"
+    },
+    {
+      "asset": "newget2.pzz",
+      "part": 0,
+      "picture": 0,
+      "category": "unlock_title",
+      "iso_absolute_offset": 1649342464,
+      "pzz_bytes": 74128,
+      "dimensions": [
+        480,
+        272
+      ],
+      "source_pzz_sha256": "6924566237fe197577a8ac736515c574ae039443b1eb9434dfc80443cf72f0fa",
+      "retained_ui_rectangles": [
+        [
+          44,
+          4,
+          204,
+          43
+        ],
+        [
+          228,
+          188,
+          480,
+          223
+        ],
+        [
+          0,
+          239,
+          175,
+          267
+        ]
+      ],
+      "protected_source_rgba_sha256": "302814ab8a8aeb6d527909f5a72ca6196938aed3bafb52a81d3c5fa05920b1c2"
+    },
+    {
+      "asset": "newget3.pzz",
+      "part": 0,
+      "picture": 0,
+      "category": "unlock_title",
+      "iso_absolute_offset": 1649418240,
+      "pzz_bytes": 72208,
+      "dimensions": [
+        480,
+        272
+      ],
+      "source_pzz_sha256": "7c44fb4e9a3e0014e728fc9a956cb976649e195c2dad46e2407c3c4d67ec068c",
+      "retained_ui_rectangles": [
+        [
+          44,
+          4,
+          204,
+          43
+        ],
+        [
+          263,
+          188,
+          480,
+          223
+        ],
+        [
+          0,
+          239,
+          169,
+          267
+        ]
+      ],
+      "protected_source_rgba_sha256": "a8f6a3a115b4c2a01374236739d1cf0e3820a6a24e66396759072cd7af1a06a1"
+    },
+    {
+      "asset": "newget4.pzz",
+      "part": 0,
+      "picture": 0,
+      "category": "unlock_title",
+      "iso_absolute_offset": 1649491968,
+      "pzz_bytes": 68112,
+      "dimensions": [
+        480,
+        272
+      ],
+      "source_pzz_sha256": "5314b1f28408cce2507b311ce50309d8b0eea1771f08f4780c3d3d1878bc3891",
+      "retained_ui_rectangles": [
+        [
+          44,
+          4,
+          204,
+          43
+        ],
+        [
+          270,
+          188,
+          480,
+          223
+        ],
+        [
+          0,
+          239,
+          188,
+          267
+        ]
+      ],
+      "protected_source_rgba_sha256": "e6ab635013d16a5cb2467b58dc5064ff83d2370d7661f8d1bb3dba4b70ac5b8e"
+    },
+    {
+      "asset": "newget5.pzz",
+      "part": 0,
+      "picture": 0,
+      "category": "unlock_title",
+      "iso_absolute_offset": 1649561600,
+      "pzz_bytes": 68112,
+      "dimensions": [
+        480,
+        272
+      ],
+      "source_pzz_sha256": "941d345e25190abb77d967b4392b57d56572930f9ba2896f1dc03fee0d8d14d0",
+      "retained_ui_rectangles": [
+        [
+          44,
+          4,
+          204,
+          43
+        ],
+        [
+          413,
+          188,
+          480,
+          223
+        ],
+        [
+          0,
+          239,
+          190,
+          268
+        ]
+      ],
+      "protected_source_rgba_sha256": "4812a474895a6bb4604b07d1f069dfa19d17189a6662301ac3eb1965cd761e93"
+    },
+    {
+      "asset": "newget6.pzz",
+      "part": 0,
+      "picture": 0,
+      "category": "unlock_title",
+      "iso_absolute_offset": 1649631232,
+      "pzz_bytes": 71824,
+      "dimensions": [
+        480,
+        272
+      ],
+      "source_pzz_sha256": "76e621b420d97496d0d32fdd6a3ae2e206e7afc839fbeff4159860d15f150600",
+      "retained_ui_rectangles": [
+        [
+          44,
+          4,
+          204,
+          43
+        ],
+        [
+          330,
+          188,
+          480,
+          223
+        ],
+        [
+          0,
+          239,
+          166,
+          267
+        ]
+      ],
+      "protected_source_rgba_sha256": "11eaf9119536f574631c710c2aaf8963de93d77195bd9b9f733338e5619303b8"
+    },
+    {
+      "asset": "stitle09.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1500907520,
+      "pzz_bytes": 15120,
+      "dimensions": [
+        256,
+        128
+      ],
+      "source_pzz_sha256": "e286c137e5eabfb3a3b58ca6621a9499a40ba433bf322e5595b923d94566247f",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "fe7316a491b7775bdbf9c9b179328f9fb0c742a5271cd763728453fe3b1d1bfd"
+    },
+    {
+      "asset": "stitle11.pzz",
+      "part": 1,
+      "picture": 0,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1501028352,
+      "pzz_bytes": 10256,
+      "dimensions": [
+        256,
+        256
+      ],
+      "source_pzz_sha256": "78f9d13c2bddffe725b9ce6e382932c365503560a6688a54ecf4af3343ee550f",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "017a65995bfc76b15a7ae1f232179d94c4113ac10c83da23fd7f7a95377f9f99"
+    },
+    {
+      "asset": "pbg0ff.pzz",
+      "part": 0,
+      "picture": 0,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1682722816,
+      "pzz_bytes": 59536,
+      "dimensions": [
+        480,
+        272
+      ],
+      "source_pzz_sha256": "5efa854647ca4c3bd38e127fb18fe288ce318d4cd6da00ae484f552f08739688",
+      "retained_ui_rectangles": [],
+      "protected_source_rgba_sha256": "edff3e285fbf8c06b820917ab0b124849c78d2c4b0a7fbf306efc150eee11c41"
+    },
+    {
+      "asset": "brfmb16.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1505024000,
+      "pzz_bytes": 17168,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "8e8ea4d5a3779ebd5925a8036c60b61cfe9592d1e3e02cece904a3fadc44ca18",
+      "retained_ui_rectangles": [
+        [
+          52,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "ac4d6ad3488d187815183695ce15200b0a0a7810eab4ef3fbd43e98e91640766"
+    },
+    {
+      "asset": "brfmb17.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1505042432,
+      "pzz_bytes": 17296,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "37a62aeb6d73232a491929a6c59d16dc12ffdc053ea0c076185e2b01c9330332",
+      "retained_ui_rectangles": [
+        [
+          76,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "19813b9b0f8d122fffbcf24008540e000bf9bdca7ee226a023e2b7cdeabc796a"
+    },
+    {
+      "asset": "brfmb2d.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1505447936,
+      "pzz_bytes": 17424,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "16cacd90c797a3d71090d159cc70e3bfb6e3878ef224c1dd44f5982b26bcb7b0",
+      "retained_ui_rectangles": [
+        [
+          64,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "dcd7e29a2d2a6c26ed8e2e7dd07f94d9e27f6dcf234cae41b86738e01186544c"
+    },
+    {
+      "asset": "brfmb44.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1505878016,
+      "pzz_bytes": 17936,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "21df221b05ae0dcd30dd8e54b235796fa7f921d1972dd691c754d71f822c3a59",
+      "retained_ui_rectangles": [
+        [
+          40,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "5718150e89c03f8ccd13449ac513e06a7408ed2f247afff0c89bd4f3064d79f9"
+    },
+    {
+      "asset": "brfmb45.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1505896448,
+      "pzz_bytes": 17296,
+      "dimensions": [
+        128,
+        128
+      ],
+      "source_pzz_sha256": "a5cee609539bfa3b7d54428f327db92a98fa4a31012b5aa90aa6dd67e4c83ccf",
+      "retained_ui_rectangles": [
+        [
+          76,
+          69,
+          124,
+          88
+        ]
+      ],
+      "protected_source_rgba_sha256": "f7219bdb7fa88c3ef12fd0b39c0df9f8705000aa03153b12838d22d197215587"
+    },
+    {
+      "asset": "brfml160.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1501411328,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "569a866834d5a60f5aba9ddd078b7a9ee502141ab42897308c38c58788d83d0c",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          78,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "3dc0762fbb92076c908778b3d00ecab8fe1e243dce11444fec1e9ceba5c78468"
+    },
+    {
+      "asset": "brfml170.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1501425664,
+      "pzz_bytes": 12944,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "9b297ba9c345bf6da10e7896801ad2dd4e6b303de74ed4c93241a124445035c7",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          54,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "99b43917222487d6c65ad1342c3fbc11a566ea54e2baf8e7619a9feee8b233a5"
+    },
+    {
+      "asset": "brfml2d0.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1501798400,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "a447df59315ceda18d7f2337a742bfdf1e75cb86975d89a36016f743b5ea8637",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          66,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "62cf43fbc9f85facc1516bb46a7d47ca895e29dff136928370f28f23773259aa"
+    },
+    {
+      "asset": "brfml440.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1502070784,
+      "pzz_bytes": 13584,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "717beaf0281cd13add2cd12467f015b1c39835f5afac7edfcb6b740cca248563",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          90,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "f821112f7ff849751ff1f0904ff88ebffd84f876ab30e283b43a79ed348c8d7c"
+    },
+    {
+      "asset": "brfml450.pzz",
+      "part": 1,
+      "picture": 1,
+      "category": "previously_original_title",
+      "iso_absolute_offset": 1502085120,
+      "pzz_bytes": 13072,
+      "dimensions": [
+        128,
+        64
+      ],
+      "source_pzz_sha256": "144d87ec88eee1cbd1fc7128c45c159f527e129b20a795977f89649ff7843dcc",
+      "retained_ui_rectangles": [
+        [
+          5,
+          1,
+          54,
+          21
+        ]
+      ],
+      "protected_source_rgba_sha256": "a4af142860671f9090a0b82e09d8b9ab20ece0f679c3686a3a640da2cadef8d2"
+    }
+  ],
+  "runtime_verdict": "NOT_TESTED"
+}

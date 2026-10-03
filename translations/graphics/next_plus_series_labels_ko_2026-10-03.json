@@ -4,34 +4,17 @@
   "approved": false,
   "runtime_verdict": "NOT_TESTED",
   "whole_scope_complete": false,
-  "edited_regions": 42,
-  "edited_assets": 16,
+  "edited_regions": 0,
+  "edited_assets": 0,
   "source_series_assets": 18,
   "source_japanese_series_assets": 16,
-  "all_identified_japanese_labels_replaced_assets": [
-    "stitle00.pzz",
-    "stitle01.pzz",
-    "stitle02.pzz",
-    "stitle03.pzz",
-    "stitle04.pzz",
-    "stitle05.pzz",
-    "stitle06.pzz",
-    "stitle07.pzz",
-    "stitle08.pzz",
-    "stitle0a.pzz",
-    "stitle0b.pzz",
-    "stitle0c.pzz",
-    "stitle0d.pzz",
-    "stitle0e.pzz",
-    "stitle0f.pzz",
-    "stitle10.pzz"
-  ],
+  "all_identified_japanese_labels_replaced_assets": [],
   "remaining_japanese_assets": [],
   "original_english_only_assets": [
     "stitle09.pzz",
     "stitle11.pzz"
   ],
-  "glow_derivation": "Immutable PMF2 foreground XY baked into background UV triangles",
+  "glow_derivation": "Original source glow and normal title restored",
   "rows": [
     {
       "id": "SERIES_00_HEADER",
@@ -54,12 +37,15 @@
         248,
         22
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "cde26ff54cfd0c6b46669af6996b73062b21718a9fc5f114998087ac352e0b08"
+      "source_crop_rgba_sha256": "cde26ff54cfd0c6b46669af6996b73062b21718a9fc5f114998087ac352e0b08",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_00_TITLE",
@@ -82,12 +68,15 @@
         251,
         83
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "fdd253ade16d78697adca65b0337a6a0645c9f0abc974329fc9fafdd3618a8dd"
+      "source_crop_rgba_sha256": "fdd253ade16d78697adca65b0337a6a0645c9f0abc974329fc9fafdd3618a8dd",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_01_HEADER_FIRST",
@@ -110,12 +99,15 @@
         256,
         30
       ],
-      "target_ko": "기",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "218cec5f51bd8d04433100e95818c9804d554d2cba6ff71738dbe2e6a8e8f7f6"
+      "source_crop_rgba_sha256": "218cec5f51bd8d04433100e95818c9804d554d2cba6ff71738dbe2e6a8e8f7f6",
+      "historical_target_ko": "기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_01_HEADER_REST",
@@ -138,12 +130,15 @@
         79,
         53
       ],
-      "target_ko": "동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "c78bd25a361daa33babbab41bb70f42123567c3cf0a6ddb47dbd3eceb8c544eb"
+      "source_crop_rgba_sha256": "c78bd25a361daa33babbab41bb70f42123567c3cf0a6ddb47dbd3eceb8c544eb",
+      "historical_target_ko": "동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_02_HEADER",
@@ -166,12 +161,15 @@
         126,
         33
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "dc0df3e4d45a357b0a7e873789fe49615bd27fb909fd9b2673c1c4ffd1b02cb6"
+      "source_crop_rgba_sha256": "dc0df3e4d45a357b0a7e873789fe49615bd27fb909fd9b2673c1c4ffd1b02cb6",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_03_HEADER",
@@ -194,12 +192,15 @@
         152,
         34
       ],
-      "target_ko": "기동전사 건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "2493b2ecfa558a5c505f10d714d470cb683cd46903eab95826d69c4b63199a2b"
+      "source_crop_rgba_sha256": "2493b2ecfa558a5c505f10d714d470cb683cd46903eab95826d69c4b63199a2b",
+      "historical_target_ko": "기동전사 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_03_SUBTITLE",
@@ -222,12 +223,15 @@
         253,
         121
       ],
-      "target_ko": "역습의 샤아",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "e1375b30e89497620a1947cdd8818a6f87e7423aaec35461de1969aa6b2e5ad5"
+      "source_crop_rgba_sha256": "e1375b30e89497620a1947cdd8818a6f87e7423aaec35461de1969aa6b2e5ad5",
+      "historical_target_ko": "역습의 샤아",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_04_HEADER",
@@ -250,12 +254,15 @@
         140,
         39
       ],
-      "target_ko": "기동전사 건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "8b4f9aa9858555be8a5c7ca7f05f3df77a54f14b656ed6f7a1f531198b83933a"
+      "source_crop_rgba_sha256": "8b4f9aa9858555be8a5c7ca7f05f3df77a54f14b656ed6f7a1f531198b83933a",
+      "historical_target_ko": "기동전사 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_05_HEADER",
@@ -278,12 +285,15 @@
         160,
         26
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "61f6cbae1a27c73e4c4721f1cc76089ee4981a139aa96c649d1bd0f8c080d12d"
+      "source_crop_rgba_sha256": "61f6cbae1a27c73e4c4721f1cc76089ee4981a139aa96c649d1bd0f8c080d12d",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_06_HEADER",
@@ -306,12 +316,15 @@
         256,
         68
       ],
-      "target_ko": "기동무투전",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "1835c15dc4989f7703fd760f6ed8903680d74feae5b66101a630f10240b8002b"
+      "source_crop_rgba_sha256": "1835c15dc4989f7703fd760f6ed8903680d74feae5b66101a630f10240b8002b",
+      "historical_target_ko": "기동무투전",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_07_HEADER",
@@ -334,12 +347,15 @@
         124,
         48
       ],
-      "target_ko": "신기동전기",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "538bb0b38548266128432de20a177adca47c50b20c0a4a5e233eb69d960cf002"
+      "source_crop_rgba_sha256": "538bb0b38548266128432de20a177adca47c50b20c0a4a5e233eb69d960cf002",
+      "historical_target_ko": "신기동전기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_07_WING",
@@ -362,12 +378,15 @@
         207,
         37
       ],
-      "target_ko": "윙",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "4fcf54fb6f63377e4aa2b1617808c5c173f45dd55d115bf3df36780542ed45e2"
+      "source_crop_rgba_sha256": "4fcf54fb6f63377e4aa2b1617808c5c173f45dd55d115bf3df36780542ed45e2",
+      "historical_target_ko": "윙",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_08_HEADER",
@@ -390,12 +409,15 @@
         123,
         30
       ],
-      "target_ko": "기동신세기",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "38a222015643f156ccae1dae56f3ff71c596599cfda9ab32bea04384c8a60eb6"
+      "source_crop_rgba_sha256": "38a222015643f156ccae1dae56f3ff71c596599cfda9ab32bea04384c8a60eb6",
+      "historical_target_ko": "기동신세기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0d_HEADER",
@@ -418,12 +440,15 @@
         238,
         29
       ],
-      "target_ko": "기동전사 건담 0083",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "9837ec5b4fcc3e8c7e72759868a97062161dfc8d695123c53ecbe2a87b0da5f1"
+      "source_crop_rgba_sha256": "9837ec5b4fcc3e8c7e72759868a97062161dfc8d695123c53ecbe2a87b0da5f1",
+      "historical_target_ko": "기동전사 건담 0083",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0e_HEADER",
@@ -446,12 +471,15 @@
         256,
         51
       ],
-      "target_ko": "기동전사 건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "007b00762b39d135eb63cb0126b582f11c2091ff6f11fa36846f5d2a55d52675"
+      "source_crop_rgba_sha256": "007b00762b39d135eb63cb0126b582f11c2091ff6f11fa36846f5d2a55d52675",
+      "historical_target_ko": "기동전사 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0e_PREFIX",
@@ -474,12 +502,15 @@
         45,
         97
       ],
-      "target_ko": "제",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "bdaea82d761568b8b15ef9052c01ac15f70e6d072487bb3dd8eb530337179099"
+      "source_crop_rgba_sha256": "bdaea82d761568b8b15ef9052c01ac15f70e6d072487bb3dd8eb530337179099",
+      "historical_target_ko": "제",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0e_SUFFIX",
@@ -502,12 +533,15 @@
         256,
         97
       ],
-      "target_ko": "소대",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "5ed4bc3486600c89582b675e6598c774c720ec2d36c03b32e5ca9feb9d332289"
+      "source_crop_rgba_sha256": "5ed4bc3486600c89582b675e6598c774c720ec2d36c03b32e5ca9feb9d332289",
+      "historical_target_ko": "소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_01_TITLE",
@@ -530,12 +564,15 @@
         256,
         108
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "287ad6afb4dac116a3da2c8d8118aab20f35b957b91300af776457edd4498a07"
+      "source_crop_rgba_sha256": "287ad6afb4dac116a3da2c8d8118aab20f35b957b91300af776457edd4498a07",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_05_TITLE",
@@ -558,12 +595,15 @@
         255,
         91
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "0488662cec324d0947656438009d7b02cf74d66527b31d04aa0b5284bb4645d1"
+      "source_crop_rgba_sha256": "0488662cec324d0947656438009d7b02cf74d66527b31d04aa0b5284bb4645d1",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_06_TITLE",
@@ -586,12 +626,15 @@
         256,
         123
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "cb1b3397bf1a67d8c6b12c97ec923bef2f80e99f52a82867fa4f29e97db72094"
+      "source_crop_rgba_sha256": "cb1b3397bf1a67d8c6b12c97ec923bef2f80e99f52a82867fa4f29e97db72094",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_07_TITLE",
@@ -614,12 +657,15 @@
         154,
         102
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "a8a5fbbc77e30b63a1fab2f8c0431a80ce426a35df0eaf33debbfa2030a97b2c"
+      "source_crop_rgba_sha256": "a8a5fbbc77e30b63a1fab2f8c0431a80ce426a35df0eaf33debbfa2030a97b2c",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_02_TITLE",
@@ -642,12 +688,15 @@
         126,
         86
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "96b004f3f8dec59e865a8a913ef21876c87183c6497388a451a94944715342f1"
+      "source_crop_rgba_sha256": "96b004f3f8dec59e865a8a913ef21876c87183c6497388a451a94944715342f1",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_08_TITLE",
@@ -670,12 +719,15 @@
         138,
         88
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "5b5239a3f1feb07618c48abc1c9e3d13d61416883cdd6af0809877cccfcd1284"
+      "source_crop_rgba_sha256": "5b5239a3f1feb07618c48abc1c9e3d13d61416883cdd6af0809877cccfcd1284",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0c_SUBTITLE",
@@ -698,12 +750,15 @@
         256,
         128
       ],
-      "target_ko": "주머니 속의 전쟁",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "6404d666a51ca432582a7aa70cc04c71e475305df048026f10bb7af7c8a66d2c"
+      "source_crop_rgba_sha256": "6404d666a51ca432582a7aa70cc04c71e475305df048026f10bb7af7c8a66d2c",
+      "historical_target_ko": "주머니 속의 전쟁",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0f_TITLE",
@@ -726,12 +781,15 @@
         174,
         57
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "1fd43791a57d671939cd77e747936a67672f0cc2486351f2a13a4600dee1688e"
+      "source_crop_rgba_sha256": "1fd43791a57d671939cd77e747936a67672f0cc2486351f2a13a4600dee1688e",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_10_HEADER",
@@ -754,12 +812,15 @@
         153,
         31
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "6808c42e8ff18c4c54448e9c780e631835d0a0918496d78b8794b95757945a6c"
+      "source_crop_rgba_sha256": "6808c42e8ff18c4c54448e9c780e631835d0a0918496d78b8794b95757945a6c",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_10_TITLE",
@@ -782,12 +843,15 @@
         242,
         61
       ],
-      "target_ko": "건담 UC",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "88de821a9869d6e0057fe7b627b2732a1a047574577c1112ed05577f1ad8b3b5"
+      "source_crop_rgba_sha256": "88de821a9869d6e0057fe7b627b2732a1a047574577c1112ed05577f1ad8b3b5",
+      "historical_target_ko": "건담 UC",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_10_UNICORN",
@@ -810,12 +874,15 @@
         205,
         80
       ],
-      "target_ko": "유니콘",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "9bdf34cb5091a98e4cd91f9257e0af4fe5135688c560b01383b7f59c0d3bb9f1"
+      "source_crop_rgba_sha256": "9bdf34cb5091a98e4cd91f9257e0af4fe5135688c560b01383b7f59c0d3bb9f1",
+      "historical_target_ko": "유니콘",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0a_HEADER",
@@ -838,12 +905,15 @@
         150,
         73
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "10355e312ff293345fd9ac8bcf210330f3406169e5ccc7d9b6adf5898b1f06d9"
+      "source_crop_rgba_sha256": "10355e312ff293345fd9ac8bcf210330f3406169e5ccc7d9b6adf5898b1f06d9",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0a_TITLE",
@@ -866,12 +936,15 @@
         174,
         116
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "2ca5c1d8e8dc9706b1d11c1ba366013e46cb929dab5b57de34411c0bd70218e8"
+      "source_crop_rgba_sha256": "2ca5c1d8e8dc9706b1d11c1ba366013e46cb929dab5b57de34411c0bd70218e8",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0a_SEED",
@@ -894,12 +967,15 @@
         256,
         96
       ],
-      "target_ko": "시드",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "a4b2ea22c128bb5c289ad9106c584a46809c3da4102681a85bef7863dd805945"
+      "source_crop_rgba_sha256": "a4b2ea22c128bb5c289ad9106c584a46809c3da4102681a85bef7863dd805945",
+      "historical_target_ko": "시드",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0b_HEADER",
@@ -922,12 +998,15 @@
         141,
         81
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "ff79cdaf13bc6d1395e7558a661f0cf8282dde9e851811afe5e86aeefbc3d75e"
+      "source_crop_rgba_sha256": "ff79cdaf13bc6d1395e7558a661f0cf8282dde9e851811afe5e86aeefbc3d75e",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0b_TITLE",
@@ -950,12 +1029,15 @@
         143,
         118
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "d9965fd01af9db7ab4ed4a6dfb9397c74ccd78f3924c66f1075e2f530363aecb"
+      "source_crop_rgba_sha256": "d9965fd01af9db7ab4ed4a6dfb9397c74ccd78f3924c66f1075e2f530363aecb",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0b_DESTINY",
@@ -978,12 +1060,15 @@
         233,
         97
       ],
-      "target_ko": "데스티니",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "individually_reviewed_series_title_or_glow",
-      "source_crop_rgba_sha256": "4dc99968970230cb777fa01ca798a49b019ea8945be2665ade38beff718f91a4"
+      "source_crop_rgba_sha256": "4dc99968970230cb777fa01ca798a49b019ea8945be2665ade38beff718f91a4",
+      "historical_target_ko": "데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0f_HEADER",
@@ -1006,12 +1091,15 @@
         60,
         25
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "reviewed_planar_series_logo_label",
-      "source_crop_rgba_sha256": "401bbb339aa7fb872270357c3fafd233ba9f47a394623bc5f96a3c59398ad18d"
+      "source_crop_rgba_sha256": "401bbb339aa7fb872270357c3fafd233ba9f47a394623bc5f96a3c59398ad18d",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0c_SUBTITLE_GLOW_DERIVED",
@@ -1034,12 +1122,15 @@
         256,
         128
       ],
-      "target_ko": "주머니 속의 전쟁",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
-      "source_foreground_crop_rgba_sha256": "6404d666a51ca432582a7aa70cc04c71e475305df048026f10bb7af7c8a66d2c"
+      "source_foreground_crop_rgba_sha256": "6404d666a51ca432582a7aa70cc04c71e475305df048026f10bb7af7c8a66d2c",
+      "historical_target_ko": "주머니 속의 전쟁",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0a_HEADER_GLOW_DERIVED",
@@ -1062,12 +1153,15 @@
         150,
         73
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
-      "source_foreground_crop_rgba_sha256": "10355e312ff293345fd9ac8bcf210330f3406169e5ccc7d9b6adf5898b1f06d9"
+      "source_foreground_crop_rgba_sha256": "10355e312ff293345fd9ac8bcf210330f3406169e5ccc7d9b6adf5898b1f06d9",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0a_TITLE_GLOW_DERIVED",
@@ -1090,12 +1184,15 @@
         174,
         116
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
-      "source_foreground_crop_rgba_sha256": "2ca5c1d8e8dc9706b1d11c1ba366013e46cb929dab5b57de34411c0bd70218e8"
+      "source_foreground_crop_rgba_sha256": "2ca5c1d8e8dc9706b1d11c1ba366013e46cb929dab5b57de34411c0bd70218e8",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0a_SEED_GLOW_DERIVED",
@@ -1118,12 +1215,15 @@
         256,
         96
       ],
-      "target_ko": "시드",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
-      "source_foreground_crop_rgba_sha256": "a4b2ea22c128bb5c289ad9106c584a46809c3da4102681a85bef7863dd805945"
+      "source_foreground_crop_rgba_sha256": "a4b2ea22c128bb5c289ad9106c584a46809c3da4102681a85bef7863dd805945",
+      "historical_target_ko": "시드",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0b_HEADER_GLOW_DERIVED",
@@ -1146,12 +1246,15 @@
         141,
         81
       ],
-      "target_ko": "기동전사",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
-      "source_foreground_crop_rgba_sha256": "ff79cdaf13bc6d1395e7558a661f0cf8282dde9e851811afe5e86aeefbc3d75e"
+      "source_foreground_crop_rgba_sha256": "ff79cdaf13bc6d1395e7558a661f0cf8282dde9e851811afe5e86aeefbc3d75e",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0b_TITLE_GLOW_DERIVED",
@@ -1174,12 +1277,15 @@
         143,
         118
       ],
-      "target_ko": "건담",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
-      "source_foreground_crop_rgba_sha256": "d9965fd01af9db7ab4ed4a6dfb9397c74ccd78f3924c66f1075e2f530363aecb"
+      "source_foreground_crop_rgba_sha256": "d9965fd01af9db7ab4ed4a6dfb9397c74ccd78f3924c66f1075e2f530363aecb",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "SERIES_0b_DESTINY_GLOW_DERIVED",
@@ -1202,12 +1308,60 @@
         233,
         97
       ],
-      "target_ko": "데스티니",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "consumer_kind": "glow_baked_from_translated_foreground_via_immutable_pmf2",
-      "source_foreground_crop_rgba_sha256": "4dc99968970230cb777fa01ca798a49b019ea8945be2665ade38beff718f91a4"
+      "source_foreground_crop_rgba_sha256": "4dc99968970230cb777fa01ca798a49b019ea8945be2665ade38beff718f91a4",
+      "historical_target_ko": "데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     }
+  ],
+  "historical_022_translation_counts": {
+    "edited_regions": 42,
+    "edited_assets": 16,
+    "all_identified_japanese_labels_replaced_assets": [
+      "stitle00.pzz",
+      "stitle01.pzz",
+      "stitle02.pzz",
+      "stitle03.pzz",
+      "stitle04.pzz",
+      "stitle05.pzz",
+      "stitle06.pzz",
+      "stitle07.pzz",
+      "stitle08.pzz",
+      "stitle0a.pzz",
+      "stitle0b.pzz",
+      "stitle0c.pzz",
+      "stitle0d.pzz",
+      "stitle0e.pzz",
+      "stitle0f.pzz",
+      "stitle10.pzz"
+    ],
+    "glow_derivation": "Immutable PMF2 foreground XY baked into background UV triangles"
+  },
+  "logo_policy": "preserve_original",
+  "excluded_original_logo_regions": 42,
+  "policy_decision_date": "2026-10-03",
+  "current_candidate_revision": "023",
+  "preserved_original_assets": [
+    "stitle00.pzz",
+    "stitle01.pzz",
+    "stitle02.pzz",
+    "stitle03.pzz",
+    "stitle04.pzz",
+    "stitle05.pzz",
+    "stitle06.pzz",
+    "stitle07.pzz",
+    "stitle08.pzz",
+    "stitle0a.pzz",
+    "stitle0b.pzz",
+    "stitle0c.pzz",
+    "stitle0d.pzz",
+    "stitle0e.pzz",
+    "stitle0f.pzz",
+    "stitle10.pzz"
   ]
 }

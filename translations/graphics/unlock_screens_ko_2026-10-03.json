@@ -6,7 +6,7 @@
   "whole_scope_complete": false,
   "source_images": 10,
   "localized_images": 10,
-  "localized_regions": 32,
+  "localized_regions": 26,
   "mode_consumer_scope": "UNRESOLVED_SHARED_OR_OUTSIDE_NEXT_PLUS",
   "rows": [
     {
@@ -70,14 +70,17 @@
         480,
         223
       ],
-      "target_ko": "기동전사 건담",
       "category": "series_logo",
       "font_size": 16,
       "source_crop_rgba_sha256": "83b7291627a2e0e5d2359948ac2eef02416e148e34dfe09f83ea4f86405c9f28",
       "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "UNLOCK_1_HEADER",
@@ -163,14 +166,17 @@
         480,
         223
       ],
-      "target_ko": "기동전사 건담",
       "category": "series_logo",
       "font_size": 16,
       "source_crop_rgba_sha256": "75ef51af46efa1ba181e4152dd085901117a190c3f035169131984f0423966f7",
       "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "UNLOCK_2_HEADER",
@@ -256,14 +262,17 @@
         480,
         223
       ],
-      "target_ko": "기동전사 건담 00",
       "category": "series_logo",
       "font_size": 16,
       "source_crop_rgba_sha256": "83b6b97a20d2b82771c890d512059241589a39293e7572deb8523174dd1d17c0",
       "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사 건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "UNLOCK_3_HEADER",
@@ -349,14 +358,17 @@
         480,
         223
       ],
-      "target_ko": "기동전사 건담 00",
       "category": "series_logo",
       "font_size": 16,
       "source_crop_rgba_sha256": "e304b1787c6e07e34ca9bc2aa584bf5f1500890ced57c52e326624bf9bc6d897",
       "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사 건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "UNLOCK_4_HEADER",
@@ -442,14 +454,17 @@
         480,
         223
       ],
-      "target_ko": "기동전사 Z 건담",
       "category": "series_logo",
       "font_size": 16,
       "source_crop_rgba_sha256": "48cfa2d9860bf6f3bfba31b31d5ddd0895a5101ee971888f07e95afaea26f82a",
       "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사 Z 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "UNLOCK_5_HEADER",
@@ -535,14 +550,17 @@
         480,
         223
       ],
-      "target_ko": "기동전사 건담 UC",
       "category": "series_logo",
       "font_size": 16,
       "source_crop_rgba_sha256": "f577c103788e11a00faaa95908d8174546509d28a6e562be2cbde370c7011421",
       "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사 건담 UC",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "UNLOCK_6_HEADER",
@@ -767,5 +785,14 @@
       "approved": false,
       "runtime_verdict": "NOT_TESTED"
     }
-  ]
+  ],
+  "historical_022_translation_counts": {
+    "localized_images": 10,
+    "localized_regions": 32
+  },
+  "logo_policy": "preserve_original",
+  "excluded_original_logo_regions": 6,
+  "policy_decision_date": "2026-10-03",
+  "current_candidate_revision": "023",
+  "ms_background_layout": "Original background restored; Korean UI cells retained"
 }

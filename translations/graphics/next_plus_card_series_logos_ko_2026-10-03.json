@@ -8,10 +8,10 @@
   "source_japanese_logo_cards": 142,
   "source_english_only_cards_preserved": 10,
   "source_no_logo_cards_preserved": 2,
-  "localized_cards": 142,
-  "localized_regions": 212,
-  "vertical_localized_cards": 72,
-  "horizontal_localized_cards": 70,
+  "localized_cards": 0,
+  "localized_regions": 0,
+  "vertical_localized_cards": 0,
+  "horizontal_localized_cards": 0,
   "horizontal_logo_cards_remaining": 0,
   "deferred_horizontal_assets": [],
   "rows": [
@@ -32,12 +32,15 @@
       ],
       "source_crop_rgba_sha256": "e7f3e082b9429fc0cff71e183b3899b0fa717eec76822a6cde1eeb4202ce1e11",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb00_1",
@@ -56,12 +59,15 @@
       ],
       "source_crop_rgba_sha256": "7e24ff4a262d547b71d4a7de47f4ebb5f557a20fd83fc67ddbd7386e157cd28d",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb01_0",
@@ -80,12 +86,15 @@
       ],
       "source_crop_rgba_sha256": "0ade01171bfcd28cc44c1521f4afa4751fc30cc0bd2d4c01298efd61ba692c47",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb01_1",
@@ -104,12 +113,15 @@
       ],
       "source_crop_rgba_sha256": "637be030073b04be6ca24c5acb575f553a805b76629eebedfd991e20c3ae9fa2",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb02_0",
@@ -128,12 +140,15 @@
       ],
       "source_crop_rgba_sha256": "269b8267bcdaaa0b9e41502b867bceebb62cf46ccc46690ce3e25abd1566eb39",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb02_1",
@@ -152,12 +167,15 @@
       ],
       "source_crop_rgba_sha256": "e1cd9ebd373575fdcfcaa31918bc85859b8de28460481b582431d1a33738b63d",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb03_0",
@@ -176,12 +194,15 @@
       ],
       "source_crop_rgba_sha256": "fe984fd86b649c5e0042cf90a993dea65fe3852ac36890f5a1d0464583da5f17",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb03_1",
@@ -200,12 +221,15 @@
       ],
       "source_crop_rgba_sha256": "16aeef09a02c84a6713f440b2cdd710d2d5ee2b8c1d37a80197abf98d36b6f81",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb04_0",
@@ -224,12 +248,15 @@
       ],
       "source_crop_rgba_sha256": "c11319040ea86770303efbd625ee0b198d7984a6556bf3e74f66f04b6ce137a3",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb04_1",
@@ -248,12 +275,15 @@
       ],
       "source_crop_rgba_sha256": "f41e1c975212483ea119cde53f740cb804a48397a4a3498e2b463ad46a9b07ed",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb05_0",
@@ -272,12 +302,15 @@
       ],
       "source_crop_rgba_sha256": "17587f22b7e26184a245508ee2a962d0cf2fd487f900a2e1bb52bc7af26f8a5b",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb05_1",
@@ -296,12 +329,15 @@
       ],
       "source_crop_rgba_sha256": "9b3f45c42f88490b498dd6e106c8323c7e214cd95622f2e80926d11bee502221",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb06_0",
@@ -320,12 +356,15 @@
       ],
       "source_crop_rgba_sha256": "76f03a5b5446422b01b18da90fe2265c8085eb96869cc21c85c46f9edc786358",
       "series_asset": "stitle01.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8484848484848485,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb06_1",
@@ -344,12 +383,15 @@
       ],
       "source_crop_rgba_sha256": "8c7806b3a4db3ed5ef4dbac84c7b6a5a96346832cd3f9f1d7af8a39a5a11f78c",
       "series_asset": "stitle01.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb07_0",
@@ -368,12 +410,15 @@
       ],
       "source_crop_rgba_sha256": "d8dc6a7e7bd2b437c59223d2d7e34dec6a1b130e2c983ab970e1f2a9838ab40c",
       "series_asset": "stitle01.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8484848484848485,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb07_1",
@@ -392,12 +437,15 @@
       ],
       "source_crop_rgba_sha256": "40f33fe91a85551e8a1255f6a5dc6b5ee83e562ba69f56699c84d98e31609e43",
       "series_asset": "stitle01.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb08_0",
@@ -416,12 +464,15 @@
       ],
       "source_crop_rgba_sha256": "efb97727328700110b0d6123bffde998795471a4ac02c9ecb3104e018100c9f6",
       "series_asset": "stitle02.pzz",
-      "target_ko": "기동전사",
       "font_size": 7,
       "scale_x": 0.8571428571428571,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb08_1",
@@ -440,12 +491,15 @@
       ],
       "source_crop_rgba_sha256": "486c315e5baa732181cb9e7b53654d3ef00839dc11e7769b550f63a18956258f",
       "series_asset": "stitle02.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb09_0",
@@ -464,12 +518,15 @@
       ],
       "source_crop_rgba_sha256": "41d128861e71b97ddc98a9af978e9498eead95d377cd7396298a27be347b67f0",
       "series_asset": "stitle02.pzz",
-      "target_ko": "기동전사",
       "font_size": 7,
       "scale_x": 0.8571428571428571,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb09_1",
@@ -488,12 +545,15 @@
       ],
       "source_crop_rgba_sha256": "1f4ff7659dd5b400fe7d09057ac3585421d57e999d18145ad248faa4b2e0007c",
       "series_asset": "stitle02.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0a_0",
@@ -512,12 +572,15 @@
       ],
       "source_crop_rgba_sha256": "4023972e44a47df52c18e07703932cb2115875bf23809049f81ba9add1be6ae3",
       "series_asset": "stitle03.pzz",
-      "target_ko": "기동전사",
       "font_size": 8,
       "scale_x": 0.90625,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0a_1",
@@ -536,12 +599,15 @@
       ],
       "source_crop_rgba_sha256": "96d2cc3b3369d07b222c76c48424d3c32c6c93d0f01a079180ebeb9db4491786",
       "series_asset": "stitle03.pzz",
-      "target_ko": "역습의 샤아",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "역습의 샤아",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0b_0",
@@ -560,12 +626,15 @@
       ],
       "source_crop_rgba_sha256": "8592f07f1a98ec53f2437cee6635fa9e5d24ae091b8510c33d462d00543f6493",
       "series_asset": "stitle03.pzz",
-      "target_ko": "기동전사",
       "font_size": 8,
       "scale_x": 0.90625,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0b_1",
@@ -584,12 +653,15 @@
       ],
       "source_crop_rgba_sha256": "482563eda1fe81b401ef3bbbd164f315b759334f48ea7cd14b6cca0659eb8d62",
       "series_asset": "stitle03.pzz",
-      "target_ko": "역습의 샤아",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "역습의 샤아",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0c_0",
@@ -608,12 +680,15 @@
       ],
       "source_crop_rgba_sha256": "7dd6f27c6c8d7320f4d483132009c16066bc625cc4cdf88a52c0de90f3cf97b5",
       "series_asset": "stitle04.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9696969696969697,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0d_0",
@@ -632,12 +707,15 @@
       ],
       "source_crop_rgba_sha256": "5893f126760f201d9fe1554ca8a553220b9d9e7355629234d61d2f116b231823",
       "series_asset": "stitle04.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9696969696969697,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0e_0",
@@ -656,12 +734,15 @@
       ],
       "source_crop_rgba_sha256": "630fd64ea5f843dcc92747e7b083c9dc26240bf649d77bf3fbb35f51e7ae2194",
       "series_asset": "stitle05.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0e_1",
@@ -680,12 +761,15 @@
       ],
       "source_crop_rgba_sha256": "72fb2e19d972c3940e3be57c2e9a9c79b015e1d3fb56d436249b0b3ff57e0523",
       "series_asset": "stitle05.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0f_0",
@@ -704,12 +788,15 @@
       ],
       "source_crop_rgba_sha256": "c82d443152199d65d7aacbe488ffa14f3e091bf80273a43f8ce3bbc935066a93",
       "series_asset": "stitle05.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb0f_1",
@@ -728,12 +815,15 @@
       ],
       "source_crop_rgba_sha256": "b471193c62eaa541cbe98e880a3fc7979b98118e67bc02e963147779e2f1c83f",
       "series_asset": "stitle05.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb10_0",
@@ -752,12 +842,15 @@
       ],
       "source_crop_rgba_sha256": "80a02320f318ed31a42a9e590b91b1803f390e9ca573ea605adaf115d6aca934",
       "series_asset": "stitle06.pzz",
-      "target_ko": "기동무투전",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동무투전",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb10_1",
@@ -776,12 +869,15 @@
       ],
       "source_crop_rgba_sha256": "0e28f51bdddd3488d9fb817a7a7d112494cfffcb3b117cfcfc0353b76082ab36",
       "series_asset": "stitle06.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb11_0",
@@ -800,12 +896,15 @@
       ],
       "source_crop_rgba_sha256": "b6353dcd9a6156a09270879067f439311cfbdefd5c076c044c514ddf5672824e",
       "series_asset": "stitle06.pzz",
-      "target_ko": "기동무투전",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동무투전",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb11_1",
@@ -824,12 +923,15 @@
       ],
       "source_crop_rgba_sha256": "f1690526ca1681d7e6f11d6d3c99a9190adc1e92f8c0dd03ac86d018971ef962",
       "series_asset": "stitle06.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb12_0",
@@ -848,12 +950,15 @@
       ],
       "source_crop_rgba_sha256": "bffe2f35b770e57bff360f62ec2fff4ddc0452c828faaa3a60364159ab5ad1d7",
       "series_asset": "stitle07.pzz",
-      "target_ko": "신기동전기",
       "font_size": 9,
       "scale_x": 0.85,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "신기동전기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb12_1",
@@ -872,12 +977,15 @@
       ],
       "source_crop_rgba_sha256": "0d156ca782c1307b1342ed2149753f6bb1e20abefd9a6711aaeade739fd81d6b",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb13_0",
@@ -896,12 +1004,15 @@
       ],
       "source_crop_rgba_sha256": "7e8ed59ee7df1124eeb58ca51a160f0ae0f12c2d69902b98c931ad6618ef37f6",
       "series_asset": "stitle07.pzz",
-      "target_ko": "신기동전기",
       "font_size": 9,
       "scale_x": 0.85,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "신기동전기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb13_1",
@@ -920,12 +1031,15 @@
       ],
       "source_crop_rgba_sha256": "78c903982ec027f57eec11cd526468cb088d8b5d105fb312519257a792b791b9",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb14_0",
@@ -944,12 +1058,15 @@
       ],
       "source_crop_rgba_sha256": "005add903d094c1395bd84aae01194dda53f85eabe8346a65fb76c61b4313bc6",
       "series_asset": "stitle08.pzz",
-      "target_ko": "기동신세기",
       "font_size": 9,
       "scale_x": 0.55,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동신세기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb14_1",
@@ -968,12 +1085,15 @@
       ],
       "source_crop_rgba_sha256": "1e0926d0230a7f5a834134b060ed24c8e2b5deffe467b8e1fc9d83c1636c9620",
       "series_asset": "stitle08.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb15_0",
@@ -992,12 +1112,15 @@
       ],
       "source_crop_rgba_sha256": "f24d02a09ef7ca3d851ceb07761f5913a72e476dbd597f3c2c8c7a42ffcf5570",
       "series_asset": "stitle08.pzz",
-      "target_ko": "기동신세기",
       "font_size": 9,
       "scale_x": 0.55,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동신세기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb15_1",
@@ -1016,12 +1139,15 @@
       ],
       "source_crop_rgba_sha256": "b1516736a99e96944018b3e9a6289c3b3ffbbf4038b1c066f9dc038723be0ed2",
       "series_asset": "stitle08.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb18_0",
@@ -1040,12 +1166,15 @@
       ],
       "source_crop_rgba_sha256": "8df2ea1fc889b447030a4b6d7f080ce9ddf1e6e775043b388904db63df1562db",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb18_1",
@@ -1064,12 +1193,15 @@
       ],
       "source_crop_rgba_sha256": "d7c0ead2308222801b37cb54effe3dce5055cd4232265a0f61bd3ac94ef3a700",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb19_0",
@@ -1088,12 +1220,15 @@
       ],
       "source_crop_rgba_sha256": "a62fafca99ec90665bc578dad34fa519d642d707d739e4e2b555a39db1af3a2f",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb19_1",
@@ -1112,12 +1247,15 @@
       ],
       "source_crop_rgba_sha256": "6a2880f827b21507be631df3537e9868ca4206fdb4a9e888440e5ffe3a6e0d38",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1a_0",
@@ -1136,12 +1274,15 @@
       ],
       "source_crop_rgba_sha256": "43014bae0cd4c7e3b5691f334d6452f044a8f9acfe7e30e80e4bfc5864244ffa",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1a_1",
@@ -1160,12 +1301,15 @@
       ],
       "source_crop_rgba_sha256": "f39c128cd1cae4f52b325b59a5ed0554fef9db23d812e5689381ef0502475d37",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1a_2",
@@ -1184,12 +1328,15 @@
       ],
       "source_crop_rgba_sha256": "36e11ccb6773bed2a43318ebf364caa31af2524cd73469badb20d1e79c765cb0",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "데스티니",
       "font_size": 8,
       "scale_x": 0.7741935483870968,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1b_0",
@@ -1208,12 +1355,15 @@
       ],
       "source_crop_rgba_sha256": "85097b8fb81d4efb49cae79f2689e7fcb009d053352ce5d6ec5c1b28f54e4ec8",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1b_1",
@@ -1232,12 +1382,15 @@
       ],
       "source_crop_rgba_sha256": "d46fe3a44d24055beeb6fac9dc07e82eb130f6067cf831a1ec95256417ead395",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1c_0",
@@ -1256,12 +1409,15 @@
       ],
       "source_crop_rgba_sha256": "f220ca01ad3d246c23d655d7796fe222f77158a46e8eb50b92a4a594b44791f3",
       "series_asset": "stitle0c.pzz",
-      "target_ko": "주머니 속의 전쟁",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "주머니 속의 전쟁",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1d_0",
@@ -1280,12 +1436,15 @@
       ],
       "source_crop_rgba_sha256": "50a121dc5e22aabbfcf6d2292ccf743cc23f4b39f2ecdb27b6abab9749702682",
       "series_asset": "stitle0c.pzz",
-      "target_ko": "주머니 속의 전쟁",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "주머니 속의 전쟁",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1e_0",
@@ -1304,12 +1463,15 @@
       ],
       "source_crop_rgba_sha256": "e17ce34b7c2417af8f9f3b7ed149075b5f42d6c2544d56415610987683c9cc9e",
       "series_asset": "stitle0c.pzz",
-      "target_ko": "주머니 속의 전쟁",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "주머니 속의 전쟁",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb1f_0",
@@ -1328,12 +1490,15 @@
       ],
       "source_crop_rgba_sha256": "691e23b71fabaee6c504c8356cf1fb9d38c14401cab482f2f76b6aa63d459a29",
       "series_asset": "stitle0d.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb20_0",
@@ -1352,12 +1517,15 @@
       ],
       "source_crop_rgba_sha256": "3f71cd85a6c9bcc90b797df70795789de6fe876341f5b9202bbe00cd4875966b",
       "series_asset": "stitle0d.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb21_0",
@@ -1376,12 +1544,15 @@
       ],
       "source_crop_rgba_sha256": "af970d433bd2e0254d552ad38867e31adbfeb6a0dc880407c56c486402dc5403",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb21_1",
@@ -1400,12 +1571,15 @@
       ],
       "source_crop_rgba_sha256": "4433476e23d200232f438e0544016325cf509163c6397f44b6e1305003af41a5",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "제08MS소대",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "제08MS소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb22_0",
@@ -1424,12 +1598,15 @@
       ],
       "source_crop_rgba_sha256": "0b39ff1367b7821e8a2876bc1315570eb139ea88bf7d650318279b8d96d457da",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb22_1",
@@ -1448,12 +1625,15 @@
       ],
       "source_crop_rgba_sha256": "94e82bc56853fb9e0ccc9f3059f1dd48ca554b7a11ed4bca06160a41be11e696",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "제08MS소대",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "제08MS소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb23_0",
@@ -1472,12 +1652,15 @@
       ],
       "source_crop_rgba_sha256": "3233b8e75cad59001890ebe5dbe8dc5e588cbce505330081a1dae5780b608ece",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb23_1",
@@ -1496,12 +1679,15 @@
       ],
       "source_crop_rgba_sha256": "2c5a87c693018640e0988211b133ca435041d9f7a57c08994ff6ad37b10b1c07",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "제08MS소대",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "제08MS소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb24_0",
@@ -1520,12 +1706,15 @@
       ],
       "source_crop_rgba_sha256": "c484e619f70e8b89683bdaf9101be109577260230322bf37e59e6906862388d0",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb24_1",
@@ -1544,12 +1733,15 @@
       ],
       "source_crop_rgba_sha256": "cb64129819e23a1d9bc101a5e64020133e1044a13cdcbe5b2d85e7da367d0552",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb25_0",
@@ -1568,12 +1760,15 @@
       ],
       "source_crop_rgba_sha256": "479ace7a43f2ad9017c1d81ca739cb75eaaf0046a2977aadbf23ba30e88389fd",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb25_1",
@@ -1592,12 +1787,15 @@
       ],
       "source_crop_rgba_sha256": "819eb47b9f0eaff8cfb974823ca6ad2a363029be5addea40e70f4e9c822e32d8",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb25_2",
@@ -1616,12 +1814,15 @@
       ],
       "source_crop_rgba_sha256": "e18c3ecff6a2e790d3488057029d27e49d567a2d00c0f5a3729980b9e1fe0202",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "데스티니",
       "font_size": 8,
       "scale_x": 0.7741935483870968,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb26_0",
@@ -1640,12 +1841,15 @@
       ],
       "source_crop_rgba_sha256": "4bd5ab154b23e372a1661e84033bbb5ab88581e15e645e6a0dacbc97d801f50d",
       "series_asset": "stitle0d.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb27_0",
@@ -1664,12 +1868,15 @@
       ],
       "source_crop_rgba_sha256": "414fc8acb72eed285085e56e8f6b3a1fbe96360b5eef47c878283344508f939a",
       "series_asset": "stitle01.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8484848484848485,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb27_1",
@@ -1688,12 +1895,15 @@
       ],
       "source_crop_rgba_sha256": "496a3a656641a41d9786ad825e27f75782cb8a5cb14e1a607a74bed979020f34",
       "series_asset": "stitle01.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb28_0",
@@ -1712,12 +1922,15 @@
       ],
       "source_crop_rgba_sha256": "7d3882583ea9b76e35a05688b6bb1e7226338d8369818674d55bf59c66eb05c2",
       "series_asset": "stitle02.pzz",
-      "target_ko": "기동전사",
       "font_size": 7,
       "scale_x": 0.8571428571428571,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb28_1",
@@ -1736,12 +1949,15 @@
       ],
       "source_crop_rgba_sha256": "5bf75dc66d97ce682a99e7816417e735e006161eba5f1c965fd1c3599e1b79bd",
       "series_asset": "stitle02.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb29_0",
@@ -1760,12 +1976,15 @@
       ],
       "source_crop_rgba_sha256": "ace9375b7a256ce71b5ac36077ba9c15270847fe24f8b2e338cbddffea9b7ce5",
       "series_asset": "stitle05.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb29_1",
@@ -1784,12 +2003,15 @@
       ],
       "source_crop_rgba_sha256": "aa32711c8d7a8bada7c5fb384f443079ddae7a6537317d01d1ee6c4df04a8877",
       "series_asset": "stitle05.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2a_0",
@@ -1808,12 +2030,15 @@
       ],
       "source_crop_rgba_sha256": "b7cba727d289579470c1e3923f4e83cd18c85c0f30934bb48f8eac4331aa0d4e",
       "series_asset": "stitle06.pzz",
-      "target_ko": "기동무투전",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동무투전",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2a_1",
@@ -1832,12 +2057,15 @@
       ],
       "source_crop_rgba_sha256": "f2d058c0fc83b95c0c0cdf5b17c3fc3932be37d908553e30fe8b7fd8a84fec12",
       "series_asset": "stitle06.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2b_0",
@@ -1856,12 +2084,15 @@
       ],
       "source_crop_rgba_sha256": "ca515b173a727bbab57bdf7e1a66399393a877752144278e96168e3c7247eccd",
       "series_asset": "stitle07.pzz",
-      "target_ko": "신기동전기",
       "font_size": 9,
       "scale_x": 0.85,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "신기동전기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2b_1",
@@ -1880,12 +2111,15 @@
       ],
       "source_crop_rgba_sha256": "09ecf425923f67fc6a5bcb4a64a8f4194ef224662d35b9eef48e8efbca445602",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2c_0",
@@ -1904,12 +2138,15 @@
       ],
       "source_crop_rgba_sha256": "cdabd283f603add289d9544457cbf92958a538f838d3d5d85dfdc345aca52cf1",
       "series_asset": "stitle07.pzz",
-      "target_ko": "신기동전기",
       "font_size": 9,
       "scale_x": 0.85,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "신기동전기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2c_1",
@@ -1928,12 +2165,15 @@
       ],
       "source_crop_rgba_sha256": "33b1e9f52c045c8eac0415a4dcda00ac4618e1efb80f6dd02d55f8018a407a97",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2e_0",
@@ -1952,12 +2192,15 @@
       ],
       "source_crop_rgba_sha256": "38b90b4ece325ae520b729874a52e102b578c2fa269dc768a6fc97d519ca6feb",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2e_1",
@@ -1976,12 +2219,15 @@
       ],
       "source_crop_rgba_sha256": "a410297570f66605494a7c35f1ff8de0312cf8b1a831c3bd86b4ecec86a1c2f3",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2e_2",
@@ -2000,12 +2246,15 @@
       ],
       "source_crop_rgba_sha256": "4ff6bb9c8125d436e28a709888ccdc5533841ffa4140b143ac25707461fe60ab",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "데스티니",
       "font_size": 8,
       "scale_x": 0.7741935483870968,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2f_0",
@@ -2024,12 +2273,15 @@
       ],
       "source_crop_rgba_sha256": "662267de223cca6edcfba384e73e0708ff0743a03e2fe2115da08ceb97e4f4a4",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb2f_1",
@@ -2048,12 +2300,15 @@
       ],
       "source_crop_rgba_sha256": "d1e3bf81bf2bac24b3b5812e06387932f3aa8ed5700726fbfe8f8b648af6638d",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb30_0",
@@ -2072,12 +2327,15 @@
       ],
       "source_crop_rgba_sha256": "b3f270cfd88aa377c2f5a888c340f92b147f2c3a7681704daf593022249a2594",
       "series_asset": "stitle10.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9696969696969697,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb30_1",
@@ -2096,12 +2354,15 @@
       ],
       "source_crop_rgba_sha256": "3fa1d72fa0ea314fe2aaa94a9e863194b0f7ba919be6360530c8f01a18a684d8",
       "series_asset": "stitle10.pzz",
-      "target_ko": "건담 UC",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 UC",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb30_2",
@@ -2120,12 +2381,15 @@
       ],
       "source_crop_rgba_sha256": "985f128aafe29c663ea7a0ce60f20356f4064bff4ccb006af1c4d44bcec142f2",
       "series_asset": "stitle10.pzz",
-      "target_ko": "유니콘",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "유니콘",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb31_0",
@@ -2144,12 +2408,15 @@
       ],
       "source_crop_rgba_sha256": "1e926d4b8d7b10bf70c99b3fb5680f66695448d4aeb42eee57394c9871cba24a",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb31_1",
@@ -2168,12 +2435,15 @@
       ],
       "source_crop_rgba_sha256": "c0e0f35624899713b3d3d314f75819f1e3fd71aad14a490442754cb187a50793",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb31_2",
@@ -2192,12 +2462,15 @@
       ],
       "source_crop_rgba_sha256": "0470e925c4d396abe78d34e35baa1185a936cb99f2d733f6af0d119c75059d14",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "데스티니",
       "font_size": 8,
       "scale_x": 0.7741935483870968,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb32_0",
@@ -2216,12 +2489,15 @@
       ],
       "source_crop_rgba_sha256": "4683e78fa6630b545e78662288e6857a2229011391999cb0d40bfcc8e871f7c4",
       "series_asset": "stitle06.pzz",
-      "target_ko": "기동무투전",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동무투전",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb32_1",
@@ -2240,12 +2516,15 @@
       ],
       "source_crop_rgba_sha256": "84b4387f074acc32b27d92a6137de57e48b2067356303163dd27b76d67616e39",
       "series_asset": "stitle06.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb33_0",
@@ -2264,12 +2543,15 @@
       ],
       "source_crop_rgba_sha256": "63007fe839d4e1a0fedd8548437b121f31d2a7c3779acab2ff47a0e40de17242",
       "series_asset": "stitle01.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8484848484848485,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb33_1",
@@ -2288,12 +2570,15 @@
       ],
       "source_crop_rgba_sha256": "02a9f8b13d7a7a8f8902e93e4ff558db12e9e0837e7c7d776b03f7d277bbdbed",
       "series_asset": "stitle01.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb34_0",
@@ -2312,12 +2597,15 @@
       ],
       "source_crop_rgba_sha256": "dc62980c581c8c6c71a714dece304292855cc222e702bb5ca7d9600d24982ca3",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb34_1",
@@ -2336,12 +2624,15 @@
       ],
       "source_crop_rgba_sha256": "3a7b395d2bfea9c26ecc276b7aed5ae3eded3d2e8cfd935ce885fde97627ff0f",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb35_0",
@@ -2360,12 +2651,15 @@
       ],
       "source_crop_rgba_sha256": "4fe4d9c0f2e8b91dcf6e5e2aa48c010fb68a652996bd3f3a35e16b0c479acf6d",
       "series_asset": "stitle07.pzz",
-      "target_ko": "신기동전기",
       "font_size": 9,
       "scale_x": 0.85,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "신기동전기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb35_1",
@@ -2384,12 +2678,15 @@
       ],
       "source_crop_rgba_sha256": "7c0a60e5c6aa7c43c692a09ef58c3e11047d525d1b235343b76866d1f9cded20",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb36_0",
@@ -2408,12 +2705,15 @@
       ],
       "source_crop_rgba_sha256": "ce0b1b43968e85148408f61a3c1b015a25d1fe9bb24077a9c022a0e3331c2d8d",
       "series_asset": "stitle02.pzz",
-      "target_ko": "기동전사",
       "font_size": 7,
       "scale_x": 0.8571428571428571,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb36_1",
@@ -2432,12 +2732,15 @@
       ],
       "source_crop_rgba_sha256": "38f1275b10c89502cd5edf829a3c4f3bf8ec04521d3247b65549ff73c9a3e295",
       "series_asset": "stitle02.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb37_0",
@@ -2456,12 +2759,15 @@
       ],
       "source_crop_rgba_sha256": "d06da88ccdfbca0e8afd4b438775e2582cb01cde1d05e2afce0abf8021190f82",
       "series_asset": "stitle01.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8484848484848485,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb37_1",
@@ -2480,12 +2786,15 @@
       ],
       "source_crop_rgba_sha256": "93c90e83e503e1c9b0a75404177b45be6f5e38bd105acb39c5c91bfc8fedd17d",
       "series_asset": "stitle01.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb38_0",
@@ -2504,12 +2813,15 @@
       ],
       "source_crop_rgba_sha256": "7332635073a41547ae00bbfc38ae0239af5d150da272c01969ebdf70f87653da",
       "series_asset": "stitle06.pzz",
-      "target_ko": "기동무투전",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동무투전",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb38_1",
@@ -2528,12 +2840,15 @@
       ],
       "source_crop_rgba_sha256": "fe5b19d8d1dbeb1e413de3504bc9c1e1b89b9a1fe2c9f99ed66fc8f6c3e4bb7f",
       "series_asset": "stitle06.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb39_0",
@@ -2552,12 +2867,15 @@
       ],
       "source_crop_rgba_sha256": "ff41cac76b63d76558420ea3b43d2ce9291fed9d2640a28fd16fd856c0f0a469",
       "series_asset": "stitle08.pzz",
-      "target_ko": "기동신세기",
       "font_size": 9,
       "scale_x": 0.55,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동신세기",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb39_1",
@@ -2576,12 +2894,15 @@
       ],
       "source_crop_rgba_sha256": "f8e71f1ed069ea5718d725e25b0bd8be8faa593dc9b5d967f9453bd5241e7d7d",
       "series_asset": "stitle08.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3a_0",
@@ -2600,12 +2921,15 @@
       ],
       "source_crop_rgba_sha256": "819ec9291b9c38bfb71f4b95521d4db15a50c8f39a79ea6b0c48542fb8e5b2ee",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3a_1",
@@ -2624,12 +2948,15 @@
       ],
       "source_crop_rgba_sha256": "b9e8df48bc17ce1f22a7dda12d4505df1191345b1c9ef1ceb1f81ddea47bba4e",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3a_2",
@@ -2648,12 +2975,15 @@
       ],
       "source_crop_rgba_sha256": "1871aa53ef37bb46271786df7ea41ddc93137d938768ed4d5702a453b79ef812",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "데스티니",
       "font_size": 8,
       "scale_x": 0.7741935483870968,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3b_0",
@@ -2672,12 +3002,15 @@
       ],
       "source_crop_rgba_sha256": "4f18b413453065175e72a278552004a7a4da526820edd19e14b4acac38d33385",
       "series_asset": "stitle01.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8484848484848485,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3b_1",
@@ -2696,12 +3029,15 @@
       ],
       "source_crop_rgba_sha256": "1ce3082182b2aae3acce0ce38da6421042d4b1c3b22810f1233f9cf1e51f42ec",
       "series_asset": "stitle01.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3c_0",
@@ -2720,12 +3056,15 @@
       ],
       "source_crop_rgba_sha256": "d9b11c9eb4e8d83b159d7bfaee7a55b8b7ab11aba785f19c629ed2d23c9f5084",
       "series_asset": "stitle02.pzz",
-      "target_ko": "기동전사",
       "font_size": 7,
       "scale_x": 0.8571428571428571,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3c_1",
@@ -2744,12 +3083,15 @@
       ],
       "source_crop_rgba_sha256": "c9060474ae26a670d375cd7616d0ac46d0180d83ec6fb8e52224426dbbbdc061",
       "series_asset": "stitle02.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3d_0",
@@ -2768,12 +3110,15 @@
       ],
       "source_crop_rgba_sha256": "6d0c32ac553caa54c47cd9fe458d9b4f1d222717f55a2ce7af4fa7bb4561d2e0",
       "series_asset": "stitle03.pzz",
-      "target_ko": "기동전사",
       "font_size": 8,
       "scale_x": 0.90625,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3d_1",
@@ -2792,12 +3137,15 @@
       ],
       "source_crop_rgba_sha256": "cee3337aea8030fa41aa2e2300ecadf6f6cd7d1c8df9aaea08fa270e76885170",
       "series_asset": "stitle03.pzz",
-      "target_ko": "역습의 샤아",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "역습의 샤아",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3e_0",
@@ -2816,12 +3164,15 @@
       ],
       "source_crop_rgba_sha256": "68e2c809511d4b4f832de8a8de783a1a00490dcdab9fc390f78e2c939e6a287b",
       "series_asset": "stitle05.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3e_1",
@@ -2840,12 +3191,15 @@
       ],
       "source_crop_rgba_sha256": "8209723f115bdce69323fd2ada6683aa3fb30128efc294761a2a1bde0c14b9c1",
       "series_asset": "stitle05.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3f_0",
@@ -2864,12 +3218,15 @@
       ],
       "source_crop_rgba_sha256": "4d32c24c63bfc1bff265aebcef9de820873b9ac8adbdd732e04ea1a82a9cfbcc",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb3f_1",
@@ -2888,12 +3245,15 @@
       ],
       "source_crop_rgba_sha256": "e9a7049527e6d8d30cf8363a9431ad0d94f11abe2fb0ab149c14b5e82c1ffd04",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb40_0",
@@ -2912,12 +3272,15 @@
       ],
       "source_crop_rgba_sha256": "6887a5f04d91fe5b4e978d3440bc835491ba95bbd91ae78bd32651eace18deea",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb40_1",
@@ -2936,12 +3299,15 @@
       ],
       "source_crop_rgba_sha256": "45ed7643431f011e3cdefbda4eedf83452bf6771d2c0abff039c1e2aed52e893",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb40_2",
@@ -2960,12 +3326,15 @@
       ],
       "source_crop_rgba_sha256": "d43ac5878325604a05f2d9e6df0a325d766d9020321ef280387cd7254bf93cac",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "데스티니",
       "font_size": 8,
       "scale_x": 0.7741935483870968,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb41_0",
@@ -2984,12 +3353,15 @@
       ],
       "source_crop_rgba_sha256": "94c18a472e65e92eda3ae543fadeac2641bdc4b4e1673d351e76685590599a4a",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb41_1",
@@ -3008,12 +3380,15 @@
       ],
       "source_crop_rgba_sha256": "744c27e71f096835884f41ca4d4f484ccfaa4456d185ae449e562b288cd2245a",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb42_0",
@@ -3032,12 +3407,15 @@
       ],
       "source_crop_rgba_sha256": "0a194ca6d913117c5c1af182acbeff1e6bea73f7c380caf5fbdfef9a7abc4740",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb42_1",
@@ -3056,12 +3434,15 @@
       ],
       "source_crop_rgba_sha256": "e8c5d57de58b7adcf8e6f7721f67a4b2a145c5964a11f6ae98f6af7f01842cec",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb43_0",
@@ -3080,12 +3461,15 @@
       ],
       "source_crop_rgba_sha256": "4deb17d55edc3447df97d19c96365c518b068d8311fec5853ca9806ab57a001d",
       "series_asset": "stitle01.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8484848484848485,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb43_1",
@@ -3104,12 +3488,15 @@
       ],
       "source_crop_rgba_sha256": "5759cbe28876a0502a67b55ca19b5af94da1bc7f25a6d187d6da0358e45b777c",
       "series_asset": "stitle01.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb46_0",
@@ -3128,12 +3515,15 @@
       ],
       "source_crop_rgba_sha256": "1044c465583876f7f43a14c5a2f8770f72f520f4c02e652b4023ef5b8e403661",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb46_1",
@@ -3152,12 +3542,15 @@
       ],
       "source_crop_rgba_sha256": "78232af3ded42a4890402566b5fe2d40d2e9602bf9c4f7787ebe1ab2841f06b7",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb47_0",
@@ -3176,12 +3569,15 @@
       ],
       "source_crop_rgba_sha256": "c0bc99ed53c9f536a9e5c8663c99a49ac04cb7bd7794022a3656e826068ea959",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb47_1",
@@ -3200,12 +3596,15 @@
       ],
       "source_crop_rgba_sha256": "3682176520c3511e0db08b0f2c73761906467e65f8b46063abfcd2e1a05869cd",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb48_0",
@@ -3224,12 +3623,15 @@
       ],
       "source_crop_rgba_sha256": "93afaea6c9acaa36e62f951df59744ef3080869f7b07565e410c3d4049299311",
       "series_asset": "stitle10.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9696969696969697,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb48_1",
@@ -3248,12 +3650,15 @@
       ],
       "source_crop_rgba_sha256": "976f7ebddd21200c872a727b352e747b549e6ab163c3ff931e46abab8e33e096",
       "series_asset": "stitle10.pzz",
-      "target_ko": "건담 UC",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 UC",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb48_2",
@@ -3272,12 +3677,15 @@
       ],
       "source_crop_rgba_sha256": "44ef13949dcc8684ba618118e2004ff84307c6baad9e9e5a56c0f2183d8982a5",
       "series_asset": "stitle10.pzz",
-      "target_ko": "유니콘",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "유니콘",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb49_0",
@@ -3296,12 +3704,15 @@
       ],
       "source_crop_rgba_sha256": "c227c8e2070c0f3d2947fd567f40af2ee74f8725f21300cb8d1136075ba0fcfc",
       "series_asset": "stitle04.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9696969696969697,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb4a_0",
@@ -3320,12 +3731,15 @@
       ],
       "source_crop_rgba_sha256": "7d5aa1e0930920be14ff7a54f2e8e4133c7c3a21d97c4c66477e85bbe8a50eba",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.9090909090909091,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb4a_1",
@@ -3344,12 +3758,15 @@
       ],
       "source_crop_rgba_sha256": "5ce08b42b286e0f8da7f7d48aeb87ff89b5c722de7c0920e7767970e75c05073",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "제08MS소대",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "제08MS소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb4b_0",
@@ -3368,12 +3785,15 @@
       ],
       "source_crop_rgba_sha256": "35b7930a97b773a7c78417eaf688803911519e5408a2f62b38dfe8a110990417",
       "series_asset": "stitle00.pzz",
-      "target_ko": "기동전사",
       "font_size": 5,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb4b_1",
@@ -3392,12 +3812,15 @@
       ],
       "source_crop_rgba_sha256": "9eb9df1b24d22f379daee768bb7fce904d38d1ed6b77d6b87b0fda6011518fdb",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_size": 9,
       "scale_x": 1,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfmb4c_0",
@@ -3416,12 +3839,15 @@
       ],
       "source_crop_rgba_sha256": "95b0653bb8e66c7cf867ea9891e10da20fea1700f773d6af07256ec6c5f023d4",
       "series_asset": "stitle0d.pzz",
-      "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "기동전사",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml000",
@@ -3440,7 +3866,6 @@
       ],
       "source_crop_rgba_sha256": "25bbbd44f04027af0e0ec6dadd5c50b7fbca6adefbfd4f4cd37e3859a3e5fe33",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_placements": [
         {
           "box": [
@@ -3456,9 +3881,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml010",
@@ -3477,7 +3906,6 @@
       ],
       "source_crop_rgba_sha256": "9994c015055b9424e50c0b1c13bec9bc95cd5724c5d440d0666ecb19808473c3",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_placements": [
         {
           "box": [
@@ -3493,9 +3921,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml020",
@@ -3514,7 +3946,6 @@
       ],
       "source_crop_rgba_sha256": "2f12a357a4b7b222a75f33bea698ba3327ebd084b2711a82e34b6f14259902af",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_placements": [
         {
           "box": [
@@ -3530,9 +3961,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml030",
@@ -3551,7 +3986,6 @@
       ],
       "source_crop_rgba_sha256": "9d62ee03ee984ff796bb3288d8b125aa40365892a939b247f139ce4ab9d74b9d",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_placements": [
         {
           "box": [
@@ -3567,9 +4001,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml040",
@@ -3588,7 +4026,6 @@
       ],
       "source_crop_rgba_sha256": "9302cbe2d87c286e651b204d479c7eb6dbb6171361cd1b0f7f994b16f119663a",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_placements": [
         {
           "box": [
@@ -3604,9 +4041,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml050",
@@ -3625,7 +4066,6 @@
       ],
       "source_crop_rgba_sha256": "85d2e69bb76ffcf1d8b636fe70db934b9bd775cb5ebfeeefaa861337aba4a9e6",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_placements": [
         {
           "box": [
@@ -3641,9 +4081,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml060",
@@ -3662,7 +4106,6 @@
       ],
       "source_crop_rgba_sha256": "0b17d52258ebb732c7696b70909e39dc88e4c8883b8b81e8b3ae36a7cef73e15",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_placements": [
         {
           "box": [
@@ -3678,9 +4121,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml070",
@@ -3699,7 +4146,6 @@
       ],
       "source_crop_rgba_sha256": "2fee03abfb223ba09e76cd4fc4c7ebf0de1d4763b6ac7adb7b5a2b88a4e871dc",
       "series_asset": "stitle01.pzz",
-      "target_ko": "Z 건담",
       "font_placements": [
         {
           "box": [
@@ -3715,9 +4161,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "Z 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml072",
@@ -3736,7 +4186,6 @@
       ],
       "source_crop_rgba_sha256": "0be1db404965972998554e42404eb5908e0090837d64dc6f063117d49e3fc943",
       "series_asset": "stitle01.pzz",
-      "target_ko": "Z 건담",
       "font_placements": [
         {
           "box": [
@@ -3752,9 +4201,13 @@
           "scale_x": 0.6
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "Z 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml080",
@@ -3773,7 +4226,6 @@
       ],
       "source_crop_rgba_sha256": "43dc7ce4bbeb432a47bdfe841ff60a5c7bd69ccb0299cf51fd425702170fe1a1",
       "series_asset": "stitle02.pzz",
-      "target_ko": "ZZ 건담",
       "font_placements": [
         {
           "box": [
@@ -3789,9 +4241,13 @@
           "scale_x": 0.6538461538461539
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "ZZ 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml090",
@@ -3810,7 +4266,6 @@
       ],
       "source_crop_rgba_sha256": "2303fdcb4d87dbbb2b7af20d301c462bf67ed0fe70812a462b020a3632b8e61d",
       "series_asset": "stitle02.pzz",
-      "target_ko": "ZZ 건담",
       "font_placements": [
         {
           "box": [
@@ -3826,9 +4281,13 @@
           "scale_x": 0.6
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "ZZ 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml0b0",
@@ -3847,7 +4306,6 @@
       ],
       "source_crop_rgba_sha256": "1a5994ab49120eea4e52229437f93815936b94f1263a15b581ea6a198998a9cb",
       "series_asset": "stitle03.pzz",
-      "target_ko": "역습의 샤아",
       "font_placements": [
         {
           "box": [
@@ -3863,9 +4321,13 @@
           "scale_x": 0.8775510204081632
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "역습의 샤아",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml0c0",
@@ -3884,7 +4346,6 @@
       ],
       "source_crop_rgba_sha256": "4132803fb63441d53f4c59d996d3da19fe4e36c1ea142750eabb842d8451e4c8",
       "series_asset": "stitle04.pzz",
-      "target_ko": "건담 F91",
       "font_placements": [
         {
           "box": [
@@ -3900,9 +4361,13 @@
           "scale_x": 0.7222222222222222
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 F91",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml0d0",
@@ -3921,7 +4386,6 @@
       ],
       "source_crop_rgba_sha256": "ddb06deb3eb9b257d7e121f1139fa5e936efd611ca7ad6d9938a4815072369b7",
       "series_asset": "stitle04.pzz",
-      "target_ko": "건담 F91",
       "font_placements": [
         {
           "box": [
@@ -3937,9 +4401,13 @@
           "scale_x": 0.8333333333333334
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 F91",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml0e0",
@@ -3958,7 +4426,6 @@
       ],
       "source_crop_rgba_sha256": "e5e6f4b99a4fdad137dd1174fb353ca037df530ecb775a5ed7bb3efb80454fc3",
       "series_asset": "stitle05.pzz",
-      "target_ko": "V 건담",
       "font_placements": [
         {
           "box": [
@@ -3974,9 +4441,13 @@
           "scale_x": 0.9655172413793104
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "V 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml0f0",
@@ -3995,7 +4466,6 @@
       ],
       "source_crop_rgba_sha256": "d17af94b65e005d196c85002a08939de9e5661f176bf6e261b639b67df491925",
       "series_asset": "stitle05.pzz",
-      "target_ko": "V 건담",
       "font_placements": [
         {
           "box": [
@@ -4011,9 +4481,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "V 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml100",
@@ -4032,7 +4506,6 @@
       ],
       "source_crop_rgba_sha256": "95e62be21d6e9587b8afe3860c3a75f58426810d730c82653d5804ae908c633d",
       "series_asset": "stitle06.pzz",
-      "target_ko": "G 건담",
       "font_placements": [
         {
           "box": [
@@ -4048,9 +4521,13 @@
           "scale_x": 0.6666666666666666
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "G 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml110",
@@ -4069,7 +4546,6 @@
       ],
       "source_crop_rgba_sha256": "40ecb02047f446785b17e2922e3ae0c52935d46e045313be2f5fe3474b6dc768",
       "series_asset": "stitle06.pzz",
-      "target_ko": "G 건담",
       "font_placements": [
         {
           "box": [
@@ -4085,9 +4561,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "G 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml130",
@@ -4106,7 +4586,6 @@
       ],
       "source_crop_rgba_sha256": "3c1e98d6442e78b4263b7996fffb90e338231800a6acd1f6130b3968b9e1db07",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담 W",
       "font_placements": [
         {
           "box": [
@@ -4122,9 +4601,13 @@
           "scale_x": 0.6666666666666666
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 W",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml140",
@@ -4143,7 +4626,6 @@
       ],
       "source_crop_rgba_sha256": "fc38f6a121881b178992190c8eef1b70db02752c7726c14d8e9a65559d6dbc96",
       "series_asset": "stitle08.pzz",
-      "target_ko": "건담 X",
       "font_placements": [
         {
           "box": [
@@ -4159,9 +4641,13 @@
           "scale_x": 0.6785714285714286
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 X",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml142",
@@ -4180,7 +4666,6 @@
       ],
       "source_crop_rgba_sha256": "b16a69b00752a8ff2831a1e1a2eff50c6345315b0479d932196c6e0ca05fb8d5",
       "series_asset": "stitle08.pzz",
-      "target_ko": "건담 X",
       "font_placements": [
         {
           "box": [
@@ -4196,9 +4681,13 @@
           "scale_x": 0.75
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 X",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml150",
@@ -4217,7 +4706,6 @@
       ],
       "source_crop_rgba_sha256": "0aa01dbbeadca7762192e296512d11a2599b7ede78f6b0f4a5355290a51833e7",
       "series_asset": "stitle08.pzz",
-      "target_ko": "건담 X",
       "font_placements": [
         {
           "box": [
@@ -4233,9 +4721,13 @@
           "scale_x": 0.6785714285714286
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 X",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml180",
@@ -4254,7 +4746,6 @@
       ],
       "source_crop_rgba_sha256": "b3d08a223cf407677955843b2e9634733dbaa8ca19e8398f543b1832df83edb3",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담 SEED",
       "font_placements": [
         {
           "box": [
@@ -4270,9 +4761,13 @@
           "scale_x": 0.6060606060606061
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml182",
@@ -4291,7 +4786,6 @@
       ],
       "source_crop_rgba_sha256": "4c195be2d5dfa65133bbecc5b423bd27f5c03986d11eaad930b6aa6493106be4",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담 SEED",
       "font_placements": [
         {
           "box": [
@@ -4307,9 +4801,13 @@
           "scale_x": 0.8666666666666667
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml183",
@@ -4328,7 +4826,6 @@
       ],
       "source_crop_rgba_sha256": "58acc99fc8664bfe5b2b047fa213d5d4d7d553b55068995668853034bced12a6",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담 SEED",
       "font_placements": [
         {
           "box": [
@@ -4344,9 +4841,13 @@
           "scale_x": 0.6052631578947368
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml190",
@@ -4365,7 +4866,6 @@
       ],
       "source_crop_rgba_sha256": "504fc785f2f5a7384fc3eecb8141e210d0f72aad014ef65f9a81fdc31cba45b9",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담 SEED",
       "font_placements": [
         {
           "box": [
@@ -4381,9 +4881,13 @@
           "scale_x": 0.8444444444444444
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml1a0",
@@ -4402,7 +4906,6 @@
       ],
       "source_crop_rgba_sha256": "11ef214d8a4431474111cb6da3610dd026bf4ecc159b865dc0193143df15533a",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담 SEED / 데스티니",
       "font_placements": [
         {
           "box": [
@@ -4419,9 +4922,13 @@
           "scale_x": 0.6
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED / 데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml1b0",
@@ -4440,7 +4947,6 @@
       ],
       "source_crop_rgba_sha256": "808e523fa6016faf9e51fc02926788ade9e12e99e5cab51d789a0bfcc6ee2b44",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담 SEED",
       "font_placements": [
         {
           "box": [
@@ -4456,9 +4962,13 @@
           "scale_x": 0.6363636363636364
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml1c0",
@@ -4477,7 +4987,6 @@
       ],
       "source_crop_rgba_sha256": "55136bea10766060e1f50ca8cd81767d079c7d2afa2b680380ab23604c8b7283",
       "series_asset": "stitle0c.pzz",
-      "target_ko": "건담 0080 / 주머니 속의 전쟁",
       "font_placements": [
         {
           "box": [
@@ -4494,9 +5003,13 @@
           "scale_x": 0.6779661016949152
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml1d0",
@@ -4515,7 +5028,6 @@
       ],
       "source_crop_rgba_sha256": "925c9c022bea5cdd8ba7ee869b9d7a2a2b0202fd1d7361af3ce43a31b76f32cf",
       "series_asset": "stitle0c.pzz",
-      "target_ko": "건담 0080 / 주머니 속의 전쟁",
       "font_placements": [
         {
           "box": [
@@ -4532,9 +5044,13 @@
           "scale_x": 0.6739130434782609
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml1e0",
@@ -4553,7 +5069,6 @@
       ],
       "source_crop_rgba_sha256": "78c478aed24d82a286cbaea3c3e10a39e1f8c44877f1d881a547f96f96d28f83",
       "series_asset": "stitle0c.pzz",
-      "target_ko": "건담 0080 / 주머니 속의 전쟁",
       "font_placements": [
         {
           "box": [
@@ -4570,9 +5085,13 @@
           "scale_x": 0.6101694915254238
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml1f0",
@@ -4591,7 +5110,6 @@
       ],
       "source_crop_rgba_sha256": "f195903bf0f74c9f6315061c3c0d045306f464481a407a756c9104a5aff8ac00",
       "series_asset": "stitle0d.pzz",
-      "target_ko": "건담 0083",
       "font_placements": [
         {
           "box": [
@@ -4607,9 +5125,13 @@
           "scale_x": 0.6
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 0083",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml200",
@@ -4628,7 +5150,6 @@
       ],
       "source_crop_rgba_sha256": "2a6b297bdc498948557d8fc1b7758fcd8f52f2cd2a890652ed28011a0081b13c",
       "series_asset": "stitle0d.pzz",
-      "target_ko": "건담 0083",
       "font_placements": [
         {
           "box": [
@@ -4644,9 +5165,13 @@
           "scale_x": 0.7111111111111111
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 0083",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml210",
@@ -4665,7 +5190,6 @@
       ],
       "source_crop_rgba_sha256": "c45f91fc0004bef18a9ed655f1793b56131027121e73a91d70fb420436ad6348",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "제08MS소대",
       "font_placements": [
         {
           "box": [
@@ -4681,9 +5205,13 @@
           "scale_x": 0.7037037037037037
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "제08MS소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml220",
@@ -4702,7 +5230,6 @@
       ],
       "source_crop_rgba_sha256": "54e35a08bd12cb99dd455959ba28bf23c5ed1f15b59a2113250860689787a536",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "제08MS소대",
       "font_placements": [
         {
           "box": [
@@ -4718,9 +5245,13 @@
           "scale_x": 0.625
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "제08MS소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml221",
@@ -4739,7 +5270,6 @@
       ],
       "source_crop_rgba_sha256": "9956dd3b96770849e4ce9940dc863cd7ef0bd4653c7abab5a04a2c24a70b97d6",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "제08MS소대",
       "font_placements": [
         {
           "box": [
@@ -4755,9 +5285,13 @@
           "scale_x": 0.625
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "제08MS소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml230",
@@ -4776,7 +5310,6 @@
       ],
       "source_crop_rgba_sha256": "d0154feb300446a7eb493ca03b9bfcc8b89e5428071e6de37f53710b00d972a2",
       "series_asset": "stitle0e.pzz",
-      "target_ko": "제08MS소대",
       "font_placements": [
         {
           "box": [
@@ -4792,9 +5325,13 @@
           "scale_x": 0.6551724137931034
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "제08MS소대",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml240",
@@ -4813,7 +5350,6 @@
       ],
       "source_crop_rgba_sha256": "16633608ad34806da16518a93f89bdc3a5e46139ac5f74af508ab9f5e426d3b4",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_placements": [
         {
           "box": [
@@ -4829,9 +5365,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml250",
@@ -4850,7 +5390,6 @@
       ],
       "source_crop_rgba_sha256": "c27f26aa2e7a13d5866918641d36f9e3872c4d1178a1749bcc2476c9f9f25fde",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담 SEED / 데스티니",
       "font_placements": [
         {
           "box": [
@@ -4867,9 +5406,13 @@
           "scale_x": 0.6222222222222222
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED / 데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml260",
@@ -4888,7 +5431,6 @@
       ],
       "source_crop_rgba_sha256": "865386da9d5e32339fb4df45f4315d7a66cfd931a4d7aeb2f1f6fa93fa91f1d9",
       "series_asset": "stitle0d.pzz",
-      "target_ko": "건담 0083",
       "font_placements": [
         {
           "box": [
@@ -4904,9 +5446,13 @@
           "scale_x": 0.6888888888888889
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 0083",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml262",
@@ -4925,7 +5471,6 @@
       ],
       "source_crop_rgba_sha256": "5b40ec16db4c7c209c87156d05c2cdd7e54e623ac873f515531c16bbaa6bda59",
       "series_asset": "stitle0d.pzz",
-      "target_ko": "건담 0083",
       "font_placements": [
         {
           "box": [
@@ -4941,9 +5486,13 @@
           "scale_x": 0.6875
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 0083",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml270",
@@ -4962,7 +5511,6 @@
       ],
       "source_crop_rgba_sha256": "25b5eddfef73a8ad07a700efee9fc043a6cd3cbb20114d4a94f6269bb780320e",
       "series_asset": "stitle01.pzz",
-      "target_ko": "Z 건담",
       "font_placements": [
         {
           "box": [
@@ -4978,9 +5526,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "Z 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml280",
@@ -4999,7 +5551,6 @@
       ],
       "source_crop_rgba_sha256": "210f164095c9d3e11e81e54210ee23c0cec021c6422e9aea808d7bccf2ce12a7",
       "series_asset": "stitle02.pzz",
-      "target_ko": "ZZ 건담",
       "font_placements": [
         {
           "box": [
@@ -5015,9 +5566,13 @@
           "scale_x": 0.6153846153846154
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "ZZ 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml290",
@@ -5036,7 +5591,6 @@
       ],
       "source_crop_rgba_sha256": "df46625014c4e9e73a39c002cbc16e9e74e2136c2b766f7c16a932033ede929b",
       "series_asset": "stitle05.pzz",
-      "target_ko": "V / 건 / 담",
       "font_placements": [
         {
           "box": [
@@ -5054,9 +5608,13 @@
           "scale_x": 0.8
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "V / 건 / 담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml2a0",
@@ -5075,7 +5633,6 @@
       ],
       "source_crop_rgba_sha256": "7b37cf926bae77607ecdd2902a5f41aaa29f3cbc367259911810e0d90e69d20b",
       "series_asset": "stitle06.pzz",
-      "target_ko": "G 건담",
       "font_placements": [
         {
           "box": [
@@ -5091,9 +5648,13 @@
           "scale_x": 0.9333333333333333
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "G 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml2b0",
@@ -5112,7 +5673,6 @@
       ],
       "source_crop_rgba_sha256": "05af75ffc412195cdcc8aae767eabccc609d1f98b7feaef84aae27dc3fd2f455",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담 W",
       "font_placements": [
         {
           "box": [
@@ -5128,9 +5688,13 @@
           "scale_x": 0.6551724137931034
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 W",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml2c0",
@@ -5149,7 +5713,6 @@
       ],
       "source_crop_rgba_sha256": "3b745f963f6cd52ee0a5c7aeb8a96d9fcbc1b568ba1a40306524637df2abba87",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담 W",
       "font_placements": [
         {
           "box": [
@@ -5165,9 +5728,13 @@
           "scale_x": 0.8125
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 W",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml2e0",
@@ -5186,7 +5753,6 @@
       ],
       "source_crop_rgba_sha256": "219a6928f85c8fcd0a54b253229a7d6b9ceab0c1b321efd40803e5a70b4ce041",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담 SEED / 데스티니",
       "font_placements": [
         {
           "box": [
@@ -5203,9 +5769,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED / 데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml2e2",
@@ -5224,7 +5794,6 @@
       ],
       "source_crop_rgba_sha256": "5e294d94cd177d55ad2906fdcebb23907d962f9b7ca3792dce61bf5e0d75c554",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담 SEED / 데스티니",
       "font_placements": [
         {
           "box": [
@@ -5241,9 +5810,13 @@
           "scale_x": 0.9736842105263158
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED / 데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml2f0",
@@ -5262,7 +5835,6 @@
       ],
       "source_crop_rgba_sha256": "1e1cc3fa886a4015f1decb91affb7a2f8d7062b19aa0e464c3b54d2944e55129",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_placements": [
         {
           "box": [
@@ -5278,9 +5850,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml2f2",
@@ -5299,7 +5875,6 @@
       ],
       "source_crop_rgba_sha256": "c30d2b37ef9883afa9acf89caef766b77ce5d113e63346b55cd10698bdf4abd1",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_placements": [
         {
           "box": [
@@ -5315,9 +5890,13 @@
           "scale_x": 0.7272727272727273
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml300",
@@ -5336,7 +5915,6 @@
       ],
       "source_crop_rgba_sha256": "9f82741681f9c01273b93c520ac8ec50c3281a8b00e040c5662a29de4607559c",
       "series_asset": "stitle10.pzz",
-      "target_ko": "건담 UC / 유니콘",
       "font_placements": [
         {
           "box": [
@@ -5353,9 +5931,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 UC / 유니콘",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml310",
@@ -5374,7 +5956,6 @@
       ],
       "source_crop_rgba_sha256": "cbe76c46fd13ff47c74ea3054e3411766a0180544ca31abc2a5d7c51b38dd807",
       "series_asset": "stitle0b.pzz",
-      "target_ko": "건담 SEED / 데스티니",
       "font_placements": [
         {
           "box": [
@@ -5391,9 +5972,13 @@
           "scale_x": 0.7037037037037037
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED / 데스티니",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml320",
@@ -5412,7 +5997,6 @@
       ],
       "source_crop_rgba_sha256": "adbc5303584100f979a1d5b6cc6bcc5f22c9be0e34a18a9fb6cea601ecd95ad4",
       "series_asset": "stitle06.pzz",
-      "target_ko": "G 건담",
       "font_placements": [
         {
           "box": [
@@ -5428,9 +6012,13 @@
           "scale_x": 0.8666666666666667
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "G 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml330",
@@ -5449,7 +6037,6 @@
       ],
       "source_crop_rgba_sha256": "c73d499458bceddf21427b8b5a762cf85e317180f89f22adbb5f94304b992d19",
       "series_asset": "stitle01.pzz",
-      "target_ko": "Z 건담",
       "font_placements": [
         {
           "box": [
@@ -5465,9 +6052,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "Z 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml340",
@@ -5486,7 +6077,6 @@
       ],
       "source_crop_rgba_sha256": "856c8964aceacdb4cd5b3dda8a4dbf7349480851b2908513c4bf7c9b6f2c092a",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담 SEED",
       "font_placements": [
         {
           "box": [
@@ -5502,9 +6092,13 @@
           "scale_x": 0.6666666666666666
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml342",
@@ -5523,7 +6117,6 @@
       ],
       "source_crop_rgba_sha256": "59c0a450736abdf92f802959e1bb8625590d3b19e5814705a885187f05b7f9db",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담 SEED",
       "font_placements": [
         {
           "box": [
@@ -5539,9 +6132,13 @@
           "scale_x": 0.6
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml360",
@@ -5560,7 +6157,6 @@
       ],
       "source_crop_rgba_sha256": "1f68eba23dd087b850a3232a019bdd76c2a178762486a21ab0c44cee0c85fac6",
       "series_asset": "stitle02.pzz",
-      "target_ko": "ZZ 건담",
       "font_placements": [
         {
           "box": [
@@ -5576,9 +6172,13 @@
           "scale_x": 0.6
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "ZZ 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml370",
@@ -5597,7 +6197,6 @@
       ],
       "source_crop_rgba_sha256": "f56efd3eeaf8eff13e9648e189ef623cc0905d5a5f54fb578766826a0635604a",
       "series_asset": "stitle01.pzz",
-      "target_ko": "Z 건담",
       "font_placements": [
         {
           "box": [
@@ -5613,9 +6212,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "Z 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml380",
@@ -5634,7 +6237,6 @@
       ],
       "source_crop_rgba_sha256": "5ee8fb4bf0c1ac0fc499062709eca40ae086289abf47c886d373433fcebecc03",
       "series_asset": "stitle06.pzz",
-      "target_ko": "G 건담",
       "font_placements": [
         {
           "box": [
@@ -5650,9 +6252,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "G 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml390",
@@ -5671,7 +6277,6 @@
       ],
       "source_crop_rgba_sha256": "abefa35f889b1fb4fc6c095b79101f94ae113ed92f19378d12bade320d17e57f",
       "series_asset": "stitle08.pzz",
-      "target_ko": "건담 X",
       "font_placements": [
         {
           "box": [
@@ -5687,9 +6292,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 X",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml410",
@@ -5708,7 +6317,6 @@
       ],
       "source_crop_rgba_sha256": "defc1ad4e22d5683b1901bf4898bad388750437474fa69011f6d339e6d7c41cc",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_placements": [
         {
           "box": [
@@ -5724,9 +6332,13 @@
           "scale_x": 0.696969696969697
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml420",
@@ -5745,7 +6357,6 @@
       ],
       "source_crop_rgba_sha256": "6077f3cdcde09405105c44be744ca2684a3dbdeb0a9e7a8d5f02f7602fd09204",
       "series_asset": "stitle0f.pzz",
-      "target_ko": "건담 00",
       "font_placements": [
         {
           "box": [
@@ -5761,9 +6372,13 @@
           "scale_x": 0.7575757575757576
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 00",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml430",
@@ -5782,7 +6397,6 @@
       ],
       "source_crop_rgba_sha256": "26b3bea1a8e18c7930b4faa9ee58cb19c2dfbf1c74b383d170ae5dbbba60d062",
       "series_asset": "stitle01.pzz",
-      "target_ko": "Z 건담",
       "font_placements": [
         {
           "box": [
@@ -5798,9 +6412,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "Z 건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml460",
@@ -5819,7 +6437,6 @@
       ],
       "source_crop_rgba_sha256": "7062d8a3b060df70677322b10e976eac9455903d6a319a240dfcfa599f027934",
       "series_asset": "stitle00.pzz",
-      "target_ko": "건담",
       "font_placements": [
         {
           "box": [
@@ -5835,9 +6452,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml470",
@@ -5856,7 +6477,6 @@
       ],
       "source_crop_rgba_sha256": "380bd0997eb526aa103dab2620d9bc5e34d651dda9d872513157e0b41e20bcd0",
       "series_asset": "stitle0a.pzz",
-      "target_ko": "건담 SEED",
       "font_placements": [
         {
           "box": [
@@ -5872,9 +6492,13 @@
           "scale_x": 0.6363636363636364
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 SEED",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml480",
@@ -5893,7 +6517,6 @@
       ],
       "source_crop_rgba_sha256": "99e940fb810c542ab6a4d81b99b780631841807c4ad44e933b3e9ccc816f7889",
       "series_asset": "stitle10.pzz",
-      "target_ko": "건담 UC / 유니콘",
       "font_placements": [
         {
           "box": [
@@ -5910,9 +6533,13 @@
           "scale_x": 1
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 UC / 유니콘",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml0a0",
@@ -5931,7 +6558,6 @@
       ],
       "source_crop_rgba_sha256": "093de50229020c0143a6ac9fa85a1aaef3cdb83d78ee4ea043b84ea736ce68a9",
       "series_asset": "stitle03.pzz",
-      "target_ko": "역습의 / 샤아",
       "font_placements": [
         {
           "box": [
@@ -5960,9 +6586,13 @@
           "scale_x": 0.7857142857142857
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "역습의 / 샤아",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml120",
@@ -5981,7 +6611,6 @@
       ],
       "source_crop_rgba_sha256": "382c759e304273c0539aff815b7d4383e5f761acf2a7eb06ce977afcebae5abf",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담 W",
       "font_placements": [
         {
           "box": [
@@ -5997,9 +6626,13 @@
           "scale_x": 0.6206896551724138
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 W",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     },
     {
       "id": "CARD_LOGO_brfml350",
@@ -6018,7 +6651,6 @@
       ],
       "source_crop_rgba_sha256": "812dfb9f6323bea38e355c75622c6e02140d84835c18f37408cce10b5a147095",
       "series_asset": "stitle07.pzz",
-      "target_ko": "건담 W",
       "font_placements": [
         {
           "box": [
@@ -6034,10 +6666,169 @@
           "scale_x": 0.6666666666666666
         }
       ],
-      "status": "development_source_reviewed",
+      "status": "excluded_by_user_original_logo",
       "approved": false,
-      "runtime_verdict": "NOT_TESTED"
+      "runtime_verdict": "NOT_TESTED",
+      "historical_target_ko": "건담 W",
+      "scope_status": "excluded",
+      "build_action": "preserve_original",
+      "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
     }
   ],
-  "all_identified_japanese_card_logos_localized": true
+  "all_identified_japanese_card_logos_localized": false,
+  "historical_022_translation_counts": {
+    "localized_cards": 142,
+    "localized_regions": 212,
+    "vertical_localized_cards": 72,
+    "horizontal_localized_cards": 70,
+    "all_identified_japanese_card_logos_localized": true
+  },
+  "logo_policy": "preserve_original",
+  "excluded_original_logo_regions": 212,
+  "policy_decision_date": "2026-10-03",
+  "current_candidate_revision": "023",
+  "preserved_original_assets": [
+    "brfmb00.pzz",
+    "brfmb01.pzz",
+    "brfmb02.pzz",
+    "brfmb03.pzz",
+    "brfmb04.pzz",
+    "brfmb05.pzz",
+    "brfmb06.pzz",
+    "brfmb07.pzz",
+    "brfmb08.pzz",
+    "brfmb09.pzz",
+    "brfmb0a.pzz",
+    "brfmb0b.pzz",
+    "brfmb0c.pzz",
+    "brfmb0d.pzz",
+    "brfmb0e.pzz",
+    "brfmb0f.pzz",
+    "brfmb10.pzz",
+    "brfmb11.pzz",
+    "brfmb12.pzz",
+    "brfmb13.pzz",
+    "brfmb14.pzz",
+    "brfmb15.pzz",
+    "brfmb18.pzz",
+    "brfmb19.pzz",
+    "brfmb1a.pzz",
+    "brfmb1b.pzz",
+    "brfmb1c.pzz",
+    "brfmb1d.pzz",
+    "brfmb1e.pzz",
+    "brfmb1f.pzz",
+    "brfmb20.pzz",
+    "brfmb21.pzz",
+    "brfmb22.pzz",
+    "brfmb23.pzz",
+    "brfmb24.pzz",
+    "brfmb25.pzz",
+    "brfmb26.pzz",
+    "brfmb27.pzz",
+    "brfmb28.pzz",
+    "brfmb29.pzz",
+    "brfmb2a.pzz",
+    "brfmb2b.pzz",
+    "brfmb2c.pzz",
+    "brfmb2e.pzz",
+    "brfmb2f.pzz",
+    "brfmb30.pzz",
+    "brfmb31.pzz",
+    "brfmb32.pzz",
+    "brfmb33.pzz",
+    "brfmb34.pzz",
+    "brfmb35.pzz",
+    "brfmb36.pzz",
+    "brfmb37.pzz",
+    "brfmb38.pzz",
+    "brfmb39.pzz",
+    "brfmb3a.pzz",
+    "brfmb3b.pzz",
+    "brfmb3c.pzz",
+    "brfmb3d.pzz",
+    "brfmb3e.pzz",
+    "brfmb3f.pzz",
+    "brfmb40.pzz",
+    "brfmb41.pzz",
+    "brfmb42.pzz",
+    "brfmb43.pzz",
+    "brfmb46.pzz",
+    "brfmb47.pzz",
+    "brfmb48.pzz",
+    "brfmb49.pzz",
+    "brfmb4a.pzz",
+    "brfmb4b.pzz",
+    "brfmb4c.pzz",
+    "brfml000.pzz",
+    "brfml010.pzz",
+    "brfml020.pzz",
+    "brfml030.pzz",
+    "brfml040.pzz",
+    "brfml050.pzz",
+    "brfml060.pzz",
+    "brfml070.pzz",
+    "brfml072.pzz",
+    "brfml080.pzz",
+    "brfml090.pzz",
+    "brfml0a0.pzz",
+    "brfml0b0.pzz",
+    "brfml0c0.pzz",
+    "brfml0d0.pzz",
+    "brfml0e0.pzz",
+    "brfml0f0.pzz",
+    "brfml100.pzz",
+    "brfml110.pzz",
+    "brfml120.pzz",
+    "brfml130.pzz",
+    "brfml140.pzz",
+    "brfml142.pzz",
+    "brfml150.pzz",
+    "brfml180.pzz",
+    "brfml182.pzz",
+    "brfml183.pzz",
+    "brfml190.pzz",
+    "brfml1a0.pzz",
+    "brfml1b0.pzz",
+    "brfml1c0.pzz",
+    "brfml1d0.pzz",
+    "brfml1e0.pzz",
+    "brfml1f0.pzz",
+    "brfml200.pzz",
+    "brfml210.pzz",
+    "brfml220.pzz",
+    "brfml221.pzz",
+    "brfml230.pzz",
+    "brfml240.pzz",
+    "brfml250.pzz",
+    "brfml260.pzz",
+    "brfml262.pzz",
+    "brfml270.pzz",
+    "brfml280.pzz",
+    "brfml290.pzz",
+    "brfml2a0.pzz",
+    "brfml2b0.pzz",
+    "brfml2c0.pzz",
+    "brfml2e0.pzz",
+    "brfml2e2.pzz",
+    "brfml2f0.pzz",
+    "brfml2f2.pzz",
+    "brfml300.pzz",
+    "brfml310.pzz",
+    "brfml320.pzz",
+    "brfml330.pzz",
+    "brfml340.pzz",
+    "brfml342.pzz",
+    "brfml350.pzz",
+    "brfml360.pzz",
+    "brfml370.pzz",
+    "brfml380.pzz",
+    "brfml390.pzz",
+    "brfml410.pzz",
+    "brfml420.pzz",
+    "brfml430.pzz",
+    "brfml460.pzz",
+    "brfml470.pzz",
+    "brfml480.pzz"
+  ]
 }

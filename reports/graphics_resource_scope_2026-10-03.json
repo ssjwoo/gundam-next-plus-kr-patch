@@ -9,27 +9,68 @@
     "mode_state_mapping_proven": false
   },
   "resource_lists": [
-    {"family": "unlock", "unique_members": 11, "indexed_loader_request_path": "CONFIRMED", "mode_entry_mapping": "UNRESOLVED"},
-    {"family": "next_plus_shared", "unique_members": 5, "indexed_loader_request_path": "CONFIRMED", "mode_entry_mapping": "UNRESOLVED"},
-    {"family": "unit", "unique_members": 66, "indexed_loader_request_path": "CONFIRMED", "mode_entry_mapping": "UNRESOLVED"},
-    {"family": "skill", "unique_members": 66, "indexed_loader_request_path": "UNRESOLVED", "mode_entry_mapping": "UNRESOLVED"},
-    {"family": "unit_art", "unique_members": 66, "indexed_loader_request_path": "UNRESOLVED", "mode_entry_mapping": "UNRESOLVED"},
-    {"family": "pilot_background", "unique_members": null, "table_boundary": "UNRESOLVED", "indexed_loader_request_path": "UNRESOLVED", "mode_entry_mapping": "UNRESOLVED"}
+    {
+      "family": "unlock",
+      "unique_members": 11,
+      "indexed_loader_request_path": "CONFIRMED",
+      "mode_entry_mapping": "UNRESOLVED"
+    },
+    {
+      "family": "next_plus_shared",
+      "unique_members": 5,
+      "indexed_loader_request_path": "CONFIRMED",
+      "mode_entry_mapping": "UNRESOLVED"
+    },
+    {
+      "family": "unit",
+      "unique_members": 66,
+      "indexed_loader_request_path": "CONFIRMED",
+      "mode_entry_mapping": "UNRESOLVED"
+    },
+    {
+      "family": "skill",
+      "unique_members": 66,
+      "indexed_loader_request_path": "UNRESOLVED",
+      "mode_entry_mapping": "UNRESOLVED"
+    },
+    {
+      "family": "unit_art",
+      "unique_members": 66,
+      "indexed_loader_request_path": "UNRESOLVED",
+      "mode_entry_mapping": "UNRESOLVED"
+    },
+    {
+      "family": "pilot_background",
+      "unique_members": null,
+      "table_boundary": "UNRESOLVED",
+      "indexed_loader_request_path": "UNRESOLVED",
+      "mode_entry_mapping": "UNRESOLVED"
+    }
   ],
   "additional_background_source_review": {
     "population_basis": "SOURCE_ARCHIVE_FILENAME_FAMILY; NOT_A_MODE_POPULATION",
     "members": 96,
     "pictures": 96,
-    "dimensions": [480, 272],
+    "dimensions": [
+      480,
+      272
+    ],
     "review_sheets": 6,
     "reviewed_all_source_pictures": true,
     "pictures_with_japanese_logo_observed": 1,
     "pictures_with_no_japanese_text_observed": 95,
-    "pending_asset": "pbg0ff.pzz",
-    "pending_picture": {"part": 0, "picture": 0},
     "pending_asset_integrated_in_020": false,
     "mode_consumer_relation": "UNRESOLVED",
-    "verdict": "SOURCE_VISUAL_TRIAGE; NO_RUNTIME_COMPLETION_CLAIM"
+    "verdict": "SOURCE_VISUAL_TRIAGE; NO_RUNTIME_COMPLETION_CLAIM",
+    "preserved_original_logo_asset": "pbg0ff.pzz",
+    "preserved_original_logo_picture": {
+      "part": 0,
+      "picture": 0
+    },
+    "translation_pending": false,
+    "original_logo_user_excluded": true,
+    "candidate_023_source_pixels_verified": true,
+    "policy": "docs/GUNDAM_TITLE_LOGO_POLICY.md"
   },
   "budget_checkpoint": {
     "window_minutes": 300,
@@ -43,5 +84,6 @@
   "dynamic_uv_and_mode_state_graph": "UNRESOLVED",
   "runtime_verdict": "NOT_TESTED",
   "public_release_updated": false,
-  "original_game_assets_or_tables_published": false
+  "original_game_assets_or_tables_published": false,
+  "current_candidate_revision": "023"
 }

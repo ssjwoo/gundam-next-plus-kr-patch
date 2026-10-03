@@ -70,7 +70,9 @@ def gather(chunk: Chunk, typ: int) -> list[Chunk]:
 
 def image_info(blob: bytes, chunk: Chunk) -> dict:
     base = chunk.offset + chunk.data_offset
-    values = struct.unpack_from("<12H5I4H", blob, base)
+    # The 48-byte header ends in four u16 level/frame fields. Reading a fifth
+    # u32 merges level_type/level_count and consumes the first offset-table word.
+    values = struct.unpack_from("<12H4I4H", blob, base)
     keys = [
         "header_size", "unused", "format", "order", "width", "height",
         "bits_per_pixel", "pitch_align", "height_align", "dimension_count",
