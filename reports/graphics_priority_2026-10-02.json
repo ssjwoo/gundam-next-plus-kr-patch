@@ -48,9 +48,9 @@
     "newget": "All11 source pictures reviewed: decorative frame preserved, ten unlock UI screens localized; actual NEXT PLUS mode consumer relationship unresolved"
   },
   "next_actions": [
-    "Close actual NEXT PLUS resource and consumer scope, including dynamic UV overrides and shared unlock screens",
-    "Check whole XY compositions for deliberately split/rotated primitives without treating their bounding crops as full sentences",
-    "Runtime remains NOT_TESTED; the existing game/CMD test request stays closed"
+    "Localize the newly reviewed pbg0ff.pzz Japanese logo; preserve candidate 020 and verify a fresh candidate from text revision 002.",
+    "Trace confirmed indexed loader paths back to mode entry and state, then prove remaining skill/art/background paths and background table boundaries.",
+    "Resolve dynamic UV and complete XY composition without claiming whole-mode runtime completion."
   ],
   "runtime_verdict": "NOT_TESTED",
   "whole_game_graphics_complete": false,
@@ -204,5 +204,11 @@
     "dynamic_uv_labels_without_exact_static_consumer": 28,
     "development_only": true,
     "public_release_updated": false
+  },
+  "resource_scope_followup": {
+    "report": "reports/graphics_resource_scope_2026-10-03.json",
+    "background_sources_reviewed": 96,
+    "background_japanese_logo_pending": 1,
+    "mode_state_and_dynamic_uv": "UNRESOLVED"
   }
 }

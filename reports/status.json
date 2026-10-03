@@ -246,6 +246,12 @@
         "development_only": true,
         "public_release_updated": false
       }
+    },
+    "resource_scope_followup": {
+      "report": "reports/graphics_resource_scope_2026-10-03.json",
+      "background_sources_reviewed": 96,
+      "background_japanese_logo_pending": 1,
+      "mode_state_and_dynamic_uv": "UNRESOLVED"
     }
   },
   "latest_local_development_artifact": {
@@ -476,5 +482,19 @@
     "unbound_changed_public_ids": 162,
     "whole_game_text_complete": false,
     "whole_game_graphics_complete": false
+  },
+  "budget_handoff_2026_10_03": {
+    "window_minutes": 300,
+    "user_remaining_threshold_percent": 30,
+    "observed_used_percent": 71,
+    "observed_remaining_percent": 29,
+    "new_batches_stopped": true,
+    "handoff": "docs/HANDOFF_CURRENT.md",
+    "ready": true,
+    "candidate_revision": "020",
+    "iso_readback": "PASS",
+    "xdelta_roundtrip": "PASS",
+    "runtime": "NOT_TESTED",
+    "whole_scope_complete": false
   }
 }
