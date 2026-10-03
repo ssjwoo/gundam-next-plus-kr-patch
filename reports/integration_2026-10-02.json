@@ -24,10 +24,10 @@
     "shared_ui_assets": 13,
     "shared_ui_surfaces": 28,
     "shared_ui_label_regions": 544,
-    "total_edited_elements": 1560,
-    "total_korean_translations": 1558,
+    "total_edited_elements": 1702,
+    "total_korean_translations": 1700,
     "pzz_members": 453,
-    "edited_image_surfaces": 621,
+    "edited_image_surfaces": 624,
     "protected_pixel_changes": 0,
     "palette_preserved": true,
     "pmf2_mesh_preserved": true,
@@ -62,12 +62,15 @@
     "remaining_series_assets": [],
     "alpha_repaired_surfaces": 43,
     "unexpected_visible_alpha_pixels_removed": 49197,
-    "shared_series_bank_regions": 48
+    "shared_series_bank_regions": 48,
+    "vertical_card_logos_localized": 72,
+    "embedded_card_logo_regions": 142,
+    "horizontal_card_logos_remaining": 70
   },
   "iso": {
-    "path": "build/graphics_revision_2026-10-02/next_plus_graphics_revision_014.iso",
-    "sha256": "bcd6be6eeb5b6dd80b1245d0c65a6d4b335220fb907114a78f555194eca81156",
-    "crc32": "6A843D74",
+    "path": "build/graphics_revision_2026-10-02/next_plus_graphics_revision_015.iso",
+    "sha256": "6e2feaf9166209ff4fe79142e92e778a24e5d5ded38e5ff2b316168cc33f65bc",
+    "crc32": "4B5130CA",
     "bytes": 1757806592
   },
   "elf_sha256": "29cba21ef1f6c9a8e198545dd927c3703841b1e7da08462ac6ab0ea414e64013",
@@ -75,10 +78,10 @@
   "source_bound_csv_sha256": "abddad52ac2f208ff046d5dfb14ecf7f0a836a0afdf1ede29ffb3d42a4291a14",
   "xdelta": {
     "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
-    "candidate_iso_sha256": "bcd6be6eeb5b6dd80b1245d0c65a6d4b335220fb907114a78f555194eca81156",
-    "xdelta_sha256": "3b5a9fe007f1429dca3a6ea28e8d77bd8690cd6685dfc4eb3e3ca5e04c713fa9",
-    "xdelta_bytes": 6338924,
-    "roundtrip_sha256": "bcd6be6eeb5b6dd80b1245d0c65a6d4b335220fb907114a78f555194eca81156",
+    "candidate_iso_sha256": "6e2feaf9166209ff4fe79142e92e778a24e5d5ded38e5ff2b316168cc33f65bc",
+    "xdelta_sha256": "afaecbebf137c5c431766265202a4a5524be57f29c091a35976df93206a15a74",
+    "xdelta_bytes": 6325193,
+    "roundtrip_sha256": "6e2feaf9166209ff4fe79142e92e778a24e5d5ded38e5ff2b316168cc33f65bc",
     "verdict": "PASS"
   },
   "static_verdict": "PASS",

@@ -1,0 +1,3424 @@
+{
+  "schema_version": 1,
+  "development_only": true,
+  "approved": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_scope_complete": false,
+  "source_cards_reviewed": 154,
+  "source_japanese_logo_cards": 142,
+  "source_english_only_cards_preserved": 10,
+  "source_no_logo_cards_preserved": 2,
+  "localized_cards": 72,
+  "localized_regions": 142,
+  "horizontal_logo_cards_remaining": 70,
+  "rows": [
+    {
+      "id": "CARD_LOGO_brfmb00_0",
+      "asset": "brfmb00.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "e7f3e082b9429fc0cff71e183b3899b0fa717eec76822a6cde1eeb4202ce1e11",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb00_1",
+      "asset": "brfmb00.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "7e24ff4a262d547b71d4a7de47f4ebb5f557a20fd83fc67ddbd7386e157cd28d",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb01_0",
+      "asset": "brfmb01.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "0ade01171bfcd28cc44c1521f4afa4751fc30cc0bd2d4c01298efd61ba692c47",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb01_1",
+      "asset": "brfmb01.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "637be030073b04be6ca24c5acb575f553a805b76629eebedfd991e20c3ae9fa2",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb02_0",
+      "asset": "brfmb02.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "269b8267bcdaaa0b9e41502b867bceebb62cf46ccc46690ce3e25abd1566eb39",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb02_1",
+      "asset": "brfmb02.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "e1cd9ebd373575fdcfcaa31918bc85859b8de28460481b582431d1a33738b63d",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb03_0",
+      "asset": "brfmb03.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "fe984fd86b649c5e0042cf90a993dea65fe3852ac36890f5a1d0464583da5f17",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb03_1",
+      "asset": "brfmb03.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "16aeef09a02c84a6713f440b2cdd710d2d5ee2b8c1d37a80197abf98d36b6f81",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb04_0",
+      "asset": "brfmb04.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "c11319040ea86770303efbd625ee0b198d7984a6556bf3e74f66f04b6ce137a3",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb04_1",
+      "asset": "brfmb04.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "f41e1c975212483ea119cde53f740cb804a48397a4a3498e2b463ad46a9b07ed",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb05_0",
+      "asset": "brfmb05.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "17587f22b7e26184a245508ee2a962d0cf2fd487f900a2e1bb52bc7af26f8a5b",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb05_1",
+      "asset": "brfmb05.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "9b3f45c42f88490b498dd6e106c8323c7e214cd95622f2e80926d11bee502221",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb06_0",
+      "asset": "brfmb06.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        89,
+        84,
+        101
+      ],
+      "source_crop_rgba_sha256": "76f03a5b5446422b01b18da90fe2265c8085eb96869cc21c85c46f9edc786358",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8484848484848485,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb06_1",
+      "asset": "brfmb06.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        85,
+        96,
+        125,
+        112
+      ],
+      "source_crop_rgba_sha256": "8c7806b3a4db3ed5ef4dbac84c7b6a5a96346832cd3f9f1d7af8a39a5a11f78c",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb07_0",
+      "asset": "brfmb07.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        89,
+        84,
+        101
+      ],
+      "source_crop_rgba_sha256": "d8dc6a7e7bd2b437c59223d2d7e34dec6a1b130e2c983ab970e1f2a9838ab40c",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8484848484848485,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb07_1",
+      "asset": "brfmb07.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        85,
+        96,
+        125,
+        112
+      ],
+      "source_crop_rgba_sha256": "40f33fe91a85551e8a1255f6a5dc6b5ee83e562ba69f56699c84d98e31609e43",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb08_0",
+      "asset": "brfmb08.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        93,
+        87,
+        100
+      ],
+      "source_crop_rgba_sha256": "efb97727328700110b0d6123bffde998795471a4ac02c9ecb3104e018100c9f6",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "기동전사",
+      "font_size": 7,
+      "scale_x": 0.8571428571428571,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb08_1",
+      "asset": "brfmb08.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        88,
+        114
+      ],
+      "source_crop_rgba_sha256": "486c315e5baa732181cb9e7b53654d3ef00839dc11e7769b550f63a18956258f",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb09_0",
+      "asset": "brfmb09.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        93,
+        87,
+        100
+      ],
+      "source_crop_rgba_sha256": "41d128861e71b97ddc98a9af978e9498eead95d377cd7396298a27be347b67f0",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "기동전사",
+      "font_size": 7,
+      "scale_x": 0.8571428571428571,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb09_1",
+      "asset": "brfmb09.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        88,
+        114
+      ],
+      "source_crop_rgba_sha256": "1f4ff7659dd5b400fe7d09057ac3585421d57e999d18145ad248faa4b2e0007c",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0a_0",
+      "asset": "brfmb0a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        68,
+        88,
+        99,
+        96
+      ],
+      "source_crop_rgba_sha256": "4023972e44a47df52c18e07703932cb2115875bf23809049f81ba9add1be6ae3",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "기동전사",
+      "font_size": 8,
+      "scale_x": 0.90625,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0a_1",
+      "asset": "brfmb0a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        108,
+        123,
+        122
+      ],
+      "source_crop_rgba_sha256": "96d2cc3b3369d07b222c76c48424d3c32c6c93d0f01a079180ebeb9db4491786",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "역습의 샤아",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0b_0",
+      "asset": "brfmb0b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        68,
+        88,
+        99,
+        96
+      ],
+      "source_crop_rgba_sha256": "8592f07f1a98ec53f2437cee6635fa9e5d24ae091b8510c33d462d00543f6493",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "기동전사",
+      "font_size": 8,
+      "scale_x": 0.90625,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0b_1",
+      "asset": "brfmb0b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        108,
+        123,
+        122
+      ],
+      "source_crop_rgba_sha256": "482563eda1fe81b401ef3bbbd164f315b759334f48ea7cd14b6cca0659eb8d62",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "역습의 샤아",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0c_0",
+      "asset": "brfmb0c.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        57,
+        91,
+        91,
+        101
+      ],
+      "source_crop_rgba_sha256": "7dd6f27c6c8d7320f4d483132009c16066bc625cc4cdf88a52c0de90f3cf97b5",
+      "series_asset": "stitle04.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9696969696969697,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0d_0",
+      "asset": "brfmb0d.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        57,
+        91,
+        91,
+        101
+      ],
+      "source_crop_rgba_sha256": "5893f126760f201d9fe1554ca8a553220b9d9e7355629234d61d2f116b231823",
+      "series_asset": "stitle04.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9696969696969697,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0e_0",
+      "asset": "brfmb0e.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        81,
+        90,
+        113,
+        100
+      ],
+      "source_crop_rgba_sha256": "630fd64ea5f843dcc92747e7b083c9dc26240bf649d77bf3fbb35f51e7ae2194",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0e_1",
+      "asset": "brfmb0e.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        81,
+        99,
+        122,
+        113
+      ],
+      "source_crop_rgba_sha256": "72fb2e19d972c3940e3be57c2e9a9c79b015e1d3fb56d436249b0b3ff57e0523",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0f_0",
+      "asset": "brfmb0f.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        81,
+        90,
+        113,
+        100
+      ],
+      "source_crop_rgba_sha256": "c82d443152199d65d7aacbe488ffa14f3e091bf80273a43f8ce3bbc935066a93",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb0f_1",
+      "asset": "brfmb0f.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        81,
+        99,
+        122,
+        113
+      ],
+      "source_crop_rgba_sha256": "b471193c62eaa541cbe98e880a3fc7979b98118e67bc02e963147779e2f1c83f",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb10_0",
+      "asset": "brfmb10.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        83,
+        91,
+        125,
+        102
+      ],
+      "source_crop_rgba_sha256": "80a02320f318ed31a42a9e590b91b1803f390e9ca573ea605adaf115d6aca934",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "기동무투전",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb10_1",
+      "asset": "brfmb10.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        101,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "0e28f51bdddd3488d9fb817a7a7d112494cfffcb3b117cfcfc0353b76082ab36",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb11_0",
+      "asset": "brfmb11.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        83,
+        91,
+        125,
+        102
+      ],
+      "source_crop_rgba_sha256": "b6353dcd9a6156a09270879067f439311cfbdefd5c076c044c514ddf5672824e",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "기동무투전",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb11_1",
+      "asset": "brfmb11.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        101,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "f1690526ca1681d7e6f11d6d3c99a9190adc1e92f8c0dd03ac86d018971ef962",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb12_0",
+      "asset": "brfmb12.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        80,
+        90,
+        116,
+        101
+      ],
+      "source_crop_rgba_sha256": "bffe2f35b770e57bff360f62ec2fff4ddc0452c828faaa3a60364159ab5ad1d7",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "신기동전기",
+      "font_size": 9,
+      "scale_x": 0.85,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb12_1",
+      "asset": "brfmb12.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        99,
+        100,
+        114
+      ],
+      "source_crop_rgba_sha256": "0d156ca782c1307b1342ed2149753f6bb1e20abefd9a6711aaeade739fd81d6b",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb13_0",
+      "asset": "brfmb13.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        80,
+        90,
+        116,
+        101
+      ],
+      "source_crop_rgba_sha256": "7e8ed59ee7df1124eeb58ca51a160f0ae0f12c2d69902b98c931ad6618ef37f6",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "신기동전기",
+      "font_size": 9,
+      "scale_x": 0.85,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb13_1",
+      "asset": "brfmb13.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        99,
+        100,
+        114
+      ],
+      "source_crop_rgba_sha256": "78c903982ec027f57eec11cd526468cb088d8b5d105fb312519257a792b791b9",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb14_0",
+      "asset": "brfmb14.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        67,
+        91,
+        91,
+        103
+      ],
+      "source_crop_rgba_sha256": "005add903d094c1395bd84aae01194dda53f85eabe8346a65fb76c61b4313bc6",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "기동신세기",
+      "font_size": 9,
+      "scale_x": 0.55,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb14_1",
+      "asset": "brfmb14.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        58,
+        100,
+        92,
+        115
+      ],
+      "source_crop_rgba_sha256": "1e0926d0230a7f5a834134b060ed24c8e2b5deffe467b8e1fc9d83c1636c9620",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb15_0",
+      "asset": "brfmb15.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        67,
+        91,
+        91,
+        103
+      ],
+      "source_crop_rgba_sha256": "f24d02a09ef7ca3d851ceb07761f5913a72e476dbd597f3c2c8c7a42ffcf5570",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "기동신세기",
+      "font_size": 9,
+      "scale_x": 0.55,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb15_1",
+      "asset": "brfmb15.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        58,
+        100,
+        92,
+        115
+      ],
+      "source_crop_rgba_sha256": "b1516736a99e96944018b3e9a6289c3b3ffbbf4038b1c066f9dc038723be0ed2",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb18_0",
+      "asset": "brfmb18.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        111,
+        101
+      ],
+      "source_crop_rgba_sha256": "8df2ea1fc889b447030a4b6d7f080ce9ddf1e6e775043b388904db63df1562db",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb18_1",
+      "asset": "brfmb18.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        90,
+        114
+      ],
+      "source_crop_rgba_sha256": "d7c0ead2308222801b37cb54effe3dce5055cd4232265a0f61bd3ac94ef3a700",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb19_0",
+      "asset": "brfmb19.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        111,
+        101
+      ],
+      "source_crop_rgba_sha256": "a62fafca99ec90665bc578dad34fa519d642d707d739e4e2b555a39db1af3a2f",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb19_1",
+      "asset": "brfmb19.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        90,
+        114
+      ],
+      "source_crop_rgba_sha256": "6a2880f827b21507be631df3537e9868ca4206fdb4a9e888440e5ffe3a6e0d38",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1a_0",
+      "asset": "brfmb1a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        108,
+        101
+      ],
+      "source_crop_rgba_sha256": "43014bae0cd4c7e3b5691f334d6452f044a8f9acfe7e30e80e4bfc5864244ffa",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1a_1",
+      "asset": "brfmb1a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        85,
+        114
+      ],
+      "source_crop_rgba_sha256": "f39c128cd1cae4f52b325b59a5ed0554fef9db23d812e5689381ef0502475d37",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1a_2",
+      "asset": "brfmb1a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        99,
+        106,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "36e11ccb6773bed2a43318ebf364caa31af2524cd73469badb20d1e79c765cb0",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "데스티니",
+      "font_size": 8,
+      "scale_x": 0.7741935483870968,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1b_0",
+      "asset": "brfmb1b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        111,
+        101
+      ],
+      "source_crop_rgba_sha256": "85097b8fb81d4efb49cae79f2689e7fcb009d053352ce5d6ec5c1b28f54e4ec8",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1b_1",
+      "asset": "brfmb1b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        90,
+        114
+      ],
+      "source_crop_rgba_sha256": "d46fe3a44d24055beeb6fac9dc07e82eb130f6067cf831a1ec95256417ead395",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1c_0",
+      "asset": "brfmb1c.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        59,
+        102,
+        128,
+        116
+      ],
+      "source_crop_rgba_sha256": "f220ca01ad3d246c23d655d7796fe222f77158a46e8eb50b92a4a594b44791f3",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "주머니 속의 전쟁",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1d_0",
+      "asset": "brfmb1d.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        59,
+        102,
+        128,
+        116
+      ],
+      "source_crop_rgba_sha256": "50a121dc5e22aabbfcf6d2292ccf743cc23f4b39f2ecdb27b6abab9749702682",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "주머니 속의 전쟁",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1e_0",
+      "asset": "brfmb1e.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        59,
+        102,
+        128,
+        116
+      ],
+      "source_crop_rgba_sha256": "e17ce34b7c2417af8f9f3b7ed149075b5f42d6c2544d56415610987683c9cc9e",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "주머니 속의 전쟁",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb1f_0",
+      "asset": "brfmb1f.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        98,
+        88,
+        127,
+        101
+      ],
+      "source_crop_rgba_sha256": "691e23b71fabaee6c504c8356cf1fb9d38c14401cab482f2f76b6aa63d459a29",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb20_0",
+      "asset": "brfmb20.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        98,
+        88,
+        127,
+        101
+      ],
+      "source_crop_rgba_sha256": "3f71cd85a6c9bcc90b797df70795789de6fe876341f5b9202bbe00cd4875966b",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb21_0",
+      "asset": "brfmb21.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        88,
+        90,
+        120,
+        101
+      ],
+      "source_crop_rgba_sha256": "af970d433bd2e0254d552ad38867e31adbfeb6a0dc880407c56c486402dc5403",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb21_1",
+      "asset": "brfmb21.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        128,
+        116
+      ],
+      "source_crop_rgba_sha256": "4433476e23d200232f438e0544016325cf509163c6397f44b6e1305003af41a5",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb22_0",
+      "asset": "brfmb22.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        88,
+        90,
+        120,
+        101
+      ],
+      "source_crop_rgba_sha256": "0b39ff1367b7821e8a2876bc1315570eb139ea88bf7d650318279b8d96d457da",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb22_1",
+      "asset": "brfmb22.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        128,
+        116
+      ],
+      "source_crop_rgba_sha256": "94e82bc56853fb9e0ccc9f3059f1dd48ca554b7a11ed4bca06160a41be11e696",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb23_0",
+      "asset": "brfmb23.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        88,
+        90,
+        120,
+        101
+      ],
+      "source_crop_rgba_sha256": "3233b8e75cad59001890ebe5dbe8dc5e588cbce505330081a1dae5780b608ece",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb23_1",
+      "asset": "brfmb23.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        128,
+        116
+      ],
+      "source_crop_rgba_sha256": "2c5a87c693018640e0988211b133ca435041d9f7a57c08994ff6ad37b10b1c07",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb24_0",
+      "asset": "brfmb24.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        88,
+        91,
+        98
+      ],
+      "source_crop_rgba_sha256": "c484e619f70e8b89683bdaf9101be109577260230322bf37e59e6906862388d0",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb24_1",
+      "asset": "brfmb24.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        95,
+        128,
+        115
+      ],
+      "source_crop_rgba_sha256": "cb64129819e23a1d9bc101a5e64020133e1044a13cdcbe5b2d85e7da367d0552",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb25_0",
+      "asset": "brfmb25.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        108,
+        101
+      ],
+      "source_crop_rgba_sha256": "479ace7a43f2ad9017c1d81ca739cb75eaaf0046a2977aadbf23ba30e88389fd",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb25_1",
+      "asset": "brfmb25.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        85,
+        114
+      ],
+      "source_crop_rgba_sha256": "819eb47b9f0eaff8cfb974823ca6ad2a363029be5addea40e70f4e9c822e32d8",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb25_2",
+      "asset": "brfmb25.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        99,
+        106,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "e18c3ecff6a2e790d3488057029d27e49d567a2d00c0f5a3729980b9e1fe0202",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "데스티니",
+      "font_size": 8,
+      "scale_x": 0.7741935483870968,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb26_0",
+      "asset": "brfmb26.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        98,
+        88,
+        127,
+        101
+      ],
+      "source_crop_rgba_sha256": "4bd5ab154b23e372a1661e84033bbb5ab88581e15e645e6a0dacbc97d801f50d",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb27_0",
+      "asset": "brfmb27.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        89,
+        84,
+        101
+      ],
+      "source_crop_rgba_sha256": "414fc8acb72eed285085e56e8f6b3a1fbe96360b5eef47c878283344508f939a",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8484848484848485,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb27_1",
+      "asset": "brfmb27.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        85,
+        96,
+        125,
+        112
+      ],
+      "source_crop_rgba_sha256": "496a3a656641a41d9786ad825e27f75782cb8a5cb14e1a607a74bed979020f34",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb28_0",
+      "asset": "brfmb28.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        93,
+        87,
+        100
+      ],
+      "source_crop_rgba_sha256": "7d3882583ea9b76e35a05688b6bb1e7226338d8369818674d55bf59c66eb05c2",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "기동전사",
+      "font_size": 7,
+      "scale_x": 0.8571428571428571,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb28_1",
+      "asset": "brfmb28.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        88,
+        114
+      ],
+      "source_crop_rgba_sha256": "5bf75dc66d97ce682a99e7816417e735e006161eba5f1c965fd1c3599e1b79bd",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb29_0",
+      "asset": "brfmb29.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        81,
+        90,
+        113,
+        100
+      ],
+      "source_crop_rgba_sha256": "ace9375b7a256ce71b5ac36077ba9c15270847fe24f8b2e338cbddffea9b7ce5",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb29_1",
+      "asset": "brfmb29.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        81,
+        99,
+        122,
+        113
+      ],
+      "source_crop_rgba_sha256": "aa32711c8d7a8bada7c5fb384f443079ddae7a6537317d01d1ee6c4df04a8877",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2a_0",
+      "asset": "brfmb2a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        83,
+        91,
+        125,
+        102
+      ],
+      "source_crop_rgba_sha256": "b7cba727d289579470c1e3923f4e83cd18c85c0f30934bb48f8eac4331aa0d4e",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "기동무투전",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2a_1",
+      "asset": "brfmb2a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        101,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "f2d058c0fc83b95c0c0cdf5b17c3fc3932be37d908553e30fe8b7fd8a84fec12",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2b_0",
+      "asset": "brfmb2b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        80,
+        90,
+        116,
+        101
+      ],
+      "source_crop_rgba_sha256": "ca515b173a727bbab57bdf7e1a66399393a877752144278e96168e3c7247eccd",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "신기동전기",
+      "font_size": 9,
+      "scale_x": 0.85,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2b_1",
+      "asset": "brfmb2b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        99,
+        100,
+        114
+      ],
+      "source_crop_rgba_sha256": "09ecf425923f67fc6a5bcb4a64a8f4194ef224662d35b9eef48e8efbca445602",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2c_0",
+      "asset": "brfmb2c.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        80,
+        90,
+        116,
+        101
+      ],
+      "source_crop_rgba_sha256": "cdabd283f603add289d9544457cbf92958a538f838d3d5d85dfdc345aca52cf1",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "신기동전기",
+      "font_size": 9,
+      "scale_x": 0.85,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2c_1",
+      "asset": "brfmb2c.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        99,
+        100,
+        114
+      ],
+      "source_crop_rgba_sha256": "33b1e9f52c045c8eac0415a4dcda00ac4618e1efb80f6dd02d55f8018a407a97",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2e_0",
+      "asset": "brfmb2e.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        108,
+        101
+      ],
+      "source_crop_rgba_sha256": "38b90b4ece325ae520b729874a52e102b578c2fa269dc768a6fc97d519ca6feb",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2e_1",
+      "asset": "brfmb2e.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        85,
+        114
+      ],
+      "source_crop_rgba_sha256": "a410297570f66605494a7c35f1ff8de0312cf8b1a831c3bd86b4ecec86a1c2f3",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2e_2",
+      "asset": "brfmb2e.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        99,
+        106,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "4ff6bb9c8125d436e28a709888ccdc5533841ffa4140b143ac25707461fe60ab",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "데스티니",
+      "font_size": 8,
+      "scale_x": 0.7741935483870968,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2f_0",
+      "asset": "brfmb2f.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        88,
+        91,
+        98
+      ],
+      "source_crop_rgba_sha256": "662267de223cca6edcfba384e73e0708ff0743a03e2fe2115da08ceb97e4f4a4",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb2f_1",
+      "asset": "brfmb2f.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        95,
+        128,
+        115
+      ],
+      "source_crop_rgba_sha256": "d1e3bf81bf2bac24b3b5812e06387932f3aa8ed5700726fbfe8f8b648af6638d",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb30_0",
+      "asset": "brfmb30.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        88,
+        109,
+        100
+      ],
+      "source_crop_rgba_sha256": "b3f270cfd88aa377c2f5a888c340f92b147f2c3a7681704daf593022249a2594",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9696969696969697,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb30_1",
+      "asset": "brfmb30.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        57,
+        98,
+        128,
+        113
+      ],
+      "source_crop_rgba_sha256": "3fa1d72fa0ea314fe2aaa94a9e863194b0f7ba919be6360530c8f01a18a684d8",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "건담 UC",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb30_2",
+      "asset": "brfmb30.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        62,
+        112,
+        128,
+        122
+      ],
+      "source_crop_rgba_sha256": "985f128aafe29c663ea7a0ce60f20356f4064bff4ccb006af1c4d44bcec142f2",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "유니콘",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb31_0",
+      "asset": "brfmb31.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        108,
+        101
+      ],
+      "source_crop_rgba_sha256": "1e926d4b8d7b10bf70c99b3fb5680f66695448d4aeb42eee57394c9871cba24a",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb31_1",
+      "asset": "brfmb31.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        85,
+        114
+      ],
+      "source_crop_rgba_sha256": "c0e0f35624899713b3d3d314f75819f1e3fd71aad14a490442754cb187a50793",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb31_2",
+      "asset": "brfmb31.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        99,
+        106,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "0470e925c4d396abe78d34e35baa1185a936cb99f2d733f6af0d119c75059d14",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "데스티니",
+      "font_size": 8,
+      "scale_x": 0.7741935483870968,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb32_0",
+      "asset": "brfmb32.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        83,
+        91,
+        125,
+        102
+      ],
+      "source_crop_rgba_sha256": "4683e78fa6630b545e78662288e6857a2229011391999cb0d40bfcc8e871f7c4",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "기동무투전",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb32_1",
+      "asset": "brfmb32.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        101,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "84b4387f074acc32b27d92a6137de57e48b2067356303163dd27b76d67616e39",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb33_0",
+      "asset": "brfmb33.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        89,
+        84,
+        101
+      ],
+      "source_crop_rgba_sha256": "63007fe839d4e1a0fedd8548437b121f31d2a7c3779acab2ff47a0e40de17242",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8484848484848485,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb33_1",
+      "asset": "brfmb33.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        85,
+        96,
+        125,
+        112
+      ],
+      "source_crop_rgba_sha256": "02a9f8b13d7a7a8f8902e93e4ff558db12e9e0837e7c7d776b03f7d277bbdbed",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb34_0",
+      "asset": "brfmb34.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        111,
+        101
+      ],
+      "source_crop_rgba_sha256": "dc62980c581c8c6c71a714dece304292855cc222e702bb5ca7d9600d24982ca3",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb34_1",
+      "asset": "brfmb34.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        90,
+        114
+      ],
+      "source_crop_rgba_sha256": "3a7b395d2bfea9c26ecc276b7aed5ae3eded3d2e8cfd935ce885fde97627ff0f",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb35_0",
+      "asset": "brfmb35.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        80,
+        90,
+        116,
+        101
+      ],
+      "source_crop_rgba_sha256": "4fe4d9c0f2e8b91dcf6e5e2aa48c010fb68a652996bd3f3a35e16b0c479acf6d",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "신기동전기",
+      "font_size": 9,
+      "scale_x": 0.85,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb35_1",
+      "asset": "brfmb35.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        99,
+        100,
+        114
+      ],
+      "source_crop_rgba_sha256": "7c0a60e5c6aa7c43c692a09ef58c3e11047d525d1b235343b76866d1f9cded20",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb36_0",
+      "asset": "brfmb36.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        93,
+        87,
+        100
+      ],
+      "source_crop_rgba_sha256": "ce0b1b43968e85148408f61a3c1b015a25d1fe9bb24077a9c022a0e3331c2d8d",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "기동전사",
+      "font_size": 7,
+      "scale_x": 0.8571428571428571,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb36_1",
+      "asset": "brfmb36.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        88,
+        114
+      ],
+      "source_crop_rgba_sha256": "38f1275b10c89502cd5edf829a3c4f3bf8ec04521d3247b65549ff73c9a3e295",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb37_0",
+      "asset": "brfmb37.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        89,
+        84,
+        101
+      ],
+      "source_crop_rgba_sha256": "d06da88ccdfbca0e8afd4b438775e2582cb01cde1d05e2afce0abf8021190f82",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8484848484848485,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb37_1",
+      "asset": "brfmb37.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        85,
+        96,
+        125,
+        112
+      ],
+      "source_crop_rgba_sha256": "93c90e83e503e1c9b0a75404177b45be6f5e38bd105acb39c5c91bfc8fedd17d",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb38_0",
+      "asset": "brfmb38.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        83,
+        91,
+        125,
+        102
+      ],
+      "source_crop_rgba_sha256": "7332635073a41547ae00bbfc38ae0239af5d150da272c01969ebdf70f87653da",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "기동무투전",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb38_1",
+      "asset": "brfmb38.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        101,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "fe5b19d8d1dbeb1e413de3504bc9c1e1b89b9a1fe2c9f99ed66fc8f6c3e4bb7f",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb39_0",
+      "asset": "brfmb39.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        67,
+        91,
+        91,
+        103
+      ],
+      "source_crop_rgba_sha256": "ff41cac76b63d76558420ea3b43d2ce9291fed9d2640a28fd16fd856c0f0a469",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "기동신세기",
+      "font_size": 9,
+      "scale_x": 0.55,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb39_1",
+      "asset": "brfmb39.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        58,
+        100,
+        92,
+        115
+      ],
+      "source_crop_rgba_sha256": "f8e71f1ed069ea5718d725e25b0bd8be8faa593dc9b5d967f9453bd5241e7d7d",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3a_0",
+      "asset": "brfmb3a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        108,
+        101
+      ],
+      "source_crop_rgba_sha256": "819ec9291b9c38bfb71f4b95521d4db15a50c8f39a79ea6b0c48542fb8e5b2ee",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3a_1",
+      "asset": "brfmb3a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        85,
+        114
+      ],
+      "source_crop_rgba_sha256": "b9e8df48bc17ce1f22a7dda12d4505df1191345b1c9ef1ceb1f81ddea47bba4e",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3a_2",
+      "asset": "brfmb3a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        99,
+        106,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "1871aa53ef37bb46271786df7ea41ddc93137d938768ed4d5702a453b79ef812",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "데스티니",
+      "font_size": 8,
+      "scale_x": 0.7741935483870968,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3b_0",
+      "asset": "brfmb3b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        89,
+        84,
+        101
+      ],
+      "source_crop_rgba_sha256": "4f18b413453065175e72a278552004a7a4da526820edd19e14b4acac38d33385",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8484848484848485,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3b_1",
+      "asset": "brfmb3b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        85,
+        96,
+        125,
+        112
+      ],
+      "source_crop_rgba_sha256": "1ce3082182b2aae3acce0ce38da6421042d4b1c3b22810f1233f9cf1e51f42ec",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3c_0",
+      "asset": "brfmb3c.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        61,
+        93,
+        87,
+        100
+      ],
+      "source_crop_rgba_sha256": "d9b11c9eb4e8d83b159d7bfaee7a55b8b7ab11aba785f19c629ed2d23c9f5084",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "기동전사",
+      "font_size": 7,
+      "scale_x": 0.8571428571428571,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3c_1",
+      "asset": "brfmb3c.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        88,
+        114
+      ],
+      "source_crop_rgba_sha256": "c9060474ae26a670d375cd7616d0ac46d0180d83ec6fb8e52224426dbbbdc061",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3d_0",
+      "asset": "brfmb3d.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        68,
+        88,
+        99,
+        96
+      ],
+      "source_crop_rgba_sha256": "6d0c32ac553caa54c47cd9fe458d9b4f1d222717f55a2ce7af4fa7bb4561d2e0",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "기동전사",
+      "font_size": 8,
+      "scale_x": 0.90625,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3d_1",
+      "asset": "brfmb3d.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        108,
+        123,
+        122
+      ],
+      "source_crop_rgba_sha256": "cee3337aea8030fa41aa2e2300ecadf6f6cd7d1c8df9aaea08fa270e76885170",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "역습의 샤아",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3e_0",
+      "asset": "brfmb3e.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        81,
+        90,
+        113,
+        100
+      ],
+      "source_crop_rgba_sha256": "68e2c809511d4b4f832de8a8de783a1a00490dcdab9fc390f78e2c939e6a287b",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3e_1",
+      "asset": "brfmb3e.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        81,
+        99,
+        122,
+        113
+      ],
+      "source_crop_rgba_sha256": "8209723f115bdce69323fd2ada6683aa3fb30128efc294761a2a1bde0c14b9c1",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3f_0",
+      "asset": "brfmb3f.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "4d32c24c63bfc1bff265aebcef9de820873b9ac8adbdd732e04ea1a82a9cfbcc",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb3f_1",
+      "asset": "brfmb3f.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "e9a7049527e6d8d30cf8363a9431ad0d94f11abe2fb0ab149c14b5e82c1ffd04",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb40_0",
+      "asset": "brfmb40.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        108,
+        101
+      ],
+      "source_crop_rgba_sha256": "6887a5f04d91fe5b4e978d3440bc835491ba95bbd91ae78bd32651eace18deea",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb40_1",
+      "asset": "brfmb40.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        85,
+        114
+      ],
+      "source_crop_rgba_sha256": "45ed7643431f011e3cdefbda4eedf83452bf6771d2c0abff039c1e2aed52e893",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb40_2",
+      "asset": "brfmb40.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        99,
+        106,
+        125,
+        114
+      ],
+      "source_crop_rgba_sha256": "d43ac5878325604a05f2d9e6df0a325d766d9020321ef280387cd7254bf93cac",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "데스티니",
+      "font_size": 8,
+      "scale_x": 0.7741935483870968,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb41_0",
+      "asset": "brfmb41.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        88,
+        91,
+        98
+      ],
+      "source_crop_rgba_sha256": "94c18a472e65e92eda3ae543fadeac2641bdc4b4e1673d351e76685590599a4a",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb41_1",
+      "asset": "brfmb41.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        95,
+        128,
+        115
+      ],
+      "source_crop_rgba_sha256": "744c27e71f096835884f41ca4d4f484ccfaa4456d185ae449e562b288cd2245a",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb42_0",
+      "asset": "brfmb42.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        88,
+        91,
+        98
+      ],
+      "source_crop_rgba_sha256": "0a194ca6d913117c5c1af182acbeff1e6bea73f7c380caf5fbdfef9a7abc4740",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb42_1",
+      "asset": "brfmb42.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        95,
+        128,
+        115
+      ],
+      "source_crop_rgba_sha256": "e8c5d57de58b7adcf8e6f7721f67a4b2a145c5964a11f6ae98f6af7f01842cec",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb43_0",
+      "asset": "brfmb43.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        89,
+        84,
+        101
+      ],
+      "source_crop_rgba_sha256": "4deb17d55edc3447df97d19c96365c518b068d8311fec5853ca9806ab57a001d",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8484848484848485,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb43_1",
+      "asset": "brfmb43.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        85,
+        96,
+        125,
+        112
+      ],
+      "source_crop_rgba_sha256": "5759cbe28876a0502a67b55ca19b5af94da1bc7f25a6d187d6da0358e45b777c",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb46_0",
+      "asset": "brfmb46.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "1044c465583876f7f43a14c5a2f8770f72f520f4c02e652b4023ef5b8e403661",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb46_1",
+      "asset": "brfmb46.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "78232af3ded42a4890402566b5fe2d40d2e9602bf9c4f7787ebe1ab2841f06b7",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb47_0",
+      "asset": "brfmb47.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        79,
+        90,
+        111,
+        101
+      ],
+      "source_crop_rgba_sha256": "c0bc99ed53c9f536a9e5c8663c99a49ac04cb7bd7794022a3656e826068ea959",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb47_1",
+      "asset": "brfmb47.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        55,
+        98,
+        90,
+        114
+      ],
+      "source_crop_rgba_sha256": "3682176520c3511e0db08b0f2c73761906467e65f8b46063abfcd2e1a05869cd",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb48_0",
+      "asset": "brfmb48.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        88,
+        109,
+        100
+      ],
+      "source_crop_rgba_sha256": "93afaea6c9acaa36e62f951df59744ef3080869f7b07565e410c3d4049299311",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9696969696969697,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb48_1",
+      "asset": "brfmb48.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        57,
+        98,
+        128,
+        113
+      ],
+      "source_crop_rgba_sha256": "976f7ebddd21200c872a727b352e747b549e6ab163c3ff931e46abab8e33e096",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "건담 UC",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb48_2",
+      "asset": "brfmb48.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        62,
+        112,
+        128,
+        122
+      ],
+      "source_crop_rgba_sha256": "44ef13949dcc8684ba618118e2004ff84307c6baad9e9e5a56c0f2183d8982a5",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "유니콘",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb49_0",
+      "asset": "brfmb49.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        57,
+        91,
+        91,
+        101
+      ],
+      "source_crop_rgba_sha256": "c227c8e2070c0f3d2947fd567f40af2ee74f8725f21300cb8d1136075ba0fcfc",
+      "series_asset": "stitle04.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9696969696969697,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb4a_0",
+      "asset": "brfmb4a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        88,
+        90,
+        120,
+        101
+      ],
+      "source_crop_rgba_sha256": "7d5aa1e0930920be14ff7a54f2e8e4133c7c3a21d97c4c66477e85bbe8a50eba",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.9090909090909091,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb4a_1",
+      "asset": "brfmb4a.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        54,
+        98,
+        128,
+        116
+      ],
+      "source_crop_rgba_sha256": "5ce08b42b286e0f8da7f7d48aeb87ff89b5c722de7c0920e7767970e75c05073",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb4b_0",
+      "asset": "brfmb4b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        78,
+        93,
+        108,
+        99
+      ],
+      "source_crop_rgba_sha256": "35b7930a97b773a7c78417eaf688803911519e5408a2f62b38dfe8a110990417",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "기동전사",
+      "font_size": 5,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb4b_1",
+      "asset": "brfmb4b.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        75,
+        99,
+        112,
+        111
+      ],
+      "source_crop_rgba_sha256": "9eb9df1b24d22f379daee768bb7fce904d38d1ed6b77d6b87b0fda6011518fdb",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_size": 9,
+      "scale_x": 1,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfmb4c_0",
+      "asset": "brfmb4c.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "box": [
+        98,
+        88,
+        127,
+        101
+      ],
+      "source_crop_rgba_sha256": "95b0653bb8e66c7cf867ea9891e10da20fea1700f773d6af07256ec6c5f023d4",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "기동전사",
+      "font_size": 9,
+      "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    }
+  ]
+}

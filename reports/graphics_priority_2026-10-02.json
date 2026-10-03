@@ -43,7 +43,7 @@
     "pilot_data": "32 source-reviewed stats, grade and wait/selection labels inserted; pcard picture 3/4 are text-free art"
   },
   "next_actions": [
-    "Embedded card logos: 154 source cards reviewed individually; protect models and Korean names",
+    "70 horizontal card logos with per-source foreground/name masks",
     "Unresolved common labels and every NEXT PLUS consumer/variant inventory"
   ],
   "runtime_verdict": "NOT_TESTED",
@@ -75,5 +75,16 @@
     "static": "PASS",
     "runtime": "NOT_TESTED",
     "english_consumers_pixel_identical": 3
+  },
+  "embedded_card_logos": {
+    "source_cards_reviewed": 154,
+    "source_japanese_logo_cards": 142,
+    "english_only_cards": 10,
+    "no_logo_cards": 2,
+    "vertical_localized_cards": 72,
+    "vertical_edited_regions": 142,
+    "horizontal_remaining_cards": 70,
+    "runtime": "NOT_TESTED",
+    "whole_scope_complete": false
   }
 }
