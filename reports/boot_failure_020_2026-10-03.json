@@ -1,0 +1,29 @@
+{
+  "id": "BOOT_LOADING_020",
+  "user_reported_build": "next_plus_graphics_revision_020.iso",
+  "reported_platforms": [
+    "PSP-3000",
+    "PPSSPP"
+  ],
+  "scene": "After PSP logo, before main menu; persistent NOW LOADING",
+  "020_runtime_verdict": "USER_REPORTED_FAIL",
+  "020_sha256": "c1b2c1d4f5d63af345c57dd0a6069e87507324f6fe188bdcaa7dd6e030213ffc",
+  "identified_defect": "Stale 16-byte PZZ loader checksums",
+  "original_members_checksum_pass": 466,
+  "020_members_checksum_fail": 466,
+  "021_members_checksum_pass": 466,
+  "only_member_trailers_changed_from_020": true,
+  "all_payloads_identical_to_020": true,
+  "isolated_target_function_cases_pass": 6,
+  "target_function": "0x088BD728",
+  "identity_and_edited_repacker_byte_exact": "PASS",
+  "candidate_revision": "021",
+  "candidate_sha256": "24682c836195d64903a502ee149ea1d09c1c22c18c47952dcc3fe844d8482e68",
+  "candidate_crc32": "255F9AD6",
+  "final_iso_readback": "PASS",
+  "xdelta_roundtrip": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "status": "AWAITING_USER_RETEST",
+  "whole_next_plus_graphics_complete": false,
+  "remaining_threshold_percent": 10
+}

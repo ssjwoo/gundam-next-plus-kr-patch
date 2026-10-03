@@ -2,7 +2,7 @@
 """Fixed-allocation PZZ repacker with payload readback verification.
 
 The original 0x800-byte header, descriptor allocations, padding geometry and
-16-byte trailer are retained.  A replacement is accepted only when it fits the
+16-byte loader checksum is regenerated. A replacement is accepted only when it fits the
 original part allocation, so the PZZ member never changes size.
 """
 
@@ -16,6 +16,7 @@ import struct
 import zlib
 
 from unpack_pzz import detect_xor_key, xor_words
+from pzz_integrity import checksum_trailer, verify_trailer
 
 
 def sha256(data: bytes) -> str:
@@ -92,6 +93,8 @@ def main() -> None:
     key = detect_xor_key(encrypted)
     decoded = bytearray(xor_words(encrypted, key))
     parts, consumed = parse(decoded)
+    if consumed != len(encrypted) - 16 or not verify_trailer(encrypted, decoded):
+        raise SystemExit('Unsupported or invalid source PZZ loader checksum')
     known_names = {f"part_{part['index']:03d}.bin" for part in parts}
     replacement_paths = {
         path.name: path
@@ -149,6 +152,7 @@ def main() -> None:
         )
 
     rebuilt = xor_words(bytes(decoded), key)
+    rebuilt = rebuilt[:-16] + checksum_trailer(bytes(decoded[:-16]))
     if len(rebuilt) != len(encrypted):
         raise AssertionError("repacker changed PZZ size")
     args.output.parent.mkdir(parents=True, exist_ok=True)
@@ -162,6 +166,8 @@ def main() -> None:
         raise AssertionError("payload readback hash mismatch")
     if readback_consumed != consumed:
         raise AssertionError("readback allocation geometry mismatch")
+    if not verify_trailer(rebuilt, xor_words(rebuilt, readback_key)):
+        raise AssertionError('Produced PZZ fails the game loader checksum')
     if not changes and rebuilt != encrypted:
         raise AssertionError("identity rebuild was not byte-exact")
 
@@ -178,8 +184,10 @@ def main() -> None:
         "identity_byte_exact": not changes and rebuilt == encrypted,
         "payload_readback_verified": True,
         "allocation_geometry_verified": True,
-        "trailer_bytes_preserved": len(decoded) - consumed,
-        "trailer_semantics": "unknown; original bytes retained",
+        "trailer_bytes": len(decoded) - consumed,
+        "trailer_semantics": "Two loader 64-bit accumulators, stored without XOR",
+        "source_loader_checksum_verified": True,
+        "output_loader_checksum_verified": True,
     }
     report_path = args.report or args.output.with_suffix(args.output.suffix + ".json")
     report_path.parent.mkdir(parents=True, exist_ok=True)

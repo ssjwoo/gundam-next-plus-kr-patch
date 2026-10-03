@@ -15,6 +15,7 @@ import zlib
 from hanpatch.platforms.psp import iso9660
 from repack_pzz import parse
 from unpack_pzz import detect_xor_key, xor_words
+from pzz_integrity import verify_trailer
 
 CHUNK = 8 * 1024 * 1024
 
@@ -65,7 +66,10 @@ def main():
             op,oe=parse(od)
             np,ne=parse(nd)
             assert len(op)==len(np) and oe==ne
-            assert od[:0x800]==nd[:0x800] and od[oe:]==nd[ne:]
+            assert od[:0x800]==nd[:0x800]
+            assert oe==ne==len(old)-16
+            assert verify_trailer(old,od),'Source PZZ loader checksum failed'
+            assert verify_trailer(new,nd),'Replacement PZZ loader checksum failed'
             for x,y in zip(op,np):
                 assert (x['offset'],x['end'],x['storage'])==(y['offset'],y['end'],y['storage'])
             absolute=entry.offset+off
@@ -115,6 +119,7 @@ def main():
         'iso_bytes':a.output_iso.stat().st_size,'members':[r for _,_,r in writes],
         'changed_disc_bytes':changed,'iso_member_geometry_preserved':True,
         'unaffected_iso_bytes_preserved':True,'afs_tables_and_pzz_geometry_preserved':True,
+        'pzz_loader_checksums_verified':True,
         'static_verdict':'PASS','runtime_verdict':'NOT_TESTED','development_only':True,
         'whole_game_text_complete':False,'graphics_localization_complete':False}
     manifest_out.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
