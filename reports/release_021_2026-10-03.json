@@ -19,5 +19,7 @@
   "runtime_verdict": "USER_REPORTED_PASS",
   "runtime_scope": "User confirmed revision 021 boots and gameplay has been normal so far; platforms and detailed play coverage unspecified.",
   "whole_game_or_next_plus_localization_complete": false,
-  "prior_release_preserved": "dev-2026-09-26"
+  "prior_release_preserved": "dev-2026-09-26",
+  "subsequent_runtime_issue": "NEXT_PLUS_MISSION_FREEZE_021",
+  "public_release_warning_added": true
 }

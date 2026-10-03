@@ -15,6 +15,10 @@ import struct
 from pathlib import Path
 
 from hanpatch.platforms.psp import iso9660
+from repair_font_path_ctype import (
+    CTYPE_VA, LITERAL_VA, WINDOW_START, WINDOW_END,
+    ascii_ctype_table, font_open_block, va_offset,
+)
 
 DECODER_VA = 0x089BC550
 TEXT_OFF = 0x3C54
@@ -24,12 +28,6 @@ NID_OFF = 0x2010A4
 NID_INDEX = 22
 NID_OLD = 0xEE232411          # sceFontSetAltCharacterCode, unused by our build
 NID_NEW = 0x57FCB733          # sceFontOpenUserFile
-STUB_USERFILE = 0x08A00888
-
-DATA_OFF = 0x201AF8
-DATA_VA = 0x08A01EA4
-DATA_SIZE = 0xFCA0C
-
 # The game opens this path at boot.  A release reads the font out of the disc;
 # switch to ``ms0:/PSP/SAVEDATA/NPJH50107/kr.pgf`` to swap fonts on the
 # emulator's memory stick without rebuilding the image.
@@ -46,18 +44,6 @@ def j_type(op: int, target: int) -> int:
 
 def word_offset(va: int) -> int:
     return TEXT_OFF + (va - TEXT_VA)
-
-
-def find_free_run(blob: bytearray, offset: int, size: int, length: int) -> int:
-    run = 0
-    for index in range(size):
-        if blob[offset + index] == 0:
-            run += 1
-            if run == length:
-                return index + 1 - length
-        else:
-            run = 0
-    raise SystemExit("no free run found")
 
 
 def main() -> None:
@@ -89,32 +75,29 @@ def main() -> None:
     print(f"decoder Hangul base -> {args.hangul_base:#06x}")
 
     # 2. Font open redirect.
-    struct.pack_into("<I", patched, NID_OFF + NID_INDEX * 4, NID_NEW)
     text = args.font_path.encode("ascii") + b"\x00"
-    run_offset = find_free_run(patched, DATA_OFF, DATA_SIZE, 64)
-    path_va = DATA_VA + run_offset
-    patched[DATA_OFF + run_offset : DATA_OFF + run_offset + len(text)] = text
-
+    table_offset = va_offset(bytes(patched), CTYPE_VA)
+    if patched[table_offset:table_offset + 257] != ascii_ctype_table():
+        raise SystemExit("Input ctype table is corrupt or unsupported; refusing font placement")
+    if struct.unpack_from("<I", patched, NID_OFF + NID_INDEX * 4)[0] != NID_OLD:
+        raise SystemExit("Font import redirect precondition failed")
     expect = {
+        0x089BC3D8: j_type(0x03, 0x0880A718),
+        0x089BC3FC: j_type(0x03, 0x08A00858),
         0x089BC414: j_type(0x03, 0x08A00888),
         0x089BC424: 0x00003021,
         0x089BC42C: i_type(0x23, 2, 5, 0x9D64),
         0x089BC430: j_type(0x03, 0x08A00878),
     }
-    write = {
-        0x089BC414: 0x00000000,
-        0x089BC424: i_type(0x09, 0, 6, 1),
-        0x089BC428: i_type(0x0F, 0, 5, (path_va >> 16) & 0xFFFF),
-        0x089BC42C: i_type(0x09, 5, 5, path_va & 0xFFFF),
-        0x089BC430: j_type(0x03, STUB_USERFILE),
-    }
     for va, expected in expect.items():
         actual = struct.unpack_from("<I", patched, word_offset(va))[0]
         if actual != expected:
             raise SystemExit(f"{va:#010x} is {actual:08x}, expected {expected:08x}")
-    for va, value in write.items():
-        struct.pack_into("<I", patched, word_offset(va), value)
-    print(f"font path {args.font_path!r} at {path_va:#010x}")
+    safe_block = font_open_block(text)
+    struct.pack_into("<I", patched, NID_OFF + NID_INDEX * 4, NID_NEW)
+    patched[word_offset(WINDOW_START):word_offset(WINDOW_END)] = safe_block
+    assert patched[table_offset:table_offset + 257] == ascii_ctype_table()
+    print(f"font path {args.font_path!r} at {LITERAL_VA:#010x}; original ctype table preserved")
 
     args.output_elf.parent.mkdir(parents=True, exist_ok=True)
     args.output_elf.write_bytes(bytes(patched))
