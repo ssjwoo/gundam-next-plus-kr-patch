@@ -36,7 +36,7 @@
     "trsk": "All 66 source members reviewed and localized; 335 instances, 205 distinct source label crops",
     "trms": "All 66 source members reviewed, 64 Korean unit-name surfaces and three Latin surfaces preserved",
     "selpi": "All 66 source members reviewed, 66 Korean pilot-name surfaces; actual rotated consumer strips reconstructed",
-    "briefing": "341 source members; 63 standalone names and 302 card-name surfaces; MB72/ML67 embedded logos inserted; three occluded ML logos deferred",
+    "briefing": "341 source members; 63 standalone names, 302 card-name surfaces, MB72/ML70 embedded Japanese logos inserted",
     "stage_banners": "43 source-reviewed series/location titles localized in trl03 picture 2/3",
     "series_titles": "18 source assets reviewed: 16 contain Japanese, localized in 42 regions including glow consumers; TURN A GUNDAM and Endless Waltz are English-only and preserved",
     "selection_name_bank": "56 authored cells in sel02 picture 0; 66 actual object consumers reconstructed and visually reviewed; 15 Latin/digit/symbol quads preserved",
@@ -45,14 +45,13 @@
     "trmsh": "All66 silhouettes reviewed; no Japanese lettering",
     "selms": "All66 unit portraits reviewed; no Japanese UI lettering visible",
     "rtms": "All77 thumbnails reviewed; no Japanese UI lettering; Latin/digit placeholder IDs preserved",
-    "newget": "All11 pictures reviewed: 1 decorative background, 10 Japanese unlock UI images; NEXT PLUS consumer scope unresolved"
+    "newget": "All11 source pictures reviewed: decorative frame preserved, ten unlock UI screens localized; actual NEXT PLUS mode consumer relationship unresolved"
   },
   "next_actions": [
-    "Repair four source-traced editor prompts sharing the same UV suffix",
-    "3 occluded horizontal card logos: brfml0a0/120/350",
-    "Unresolved tiny common UI labels: trace exact PMF2 UV consumers before translation",
-    "10 unlock UI images: trace mode scope and retain as unresolved until proven",
-    "Close full NEXT PLUS resource/consumer denominator; runtime remains NOT_TESTED"
+    "Audit all source UV consumers in 15 shared UI assets, including unchanged and partly clipped fragments",
+    "Resolve any source-bound tiny cost/attribute/acquisition suffixes",
+    "Close actual NEXT PLUS mode resource and consumer scope; unlock screen mode relation is unresolved",
+    "Runtime remains NOT_TESTED and the existing game/CMD test request remains closed"
   ],
   "runtime_verdict": "NOT_TESTED",
   "whole_game_graphics_complete": false,
@@ -60,7 +59,7 @@
   "completed_skill_labels": 335,
   "completed_name_assets": 129,
   "completed_name_surfaces": 130,
-  "completed_shared_ui_regions": 544,
+  "completed_shared_ui_regions": 547,
   "briefing_sources_extracted": 341,
   "briefing_source_surfaces": 532,
   "completed_briefing_name_regions": 365,
@@ -91,16 +90,13 @@
     "no_logo_cards": 2,
     "vertical_localized_cards": 72,
     "vertical_edited_regions": 142,
-    "horizontal_remaining_cards": 3,
+    "horizontal_remaining_cards": 0,
     "runtime": "NOT_TESTED",
     "whole_scope_complete": false,
-    "horizontal_localized_cards": 67,
-    "horizontal_edited_regions": 67,
-    "deferred_assets": [
-      "brfml0a0.pzz",
-      "brfml120.pzz",
-      "brfml350.pzz"
-    ]
+    "horizontal_localized_cards": 70,
+    "horizontal_edited_regions": 70,
+    "deferred_assets": [],
+    "all_identified_japanese_labels_localized": true
   },
   "remaining_families_full_source_review": {
     "schema_version": 1,
@@ -162,5 +158,21 @@
     ],
     "note": "Source visual review includes every rendered picture in these five families; unlock images visibly include arcade wording, but their NEXT PLUS consumer relationship remains unproven."
   },
-  "known_common_prompt_issue": "graphics_prompt_followup_2026-10-03.json"
+  "known_common_prompt_issue": "graphics_prompt_followup_2026-10-03.json",
+  "unlock_screens": {
+    "candidate_revision": "018",
+    "images": 10,
+    "korean_regions": 32,
+    "static_verdict": "PASS",
+    "unchanged_gim_roundtrip_byte_exact": true,
+    "mask_outside_pixel_changes": 0,
+    "declared_protected_foreground_pixel_changes": 0,
+    "ms_background_layout_redrawn": true,
+    "full_background_or_model_identity_claimed": false,
+    "palette_and_container_geometry_preserved": true,
+    "mode_consumer_scope": "UNRESOLVED_SHARED_OR_OUTSIDE_NEXT_PLUS",
+    "runtime_verdict": "NOT_TESTED",
+    "development_only": true,
+    "public_release_updated": false
+  }
 }

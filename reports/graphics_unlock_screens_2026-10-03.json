@@ -1,0 +1,16 @@
+{
+  "candidate_revision": "018",
+  "images": 10,
+  "korean_regions": 32,
+  "static_verdict": "PASS",
+  "unchanged_gim_roundtrip_byte_exact": true,
+  "mask_outside_pixel_changes": 0,
+  "declared_protected_foreground_pixel_changes": 0,
+  "ms_background_layout_redrawn": true,
+  "full_background_or_model_identity_claimed": false,
+  "palette_and_container_geometry_preserved": true,
+  "mode_consumer_scope": "UNRESOLVED_SHARED_OR_OUTSIDE_NEXT_PLUS",
+  "runtime_verdict": "NOT_TESTED",
+  "development_only": true,
+  "public_release_updated": false
+}

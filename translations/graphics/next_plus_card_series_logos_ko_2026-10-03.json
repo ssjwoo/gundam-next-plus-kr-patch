@@ -8,16 +8,12 @@
   "source_japanese_logo_cards": 142,
   "source_english_only_cards_preserved": 10,
   "source_no_logo_cards_preserved": 2,
-  "localized_cards": 139,
-  "localized_regions": 209,
+  "localized_cards": 142,
+  "localized_regions": 212,
   "vertical_localized_cards": 72,
-  "horizontal_localized_cards": 67,
-  "horizontal_logo_cards_remaining": 3,
-  "deferred_horizontal_assets": [
-    "brfml0a0.pzz",
-    "brfml120.pzz",
-    "brfml350.pzz"
-  ],
+  "horizontal_localized_cards": 70,
+  "horizontal_logo_cards_remaining": 0,
+  "deferred_horizontal_assets": [],
   "rows": [
     {
       "id": "CARD_LOGO_brfmb00_0",
@@ -5917,6 +5913,131 @@
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml0a0",
+      "asset": "brfml0a0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "093de50229020c0143a6ac9fa85a1aaef3cdb83d78ee4ea043b84ea736ce68a9",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "역습의 / 샤아",
+      "font_placements": [
+        {
+          "box": [
+            113,
+            7,
+            123,
+            14
+          ],
+          "lines": [
+            "역습의"
+          ],
+          "font_size": 6,
+          "scale_x": 0.5882352941176471
+        },
+        {
+          "box": [
+            117,
+            29,
+            128,
+            36
+          ],
+          "lines": [
+            "샤아"
+          ],
+          "font_size": 7,
+          "scale_x": 0.7857142857142857
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml120",
+      "asset": "brfml120.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "382c759e304273c0539aff815b7d4383e5f761acf2a7eb06ce977afcebae5abf",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담 W",
+      "font_placements": [
+        {
+          "box": [
+            108,
+            12,
+            128,
+            32
+          ],
+          "lines": [
+            "건담 W"
+          ],
+          "font_size": 9,
+          "scale_x": 0.6206896551724138
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml350",
+      "asset": "brfml350.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "812dfb9f6323bea38e355c75622c6e02140d84835c18f37408cce10b5a147095",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담 W",
+      "font_placements": [
+        {
+          "box": [
+            110,
+            20,
+            128,
+            38
+          ],
+          "lines": [
+            "건담 W"
+          ],
+          "font_size": 7,
+          "scale_x": 0.6666666666666666
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
     }
-  ]
+  ],
+  "all_identified_japanese_card_logos_localized": true
 }

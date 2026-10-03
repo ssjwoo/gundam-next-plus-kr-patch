@@ -1,0 +1,771 @@
+{
+  "schema_version": 1,
+  "development_only": true,
+  "approved": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_scope_complete": false,
+  "source_images": 10,
+  "localized_images": 10,
+  "localized_regions": 32,
+  "mode_consumer_scope": "UNRESOLVED_SHARED_OR_OUTSIDE_NEXT_PLUS",
+  "rows": [
+    {
+      "id": "UNLOCK_1_UNIT",
+      "asset": "newget1.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        374,
+        188,
+        480,
+        222
+      ],
+      "target_ko": "지옹",
+      "category": "unit",
+      "font_size": 23,
+      "source_crop_rgba_sha256": "980581ecf4c6059dfedffae6e835b1fb1217a2cce9711e03b3f68ae56d4fe9de",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_1_PILOT",
+      "asset": "newget1.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        239,
+        172,
+        266
+      ],
+      "target_ko": "샤아 아즈나블",
+      "category": "pilot",
+      "font_size": 17,
+      "source_crop_rgba_sha256": "3c8f642c5d76de3dc8b6ee3cceb4c6f3ca171e7f5e67cd38383f02c1c49fac51",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_1_SERIES",
+      "asset": "newget1.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        43,
+        480,
+        223
+      ],
+      "target_ko": "기동전사 건담",
+      "category": "series_logo",
+      "font_size": 16,
+      "source_crop_rgba_sha256": "83b7291627a2e0e5d2359948ac2eef02416e148e34dfe09f83ea4f86405c9f28",
+      "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_1_HEADER",
+      "asset": "newget1.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        204,
+        43
+      ],
+      "target_ko": "모빌슈트 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "d95dbd949fe3d04525e236ff6792cda6eb69592167deb140e442cc1d3a64793d",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_2_UNIT",
+      "asset": "newget2.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        228,
+        188,
+        480,
+        223
+      ],
+      "target_ko": "프로비던스 건담",
+      "category": "unit",
+      "font_size": 23,
+      "source_crop_rgba_sha256": "9e1ac7301eb44d0a1ca9fa9b4cceefd07fd57602de9bb7b893fd6009367e9fa3",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_2_PILOT",
+      "asset": "newget2.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        239,
+        175,
+        267
+      ],
+      "target_ko": "라우 르 크루제",
+      "category": "pilot",
+      "font_size": 17,
+      "source_crop_rgba_sha256": "e07d956cc45337287369b96d984902f7932119a1c8e011a08308d1c192351414",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_2_SERIES",
+      "asset": "newget2.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        43,
+        480,
+        223
+      ],
+      "target_ko": "기동전사 건담",
+      "category": "series_logo",
+      "font_size": 16,
+      "source_crop_rgba_sha256": "75ef51af46efa1ba181e4152dd085901117a190c3f035169131984f0423966f7",
+      "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_2_HEADER",
+      "asset": "newget2.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        204,
+        43
+      ],
+      "target_ko": "모빌슈트 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "228e7588f5f56cb57bbe77489d72bdf76c43fde389e672117a6ea6024eb84a5d",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_3_UNIT",
+      "asset": "newget3.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        263,
+        188,
+        480,
+        223
+      ],
+      "target_ko": "더블오 라이저",
+      "category": "unit",
+      "font_size": 23,
+      "source_crop_rgba_sha256": "c2380abdde9934271079d949ba8db76e58b6cb9ed1db2856081ca20369e6bf08",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_3_PILOT",
+      "asset": "newget3.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        239,
+        169,
+        267
+      ],
+      "target_ko": "세츠나 F. 세이에이",
+      "category": "pilot",
+      "font_size": 17,
+      "source_crop_rgba_sha256": "b6bc4f534c37d7e2feba846f8c3486aba813f997bc0a75cef0c9a494be933f45",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_3_SERIES",
+      "asset": "newget3.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        43,
+        480,
+        223
+      ],
+      "target_ko": "기동전사 건담 00",
+      "category": "series_logo",
+      "font_size": 16,
+      "source_crop_rgba_sha256": "83b6b97a20d2b82771c890d512059241589a39293e7572deb8523174dd1d17c0",
+      "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_3_HEADER",
+      "asset": "newget3.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        204,
+        43
+      ],
+      "target_ko": "모빌슈트 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "26bcf6df71ec61852518a202651721a8faefae008ee6a386f9b018ef24be16b4",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_4_UNIT",
+      "asset": "newget4.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        270,
+        188,
+        480,
+        223
+      ],
+      "target_ko": "리본즈 건담",
+      "category": "unit",
+      "font_size": 23,
+      "source_crop_rgba_sha256": "92b574f7bfa1da7fd751ba3fa4cd9ff33b03e70f2c4d2c4f1532f0612d832047",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_4_PILOT",
+      "asset": "newget4.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        239,
+        188,
+        267
+      ],
+      "target_ko": "리본즈 알마크",
+      "category": "pilot",
+      "font_size": 17,
+      "source_crop_rgba_sha256": "b759a9cb043e5950d31d015d5102c8f75f09c664bb2ab7cd63ec94fad851e739",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_4_SERIES",
+      "asset": "newget4.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        43,
+        480,
+        223
+      ],
+      "target_ko": "기동전사 건담 00",
+      "category": "series_logo",
+      "font_size": 16,
+      "source_crop_rgba_sha256": "e304b1787c6e07e34ca9bc2aa584bf5f1500890ced57c52e326624bf9bc6d897",
+      "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_4_HEADER",
+      "asset": "newget4.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        204,
+        43
+      ],
+      "target_ko": "모빌슈트 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "784b86b5efcff5b2a4362b61ea62a8507a1709b2be4c384da9f207d24f032074",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_5_UNIT",
+      "asset": "newget5.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        413,
+        188,
+        480,
+        223
+      ],
+      "target_ko": "디 오",
+      "category": "unit",
+      "font_size": 23,
+      "source_crop_rgba_sha256": "304119495f7d94153a1b0eb2757d3af6f985cc8198cd14e4716945de7d97efc0",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_5_PILOT",
+      "asset": "newget5.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        239,
+        190,
+        268
+      ],
+      "target_ko": "팝티머스 시로코",
+      "category": "pilot",
+      "font_size": 17,
+      "source_crop_rgba_sha256": "e54031f25615d454996218d5e592dcc8f61433996efa71ff0d71b5864d3f7b6a",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_5_SERIES",
+      "asset": "newget5.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        43,
+        480,
+        223
+      ],
+      "target_ko": "기동전사 Z 건담",
+      "category": "series_logo",
+      "font_size": 16,
+      "source_crop_rgba_sha256": "48cfa2d9860bf6f3bfba31b31d5ddd0895a5101ee971888f07e95afaea26f82a",
+      "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_5_HEADER",
+      "asset": "newget5.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        204,
+        43
+      ],
+      "target_ko": "모빌슈트 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "16932743f1254e70ed03ff3e4e98f6c635f3610bb7abc117b99339623e25fe77",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_6_UNIT",
+      "asset": "newget6.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        330,
+        188,
+        480,
+        223
+      ],
+      "target_ko": "크샤트리아",
+      "category": "unit",
+      "font_size": 23,
+      "source_crop_rgba_sha256": "d4bb51e27e5256215ffa9975d383b0be61074e8e35b862079ca88d0d9d566a43",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_6_PILOT",
+      "asset": "newget6.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        239,
+        166,
+        267
+      ],
+      "target_ko": "마리다 크루스",
+      "category": "pilot",
+      "font_size": 17,
+      "source_crop_rgba_sha256": "39ae9f6d1e3077aa9b5751e3ed66f26a2c517e8907f22ced630a9fca0a2b76b2",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_6_SERIES",
+      "asset": "newget6.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        0,
+        43,
+        480,
+        223
+      ],
+      "target_ko": "기동전사 건담 UC",
+      "category": "series_logo",
+      "font_size": 16,
+      "source_crop_rgba_sha256": "f577c103788e11a00faaa95908d8174546509d28a6e562be2cbde370c7011421",
+      "layout": "Clean background layer with full Korean series caption and large faint title, beneath preserved foreground art",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_6_HEADER",
+      "asset": "newget6.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        204,
+        43
+      ],
+      "target_ko": "모빌슈트 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "7ae39e977aed58df8718f020a357b1f1c1bb7a8eacbf7580d1a8bb66859e3cf5",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_7_DESCRIPTION",
+      "asset": "newget7.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        13,
+        198,
+        243,
+        246
+      ],
+      "target_ko": "아케이드 모드에서 새 코스를 플레이할 수 있습니다!",
+      "category": "course_description",
+      "font_size": 16,
+      "lines": [
+        "아케이드 모드에서 새 코스를",
+        "플레이할 수 있습니다!"
+      ],
+      "source_crop_rgba_sha256": "fb56efeede394407217698a8f84eedd39e8eb9f3b2ec2c9684ca6b4394acb13d",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_7_HEADER",
+      "asset": "newget7.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        186,
+        43
+      ],
+      "target_ko": "코스 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "2c30780f381fa8e0923fcf6c26a60157c5a2b326096211c225486408999d1342",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_8_DESCRIPTION",
+      "asset": "newget8.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        13,
+        198,
+        243,
+        246
+      ],
+      "target_ko": "아케이드 모드에서 새 코스를 플레이할 수 있습니다!",
+      "category": "course_description",
+      "font_size": 16,
+      "lines": [
+        "아케이드 모드에서 새 코스를",
+        "플레이할 수 있습니다!"
+      ],
+      "source_crop_rgba_sha256": "53e897a3dc02e1dbe62f5448d0c128f34debffe047779f3cc5402f5b8b396f81",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_8_HEADER",
+      "asset": "newget8.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        186,
+        43
+      ],
+      "target_ko": "코스 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "0bbd33a6c4dddf6a734789acd6891f950765119355944f571920bd12ef4f2093",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_9_DESCRIPTION",
+      "asset": "newget9.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        13,
+        198,
+        243,
+        246
+      ],
+      "target_ko": "아케이드 모드에서 새 코스를 플레이할 수 있습니다!",
+      "category": "course_description",
+      "font_size": 16,
+      "lines": [
+        "아케이드 모드에서 새 코스를",
+        "플레이할 수 있습니다!"
+      ],
+      "source_crop_rgba_sha256": "905b93b6d35b1c5d4fe50894b6e20ee2664bc91055d3574a1a72185bb74314a2",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_9_HEADER",
+      "asset": "newget9.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        186,
+        43
+      ],
+      "target_ko": "코스 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "cff69d729cd4456539cde25e7df7a504e3b6f98f6654e6d0daf17e85e65cfe7b",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_A_DESCRIPTION",
+      "asset": "newgeta.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        13,
+        198,
+        243,
+        246
+      ],
+      "target_ko": "아케이드 모드에서 새 코스를 플레이할 수 있습니다!",
+      "category": "course_description",
+      "font_size": 16,
+      "lines": [
+        "아케이드 모드에서 새 코스를",
+        "플레이할 수 있습니다!"
+      ],
+      "source_crop_rgba_sha256": "87402d96f7fac7900606e24afa05f1b56be8f8f130337ce27d5c748712a25a66",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "UNLOCK_A_HEADER",
+      "asset": "newgeta.pzz",
+      "part": 0,
+      "picture": 0,
+      "dimensions": [
+        480,
+        272
+      ],
+      "box": [
+        44,
+        4,
+        186,
+        43
+      ],
+      "target_ko": "코스 해금!!",
+      "category": "header",
+      "font_size": 18,
+      "source_crop_rgba_sha256": "b74e9dc39e576739a2531e559278b0b5c1c142463b6b743fe5ca8d5a14aedb16",
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    }
+  ]
+}

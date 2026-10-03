@@ -4,7 +4,7 @@
   "approved": false,
   "runtime_verdict": "NOT_TESTED",
   "whole_scope_complete": false,
-  "edited_regions": 456,
+  "edited_regions": 459,
   "rows": [
     {
       "id": "Q0008",
@@ -7730,33 +7730,6 @@
       "source_crop_rgba_sha256": "986cdd77d77187f5aa99b515d4cc607103a95db897b4b9ddb176e1d58b440e03"
     },
     {
-      "id": "NP_EDITOR_BANK_000",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        129,
-        29,
-        210,
-        41
-      ],
-      "inner_box": [
-        129,
-        29,
-        210,
-        41
-      ],
-      "target_ko": "덮어쓸까요?",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "be0ec82045d0d9fa829b02117fc8280d884358ae2ed6535f4b89d4f97bb37c39"
-    },
-    {
       "id": "NP_EDITOR_BANK_001",
       "asset": "trl02.pzz",
       "part": 1,
@@ -7782,33 +7755,6 @@
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "source_crop_rgba_sha256": "3242363b03ea0d4caff3d3cbf73214b2797f78276f6c691f5f1ba7f790edb2c8"
-    },
-    {
-      "id": "NP_EDITOR_BANK_002",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        215,
-        57,
-        250,
-        69
-      ],
-      "inner_box": [
-        215,
-        57,
-        250,
-        69
-      ],
-      "target_ko": "불러오기",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "81ea8b31101dab8a3a75991e4d820d06ada4b3f0c9eafa683ae26e25bcb5420c"
     },
     {
       "id": "NP_EDITOR_BANK_003",
@@ -12453,6 +12399,134 @@
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "source_crop_rgba_sha256": "d2cf4851f6cf8004fc08ff9dce769978ca720d18525bb41c67829cfe94018091"
+    },
+    {
+      "id": "PROMPT_OVERWRITE_PREFIX",
+      "box": [
+        129,
+        29,
+        172,
+        41
+      ],
+      "size": 11,
+      "alignment": "right",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "덮어쓸",
+      "status": "development_source_reviewed",
+      "source_consumer_objects": [
+        "trl02_tred206"
+      ]
+    },
+    {
+      "id": "PROMPT_SHARED_SUFFIX",
+      "box": [
+        173,
+        29,
+        213,
+        41
+      ],
+      "size": 11,
+      "alignment": "left",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "까요?",
+      "status": "development_source_reviewed",
+      "source_consumer_objects": [
+        "trl02_tred203",
+        "trl02_tred206",
+        "trl02_tred209",
+        "trl02_tred20e"
+      ]
+    },
+    {
+      "id": "PROMPT_ACTION_PREFIX",
+      "box": [
+        215,
+        29,
+        242,
+        41
+      ],
+      "size": 11,
+      "alignment": "right",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "어쩔",
+      "status": "development_source_reviewed",
+      "source_consumer_objects": [
+        "trl02_tred203"
+      ]
+    },
+    {
+      "id": "PROMPT_ACQUIRE_PREFIX",
+      "box": [
+        129,
+        115,
+        163,
+        127
+      ],
+      "size": 11,
+      "alignment": "right",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "획득할",
+      "status": "development_source_reviewed",
+      "source_consumer_objects": [
+        "trl02_tred209"
+      ]
+    },
+    {
+      "id": "PROMPT_LOAD_PREFIX",
+      "box": [
+        216,
+        57,
+        253,
+        69
+      ],
+      "size": 11,
+      "alignment": "right",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "불러올",
+      "status": "development_source_reviewed",
+      "source_consumer_objects": [
+        "trl02_tred20e"
+      ]
     }
   ]
 }
