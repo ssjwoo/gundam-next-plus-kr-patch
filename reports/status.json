@@ -245,7 +245,11 @@
         "dynamic_uv_labels_without_exact_static_consumer": 28,
         "development_only": true,
         "public_release_updated": false
-      }
+      },
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "runtime_scope": "Startup and gameplay observed by user so far; no complete playthrough or full graphics QA claimed",
+      "public_release_updated": true,
+      "release_tag": "dev-2026-10-03-graphics-021"
     },
     "resource_scope_followup": {
       "report": "reports/graphics_resource_scope_2026-10-03.json",
@@ -272,12 +276,12 @@
     "main_menu_labels_localized": 6,
     "pilot_name_images_localized": 66,
     "next_plus_skill_labels_localized": 335,
-    "distributed": false,
+    "distributed": true,
     "release_ready": false,
     "hardware_verified": false,
     "static_verdict": "PASS",
-    "runtime_verdict": "NOT_TESTED",
-    "user_current_scope_accepted": false,
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "user_current_scope_accepted": true,
     "additional_cmd_verification_required": false,
     "new_scene_capture_or_log_evidence": false,
     "pzz_members_localized": 466,
@@ -288,7 +292,10 @@
     "series_label_regions_localized": 42,
     "shared_series_bank_regions_localized": 48,
     "embedded_card_logo_regions_localized": 212,
-    "unlock_images_localized": 10
+    "unlock_images_localized": 10,
+    "user_acceptance_scope": "Boot completed and gameplay normal so far; whole-scope completion not claimed",
+    "release_tag": "dev-2026-10-03-graphics-021",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-021"
   },
   "runtime_verified": {
     "emulator": "PPSSPP v1.20.4 development build",
@@ -329,10 +336,7 @@
   "known_issues": [
     "MS-edit skill-description problems were recorded in the prior handoff; current scene/source not re-established. PZZ origin and index collision remain hypotheses.",
     "Menu labels and unit names are GIM images, not font text.",
-    "Latest graphics candidate is statically verified only. Whole-game text and graphic localization remain incomplete.",
-    "Latest graphics candidate is statically verified only. Whole-game text and graphic localization remain incomplete.",
-    "Latest graphics candidate is statically verified only. Whole-game text and graphic localization remain incomplete.",
-    "Latest graphics candidate is statically verified only. Whole-game text and graphic localization remain incomplete."
+    "Latest graphics candidate boots and has normal gameplay so far per user; whole-game text and graphic localization remain incomplete."
   ],
   "release_ready": false,
   "notation_policy": {
@@ -408,7 +412,7 @@
       "new_scene_capture_or_log_evidence": false
     }
   ],
-  "latest_public_release_tag": "dev-2026-09-26",
+  "latest_public_release_tag": "dev-2026-10-03-graphics-021",
   "resume_2026_10_02": {
     "original_inventory_candidates": 8731,
     "recovered_source_bound_rows": 3920,
@@ -494,9 +498,9 @@
     "candidate_revision": "021",
     "iso_readback": "PASS",
     "xdelta_roundtrip": "PASS",
-    "runtime": "NOT_TESTED",
+    "runtime": "USER_REPORTED_PASS",
     "whole_scope_complete": false,
-    "reason": "USER_RUNTIME_RETEST_PENDING"
+    "reason": "USER_BUDGET_THRESHOLD_REACHED; release published on explicit follow-up request; remaining image scope deferred"
   },
   "boot_failure_020": {
     "id": "BOOT_LOADING_020",
@@ -522,9 +526,60 @@
     "candidate_crc32": "255F9AD6",
     "final_iso_readback": "PASS",
     "xdelta_roundtrip": "PASS",
-    "runtime_verdict": "NOT_TESTED",
-    "status": "AWAITING_USER_RETEST",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "status": "CLOSED_USER_REPORTED_PASS",
     "whole_next_plus_graphics_complete": false,
-    "remaining_threshold_percent": 10
+    "remaining_threshold_percent": 10,
+    "user_retest": {
+      "recorded_on": "2026-10-03",
+      "build": "next_plus_graphics_revision_021",
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "user_message": "부팅 확인 완료함 게임플레이 지금까진 정상적임",
+      "observations": [
+        "Boot completed",
+        "Gameplay normal so far"
+      ],
+      "platforms": "NOT_SPECIFIED_FOR_021_RETEST",
+      "scope": "Startup and gameplay observed by user so far; no complete playthrough or full graphics QA claimed",
+      "new_scene_capture_or_log_evidence": false,
+      "whole_game_runtime_pass": false
+    }
+  },
+  "release_021_2026_10_03": {
+    "tag": "dev-2026-10-03-graphics-021",
+    "release_id": 402441342,
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-021",
+    "published_at": "2026-10-03T09:44:44Z",
+    "prerelease": true,
+    "release_code_commit": "7bd89b34ddf9a96d2b40e49baebea452760e06d4",
+    "asset_id": 607553011,
+    "asset_name": "next_plus_graphics_revision_021.xdelta",
+    "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-03-graphics-021/next_plus_graphics_revision_021.xdelta",
+    "asset_bytes": 6892606,
+    "asset_sha256": "d32ad5e2b349b7e3c061b8982ae9df93c33fe29cfe6a4c2e807c3aba105f4879",
+    "github_digest": "sha256:d32ad5e2b349b7e3c061b8982ae9df93c33fe29cfe6a4c2e807c3aba105f4879",
+    "anonymous_download_bytes": 6892606,
+    "anonymous_download_sha256": "d32ad5e2b349b7e3c061b8982ae9df93c33fe29cfe6a4c2e807c3aba105f4879",
+    "public_download_verdict": "PASS",
+    "latest_release_in_list": true,
+    "verified_at": "2026-10-03T09:44:47.931549+00:00",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "runtime_scope": "User confirmed revision 021 boots and gameplay has been normal so far; platforms and detailed play coverage unspecified.",
+    "whole_game_or_next_plus_localization_complete": false,
+    "prior_release_preserved": "dev-2026-09-26"
+  },
+  "runtime_verified_021": {
+    "recorded_on": "2026-10-03",
+    "build": "next_plus_graphics_revision_021",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "user_message": "부팅 확인 완료함 게임플레이 지금까진 정상적임",
+    "observations": [
+      "Boot completed",
+      "Gameplay normal so far"
+    ],
+    "platforms": "NOT_SPECIFIED_FOR_021_RETEST",
+    "scope": "Startup and gameplay observed by user so far; no complete playthrough or full graphics QA claimed",
+    "new_scene_capture_or_log_evidence": false,
+    "whole_game_runtime_pass": false
   }
 }

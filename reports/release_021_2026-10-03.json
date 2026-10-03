@@ -1,0 +1,23 @@
+{
+  "tag": "dev-2026-10-03-graphics-021",
+  "release_id": 402441342,
+  "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-021",
+  "published_at": "2026-10-03T09:44:44Z",
+  "prerelease": true,
+  "release_code_commit": "7bd89b34ddf9a96d2b40e49baebea452760e06d4",
+  "asset_id": 607553011,
+  "asset_name": "next_plus_graphics_revision_021.xdelta",
+  "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-03-graphics-021/next_plus_graphics_revision_021.xdelta",
+  "asset_bytes": 6892606,
+  "asset_sha256": "d32ad5e2b349b7e3c061b8982ae9df93c33fe29cfe6a4c2e807c3aba105f4879",
+  "github_digest": "sha256:d32ad5e2b349b7e3c061b8982ae9df93c33fe29cfe6a4c2e807c3aba105f4879",
+  "anonymous_download_bytes": 6892606,
+  "anonymous_download_sha256": "d32ad5e2b349b7e3c061b8982ae9df93c33fe29cfe6a4c2e807c3aba105f4879",
+  "public_download_verdict": "PASS",
+  "latest_release_in_list": true,
+  "verified_at": "2026-10-03T09:44:47.931549+00:00",
+  "runtime_verdict": "USER_REPORTED_PASS",
+  "runtime_scope": "User confirmed revision 021 boots and gameplay has been normal so far; platforms and detailed play coverage unspecified.",
+  "whole_game_or_next_plus_localization_complete": false,
+  "prior_release_preserved": "dev-2026-09-26"
+}

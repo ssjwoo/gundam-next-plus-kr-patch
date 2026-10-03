@@ -22,8 +22,22 @@
   "candidate_crc32": "255F9AD6",
   "final_iso_readback": "PASS",
   "xdelta_roundtrip": "PASS",
-  "runtime_verdict": "NOT_TESTED",
-  "status": "AWAITING_USER_RETEST",
+  "runtime_verdict": "USER_REPORTED_PASS",
+  "status": "CLOSED_USER_REPORTED_PASS",
   "whole_next_plus_graphics_complete": false,
-  "remaining_threshold_percent": 10
+  "remaining_threshold_percent": 10,
+  "user_retest": {
+    "recorded_on": "2026-10-03",
+    "build": "next_plus_graphics_revision_021",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "user_message": "부팅 확인 완료함 게임플레이 지금까진 정상적임",
+    "observations": [
+      "Boot completed",
+      "Gameplay normal so far"
+    ],
+    "platforms": "NOT_SPECIFIED_FOR_021_RETEST",
+    "scope": "Startup and gameplay observed by user so far; no complete playthrough or full graphics QA claimed",
+    "new_scene_capture_or_log_evidence": false,
+    "whole_game_runtime_pass": false
+  }
 }
