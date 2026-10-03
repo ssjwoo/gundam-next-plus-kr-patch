@@ -285,8 +285,8 @@
         },
         "all_other_iso_bytes_preserved": true,
         "static_verdict": "PASS",
-        "runtime_verdict": "NOT_TESTED",
-        "mission_freeze_resolution": "UNCONFIRMED",
+        "runtime_verdict": "USER_REPORTED_PASS",
+        "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
         "date": "2026-10-03",
         "candidate_revision": "023",
         "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
@@ -328,7 +328,25 @@
         },
         "development_only": true,
         "distributed": false,
-        "whole_next_plus_graphics_complete": false
+        "whole_next_plus_graphics_complete": false,
+        "user_approval": {
+          "date": "2026-10-03",
+          "recorded_at": "2026-10-03T13:43:34.218764+00:00",
+          "source": "direct_user_message",
+          "user_message": "내가 수정요청한거 전부 반영됬고, 미션중 프리징도 해결 됨",
+          "publication_authorization": "해",
+          "candidate_revision": "023",
+          "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
+          "artifact_binding": "Latest 023 candidate in conversation context; filename/hash not separately repeated in confirmation",
+          "runtime_verdict": "USER_REPORTED_PASS",
+          "runtime_scope": "User confirms all requested changes reflected and the previously reported random mission freeze resolved",
+          "requested_changes_accepted": true,
+          "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+          "test_platforms": "not separately specified in this confirmation",
+          "test_repetitions": "not separately specified",
+          "agent_executed_game": false,
+          "whole_game_or_next_plus_completion_claimed": false
+        }
       },
       "pmf2_mesh_preserved_against_022": true,
       "historical_alpha_repaired_surfaces": 43,
@@ -363,8 +381,8 @@
     "release_ready": false,
     "hardware_verified": false,
     "static_verdict": "PASS",
-    "runtime_verdict": "NOT_TESTED",
-    "user_current_scope_accepted": false,
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "user_current_scope_accepted": true,
     "additional_cmd_verification_required": false,
     "new_scene_capture_or_log_evidence": false,
     "pzz_members_localized": 450,
@@ -376,10 +394,30 @@
     "shared_series_bank_regions_localized": 0,
     "embedded_card_logo_regions_localized": 0,
     "unlock_images_localized": 10,
-    "user_acceptance_scope": "023 logo appearance and battle-freeze resolution await user observation",
-    "runtime_issue": "NEXT_PLUS_MISSION_FREEZE_021",
+    "user_acceptance_scope": "User confirms all requested changes reflected and the previously reported random mission freeze resolved",
+    "runtime_issue": null,
     "original_title_logos_preserved": true,
-    "font_ctype_repair_022_preserved": true
+    "font_ctype_repair_022_preserved": true,
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+    "publication_status": "AUTHORIZED_PREPARING_RELEASE",
+    "runtime_approval": {
+      "date": "2026-10-03",
+      "recorded_at": "2026-10-03T13:43:34.218764+00:00",
+      "source": "direct_user_message",
+      "user_message": "내가 수정요청한거 전부 반영됬고, 미션중 프리징도 해결 됨",
+      "publication_authorization": "해",
+      "candidate_revision": "023",
+      "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
+      "artifact_binding": "Latest 023 candidate in conversation context; filename/hash not separately repeated in confirmation",
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "runtime_scope": "User confirms all requested changes reflected and the previously reported random mission freeze resolved",
+      "requested_changes_accepted": true,
+      "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+      "test_platforms": "not separately specified in this confirmation",
+      "test_repetitions": "not separately specified",
+      "agent_executed_game": false,
+      "whole_game_or_next_plus_completion_claimed": false
+    }
   },
   "runtime_verified": {
     "emulator": "PPSSPP v1.20.4 development build",
@@ -420,7 +458,6 @@
   "known_issues": [
     "MS-edit skill-description problems were recorded in the prior handoff; current scene/source not re-established. PZZ origin and index collision remain hypotheses.",
     "Menu labels and unit names are GIM images, not font text.",
-    "021: user-reported random full-game freeze during NPMIS_0018 battle on PSP; confirmed ctype corruption repaired in 022, freeze resolution awaits user retest.",
     "Whole-game text and NEXT PLUS graphic localization remain incomplete."
   ],
   "release_ready": false,
@@ -826,8 +863,8 @@
     },
     "all_other_iso_bytes_preserved": true,
     "static_verdict": "PASS",
-    "runtime_verdict": "NOT_TESTED",
-    "mission_freeze_resolution": "UNCONFIRMED",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
     "date": "2026-10-03",
     "candidate_revision": "023",
     "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
@@ -869,6 +906,34 @@
     },
     "development_only": true,
     "distributed": false,
-    "whole_next_plus_graphics_complete": false
-  }
+    "whole_next_plus_graphics_complete": false,
+    "user_approval": {
+      "date": "2026-10-03",
+      "recorded_at": "2026-10-03T13:43:34.218764+00:00",
+      "source": "direct_user_message",
+      "user_message": "내가 수정요청한거 전부 반영됬고, 미션중 프리징도 해결 됨",
+      "publication_authorization": "해",
+      "candidate_revision": "023",
+      "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
+      "artifact_binding": "Latest 023 candidate in conversation context; filename/hash not separately repeated in confirmation",
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "runtime_scope": "User confirms all requested changes reflected and the previously reported random mission freeze resolved",
+      "requested_changes_accepted": true,
+      "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+      "test_platforms": "not separately specified in this confirmation",
+      "test_repetitions": "not separately specified",
+      "agent_executed_game": false,
+      "whole_game_or_next_plus_completion_claimed": false
+    }
+  },
+  "resolved_issues": [
+    {
+      "id": "NEXT_PLUS_MISSION_FREEZE_021",
+      "status": "RESOLVED_USER_REPORTED",
+      "revision": "023",
+      "user_report": "내가 수정요청한거 전부 반영됬고, 미션중 프리징도 해결 됨",
+      "causal_execution_path": "UNCONFIRMED",
+      "agent_runtime_execution": false
+    }
+  ]
 }

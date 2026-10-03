@@ -20,8 +20,8 @@
   },
   "all_other_iso_bytes_preserved": true,
   "static_verdict": "PASS",
-  "runtime_verdict": "NOT_TESTED",
-  "mission_freeze_resolution": "UNCONFIRMED",
+  "runtime_verdict": "USER_REPORTED_PASS",
+  "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
   "date": "2026-10-03",
   "candidate_revision": "023",
   "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
@@ -63,5 +63,23 @@
   },
   "development_only": true,
   "distributed": false,
-  "whole_next_plus_graphics_complete": false
+  "whole_next_plus_graphics_complete": false,
+  "user_approval": {
+    "date": "2026-10-03",
+    "recorded_at": "2026-10-03T13:43:34.218764+00:00",
+    "source": "direct_user_message",
+    "user_message": "내가 수정요청한거 전부 반영됬고, 미션중 프리징도 해결 됨",
+    "publication_authorization": "해",
+    "candidate_revision": "023",
+    "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
+    "artifact_binding": "Latest 023 candidate in conversation context; filename/hash not separately repeated in confirmation",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "runtime_scope": "User confirms all requested changes reflected and the previously reported random mission freeze resolved",
+    "requested_changes_accepted": true,
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+    "test_platforms": "not separately specified in this confirmation",
+    "test_repetitions": "not separately specified",
+    "agent_executed_game": false,
+    "whole_game_or_next_plus_completion_claimed": false
+  }
 }

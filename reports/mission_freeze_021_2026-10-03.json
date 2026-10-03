@@ -1,6 +1,6 @@
 {
   "id": "NEXT_PLUS_MISSION_FREEZE_021",
-  "status": "AWAITING_022_USER_RETEST",
+  "status": "RESOLVED_USER_REPORTED",
   "reported_on": "2026-10-03",
   "baseline_revision": "021",
   "baseline_binding": "Latest released candidate in conversation; exact filename/hash not separately restated in new report",
@@ -45,6 +45,27 @@
   "font_and_mission_and_graphics_bytes_unchanged": true,
   "public_021_release_warning_added": true,
   "public_022_release_created": false,
-  "next_user_observation": "Manually boot 022 and play the same mission 2-3 times to completion; report freezes and timing",
-  "updated_at": "2026-10-03T10:28:56.628577+00:00"
+  "next_user_observation": null,
+  "updated_at": "2026-10-03T13:43:34.218764+00:00",
+  "resolution_revision": "023",
+  "resolution_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
+  "resolution_runtime_verdict": "USER_REPORTED_PASS",
+  "resolution_user_report": {
+    "date": "2026-10-03",
+    "recorded_at": "2026-10-03T13:43:34.218764+00:00",
+    "source": "direct_user_message",
+    "user_message": "내가 수정요청한거 전부 반영됬고, 미션중 프리징도 해결 됨",
+    "publication_authorization": "해",
+    "candidate_revision": "023",
+    "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
+    "artifact_binding": "Latest 023 candidate in conversation context; filename/hash not separately repeated in confirmation",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "runtime_scope": "User confirms all requested changes reflected and the previously reported random mission freeze resolved",
+    "requested_changes_accepted": true,
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+    "test_platforms": "not separately specified in this confirmation",
+    "test_repetitions": "not separately specified",
+    "agent_executed_game": false,
+    "whole_game_or_next_plus_completion_claimed": false
+  }
 }
