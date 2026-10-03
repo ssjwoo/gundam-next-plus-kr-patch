@@ -62,7 +62,7 @@
     "runtime_candidates_021_022_023_preserved": true
   },
   "development_only": true,
-  "distributed": false,
+  "distributed": true,
   "whole_next_plus_graphics_complete": false,
   "user_approval": {
     "date": "2026-10-03",
@@ -81,5 +81,8 @@
     "test_repetitions": "not separately specified",
     "agent_executed_game": false,
     "whole_game_or_next_plus_completion_claimed": false
-  }
+  },
+  "release_tag": "dev-2026-10-03-graphics-023",
+  "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023",
+  "public_download_verdict": "PASS"
 }

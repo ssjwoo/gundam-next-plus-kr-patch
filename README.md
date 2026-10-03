@@ -3,8 +3,8 @@
 PSP 일본판 **『기동전사 건담: 건담 VS. 건담 NEXT PLUS』**의 한글화를 위한 역공학·빌드 도구와 번역 초안을 공개합니다.
 
 > [!WARNING]
-> 아직 개발 중인 한글 패치입니다. 021 개발 릴리스를 공개했으며 게임 전체 한글화와 전체 플레이 검수는 진행 중입니다.
-> 배포 후 PSP 실기에서 NEXT PLUS 「타이거바움의 침입자」 전투 중 프리징이 보고되어 조사 중입니다. [오류 기록](docs/MISSION_FREEZE_021_2026-10-03.md).
+> 아직 개발 중인 한글 패치입니다. 최신 023 개발 릴리스를 공개했으며 게임 전체 한글화와 전체 플레이 검수는 진행 중입니다.
+> 사용자가 요청 수정의 반영과 NEXT PLUS 미션 프리징 해결을 확인했습니다. [확인·진단 기록](docs/MISSION_FREEZE_021_2026-10-03.md).
 
 ## 저작권 및 배포 방침
 
@@ -18,21 +18,21 @@ PSP 일본판 **『기동전사 건담: 건담 VS. 건담 NEXT PLUS』**의 한�
 
 자세한 공개 경계는 [docs/PUBLICATION_POLICY.md](docs/PUBLICATION_POLICY.md)를 보세요.
 
-## 최신 배포 패치 — 021 (2026-10-03)
+## 최신 배포 패치 — 023 (2026-10-03)
 
-원본 일본판 ISO에 적용하는 누적 차분 패치를 [021 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-021)로 공개했습니다.
-[next_plus_graphics_revision_021.xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-03-graphics-021/next_plus_graphics_revision_021.xdelta).
-**패치하지 않은 지원 원본에 적용**하며, v19·020 등 이전 패치 ISO에 덧씌우지 않습니다. 전체 ISO는 배포하지 않습니다.
+원본 일본판 ISO에 적용하는 누적 차분 패치를 [023 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023)로 공개했습니다.
+[next_plus_graphics_revision_023.xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-03-graphics-023/next_plus_graphics_revision_023.xdelta).
+**패치하지 않은 지원 원본에 적용**하며, v19·021·022 등 이전 패치 ISO에 덧씌우지 않습니다. 전체 ISO는 배포하지 않습니다.
 
 ```
-xdelta3 -d -s original_jp.iso next_plus_graphics_revision_021.xdelta next_plus_graphics_revision_021.iso
+xdelta3 -d -s original_jp.iso next_plus_graphics_revision_023.xdelta next_plus_graphics_revision_023.iso
 ```
 
 폰트는 ISO 안 `/PSP_GAME/SYSDIR/UPDATE/DATA.BIN`에 있고 게임이 `disc0:`로 읽습니다.
 자유 라이선스 폰트를 내장하므로 **사용자가 자기 PSP에서 폰트를 뽑을 필요가 없습니다.**
 
-021은 이미지 한글화 작업과 020 첫 로딩 오류 수정을 포함합니다. 사용자가 부팅 성공을 확인한 뒤 특정 NEXT PLUS 미션의 전투 중 프리징을 후속 보고했습니다. 해당 오류는 조사 중이며 최신 로컬 023은 022의 폰트 경로 수정과 타이틀 로고 원본 복원을 포함합니다.
-패치 크기·원본/출력/패치 해시·적용법·남은 작업은 [021 릴리스 안내](docs/RELEASE_2026-10-03_021.md)를 보세요. [기존 v19 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-09-26)는 보관합니다.
+023은 폰트 경로·문자 분류표 수정과 건담 타이틀 로고 원본 복원을 포함합니다. 사용자가 요청한 수정의 반영과 기존 미션 전투 프리징 해결을 확인했습니다.
+패치 크기·원본/출력/패치 해시·적용법·남은 작업은 [023 릴리스 안내](docs/RELEASE_2026-10-03_023.md)를 보세요. [이전 021](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-021)과 [v19 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-09-26)는 보관합니다.
 
 ## 최신 작업 (2026-10-03)
 
@@ -49,7 +49,7 @@ ISO에서 다시 추출한 이미지와 텍스트·폰트 읽기 검사가 통�
 메인 메뉴 35영역, 스킬 335문구, 기체·파일럿 이름 130면, 공통 UI 618영역과 브리핑 이름 365영역을 유지합니다. 편집 메뉴 질문 4개와 해금 안내 10장의 일반 UI 26영역도 한글입니다.
 사용자 요청으로 **건담 작품·게임 타이틀 로고는 모두 원본으로 복원**했습니다. 작품 배너·선택 탭·미션 카드·메인 게임 로고·해금 화면의 기존 로고 편집 168멤버·311영역을 되돌렸고, 혼합 이미지의 한글 이름은 유지했습니다. 현재 수정 그래픽은 450개 PZZ·617면입니다. [복원 기록](docs/ORIGINAL_TITLE_LOGOS_023_2026-10-03.md)과 [원본 유지 정책](docs/GUNDAM_TITLE_LOGO_POLICY.md)을 참조하세요.
 추가 5개 이미지 계열의 286멤버·682면을 전수 검토해 해금 화면 10면에서 일본어 UI를 확인했습니다. 해당 화면과 NEXT PLUS의 공유 관계는 아직 확인 중입니다.
-추가 배경 96면도 검토했으며 `pbg0ff.pzz`의 게임 로고는 원본 그대로 유지합니다. 실제 모드 상태별 호출과 동적 UV 연결은 확인 중입니다. [리소스 조사 집계](reports/graphics_resource_scope_2026-10-03.json)에 범위와 미확정 사항을 기록했습니다. 전체 넥스트 플러스 완료 판정은 없으며 021의 후속 전투 프리징은 재확인 대기입니다. [다음 작업 인계](docs/HANDOFF_CURRENT.md).
+추가 배경 96면도 검토했으며 `pbg0ff.pzz`의 게임 로고는 원본 그대로 유지합니다. 실제 모드 상태별 호출과 동적 UV 연결은 확인 중입니다. [리소스 조사 집계](reports/graphics_resource_scope_2026-10-03.json)에 범위와 미확정 사항을 기록했습니다. 전체 넥스트 플러스 완료 판정은 없으며 기존 미션 프리징은 023 사용자 해결 확인으로 닫았습니다. [다음 작업 인계](docs/HANDOFF_CURRENT.md).
 
 기존 작업 폴더 없이 일본판 원본과 사용자가 보관한 한국어 패치 ISO에서 작업을 복구했습니다.
 
@@ -60,11 +60,11 @@ ISO에서 다시 추출한 이미지와 텍스트·폰트 읽기 검사가 통�
 
 최신 로컬 수정 후보는 `build/graphics_revision_2026-10-02/next_plus_graphics_revision_023.iso`입니다.
 SHA-256: `32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e`; CRC32: `CD23BC3D`.
-023은 타이틀 로고를 복원하고 022의 문자 분류표·폰트 경로 수정을 유지합니다. 정적 읽기와 원본 기반 xdelta 재적용은 통과했으며 실행과 미션 프리징 해결은 재확인 전입니다. 022는 별도 비교 기준으로 보존합니다. [진단·검증 범위](docs/MISSION_FREEZE_021_2026-10-03.md).
-검증이 끝난 중복 파일 14,437개·1.84GiB를 정리했으며, 원본·현재 후보·재현 입력은 유지했습니다. 023 ISO와 차분은 로컬에 보관하며 공개 릴리스는 021 그대로입니다.
+023은 타이틀 로고를 복원하고 022의 문자 분류표·폰트 경로 수정을 유지합니다. 정적 읽기와 원본 기반 xdelta 재적용을 통과했으며 사용자가 수정 반영과 미션 프리징 해결을 확인했습니다. 022는 별도 진단 이력으로 보존합니다. [진단·검증 범위](docs/MISSION_FREEZE_021_2026-10-03.md).
+검증이 끝난 중복 파일 14,437개·1.84GiB를 정리했으며, 원본·현재 후보·재현 입력은 유지했습니다. 023 ISO는 로컬에 보관하고 023 차분은 GitHub 릴리스로 공개했습니다.
 통합 범위와 재현 조건은 [통합 기록](docs/INTEGRATION_2026-10-02.md)에 있습니다.
 GitHub에는 소스 코드·재현 절차·검증 집계·인계 문서와 검토한 번역 자료를 공개합니다.
-최신 공개 릴리스 자산은 위 021 xdelta이며, 공개 다운로드의 크기와 SHA-256도 로컬 검증본과 일치합니다.
+최신 공개 릴리스 자산은 위 023 xdelta이며, 공개 다운로드의 크기와 SHA-256도 로컬 검증본과 일치합니다.
 
 현재 집계는 [reports/status.json](reports/status.json), 재현 절차는
 [docs/UPDATE_2026-10-02.md](docs/UPDATE_2026-10-02.md), 다음 작업 인계는

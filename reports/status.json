@@ -327,7 +327,7 @@
           "runtime_candidates_021_022_023_preserved": true
         },
         "development_only": true,
-        "distributed": false,
+        "distributed": true,
         "whole_next_plus_graphics_complete": false,
         "user_approval": {
           "date": "2026-10-03",
@@ -346,7 +346,10 @@
           "test_repetitions": "not separately specified",
           "agent_executed_game": false,
           "whole_game_or_next_plus_completion_claimed": false
-        }
+        },
+        "release_tag": "dev-2026-10-03-graphics-023",
+        "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023",
+        "public_download_verdict": "PASS"
       },
       "pmf2_mesh_preserved_against_022": true,
       "historical_alpha_repaired_surfaces": 43,
@@ -377,9 +380,9 @@
     "main_menu_labels_localized": 35,
     "pilot_name_images_localized": 66,
     "next_plus_skill_labels_localized": 335,
-    "distributed": false,
-    "release_ready": false,
-    "hardware_verified": false,
+    "distributed": true,
+    "release_ready": true,
+    "hardware_verified": null,
     "static_verdict": "PASS",
     "runtime_verdict": "USER_REPORTED_PASS",
     "user_current_scope_accepted": true,
@@ -399,7 +402,7 @@
     "original_title_logos_preserved": true,
     "font_ctype_repair_022_preserved": true,
     "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
-    "publication_status": "AUTHORIZED_PREPARING_RELEASE",
+    "publication_status": "PUBLISHED_DOWNLOAD_VERIFIED",
     "runtime_approval": {
       "date": "2026-10-03",
       "recorded_at": "2026-10-03T13:43:34.218764+00:00",
@@ -417,7 +420,11 @@
       "test_repetitions": "not separately specified",
       "agent_executed_game": false,
       "whole_game_or_next_plus_completion_claimed": false
-    }
+    },
+    "release_ready_scope": "User-approved 023 development release",
+    "release_tag": "dev-2026-10-03-graphics-023",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023",
+    "public_download_verdict": "PASS"
   },
   "runtime_verified": {
     "emulator": "PPSSPP v1.20.4 development build",
@@ -613,7 +620,7 @@
       "runtime_issue": "NEXT_PLUS_MISSION_FREEZE_021"
     }
   ],
-  "latest_public_release_tag": "dev-2026-10-03-graphics-021",
+  "latest_public_release_tag": "dev-2026-10-03-graphics-023",
   "resume_2026_10_02": {
     "original_inventory_candidates": 8731,
     "recovered_source_bound_rows": 3920,
@@ -769,7 +776,8 @@
     "whole_game_or_next_plus_localization_complete": false,
     "prior_release_preserved": "dev-2026-09-26",
     "subsequent_runtime_issue": "NEXT_PLUS_MISSION_FREEZE_021",
-    "public_release_warning_added": true
+    "public_release_warning_added": true,
+    "superseded_by": "dev-2026-10-03-graphics-023"
   },
   "runtime_verified_021": {
     "recorded_on": "2026-10-03",
@@ -905,7 +913,7 @@
       "runtime_candidates_021_022_023_preserved": true
     },
     "development_only": true,
-    "distributed": false,
+    "distributed": true,
     "whole_next_plus_graphics_complete": false,
     "user_approval": {
       "date": "2026-10-03",
@@ -924,7 +932,10 @@
       "test_repetitions": "not separately specified",
       "agent_executed_game": false,
       "whole_game_or_next_plus_completion_claimed": false
-    }
+    },
+    "release_tag": "dev-2026-10-03-graphics-023",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023",
+    "public_download_verdict": "PASS"
   },
   "resolved_issues": [
     {
@@ -935,5 +946,58 @@
       "causal_execution_path": "UNCONFIRMED",
       "agent_runtime_execution": false
     }
-  ]
+  ],
+  "latest_public_release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023",
+  "release_023_2026_10_03": {
+    "tag": "dev-2026-10-03-graphics-023",
+    "release_id": 402532087,
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023",
+    "published_at": "2026-10-03T13:47:34Z",
+    "prerelease": true,
+    "release_code_commit": "db53caf2b41f412d94ffe2ac35cd9ccdc766b799",
+    "asset_id": 607884291,
+    "asset_name": "next_plus_graphics_revision_023.xdelta",
+    "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-03-graphics-023/next_plus_graphics_revision_023.xdelta",
+    "asset_bytes": 6915477,
+    "asset_crc32": "830CC058",
+    "asset_sha256": "257c8682571f868b367b09890222e42b3e66d9a74b4dd9007651e97367409554",
+    "github_digest": "sha256:257c8682571f868b367b09890222e42b3e66d9a74b4dd9007651e97367409554",
+    "anonymous_download_bytes": 6915477,
+    "anonymous_download_sha256": "257c8682571f868b367b09890222e42b3e66d9a74b4dd9007651e97367409554",
+    "public_download_verdict": "PASS",
+    "latest_release_in_list": true,
+    "verified_at": "2026-10-03T13:49:59.280533+00:00",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "runtime_scope": "User confirms all requested changes reflected and the previously reported random mission freeze resolved",
+    "user_approval": {
+      "date": "2026-10-03",
+      "recorded_at": "2026-10-03T13:43:34.218764+00:00",
+      "source": "direct_user_message",
+      "user_message": "내가 수정요청한거 전부 반영됬고, 미션중 프리징도 해결 됨",
+      "publication_authorization": "해",
+      "candidate_revision": "023",
+      "candidate_iso_sha256": "32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e",
+      "artifact_binding": "Latest 023 candidate in conversation context; filename/hash not separately repeated in confirmation",
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "runtime_scope": "User confirms all requested changes reflected and the previously reported random mission freeze resolved",
+      "requested_changes_accepted": true,
+      "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+      "test_platforms": "not separately specified in this confirmation",
+      "test_repetitions": "not separately specified",
+      "agent_executed_game": false,
+      "whole_game_or_next_plus_completion_claimed": false
+    },
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+    "whole_game_or_next_plus_localization_complete": false,
+    "prior_releases_preserved": [
+      "dev-2026-10-03-graphics-021",
+      "dev-2026-09-26"
+    ],
+    "only_xdelta_asset_published": true,
+    "game_iso_or_extracted_assets_uploaded": false,
+    "anonymous_download_method": "Public asset URL with cache-busting query, streamed into SHA256",
+    "cache_busting_query_used": true
+  },
+  "development_release_ready": true,
+  "full_localization_release_ready": false
 }
