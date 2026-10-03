@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "asset": "trl02.pzz",
+  "part": 1,
+  "picture": 0,
+  "candidate_revision": "016",
+  "status": "REQUIRES_SHARED_FRAGMENT_REPAIR",
+  "runtime_verdict": "NOT_TESTED",
+  "whole_scope_complete": false,
+  "finding": "Four editor prompt objects reuse one suffix quad. A previously translated full atlas phrase crosses that quad boundary, and two Japanese prefixes remain. Actual UV-fragment composition is therefore incomplete even though image/structure readback passes.",
+  "shared_suffix_uv_box": [173, 29, 213, 41],
+  "planned_suffix_ko": "까요?",
+  "consumers": [
+    {"object_name": "trl02_tred203", "prefix_uv_box": [215, 29, 242, 41], "planned_prefix_ko": "어쩔", "planned_complete_ko": "어쩔까요?"},
+    {"object_name": "trl02_tred206", "prefix_uv_box": [129, 29, 172, 41], "planned_prefix_ko": "덮어쓸", "planned_complete_ko": "덮어쓸까요?"},
+    {"object_name": "trl02_tred209", "prefix_uv_box": [129, 115, 163, 127], "planned_prefix_ko": "획득할", "planned_complete_ko": "획득할까요?"},
+    {"object_name": "trl02_tred20e", "prefix_uv_box": [216, 57, 253, 69], "planned_prefix_ko": "불러올", "planned_complete_ko": "불러올까요?"}
+  ],
+  "next_action": "Replace the four prefixes and shared suffix within their exact UV cells, retire the overlapping NP_EDITOR_BANK_000 whole-phrase label, reconstruct every affected consumer and verify the quantized composition before creating a new ISO.",
+  "planned_text_integrated": false
+}

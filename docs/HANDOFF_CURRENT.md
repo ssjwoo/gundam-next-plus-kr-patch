@@ -1,34 +1,40 @@
-# 현재 인계 — 2026-10-03 진행 중
+# 현재 인계 — 2026-10-03
 
-첫 메인 화면과 NEXT PLUS 모드의 모든 이미지 한글화가 최우선이며 이미지 편집·ISO 반영·GitHub 최신화는 승인됐습니다.
-이번 세션 기준은 5시간 한도 잔여 **30% 이하**에서 새 묶음을 시작하지 않고 검증·GitHub·인계를 마무리하는 것입니다. 마지막 관측은 사용 50% / 잔여 50%입니다.
+사용자 목표는 첫 모드 선택 화면과 NEXT PLUS 모드의 모든 이미지 한글화입니다. 이번 세션 기준은 5시간 한도 **잔여 30% 이하**에서 새 이미지 묶음을 멈추고, 검증·GitHub 동기화·인계를 마무리하는 것입니다. 사용 70% / 잔여 30%에서 새 이미지 작업을 중단했고 검증된 후보와 인계 자료를 정리했습니다. 전체 모드 완료 판정은 하지 않습니다.
 
-현재 검증 후보: `build/graphics_revision_2026-10-02/next_plus_graphics_revision_015.iso`.
-SHA-256 `6e2feaf9166209ff4fe79142e92e778a24e5d5ded38e5ff2b316168cc33f65bc`, CRC32 `4B5130CA`.
-453멤버·624면·1,560요소. 실제 ISO 읽기와 원본 기반 xdelta 재적용 PASS. 실행 NOT_TESTED, 사용자 수용 전이며 전체 모드 완료는 아닙니다.
+## 현재 검증된 후보
 
-깨끗한 빌드 기준은 `build/catalog_revision_2026-10-02/next_plus_catalog_revision_002.iso`, SHA-256 `d5849dd35a5a6a0d8c3ab42787660976d4a6a4b28b8f9c067d66611fe05734bb`입니다. 011 등 이전 후보는 보존하며 원본 대용으로 빌드하지 않습니다. 3,930개 연결 슬롯·미션 274개·필수 폰트 962코드를 유지합니다. 숫자 수정의 사용자 수용과 종료된 추가 CMD 검증은 그대로 유지합니다.
+- `build/graphics_revision_2026-10-02/next_plus_graphics_revision_016.iso`
+- SHA-256 `b153b564cb563d66bfe9cd3bb2eb4f4f24d1b18c48d75b0208cf7d72a1b24b16`, CRC32 `BC52831F`.
+- 원본 차분 `6,304,520`바이트, SHA-256 `b2f0e28eb647ebc0ce8bef1c1408be05537f7bacc94dd6cb0c7a4c85015bb42e`. 원본 적용 결과 해시 일치 PASS.
+- 453개 PZZ / 627개 수정 이미지 면 / 1,769개 편집 요소(한국어 1,767 + 영문 NEXT 2).
+- 실제 ISO 이미지 대조, 마스크 밖 변경 0개, 구조·팔레트·메시·기존 한글 이름·텍스트 002의 EBOOT/PGF 유지. 실행 `NOT_TESTED`, 사용자 수용 미확인.
+- 정적 PASS는 한국어 소비자 문장 전체의 완료 판정을 뜻하지 않습니다. 아래 편집 메뉴 조합 문제를 새로 확인했습니다.
 
-로컬 재개 폴더: `work/next_plus_graphics_2026-10-02/`.
+## 이번 세션 반영분
 
-- `merged_pzz_015/`, `extraction_manifest_015.json`, `expected_surfaces_015.json`, `final_iso_readback_015.json`: 최신 조합·원본·읽기·마스크.
-- `series_labels_catalog_snapshot_012.json`, `series_labels_final_report_012.json`, `series_labels_batch_report_v13.json`: 작품 로고 16종·42영역. 수정된 04/07/08의 최신 읽기는 아래 알파 수정 영수증을 사용합니다.
-- `alpha_quantization_audit_011.json`, `alpha_repair_report_v1.json`: 615면 대조, 43면/49,197픽셀 수정. 도구의 premultiplied alpha 비교로 투명 RGB 차이로 생기던 회색 배경을 제거했습니다.
-- `series_all_consumer_013/`: 최종 조합의 작품 로고 18개 평면 미리보기. source population 18 중 일본어 16, 영문-only `stitle09/11` 보존. 이전 stitle09 일본어 판독은 폐기합니다.
-- `rebuild_series_glow.py`: 불변 PMF2 전경 XY를 배경 UV 삼각형으로 재투영해 광택 생성. 전경 UV와 외부 픽셀 보호, 메시·팔레트·할당 그대로.
-- `bank_mesh_inventory.json`, `bank_consumer_source_manifest.json`, `read_pmf2_meshes.py`: trl01 작품 객체 17개, trl02 18개. 이름별 원본 그림을 검토했으며 번호만으로 의미를 연결하지 않습니다.
-- `review_sheets/sel_series_grid_source.png`: sel00 picture 4는 42×21 셀 3열×6행. 원본 셀 18개를 개별 확인한 자료.
+일본어 작품 로고 16종 42영역과 광택, 투명 팔레트 문제 43면, 공유 작품 뱅크 48개를 반영했습니다. 브리핑 카드 배경의 일본어 로고 142개 중 세로형 72개(142영역), 가로형 67개(67개 짧은 작품명)를 반영했습니다. 원본 카드 154개 중 영문만 있는 10개와 배경 로고가 없는 2개는 보존합니다. 기체 경계 마스크는 근사치이며 기체 그림 전체의 픽셀 동일을 주장하지 않습니다.
 
-현재 다음 작업:
+추가 5개 계열 286멤버 / 682개 그림을 26개 접촉 시트로 전수 검토했습니다. edms 66/462, trmsh 66/66, selms 66/66, rtms 77/77, newget 11/11입니다. 672면에는 일본어 UI 문구가 보이지 않았고 해금 안내 10면에는 일본어가 남았습니다. 아케이드 문구가 있어도 파일명만으로 NEXT PLUS와 무관하다고 제외하지 않습니다. 소비자 관계는 미확정입니다.
 
-1. 작은 공유 작품 뱅크 48개는 v4로 반영 완료. `series_bank_batch_report_v4.json`, `series_bank_catalog_private_v4.json`, `bank_english_identity_v4.json`을 사용합니다. 영문 이웃의 샘플 영역과 공유 UV를 보호했고 실제 ISO 재추출·원본 xdelta 재적용 PASS입니다.
-2. brfmb 79·brfml 75의 picture 1 배경에 합쳐진 작은 작품 로고. brfml 파일명은 `brfml000`, `brfml010` 등 세 자리이며 brfmb와 번호를 임의 연결하지 않습니다. 배경/기체 그림 보호 마스크와 모든 변형 검토가 필요합니다.
-3. 미확인 공통 표시, newget/그림 변형 전수 및 NEXT PLUS 소비자 목록의 범위 확인. 대표 이미지 한 장으로 가족 전체 완료를 주장하지 않습니다.
+## 다음 작업 순서
 
-평면 미리보기는 장면 행렬·애니메이션·GE 전체 상태를 재현하지 않는 정적 자료입니다. 게임을 자체 실행하지 않으며 추가 CMD 게임 검증을 재요청하지 않습니다. 공개에는 한국어 카탈로그·코드·집계만 반영하고 원본 ISO/PNG/PZZ/GIM/PGF/일본어 전사/차분은 로컬에 둡니다. 전체 이미지/실행 품질 검증 완료로 승격하지 않습니다.
+1. **편집 메뉴 공통 문장 조각부터 수정.** `trl02.pzz` part 1 picture 0의 `[173,29,213,41]`을 객체 `trl02_tred203/206/209/20e`가 공통 어미로 사용합니다. 기존 `NP_EDITOR_BANK_000`의 한 문장 그림이 조각 경계를 가로질러 일부 소비자가 한·일 혼합 또는 잘린 문장으로 조합됩니다. 원본 4개 문장을 실제 UV로 확인했습니다. 각각 `어쩔까요?`, `덮어쓸까요?`, `획득할까요?`, `불러올까요?`가 되도록 4개 앞 조각과 공통 `까요?`를 별도로 작성하고 기존 겹친 전체 문장 라벨을 교체합니다. 계획과 정확한 셀은 [공통 문장 후속 기록](../reports/graphics_prompt_followup_2026-10-03.json)에 있습니다. 아직 ISO에 수정하지 않았습니다.
+2. 가로 카드 3개: `brfml0a0.pzz` 뉴 건담, `brfml120.pzz` 윙 제로, `brfml350.pzz` 에피온. 로고에 기체가 겹쳐 잔여 일본어 획과 작은 글자 배치를 더 다듬어야 합니다. v11/v12 미리보기의 이 3개는 후보 016에 넣지 않았습니다.
+3. `newget1..9/a.pzz` 10개 해금 안내의 원본 소비자를 추적해 현재 목표에 포함되는지 확정합니다. 기체/파일럿명·작품 로고·해금 문구가 한 장에 합쳐져 있어 개별 보호 마스크가 필요합니다.
+4. 다른 공통 표시·보조 단위·획득/비용 표시와 전체 NEXT PLUS 소비자/변형의 분모를 닫습니다. dmedfont의 크레딧·음악 정보는 우선순위 밖으로 보류했지만 모드 의존성을 파일 이름만으로 단정하지 않습니다.
 
-카드 원본 154개는 `card_background_logo_inventory.json`과 source 01~07 시트로 모두 검토했습니다. `card_background_logo_classification_v1.json`의 개별 판독과 해시를 연결하며, 이름/번호만으로 작품을 추정하지 않습니다. 새 로고를 편집할 때 현재 merged 014의 카드 이름 변경과 다른 GIM picture를 유지해야 합니다.
+## 로컬 재개 자료
 
-015는 세로형 카드 72개의 작은 로고 142영역(v6)을 반영했습니다. `card_logo_mb_batch_report_v6.json`의 새 로고 라벨과 결합 마스크를 사용합니다. F91/V2/Ez8의 기존 영문 기체명은 보존했으며 이 세 picture 1이 새 수정 면입니다. 총 453멤버·624면·1702요소. 실제 ISO 읽기와 xdelta 원본 왕복 PASS.
+공통 루트 `work/next_plus_graphics_2026-10-02/`:
 
-가로형 70개는 아직 통합하지 않았습니다. `card_ml_clearance_private_v8.json`에 개별 원본 해시와 기체 경계를 지정했고 `render_card_ml_v9.py`는 작은 한글 제목을 보이는 배경 칸에 배치하는 초안입니다. v1~v8의 잔여 일본어·모델 분리 오류·번짐 결과는 제외합니다. 다음 세션도 이 가로형 검토와 미확인 공통 표시·전체 변형/소비자 확인을 계속합니다.
+- 후보 016 입력은 `merged_pzz_016/`, `extraction_manifest_016.json`, `expected_surfaces_016.json`; 결과는 `final_iso_readback_016.json`, `visual_review_016.json`.
+- ML 실제 팔레트 결과는 `card_logo_ml_batch_report_v12.json`, `card_logo_ml_patched_pzz_v12/`, `card_logo_ml_readback_v12/`, `card_logo_ml_combined_masks_v12/`. 정확히 67개이며 제외 목록 3개가 있습니다.
+- `render_card_ml_v12.py`, `card_ml_clearance_private_v8.json`, `card_logo_regions_private_v8.json`은 가로 카드 배경·글자 영역 작성 자료. `card_logo_ml_v11/`은 70개 초안이며 최종 통합 입력이 아닙니다.
+- `prompt_fragment_trace_016.json`은 원본 메시/UV 연결 증거, `review_sheets/prompt_fragments_016.png`는 4개 원본/현재 조합 비교. 무작정 숫자 순서로 문장을 연결하지 않습니다.
+- `remaining_families/survey.json`과 `original_pzz/`, `rendered/`, 26개 원본 시트에 전수 조사 자료가 있습니다. [공개 집계](../reports/graphics_family_survey_2026-10-03.json)는 원본 이미지와 전사를 포함하지 않습니다.
+- `read_pmf2_meshes.py`는 RGBA4444 stride 12와 primitive cursor를 처리합니다. 실제 XY/UV 연결을 쓰며 장면 행렬·애니메이션·전체 GE 상태를 재현한 실행 검증은 아닙니다.
+
+원본 ISO와 이전 후보는 그대로 보존합니다. 새 후보는 **깨끗한 텍스트 002**(SHA-256 `d5849dd35a5a6a0d8c3ab42787660976d4a6a4b28b8f9c067d66611fe05734bb`)에 전체 PZZ를 조합해 만듭니다. 기존 그래픽 ISO 위에 원본 멤버 해시를 요구하는 빌더를 실행하지 않습니다. 이전 자동 색상 분리·번짐·기체 손상 초안은 제외합니다.
+
+GitHub에는 소스·한국어 카탈로그·집계·문서만 반영합니다. ISO·PZZ·GIM·PNG·PGF·일본어 전사·차분 파일은 로컬에 남깁니다. 공개 릴리스는 dev-2026-09-26을 유지합니다. 별도 게임 실행/CMD 검증은 사용자가 종료한 요청을 재개하지 않습니다.

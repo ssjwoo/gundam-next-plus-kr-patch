@@ -24,10 +24,10 @@
     "shared_ui_assets": 13,
     "shared_ui_surfaces": 28,
     "shared_ui_label_regions": 544,
-    "total_edited_elements": 1702,
-    "total_korean_translations": 1700,
+    "total_edited_elements": 1769,
+    "total_korean_translations": 1767,
     "pzz_members": 453,
-    "edited_image_surfaces": 624,
+    "edited_image_surfaces": 627,
     "protected_pixel_changes": 0,
     "palette_preserved": true,
     "pmf2_mesh_preserved": true,
@@ -55,7 +55,7 @@
     "series_label_regions": 42,
     "series_assets_edited": 13,
     "series_assets_identified_japanese_labels_replaced": 11,
-    "series_assets_remaining_japanese": 6,
+    "series_assets_remaining_japanese": 0,
     "series_label_assets": 16,
     "series_source_assets": 18,
     "series_source_japanese_assets": 16,
@@ -64,13 +64,85 @@
     "unexpected_visible_alpha_pixels_removed": 49197,
     "shared_series_bank_regions": 48,
     "vertical_card_logos_localized": 72,
-    "embedded_card_logo_regions": 142,
-    "horizontal_card_logos_remaining": 70
+    "embedded_card_logo_regions": 209,
+    "horizontal_card_logos_remaining": 3,
+    "horizontal_card_logos_localized": 67,
+    "deferred_horizontal_cards": [
+      "brfml0a0.pzz",
+      "brfml120.pzz",
+      "brfml350.pzz"
+    ],
+    "source_family_survey": {
+      "schema_version": 1,
+      "source_members_reviewed": 286,
+      "source_pictures_reviewed": 682,
+      "pictures_with_japanese_ui": 10,
+      "pictures_without_visible_japanese_ui": 672,
+      "families": [
+        {
+          "family": "edms",
+          "members": 66,
+          "pictures": 462,
+          "japanese_ui_pictures": 0,
+          "source_visual_review_complete": true
+        },
+        {
+          "family": "trmsh",
+          "members": 66,
+          "pictures": 66,
+          "japanese_ui_pictures": 0,
+          "source_visual_review_complete": true
+        },
+        {
+          "family": "selms",
+          "members": 66,
+          "pictures": 66,
+          "japanese_ui_pictures": 0,
+          "source_visual_review_complete": true
+        },
+        {
+          "family": "rtms",
+          "members": 77,
+          "pictures": 77,
+          "japanese_ui_pictures": 0,
+          "source_visual_review_complete": true
+        },
+        {
+          "family": "newget",
+          "members": 11,
+          "pictures": 11,
+          "japanese_ui_pictures": 10,
+          "source_visual_review_complete": true
+        }
+      ],
+      "whole_next_plus_scope_complete": false,
+      "runtime_verdict": "NOT_TESTED",
+      "consumer_scope_closed": false,
+      "remaining_positive_assets": [
+        "newget1.pzz",
+        "newget2.pzz",
+        "newget3.pzz",
+        "newget4.pzz",
+        "newget5.pzz",
+        "newget6.pzz",
+        "newget7.pzz",
+        "newget8.pzz",
+        "newget9.pzz",
+        "newgeta.pzz"
+      ],
+      "note": "Source visual review includes every rendered picture in these five families; unlock images visibly include arcade wording, but their NEXT PLUS consumer relationship remains unproven."
+    },
+    "whole_next_plus_graphics_complete": false,
+    "series_japanese_source_assets": 16,
+    "series_assets_all_identified_japanese_labels_replaced": 16,
+    "series_english_only_source_assets": 2,
+    "known_editor_prompt_issue": "reports/graphics_prompt_followup_2026-10-03.json",
+    "consumer_sentence_review_complete": false
   },
   "iso": {
-    "path": "build/graphics_revision_2026-10-02/next_plus_graphics_revision_015.iso",
-    "sha256": "6e2feaf9166209ff4fe79142e92e778a24e5d5ded38e5ff2b316168cc33f65bc",
-    "crc32": "4B5130CA",
+    "path": "build/graphics_revision_2026-10-02/next_plus_graphics_revision_016.iso",
+    "sha256": "b153b564cb563d66bfe9cd3bb2eb4f4f24d1b18c48d75b0208cf7d72a1b24b16",
+    "crc32": "BC52831F",
     "bytes": 1757806592
   },
   "elf_sha256": "29cba21ef1f6c9a8e198545dd927c3703841b1e7da08462ac6ab0ea414e64013",
@@ -78,10 +150,10 @@
   "source_bound_csv_sha256": "abddad52ac2f208ff046d5dfb14ecf7f0a836a0afdf1ede29ffb3d42a4291a14",
   "xdelta": {
     "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
-    "candidate_iso_sha256": "6e2feaf9166209ff4fe79142e92e778a24e5d5ded38e5ff2b316168cc33f65bc",
-    "xdelta_sha256": "afaecbebf137c5c431766265202a4a5524be57f29c091a35976df93206a15a74",
-    "xdelta_bytes": 6325193,
-    "roundtrip_sha256": "6e2feaf9166209ff4fe79142e92e778a24e5d5ded38e5ff2b316168cc33f65bc",
+    "candidate_iso_sha256": "b153b564cb563d66bfe9cd3bb2eb4f4f24d1b18c48d75b0208cf7d72a1b24b16",
+    "xdelta_sha256": "b2f0e28eb647ebc0ce8bef1c1408be05537f7bacc94dd6cb0c7a4c85015bb42e",
+    "xdelta_bytes": 6304520,
+    "roundtrip_sha256": "b153b564cb563d66bfe9cd3bb2eb4f4f24d1b18c48d75b0208cf7d72a1b24b16",
     "verdict": "PASS"
   },
   "static_verdict": "PASS",

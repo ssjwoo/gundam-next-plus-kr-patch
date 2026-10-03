@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "development_only": true,
   "approved": false,
   "runtime_verdict": "NOT_TESTED",
@@ -8,9 +8,16 @@
   "source_japanese_logo_cards": 142,
   "source_english_only_cards_preserved": 10,
   "source_no_logo_cards_preserved": 2,
-  "localized_cards": 72,
-  "localized_regions": 142,
-  "horizontal_logo_cards_remaining": 70,
+  "localized_cards": 139,
+  "localized_regions": 209,
+  "vertical_localized_cards": 72,
+  "horizontal_localized_cards": 67,
+  "horizontal_logo_cards_remaining": 3,
+  "deferred_horizontal_assets": [
+    "brfml0a0.pzz",
+    "brfml120.pzz",
+    "brfml350.pzz"
+  ],
   "rows": [
     {
       "id": "CARD_LOGO_brfmb00_0",
@@ -3416,6 +3423,2497 @@
       "target_ko": "기동전사",
       "font_size": 9,
       "scale_x": 0.8181818181818182,
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml000",
+      "asset": "brfml000.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "25bbbd44f04027af0e0ec6dadd5c50b7fbca6adefbfd4f4cd37e3859a3e5fe33",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_placements": [
+        {
+          "box": [
+            90,
+            7,
+            123,
+            40
+          ],
+          "lines": [
+            "건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml010",
+      "asset": "brfml010.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "9994c015055b9424e50c0b1c13bec9bc95cd5724c5d440d0666ecb19808473c3",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_placements": [
+        {
+          "box": [
+            91,
+            7,
+            123,
+            34
+          ],
+          "lines": [
+            "건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml020",
+      "asset": "brfml020.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "2f12a357a4b7b222a75f33bea698ba3327ebd084b2711a82e34b6f14259902af",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_placements": [
+        {
+          "box": [
+            83,
+            7,
+            123,
+            21
+          ],
+          "lines": [
+            "건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml030",
+      "asset": "brfml030.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "9d62ee03ee984ff796bb3288d8b125aa40365892a939b247f139ce4ab9d74b9d",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_placements": [
+        {
+          "box": [
+            102,
+            8,
+            124,
+            31
+          ],
+          "lines": [
+            "건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml040",
+      "asset": "brfml040.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "9302cbe2d87c286e651b204d479c7eb6dbb6171361cd1b0f7f994b16f119663a",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_placements": [
+        {
+          "box": [
+            78,
+            7,
+            123,
+            20
+          ],
+          "lines": [
+            "건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml050",
+      "asset": "brfml050.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "85d2e69bb76ffcf1d8b636fe70db934b9bd775cb5ebfeeefaa861337aba4a9e6",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_placements": [
+        {
+          "box": [
+            82,
+            7,
+            123,
+            27
+          ],
+          "lines": [
+            "건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml060",
+      "asset": "brfml060.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "0b17d52258ebb732c7696b70909e39dc88e4c8883b8b81e8b3ae36a7cef73e15",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_placements": [
+        {
+          "box": [
+            89,
+            7,
+            123,
+            27
+          ],
+          "lines": [
+            "건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml070",
+      "asset": "brfml070.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "2fee03abfb223ba09e76cd4fc4c7ebf0de1d4763b6ac7adb7b5a2b88a4e871dc",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "font_placements": [
+        {
+          "box": [
+            94,
+            21,
+            128,
+            34
+          ],
+          "lines": [
+            "Z 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml072",
+      "asset": "brfml072.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "0be1db404965972998554e42404eb5908e0090837d64dc6f063117d49e3fc943",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "font_placements": [
+        {
+          "box": [
+            116,
+            28,
+            128,
+            42
+          ],
+          "lines": [
+            "Z 건담"
+          ],
+          "font_size": 7,
+          "scale_x": 0.6
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml080",
+      "asset": "brfml080.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "43dc7ce4bbeb432a47bdfe841ff60a5c7bd69ccb0299cf51fd425702170fe1a1",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "ZZ 건담",
+      "font_placements": [
+        {
+          "box": [
+            109,
+            12,
+            128,
+            37
+          ],
+          "lines": [
+            "ZZ 건담"
+          ],
+          "font_size": 8,
+          "scale_x": 0.6538461538461539
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml090",
+      "asset": "brfml090.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "2303fdcb4d87dbbb2b7af20d301c462bf67ed0fe70812a462b020a3632b8e61d",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "ZZ 건담",
+      "font_placements": [
+        {
+          "box": [
+            108,
+            21,
+            128,
+            41
+          ],
+          "lines": [
+            "ZZ 건담"
+          ],
+          "font_size": 9,
+          "scale_x": 0.6
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml0b0",
+      "asset": "brfml0b0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "1a5994ab49120eea4e52229437f93815936b94f1263a15b581ea6a198998a9cb",
+      "series_asset": "stitle03.pzz",
+      "target_ko": "역습의 샤아",
+      "font_placements": [
+        {
+          "box": [
+            78,
+            7,
+            123,
+            19
+          ],
+          "lines": [
+            "역습의 샤아"
+          ],
+          "font_size": 10,
+          "scale_x": 0.8775510204081632
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml0c0",
+      "asset": "brfml0c0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "4132803fb63441d53f4c59d996d3da19fe4e36c1ea142750eabb842d8451e4c8",
+      "series_asset": "stitle04.pzz",
+      "target_ko": "건담 F91",
+      "font_placements": [
+        {
+          "box": [
+            96,
+            8,
+            124,
+            36
+          ],
+          "lines": [
+            "건담 F91"
+          ],
+          "font_size": 10,
+          "scale_x": 0.7222222222222222
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml0d0",
+      "asset": "brfml0d0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "ddb06deb3eb9b257d7e121f1139fa5e936efd611ca7ad6d9938a4815072369b7",
+      "series_asset": "stitle04.pzz",
+      "target_ko": "건담 F91",
+      "font_placements": [
+        {
+          "box": [
+            91,
+            7,
+            123,
+            28
+          ],
+          "lines": [
+            "건담 F91"
+          ],
+          "font_size": 10,
+          "scale_x": 0.8333333333333334
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml0e0",
+      "asset": "brfml0e0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "e5e6f4b99a4fdad137dd1174fb353ca037df530ecb775a5ed7bb3efb80454fc3",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "V 건담",
+      "font_placements": [
+        {
+          "box": [
+            93,
+            7,
+            123,
+            32
+          ],
+          "lines": [
+            "V 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 0.9655172413793104
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml0f0",
+      "asset": "brfml0f0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "d17af94b65e005d196c85002a08939de9e5661f176bf6e261b639b67df491925",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "V 건담",
+      "font_placements": [
+        {
+          "box": [
+            87,
+            7,
+            123,
+            29
+          ],
+          "lines": [
+            "V 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml100",
+      "asset": "brfml100.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "95e62be21d6e9587b8afe3860c3a75f58426810d730c82653d5804ae908c633d",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "G 건담",
+      "font_placements": [
+        {
+          "box": [
+            106,
+            12,
+            128,
+            37
+          ],
+          "lines": [
+            "G 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 0.6666666666666666
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml110",
+      "asset": "brfml110.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "40ecb02047f446785b17e2922e3ae0c52935d46e045313be2f5fe3474b6dc768",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "G 건담",
+      "font_placements": [
+        {
+          "box": [
+            95,
+            21,
+            128,
+            37
+          ],
+          "lines": [
+            "G 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml130",
+      "asset": "brfml130.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "3c1e98d6442e78b4263b7996fffb90e338231800a6acd1f6130b3968b9e1db07",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담 W",
+      "font_placements": [
+        {
+          "box": [
+            114,
+            12,
+            128,
+            33
+          ],
+          "lines": [
+            "건담 W"
+          ],
+          "font_size": 6,
+          "scale_x": 0.6666666666666666
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml140",
+      "asset": "brfml140.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "fc38f6a121881b178992190c8eef1b70db02752c7726c14d8e9a65559d6dbc96",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담 X",
+      "font_placements": [
+        {
+          "box": [
+            107,
+            22,
+            128,
+            35
+          ],
+          "lines": [
+            "건담 X"
+          ],
+          "font_size": 10,
+          "scale_x": 0.6785714285714286
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml142",
+      "asset": "brfml142.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "b16a69b00752a8ff2831a1e1a2eff50c6345315b0479d932196c6e0ca05fb8d5",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담 X",
+      "font_placements": [
+        {
+          "box": [
+            104,
+            11,
+            127,
+            35
+          ],
+          "lines": [
+            "건담 X"
+          ],
+          "font_size": 10,
+          "scale_x": 0.75
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml150",
+      "asset": "brfml150.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "0aa01dbbeadca7762192e296512d11a2599b7ede78f6b0f4a5355290a51833e7",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담 X",
+      "font_placements": [
+        {
+          "box": [
+            107,
+            12,
+            128,
+            34
+          ],
+          "lines": [
+            "건담 X"
+          ],
+          "font_size": 10,
+          "scale_x": 0.6785714285714286
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml180",
+      "asset": "brfml180.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "b3d08a223cf407677955843b2e9634733dbaa8ca19e8398f543b1832df83edb3",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "font_placements": [
+        {
+          "box": [
+            106,
+            12,
+            128,
+            36
+          ],
+          "lines": [
+            "건담 SEED"
+          ],
+          "font_size": 7,
+          "scale_x": 0.6060606060606061
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml182",
+      "asset": "brfml182.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "4c195be2d5dfa65133bbecc5b423bd27f5c03986d11eaad930b6aa6493106be4",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "font_placements": [
+        {
+          "box": [
+            82,
+            7,
+            123,
+            20
+          ],
+          "lines": [
+            "건담 SEED"
+          ],
+          "font_size": 10,
+          "scale_x": 0.8666666666666667
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml183",
+      "asset": "brfml183.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "58acc99fc8664bfe5b2b047fa213d5d4d7d553b55068995668853034bced12a6",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "font_placements": [
+        {
+          "box": [
+            99,
+            8,
+            124,
+            34
+          ],
+          "lines": [
+            "건담 SEED"
+          ],
+          "font_size": 8,
+          "scale_x": 0.6052631578947368
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml190",
+      "asset": "brfml190.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "504fc785f2f5a7384fc3eecb8141e210d0f72aad014ef65f9a81fdc31cba45b9",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "font_placements": [
+        {
+          "box": [
+            83,
+            7,
+            123,
+            22
+          ],
+          "lines": [
+            "건담 SEED"
+          ],
+          "font_size": 10,
+          "scale_x": 0.8444444444444444
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml1a0",
+      "asset": "brfml1a0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "11ef214d8a4431474111cb6da3610dd026bf4ecc159b865dc0193143df15533a",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담 SEED / 데스티니",
+      "font_placements": [
+        {
+          "box": [
+            99,
+            9,
+            125,
+            35
+          ],
+          "lines": [
+            "건담 SEED",
+            "데스티니"
+          ],
+          "font_size": 9,
+          "scale_x": 0.6
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml1b0",
+      "asset": "brfml1b0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "808e523fa6016faf9e51fc02926788ade9e12e99e5cab51d789a0bfcc6ee2b44",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "font_placements": [
+        {
+          "box": [
+            105,
+            12,
+            128,
+            37
+          ],
+          "lines": [
+            "건담 SEED"
+          ],
+          "font_size": 7,
+          "scale_x": 0.6363636363636364
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml1c0",
+      "asset": "brfml1c0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "55136bea10766060e1f50ca8cd81767d079c7d2afa2b680380ab23604c8b7283",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "font_placements": [
+        {
+          "box": [
+            81,
+            7,
+            123,
+            26
+          ],
+          "lines": [
+            "건담 0080",
+            "주머니 속의 전쟁"
+          ],
+          "font_size": 8,
+          "scale_x": 0.6779661016949152
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml1d0",
+      "asset": "brfml1d0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "925c9c022bea5cdd8ba7ee869b9d7a2a2b0202fd1d7361af3ce43a31b76f32cf",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "font_placements": [
+        {
+          "box": [
+            90,
+            7,
+            123,
+            24
+          ],
+          "lines": [
+            "건담 0080",
+            "주머니 속의 전쟁"
+          ],
+          "font_size": 6,
+          "scale_x": 0.6739130434782609
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml1e0",
+      "asset": "brfml1e0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "78c478aed24d82a286cbaea3c3e10a39e1f8c44877f1d881a547f96f96d28f83",
+      "series_asset": "stitle0c.pzz",
+      "target_ko": "건담 0080 / 주머니 속의 전쟁",
+      "font_placements": [
+        {
+          "box": [
+            85,
+            7,
+            123,
+            29
+          ],
+          "lines": [
+            "건담 0080",
+            "주머니 속의 전쟁"
+          ],
+          "font_size": 8,
+          "scale_x": 0.6101694915254238
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml1f0",
+      "asset": "brfml1f0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "f195903bf0f74c9f6315061c3c0d045306f464481a407a756c9104a5aff8ac00",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "건담 0083",
+      "font_placements": [
+        {
+          "box": [
+            103,
+            7,
+            123,
+            26
+          ],
+          "lines": [
+            "건담 0083"
+          ],
+          "font_size": 6,
+          "scale_x": 0.6
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml200",
+      "asset": "brfml200.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "2a6b297bdc498948557d8fc1b7758fcd8f52f2cd2a890652ed28011a0081b13c",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "건담 0083",
+      "font_placements": [
+        {
+          "box": [
+            89,
+            7,
+            123,
+            22
+          ],
+          "lines": [
+            "건담 0083"
+          ],
+          "font_size": 10,
+          "scale_x": 0.7111111111111111
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml210",
+      "asset": "brfml210.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "c45f91fc0004bef18a9ed655f1793b56131027121e73a91d70fb420436ad6348",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "font_placements": [
+        {
+          "box": [
+            83,
+            7,
+            123,
+            30
+          ],
+          "lines": [
+            "제08MS소대"
+          ],
+          "font_size": 10,
+          "scale_x": 0.7037037037037037
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml220",
+      "asset": "brfml220.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "54e35a08bd12cb99dd455959ba28bf23c5ed1f15b59a2113250860689787a536",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "font_placements": [
+        {
+          "box": [
+            91,
+            7,
+            123,
+            33
+          ],
+          "lines": [
+            "제08MS소대"
+          ],
+          "font_size": 9,
+          "scale_x": 0.625
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml221",
+      "asset": "brfml221.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "9956dd3b96770849e4ce9940dc863cd7ef0bd4653c7abab5a04a2c24a70b97d6",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "font_placements": [
+        {
+          "box": [
+            90,
+            7,
+            122,
+            19
+          ],
+          "lines": [
+            "제08MS소대"
+          ],
+          "font_size": 9,
+          "scale_x": 0.625
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml230",
+      "asset": "brfml230.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "d0154feb300446a7eb493ca03b9bfcc8b89e5428071e6de37f53710b00d972a2",
+      "series_asset": "stitle0e.pzz",
+      "target_ko": "제08MS소대",
+      "font_placements": [
+        {
+          "box": [
+            102,
+            7,
+            123,
+            29
+          ],
+          "lines": [
+            "제08MS소대"
+          ],
+          "font_size": 5,
+          "scale_x": 0.6551724137931034
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml240",
+      "asset": "brfml240.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "16633608ad34806da16518a93f89bdc3a5e46139ac5f74af508ab9f5e426d3b4",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_placements": [
+        {
+          "box": [
+            83,
+            7,
+            123,
+            28
+          ],
+          "lines": [
+            "건담 00"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml250",
+      "asset": "brfml250.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "c27f26aa2e7a13d5866918641d36f9e3872c4d1178a1749bcc2476c9f9f25fde",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담 SEED / 데스티니",
+      "font_placements": [
+        {
+          "box": [
+            93,
+            7,
+            123,
+            32
+          ],
+          "lines": [
+            "건담 SEED",
+            "데스티니"
+          ],
+          "font_size": 10,
+          "scale_x": 0.6222222222222222
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml260",
+      "asset": "brfml260.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "865386da9d5e32339fb4df45f4315d7a66cfd931a4d7aeb2f1f6fa93fa91f1d9",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "건담 0083",
+      "font_placements": [
+        {
+          "box": [
+            90,
+            7,
+            123,
+            32
+          ],
+          "lines": [
+            "건담 0083"
+          ],
+          "font_size": 10,
+          "scale_x": 0.6888888888888889
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml262",
+      "asset": "brfml262.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "5b40ec16db4c7c209c87156d05c2cdd7e54e623ac873f515531c16bbaa6bda59",
+      "series_asset": "stitle0d.pzz",
+      "target_ko": "건담 0083",
+      "font_placements": [
+        {
+          "box": [
+            102,
+            10,
+            126,
+            35
+          ],
+          "lines": [
+            "건담 0083"
+          ],
+          "font_size": 7,
+          "scale_x": 0.6875
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml270",
+      "asset": "brfml270.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "25b5eddfef73a8ad07a700efee9fc043a6cd3cbb20114d4a94f6269bb780320e",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "font_placements": [
+        {
+          "box": [
+            89,
+            7,
+            123,
+            30
+          ],
+          "lines": [
+            "Z 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml280",
+      "asset": "brfml280.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "210f164095c9d3e11e81e54210ee23c0cec021c6422e9aea808d7bccf2ce12a7",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "ZZ 건담",
+      "font_placements": [
+        {
+          "box": [
+            110,
+            12,
+            128,
+            39
+          ],
+          "lines": [
+            "ZZ 건담"
+          ],
+          "font_size": 8,
+          "scale_x": 0.6153846153846154
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml290",
+      "asset": "brfml290.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "df46625014c4e9e73a39c002cbc16e9e74e2136c2b766f7c16a932033ede929b",
+      "series_asset": "stitle05.pzz",
+      "target_ko": "V / 건 / 담",
+      "font_placements": [
+        {
+          "box": [
+            120,
+            12,
+            128,
+            43
+          ],
+          "lines": [
+            "V",
+            "건",
+            "담"
+          ],
+          "font_size": 10,
+          "scale_x": 0.8
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml2a0",
+      "asset": "brfml2a0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "7b37cf926bae77607ecdd2902a5f41aaa29f3cbc367259911810e0d90e69d20b",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "G 건담",
+      "font_placements": [
+        {
+          "box": [
+            93,
+            7,
+            123,
+            36
+          ],
+          "lines": [
+            "G 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 0.9333333333333333
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml2b0",
+      "asset": "brfml2b0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "05af75ffc412195cdcc8aae767eabccc609d1f98b7feaef84aae27dc3fd2f455",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담 W",
+      "font_placements": [
+        {
+          "box": [
+            102,
+            7,
+            123,
+            27
+          ],
+          "lines": [
+            "건담 W"
+          ],
+          "font_size": 9,
+          "scale_x": 0.6551724137931034
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml2c0",
+      "asset": "brfml2c0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "3b745f963f6cd52ee0a5c7aeb8a96d9fcbc1b568ba1a40306524637df2abba87",
+      "series_asset": "stitle07.pzz",
+      "target_ko": "건담 W",
+      "font_placements": [
+        {
+          "box": [
+            95,
+            7,
+            123,
+            30
+          ],
+          "lines": [
+            "건담 W"
+          ],
+          "font_size": 10,
+          "scale_x": 0.8125
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml2e0",
+      "asset": "brfml2e0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "219a6928f85c8fcd0a54b253229a7d6b9ceab0c1b321efd40803e5a70b4ce041",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담 SEED / 데스티니",
+      "font_placements": [
+        {
+          "box": [
+            78,
+            7,
+            123,
+            21
+          ],
+          "lines": [
+            "건담 SEED",
+            "데스티니"
+          ],
+          "font_size": 5,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml2e2",
+      "asset": "brfml2e2.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "5e294d94cd177d55ad2906fdcebb23907d962f9b7ca3792dce61bf5e0d75c554",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담 SEED / 데스티니",
+      "font_placements": [
+        {
+          "box": [
+            84,
+            7,
+            123,
+            25
+          ],
+          "lines": [
+            "건담 SEED",
+            "데스티니"
+          ],
+          "font_size": 8,
+          "scale_x": 0.9736842105263158
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml2f0",
+      "asset": "brfml2f0.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "1e1cc3fa886a4015f1decb91affb7a2f8d7062b19aa0e464c3b54d2944e55129",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_placements": [
+        {
+          "box": [
+            79,
+            7,
+            123,
+            18
+          ],
+          "lines": [
+            "건담 00"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml2f2",
+      "asset": "brfml2f2.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "c30d2b37ef9883afa9acf89caef766b77ce5d113e63346b55cd10698bdf4abd1",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_placements": [
+        {
+          "box": [
+            97,
+            7,
+            123,
+            34
+          ],
+          "lines": [
+            "건담 00"
+          ],
+          "font_size": 10,
+          "scale_x": 0.7272727272727273
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml300",
+      "asset": "brfml300.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "9f82741681f9c01273b93c520ac8ec50c3281a8b00e040c5662a29de4607559c",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "건담 UC / 유니콘",
+      "font_placements": [
+        {
+          "box": [
+            83,
+            7,
+            123,
+            23
+          ],
+          "lines": [
+            "건담 UC",
+            "유니콘"
+          ],
+          "font_size": 7,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml310",
+      "asset": "brfml310.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "cbe76c46fd13ff47c74ea3054e3411766a0180544ca31abc2a5d7c51b38dd807",
+      "series_asset": "stitle0b.pzz",
+      "target_ko": "건담 SEED / 데스티니",
+      "font_placements": [
+        {
+          "box": [
+            107,
+            21,
+            128,
+            39
+          ],
+          "lines": [
+            "건담 SEED",
+            "데스티니"
+          ],
+          "font_size": 6,
+          "scale_x": 0.7037037037037037
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml320",
+      "asset": "brfml320.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "adbc5303584100f979a1d5b6cc6bcc5f22c9be0e34a18a9fb6cea601ecd95ad4",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "G 건담",
+      "font_placements": [
+        {
+          "box": [
+            97,
+            9,
+            125,
+            37
+          ],
+          "lines": [
+            "G 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 0.8666666666666667
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml330",
+      "asset": "brfml330.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "c73d499458bceddf21427b8b5a762cf85e317180f89f22adbb5f94304b992d19",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "font_placements": [
+        {
+          "box": [
+            87,
+            7,
+            123,
+            24
+          ],
+          "lines": [
+            "Z 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml340",
+      "asset": "brfml340.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "856c8964aceacdb4cd5b3dda8a4dbf7349480851b2908513c4bf7c9b6f2c092a",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "font_placements": [
+        {
+          "box": [
+            91,
+            7,
+            123,
+            28
+          ],
+          "lines": [
+            "건담 SEED"
+          ],
+          "font_size": 10,
+          "scale_x": 0.6666666666666666
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml342",
+      "asset": "brfml342.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "59c0a450736abdf92f802959e1bb8625590d3b19e5814705a885187f05b7f9db",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "font_placements": [
+        {
+          "box": [
+            94,
+            7,
+            123,
+            33
+          ],
+          "lines": [
+            "건담 SEED"
+          ],
+          "font_size": 10,
+          "scale_x": 0.6
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml360",
+      "asset": "brfml360.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "1f68eba23dd087b850a3232a019bdd76c2a178762486a21ab0c44cee0c85fac6",
+      "series_asset": "stitle02.pzz",
+      "target_ko": "ZZ 건담",
+      "font_placements": [
+        {
+          "box": [
+            108,
+            21,
+            128,
+            40
+          ],
+          "lines": [
+            "ZZ 건담"
+          ],
+          "font_size": 9,
+          "scale_x": 0.6
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml370",
+      "asset": "brfml370.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "f56efd3eeaf8eff13e9648e189ef623cc0905d5a5f54fb578766826a0635604a",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "font_placements": [
+        {
+          "box": [
+            95,
+            21,
+            128,
+            35
+          ],
+          "lines": [
+            "Z 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml380",
+      "asset": "brfml380.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "5ee8fb4bf0c1ac0fc499062709eca40ae086289abf47c886d373433fcebecc03",
+      "series_asset": "stitle06.pzz",
+      "target_ko": "G 건담",
+      "font_placements": [
+        {
+          "box": [
+            91,
+            7,
+            123,
+            34
+          ],
+          "lines": [
+            "G 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml390",
+      "asset": "brfml390.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "abefa35f889b1fb4fc6c095b79101f94ae113ed92f19378d12bade320d17e57f",
+      "series_asset": "stitle08.pzz",
+      "target_ko": "건담 X",
+      "font_placements": [
+        {
+          "box": [
+            94,
+            7,
+            123,
+            16
+          ],
+          "lines": [
+            "건담 X"
+          ],
+          "font_size": 8,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml410",
+      "asset": "brfml410.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "defc1ad4e22d5683b1901bf4898bad388750437474fa69011f6d339e6d7c41cc",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_placements": [
+        {
+          "box": [
+            103,
+            21,
+            128,
+            36
+          ],
+          "lines": [
+            "건담 00"
+          ],
+          "font_size": 10,
+          "scale_x": 0.696969696969697
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml420",
+      "asset": "brfml420.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "6077f3cdcde09405105c44be744ca2684a3dbdeb0a9e7a8d5f02f7602fd09204",
+      "series_asset": "stitle0f.pzz",
+      "target_ko": "건담 00",
+      "font_placements": [
+        {
+          "box": [
+            101,
+            21,
+            128,
+            36
+          ],
+          "lines": [
+            "건담 00"
+          ],
+          "font_size": 10,
+          "scale_x": 0.7575757575757576
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml430",
+      "asset": "brfml430.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "26b3bea1a8e18c7930b4faa9ee58cb19c2dfbf1c74b383d170ae5dbbba60d062",
+      "series_asset": "stitle01.pzz",
+      "target_ko": "Z 건담",
+      "font_placements": [
+        {
+          "box": [
+            87,
+            7,
+            123,
+            25
+          ],
+          "lines": [
+            "Z 건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml460",
+      "asset": "brfml460.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "7062d8a3b060df70677322b10e976eac9455903d6a319a240dfcfa599f027934",
+      "series_asset": "stitle00.pzz",
+      "target_ko": "건담",
+      "font_placements": [
+        {
+          "box": [
+            99,
+            7,
+            123,
+            27
+          ],
+          "lines": [
+            "건담"
+          ],
+          "font_size": 10,
+          "scale_x": 1
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml470",
+      "asset": "brfml470.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "380bd0997eb526aa103dab2620d9bc5e34d651dda9d872513157e0b41e20bcd0",
+      "series_asset": "stitle0a.pzz",
+      "target_ko": "건담 SEED",
+      "font_placements": [
+        {
+          "box": [
+            105,
+            12,
+            128,
+            35
+          ],
+          "lines": [
+            "건담 SEED"
+          ],
+          "font_size": 7,
+          "scale_x": 0.6363636363636364
+        }
+      ],
+      "status": "development_source_reviewed",
+      "approved": false,
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "CARD_LOGO_brfml480",
+      "asset": "brfml480.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        64
+      ],
+      "box": [
+        75,
+        7,
+        128,
+        43
+      ],
+      "source_crop_rgba_sha256": "99e940fb810c542ab6a4d81b99b780631841807c4ad44e933b3e9ccc816f7889",
+      "series_asset": "stitle10.pzz",
+      "target_ko": "건담 UC / 유니콘",
+      "font_placements": [
+        {
+          "box": [
+            90,
+            8,
+            124,
+            29
+          ],
+          "lines": [
+            "건담 UC",
+            "유니콘"
+          ],
+          "font_size": 9,
+          "scale_x": 1
+        }
+      ],
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED"

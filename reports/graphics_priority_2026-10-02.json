@@ -21,7 +21,7 @@
     "rtms": 77,
     "newget": 11
   },
-  "representative_samples_only": true,
+  "representative_samples_only": false,
   "source_review": {
     "trsk00": "Six Japanese skill labels; localized within original rows",
     "trms00": "Two unit-name labels in picture 0; portrait picture 1",
@@ -36,15 +36,23 @@
     "trsk": "All 66 source members reviewed and localized; 335 instances, 205 distinct source label crops",
     "trms": "All 66 source members reviewed, 64 Korean unit-name surfaces and three Latin surfaces preserved",
     "selpi": "All 66 source members reviewed, 66 Korean pilot-name surfaces; actual rotated consumer strips reconstructed",
-    "briefing": "341 verified source members; 63 standalone unit labels and 302 card-name surfaces localized; embedded series logos remain",
+    "briefing": "341 source members; 63 standalone names and 302 card-name surfaces; MB72/ML67 embedded logos inserted; three occluded ML logos deferred",
     "stage_banners": "43 source-reviewed series/location titles localized in trl03 picture 2/3",
     "series_titles": "18 source assets reviewed: 16 contain Japanese, localized in 42 regions including glow consumers; TURN A GUNDAM and Endless Waltz are English-only and preserved",
     "selection_name_bank": "56 authored cells in sel02 picture 0; 66 actual object consumers reconstructed and visually reviewed; 15 Latin/digit/symbol quads preserved",
-    "pilot_data": "32 source-reviewed stats, grade and wait/selection labels inserted; pcard picture 3/4 are text-free art"
+    "pilot_data": "32 source-reviewed stats, grade and wait/selection labels inserted; pcard picture 3/4 are text-free art",
+    "edms": "All66 members/462 combat illustrations reviewed; no Japanese UI lettering visible",
+    "trmsh": "All66 silhouettes reviewed; no Japanese lettering",
+    "selms": "All66 unit portraits reviewed; no Japanese UI lettering visible",
+    "rtms": "All77 thumbnails reviewed; no Japanese UI lettering; Latin/digit placeholder IDs preserved",
+    "newget": "All11 pictures reviewed: 1 decorative background, 10 Japanese unlock UI images; NEXT PLUS consumer scope unresolved"
   },
   "next_actions": [
-    "70 horizontal card logos with per-source foreground/name masks",
-    "Unresolved common labels and every NEXT PLUS consumer/variant inventory"
+    "Repair four source-traced editor prompts sharing the same UV suffix",
+    "3 occluded horizontal card logos: brfml0a0/120/350",
+    "Unresolved tiny common UI labels: trace exact PMF2 UV consumers before translation",
+    "10 unlock UI images: trace mode scope and retain as unresolved until proven",
+    "Close full NEXT PLUS resource/consumer denominator; runtime remains NOT_TESTED"
   ],
   "runtime_verdict": "NOT_TESTED",
   "whole_game_graphics_complete": false,
@@ -62,9 +70,9 @@
   "completed_selection_name_bank_regions": 56,
   "completed_pilot_data_certificate_regions": 32,
   "series_source_assets": 18,
-  "series_japanese_source_assets": 17,
-  "series_assets_all_identified_japanese_labels_replaced": 11,
-  "series_assets_remaining_japanese": 6,
+  "series_japanese_source_assets": 16,
+  "series_assets_all_identified_japanese_labels_replaced": 16,
+  "series_assets_remaining_japanese": 0,
   "completed_series_assets": 16,
   "completed_series_regions": 42,
   "remaining_series_assets": [],
@@ -83,8 +91,76 @@
     "no_logo_cards": 2,
     "vertical_localized_cards": 72,
     "vertical_edited_regions": 142,
-    "horizontal_remaining_cards": 70,
+    "horizontal_remaining_cards": 3,
     "runtime": "NOT_TESTED",
-    "whole_scope_complete": false
-  }
+    "whole_scope_complete": false,
+    "horizontal_localized_cards": 67,
+    "horizontal_edited_regions": 67,
+    "deferred_assets": [
+      "brfml0a0.pzz",
+      "brfml120.pzz",
+      "brfml350.pzz"
+    ]
+  },
+  "remaining_families_full_source_review": {
+    "schema_version": 1,
+    "source_members_reviewed": 286,
+    "source_pictures_reviewed": 682,
+    "pictures_with_japanese_ui": 10,
+    "pictures_without_visible_japanese_ui": 672,
+    "families": [
+      {
+        "family": "edms",
+        "members": 66,
+        "pictures": 462,
+        "japanese_ui_pictures": 0,
+        "source_visual_review_complete": true
+      },
+      {
+        "family": "trmsh",
+        "members": 66,
+        "pictures": 66,
+        "japanese_ui_pictures": 0,
+        "source_visual_review_complete": true
+      },
+      {
+        "family": "selms",
+        "members": 66,
+        "pictures": 66,
+        "japanese_ui_pictures": 0,
+        "source_visual_review_complete": true
+      },
+      {
+        "family": "rtms",
+        "members": 77,
+        "pictures": 77,
+        "japanese_ui_pictures": 0,
+        "source_visual_review_complete": true
+      },
+      {
+        "family": "newget",
+        "members": 11,
+        "pictures": 11,
+        "japanese_ui_pictures": 10,
+        "source_visual_review_complete": true
+      }
+    ],
+    "whole_next_plus_scope_complete": false,
+    "runtime_verdict": "NOT_TESTED",
+    "consumer_scope_closed": false,
+    "remaining_positive_assets": [
+      "newget1.pzz",
+      "newget2.pzz",
+      "newget3.pzz",
+      "newget4.pzz",
+      "newget5.pzz",
+      "newget6.pzz",
+      "newget7.pzz",
+      "newget8.pzz",
+      "newget9.pzz",
+      "newgeta.pzz"
+    ],
+    "note": "Source visual review includes every rendered picture in these five families; unlock images visibly include arcade wording, but their NEXT PLUS consumer relationship remains unproven."
+  },
+  "known_common_prompt_issue": "graphics_prompt_followup_2026-10-03.json"
 }

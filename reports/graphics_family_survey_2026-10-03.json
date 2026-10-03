@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "source_members_reviewed": 286,
+  "source_pictures_reviewed": 682,
+  "pictures_with_japanese_ui": 10,
+  "pictures_without_visible_japanese_ui": 672,
+  "families": [
+    {
+      "family": "edms",
+      "members": 66,
+      "pictures": 462,
+      "japanese_ui_pictures": 0,
+      "source_visual_review_complete": true
+    },
+    {
+      "family": "trmsh",
+      "members": 66,
+      "pictures": 66,
+      "japanese_ui_pictures": 0,
+      "source_visual_review_complete": true
+    },
+    {
+      "family": "selms",
+      "members": 66,
+      "pictures": 66,
+      "japanese_ui_pictures": 0,
+      "source_visual_review_complete": true
+    },
+    {
+      "family": "rtms",
+      "members": 77,
+      "pictures": 77,
+      "japanese_ui_pictures": 0,
+      "source_visual_review_complete": true
+    },
+    {
+      "family": "newget",
+      "members": 11,
+      "pictures": 11,
+      "japanese_ui_pictures": 10,
+      "source_visual_review_complete": true
+    }
+  ],
+  "whole_next_plus_scope_complete": false,
+  "runtime_verdict": "NOT_TESTED",
+  "consumer_scope_closed": false,
+  "remaining_positive_assets": [
+    "newget1.pzz",
+    "newget2.pzz",
+    "newget3.pzz",
+    "newget4.pzz",
+    "newget5.pzz",
+    "newget6.pzz",
+    "newget7.pzz",
+    "newget8.pzz",
+    "newget9.pzz",
+    "newgeta.pzz"
+  ],
+  "note": "Source visual review includes every rendered picture in these five families; unlock images visibly include arcade wording, but their NEXT PLUS consumer relationship remains unproven."
+}
