@@ -1,27 +1,35 @@
 # 현재 체크포인트 — 2026-10-03
 
-새 세션에서 한도가 재시작되어 작업을 이어가는 중입니다. 5시간 한도 잔여 30% 이하에서 새 배치를 중단하고 검증·인계를 마칩니다. 현재 후보는 018이며 전체 NEXT PLUS 완료 판정은 아직 없습니다.
+새 세션에서 한도가 재시작되어 작업을 이어가는 중입니다. 5시간 한도 잔여 30% 이하에서 새 배치를 중단하고 검증·인계를 마칩니다. 현재 후보는 020이며 전체 NEXT PLUS 완료 판정은 아직 없습니다.
 
-- 로컬 ISO: `build/graphics_revision_2026-10-02/next_plus_graphics_revision_018.iso`
-- SHA-256: `37a05330e94abd0db58b0378904903bdb28167d33281b148f4efc0b833117510`; CRC32 `4224323C`.
-- 원본 기반 xdelta: 6,844,951바이트; SHA-256 `80e6c7857d97ab12a02f3a1cdc7ec64047f2ad67dab65a79fcf8ac14871a28dc`; 재적용 결과 ISO와 동일.
-- 463멤버·637개 수정 이미지 면·1,807개 요소(한국어 1,805개, 영문 NEXT 2개). 실제 ISO 읽기와 구조 검사 PASS. 실행 NOT_TESTED.
+- 로컬 ISO: `build/graphics_revision_2026-10-02/next_plus_graphics_revision_020.iso`
+- SHA-256: `c1b2c1d4f5d63af345c57dd0a6069e87507324f6fe188bdcaa7dd6e030213ffc`; CRC32 `86EA8C0A`.
+- 원본 기반 xdelta: 6,885,921바이트; SHA-256 `a7d529b2c2f016e084ca16b81ceaa7e9d13092408c9b22cdf4f27444dd095dbf`; 재적용 결과 ISO와 동일.
+- 466멤버·643개 수정 이미지 면·1,878개 요소(한국어 1,876개, 영문 NEXT 2개). 실제 ISO 읽기와 구조 검사 PASS. 실행 NOT_TESTED.
 - 카드 로고 MB72/ML70, 확인한 일본어 카드 142개·212영역 전부 반영. 뉴 건담·윙 제로·에피온의 제외 사유를 해결.
 - 편집 질문 4개: 정확한 앞부분 4셀과 공유 어미 1셀로 교체. 이전 전체 문장/불러오기 라벨 2개 폐기, 영역 수 순증 3.
 - 해금 화면 10장·32영역 반영. MS6은 배경 로고 층/이름 패널 재구성, 코스4는 원본 장면 보존. 전체 원본 배경/모델 동일 주장이 아니라 명시한 보호 영역 검사이다.
 
 ## 다음 작업
 
-`work/next_plus_graphics_2026-10-02/ui_consumer_audit_018/`에서 15개 공통 UI의 실제 PMF2 UV 조각을 원본/현재 후보로 비교한다. 그대로 남은 일본어, 비용 횟수·속성·획득 표시와 분할 조각의 가독성을 수동으로 판독하고 원본 소비자에 연결한 뒤 편집한다. 큼직한 아틀라스 문구가 한글이어도 실제 조각 조합이 잘릴 수 있다.
+공통 UI의 원본/현재 UV 조각 검토와 020 후속 수정은 아래 기록대로 마쳤다. 다음 작업은 원본 EBOOT와 리소스 관리 코드에서 실제 NEXT PLUS 상태별 호출, 동적 UV 덮어쓰기, 공유 해금 화면의 모드 연결을 증명하는 것이다. 분할·회전된 원본 조각은 단일 경계 상자를 전체 문장으로 간주하지 않고 전체 XY 조합으로 검토한다.
 
 NEXT PLUS의 실제 리소스·상태·변형 분모를 닫아야 한다. 해금 화면의 모드 공유 관계는 미확정이며 AFS 숫자와 코드 상수의 일치만으로 호출을 증명할 수 없다. 가족 대표 이미지나 파일 이름으로 모드 범위를 단정하지 않는다.
 
 ## 로컬 재현 자료
 
-`work/next_plus_graphics_2026-10-02/merged_pzz_018`, `extraction_manifest_018.json`, `expected_surfaces_018.json`, `visual_review_018.json`, `final_iso_readback_018.json`; `build/graphics_revision_2026-10-02/xdelta_roundtrip_018.json`.
+`work/next_plus_graphics_2026-10-02/merged_pzz_020`, `extraction_manifest_020.json`, `expected_surfaces_020.json`, `visual_review_020.json`, `final_iso_readback_020.json`; `build/graphics_revision_2026-10-02/xdelta_roundtrip_020.json`.
 편집 질문: `editor_prompt_fragments_v1`; 마지막 카드3: `card_logo_ml_batch_report_last3_v14.json`; 해금10: `unlock_v6`, `unlock_packed_v6/report.json`.
 기존 후보와 원본은 덮어쓰지 않는다. 항상 텍스트 002 기준으로 새 ISO를 만들고 전체 수정 면과 원본 기반 xdelta를 검증한다.
 
 ## 공개와 실행 경계
 
 현재 공개 릴리스는 dev-2026-09-26 그대로다. 소스·한국어 초안·집계·인계만 GitHub에 올린다. ISO·PZZ·GIM·PNG·PGF·일본어 전사·차분 파일은 커밋하지 않는다. 이전 사용자 수용을 새 후보 실행 PASS로 옮기지 않고, 종료된 게임/CMD 검증을 다시 요청하거나 실행하지 않는다.
+
+## 020 후속 체크포인트
+
+공통 UV 수정 17개·기존 16개 폐기, 로비/통신 49개, 전투 조건 동일 원본 셀 18개, 중간 전적 1개, 작은 확인/편집 2개: 새 라벨 87개·순증 71개. `shared_ui_uv_v3`, `shared_variants_v3`, `tiny_shared_v2`를 순서대로 반영했다. 실패한 v1/v2 시제품을 사용하지 않는다. 비용의 기 접미사와 일부 공유 셀은 실제 동적 UV 연결이 미확정이다.
+
+`ui_consumer_audit_018_v2`의 1,272개 원본/018 조각을 전수 육안 검토했다. `ui_consumer_audit_019`의 63개 변경 조각도 육안 검토했다. 작은 확인/편집 표시는 UV 크기 필터로 누락되는 원본 아틀라스에서 추가 확인했다. 새 `tools/inspect_pmf2_ui_consumers.py`는 기존 형식의 좌표·삼각형과 회귀 일치하며 법선 포함 0x142 프리미티브 23개(정점 74개)도 해독한다. 원본 효과 그림의 일본어는 관찰되지 않았다. 전체 15자산의 지원 불명 정점은 0개지만 전체 모드 소비자 관계가 증명된 것은 아니다.
+
+수정되지 않은 핵심 자산 9개·30면도 검토해 일본어를 관찰하지 못했다. NEXT PLUS 전체 상태별 리소스 분모, 동적 UV, 실제 모드 호출 연결과 분할/회전 표시의 전체 XY 조합은 남아 있다. 종료된 게임/CMD 검증을 다시 요청하거나 실행하지 않는다.

@@ -4,7 +4,7 @@
   "approved": false,
   "runtime_verdict": "NOT_TESTED",
   "whole_scope_complete": false,
-  "edited_regions": 459,
+  "edited_regions": 530,
   "rows": [
     {
       "id": "Q0008",
@@ -4760,33 +4760,6 @@
       "source_crop_rgba_sha256": "13687cc74d08973bcbbdee5c506f04fd05f84362466dd463ad7c5547d5ec8ce4"
     },
     {
-      "id": "Q0383",
-      "asset": "trl04.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        1,
-        52,
-        75,
-        65
-      ],
-      "inner_box": [
-        1,
-        52,
-        75,
-        65
-      ],
-      "target_ko": "총 플레이 시간",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "1d6c3ba0838267bd09eef49409ae43c8d60816161207d426f837a7535963c434"
-    },
-    {
       "id": "Q0385",
       "asset": "trl04.pzz",
       "part": 1,
@@ -7730,87 +7703,6 @@
       "source_crop_rgba_sha256": "986cdd77d77187f5aa99b515d4cc607103a95db897b4b9ddb176e1d58b440e03"
     },
     {
-      "id": "NP_EDITOR_BANK_001",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        171,
-        57,
-        202,
-        69
-      ],
-      "inner_box": [
-        171,
-        57,
-        202,
-        69
-      ],
-      "target_ko": "메뉴",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "3242363b03ea0d4caff3d3cbf73214b2797f78276f6c691f5f1ba7f790edb2c8"
-    },
-    {
-      "id": "NP_EDITOR_BANK_003",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        156,
-        71,
-        190,
-        83
-      ],
-      "inner_box": [
-        156,
-        71,
-        190,
-        83
-      ],
-      "target_ko": "스킬",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "596255f58fbf52981ac8a2f78d1d336d68672e14be634911fd3b18ee0c6481af"
-    },
-    {
-      "id": "NP_EDITOR_BANK_004",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        191,
-        71,
-        217,
-        83
-      ],
-      "inner_box": [
-        191,
-        71,
-        217,
-        83
-      ],
-      "target_ko": "상세",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "eeec83485f7fa8238d10601816ff57bfdf2d378420e435cbb72f51bc54873296"
-    },
-    {
       "id": "NP_EDITOR_BANK_005",
       "asset": "trl02.pzz",
       "part": 1,
@@ -7863,114 +7755,6 @@
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "source_crop_rgba_sha256": "f72fe31656bd2d844fdf260a586ae699f916befdd4dcc5f1738a378d178d24b8"
-    },
-    {
-      "id": "NP_EDITOR_BANK_007",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        1,
-        163,
-        53,
-        181
-      ],
-      "inner_box": [
-        1,
-        163,
-        53,
-        181
-      ],
-      "target_ko": "경험치",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "69a90bf464b6b697b21cbb83e7b7ddacbe31dde9035238a497ad8d4195ea6434"
-    },
-    {
-      "id": "NP_EDITOR_BANK_008",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        70,
-        241,
-        98,
-        255
-      ],
-      "inner_box": [
-        70,
-        241,
-        98,
-        255
-      ],
-      "target_ko": "필요",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "326b5323315a25f247b6835013b99d75bcd563120e37fd5753a9c2a2c12d27a6"
-    },
-    {
-      "id": "NP_EDITOR_BANK_009",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        129,
-        191,
-        179,
-        203
-      ],
-      "inner_box": [
-        129,
-        191,
-        179,
-        203
-      ],
-      "target_ko": "획득 완료",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "d16fbdfd578373b9e2ddadd146d51d562c9153423ab89e990fb36584b6b62025"
-    },
-    {
-      "id": "NP_EDITOR_BANK_010",
-      "asset": "trl02.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        256,
-        256
-      ],
-      "box": [
-        183,
-        191,
-        249,
-        203
-      ],
-      "inner_box": [
-        183,
-        191,
-        249,
-        203
-      ],
-      "target_ko": "획득 비용",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "2157c24b66a7b0dec1e1292669475c2ba621370286a4d51ab0304d7bf801f0e4"
     },
     {
       "id": "NP_EDITOR_BANK_011",
@@ -8052,114 +7836,6 @@
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "source_crop_rgba_sha256": "301eb1cdbddc7afd8da9d118086323dab2c636263cdf81a962f55b600bfe42a4"
-    },
-    {
-      "id": "NP_MISSION_BANK_000",
-      "asset": "trl01.pzz",
-      "part": 1,
-      "picture": 1,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        1,
-        92,
-        64,
-        103
-      ],
-      "inner_box": [
-        1,
-        92,
-        64,
-        103
-      ],
-      "target_ko": "미션 수",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "8377f8033f7e5f2a62eef28e7e4b54986d557c2a32339cd3f21d68823a4db57a"
-    },
-    {
-      "id": "NP_MISSION_BANK_001",
-      "asset": "trl01.pzz",
-      "part": 1,
-      "picture": 1,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        65,
-        92,
-        127,
-        103
-      ],
-      "inner_box": [
-        65,
-        92,
-        127,
-        103
-      ],
-      "target_ko": "재도전 가능 횟수",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "ac25a8c3699e58d673cd1e0a5b4dc04a33f2bf883b86ce68bed39d4861de3cd1"
-    },
-    {
-      "id": "NP_MISSION_BANK_002",
-      "asset": "trl01.pzz",
-      "part": 1,
-      "picture": 1,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        1,
-        104,
-        29,
-        116
-      ],
-      "inner_box": [
-        1,
-        104,
-        29,
-        116
-      ],
-      "target_ko": "일반",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "956003e6e0508b6a0845bd2f86eb3369a98f4fa0bb713b028a0f4ec7d587290e"
-    },
-    {
-      "id": "NP_MISSION_BANK_003",
-      "asset": "trl01.pzz",
-      "part": 1,
-      "picture": 1,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        30,
-        104,
-        93,
-        116
-      ],
-      "inner_box": [
-        30,
-        104,
-        93,
-        116
-      ],
-      "target_ko": "프리 모드",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "559ce81df3df418b4aae00c367813c4ef7dd48c05a75eab2730a81ffd30ead64"
     },
     {
       "id": "NP_GAMEPLAY_trl01_000",
@@ -9053,87 +8729,6 @@
       "source_crop_rgba_sha256": "81da96da41efab48b87817f1ada30305d332bbb529c92babf05b5ee9cc9e99d7"
     },
     {
-      "id": "NP_RESULT_BANK_000",
-      "asset": "trl04.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        1,
-        1,
-        27,
-        17
-      ],
-      "inner_box": [
-        1,
-        1,
-        27,
-        17
-      ],
-      "target_ko": "초급",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "acc228fa981028a59f22fcd392a2ca3f7b9b5dde8526fc4f4d8348a3f5565a3b"
-    },
-    {
-      "id": "NP_RESULT_BANK_001",
-      "asset": "trl04.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        30,
-        1,
-        56,
-        17
-      ],
-      "inner_box": [
-        30,
-        1,
-        56,
-        17
-      ],
-      "target_ko": "중급",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "8eb5f8ca37bb4240b97bbb15c23924f5a58c7ba92f05696927ac9cc5918bd380"
-    },
-    {
-      "id": "NP_RESULT_BANK_002",
-      "asset": "trl04.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        59,
-        1,
-        86,
-        17
-      ],
-      "inner_box": [
-        59,
-        1,
-        86,
-        17
-      ],
-      "target_ko": "상급",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "c25a8aa04212ba89c290db5e7482ed9a34964226946e518dd6bf5e4d49d4b8df"
-    },
-    {
       "id": "NP_RESULT_BANK_003",
       "asset": "trl04.pzz",
       "part": 1,
@@ -9186,33 +8781,6 @@
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
       "source_crop_rgba_sha256": "65244dc9435e66a62234e38260f5f6c175136a347d05f7a66f88e87cd6f4951c"
-    },
-    {
-      "id": "NP_RESULT_BANK_005",
-      "asset": "trl04.pzz",
-      "part": 1,
-      "picture": 0,
-      "dimensions": [
-        128,
-        256
-      ],
-      "box": [
-        60,
-        19,
-        114,
-        35
-      ],
-      "inner_box": [
-        60,
-        19,
-        114,
-        35
-      ],
-      "target_ko": "트라이얼",
-      "status": "development_source_reviewed",
-      "approved": false,
-      "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "0d272e389c7a3fdfb93983eff677eda09caea97aa30427556476ad7619c20be2"
     },
     {
       "id": "NP_RESULT_BANK_006",
@@ -12527,6 +12095,2609 @@
       "source_consumer_objects": [
         "trl02_tred20e"
       ]
+    },
+    {
+      "id": "UV_MISSION_COUNT",
+      "box": [
+        1,
+        104,
+        59,
+        116
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "6d5e8a56c429c95200ee94e7b8fc7f8b17bc9287b755b2aae7b4761be17f64f9",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "미션 수",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl01_trp014"
+      ]
+    },
+    {
+      "id": "UV_MISSION_RETRY",
+      "box": [
+        60,
+        104,
+        125,
+        116
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "7a36ae13de35bf194e12b056e66280570e428d4c9595767083c7aa1d4a56eb42",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "재도전 횟수",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl01_trp015"
+      ]
+    },
+    {
+      "id": "UV_trl01_COST_SUFFIX",
+      "box": [
+        93,
+        10,
+        106,
+        23
+      ],
+      "size": 11,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "8fd9c1f94fbe53b1966f19115cc8e141319b6f0d5fa48fb88409cfb6b1d0a5d6",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 3,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "기",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "UV_EDITOR_MENU",
+      "box": [
+        163,
+        57,
+        202,
+        69
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "2b17beb567aaf132541e421518d168b55291888344b9999d0d2c6e5dd0677e18",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "메뉴",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl02_tred20a"
+      ]
+    },
+    {
+      "id": "UV_EDITOR_SKILL_DETAIL",
+      "box": [
+        129,
+        71,
+        194,
+        85
+      ],
+      "size": 12,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "3f8e7777901d6e610350093f9561e25ac473d9ec51effa49bdb60e0cf1131018",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "스킬 상세",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl02_tred102"
+      ]
+    },
+    {
+      "id": "UV_EDITOR_EXPERIENCE",
+      "box": [
+        1,
+        164,
+        44,
+        181
+      ],
+      "size": 15,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "3bd39f286383ec0eab80bcca009ffa04fd0e8a0851fee4d7c775e17e8d010357",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "경험치",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl02_tred008"
+      ]
+    },
+    {
+      "id": "UV_EDITOR_REQUIRED",
+      "box": [
+        63,
+        242,
+        87,
+        255
+      ],
+      "size": 12,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "850c7b0e09c2bad10841fd55d1da819a3226a2655b1d885e67593d469d7c38c7",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "필요",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl02_tred00a"
+      ]
+    },
+    {
+      "id": "UV_EDITOR_ACQUIRED",
+      "box": [
+        130,
+        193,
+        180,
+        205
+      ],
+      "size": 11,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "dd60838d65119a1ee319ee1917015bb2a2db9146f01ccbe69cb579948cadfb80",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "획득 완료",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl02_tred30f"
+      ]
+    },
+    {
+      "id": "UV_EDITOR_ACQUISITION_COST",
+      "box": [
+        181,
+        193,
+        231,
+        205
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "54c5d5f172464842da4fb604b4b3cbd2fec32306e5c9df26cdbdc1074165151c",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl02.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "획득 비용",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl02_tred311"
+      ]
+    },
+    {
+      "id": "UV_trl03_COST_SUFFIX",
+      "box": [
+        93,
+        10,
+        106,
+        23
+      ],
+      "size": 11,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "8fd9c1f94fbe53b1966f19115cc8e141319b6f0d5fa48fb88409cfb6b1d0a5d6",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "asset": "trl03.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "기",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "UV_trl03_VICTORY",
+      "box": [
+        1,
+        1,
+        43,
+        13
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "a29fd2b1a21d5c3765d64708eb30e5ed94d07af40d22695d0c7bd772ccafcc3e",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl03.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        32
+      ],
+      "target_ko": "승리 조건",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl03_trm015"
+      ]
+    },
+    {
+      "id": "UV_trl03_DEFEAT",
+      "box": [
+        1,
+        15,
+        43,
+        27
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "41edfd7522226fe52695d8ca29c886a08539145ceac91376460ec764ac33a477",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl03.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        32
+      ],
+      "target_ko": "패배 조건",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl03_trm015"
+      ]
+    },
+    {
+      "id": "UV_RESULT_BEGINNER",
+      "box": [
+        1,
+        1,
+        30,
+        17
+      ],
+      "size": 15,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "8745e5c4081dbcbe195505a4ed0065fbe738d06d638f0099b7d9e96e06ad5d71",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl04.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "초급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl04_trr031"
+      ]
+    },
+    {
+      "id": "UV_RESULT_INTERMEDIATE",
+      "box": [
+        32,
+        1,
+        61,
+        17
+      ],
+      "size": 15,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "1880c795179c543b5c77317d53b8499c989135832d1251a20ed1da33740cda68",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl04.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "중급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl04_trr032"
+      ]
+    },
+    {
+      "id": "UV_RESULT_ADVANCED",
+      "box": [
+        63,
+        1,
+        93,
+        17
+      ],
+      "size": 15,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "7ad13cb75ab1b9316c067d1f33c44de341b9938d85db6fa251ed6090c175aa4e",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl04.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "상급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl04_trr033"
+      ]
+    },
+    {
+      "id": "UV_RESULT_TRIAL",
+      "box": [
+        60,
+        19,
+        119,
+        35
+      ],
+      "size": 15,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "d073c2b3072e70cd7f701d81c7bcd285f2ffb855c718dd2469cc51d9d889c077",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl04.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "트라이얼",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl04_trr031",
+        "trl04_trr032",
+        "trl04_trr033",
+        "trl04_trr034",
+        "trl04_trr035",
+        "trl04_trr036"
+      ]
+    },
+    {
+      "id": "UV_RESULT_TOTAL_TIME",
+      "box": [
+        1,
+        52,
+        75,
+        65
+      ],
+      "size": 11,
+      "scale_x": 1,
+      "source_crop_rgba_sha256": "1d6c3ba0838267bd09eef49409ae43c8d60816161207d426f837a7535963c434",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "asset": "trl04.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "총 플레이 시간",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "trl04_trr041",
+        "trl04_trr111"
+      ]
+    },
+    {
+      "id": "NETWORK_C1029",
+      "box": [
+        1,
+        53,
+        38,
+        70
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "c6ef849399bf5609d19eee005eda5134338f9bd078f632dba0b0da55ba20a8e1",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "모드",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as06"
+      ]
+    },
+    {
+      "id": "NETWORK_C1030",
+      "box": [
+        1,
+        72,
+        79,
+        89
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "6ac208ba4e6a81d853a3785ae32b1c74cd50ed99bdbb222920082ff1e4252de0",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "맵 레벨",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as07"
+      ]
+    },
+    {
+      "id": "NETWORK_C1031",
+      "box": [
+        107,
+        53,
+        220,
+        70
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "6bf8df1c106be4db9cd72fcd1284d926f8e1f0a91172aa3579ce23b63ae1e29a",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "육성 레벨 반영",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as08"
+      ]
+    },
+    {
+      "id": "NETWORK_C1032",
+      "box": [
+        40,
+        53,
+        71,
+        70
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "9347c3251c26c222a760dfea3d48a63644acb87a3247041cd53eec1807778bd4",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "협력",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as09"
+      ]
+    },
+    {
+      "id": "NETWORK_C1033",
+      "box": [
+        73,
+        53,
+        105,
+        70
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "a791b04a946909fd06290991cdbacefc9fd0cc96d3dc95e4675ef275d20c3eca",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "대전",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as0a"
+      ]
+    },
+    {
+      "id": "NETWORK_C1034",
+      "box": [
+        81,
+        72,
+        113,
+        89
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "e8c56eb41fa2682ba3c6d3b6d853fef10e1ace227d4d74217ec82a6bccb09a96",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "초급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as0b"
+      ]
+    },
+    {
+      "id": "NETWORK_C1035",
+      "box": [
+        115,
+        72,
+        146,
+        89
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "4a900b2d5e5c4c6bd0ae080c50b18e64e9a72dc62eb92e615dbaf36793942704",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "중급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as0c"
+      ]
+    },
+    {
+      "id": "NETWORK_C1036",
+      "box": [
+        148,
+        72,
+        179,
+        89
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "834feada1a9b9e58f1bcaf51653ed526b4501dbc17951eab60a4148d88a07a96",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "상급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as0d"
+      ]
+    },
+    {
+      "id": "NETWORK_C1038",
+      "box": [
+        1,
+        91,
+        28,
+        108
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "722b590373b08b8f6ed3cc03b528bed714f7089fa1ab1210b70d9727f38041e6",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "적용",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as0f"
+      ]
+    },
+    {
+      "id": "NETWORK_C1039",
+      "box": [
+        30,
+        91,
+        72,
+        108
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "db96bd1ebb4984176a7ed59ec3114acb3e362813a0985c8aefe4ae64b10f0de5",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "미적용",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "adhc_nt_as10"
+      ]
+    },
+    {
+      "id": "NETWORK_HEADER_ARCADE",
+      "box": [
+        1,
+        20,
+        50,
+        32
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "198f6523b63b510ab97bb7561cd3e8605b82b175b6b5b8cbce88aa00ededb2ce",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "아케이드",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "NETWORK_HEADER_FREE",
+      "box": [
+        52,
+        20,
+        110,
+        32
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "e68fdadf39fbba3850167941ed9676255829f59042644f2e5bb84a73be98632f",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "프리 배틀",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "NETWORK_HEADER_NEXT_TRIAL",
+      "box": [
+        112,
+        20,
+        194,
+        32
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "f13b75dfbd1d2fb7bc794357597abc348e885accc2d0e197bb202ba1b308603e",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "adhc_nt.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        128
+      ],
+      "target_ko": "NEXT 트라이얼",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "NETWORK_C1017",
+      "box": [
+        1,
+        20,
+        50,
+        32
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "198f6523b63b510ab97bb7561cd3e8605b82b175b6b5b8cbce88aa00ededb2ce",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "linesel.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        256,
+        64
+      ],
+      "target_ko": "아케이드",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "linesel_ab0c"
+      ]
+    },
+    {
+      "id": "NETWORK_C1018",
+      "box": [
+        52,
+        20,
+        110,
+        32
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "e68fdadf39fbba3850167941ed9676255829f59042644f2e5bb84a73be98632f",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "linesel.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        256,
+        64
+      ],
+      "target_ko": "프리 배틀",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "linesel_ab0d"
+      ]
+    },
+    {
+      "id": "NETWORK_C1024",
+      "box": [
+        1,
+        34,
+        74,
+        51
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "a26526e306bdf1208e2c442d27adfe133ef2c9e5186c39228a26c96e3af51d51",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "linesel.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        256,
+        64
+      ],
+      "target_ko": "LINE 선택",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "linesel_ab14"
+      ]
+    },
+    {
+      "id": "NETWORK_C1026",
+      "box": [
+        76,
+        34,
+        121,
+        51
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "933ff1e69d5c7ea3e0285d0f1718fa689c1d452bd49b54bae107df922a7e618f",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "linesel.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        256,
+        64
+      ],
+      "target_ko": "로비",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "linesel_ab15"
+      ]
+    },
+    {
+      "id": "NETWORK_C0960",
+      "box": [
+        181,
+        200,
+        226,
+        217
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "7aede53093a2aabfb1fe471c89b9c5483bedd15f0e711f879f46ac0c0ff89bb1",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "출격 중",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah07"
+      ]
+    },
+    {
+      "id": "NETWORK_C0961",
+      "box": [
+        86,
+        200,
+        132,
+        217
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "425bc3f368ed89546b5c00c405689849219b199b1fbc6fc40dda1253d8e12a31",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "대기 중",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah08"
+      ]
+    },
+    {
+      "id": "NETWORK_C0962",
+      "box": [
+        134,
+        200,
+        179,
+        217
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "89d9df83222f5dbba5fd85dc0c3c941b208ff4400df30af84f80b453c8aa27b2",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "설정 중",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah09"
+      ]
+    },
+    {
+      "id": "NETWORK_C0965",
+      "box": [
+        1,
+        35,
+        67,
+        52
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "4c2c35ba1de3022b0d765b569483f72988d0bb4903e27ee6b808d7d984a1540f",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "새로 만들기",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah0c"
+      ]
+    },
+    {
+      "id": "NETWORK_C0968",
+      "box": [
+        1,
+        112,
+        51,
+        129
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "3c504162612b11079fcf866798ca05929ff0173a55d38944dcad9c3ef3e2a96c",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "데이터를",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah12",
+        "lobby_ah13"
+      ]
+    },
+    {
+      "id": "NETWORK_C0969",
+      "box": [
+        53,
+        112,
+        80,
+        129
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "cb2c798357f6b55d2a4ab4b5249f4323a2bd9aae4db13e4e485b8cf2045caa1d",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "보기",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah12"
+      ]
+    },
+    {
+      "id": "NETWORK_C0970",
+      "box": [
+        82,
+        112,
+        110,
+        129
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "9034881cdb5458f19a6b021a95654fb869ea507363bcff43ca5713303ebcd9f2",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "보내기",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah13"
+      ]
+    },
+    {
+      "id": "NETWORK_C0977",
+      "box": [
+        1,
+        238,
+        46,
+        255
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "2347384f73ba0374cfce65fcf590e36f7795d8f77e9318e379d3e4514979676b",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "난이도",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah1c"
+      ]
+    },
+    {
+      "id": "NETWORK_C0978",
+      "box": [
+        132,
+        238,
+        173,
+        255
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "3bbcbd1434fe698ab9429d9e331021f315efe753e2470a176d05b2cc8910bafc",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "부스트",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah1c",
+        "lobby_ah1e"
+      ]
+    },
+    {
+      "id": "NETWORK_C0979",
+      "box": [
+        175,
+        238,
+        223,
+        255
+      ],
+      "size": 11,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "af5576035a75f2b49678779c91e83ca7584fc2f4c89a0a512de442edad20c8d5",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "시간 제한",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah1c",
+        "lobby_ah1e"
+      ]
+    },
+    {
+      "id": "NETWORK_C0980",
+      "box": [
+        48,
+        238,
+        130,
+        255
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "b5125f3acaba8dc4808f952b609a6538f49a8f5089c2617ac8e43a29a7b7a18b",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "피해량",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah1c",
+        "lobby_ah1e"
+      ]
+    },
+    {
+      "id": "NETWORK_C0982",
+      "box": [
+        44,
+        200,
+        84,
+        217
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "96bb0549e2dc938cf5020a5af5c1bbc3c7636ede2ab40eb4e852e50f3a604388",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "B팀",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah1e"
+      ]
+    },
+    {
+      "id": "NETWORK_C0983",
+      "box": [
+        1,
+        200,
+        42,
+        217
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "7708d44badcbbf29654503c5d27e50a403b432ae7455c44aee96b88d4130b5a3",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "A팀",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah1e"
+      ]
+    },
+    {
+      "id": "NETWORK_C0985",
+      "box": [
+        1,
+        219,
+        36,
+        236
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "75f7f2b552ec1350f141b992345583ee0b735ce7f9cbf996e23eb7a046df3bd4",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "모드",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah20"
+      ]
+    },
+    {
+      "id": "NETWORK_C0986",
+      "box": [
+        101,
+        219,
+        175,
+        236
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "3c3651334705146f14b0466f3e1bdc6edd2cce460dd75d157cab2bd40ecf0df3",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "육성 Lv 반영",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah20"
+      ]
+    },
+    {
+      "id": "NETWORK_C0987",
+      "box": [
+        38,
+        219,
+        99,
+        236
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "cyan",
+      "source_crop_rgba_sha256": "8f0c7d0b07df5523661395daf3ba0ab50db6ddbd072859a8d36b5d18deb1ef87",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "맵 레벨",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah20"
+      ]
+    },
+    {
+      "id": "NETWORK_C0992",
+      "box": [
+        1,
+        166,
+        29,
+        183
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "cc9300ee57a5353d707cb9d4b591b691cdd6386af014902d19991898de21d320",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "협력",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah25"
+      ]
+    },
+    {
+      "id": "NETWORK_C0993",
+      "box": [
+        1,
+        185,
+        25,
+        198
+      ],
+      "size": 12,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "20da52610949ac95f79f5b46dc68f4a0fbff2c40e48fa7e6319991a205b1cb1f",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "협력",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah26"
+      ]
+    },
+    {
+      "id": "NETWORK_C0994",
+      "box": [
+        31,
+        166,
+        61,
+        183
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "cecd03a214651e831c4874049833cbf1eadf1df1ffab091b105422c041e2314a",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "대전",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah27"
+      ]
+    },
+    {
+      "id": "NETWORK_C0995",
+      "box": [
+        27,
+        185,
+        53,
+        198
+      ],
+      "size": 12,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "cfa9a6749e38f97493e5300d83dd3839bb6c692eae59457d330751bdcb9c2d8d",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "대전",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah28"
+      ]
+    },
+    {
+      "id": "NETWORK_C0996",
+      "box": [
+        127,
+        166,
+        156,
+        183
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "8fc627b6ee682dbe37a255b02a65491078fdb1a661b0e939e4dd62564d1e6088",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "초급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah29"
+      ]
+    },
+    {
+      "id": "NETWORK_C0997",
+      "box": [
+        111,
+        185,
+        136,
+        198
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "56ec3b3cfa4103d27f12f2a6cb05a78c7f1fa99a2ba19e1837c9a8a8c271f9b7",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "초급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah2a"
+      ]
+    },
+    {
+      "id": "NETWORK_C0998",
+      "box": [
+        158,
+        166,
+        186,
+        183
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "c7f1efdff6d2fd766f53d46e62a257e9cd39cab7aabb6b1a3a387401fe859871",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "중급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah2b"
+      ]
+    },
+    {
+      "id": "NETWORK_C0999",
+      "box": [
+        138,
+        185,
+        162,
+        198
+      ],
+      "size": 12,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "f8e7fb179e96c4a2311ee91c967b0b22a79929a0a542313e7c9c86912c2b60c6",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "중급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah2c"
+      ]
+    },
+    {
+      "id": "NETWORK_C1000",
+      "box": [
+        188,
+        166,
+        217,
+        183
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "c5c6f1ac6d66c8138bcf8e5db207117fb7ca5ed72b46b70648684121fd0e72e7",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "상급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah2d"
+      ]
+    },
+    {
+      "id": "NETWORK_C1001",
+      "box": [
+        164,
+        185,
+        189,
+        198
+      ],
+      "size": 12,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "d65fafac3a2db88bf9c98573a9ec42a263492e4454b6cbfcf3b6326aba0f35f3",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "상급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah2e"
+      ]
+    },
+    {
+      "id": "NETWORK_C1004",
+      "box": [
+        63,
+        166,
+        88,
+        183
+      ],
+      "size": 11,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "f9fa531adbeca07f9127304340eea19628e021a25069c1a527996d63196a7684",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "적용",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah31"
+      ]
+    },
+    {
+      "id": "NETWORK_C1005",
+      "box": [
+        55,
+        185,
+        76,
+        198
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "5bc0ffa1441dd8384abd0dd6a55d5c692ae44697f680781fac10cd976dc52865",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "적용",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah32"
+      ]
+    },
+    {
+      "id": "NETWORK_C1006",
+      "box": [
+        90,
+        166,
+        125,
+        183
+      ],
+      "size": 11,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "171410ecaf33896f49b4bf5c236f9c5077f2e389b2d34acf98655291e6f33127",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "미적용",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah33"
+      ]
+    },
+    {
+      "id": "NETWORK_C1007",
+      "box": [
+        78,
+        185,
+        109,
+        198
+      ],
+      "size": 11,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "0271310263e74195d4ada464b3967c0816a39f11f4714499889f43a06664eaa3",
+      "consumer_kind": "STATIC_SOURCE_MESH",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "미적용",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": [
+        "lobby_ah34"
+      ]
+    },
+    {
+      "id": "NETWORK_SETTINGS_CHECK",
+      "box": [
+        69,
+        35,
+        136,
+        52
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "4c493ccc169edaed35eaa1f8ae13286e7e1d776ebc6860053c1ab3624740c06c",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "설정 확인",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "NETWORK_CREATE_SELECTED",
+      "box": [
+        157,
+        35,
+        230,
+        59
+      ],
+      "size": 14,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "83d16f16699bbbe9c39127caa5a5e673dfa5614df54f263bbe8e184e9ee6c4f6",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "lobby.pzz",
+      "part": 1,
+      "picture": 0,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "새로 만들기",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0279",
+      "box": [
+        1,
+        103,
+        25,
+        126
+      ],
+      "size": 26,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "408bfada92e80876186a687e74e77159595cc36cb7a53c609d4e8e7177b765a9",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0279",
+        "original_crop_rgba_sha256": "408bfada92e80876186a687e74e77159595cc36cb7a53c609d4e8e7177b765a9"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "초",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0280",
+      "box": [
+        27,
+        103,
+        49,
+        126
+      ],
+      "size": 25,
+      "scale_x": 0.9565217391304348,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "b8be01b8111844a116b187b8b0504911bbdb84d0ee552c5190273d9bb4bdb0de",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0280",
+        "original_crop_rgba_sha256": "b8be01b8111844a116b187b8b0504911bbdb84d0ee552c5190273d9bb4bdb0de"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "중",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0281",
+      "box": [
+        51,
+        103,
+        74,
+        126
+      ],
+      "size": 24,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "2b9d48bb1376add7f3186714d99088ba121ba6b6afff5048ba363c78bf2e4d50",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0281",
+        "original_crop_rgba_sha256": "2b9d48bb1376add7f3186714d99088ba121ba6b6afff5048ba363c78bf2e4d50"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "상",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0283",
+      "box": [
+        104,
+        36,
+        127,
+        86
+      ],
+      "size": 23,
+      "scale_x": 1,
+      "angle": 90,
+      "style": "white",
+      "source_crop_rgba_sha256": "7fffe07fc8b3e97dbe0684e57ff3b42d8f13877bf4cf8bd365636d5305bcdf27",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0283",
+        "original_crop_rgba_sha256": "7fffe07fc8b3e97dbe0684e57ff3b42d8f13877bf4cf8bd365636d5305bcdf27"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "대전",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0284",
+      "box": [
+        82,
+        13,
+        120,
+        34
+      ],
+      "size": 22,
+      "scale_x": 0.9047619047619048,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "a998ce2d922a1841ef95304ef83a5e9fb8c22fa2537569736326616d3902d75a",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0284",
+        "original_crop_rgba_sha256": "a998ce2d922a1841ef95304ef83a5e9fb8c22fa2537569736326616d3902d75a"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "솔로",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0285",
+      "box": [
+        102,
+        103,
+        127,
+        126
+      ],
+      "size": 26,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "8596c70b4d4200451d85ccd93dc294a018d5143f3f55b744239dbc963f9f9f0a",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0285",
+        "original_crop_rgba_sha256": "8596c70b4d4200451d85ccd93dc294a018d5143f3f55b744239dbc963f9f9f0a"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "급",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0349",
+      "box": [
+        1,
+        1,
+        32,
+        11
+      ],
+      "size": 9,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "3d4790b3024458696f19d7042109fe26589a65cf8477b90deed9b23a8c25c418",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0349",
+        "original_crop_rgba_sha256": "3d4790b3024458696f19d7042109fe26589a65cf8477b90deed9b23a8c25c418"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "부스트",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0350",
+      "box": [
+        34,
+        1,
+        55,
+        11
+      ],
+      "size": 9,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "2d1e581418675dad875738f55f053c7a4f130cfc9d35f2d455c2db565241abe3",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0350",
+        "original_crop_rgba_sha256": "2d1e581418675dad875738f55f053c7a4f130cfc9d35f2d455c2db565241abe3"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "무한",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0351",
+      "box": [
+        57,
+        1,
+        79,
+        11
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "6be6655a254070aa51437020c1bef3e2d7e8b7eec7708343255d044a24587293",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0351",
+        "original_crop_rgba_sha256": "6be6655a254070aa51437020c1bef3e2d7e8b7eec7708343255d044a24587293"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "절반",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0352",
+      "box": [
+        81,
+        1,
+        103,
+        11
+      ],
+      "size": 10,
+      "scale_x": 0.7857142857142857,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "fac6fff1691d4c0513fa7852e47a41626c3c699835f42e9f6118196de64990b8",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0352",
+        "original_crop_rgba_sha256": "fac6fff1691d4c0513fa7852e47a41626c3c699835f42e9f6118196de64990b8"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "극소량",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0354",
+      "box": [
+        1,
+        13,
+        32,
+        24
+      ],
+      "size": 8,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "d17e97936ddb6be40ba283d5dea4ed67cc139a6cdb8afdeb070b380ff8e0a56c",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0354",
+        "original_crop_rgba_sha256": "d17e97936ddb6be40ba283d5dea4ed67cc139a6cdb8afdeb070b380ff8e0a56c"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "내구력",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0357",
+      "box": [
+        1,
+        25,
+        68,
+        35
+      ],
+      "size": 9,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "4826ee1179fafac06a4b7565d5d73859c1b6f79802a615414c399ef6fcdf61e0",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0357",
+        "original_crop_rgba_sha256": "4826ee1179fafac06a4b7565d5d73859c1b6f79802a615414c399ef6fcdf61e0"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "모든 무장 탄수 0",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0358",
+      "box": [
+        1,
+        37,
+        82,
+        47
+      ],
+      "size": 9,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "f5346de3c06e018fa927b9afeb69e4a713b466e1371ea1fcc833196afcb8925a",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0358",
+        "original_crop_rgba_sha256": "f5346de3c06e018fa927b9afeb69e4a713b466e1371ea1fcc833196afcb8925a"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "록온 거리 감소",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0362",
+      "box": [
+        1,
+        88,
+        71,
+        101
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "d5d0a96a77d5212091df0fdf0e03c7618a84f6110aa26618d60c43d7d5a48ee2",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0362",
+        "original_crop_rgba_sha256": "d5d0a96a77d5212091df0fdf0e03c7618a84f6110aa26618d60c43d7d5a48ee2"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "총점",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0363",
+      "box": [
+        73,
+        88,
+        127,
+        101
+      ],
+      "size": 13,
+      "scale_x": 0.8307692307692308,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "4f5377cd5ff8ee5b78e518aa2e96a971106ad34ab3525c35af9f3023e38f4aac",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0363",
+        "original_crop_rgba_sha256": "4f5377cd5ff8ee5b78e518aa2e96a971106ad34ab3525c35af9f3023e38f4aac"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "플레이 시간",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0364",
+      "box": [
+        1,
+        73,
+        82,
+        86
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "f18dfaa52a507d2715c378ca528ccb8235f684ac6307908b23ebd6d2978d72b1",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0364",
+        "original_crop_rgba_sha256": "f18dfaa52a507d2715c378ca528ccb8235f684ac6307908b23ebd6d2978d72b1"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "완료 미션 수",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0365",
+      "box": [
+        1,
+        58,
+        71,
+        71
+      ],
+      "size": 12,
+      "scale_x": 0.8333333333333334,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "fe396062b011c9cc54736d549625c22caee2c4cd6679b210a6c0fb73ed7626b7",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0365",
+        "original_crop_rgba_sha256": "fe396062b011c9cc54736d549625c22caee2c4cd6679b210a6c0fb73ed7626b7"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "재도전 가능 횟수",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_EFFECT_Q0368",
+      "box": [
+        84,
+        75,
+        95,
+        86
+      ],
+      "size": 10,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "969db59ef4ff49e8394bb3f03e886f46b8229179980873b777b2093d404b56e1",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": {
+        "asset": "trl03.pzz",
+        "picture": 4,
+        "id": "Q0368",
+        "original_crop_rgba_sha256": "969db59ef4ff49e8394bb3f03e886f46b8229179980873b777b2093d404b56e1"
+      },
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 5,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "회",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "VARIANT_INTERIM_RESULTS",
+      "box": [
+        1,
+        78,
+        58,
+        97
+      ],
+      "size": 13,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "dc8a193a46e620118fcebbb888d58c1d4ab5369efd96fa2d57e392192414090e",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "trl01.pzz",
+      "part": 1,
+      "picture": 4,
+      "dimensions": [
+        128,
+        128
+      ],
+      "target_ko": "중간 전적",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "TINY_PILOT_EDIT",
+      "box": [
+        158,
+        3,
+        184,
+        15
+      ],
+      "size": 9,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "glow",
+      "source_crop_rgba_sha256": "aee0c6f736c8d45ddfac66d7c84e7a540ca63796e07ffd51f24f60d4f6a76164",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "pcard.pzz",
+      "part": 1,
+      "picture": 2,
+      "dimensions": [
+        256,
+        256
+      ],
+      "target_ko": "편집",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
+    },
+    {
+      "id": "TINY_CONFIRM",
+      "box": [
+        40,
+        155,
+        58,
+        166
+      ],
+      "size": 9,
+      "scale_x": 1,
+      "angle": 0,
+      "style": "white",
+      "source_crop_rgba_sha256": "83b18c56bdc84a26862e5c029d360a290ea467e20c4ec026fd95ee8872443122",
+      "consumer_kind": "DYNAMIC_UV_MAPPING_UNRESOLVED",
+      "proven_identical_original_glyph_reuse": null,
+      "asset": "trl00.pzz",
+      "part": 1,
+      "picture": 1,
+      "dimensions": [
+        128,
+        256
+      ],
+      "target_ko": "확인",
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false,
+      "source_consumer_objects": []
     }
   ]
 }
