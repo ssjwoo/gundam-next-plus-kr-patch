@@ -3,8 +3,8 @@
 PSP 일본판 **『기동전사 건담: 건담 VS. 건담 NEXT PLUS』**의 한글화를 위한 역공학·빌드 도구와 번역 초안을 공개합니다.
 
 > [!WARNING]
-> 아직 개발 중인 한글 패치입니다. 최신 023 개발 릴리스를 공개했으며 게임 전체 한글화와 전체 플레이 검수는 진행 중입니다.
-> 사용자가 요청 수정의 반영과 NEXT PLUS 미션 프리징 해결을 확인했습니다. [확인·진단 기록](docs/MISSION_FREEZE_021_2026-10-03.md).
+> 아직 개발 중인 한글 패치입니다. 최신 027 개발 릴리스를 공개했으며 게임 전체 한글화와 전체 플레이 검수는 진행 중입니다.
+> 023에서 사용자가 요청 수정의 반영과 NEXT PLUS 미션 프리징 해결을 확인했습니다. 027 추가분의 실행 검수는 아직 NOT_TESTED입니다. [확인·진단 기록](docs/MISSION_FREEZE_021_2026-10-03.md).
 
 ## 저작권 및 배포 방침
 
@@ -18,23 +18,34 @@ PSP 일본판 **『기동전사 건담: 건담 VS. 건담 NEXT PLUS』**의 한�
 
 자세한 공개 경계는 [docs/PUBLICATION_POLICY.md](docs/PUBLICATION_POLICY.md)를 보세요.
 
-## 최신 배포 패치 — 023 (2026-10-03)
+## 최신 배포 패치 — 027 (2026-10-04)
 
-원본 일본판 ISO에 적용하는 누적 차분 패치를 [023 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023)로 공개했습니다.
-[next_plus_graphics_revision_023.xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-03-graphics-023/next_plus_graphics_revision_023.xdelta).
-**패치하지 않은 지원 원본에 적용**하며, v19·021·022 등 이전 패치 ISO에 덧씌우지 않습니다. 전체 ISO는 배포하지 않습니다.
+원본 일본판 ISO에 적용하는 누적 차분 패치를 [027 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-04-graphics-027)로 공개했습니다.
+[next_plus_graphics_revision_027.xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-04-graphics-027/next_plus_graphics_revision_027.xdelta).
+**패치하지 않은 지원 원본에 적용**하며, v19·021·023 등 기존 패치 ISO에 덧씌우지 않습니다.
 
-```
-xdelta3 -d -s original_jp.iso next_plus_graphics_revision_023.xdelta next_plus_graphics_revision_023.iso
+```text
+xdelta3 -d -s original_jp.iso next_plus_graphics_revision_027.xdelta next_plus_graphics_revision_027.iso
 ```
 
 폰트는 ISO 안 `/PSP_GAME/SYSDIR/UPDATE/DATA.BIN`에 있고 게임이 `disc0:`로 읽습니다.
-자유 라이선스 폰트를 내장하므로 **사용자가 자기 PSP에서 폰트를 뽑을 필요가 없습니다.**
+자유 라이선스 폰트를 내장하므로 별도 PSP 폰트 추출은 필요하지 않습니다.
 
-023은 폰트 경로·문자 분류표 수정과 건담 타이틀 로고 원본 복원을 포함합니다. 사용자가 요청한 수정의 반영과 기존 미션 전투 프리징 해결을 확인했습니다.
-패치 크기·원본/출력/패치 해시·적용법·남은 작업은 [023 릴리스 안내](docs/RELEASE_2026-10-03_023.md)를 보세요. [이전 021](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-021)과 [v19 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-09-26)는 보관합니다.
+027은 023의 폰트 경로·문자 분류표 수정과 건담 타이틀 로고 원본 유지 정책을 포함합니다.
+정적 검사와 원본 기반 xdelta 재적용, 실제 공개 다운로드의 크기·SHA-256 확인은 PASS입니다.
+**027 추가분의 실기·에뮬레이터 검수는 NOT_TESTED입니다.** 사용자 실행 확인이 있는 기준은 023입니다.
+원본·출력·패치 해시와 적용법은 [027 릴리스 안내](docs/RELEASE_2026-10-04_027.md)를 보세요.
+[023 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023)와 이전 릴리스도 보존합니다.
 
-## 최신 작업 (2026-10-03)
+## 최신 작업 (2026-10-04)
+
+023 대비 이미지 272면(255개 PZZ), 그래픽 글자 1,174항목과 ELF data 텍스트 13곳을 추가했습니다.
+조작 안내, 갤러리·전투 이름, 갤러리 메뉴·곡 이름, 일반 크레딧, 해금 안내, 전투 대상 카드,
+결과·설정 화면과 프리 배틀 기체 이름 66개 등을 포함합니다. 타이틀 로고는 원본을 유지합니다.
+프리 배틀 작품·스테이지 목록, 작은 선택 안내와 전수 범위 조사는 남아 있습니다.
+[작업·검증 범위](docs/GRAPHICS_2026-10-04.md)를 참고하세요. 전체 게임·NEXT PLUS 완료 판정은 아닙니다.
+
+## 이전 작업 (2026-10-03)
 
 사용자가 다듬은 번역 파일 5개를 재검토해 번역투·용어·미션 조건을 수정했습니다.
 파일 기준 5,934행을 검토했고, 제출본에서 188개 ID(237행)를 추가로 다듬었습니다.
@@ -64,7 +75,7 @@ SHA-256: `32c478704451997d7b3d8aa8ee565b2598fc84dcfe5917aad2710fa3a3b5293e`; CRC
 검증이 끝난 중복 파일 14,437개·1.84GiB를 정리했으며, 원본·현재 후보·재현 입력은 유지했습니다. 023 ISO는 로컬에 보관하고 023 차분은 GitHub 릴리스로 공개했습니다.
 통합 범위와 재현 조건은 [통합 기록](docs/INTEGRATION_2026-10-02.md)에 있습니다.
 GitHub에는 소스 코드·재현 절차·검증 집계·인계 문서와 검토한 번역 자료를 공개합니다.
-최신 공개 릴리스 자산은 위 023 xdelta이며, 공개 다운로드의 크기와 SHA-256도 로컬 검증본과 일치합니다.
+023 릴리스 자산의 공개 다운로드 크기와 SHA-256도 당시 로컬 검증본과 일치합니다. 최신 공개 자산은 위 027 xdelta입니다.
 
 현재 집계는 [reports/status.json](reports/status.json), 재현 절차는
 [docs/UPDATE_2026-10-02.md](docs/UPDATE_2026-10-02.md), 다음 작업 인계는

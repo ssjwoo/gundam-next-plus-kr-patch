@@ -5,17 +5,19 @@
 
 수용된 공개 기준은 023이며 사용자 확인으로 기존 미션 프리징은 해결됐다. 이 판정은 새 추가분의 실행 확인과 구분한다.
 
-최신 정적 검증 로컬 후보 **027**: 추가 이미지 272면 / 255개 PZZ / 글자 1174항목, ELF data 텍스트 13곳. ISO SHA-256: 2c58ba6fc1d06cb2c4c3bfbbe16e230281accff972a7f308ecd2938a45d64cb8. 폰트·실행 코드·문자 분류표·보호된 다른 ISO 바이트 보존을 확인했다. 새 후보의 실행 결과는 NOT_TESTED다.
+최신 공개 개발 후보 **027**: 추가 이미지 272면 / 255개 PZZ / 글자 1174항목, ELF data 텍스트 13곳. ISO SHA-256: 2c58ba6fc1d06cb2c4c3bfbbe16e230281accff972a7f308ecd2938a45d64cb8. 폰트·실행 코드·문자 분류표·보호된 다른 ISO 바이트 보존을 확인했다. 새 후보의 실행 결과는 NOT_TESTED다.
 
 기본 추가분은 조작 안내 66장, 갤러리 이름 74장, 전투 이름 88장, 갤러리 UI 2면, 해금 중복 6면, 일반 크레딧 5면, 갤러리 문구 2면이다. 025 추가분은 전투 시작 대상 카드 9장, 아케이드·프리 배틀 설정 1면, 표적 격파 안내 1면, 별도 엔딩 문구 2면이다. 원본 ???와 시리즈 타이틀 로고를 유지한다.
 
 026 추가분은 결과·기체 선택·상세 설정·곡 이름 9면이다. 027은 프리 배틀 기체 이름 66개와 출격 중지·자동 선택 슬롯을 7개 아틀라스에 추가했다. vsel01 picture 2의 작품·스테이지 목록과 picture 3/4의 작은 선택 안내는 남아 있다.
 
-원본 기반 xdelta 왕복: **PASS**. GitHub 공개 릴리스는 사용자 검증을 마친 023이며 이번 후보는 아직 공개하지 않았다. 전체 텍스트·이미지·NEXT PLUS 완료를 주장하지 않는다.
+원본 기반 xdelta 왕복: **PASS**. 사용자의 직접 요청으로 [027 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-04-graphics-027)를 공개했다. 공개 xdelta 15,161,344바이트·SHA-256 f1945f0a180b9dac9d19ce45114eef58592b59b0f6907090dd85de0ba6684094를 실제 다운로드와 대조해 PASS를 확인했다. 027 실행 결과는 NOT_TESTED이며 사용자 수용 기준은 023이다. 전체 텍스트·이미지·NEXT PLUS 완료를 주장하지 않는다.
 
 재현·인계: work/remaining_2026-10-04/checkpoint.json, merged_report_027.json, 선택된 각 배치의 report/rules/source PNG/고정 할당 PZZ, text_data_plan_v1.private.json. 미확인 이미지 계열, 실제 모드 소비 경로, 기존 카탈로그 불일치 ID는 열린 항목이다.
 
 다음 AI 작업: Extend results_v2 for vsel01 picture 2 series/stage names and pictures 3/4 selector captions using exact UV cells; retain pictures 0/1 and every selected 027 batch. Build from accepted 023 with all final replacements; continue source-bound text recovery and user runtime reports.
+
+게시 근거: reports/release_027_2026-10-04.json, docs/RELEASE_2026-10-04_027.md. 릴리스 코드 커밋 7afae02fa3a9c1b14e0e066ea3132f47e8b74482. 기존 릴리스와 수용 기준 023을 보존했다. 로컬 finalize_public.py / closing_record.py / update_checkpoint.py는 게시 전 필드를 다시 쓸 수 있으므로 재사용 시 027 게시 근거를 병합한다. 새 이미지 작업은 시작하지 않았다.
 <!-- remaining-2026-10-04:end -->
 
 ## 이전 체크포인트 — 기록 보존

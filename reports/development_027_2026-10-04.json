@@ -57,8 +57,8 @@
   "agent_executed_game": false,
   "whole_game_complete": false,
   "whole_next_plus_complete": false,
-  "public_release_updated": false,
-  "public_release_revision": "023",
+  "public_release_updated": true,
+  "public_release_revision": "027",
   "known_remaining": [
     "Free-battle series/stage-name list in vsel01 picture 2 and stage-selector captions in pictures 3/4.",
     "Exact mode-consumer mapping and complete source-family coverage remain open.",
@@ -77,5 +77,8 @@
     "work/remaining_2026-10-04/cleanup_obsolete.json",
     "work/remaining_2026-10-04/cleanup_final.json"
   ],
-  "reproduction_inputs": "Local merged_manifest_027/merged_027, selected batch reports/rules, verified 023 ISO, original-byte-bound residual catalog and PGF; original game assets remain private."
+  "reproduction_inputs": "Local merged_manifest_027/merged_027, selected batch reports/rules, verified 023 ISO, original-byte-bound residual catalog and PGF; original game assets remain private.",
+  "release_tag": "dev-2026-10-04-graphics-027",
+  "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-04-graphics-027",
+  "public_download_verdict": "PASS"
 }
