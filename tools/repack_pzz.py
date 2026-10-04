@@ -81,6 +81,31 @@ def best_zlib(payload: bytes) -> tuple[bytes, int]:
     return min(candidates, key=lambda item: (len(item[0]), -item[1]))
 
 
+def fitting_zlib(payload: bytes, capacity: int) -> tuple[bytes, dict]:
+    """Keep the normal stream when it fits; try smaller hash tables otherwise.
+
+    All candidates use the original zlib format and 32 KiB decoder window.
+    Encoder memory changes do not change the payload or the fixed allocation.
+    """
+    compressed, level = best_zlib(payload)
+    options = {"level": level, "mem_level": 8, "strategy": "default"}
+    if len(compressed) > capacity:
+        candidates = [(compressed, level, 8)]
+        for memory in range(1, 10):
+            if memory == 8:
+                continue
+            for candidate_level in range(1, 10):
+                encoder = zlib.compressobj(candidate_level, zlib.DEFLATED,
+                                           15, memory, zlib.Z_DEFAULT_STRATEGY)
+                stream = encoder.compress(payload) + encoder.flush()
+                candidates.append((stream, candidate_level, memory))
+        compressed, level, memory = min(
+            candidates, key=lambda item: (len(item[0]), -item[1], item[2]))
+        options.update(level=level, mem_level=memory)
+    assert zlib.decompress(compressed) == payload
+    return compressed, options
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("input", type=Path)
@@ -126,8 +151,10 @@ def main() -> None:
             decoded[start:end] = payload
             compressed_size = None
             level = None
+            compression_options = None
         else:
-            compressed, level = best_zlib(payload)
+            compressed, compression_options = fitting_zlib(payload, part["capacity"])
+            level = compression_options["level"]
             if len(compressed) > part["capacity"]:
                 raise SystemExit(
                     f"{name}: compressed replacement {len(compressed)} exceeds "
@@ -148,6 +175,7 @@ def main() -> None:
                 "new_payload_sha256": sha256(payload),
                 "new_compressed_size": compressed_size,
                 "zlib_level": level,
+                "zlib_encoder_options": compression_options,
             }
         )
 

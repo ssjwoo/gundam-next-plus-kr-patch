@@ -1,0 +1,4077 @@
+{
+  "schema_version": 1,
+  "baseline_revision": "023",
+  "scope": "74 additional gallery nameplates plus 24 gallery UI/song labels; existing glc00/glc01 retained",
+  "runtime_owner": "USER",
+  "runtime_verdict": "NOT_TESTED",
+  "rows": [
+    {
+      "id": "glc02.pzz/1/1/left_name",
+      "asset": "glc02.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "하야토 코바야시",
+      "render_rule": {
+        "id": "left_name",
+        "text": "하야토 코바야시",
+        "box": [
+          1,
+          2,
+          32,
+          152
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc03.pzz/1/1/left_name",
+      "asset": "glc03.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "샤아 아즈나블",
+      "render_rule": {
+        "id": "left_name",
+        "text": "샤아 아즈나블",
+        "box": [
+          1,
+          2,
+          32,
+          168
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc04.pzz/1/1/left_name",
+      "asset": "glc04.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "가이아",
+      "render_rule": {
+        "id": "left_name",
+        "text": "가이아",
+        "box": [
+          1,
+          1,
+          32,
+          72
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc05.pzz/1/1/left_name",
+      "asset": "glc05.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "아카하나",
+      "render_rule": {
+        "id": "left_name",
+        "text": "아카하나",
+        "box": [
+          1,
+          1,
+          32,
+          90
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc06.pzz/1/1/left_name",
+      "asset": "glc06.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "카미유 비단",
+      "render_rule": {
+        "id": "left_name",
+        "text": "카미유 비단",
+        "box": [
+          1,
+          2,
+          32,
+          151
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc07.pzz/1/1/left_name",
+      "asset": "glc07.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "에마 신",
+      "render_rule": {
+        "id": "left_name",
+        "text": "에마 신",
+        "box": [
+          1,
+          2,
+          32,
+          116
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc08.pzz/1/1/left_name",
+      "asset": "glc08.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "쥬도 아시타",
+      "render_rule": {
+        "id": "left_name",
+        "text": "쥬도 아시타",
+        "box": [
+          1,
+          1,
+          32,
+          163
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc09.pzz/1/1/left_name",
+      "asset": "glc09.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "엘피 플",
+      "render_rule": {
+        "id": "left_name",
+        "text": "엘피 플",
+        "box": [
+          1,
+          2,
+          32,
+          139
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc0A.pzz/1/1/left_name",
+      "asset": "glc0A.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "아무로 레이",
+      "render_rule": {
+        "id": "left_name",
+        "text": "아무로 레이",
+        "box": [
+          1,
+          1,
+          32,
+          113
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc0B.pzz/1/1/left_name",
+      "asset": "glc0B.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "샤아 아즈나블",
+      "render_rule": {
+        "id": "left_name",
+        "text": "샤아 아즈나블",
+        "box": [
+          1,
+          2,
+          32,
+          168
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc0C.pzz/1/1/left_name",
+      "asset": "glc0C.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "시북 아노",
+      "render_rule": {
+        "id": "left_name",
+        "text": "시북 아노",
+        "box": [
+          1,
+          2,
+          32,
+          159
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc0D.pzz/1/1/left_name",
+      "asset": "glc0D.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "페어차일드",
+      "render_rule": {
+        "id": "left_name",
+        "text": "페어차일드",
+        "box": [
+          1,
+          1,
+          32,
+          154
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc0D.pzz/1/1/right_name",
+      "asset": "glc0D.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "세실리",
+      "render_rule": {
+        "id": "right_name",
+        "text": "세실리",
+        "box": [
+          480,
+          140,
+          511,
+          229
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc0E.pzz/1/1/left_name",
+      "asset": "glc0E.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "웃소 에빈",
+      "render_rule": {
+        "id": "left_name",
+        "text": "웃소 에빈",
+        "box": [
+          1,
+          2,
+          32,
+          142
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc0F.pzz/1/1/left_name",
+      "asset": "glc0F.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "웃소 에빈",
+      "render_rule": {
+        "id": "left_name",
+        "text": "웃소 에빈",
+        "box": [
+          1,
+          2,
+          32,
+          142
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc10.pzz/1/1/left_name",
+      "asset": "glc10.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "도몬 캇슈",
+      "render_rule": {
+        "id": "left_name",
+        "text": "도몬 캇슈",
+        "box": [
+          1,
+          3,
+          32,
+          144
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc11.pzz/1/1/left_name",
+      "asset": "glc11.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "동방불패",
+      "render_rule": {
+        "id": "left_name",
+        "text": "동방불패",
+        "box": [
+          1,
+          2,
+          32,
+          99
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc12.pzz/1/1/left_name",
+      "asset": "glc12.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "히이로 유이",
+      "render_rule": {
+        "id": "left_name",
+        "text": "히이로 유이",
+        "box": [
+          1,
+          1,
+          32,
+          111
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc13.pzz/1/1/left_name",
+      "asset": "glc13.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "트로와 바톤",
+      "render_rule": {
+        "id": "left_name",
+        "text": "트로와 바톤",
+        "box": [
+          1,
+          2,
+          32,
+          142
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc14.pzz/1/1/left_name",
+      "asset": "glc14.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "가로드 란",
+      "render_rule": {
+        "id": "left_name",
+        "text": "가로드 란",
+        "box": [
+          1,
+          2,
+          32,
+          120
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc14.pzz/1/1/right_name",
+      "asset": "glc14.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "티파 아딜",
+      "render_rule": {
+        "id": "right_name",
+        "text": "티파 아딜",
+        "box": [
+          379,
+          230,
+          511,
+          254
+        ],
+        "size": 18,
+        "angle": 0,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc15.pzz/1/1/left_name",
+      "asset": "glc15.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "샤기아 프로스트",
+      "render_rule": {
+        "id": "left_name",
+        "text": "샤기아 프로스트",
+        "box": [
+          1,
+          2,
+          32,
+          163
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc16.pzz/1/1/left_name",
+      "asset": "glc16.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "로랑 세아크",
+      "render_rule": {
+        "id": "left_name",
+        "text": "로랑 세아크",
+        "box": [
+          1,
+          1,
+          32,
+          146
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc17.pzz/1/1/left_name",
+      "asset": "glc17.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "소시에 하임",
+      "render_rule": {
+        "id": "left_name",
+        "text": "소시에 하임",
+        "box": [
+          1,
+          3,
+          32,
+          131
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc18.pzz/1/1/left_name",
+      "asset": "glc18.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "키라 야마토",
+      "render_rule": {
+        "id": "left_name",
+        "text": "키라 야마토",
+        "box": [
+          1,
+          2,
+          32,
+          113
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc19.pzz/1/1/left_name",
+      "asset": "glc19.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "아스란 자라",
+      "render_rule": {
+        "id": "left_name",
+        "text": "아스란 자라",
+        "box": [
+          1,
+          2,
+          32,
+          132
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc1A.pzz/1/1/left_name",
+      "asset": "glc1A.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "신 아스카",
+      "render_rule": {
+        "id": "left_name",
+        "text": "신 아스카",
+        "box": [
+          1,
+          1,
+          32,
+          113
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc1B.pzz/1/1/left_name",
+      "asset": "glc1B.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "키라 야마토",
+      "render_rule": {
+        "id": "left_name",
+        "text": "키라 야마토",
+        "box": [
+          1,
+          2,
+          32,
+          113
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc1C.pzz/1/1/left_name",
+      "asset": "glc1C.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "와이즈먼",
+      "render_rule": {
+        "id": "left_name",
+        "text": "와이즈먼",
+        "box": [
+          1,
+          2,
+          32,
+          106
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc1C.pzz/1/1/right_name",
+      "asset": "glc1C.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "버나드",
+      "render_rule": {
+        "id": "right_name",
+        "text": "버나드",
+        "box": [
+          480,
+          114,
+          511,
+          226
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc1D.pzz/1/1/left_name",
+      "asset": "glc1D.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "맥켄지",
+      "render_rule": {
+        "id": "left_name",
+        "text": "맥켄지",
+        "box": [
+          1,
+          2,
+          32,
+          125
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc1D.pzz/1/1/right_name",
+      "asset": "glc1D.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "크리스티나",
+      "render_rule": {
+        "id": "right_name",
+        "text": "크리스티나",
+        "box": [
+          480,
+          101,
+          511,
+          229
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc1E.pzz/1/1/left_name",
+      "asset": "glc1E.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "애너벨 가토",
+      "render_rule": {
+        "id": "left_name",
+        "text": "애너벨 가토",
+        "box": [
+          1,
+          2,
+          32,
+          156
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc1F.pzz/1/1/left_name",
+      "asset": "glc1F.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "코우 우라키",
+      "render_rule": {
+        "id": "left_name",
+        "text": "코우 우라키",
+        "box": [
+          1,
+          2,
+          32,
+          111
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc20.pzz/1/1/left_name",
+      "asset": "glc20.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "시로 아마다",
+      "render_rule": {
+        "id": "left_name",
+        "text": "시로 아마다",
+        "box": [
+          1,
+          0,
+          32,
+          134
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc21.pzz/1/1/left_name",
+      "asset": "glc21.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "노리스 팩커드",
+      "render_rule": {
+        "id": "left_name",
+        "text": "노리스 팩커드",
+        "box": [
+          1,
+          1,
+          32,
+          160
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc22.pzz/1/1/left_name",
+      "asset": "glc22.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "세츠나 F. 세이에이",
+      "render_rule": {
+        "id": "left_name",
+        "text": "세츠나 F. 세이에이",
+        "box": [
+          1,
+          1,
+          32,
+          162
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc23.pzz/1/1/left_name",
+      "asset": "glc23.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "카민스키",
+      "render_rule": {
+        "id": "left_name",
+        "text": "카민스키",
+        "box": [
+          1,
+          2,
+          32,
+          123
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc23.pzz/1/1/right_name",
+      "asset": "glc23.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "미하일",
+      "render_rule": {
+        "id": "right_name",
+        "text": "미하일",
+        "box": [
+          480,
+          135,
+          511,
+          229
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc24.pzz/1/1/left_name",
+      "asset": "glc24.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "신 아스카",
+      "render_rule": {
+        "id": "left_name",
+        "text": "신 아스카",
+        "box": [
+          1,
+          1,
+          32,
+          113
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc25.pzz/1/1/left_name",
+      "asset": "glc25.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "코우 우라키",
+      "render_rule": {
+        "id": "left_name",
+        "text": "코우 우라키",
+        "box": [
+          1,
+          2,
+          32,
+          111
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc26.pzz/1/1/left_name",
+      "asset": "glc26.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "크와트로 바지나",
+      "render_rule": {
+        "id": "left_name",
+        "text": "크와트로 바지나",
+        "box": [
+          1,
+          1,
+          32,
+          166
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc27.pzz/1/1/left_name",
+      "asset": "glc27.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "마슈마 세로",
+      "render_rule": {
+        "id": "left_name",
+        "text": "마슈마 세로",
+        "box": [
+          1,
+          1,
+          32,
+          148
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc28.pzz/1/1/left_name",
+      "asset": "glc28.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "카테지나 루스",
+      "render_rule": {
+        "id": "left_name",
+        "text": "카테지나 루스",
+        "box": [
+          1,
+          3,
+          32,
+          158
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc29.pzz/1/1/left_name",
+      "asset": "glc29.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "비아즐리",
+      "render_rule": {
+        "id": "left_name",
+        "text": "비아즐리",
+        "box": [
+          1,
+          2,
+          32,
+          104
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc29.pzz/1/1/right_name",
+      "asset": "glc29.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "아렌비",
+      "render_rule": {
+        "id": "right_name",
+        "text": "아렌비",
+        "box": [
+          480,
+          121,
+          511,
+          229
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc2A.pzz/1/1/left_name",
+      "asset": "glc2A.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "맥스웰",
+      "render_rule": {
+        "id": "left_name",
+        "text": "맥스웰",
+        "box": [
+          1,
+          2,
+          32,
+          140
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc2A.pzz/1/1/right_name",
+      "asset": "glc2A.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "듀오",
+      "render_rule": {
+        "id": "right_name",
+        "text": "듀오",
+        "box": [
+          480,
+          154,
+          511,
+          227
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc2B.pzz/1/1/left_name",
+      "asset": "glc2B.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "젝스 마키스",
+      "render_rule": {
+        "id": "left_name",
+        "text": "젝스 마키스",
+        "box": [
+          1,
+          3,
+          32,
+          152
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc2C.pzz/1/1/left_name",
+      "asset": "glc2C.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "깅가남",
+      "render_rule": {
+        "id": "left_name",
+        "text": "깅가남",
+        "box": [
+          1,
+          2,
+          32,
+          109
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc2C.pzz/1/1/right_name",
+      "asset": "glc2C.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "김",
+      "render_rule": {
+        "id": "right_name",
+        "text": "김",
+        "box": [
+          480,
+          174,
+          511,
+          229
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc2D.pzz/1/1/left_name",
+      "asset": "glc2D.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "무우 라 플라가",
+      "render_rule": {
+        "id": "left_name",
+        "text": "무우 라 플라가",
+        "box": [
+          1,
+          0,
+          32,
+          140
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc2E.pzz/1/1/left_name",
+      "asset": "glc2E.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "티에리아 아데",
+      "render_rule": {
+        "id": "left_name",
+        "text": "티에리아 아데",
+        "box": [
+          1,
+          0,
+          32,
+          162
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc2F.pzz/1/1/left_name",
+      "asset": "glc2F.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "버나지 링크스",
+      "render_rule": {
+        "id": "left_name",
+        "text": "버나지 링크스",
+        "box": [
+          1,
+          3,
+          32,
+          172
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc30.pzz/1/1/left_name",
+      "asset": "glc30.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "키라 야마토",
+      "render_rule": {
+        "id": "left_name",
+        "text": "키라 야마토",
+        "box": [
+          1,
+          2,
+          32,
+          113
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc31.pzz/1/1/left_name",
+      "asset": "glc31.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "브루더",
+      "render_rule": {
+        "id": "left_name",
+        "text": "브루더",
+        "box": [
+          1,
+          2,
+          32,
+          110
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc31.pzz/1/1/right_name",
+      "asset": "glc31.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "슈발츠",
+      "render_rule": {
+        "id": "right_name",
+        "text": "슈발츠",
+        "box": [
+          480,
+          116,
+          511,
+          228
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc32.pzz/1/1/left_name",
+      "asset": "glc32.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "하만 칸",
+      "render_rule": {
+        "id": "left_name",
+        "text": "하만 칸",
+        "box": [
+          1,
+          2,
+          32,
+          151
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc33.pzz/1/1/left_name",
+      "asset": "glc33.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "이자크 쥴",
+      "render_rule": {
+        "id": "left_name",
+        "text": "이자크 쥴",
+        "box": [
+          1,
+          2,
+          32,
+          170
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc34.pzz/1/1/left_name",
+      "asset": "glc34.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "피스크래프트",
+      "render_rule": {
+        "id": "left_name",
+        "text": "피스크래프트",
+        "box": [
+          1,
+          2,
+          32,
+          133
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc34.pzz/1/1/right_name",
+      "asset": "glc34.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "밀리아르도",
+      "render_rule": {
+        "id": "right_name",
+        "text": "밀리아르도",
+        "box": [
+          480,
+          127,
+          511,
+          229
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc35.pzz/1/1/left_name",
+      "asset": "glc35.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "플 투",
+      "render_rule": {
+        "id": "left_name",
+        "text": "플 투",
+        "box": [
+          1,
+          168,
+          32,
+          255
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc36.pzz/1/1/left_name",
+      "asset": "glc36.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "포우 무라사메",
+      "render_rule": {
+        "id": "left_name",
+        "text": "포우 무라사메",
+        "box": [
+          1,
+          113,
+          32,
+          255
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc37.pzz/1/1/left_name",
+      "asset": "glc37.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "퀘스 파라야",
+      "render_rule": {
+        "id": "left_name",
+        "text": "퀘스 파라야",
+        "box": [
+          1,
+          123,
+          32,
+          254
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc38.pzz/1/1/left_name",
+      "asset": "glc38.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "파라 그리폰",
+      "render_rule": {
+        "id": "left_name",
+        "text": "파라 그리폰",
+        "box": [
+          1,
+          98,
+          32,
+          255
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc39.pzz/1/1/left_name",
+      "asset": "glc39.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "라라아 슨",
+      "render_rule": {
+        "id": "left_name",
+        "text": "라라아 슨",
+        "box": [
+          1,
+          147,
+          32,
+          254
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc3A.pzz/1/1/left_name",
+      "asset": "glc3A.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "시로 아마다",
+      "render_rule": {
+        "id": "left_name",
+        "text": "시로 아마다",
+        "box": [
+          1,
+          0,
+          32,
+          134
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc3B.pzz/1/1/left_name",
+      "asset": "glc3B.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "카미유 비단",
+      "render_rule": {
+        "id": "left_name",
+        "text": "카미유 비단",
+        "box": [
+          1,
+          2,
+          32,
+          151
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc3C.pzz/1/1/left_name",
+      "asset": "glc3C.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "도몬 캇슈",
+      "render_rule": {
+        "id": "left_name",
+        "text": "도몬 캇슈",
+        "box": [
+          1,
+          3,
+          32,
+          144
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc3D.pzz/1/1/left_name",
+      "asset": "glc3D.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "플 투",
+      "render_rule": {
+        "id": "left_name",
+        "text": "플 투",
+        "box": [
+          1,
+          2,
+          32,
+          88
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc3E.pzz/1/1/left_name",
+      "asset": "glc3E.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "가로드 란",
+      "render_rule": {
+        "id": "left_name",
+        "text": "가로드 란",
+        "box": [
+          1,
+          2,
+          32,
+          120
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc3E.pzz/1/1/right_name",
+      "asset": "glc3E.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "티파 아딜",
+      "render_rule": {
+        "id": "right_name",
+        "text": "티파 아딜",
+        "box": [
+          379,
+          230,
+          511,
+          254
+        ],
+        "size": 18,
+        "angle": 0,
+        "sample_x": 511,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc3F.pzz/1/1/left_name",
+      "asset": "glc3F.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "세츠나 F. 세이에이",
+      "render_rule": {
+        "id": "left_name",
+        "text": "세츠나 F. 세이에이",
+        "box": [
+          1,
+          1,
+          32,
+          162
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc40.pzz/1/1/left_name",
+      "asset": "glc40.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "리본즈 알마크",
+      "render_rule": {
+        "id": "left_name",
+        "text": "리본즈 알마크",
+        "box": [
+          1,
+          1,
+          32,
+          185
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc41.pzz/1/1/left_name",
+      "asset": "glc41.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "팝티머스 시로코",
+      "render_rule": {
+        "id": "left_name",
+        "text": "팝티머스 시로코",
+        "box": [
+          1,
+          1,
+          32,
+          188
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc42.pzz/1/1/left_name",
+      "asset": "glc42.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "히이로 유이",
+      "render_rule": {
+        "id": "left_name",
+        "text": "히이로 유이",
+        "box": [
+          1,
+          1,
+          32,
+          111
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc43.pzz/1/1/left_name",
+      "asset": "glc43.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "장 우페이",
+      "render_rule": {
+        "id": "left_name",
+        "text": "장 우페이",
+        "box": [
+          1,
+          2,
+          32,
+          174
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc44.pzz/1/1/left_name",
+      "asset": "glc44.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "샤아 아즈나블",
+      "render_rule": {
+        "id": "left_name",
+        "text": "샤아 아즈나블",
+        "box": [
+          1,
+          2,
+          32,
+          168
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc45.pzz/1/1/left_name",
+      "asset": "glc45.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "라우 르 크루제",
+      "render_rule": {
+        "id": "left_name",
+        "text": "라우 르 크루제",
+        "box": [
+          1,
+          0,
+          32,
+          165
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc46.pzz/1/1/left_name",
+      "asset": "glc46.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "마리다 크루즈",
+      "render_rule": {
+        "id": "left_name",
+        "text": "마리다 크루즈",
+        "box": [
+          1,
+          3,
+          32,
+          152
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc47.pzz/1/1/left_name",
+      "asset": "glc47.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "카롯조 로나",
+      "render_rule": {
+        "id": "left_name",
+        "text": "카롯조 로나",
+        "box": [
+          1,
+          125,
+          32,
+          255
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc48.pzz/1/1/left_name",
+      "asset": "glc48.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "아이나 사할린/기니어스 사할린",
+      "render_rule": {
+        "id": "left_name",
+        "text": "아이나 사할린/기니어스 사할린",
+        "box": [
+          1,
+          24,
+          32,
+          255
+        ],
+        "size": 17,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc49.pzz/1/1/left_name",
+      "asset": "glc49.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "포우 에이지",
+      "render_rule": {
+        "id": "left_name",
+        "text": "포우 에이지",
+        "box": [
+          1,
+          142,
+          32,
+          255
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc4A.pzz/1/1/left_name",
+      "asset": "glc4A.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "코우 우라키",
+      "render_rule": {
+        "id": "left_name",
+        "text": "코우 우라키",
+        "box": [
+          1,
+          147,
+          32,
+          256
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "glc4B.pzz/1/1/left_name",
+      "asset": "glc4B.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "하만 칸",
+      "render_rule": {
+        "id": "left_name",
+        "text": "하만 칸",
+        "box": [
+          1,
+          105,
+          32,
+          255
+        ],
+        "size": 18,
+        "angle": 90,
+        "sample_x": 0,
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/1/switch",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "전환",
+      "render_rule": {
+        "id": "switch",
+        "text": "전환",
+        "box": [
+          32,
+          1,
+          63,
+          17
+        ],
+        "size": 12,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/1/play",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "재생",
+      "render_rule": {
+        "id": "play",
+        "text": "재생",
+        "box": [
+          18,
+          19,
+          43,
+          35
+        ],
+        "size": 12,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/1/voice",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "보이스",
+      "render_rule": {
+        "id": "voice",
+        "text": "보이스",
+        "box": [
+          47,
+          31,
+          63,
+          63
+        ],
+        "size": 11,
+        "angle": 90,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/gallery",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "갤러리",
+      "render_rule": {
+        "id": "gallery",
+        "text": "갤러리",
+        "box": [
+          1,
+          1,
+          73,
+          20
+        ],
+        "size": 18,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/movie",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "영상",
+      "render_rule": {
+        "id": "movie",
+        "text": "영상",
+        "box": [
+          1,
+          28,
+          53,
+          45
+        ],
+        "size": 17,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/ending",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "엔딩",
+      "render_rule": {
+        "id": "ending",
+        "text": "엔딩",
+        "box": [
+          55,
+          28,
+          135,
+          45
+        ],
+        "size": 17,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/illustration",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "일러스트",
+      "render_rule": {
+        "id": "illustration",
+        "text": "일러스트",
+        "box": [
+          137,
+          28,
+          186,
+          45
+        ],
+        "size": 13,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/character",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "캐릭터",
+      "render_rule": {
+        "id": "character",
+        "text": "캐릭터",
+        "box": [
+          1,
+          47,
+          76,
+          64
+        ],
+        "size": 16,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/bgm",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "BGM 선택",
+      "render_rule": {
+        "id": "bgm",
+        "text": "BGM 선택",
+        "box": [
+          110,
+          47,
+          193,
+          64
+        ],
+        "size": 17,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/guide",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "가이드",
+      "render_rule": {
+        "id": "guide",
+        "text": "가이드",
+        "box": [
+          188,
+          13,
+          228,
+          30
+        ],
+        "size": 14,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/unit",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "탑승기",
+      "render_rule": {
+        "id": "unit",
+        "text": "탑승기",
+        "box": [
+          188,
+          32,
+          230,
+          45
+        ],
+        "size": 13,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/checked",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "선택 수",
+      "render_rule": {
+        "id": "checked",
+        "text": "선택 수",
+        "box": [
+          207,
+          60,
+          255,
+          73
+        ],
+        "size": 12,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/shuffle",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "셔플",
+      "render_rule": {
+        "id": "shuffle",
+        "text": "셔플",
+        "box": [
+          205,
+          75,
+          255,
+          88
+        ],
+        "size": 13,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_gundam",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "날아라! 건담",
+      "render_rule": {
+        "id": "song_gundam",
+        "text": "날아라! 건담",
+        "box": [
+          1,
+          90,
+          84,
+          104
+        ],
+        "size": 13,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_ms",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "모빌슈트전",
+      "render_rule": {
+        "id": "song_ms",
+        "text": "모빌슈트전",
+        "box": [
+          86,
+          90,
+          179,
+          104
+        ],
+        "size": 14,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_ai",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "슬픈 전사",
+      "render_rule": {
+        "id": "song_ai",
+        "text": "슬픈 전사",
+        "box": [
+          181,
+          90,
+          231,
+          104
+        ],
+        "size": 12,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_zz",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "애니메이션이 아냐! - 꿈을 잊은 옛 지구인이여 -",
+      "render_rule": {
+        "id": "song_zz",
+        "text": "애니메이션이 아냐! - 꿈을 잊은 옛 지구인이여 -",
+        "box": [
+          1,
+          106,
+          242,
+          120
+        ],
+        "size": 12,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_cca",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "BEYOND THE TIME (뫼비우스의 우주를 넘어서)",
+      "render_rule": {
+        "id": "song_cca",
+        "text": "BEYOND THE TIME (뫼비우스의 우주를 넘어서)",
+        "box": [
+          1,
+          122,
+          255,
+          136
+        ],
+        "size": 12,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_f91",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "ETERNAL WIND ~미소는 빛나는 바람 속에~",
+      "render_rule": {
+        "id": "song_f91",
+        "text": "ETERNAL WIND ~미소는 빛나는 바람 속에~",
+        "box": [
+          1,
+          138,
+          255,
+          152
+        ],
+        "size": 13,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_0080",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "언젠가 하늘에 닿기를",
+      "render_rule": {
+        "id": "song_0080",
+        "text": "언젠가 하늘에 닿기를",
+        "box": [
+          1,
+          202,
+          106,
+          216
+        ],
+        "size": 11,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_destiny",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "우리들의 행방",
+      "render_rule": {
+        "id": "song_destiny",
+        "text": "우리들의 행방",
+        "box": [
+          108,
+          202,
+          188,
+          216
+        ],
+        "size": 13,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_turna",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "턴에이 턴",
+      "render_rule": {
+        "id": "song_turna",
+        "text": "턴에이 턴",
+        "box": [
+          1,
+          218,
+          77,
+          232
+        ],
+        "size": 14,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/song_08th",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "폭풍 속에서 빛나줘",
+      "render_rule": {
+        "id": "song_08th",
+        "text": "폭풍 속에서 빛나줘",
+        "box": [
+          79,
+          218,
+          173,
+          232
+        ],
+        "size": 12,
+        "angle": 0,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "gallery.pzz/1/6/list",
+      "asset": "gallery.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "목록",
+      "render_rule": {
+        "id": "list",
+        "text": "목록",
+        "box": [
+          238,
+          181,
+          255,
+          216
+        ],
+        "size": 17,
+        "angle": 90,
+        "sample_x": 0,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    }
+  ]
+}

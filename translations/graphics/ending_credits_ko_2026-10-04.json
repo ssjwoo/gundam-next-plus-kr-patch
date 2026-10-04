@@ -1,0 +1,2022 @@
+{
+  "schema_version": 1,
+  "baseline_revision": "023",
+  "scope": "Five ordinary text pictures; original logo sheet picture 1 protected",
+  "runtime_owner": "USER",
+  "runtime_verdict": "NOT_TESTED",
+  "rows": [
+    {
+      "id": "dmedfont.pzz/0/0/producer_company",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "주식회사 반다이 남코 게임즈",
+      "render_rule": {
+        "id": "producer_company",
+        "text": "주식회사 반다이 남코 게임즈",
+        "box": [
+          0,
+          237,
+          197,
+          252
+        ],
+        "size": 15,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_0",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담",
+      "render_rule": {
+        "id": "series_0",
+        "text": "기동전사 건담",
+        "box": [
+          84,
+          0,
+          173,
+          15
+        ],
+        "size": 15,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_1",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 Z 건담",
+      "render_rule": {
+        "id": "series_1",
+        "text": "기동전사 Z 건담",
+        "box": [
+          81,
+          16,
+          177,
+          31
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_2",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 ZZ",
+      "render_rule": {
+        "id": "series_2",
+        "text": "기동전사 건담 ZZ",
+        "box": [
+          77,
+          32,
+          181,
+          47
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_3",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 역습의 샤아",
+      "render_rule": {
+        "id": "series_3",
+        "text": "기동전사 건담 역습의 샤아",
+        "box": [
+          51,
+          48,
+          207,
+          63
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_4",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 F91",
+      "render_rule": {
+        "id": "series_4",
+        "text": "기동전사 건담 F91",
+        "box": [
+          74,
+          64,
+          185,
+          79
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_5",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 V 건담",
+      "render_rule": {
+        "id": "series_5",
+        "text": "기동전사 V 건담",
+        "box": [
+          81,
+          80,
+          177,
+          95
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_6",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동무투전 G 건담",
+      "render_rule": {
+        "id": "series_6",
+        "text": "기동무투전 G 건담",
+        "box": [
+          74,
+          96,
+          183,
+          111
+        ],
+        "size": 13,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_7",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "신기동전기 건담 W",
+      "render_rule": {
+        "id": "series_7",
+        "text": "신기동전기 건담 W",
+        "box": [
+          73,
+          112,
+          186,
+          127
+        ],
+        "size": 13,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_8",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동신세기 건담 X",
+      "render_rule": {
+        "id": "series_8",
+        "text": "기동신세기 건담 X",
+        "box": [
+          74,
+          128,
+          184,
+          143
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_9",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "턴에이 건담",
+      "render_rule": {
+        "id": "series_9",
+        "text": "턴에이 건담",
+        "box": [
+          104,
+          144,
+          155,
+          158
+        ],
+        "size": 10,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_10",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 SEED",
+      "render_rule": {
+        "id": "series_10",
+        "text": "기동전사 건담 SEED",
+        "box": [
+          70,
+          160,
+          188,
+          175
+        ],
+        "size": 13,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_11",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 SEED DESTINY",
+      "render_rule": {
+        "id": "series_11",
+        "text": "기동전사 건담 SEED DESTINY",
+        "box": [
+          44,
+          176,
+          215,
+          191
+        ],
+        "size": 13,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_12",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 0080 주머니 속의 전쟁",
+      "render_rule": {
+        "id": "series_12",
+        "text": "기동전사 건담 0080 주머니 속의 전쟁",
+        "box": [
+          22,
+          192,
+          236,
+          207
+        ],
+        "size": 13,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_13",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 0083 STARDUST MEMORY",
+      "render_rule": {
+        "id": "series_13",
+        "text": "기동전사 건담 0083 STARDUST MEMORY",
+        "box": [
+          13,
+          208,
+          246,
+          223
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_14",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 제08MS소대",
+      "render_rule": {
+        "id": "series_14",
+        "text": "기동전사 건담 제08MS소대",
+        "box": [
+          50,
+          224,
+          209,
+          239
+        ],
+        "size": 13,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/4/series_15",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 4,
+      "target_ko": "기동전사 건담 00",
+      "render_rule": {
+        "id": "series_15",
+        "text": "기동전사 건담 00",
+        "box": [
+          78,
+          240,
+          181,
+          255
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/5/series_extra_0",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 5,
+      "target_ko": "기동전사 건담 UC",
+      "render_rule": {
+        "id": "series_extra_0",
+        "text": "기동전사 건담 UC",
+        "box": [
+          77,
+          0,
+          182,
+          15
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/5/series_extra_1",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 5,
+      "target_ko": "신기동전기 건담 W Endless Waltz",
+      "render_rule": {
+        "id": "series_extra_1",
+        "text": "신기동전기 건담 W Endless Waltz",
+        "box": [
+          33,
+          16,
+          226,
+          31
+        ],
+        "size": 13,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_0_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "날아라! 건담",
+      "render_rule": {
+        "id": "song_2_0_title",
+        "text": "날아라! 건담",
+        "box": [
+          199,
+          1,
+          313,
+          21
+        ],
+        "size": 20,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_0_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: 이케다 코 / 작사: 이오기 린 / 작곡: 와타나베 타케오 / 편곡: 마츠야마 유시",
+      "render_rule": {
+        "id": "song_2_0_credit",
+        "text": "가수: 이케다 코 / 작사: 이오기 린 / 작곡: 와타나베 타케오 / 편곡: 마츠야마 유시",
+        "box": [
+          70,
+          27,
+          442,
+          45
+        ],
+        "size": 11,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_1_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "모빌슈트전",
+      "render_rule": {
+        "id": "song_2_1_title",
+        "text": "모빌슈트전",
+        "box": [
+          197,
+          50,
+          317,
+          70
+        ],
+        "size": 20,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_1_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "작곡·편곡: 사에구사 시게아키",
+      "render_rule": {
+        "id": "song_2_1_credit",
+        "text": "작곡·편곡: 사에구사 시게아키",
+        "box": [
+          200,
+          76,
+          312,
+          93
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_2_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "애니메이션이 아냐! - 꿈을 잊은 옛 지구인이여 -",
+      "render_rule": {
+        "id": "song_2_2_title",
+        "text": "애니메이션이 아냐! - 꿈을 잊은 옛 지구인이여 -",
+        "box": [
+          111,
+          100,
+          402,
+          119
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_2_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: 아라이 마사토 / 작사: 아키모토 야스시 / 작곡: 세리자와 히로아키 / 편곡: 사기스 시로",
+      "render_rule": {
+        "id": "song_2_2_credit",
+        "text": "가수: 아라이 마사토 / 작사: 아키모토 야스시 / 작곡: 세리자와 히로아키 / 편곡: 사기스 시로",
+        "box": [
+          64,
+          125,
+          448,
+          143
+        ],
+        "size": 10,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_3_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "BEYOND THE TIME (뫼비우스의 우주를 넘어서)",
+      "render_rule": {
+        "id": "song_2_3_title",
+        "text": "BEYOND THE TIME (뫼비우스의 우주를 넘어서)",
+        "box": [
+          82,
+          150,
+          431,
+          168
+        ],
+        "size": 16,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_3_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: TM NETWORK / 작사: 코무로 미츠코 / 작곡·편곡: 코무로 테츠야",
+      "render_rule": {
+        "id": "song_2_3_credit",
+        "text": "가수: TM NETWORK / 작사: 코무로 미츠코 / 작곡·편곡: 코무로 테츠야",
+        "box": [
+          70,
+          174,
+          442,
+          192
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_4_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "ETERNAL WIND ~미소는 빛나는 바람 속에~",
+      "render_rule": {
+        "id": "song_2_4_title",
+        "text": "ETERNAL WIND ~미소는 빛나는 바람 속에~",
+        "box": [
+          99,
+          200,
+          414,
+          217
+        ],
+        "size": 16,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_4_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: 모리구치 히로코 / 작사: 니시와키 유이 / 작곡: 니시와키 유이·오리하라 요코 / 편곡: 카도쿠라 사토시",
+      "render_rule": {
+        "id": "song_2_4_credit",
+        "text": "가수: 모리구치 히로코 / 작사: 니시와키 유이 / 작곡: 니시와키 유이·오리하라 요코 / 편곡: 카도쿠라 사토시",
+        "box": [
+          46,
+          223,
+          466,
+          241
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_5_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: 카와조에 토모히사 / 작사: 이오기 린·미카미 레오 / 작곡: 카와조에 토모히사\n편곡: 카미나가 코이치·카와조에 토모히사·이노우에 류진",
+      "render_rule": {
+        "id": "song_2_5_credit",
+        "text": "가수: 카와조에 토모히사 / 작사: 이오기 린·미카미 레오 / 작곡: 카와조에 토모히사\n편곡: 카미나가 코이치·카와조에 토모히사·이노우에 류진",
+        "box": [
+          82,
+          272,
+          430,
+          305
+        ],
+        "size": 10,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_6_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: 우시마 요시후미 / 작사·작곡: 우시마 요시후미 / 편곡: 카시와라 노부히코·우시마 요시후미",
+      "render_rule": {
+        "id": "song_2_6_credit",
+        "text": "가수: 우시마 요시후미 / 작사·작곡: 우시마 요시후미 / 편곡: 카시와라 노부히코·우시마 요시후미",
+        "box": [
+          63,
+          337,
+          450,
+          355
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_7_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: TWO-MIX / 작사·작곡·편곡: TWO-MIX",
+      "render_rule": {
+        "id": "song_2_7_credit",
+        "text": "가수: TWO-MIX / 작사·작곡·편곡: TWO-MIX",
+        "box": [
+          118,
+          386,
+          394,
+          404
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_8_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: ROMANTIC Mode / 작사·작곡·편곡: RO-M",
+      "render_rule": {
+        "id": "song_2_8_credit",
+        "text": "가수: ROMANTIC Mode / 작사·작곡·편곡: RO-M",
+        "box": [
+          112,
+          435,
+          400,
+          453
+        ],
+        "size": 13,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_9_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "턴에이 턴",
+      "render_rule": {
+        "id": "song_2_9_title",
+        "text": "턴에이 턴",
+        "box": [
+          203,
+          459,
+          312,
+          478
+        ],
+        "size": 18,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/2/song_2_9_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 2,
+      "target_ko": "가수: 사이조 히데키 / 작사: 이오기 린 / 작곡: 코바야시 아세이 / 편곡: 야타베 타다시",
+      "render_rule": {
+        "id": "song_2_9_credit",
+        "text": "가수: 사이조 히데키 / 작사: 이오기 린 / 작곡: 코바야시 아세이 / 편곡: 야타베 타다시",
+        "box": [
+          62,
+          484,
+          446,
+          502
+        ],
+        "size": 11,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_0_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "가수: 타마키 나미 / 작사: BOUNCEBACK / 작곡: 오타니 야스오\n편곡: 아라이 히로아키·오타니 야스오",
+      "render_rule": {
+        "id": "song_3_0_credit",
+        "text": "가수: 타마키 나미 / 작사: BOUNCEBACK / 작곡: 오타니 야스오\n편곡: 아라이 히로아키·오타니 야스오",
+        "box": [
+          90,
+          27,
+          422,
+          60
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_1_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "우리들의 행방",
+      "render_rule": {
+        "id": "song_3_1_title",
+        "text": "우리들의 행방",
+        "box": [
+          201,
+          67,
+          313,
+          86
+        ],
+        "size": 18,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_1_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "가수: 타카하시 히토미 / 작사: Yuta Nakano·shungo. / 작곡·편곡: Yuta Nakano",
+      "render_rule": {
+        "id": "song_3_1_credit",
+        "text": "가수: 타카하시 히토미 / 작사: Yuta Nakano·shungo. / 작곡·편곡: Yuta Nakano",
+        "box": [
+          51,
+          92,
+          461,
+          110
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_2_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "언젠가 하늘에 닿기를",
+      "render_rule": {
+        "id": "song_3_2_title",
+        "text": "언젠가 하늘에 닿기를",
+        "box": [
+          189,
+          116,
+          327,
+          135
+        ],
+        "size": 15,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_2_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "가수: 시이나 메구미 / 작사·작곡: 시이나 메구미 / 편곡: 토츠카 오사무",
+      "render_rule": {
+        "id": "song_3_2_credit",
+        "text": "가수: 시이나 메구미 / 작사·작곡: 시이나 메구미 / 편곡: 토츠카 오사무",
+        "box": [
+          109,
+          141,
+          403,
+          159
+        ],
+        "size": 10,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_3_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "가수: MIO / 작사: 안도 요시히코 / 작곡: 마츠바라 미키 / 편곡: 하기타 미츠오",
+      "render_rule": {
+        "id": "song_3_3_credit",
+        "text": "가수: MIO / 작사: 안도 요시히코 / 작곡: 마츠바라 미키 / 편곡: 하기타 미츠오",
+        "box": [
+          73,
+          190,
+          439,
+          208
+        ],
+        "size": 11,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_4_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "폭풍 속에서 빛나줘",
+      "render_rule": {
+        "id": "song_3_4_title",
+        "text": "폭풍 속에서 빛나줘",
+        "box": [
+          194,
+          214,
+          320,
+          233
+        ],
+        "size": 15,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_4_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "가수: 요네쿠라 치히로 / 작사: 와타나베 나츠미 / 작곡: 유메노 마오토 / 편곡: 미라츠 타케오",
+      "render_rule": {
+        "id": "song_3_4_credit",
+        "text": "가수: 요네쿠라 치히로 / 작사: 와타나베 나츠미 / 작곡: 유메노 마오토 / 편곡: 미라츠 타케오",
+        "box": [
+          50,
+          239,
+          462,
+          257
+        ],
+        "size": 11,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_5_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "가수: the brilliant green / 작사: 카와세 토모코 / 작곡: 오쿠다 슌사쿠\n편곡: the brilliant green",
+      "render_rule": {
+        "id": "song_3_5_credit",
+        "text": "가수: the brilliant green / 작사: 카와세 토모코 / 작곡: 오쿠다 슌사쿠\n편곡: the brilliant green",
+        "box": [
+          78,
+          288,
+          434,
+          322
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_6_title",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "슬픈 전사",
+      "render_rule": {
+        "id": "song_3_6_title",
+        "text": "슬픈 전사",
+        "box": [
+          223,
+          328,
+          290,
+          347
+        ],
+        "size": 16,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "dmedfont.pzz/0/3/song_3_6_credit",
+      "asset": "dmedfont.pzz",
+      "part": 0,
+      "picture": 3,
+      "target_ko": "가수: GACKT / 작사: 이오기 린·GACKT.C / 작곡: 이노우에 다이스케",
+      "render_rule": {
+        "id": "song_3_6_credit",
+        "text": "가수: GACKT / 작사: 이오기 린·GACKT.C / 작곡: 이노우에 다이스케",
+        "box": [
+          83,
+          353,
+          429,
+          371
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          0,
+          0
+        ],
+        "expected_sample_rgba": [
+          96,
+          96,
+          96,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "align": "center"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    }
+  ],
+  "name_sources": [
+    {
+      "name": "矢田部正 / Tadashi Yatabe",
+      "url": "https://www.shangrila-inc.jp/yatabe.html",
+      "note": "original game texture spells 谷田部正; the actual arranger is 矢田部正"
+    },
+    {
+      "name": "三枝成彰 / Shigeaki Saegusa",
+      "url": "https://saegusa-s.co.jp/profile"
+    },
+    {
+      "name": "松山祐士 / Yushi Matsuyama",
+      "url": "https://id.ndl.go.jp/auth/ndlna/00119641"
+    },
+    {
+      "name": "緒里原洋子 / Yoko Orihara",
+      "url": "https://sites.google.com/site/utakoarakawa/"
+    },
+    {
+      "name": "見良津健雄 / Takeo Miratsu",
+      "url": "https://artist.cdjournal.com/d/memorial-best---twin-amadeus--/4106120450"
+    },
+    {
+      "name": "夢野真音 / Maoto Yumeno",
+      "url": "https://myoji.jitenon.jp/famous/%E5%A4%A2%E9%87%8E"
+    },
+    {
+      "name": "神長弘一 / Koichi Kaminaga",
+      "url": "https://pedia.3rd-in.co.jp/wiki/%E7%A5%9E%E9%95%B7%E5%BC%98%E4%B8%80"
+    },
+    {
+      "name": "井上龍仁 / Ryujin Inoue",
+      "url": "https://sakuhindb.com/tj/6_B0E6BEE5CEB6BFCE/"
+    }
+  ]
+}

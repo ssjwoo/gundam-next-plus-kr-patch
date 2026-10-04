@@ -1,0 +1,1311 @@
+{
+  "schema_version": 1,
+  "baseline_revision": "023",
+  "scope": "Nine target briefing cards, one arcade/free settings atlas and one target instruction; original tgbr01 series logo protected",
+  "runtime_owner": "USER",
+  "runtime_verdict": "NOT_TESTED",
+  "rows": [
+    {
+      "id": "adhc_af.pzz/1/0/arcade",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "아케이드",
+      "render_rule": {
+        "id": "arcade",
+        "text": "아케이드",
+        "box": [
+          1,
+          20,
+          51,
+          33
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "adhc_af.pzz/1/0/free_battle",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "프리 배틀",
+      "render_rule": {
+        "id": "free_battle",
+        "text": "프리 배틀",
+        "box": [
+          53,
+          20,
+          111,
+          33
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "adhc_af.pzz/1/0/next_trial",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "NEXT 트라이얼",
+      "render_rule": {
+        "id": "next_trial",
+        "text": "NEXT 트라이얼",
+        "box": [
+          113,
+          20,
+          196,
+          33
+        ],
+        "size": 12,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "adhc_af.pzz/1/0/difficulty",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "난이도",
+      "render_rule": {
+        "id": "difficulty",
+        "text": "난이도",
+        "box": [
+          1,
+          53,
+          47,
+          70
+        ],
+        "size": 16,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "adhc_af.pzz/1/0/damage",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "피해량",
+      "render_rule": {
+        "id": "damage",
+        "text": "피해량",
+        "box": [
+          1,
+          72,
+          94,
+          89
+        ],
+        "size": 16,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "adhc_af.pzz/1/0/timer",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "타이머",
+      "render_rule": {
+        "id": "timer",
+        "text": "타이머",
+        "box": [
+          49,
+          53,
+          101,
+          70
+        ],
+        "size": 16,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "adhc_af.pzz/1/0/boost",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "부스트 게이지",
+      "render_rule": {
+        "id": "boost",
+        "text": "부스트 게이지",
+        "box": [
+          103,
+          53,
+          207,
+          70
+        ],
+        "size": 16,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "adhc_af.pzz/1/0/team_gauge",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "팀 전력 게이지",
+      "render_rule": {
+        "id": "team_gauge",
+        "text": "팀 전력 게이지",
+        "box": [
+          96,
+          72,
+          200,
+          89
+        ],
+        "size": 16,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "adhc_af.pzz/1/0/stage",
+      "asset": "adhc_af.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "스테이지",
+      "render_rule": {
+        "id": "stage",
+        "text": "스테이지",
+        "box": [
+          1,
+          91,
+          56,
+          108
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr00.pzz/1/0/pilot_0",
+      "asset": "tgbr00.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "듀오",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "듀오",
+        "box": [
+          27,
+          104,
+          53,
+          114
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          37,
+          113
+        ],
+        "expected_sample_rgba": [
+          12,
+          12,
+          12,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr00.pzz/1/0/pilot_1",
+      "asset": "tgbr00.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "히이로",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "히이로",
+        "box": [
+          80,
+          114,
+          103,
+          123
+        ],
+        "size": 7,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          94,
+          116
+        ],
+        "expected_sample_rgba": [
+          24,
+          24,
+          24,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr01.pzz/1/0/pilot_0",
+      "asset": "tgbr01.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "앨런비",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "앨런비",
+        "box": [
+          88,
+          27,
+          123,
+          36
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          88,
+          27
+        ],
+        "expected_sample_rgba": [
+          19,
+          19,
+          22,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr01.pzz/1/0/pilot_1",
+      "asset": "tgbr01.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "도몬",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "도몬",
+        "box": [
+          30,
+          112,
+          52,
+          121
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          33,
+          120
+        ],
+        "expected_sample_rgba": [
+          3,
+          3,
+          3,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr02.pzz/1/0/pilot_0",
+      "asset": "tgbr02.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "무우",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "무우",
+        "box": [
+          46,
+          104,
+          66,
+          113
+        ],
+        "size": 8,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          64,
+          106
+        ],
+        "expected_sample_rgba": [
+          7,
+          9,
+          12,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr02.pzz/1/0/pilot_1",
+      "asset": "tgbr02.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "키라",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "키라",
+        "box": [
+          103,
+          113,
+          124,
+          122
+        ],
+        "size": 8,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          113,
+          113
+        ],
+        "expected_sample_rgba": [
+          12,
+          9,
+          6,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr03.pzz/1/0/pilot_0",
+      "asset": "tgbr03.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "아무로",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "아무로",
+        "box": [
+          14,
+          111,
+          42,
+          121
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          41,
+          112
+        ],
+        "expected_sample_rgba": [
+          12,
+          13,
+          13,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr03.pzz/1/0/pilot_1",
+      "asset": "tgbr03.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "하야토",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "하야토",
+        "box": [
+          52,
+          102,
+          82,
+          112
+        ],
+        "size": 8,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          52,
+          104
+        ],
+        "expected_sample_rgba": [
+          6,
+          7,
+          10,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr03.pzz/1/0/pilot_2",
+      "asset": "tgbr03.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "카이",
+      "render_rule": {
+        "id": "pilot_2",
+        "text": "카이",
+        "box": [
+          98,
+          108,
+          122,
+          119
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          119,
+          108
+        ],
+        "expected_sample_rgba": [
+          4,
+          2,
+          2,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr04.pzz/1/0/pilot_0",
+      "asset": "tgbr04.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "밀리아르도",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "밀리아르도",
+        "box": [
+          32,
+          104,
+          79,
+          114
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          69,
+          104
+        ],
+        "expected_sample_rgba": [
+          6,
+          5,
+          7,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr04.pzz/1/0/pilot_1",
+      "asset": "tgbr04.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "히이로",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "히이로",
+        "box": [
+          101,
+          113,
+          125,
+          123
+        ],
+        "size": 8,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          107,
+          121
+        ],
+        "expected_sample_rgba": [
+          13,
+          16,
+          22,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr05.pzz/1/0/pilot_0",
+      "asset": "tgbr05.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "신",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "신",
+        "box": [
+          13,
+          108,
+          37,
+          119
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          15,
+          108
+        ],
+        "expected_sample_rgba": [
+          18,
+          6,
+          3,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr05.pzz/1/0/pilot_1",
+      "asset": "tgbr05.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "로랑",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "로랑",
+        "box": [
+          54,
+          99,
+          78,
+          110
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          76,
+          99
+        ],
+        "expected_sample_rgba": [
+          28,
+          29,
+          30,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr05.pzz/1/0/pilot_2",
+      "asset": "tgbr05.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "아무로",
+      "render_rule": {
+        "id": "pilot_2",
+        "text": "아무로",
+        "box": [
+          90,
+          107,
+          123,
+          119
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          122,
+          115
+        ],
+        "expected_sample_rgba": [
+          4,
+          3,
+          6,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr06.pzz/1/0/pilot_0",
+      "asset": "tgbr06.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "슈바르츠",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "슈바르츠",
+        "box": [
+          2,
+          107,
+          45,
+          118
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          16,
+          109
+        ],
+        "expected_sample_rgba": [
+          16,
+          11,
+          13,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr06.pzz/1/0/pilot_1",
+      "asset": "tgbr06.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "도몬",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "도몬",
+        "box": [
+          56,
+          116,
+          80,
+          125
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          57,
+          119
+        ],
+        "expected_sample_rgba": [
+          5,
+          7,
+          9,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr06.pzz/1/0/pilot_2",
+      "asset": "tgbr06.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "동방불패",
+      "render_rule": {
+        "id": "pilot_2",
+        "text": "동방불패",
+        "box": [
+          88,
+          108,
+          124,
+          120
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          88,
+          116
+        ],
+        "expected_sample_rgba": [
+          9,
+          16,
+          21,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr07.pzz/1/0/pilot_0",
+      "asset": "tgbr07.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "우페이",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "우페이",
+        "box": [
+          94,
+          28,
+          124,
+          36
+        ],
+        "size": 8,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          99,
+          28
+        ],
+        "expected_sample_rgba": [
+          16,
+          24,
+          30,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr07.pzz/1/0/pilot_1",
+      "asset": "tgbr07.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "히이로",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "히이로",
+        "box": [
+          30,
+          113,
+          54,
+          124
+        ],
+        "size": 8,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          42,
+          116
+        ],
+        "expected_sample_rgba": [
+          17,
+          19,
+          20,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr08.pzz/1/0/pilot_0",
+      "asset": "tgbr08.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "시로코",
+      "render_rule": {
+        "id": "pilot_0",
+        "text": "시로코",
+        "box": [
+          94,
+          26,
+          123,
+          35
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          119,
+          34
+        ],
+        "expected_sample_rgba": [
+          17,
+          21,
+          6,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "tgbr08.pzz/1/0/pilot_1",
+      "asset": "tgbr08.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "하만",
+      "render_rule": {
+        "id": "pilot_1",
+        "text": "하만",
+        "box": [
+          20,
+          113,
+          52,
+          123
+        ],
+        "size": 9,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          20,
+          116
+        ],
+        "expected_sample_rgba": [
+          8,
+          8,
+          14,
+          255
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vrs02.pzz/1/6/target_instruction",
+      "asset": "vrs02.pzz",
+      "part": 1,
+      "picture": 6,
+      "target_ko": "표적을 격파하라!",
+      "render_rule": {
+        "id": "target_instruction",
+        "text": "표적을 격파하라!",
+        "box": [
+          7,
+          3,
+          121,
+          17
+        ],
+        "size": 14,
+        "sample_x": 0,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1,
+        "sample_xy": [
+          0,
+          5
+        ],
+        "expected_sample_rgba": [
+          255,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    }
+  ]
+}

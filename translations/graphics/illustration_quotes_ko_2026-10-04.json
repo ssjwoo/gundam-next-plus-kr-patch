@@ -1,0 +1,1017 @@
+{
+  "schema_version": 1,
+  "baseline_revision": "023",
+  "scope": "Two gallery and two distinct ending G Gundam background quote illustrations; these are non-logo words",
+  "runtime_owner": "USER",
+  "runtime_verdict": "NOT_TESTED",
+  "rows": [
+    {
+      "id": "illust_32.pzz/0/0/challenge",
+      "asset": "illust_32.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "받\n아\n라\n!",
+      "render_rule": {
+        "id": "challenge",
+        "text": "받\n아\n라\n!",
+        "box": [
+          54,
+          26,
+          80,
+          122
+        ],
+        "size": 19,
+        "sample_x": 0,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_32.pzz/0/0/blood_red_east",
+      "asset": "illust_32.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "동\n방\n을\n피\n로\n붉\n게\n물\n들\n인\n다",
+      "render_rule": {
+        "id": "blood_red_east",
+        "text": "동\n방\n을\n피\n로\n붉\n게\n물\n들\n인\n다",
+        "box": [
+          11,
+          32,
+          49,
+          246
+        ],
+        "size": 18,
+        "sample_x": 0,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          200,
+          50,
+          0,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_32.pzz/0/0/new_school",
+      "asset": "illust_32.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "신\n유\n파",
+      "render_rule": {
+        "id": "new_school",
+        "text": "신\n유\n파",
+        "box": [
+          447,
+          24,
+          474,
+          122
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_32.pzz/0/0/school_name",
+      "asset": "illust_32.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "동\n방\n불\n패",
+      "render_rule": {
+        "id": "school_name",
+        "text": "동\n방\n불\n패",
+        "box": [
+          425,
+          24,
+          447,
+          124
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_32.pzz/0/0/new_moves",
+      "asset": "illust_32.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "새\n로\n운\n초\n식",
+      "render_rule": {
+        "id": "new_moves",
+        "text": "새\n로\n운\n초\n식",
+        "box": [
+          402,
+          24,
+          425,
+          125
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_32.pzz/0/0/kings_wind",
+      "asset": "illust_32.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "왕\n자\n의\n바\n람",
+      "render_rule": {
+        "id": "kings_wind",
+        "text": "왕\n자\n의\n바\n람",
+        "box": [
+          427,
+          139,
+          451,
+          247
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_32.pzz/0/0/sekiha_tenkyoken",
+      "asset": "illust_32.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "석\n파\n천\n경",
+      "render_rule": {
+        "id": "sekiha_tenkyoken",
+        "text": "석\n파\n천\n경",
+        "box": [
+          403,
+          137,
+          427,
+          248
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_33.pzz/0/0/challenge",
+      "asset": "illust_33.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "받\n아\n라\n!",
+      "render_rule": {
+        "id": "challenge",
+        "text": "받\n아\n라\n!",
+        "box": [
+          54,
+          26,
+          80,
+          122
+        ],
+        "size": 19,
+        "sample_x": 0,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_33.pzz/0/0/blood_red_east",
+      "asset": "illust_33.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "동\n방\n을\n피\n로\n붉\n게\n물\n들\n인\n다",
+      "render_rule": {
+        "id": "blood_red_east",
+        "text": "동\n방\n을\n피\n로\n붉\n게\n물\n들\n인\n다",
+        "box": [
+          11,
+          32,
+          49,
+          246
+        ],
+        "size": 18,
+        "sample_x": 0,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          200,
+          50,
+          0,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_33.pzz/0/0/new_school",
+      "asset": "illust_33.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "신\n유\n파",
+      "render_rule": {
+        "id": "new_school",
+        "text": "신\n유\n파",
+        "box": [
+          447,
+          24,
+          474,
+          122
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_33.pzz/0/0/school_name",
+      "asset": "illust_33.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "동\n방\n불\n패",
+      "render_rule": {
+        "id": "school_name",
+        "text": "동\n방\n불\n패",
+        "box": [
+          425,
+          24,
+          447,
+          124
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_33.pzz/0/0/new_moves",
+      "asset": "illust_33.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "새\n로\n운\n초\n식",
+      "render_rule": {
+        "id": "new_moves",
+        "text": "새\n로\n운\n초\n식",
+        "box": [
+          402,
+          24,
+          425,
+          125
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_33.pzz/0/0/kings_wind",
+      "asset": "illust_33.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "왕\n자\n의\n바\n람",
+      "render_rule": {
+        "id": "kings_wind",
+        "text": "왕\n자\n의\n바\n람",
+        "box": [
+          427,
+          139,
+          451,
+          247
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "illust_33.pzz/0/0/sekiha_tenkyoken",
+      "asset": "illust_33.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "석\n파\n천\n경",
+      "render_rule": {
+        "id": "sekiha_tenkyoken",
+        "text": "석\n파\n천\n경",
+        "box": [
+          403,
+          137,
+          427,
+          248
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06.pzz/0/0/challenge",
+      "asset": "eds06.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "받\n아\n라\n!",
+      "render_rule": {
+        "id": "challenge",
+        "text": "받\n아\n라\n!",
+        "box": [
+          54,
+          26,
+          80,
+          122
+        ],
+        "size": 19,
+        "sample_x": 0,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06.pzz/0/0/blood_red_east",
+      "asset": "eds06.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "동\n방\n을\n피\n로\n붉\n게\n물\n들\n인\n다",
+      "render_rule": {
+        "id": "blood_red_east",
+        "text": "동\n방\n을\n피\n로\n붉\n게\n물\n들\n인\n다",
+        "box": [
+          11,
+          32,
+          49,
+          246
+        ],
+        "size": 18,
+        "sample_x": 0,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          200,
+          50,
+          0,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06.pzz/0/0/new_school",
+      "asset": "eds06.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "신\n유\n파",
+      "render_rule": {
+        "id": "new_school",
+        "text": "신\n유\n파",
+        "box": [
+          447,
+          24,
+          474,
+          122
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06.pzz/0/0/school_name",
+      "asset": "eds06.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "동\n방\n불\n패",
+      "render_rule": {
+        "id": "school_name",
+        "text": "동\n방\n불\n패",
+        "box": [
+          425,
+          24,
+          447,
+          124
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06.pzz/0/0/new_moves",
+      "asset": "eds06.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "새\n로\n운\n초\n식",
+      "render_rule": {
+        "id": "new_moves",
+        "text": "새\n로\n운\n초\n식",
+        "box": [
+          402,
+          24,
+          425,
+          125
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06.pzz/0/0/kings_wind",
+      "asset": "eds06.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "왕\n자\n의\n바\n람",
+      "render_rule": {
+        "id": "kings_wind",
+        "text": "왕\n자\n의\n바\n람",
+        "box": [
+          427,
+          139,
+          451,
+          247
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06.pzz/0/0/sekiha_tenkyoken",
+      "asset": "eds06.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "석\n파\n천\n경",
+      "render_rule": {
+        "id": "sekiha_tenkyoken",
+        "text": "석\n파\n천\n경",
+        "box": [
+          403,
+          137,
+          427,
+          248
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06_2.pzz/0/0/challenge",
+      "asset": "eds06_2.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "받\n아\n라\n!",
+      "render_rule": {
+        "id": "challenge",
+        "text": "받\n아\n라\n!",
+        "box": [
+          54,
+          26,
+          80,
+          122
+        ],
+        "size": 19,
+        "sample_x": 0,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06_2.pzz/0/0/blood_red_east",
+      "asset": "eds06_2.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "동\n방\n을\n피\n로\n붉\n게\n물\n들\n인\n다",
+      "render_rule": {
+        "id": "blood_red_east",
+        "text": "동\n방\n을\n피\n로\n붉\n게\n물\n들\n인\n다",
+        "box": [
+          11,
+          32,
+          49,
+          246
+        ],
+        "size": 18,
+        "sample_x": 0,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          200,
+          50,
+          0,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06_2.pzz/0/0/new_school",
+      "asset": "eds06_2.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "신\n유\n파",
+      "render_rule": {
+        "id": "new_school",
+        "text": "신\n유\n파",
+        "box": [
+          447,
+          24,
+          474,
+          122
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06_2.pzz/0/0/school_name",
+      "asset": "eds06_2.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "동\n방\n불\n패",
+      "render_rule": {
+        "id": "school_name",
+        "text": "동\n방\n불\n패",
+        "box": [
+          425,
+          24,
+          447,
+          124
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06_2.pzz/0/0/new_moves",
+      "asset": "eds06_2.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "새\n로\n운\n초\n식",
+      "render_rule": {
+        "id": "new_moves",
+        "text": "새\n로\n운\n초\n식",
+        "box": [
+          402,
+          24,
+          425,
+          125
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06_2.pzz/0/0/kings_wind",
+      "asset": "eds06_2.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "왕\n자\n의\n바\n람",
+      "render_rule": {
+        "id": "kings_wind",
+        "text": "왕\n자\n의\n바\n람",
+        "box": [
+          427,
+          139,
+          451,
+          247
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "eds06_2.pzz/0/0/sekiha_tenkyoken",
+      "asset": "eds06_2.pzz",
+      "part": 0,
+      "picture": 0,
+      "target_ko": "석\n파\n천\n경",
+      "render_rule": {
+        "id": "sekiha_tenkyoken",
+        "text": "석\n파\n천\n경",
+        "box": [
+          403,
+          137,
+          427,
+          248
+        ],
+        "size": 19,
+        "sample_x": 479,
+        "fill": [
+          255,
+          215,
+          52,
+          255
+        ],
+        "stroke": [
+          132,
+          89,
+          25,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    }
+  ]
+}

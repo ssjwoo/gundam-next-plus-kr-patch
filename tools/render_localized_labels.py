@@ -133,6 +133,12 @@ def main():
         if mode in {'region_inpaint','letter_inpaint'}:
             ink=region_mask(original,r['box'],mode=='letter_inpaint',r.get('ink_minimum',195),r.get('polygon'))
             cv_mask=ink if cv_mask is None else cv_mask|ink
+        elif mode == 'point_sample':
+            sx, sy = r['sample_xy']
+            assert 0 <= sx < original.width and 0 <= sy < original.height
+            color = original.getpixel((sx, sy))
+            assert list(color) == r['expected_sample_rgba'], 'Atlas background sample changed'
+            edited.paste(color, (x0, y0, x1, y1))
         elif mode == 'inpaint':
             edited.paste(heal_lettering(original,r['box'],r.get('ink_minimum',195)),(x0,y0))
         elif mode == 'vertical_interpolation':

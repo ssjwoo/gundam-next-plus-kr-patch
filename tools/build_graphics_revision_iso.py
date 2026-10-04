@@ -11,6 +11,9 @@ from pathlib import Path
 import shutil
 import struct
 import zlib
+from io import BytesIO
+from elftools.elf.elffile import ELFFile
+from make_hangul_poc import encode_hangul, decode_hangul
 
 from hanpatch.platforms.psp import iso9660
 from repack_pzz import parse
@@ -33,6 +36,8 @@ def main():
     p.add_argument('replacements',type=Path)
     p.add_argument('output_iso',type=Path)
     p.add_argument('--expected-baseline-sha256',required=True)
+    p.add_argument('--elf-data-plan', type=Path,
+                   help='Optional exact-before-byte text plan restricted to existing ELF .data slots')
     a=p.parse_args()
     manifest_out=a.output_iso.with_suffix('.manifest.json')
     if a.output_iso.exists() or manifest_out.exists():
@@ -42,6 +47,7 @@ def main():
     supplied=list(a.replacements.glob('*.pzz'))
     assert supplied and all(x.name in sources for x in supplied)
     writes=[]
+    elf_slots=[]
     with iso9660.Iso.from_path(a.baseline_iso) as iso:
         geometry=[(r.path,r.lba,r.size) for r in iso.walk()]
         files={r.path:r for r in iso.walk() if not r.is_dir}
@@ -79,6 +85,31 @@ def main():
             writes.append((absolute,new,{'name':name,'archive':entry.path,'index':s['index'],
                 'absolute_offset':absolute,'bytes':size,'old_sha256':s['sha256'],
                 'new_sha256':hashlib.sha256(new).hexdigest(),'part_count':len(np)}))
+        if a.elf_data_plan:
+            plan=json.loads(a.elf_data_plan.read_bytes())
+            entry=files['/PSP_GAME/SYSDIR/EBOOT.BIN']
+            elf_before=bytes(iso.blob[entry.offset:entry.offset+entry.size])
+            assert hashlib.sha256(elf_before).hexdigest()==plan['baseline_elf_sha256']
+            font_entry=files['/PSP_GAME/SYSDIR/UPDATE/DATA.BIN']
+            font_before=bytes(iso.blob[font_entry.offset:font_entry.offset+font_entry.size])
+            assert hashlib.sha256(font_before).hexdigest()==plan['font_sha256']
+            elf=ELFFile(BytesIO(elf_before)); section=elf.get_section_by_name('.data')
+            start,end=section['sh_offset'],section['sh_offset']+section['sh_size']
+            for row in plan['records']:
+                off=row['offset']; old=bytes.fromhex(row['expected_before_hex'])
+                new=bytes.fromhex(row['replacement_hex']); capacity=row['capacity']
+                assert start<=off<off+len(old)<=end and len(old)==len(new)==capacity+1
+                assert elf_before[off:off+len(old)]==old and old!=new
+                encoded=encode_hangul(row['target_ko'])
+                assert len(encoded)<=capacity and new==encoded+b'\0'*(capacity+1-len(encoded))
+                assert decode_hangul(new.split(b'\0')[0])==row['target_ko']
+                assert row['existing_font_codes_verified'] is True
+                absolute=entry.offset+off
+                assert not any(lo<absolute+len(new) and absolute<lo+len(data) for lo,data,_ in writes)
+                receipt={'name':row['slot_id'],'elf_file_offset':off,'absolute_offset':absolute,
+                         'bytes':len(new),'old_sha256':hashlib.sha256(old).hexdigest(),
+                         'new_sha256':hashlib.sha256(new).hexdigest(),'target_ko':row['target_ko']}
+                writes.append((absolute,new,receipt)); elf_slots.append(receipt)
         # Enforce the current user decision before creating another large ISO.
         logo_policy = None
         if DEFAULT_POLICY.exists():
@@ -125,7 +156,8 @@ def main():
             crc=zlib.crc32(data,crc)
     result={'candidate_iso':str(a.output_iso.resolve()),'baseline_iso_sha256':a.expected_baseline_sha256,
         'iso_sha256':file_sha(a.output_iso),'iso_crc32':f'{crc&0xffffffff:08X}',
-        'iso_bytes':a.output_iso.stat().st_size,'members':[r for _,_,r in writes],
+        'iso_bytes':a.output_iso.stat().st_size,'members':[r for _,_,r in writes if 'archive' in r],
+        'elf_data_slots':elf_slots,
         'changed_disc_bytes':changed,'iso_member_geometry_preserved':True,
         'unaffected_iso_bytes_preserved':True,'afs_tables_and_pzz_geometry_preserved':True,
         'pzz_loader_checksums_verified':True,

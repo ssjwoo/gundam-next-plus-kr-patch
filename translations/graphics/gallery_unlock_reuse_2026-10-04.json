@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "baseline_revision": "023",
+  "scope": "Six gallery variants reuse exact accepted 023 unlock UI pixels; original title logos protected",
+  "runtime_owner": "USER",
+  "runtime_verdict": "NOT_TESTED",
+  "rows": [],
+  "bindings": [
+    {
+      "asset": "illust_54.pzz",
+      "donor": "newget1.pzz",
+      "source_rgba_identical": true,
+      "readback_rgba_exact": true
+    },
+    {
+      "asset": "illust_55.pzz",
+      "donor": "newget2.pzz",
+      "source_rgba_identical": true,
+      "readback_rgba_exact": true
+    },
+    {
+      "asset": "illust_56.pzz",
+      "donor": "newget3.pzz",
+      "source_rgba_identical": true,
+      "readback_rgba_exact": true
+    },
+    {
+      "asset": "illust_57.pzz",
+      "donor": "newget4.pzz",
+      "source_rgba_identical": true,
+      "readback_rgba_exact": true
+    },
+    {
+      "asset": "illust_58.pzz",
+      "donor": "newget5.pzz",
+      "source_rgba_identical": true,
+      "readback_rgba_exact": true
+    },
+    {
+      "asset": "illust_59.pzz",
+      "donor": "newget6.pzz",
+      "source_rgba_identical": true,
+      "readback_rgba_exact": true
+    }
+  ]
+}

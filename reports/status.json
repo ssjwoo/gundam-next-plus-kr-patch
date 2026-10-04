@@ -999,5 +999,48 @@
     "cache_busting_query_used": true
   },
   "development_release_ready": true,
-  "full_localization_release_ready": false
+  "full_localization_release_ready": false,
+  "remaining_work_2026_10_04": {
+    "date": "2026-10-04",
+    "revision": "027",
+    "baseline_revision": "023",
+    "baseline_runtime": "USER_REPORTED_PASS",
+    "baseline_mission_freeze_resolution": "RESOLVED_USER_REPORTED",
+    "candidate_iso_name": "next_plus_graphics_revision_027.iso",
+    "candidate_iso_bytes": 1757806592,
+    "candidate_iso_sha256": "2c58ba6fc1d06cb2c4c3bfbbe16e230281accff972a7f308ecd2938a45d64cb8",
+    "candidate_iso_crc32": "DFA55DF8",
+    "xdelta_name": "next_plus_graphics_revision_027.xdelta",
+    "xdelta_sha256": "f1945f0a180b9dac9d19ce45114eef58592b59b0f6907090dd85de0ba6684094",
+    "xdelta_crc32": "B36A87C4",
+    "xdelta_bytes": 15161344,
+    "xdelta_roundtrip": "PASS",
+    "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "graphics_pzz_members_added": 255,
+    "graphics_surfaces_added": 272,
+    "authored_graphic_labels_added": 1174,
+    "reused_unlock_pictures": 6,
+    "elf_data_text_slots_added": 13,
+    "runtime_verdict": "NOT_TESTED",
+    "runtime_owner": "USER",
+    "agent_executed_game": false,
+    "whole_game_complete": false,
+    "whole_next_plus_complete": false,
+    "public_release_updated": false,
+    "public_release_revision": "023",
+    "known_remaining": [
+      "Free-battle series/stage-name list in vsel01 picture 2 and stage-selector captions in pictures 3/4.",
+      "Exact mode-consumer mapping and complete source-family coverage remain open.",
+      "Legacy polished translation IDs require source-byte/context binding; numeric IDs alone are unsafe."
+    ],
+    "source_triage": {
+      "brfst_members": 37,
+      "brfst_pictures": 74,
+      "brfpi_members": 66,
+      "brfpi_pictures": 66,
+      "visible_japanese_ui_observed": false,
+      "only_these_reviewed_families": true,
+      "original_pixels_retained": true
+    }
+  }
 }

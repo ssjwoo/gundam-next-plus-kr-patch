@@ -1,0 +1,2493 @@
+{
+  "schema_version": 1,
+  "baseline_revision": "023",
+  "scope": "Arcade/free results, ready/selecting states, detailed settings and ten Japanese song titles; stage-name list remains pending",
+  "runtime_owner": "USER",
+  "runtime_verdict": "NOT_TESTED",
+  "rows": [
+    {
+      "id": "rsltc.pzz/1/0/continue",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "계속 플레이할까요?",
+      "render_rule": {
+        "id": "continue",
+        "text": "계속 플레이할까요?",
+        "box": [
+          1,
+          1,
+          156,
+          18
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/0/retry",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "재도전",
+      "render_rule": {
+        "id": "retry",
+        "text": "재도전",
+        "box": [
+          1,
+          20,
+          36,
+          37
+        ],
+        "size": 12,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/0/select",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "선택",
+      "render_rule": {
+        "id": "select",
+        "text": "선택",
+        "box": [
+          38,
+          20,
+          91,
+          37
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/0/return",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "화면으로 복귀",
+      "render_rule": {
+        "id": "return",
+        "text": "화면으로 복귀",
+        "box": [
+          93,
+          20,
+          171,
+          37
+        ],
+        "size": 13,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/0/main_menu",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "메인 메뉴",
+      "render_rule": {
+        "id": "main_menu",
+        "text": "메인 메뉴",
+        "box": [
+          1,
+          39,
+          85,
+          56
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/0/lobby",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "로비",
+      "render_rule": {
+        "id": "lobby",
+        "text": "로비",
+        "box": [
+          87,
+          39,
+          128,
+          56
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/0/yes",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "예",
+      "render_rule": {
+        "id": "yes",
+        "text": "예",
+        "box": [
+          158,
+          1,
+          191,
+          18
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/0/no",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "아니요",
+      "render_rule": {
+        "id": "no",
+        "text": "아니요",
+        "box": [
+          193,
+          1,
+          238,
+          18
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/2/selecting",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 2,
+      "target_ko": "선택 중",
+      "render_rule": {
+        "id": "selecting",
+        "text": "선택 중",
+        "box": [
+          1,
+          47,
+          40,
+          63
+        ],
+        "size": 12,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          147,
+          147,
+          147,
+          0
+        ],
+        "fill": [
+          255,
+          70,
+          160,
+          255
+        ],
+        "stroke": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/5/kills",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 5,
+      "target_ko": "격파 수",
+      "render_rule": {
+        "id": "kills",
+        "text": "격파 수",
+        "box": [
+          1,
+          1,
+          42,
+          17
+        ],
+        "size": 12,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          81,
+          109,
+          158,
+          0
+        ],
+        "fill": [
+          225,
+          245,
+          255,
+          255
+        ],
+        "stroke": [
+          60,
+          95,
+          150,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/5/deaths",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 5,
+      "target_ko": "격추당함",
+      "render_rule": {
+        "id": "deaths",
+        "text": "격추당함",
+        "box": [
+          44,
+          1,
+          95,
+          17
+        ],
+        "size": 13,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          81,
+          109,
+          158,
+          0
+        ],
+        "fill": [
+          225,
+          245,
+          255,
+          255
+        ],
+        "stroke": [
+          60,
+          95,
+          150,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/5/medals",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 5,
+      "target_ko": "훈장",
+      "render_rule": {
+        "id": "medals",
+        "text": "훈장",
+        "box": [
+          97,
+          1,
+          127,
+          17
+        ],
+        "size": 14,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          81,
+          109,
+          158,
+          0
+        ],
+        "fill": [
+          225,
+          245,
+          255,
+          255
+        ],
+        "stroke": [
+          60,
+          95,
+          150,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/5/attack",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 5,
+      "target_ko": "공격",
+      "render_rule": {
+        "id": "attack",
+        "text": "공격",
+        "box": [
+          1,
+          19,
+          44,
+          35
+        ],
+        "size": 14,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          81,
+          109,
+          158,
+          0
+        ],
+        "fill": [
+          225,
+          245,
+          255,
+          255
+        ],
+        "stroke": [
+          60,
+          95,
+          150,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/5/bonus",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 5,
+      "target_ko": "보너스",
+      "render_rule": {
+        "id": "bonus",
+        "text": "보너스",
+        "box": [
+          46,
+          19,
+          93,
+          35
+        ],
+        "size": 14,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          81,
+          109,
+          158,
+          0
+        ],
+        "fill": [
+          225,
+          245,
+          255,
+          255
+        ],
+        "stroke": [
+          60,
+          95,
+          150,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/5/time",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 5,
+      "target_ko": "시간",
+      "render_rule": {
+        "id": "time",
+        "text": "시간",
+        "box": [
+          95,
+          19,
+          127,
+          35
+        ],
+        "size": 14,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          81,
+          109,
+          158,
+          0
+        ],
+        "fill": [
+          225,
+          245,
+          255,
+          255
+        ],
+        "stroke": [
+          60,
+          95,
+          150,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/5/max_attack",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 5,
+      "target_ko": "최대 공격치",
+      "render_rule": {
+        "id": "max_attack",
+        "text": "최대 공격치",
+        "box": [
+          1,
+          37,
+          65,
+          53
+        ],
+        "size": 12,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          81,
+          109,
+          158,
+          0
+        ],
+        "fill": [
+          225,
+          245,
+          255,
+          255
+        ],
+        "stroke": [
+          60,
+          95,
+          150,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltc.pzz/1/5/armor",
+      "asset": "rsltc.pzz",
+      "part": 1,
+      "picture": 5,
+      "target_ko": "내구도",
+      "render_rule": {
+        "id": "armor",
+        "text": "내구도",
+        "box": [
+          67,
+          37,
+          106,
+          53
+        ],
+        "size": 13,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          81,
+          109,
+          158,
+          0
+        ],
+        "fill": [
+          225,
+          245,
+          255,
+          255
+        ],
+        "stroke": [
+          60,
+          95,
+          150,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/0/continue",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "계속 플레이할까요?",
+      "render_rule": {
+        "id": "continue",
+        "text": "계속 플레이할까요?",
+        "box": [
+          1,
+          1,
+          156,
+          18
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/0/retry",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "재도전",
+      "render_rule": {
+        "id": "retry",
+        "text": "재도전",
+        "box": [
+          1,
+          20,
+          36,
+          37
+        ],
+        "size": 12,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/0/select",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "선택",
+      "render_rule": {
+        "id": "select",
+        "text": "선택",
+        "box": [
+          38,
+          20,
+          91,
+          37
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/0/return",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "화면으로 복귀",
+      "render_rule": {
+        "id": "return",
+        "text": "화면으로 복귀",
+        "box": [
+          93,
+          20,
+          171,
+          37
+        ],
+        "size": 13,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/0/main_menu",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "메인 메뉴",
+      "render_rule": {
+        "id": "main_menu",
+        "text": "메인 메뉴",
+        "box": [
+          1,
+          39,
+          85,
+          56
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/0/lobby",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "로비",
+      "render_rule": {
+        "id": "lobby",
+        "text": "로비",
+        "box": [
+          87,
+          39,
+          128,
+          56
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/0/yes",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "예",
+      "render_rule": {
+        "id": "yes",
+        "text": "예",
+        "box": [
+          158,
+          1,
+          191,
+          18
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/0/no",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "아니요",
+      "render_rule": {
+        "id": "no",
+        "text": "아니요",
+        "box": [
+          193,
+          1,
+          238,
+          18
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/2/wins",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 2,
+      "target_ko": "승",
+      "render_rule": {
+        "id": "wins",
+        "text": "승",
+        "box": [
+          113,
+          48,
+          129,
+          63
+        ],
+        "size": 14,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          134,
+          134,
+          134,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/2/deaths",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 2,
+      "target_ko": "격추당함",
+      "render_rule": {
+        "id": "deaths",
+        "text": "격추당함",
+        "box": [
+          131,
+          48,
+          171,
+          63
+        ],
+        "size": 10,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          134,
+          134,
+          134,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/2/kills",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 2,
+      "target_ko": "격파",
+      "render_rule": {
+        "id": "kills",
+        "text": "격파",
+        "box": [
+          173,
+          48,
+          202,
+          63
+        ],
+        "size": 14,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          134,
+          134,
+          134,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "rsltv.pzz/1/2/total_kills",
+      "asset": "rsltv.pzz",
+      "part": 1,
+      "picture": 2,
+      "target_ko": "총 격파 수",
+      "render_rule": {
+        "id": "total_kills",
+        "text": "총 격파 수",
+        "box": [
+          204,
+          48,
+          255,
+          63
+        ],
+        "size": 12,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          63
+        ],
+        "expected_sample_rgba": [
+          134,
+          134,
+          134,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/0/details",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "상세 설정",
+      "render_rule": {
+        "id": "details",
+        "text": "상세 설정",
+        "box": [
+          16,
+          1,
+          63,
+          15
+        ],
+        "size": 12,
+        "sample_x": 63,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          63,
+          63
+        ],
+        "expected_sample_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/0/stage",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "스테이지/",
+      "render_rule": {
+        "id": "stage",
+        "text": "스테이지/",
+        "box": [
+          1,
+          17,
+          48,
+          31
+        ],
+        "size": 11,
+        "sample_x": 63,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          63,
+          63
+        ],
+        "expected_sample_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/0/music",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "BGM 선택",
+      "render_rule": {
+        "id": "music",
+        "text": "BGM 선택",
+        "box": [
+          1,
+          33,
+          63,
+          47
+        ],
+        "size": 13,
+        "sample_x": 63,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          63,
+          63
+        ],
+        "expected_sample_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/stage",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "스테이지",
+      "render_rule": {
+        "id": "stage",
+        "text": "스테이지",
+        "box": [
+          1,
+          36,
+          56,
+          53
+        ],
+        "size": 14,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/timer",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "타이머",
+      "render_rule": {
+        "id": "timer",
+        "text": "타이머",
+        "box": [
+          58,
+          36,
+          110,
+          53
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/boost",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "부스트 게이지",
+      "render_rule": {
+        "id": "boost",
+        "text": "부스트 게이지",
+        "box": [
+          112,
+          36,
+          216,
+          53
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/damage",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "피해량",
+      "render_rule": {
+        "id": "damage",
+        "text": "피해량",
+        "box": [
+          1,
+          55,
+          94,
+          72
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/team_gauge",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "팀 전력 게이지",
+      "render_rule": {
+        "id": "team_gauge",
+        "text": "팀 전력 게이지",
+        "box": [
+          96,
+          55,
+          200,
+          72
+        ],
+        "size": 16,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_gundam",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "날아라! 건담",
+      "render_rule": {
+        "id": "song_gundam",
+        "text": "날아라! 건담",
+        "box": [
+          1,
+          74,
+          89,
+          88
+        ],
+        "size": 13,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_ms",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "모빌슈트전",
+      "render_rule": {
+        "id": "song_ms",
+        "text": "모빌슈트전",
+        "box": [
+          91,
+          74,
+          188,
+          88
+        ],
+        "size": 14,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_ai",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "슬픈 전사",
+      "render_rule": {
+        "id": "song_ai",
+        "text": "슬픈 전사",
+        "box": [
+          190,
+          74,
+          244,
+          88
+        ],
+        "size": 13,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_zz",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "애니메이션이 아냐! - 꿈을 잊은 옛 지구인이여 -",
+      "render_rule": {
+        "id": "song_zz",
+        "text": "애니메이션이 아냐! - 꿈을 잊은 옛 지구인이여 -",
+        "box": [
+          1,
+          90,
+          244,
+          104
+        ],
+        "size": 12,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_cca",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "BEYOND THE TIME (뫼비우스의 우주를 넘어서)",
+      "render_rule": {
+        "id": "song_cca",
+        "text": "BEYOND THE TIME (뫼비우스의 우주를 넘어서)",
+        "box": [
+          1,
+          106,
+          255,
+          120
+        ],
+        "size": 12,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_f91",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "ETERNAL WIND ~미소는 빛나는 바람 속에~",
+      "render_rule": {
+        "id": "song_f91",
+        "text": "ETERNAL WIND ~미소는 빛나는 바람 속에~",
+        "box": [
+          1,
+          122,
+          255,
+          136
+        ],
+        "size": 13,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_0080",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "언젠가 하늘에 닿기를",
+      "render_rule": {
+        "id": "song_0080",
+        "text": "언젠가 하늘에 닿기를",
+        "box": [
+          1,
+          170,
+          107,
+          184
+        ],
+        "size": 12,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_destiny",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "우리들의 행방",
+      "render_rule": {
+        "id": "song_destiny",
+        "text": "우리들의 행방",
+        "box": [
+          109,
+          170,
+          191,
+          184
+        ],
+        "size": 13,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/auto_select",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "자동 선택",
+      "render_rule": {
+        "id": "auto_select",
+        "text": "자동 선택",
+        "box": [
+          193,
+          170,
+          252,
+          184
+        ],
+        "size": 14,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_turna",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "턴에이 턴",
+      "render_rule": {
+        "id": "song_turna",
+        "text": "턴에이 턴",
+        "box": [
+          1,
+          186,
+          79,
+          200
+        ],
+        "size": 14,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel01.pzz/1/1/song_08th",
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "폭풍 속에서 빛나줘",
+      "render_rule": {
+        "id": "song_08th",
+        "text": "폭풍 속에서 빛나줘",
+        "box": [
+          81,
+          186,
+          176,
+          200
+        ],
+        "size": 12,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          255
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel00.pzz/1/0/ready",
+      "asset": "vsel00.pzz",
+      "part": 1,
+      "picture": 0,
+      "target_ko": "준비 완료",
+      "render_rule": {
+        "id": "ready",
+        "text": "준비 완료",
+        "box": [
+          1,
+          92,
+          95,
+          127
+        ],
+        "size": 22,
+        "sample_x": 255,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          255,
+          127
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 1,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel00.pzz/1/1/selecting",
+      "asset": "vsel00.pzz",
+      "part": 1,
+      "picture": 1,
+      "target_ko": "선택 중",
+      "render_rule": {
+        "id": "selecting",
+        "text": "선택 중",
+        "box": [
+          79,
+          48,
+          127,
+          63
+        ],
+        "size": 14,
+        "sample_x": 127,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          127,
+          63
+        ],
+        "expected_sample_rgba": [
+          255,
+          255,
+          255,
+          0
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke": [
+          70,
+          70,
+          70,
+          255
+        ],
+        "stroke_width": 0,
+        "line_spacing": 1
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel00.pzz/1/8/disabled_slot",
+      "asset": "vsel00.pzz",
+      "part": 1,
+      "picture": 8,
+      "target_ko": "출격 중지",
+      "render_rule": {
+        "id": "disabled_slot",
+        "text": "출격 중지",
+        "box": [
+          307,
+          128,
+          407,
+          146
+        ],
+        "size": 14,
+        "sample_x": 307,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          307,
+          128
+        ],
+        "expected_sample_rgba": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    },
+    {
+      "id": "vsel00.pzz/1/8/random_slot",
+      "asset": "vsel00.pzz",
+      "part": 1,
+      "picture": 8,
+      "target_ko": "자동 선택",
+      "render_rule": {
+        "id": "random_slot",
+        "text": "자동 선택",
+        "box": [
+          409,
+          128,
+          510,
+          146
+        ],
+        "size": 14,
+        "sample_x": 409,
+        "reviewed_background_sample_inside_box": true,
+        "background_mode": "point_sample",
+        "sample_xy": [
+          409,
+          128
+        ],
+        "expected_sample_rgba": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "stroke_width": 0,
+        "align": "left"
+      },
+      "status": "development_source_reviewed",
+      "runtime_verdict": "NOT_TESTED",
+      "approved": false
+    }
+  ]
+}
