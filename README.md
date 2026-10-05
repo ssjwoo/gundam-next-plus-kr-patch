@@ -3,8 +3,8 @@
 PSP 일본판 **『기동전사 건담: 건담 VS. 건담 NEXT PLUS』**의 한글화를 위한 역공학·빌드 도구와 번역 초안을 공개합니다.
 
 > [!WARNING]
-> 아직 개발 중인 한글 패치입니다. 최신 027 개발 릴리스를 공개했으며 게임 전체 한글화와 전체 플레이 검수는 진행 중입니다.
-> 027의 NEXT PLUS 중급 트라이얼 마지막 백식 호위 임무에서 전투 중 랜덤 프리징이 보고됐습니다. 로컬 038에서 확인한 데이터·문자 결함을 복원했으나 실제 미션 해결은 미확인입니다. [현재 이슈](docs/MISSION_FREEZE_027_2026-10-05.md). 023의 과거 타이거바움 해결 확인은 별도 기록입니다.
+> 아직 개발 중인 한글 패치입니다. 최신 038 개발 릴리스를 공개했으며 게임 전체 한글화와 전체 플레이 검수는 진행 중입니다.
+> 027의 NEXT PLUS 중급 트라이얼 마지막 백식 호위 임무에서 전투 중 랜덤 프리징이 보고됐습니다. 038에서 확인한 데이터·문자 결함을 복원했으나 실제 미션 해결은 미확인입니다. [현재 이슈](docs/MISSION_FREEZE_027_2026-10-05.md). 023의 과거 타이거바움 해결 확인은 별도 기록입니다.
 
 ## 저작권 및 배포 방침
 
@@ -18,30 +18,26 @@ PSP 일본판 **『기동전사 건담: 건담 VS. 건담 NEXT PLUS』**의 한�
 
 자세한 공개 경계는 [docs/PUBLICATION_POLICY.md](docs/PUBLICATION_POLICY.md)를 보세요.
 
-## 최신 배포 패치 — 027 (2026-10-04)
+## 최신 배포 패치 — 038 (2026-10-05)
 
-원본 일본판 ISO에 적용하는 누적 차분 패치를 [027 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-04-graphics-027)로 공개했습니다.
-[next_plus_graphics_revision_027.xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-04-graphics-027/next_plus_graphics_revision_027.xdelta).
-**패치하지 않은 지원 원본에 적용**하며, v19·021·023 등 기존 패치 ISO에 덧씌우지 않습니다.
+원본 일본판 ISO용 누적 패치를 [038 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038)로 공개했습니다.
+[next_plus_graphics_revision_038.xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta).
+**패치하지 않은 지원 원본에 적용**하며, 기존 패치 ISO에 덧씌우지 않습니다.
 
 ```text
-xdelta3 -d -s original_jp.iso next_plus_graphics_revision_027.xdelta next_plus_graphics_revision_027.iso
+xdelta3 -d -s original_jp.iso next_plus_graphics_revision_038.xdelta next_plus_graphics_revision_038.iso
 ```
 
-폰트는 ISO 안 `/PSP_GAME/SYSDIR/UPDATE/DATA.BIN`에 있고 게임이 `disc0:`로 읽습니다.
-자유 라이선스 폰트를 내장하므로 별도 PSP 폰트 추출은 필요하지 않습니다.
-
-027은 023의 폰트 경로·문자 분류표 수정과 건담 타이틀 로고 원본 유지 정책을 포함합니다.
-정적 검사와 원본 기반 xdelta 재적용, 실제 공개 다운로드의 크기·SHA-256 확인은 PASS입니다.
-**027 백식 호위 임무는 USER_REPORTED_FAIL입니다.** 사용자 실행 확인이 있는 과거 기준은 023입니다. 027 자산은 보존하며 릴리스에 알려진 문제를 표시했습니다.
-원본·출력·패치 해시와 적용법은 [027 릴리스 안내](docs/RELEASE_2026-10-04_027.md)를 보세요.
-[023 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023)와 이전 릴리스도 보존합니다.
+정적 검사·원판 기반 패치 재적용·실제 공개 다운로드의 크기와 SHA-256 확인은 PASS입니다.
+**038 게임 실행과 백식 호위 임무 프리징 해결은 미확인입니다.** 027의 사용자 실패 보고는 열린 상태이며 과거 사용자 수용 기준은 023입니다.
+[수정 범위·원본 및 출력 해시](docs/UPDATE_2026-10-05.md), [공개 다운로드 확인](reports/release_038_2026-10-05.json)을 참고하세요.
+건담 타이틀 로고는 원본을 유지하며 이전 릴리스도 보존합니다.
 
 ## 최신 로컬 작업 (2026-10-05)
 
 038은 원본 데이터와 일치하게 비텍스트 39곳(수치·벡터 20곳, 내장 PNG 압축 데이터 1곳, 달성 조건 포인터 18개)을 복원했습니다. 제어문으로 오인되는 구두점 3곳, 달성 조건 47문구와 선택 안내 2곳을 수정하고, 프리 배틀 작품·스테이지 목록과 선택 안내 이미지 3면·36문구를 추가했습니다. 일본어 앞부분이 남았던 대사 176개도 원본 포인터가 가리키는 전체 문장으로 교체했습니다. 건담 타이틀 로고는 원본을 유지합니다.
 
-실제 ISO 재읽기, 현재 번역 슬롯 3,953곳, 원본 목록의 포인터 5,682개, 내장 PNG 3개와 보호 로고 193면 검사가 통과했습니다. **038의 게임 실행과 백식 프리징 해결은 미확인이고 새 릴리스는 게시하지 않았습니다.** 패치 재적용 결과와 [수정 범위·식별 정보](docs/UPDATE_2026-10-05.md)를 함께 기록합니다. 전수 소비 경로 조사가 남아 있어 전체 게임·NEXT PLUS 완료 판정은 없습니다.
+실제 ISO 재읽기, 현재 번역 슬롯 3,953곳, 원본 목록의 포인터 5,682개, 내장 PNG 3개와 보호 로고 193면 검사가 통과했습니다. **038의 게임 실행과 백식 프리징 해결은 미확인입니다. 038 xdelta 개발 릴리스는 게시했습니다.** 패치 재적용 결과와 [수정 범위·식별 정보](docs/UPDATE_2026-10-05.md)를 함께 기록합니다. 전수 소비 경로 조사가 남아 있어 전체 게임·NEXT PLUS 완료 판정은 없습니다.
 
 ## 이전 작업 (2026-10-04)
 

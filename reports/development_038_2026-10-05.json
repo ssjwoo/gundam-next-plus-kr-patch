@@ -22,11 +22,21 @@
   "static_verdict": "PASS",
   "runtime_verdict": "NOT_TESTED",
   "mission_freeze_resolution": "UNCONFIRMED",
-  "published": false,
+  "published": true,
   "restore_population": {
     "embedded_png_IDAT": 1,
     "numeric_or_vector_data": 20,
     "source_text_pointer32": 18
   },
-  "additional_full_dialogue_literals": 176
+  "additional_full_dialogue_literals": 176,
+  "publication": {
+    "tag": "dev-2026-10-05-graphics-038",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038",
+    "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta",
+    "asset_name": "next_plus_graphics_revision_038.xdelta",
+    "asset_bytes": 15156246,
+    "asset_sha256": "8c9677e709d49883f20c6ea9bc43f1f6b714aa3a34f3140a22abfc7914f4b3ea",
+    "public_download_verdict": "PASS",
+    "release_code_commit": "b09a9364f819b52583b76fb0135fbb768c291938"
+  }
 }

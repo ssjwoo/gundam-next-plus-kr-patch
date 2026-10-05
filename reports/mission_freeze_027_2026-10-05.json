@@ -38,7 +38,7 @@
     "static_verdict": "PASS",
     "runtime_verdict": "NOT_TESTED",
     "mission_freeze_resolution": "UNCONFIRMED",
-    "published": false,
+    "published": true,
     "delta_roundtrip": {
       "revision": "038",
       "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
@@ -52,9 +52,20 @@
       "verdict": "PASS",
       "runtime_verdict": "NOT_TESTED",
       "mission_freeze_resolution": "UNCONFIRMED"
+    },
+    "publication_status": "PUBLISHED_DOWNLOAD_VERIFIED",
+    "publication": {
+      "tag": "dev-2026-10-05-graphics-038",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta",
+      "asset_name": "next_plus_graphics_revision_038.xdelta",
+      "asset_bytes": 15156246,
+      "asset_sha256": "8c9677e709d49883f20c6ea9bc43f1f6b714aa3a34f3140a22abfc7914f4b3ea",
+      "public_download_verdict": "PASS",
+      "release_code_commit": "b09a9364f819b52583b76fb0135fbb768c291938"
     }
   },
-  "updated_at": "2026-10-05T13:23:00.484380+00:00",
+  "updated_at": "2026-10-05T13:36:54.866982+00:00",
   "user_team_confirmation": "내가 사용한 기체는 뉴건담/아무로 , 팀원 기체는 사자비/샤아",
   "player_unit": "뉴 건담",
   "player_pilot": "아무로 레이",
@@ -74,7 +85,7 @@
     "static_verdict": "PASS",
     "runtime_verdict": "NOT_TESTED",
     "mission_freeze_resolution": "UNCONFIRMED",
-    "published": false,
+    "published": true,
     "delta_roundtrip": {
       "revision": "038",
       "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
@@ -88,6 +99,17 @@
       "verdict": "PASS",
       "runtime_verdict": "NOT_TESTED",
       "mission_freeze_resolution": "UNCONFIRMED"
+    },
+    "publication_status": "PUBLISHED_DOWNLOAD_VERIFIED",
+    "publication": {
+      "tag": "dev-2026-10-05-graphics-038",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta",
+      "asset_name": "next_plus_graphics_revision_038.xdelta",
+      "asset_bytes": 15156246,
+      "asset_sha256": "8c9677e709d49883f20c6ea9bc43f1f6b714aa3a34f3140a22abfc7914f4b3ea",
+      "public_download_verdict": "PASS",
+      "release_code_commit": "b09a9364f819b52583b76fb0135fbb768c291938"
     }
   },
   "source_inventory_pointer_words_verified": 5682,
