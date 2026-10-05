@@ -1,0 +1,24 @@
+{
+  "candidate_revision": "038",
+  "scope": "Integrated AFS/GIM edits inherited from verified 023, added in 027, and three additional vsel01 pictures; an asset inventory, not a mode completion proof",
+  "source_afs_members": 2651,
+  "source_pzz_members": 2125,
+  "integrated_modified_pzz_members": 705,
+  "integrated_edited_surfaces": 892,
+  "base_023_modified_pzz_members": 450,
+  "additional_027_pzz_members": 255,
+  "pzz_member_overlap": 0,
+  "new_038_stage_surfaces": 3,
+  "original_title_logo_surfaces_protected": 193,
+  "historical_unlock_positive_assets_all_integrated": true,
+  "all_original_pzz_have_been_visually_reviewed": false,
+  "dynamic_uv_and_mode_state_graph": "UNRESOLVED",
+  "whole_game_graphics_complete": false,
+  "whole_next_plus_graphics_complete": false,
+  "next_action": "Continue source review for remaining resource families and bind shared-resource request IDs to actual mode states. Do not count all 2125 PZZ as display-text assets.",
+  "evidence": [
+    "reports/original_title_logos_023_2026-10-03.json",
+    "docs/GRAPHICS_2026-10-04.md",
+    "reports/development_038_2026-10-05.json"
+  ]
+}
