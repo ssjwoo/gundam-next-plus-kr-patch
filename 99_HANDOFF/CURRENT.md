@@ -13,7 +13,7 @@
 
 028~037 중간 후보는 최신 권장 아님. 비교용 033과 최신 038, 원판·사용자 입력·수용 023·공개 027 보존. 정리 근거 reports/cleanup_2026-10-05.json. 기존 027 릴리스 자산을 교체하지 않았으며 알려진 실패 알림만 갱신.
 
-5시간 잔여 35% 관측 (2026-10-05T13:14:34.824016+00:00); 잔여 30%에서 신규 작업 종료 후 인계. 최종 인계 때 새로 관측한다.
+5시간 잔여 33% 관측 (2026-10-05T13:18:25.338056+00:00); 잔여 30%에서 신규 작업 종료 후 인계. 최종 인계 때 새로 관측한다.
 
 다음 AI 작업: Audit remaining image families and actual mode consumers using the existing AFS inventory and source review records; preserve 038 and the open user-reported mission freeze.
 work/remaining_2026-10-05/checkpoint_final.py 사용. checkpoint_progress.py 및 이전 날짜 finalize_public/closing_record/update_checkpoint는 오래된 후보로 덮으므로 실행 금지.
