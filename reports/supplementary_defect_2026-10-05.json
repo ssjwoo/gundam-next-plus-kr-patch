@@ -1,0 +1,29 @@
+{
+  "nontext_source_restores": [
+    {
+      "offset": "0x0022FE84",
+      "bytes": 12,
+      "classification": "three-float vector"
+    },
+    {
+      "offset": "0x0026FD60",
+      "bytes": 4,
+      "classification": "UI scalar 1.0"
+    }
+  ],
+  "text_repairs": [
+    {
+      "offset": "0x26fd64",
+      "capacity": 23,
+      "target_ko": "선택해 주세요"
+    },
+    {
+      "offset": "0x26fd7c",
+      "capacity": 19,
+      "target_ko": "상대가 선택 중"
+    }
+  ],
+  "defects": "Numeric/vector bytes stripped or included in translated text; a selection-wait string has no NUL in its original padded slot.",
+  "mission_freeze_link": "UNCONFIRMED_RUNTIME_LINK",
+  "agent_executed_game": false
+}

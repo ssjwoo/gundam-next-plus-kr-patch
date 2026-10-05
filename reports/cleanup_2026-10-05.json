@@ -1,0 +1,52 @@
+{
+  "deleted": [
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_028.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "3855a0597e040b1f0f4a7178a05d0fd6739aeeab3a49dabdea73a92e5e2ba2d8"
+    },
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_029.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "5c3ff8b2d9c8570d1241cdac60368f0b350fea168a0bf861e8c6dea5b9d44112"
+    },
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_030.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "867fd11694ad979130701760a964bc18ab6d674efea10d7f841aebfabf160b2f"
+    },
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_031.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "703d3421e21ef3c3513da472fcf30fc041bd46581e85f2cb3237a90addad0e6c"
+    },
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_032.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "5dce8f7011f8e2e55a417698ed50fac8d4ad877465ff599580f0cc69998a0ba6"
+    },
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_034.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "d9fbaf0582a40b76c853ff27a828cad53d631f5b20dce79a47222118dbfc0db5"
+    },
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_035.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "2c8776b932ada9202744c3e12d08ec7a85ef8819a873a785fe79f854073e21aa"
+    },
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_036.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "225e23613f7492e58176fbecad44329f7ae011c274496d70b802912c6e5b70ce"
+    },
+    {
+      "relative_path": "build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_037.iso",
+      "bytes": 1757806592,
+      "recorded_iso_sha256": "cc665fea1ee0fe6de83fb840a10a8fafe87c5b9d5af2ec05226caf2a82b29eb0"
+    }
+  ],
+  "reclaimed_bytes": 15820259328,
+  "preserved": "Pristine and user-provided sources, accepted 023, public 027, diagnostic 033 and current 038 ISO/delta; all manifests and repair inputs",
+  "recorded_at": "2026-10-05T13:14:34.822017+00:00"
+}

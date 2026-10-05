@@ -1,0 +1,477 @@
+{
+  "revision": "038",
+  "purpose": "Authored Korean UI text only; decorative title logos preserved",
+  "rows": [
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as40_0",
+      "target_ko": "기동전사 건담",
+      "box": [
+        1,
+        1,
+        127,
+        15
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as41_1",
+      "target_ko": "아우돔라",
+      "box": [
+        1,
+        17,
+        127,
+        31
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as42_2",
+      "target_ko": "기동전사 Z 건담",
+      "box": [
+        1,
+        33,
+        127,
+        47
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as43_3",
+      "target_ko": "액시즈",
+      "box": [
+        65,
+        145,
+        127,
+        159
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as44_4",
+      "target_ko": "기동전사 건담 F91",
+      "box": [
+        1,
+        49,
+        127,
+        63
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as45_5",
+      "target_ko": "기동전사 V 건담",
+      "box": [
+        1,
+        65,
+        127,
+        79
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as46_6",
+      "target_ko": "기동무투전 G 건담",
+      "box": [
+        1,
+        81,
+        127,
+        95
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as47_7",
+      "target_ko": "신기동전기 건담 W",
+      "box": [
+        1,
+        97,
+        127,
+        111
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as48_8",
+      "target_ko": "기동신세기 건담 X",
+      "box": [
+        1,
+        113,
+        127,
+        127
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as49_9",
+      "target_ko": "턴에이 건담",
+      "box": [
+        1,
+        145,
+        63,
+        159
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as4a_10",
+      "target_ko": "기동전사 건담 SEED",
+      "box": [
+        1,
+        129,
+        127,
+        143
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as4b_11",
+      "target_ko": "기동전사 건담 SEED\nDESTINY",
+      "box": [
+        129,
+        1,
+        255,
+        31
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as4c_12",
+      "target_ko": "사이드 6",
+      "box": [
+        65,
+        161,
+        127,
+        175
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as4d_13",
+      "target_ko": "기동전사 건담 0083\nSTARDUST MEMORY",
+      "box": [
+        129,
+        65,
+        255,
+        95
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as4e_14",
+      "target_ko": "기동전사 건담\n제08 MS 소대",
+      "box": [
+        129,
+        97,
+        255,
+        127
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as4f_15",
+      "target_ko": "(전체 스테이지)",
+      "box": [
+        185,
+        241,
+        255,
+        255
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as4f_16",
+      "target_ko": "자동 선택",
+      "box": [
+        129,
+        241,
+        183,
+        255
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as50_17",
+      "target_ko": "사이드 7",
+      "box": [
+        1,
+        161,
+        63,
+        175
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as51_18",
+      "target_ko": "자브로",
+      "box": [
+        65,
+        177,
+        127,
+        191
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as52_19",
+      "target_ko": "그리프스 내부",
+      "box": [
+        129,
+        129,
+        255,
+        143
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as53_20",
+      "target_ko": "란타오섬",
+      "box": [
+        1,
+        177,
+        63,
+        191
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as54_21",
+      "target_ko": "콜로니 내부",
+      "box": [
+        129,
+        145,
+        255,
+        159
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as55_22",
+      "target_ko": "겐가남",
+      "box": [
+        65,
+        193,
+        127,
+        207
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as56_23",
+      "target_ko": "헬리오폴리스",
+      "box": [
+        129,
+        161,
+        255,
+        175
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as57_24",
+      "target_ko": "레퀴엠",
+      "box": [
+        1,
+        193,
+        63,
+        207
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as58_25",
+      "target_ko": "궤도 엘리베이터\n라 투르",
+      "box": [
+        129,
+        33,
+        255,
+        63
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as59_26",
+      "target_ko": "연방군 북극 기지",
+      "box": [
+        129,
+        177,
+        255,
+        191
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as5a_27",
+      "target_ko": "폰 브라운",
+      "box": [
+        129,
+        193,
+        255,
+        207
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as5b_28",
+      "target_ko": "광산 도시",
+      "box": [
+        65,
+        209,
+        127,
+        223
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as5c_29",
+      "target_ko": "(NEXT 스테이지)",
+      "box": [
+        1,
+        241,
+        127,
+        255
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as5d_30",
+      "target_ko": "타이거바움",
+      "box": [
+        129,
+        209,
+        255,
+        223
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as5e_31",
+      "target_ko": "프런티어 I 외벽",
+      "box": [
+        129,
+        225,
+        255,
+        239
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as5f_32",
+      "target_ko": "계곡",
+      "box": [
+        1,
+        209,
+        63,
+        223
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 2,
+      "id": "vsel01_as60_33",
+      "target_ko": "포트 세번",
+      "box": [
+        1,
+        225,
+        127,
+        239
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 3,
+      "id": "stage_caption_3",
+      "target_ko": "NEXT 스테이지",
+      "box": [
+        242,
+        145,
+        255,
+        255
+      ]
+    },
+    {
+      "asset": "vsel01.pzz",
+      "part": 1,
+      "picture": 4,
+      "id": "stage_caption_4",
+      "target_ko": "모든 스테이지",
+      "box": [
+        131,
+        225,
+        215,
+        240
+      ]
+    }
+  ],
+  "native_readback_verified": true,
+  "runtime_verdict": "NOT_TESTED",
+  "introduced_in_local_revision": "032"
+}

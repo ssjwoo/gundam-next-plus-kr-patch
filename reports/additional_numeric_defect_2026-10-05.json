@@ -1,0 +1,35 @@
+{
+  "regions": [
+    {
+      "offset": "0x20960c",
+      "original_float32": 11.914559364318848,
+      "corrupted_float32": 5.991596303642979e-39,
+      "source_exact_restore": true,
+      "typed_game_consumer_executed": false
+    },
+    {
+      "offset": "0x20964c",
+      "original_float32": 11.914559364318848,
+      "corrupted_float32": 5.991596303642979e-39,
+      "source_exact_restore": true,
+      "typed_game_consumer_executed": false
+    },
+    {
+      "offset": "0x2097b8",
+      "original_float32": 11.914559364318848,
+      "corrupted_float32": 5.991596303642979e-39,
+      "source_exact_restore": true,
+      "typed_game_consumer_executed": false
+    },
+    {
+      "offset": "0x2098f4",
+      "original_float32": 47.658241271972656,
+      "corrupted_float32": 40.06067657470703,
+      "source_exact_restore": true,
+      "typed_game_consumer_executed": false
+    }
+  ],
+  "evidence": "Original homogeneous numeric structures and repeated float components; four original words altered by treating control/halfwidth CP932 bytes as text",
+  "mission_freeze_link": "UNCONFIRMED_RUNTIME_LINK",
+  "agent_executed_game": false
+}

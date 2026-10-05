@@ -1,0 +1,13 @@
+{
+  "candidate_revision": "038",
+  "source_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "candidate_elf_sha256": "f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842",
+  "input_workbook_rows": 3920,
+  "verified_text_slots": 3953,
+  "scope": "Source-bound inherited workbook, verified polish plan and explicit residual/achievement/selection corrections including 176 complete dialogue literals; not a proof of all game text consumers",
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "excluded_nontext_rows": 14,
+  "error_count": 0,
+  "source_population_complete": false
+}

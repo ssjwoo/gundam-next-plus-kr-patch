@@ -1,0 +1,11 @@
+{
+  "revision": "027",
+  "release_id": 402967097,
+  "url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-04-graphics-027",
+  "change": "Known issue notice and title only; original 027 asset preserved",
+  "assets_unchanged": true,
+  "new_release_created": false,
+  "runtime_verdict": "USER_REPORTED_FAIL",
+  "mission_freeze_cause": "UNCONFIRMED_RUNTIME_LINK",
+  "recorded_at": "2026-10-05T13:14:33.069430+00:00"
+}

@@ -1,0 +1,220 @@
+{
+  "baseline_revision": "027",
+  "baseline_elf_sha256": "1e2bf67cb6217a2f80fa7ff306cfc9f6158d3745d21555125ae68156fbf32ea2",
+  "source_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "restored_regions": 14,
+  "numeric_vector_regions": 13,
+  "embedded_png_corruption_regions": 1,
+  "regions": [
+    {
+      "offset": "0x00214E98",
+      "restore_bytes": 5,
+      "changed_bytes": 4,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_00781"
+      ],
+      "discarded_nonsensical_target": "시샤",
+      "evidence_scope": "Actual isolated table lookup and scalar load"
+    },
+    {
+      "offset": "0x00215098",
+      "restore_bytes": 5,
+      "changed_bytes": 2,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_00787",
+        "EBOOT_02437"
+      ],
+      "discarded_nonsensical_target": "33아",
+      "evidence_scope": "Actual isolated table lookup and scalar load"
+    },
+    {
+      "offset": "0x002304E4",
+      "restore_bytes": 5,
+      "changed_bytes": 4,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_02028"
+      ],
+      "discarded_nonsensical_target": "미끼",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x00238F74",
+      "restore_bytes": 5,
+      "changed_bytes": 2,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_00787",
+        "EBOOT_02437"
+      ],
+      "discarded_nonsensical_target": "33아",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x00265304",
+      "restore_bytes": 13,
+      "changed_bytes": 12,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_04168",
+        "EBOOT_04204",
+        "EBOOT_04233",
+        "EBOOT_04246"
+      ],
+      "discarded_nonsensical_target": "와타세세코코",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x002657C4",
+      "restore_bytes": 13,
+      "changed_bytes": 12,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_04168",
+        "EBOOT_04204",
+        "EBOOT_04233",
+        "EBOOT_04246"
+      ],
+      "discarded_nonsensical_target": "와타세세코코",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x00265A84",
+      "restore_bytes": 13,
+      "changed_bytes": 12,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_04168",
+        "EBOOT_04204",
+        "EBOOT_04233",
+        "EBOOT_04246"
+      ],
+      "discarded_nonsensical_target": "와타세세코코",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x00265C04",
+      "restore_bytes": 13,
+      "changed_bytes": 12,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_04168",
+        "EBOOT_04204",
+        "EBOOT_04233",
+        "EBOOT_04246"
+      ],
+      "discarded_nonsensical_target": "와타세세코코",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x002683F4",
+      "restore_bytes": 13,
+      "changed_bytes": 11,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_04465"
+      ],
+      "discarded_nonsensical_target": "9단 미오 {o?",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x002AFB82",
+      "restore_bytes": 13,
+      "changed_bytes": 12,
+      "classification": "embedded_png_IDAT",
+      "legacy_catalog_ids": [
+        "EBOOT_08019"
+      ],
+      "discarded_nonsensical_target": "히타타",
+      "evidence_scope": "Native PNG CRC and decode failure"
+    },
+    {
+      "offset": "0x002FC076",
+      "restore_bytes": 7,
+      "changed_bytes": 6,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_08635",
+        "EBOOT_08727"
+      ],
+      "discarded_nonsensical_target": "33화",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x002FC3B4",
+      "restore_bytes": 5,
+      "changed_bytes": 3,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_08647",
+        "EBOOT_08653"
+      ],
+      "discarded_nonsensical_target": "\\주",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x002FC434",
+      "restore_bytes": 5,
+      "changed_bytes": 3,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_08647",
+        "EBOOT_08653"
+      ],
+      "discarded_nonsensical_target": "\\주",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    },
+    {
+      "offset": "0x002FD346",
+      "restore_bytes": 7,
+      "changed_bytes": 6,
+      "classification": "numeric_or_vector_data",
+      "legacy_catalog_ids": [
+        "EBOOT_08635",
+        "EBOOT_08727"
+      ],
+      "discarded_nonsensical_target": "33화",
+      "evidence_scope": "Aligned source numeric/vector structure, repeated components and neighbouring homogeneous numeric records; gameplay consumer not executed"
+    }
+  ],
+  "numeric_consumer_proof": "reports/numeric_data_defect_2026-10-05.json",
+  "embedded_pngs": [
+    {
+      "file_offset": "0x29cfcc",
+      "bytes": 16940,
+      "dimensions": [
+        144,
+        80
+      ],
+      "changed_bytes": 0,
+      "source_native_decode": "PASS",
+      "current_native_decode_error": null
+    },
+    {
+      "file_offset": "0x2a11f8",
+      "bytes": 119252,
+      "dimensions": [
+        480,
+        272
+      ],
+      "changed_bytes": 12,
+      "source_native_decode": "PASS",
+      "current_native_decode_error": "unrecognized data stream contents when reading image file"
+    },
+    {
+      "file_offset": "0x2be3cc",
+      "bytes": 16001,
+      "dimensions": [
+        144,
+        80
+      ],
+      "changed_bytes": 0,
+      "source_native_decode": "PASS",
+      "current_native_decode_error": null
+    }
+  ],
+  "mission_freeze_cause": "UNCONFIRMED_RUNTIME_LINK",
+  "agent_executed_game": false
+}

@@ -1,0 +1,25 @@
+{
+  "candidate_revision": "032",
+  "iso_sha256": "5dce8f7011f8e2e55a417698ed50fac8d4ad877465ff599580f0cc69998a0ba6",
+  "iso_crc32": "B36E0B7A",
+  "elf_sha256": "e33794ecd87e744a46a2e1229cee055fafdcc16440eeada3b0b4b5bdabc79661",
+  "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
+  "nontext_original_regions_verified": 14,
+  "embedded_source_pngs_verified": 3,
+  "punctuation_fix_readback_pass": 3,
+  "newly_localized_surfaces": 3,
+  "newly_authored_labels": 36,
+  "native_pictures_readback_pass": 5,
+  "original_title_logo_policy": {
+    "policy": "preserve_original_title_logos",
+    "protected_members": 193,
+    "protected_surfaces": 193,
+    "verdict": "PASS"
+  },
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "published": false,
+  "superseded_by_local_revision": "038",
+  "iso_storage": "Removed as superseded intermediate; recorded hashes retained"
+}

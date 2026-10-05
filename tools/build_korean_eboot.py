@@ -11,6 +11,8 @@ from pathlib import Path
 import struct
 
 from hanpatch.platforms.psp import iso9660
+from text_control_guard import reject_new_ascii_tilde
+from nontext_protection import reject_nontext_overlap
 
 from make_hangul_poc import (
     DECODE_FUNCTION_VA,
@@ -143,8 +145,10 @@ def main() -> None:
         if original[offset + len(source_raw)] != 0:
             raise SystemExit(f"{row['id']}: source terminator precondition failed")
         capacity = int(row["capacity_bytes"])
+        reject_nontext_overlap(offset, capacity+1, row['id'])
         if capacity < len(source_raw):
             raise SystemExit(f"{row['id']}: workbook capacity is smaller than source")
+        reject_new_ascii_tilde(source_raw.decode('cp932'), target, row['id'])
         encoded = encode_hangul(target)
         if len(encoded) > capacity:
             raise SystemExit(

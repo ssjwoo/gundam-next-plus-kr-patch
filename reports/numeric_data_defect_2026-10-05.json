@@ -1,0 +1,28 @@
+{
+  "baseline_elf_sha256": "1e2bf67cb6217a2f80fa7ff306cfc9f6158d3745d21555125ae68156fbf32ea2",
+  "source_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "entry_va": "0x0886E7DC",
+  "stop_va": "0x0886E81C",
+  "scalar_load_va": "0x0886E818",
+  "method": "Actual isolated original table lookup and LWC1 scalar load with synthetic index state; no game entry, external API or emulator execution",
+  "verdict": "CONFIRMED_NON_TEXT_NUMERIC_CORRUPTION",
+  "mission_freeze_link": "UNCONFIRMED_RUNTIME_LINK",
+  "agent_executed_game": false,
+  "original_restore_passed": true,
+  "fields": [
+    {
+      "file_offset": "0x00214E98",
+      "table_index": 38,
+      "original_float32": 4.116666793823242,
+      "corrupted_float32": -2.5067208914529835e+22,
+      "restored_matches_source": true
+    },
+    {
+      "file_offset": "0x00215098",
+      "table_index": 40,
+      "original_float32": 4.099999904632568,
+      "corrupted_float32": -1425.5999755859375,
+      "restored_matches_source": true
+    }
+  ]
+}

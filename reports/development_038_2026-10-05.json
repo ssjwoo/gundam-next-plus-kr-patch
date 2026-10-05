@@ -1,0 +1,32 @@
+{
+  "candidate_revision": "038",
+  "iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+  "iso_crc32": "EA404316",
+  "iso_bytes": 1757806592,
+  "elf_sha256": "f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842",
+  "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
+  "restored_nontext_regions": 39,
+  "source_inventory_pointer_words_verified": 5682,
+  "embedded_source_pngs_decode_pass": 3,
+  "original_title_logo_policy": {
+    "policy": "preserve_original_title_logos",
+    "protected_members": 193,
+    "protected_surfaces": 193,
+    "verdict": "PASS"
+  },
+  "newly_localized_surfaces": 3,
+  "newly_authored_graphics_labels": 36,
+  "authored_achievement_text_slots": 47,
+  "selection_wait_text_repairs": 2,
+  "punctuation_fixes": 3,
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "published": false,
+  "restore_population": {
+    "embedded_png_IDAT": 1,
+    "numeric_or_vector_data": 20,
+    "source_text_pointer32": 18
+  },
+  "additional_full_dialogue_literals": 176
+}

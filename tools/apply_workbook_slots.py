@@ -28,6 +28,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from make_hangul_poc import decode_hangul, encode_hangul  # noqa: E402
+from text_control_guard import reject_new_ascii_tilde
+from nontext_protection import reject_nontext_overlap
 
 APPLY_STATUSES = {"translated", "approved"}
 
@@ -91,6 +93,8 @@ def main() -> None:
         offset = int(row["file_offset_hex"], 16)
         capacity = int(row["capacity_bytes"])
         source_raw = row["source_jp"].encode("cp932")
+        reject_nontext_overlap(offset, capacity+1, row['id'])
+        reject_new_ascii_tilde(row['source_jp'], target, row['id'])
         try:
             encoded = encode_hangul(target)
         except ValueError as exc:

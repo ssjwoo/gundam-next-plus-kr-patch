@@ -1,0 +1,33 @@
+{
+  "candidate_revision": "037",
+  "iso_sha256": "cc665fea1ee0fe6de83fb840a10a8fafe87c5b9d5af2ec05226caf2a82b29eb0",
+  "iso_crc32": "7E6B2081",
+  "iso_bytes": 1757806592,
+  "elf_sha256": "b9abb4950992954abfe6ada16a0ac23c1eef1bbca7c0543875910d714694b2f8",
+  "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
+  "restored_nontext_regions": 39,
+  "source_inventory_pointer_words_verified": 5682,
+  "embedded_source_pngs_decode_pass": 3,
+  "original_title_logo_policy": {
+    "policy": "preserve_original_title_logos",
+    "protected_members": 193,
+    "protected_surfaces": 193,
+    "verdict": "PASS"
+  },
+  "newly_localized_surfaces": 3,
+  "newly_authored_graphics_labels": 36,
+  "authored_achievement_text_slots": 47,
+  "selection_wait_text_repairs": 2,
+  "punctuation_fixes": 3,
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "published": false,
+  "restore_population": {
+    "embedded_png_IDAT": 1,
+    "numeric_or_vector_data": 20,
+    "source_text_pointer32": 18
+  },
+  "superseded_by_local_revision": "038",
+  "iso_storage": "Removed as superseded intermediate; recorded hashes retained"
+}

@@ -14,6 +14,8 @@ import struct
 from elftools.elf.elffile import ELFFile
 from audit_workbook_font import font_records
 from make_hangul_poc import encode_hangul, decode_hangul
+from text_control_guard import reject_new_ascii_tilde
+from nontext_protection import reject_nontext_overlap
 
 
 def sha(data):
@@ -43,11 +45,17 @@ def main():
     rows=[]; occupied=[]
     for r in catalog['rows']:
         off=r['offset']; limit=off+r['capacity']+1
+        reject_nontext_overlap(off, limit-off, r['slot_id'])
         assert r['slot_id']==f'SOURCE_{off:08X}' and start<=off<limit<=end
         nul=source.find(b'\0',off,limit)
         assert nul>off and (nul+4)&~3==limit
         assert not any(source[nul:limit])
         assert sha(source[off:nul])==r['source_raw_sha256']
+        reject_new_ascii_tilde(source[off:nul].decode('cp932'), r['target_ko'], r['slot_id'])
+        if 'baseline_slot_sha256' in r:
+            assert sha(baseline[off:limit])==r['baseline_slot_sha256']
+        if 'before_ko' in r:
+            assert decode_hangul(baseline[off:limit].split(b'\0',1)[0])==r['before_ko']
         assert not any(lo<limit and off<hi for lo,hi in occupied)
         occupied.append((off,limit))
         address=section['sh_addr']+off-start

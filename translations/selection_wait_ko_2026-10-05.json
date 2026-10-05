@@ -1,0 +1,24 @@
+{
+  "rows": [
+    {
+      "slot_id": "SOURCE_0026FD64",
+      "offset": 2555236,
+      "capacity": 23,
+      "target_ko": "선택해 주세요",
+      "source_raw_sha256": "1beafe6d3986ab65b9809eca5d5a669bebe4ae08468410b2e7cabcac23236be1",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": ""
+    },
+    {
+      "slot_id": "SOURCE_0026FD7C",
+      "offset": 2555260,
+      "capacity": 19,
+      "target_ko": "상대가 선택 중",
+      "source_raw_sha256": "510a14680fab098135630e7e957b4449ee31895eb6b6e5c773ade33847c4deec",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": ""
+    }
+  ],
+  "source_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "runtime_verdict": "NOT_TESTED"
+}

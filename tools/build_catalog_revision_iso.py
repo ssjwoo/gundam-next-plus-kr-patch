@@ -22,6 +22,8 @@ from hanpatch.platforms.psp import iso9660
 from audit_workbook_font import font_records
 from make_hangul_poc import decode_hangul, encode_hangul, RUNTIME_INDEX_GLYPHS
 from validate_korean_catalog_revision import TOKEN
+from text_control_guard import reject_new_ascii_tilde
+from nontext_protection import reject_nontext_overlap
 
 BASE_ISO_SHA256 = "886bd04022581981d0d391a7aa0e0044d8291e53cff112ac422d7fb8e88d2d8b"
 BASE_ELF_SHA256 = "077e99a31d470b7b2234312197b0d3537b4e9a6e6af55efc497e9ebba3090781"
@@ -82,6 +84,7 @@ def main() -> None:
     font_records_by_code, font_info = font_records(args.font_pgf)
     for row in sorted(plan["changes"], key=lambda x:x["offset"]):
         off, span = row["offset"], row["capacity"] + 1
+        reject_nontext_overlap(off, span, row['slot_id'])
         raw = bytes.fromhex(row["source_raw_hex"])
         assert start <= off < off + span <= end
         assert source[off:off + len(raw)] == raw
@@ -90,6 +93,7 @@ def main() -> None:
         assert not any(a < off + span and off < b for a,b in ranges), "Overlapping writers"
         assert not (off <= 0x28D3B4 < off + span), "Runtime digit table is protected"
         target = row["target_ko"]
+        reject_new_ascii_tilde(raw.decode('cp932'), target, row['slot_id'])
         encoded = encode_hangul(target)
         assert len(encoded) <= row["capacity"]
         assert decode_hangul(encoded) == target

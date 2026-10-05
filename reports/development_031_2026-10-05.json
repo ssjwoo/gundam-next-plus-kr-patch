@@ -1,0 +1,14 @@
+{
+  "revision": "031",
+  "elf_sha256": "e33794ecd87e744a46a2e1229cee055fafdcc16440eeada3b0b4b5bdabc79661",
+  "iso_sha256": "703d3421e21ef3c3513da472fcf30fc041bd46581e85f2cb3237a90addad0e6c",
+  "nontext_restores_source_exact": 14,
+  "embedded_original_png_decode_pass": 3,
+  "punctuation_fix_readback_pass": 3,
+  "all_other_iso_bytes_preserved": true,
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "superseded_by_local_revision": "038",
+  "iso_storage": "Removed as superseded intermediate; recorded hashes retained"
+}

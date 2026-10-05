@@ -19,6 +19,7 @@ from pathlib import Path
 from elftools.elf.elffile import ELFFile
 
 from make_hangul_poc import decode_hangul, encode_hangul
+from nontext_protection import reject_nontext_overlap
 from prepare_text_work import FIELDS
 from parse_next_plus_mission_records import METADATA_BYTES, VIRTUAL_BASE
 
@@ -125,6 +126,12 @@ def recover(original: bytes, v19: bytes, provided: bytes,
         if original[offset:source_end] != source_raw + b"\0" or any(original[source_end:end]):
             raise ValueError(f"Inventory source bytes differ at {offset:#x}")
         current, old = provided[offset:end], v19[offset:end]
+        try:
+            reject_nontext_overlap(offset, end-offset, row['id'])
+        except ValueError:
+            held.append({'source_id': row['id'], 'offset': hex(offset),
+                         'reason': 'source_proven_nontext_or_partial_literal_owner'})
+            continue
         if current == original[offset:end] and old == original[offset:end]:
             continue
         if not any(char >= 0x80 for char in source_raw):

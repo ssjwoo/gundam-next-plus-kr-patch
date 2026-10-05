@@ -1,0 +1,430 @@
+{
+  "source_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "scope": "47 individually authored achievement descriptions, separated from 49 source pointer words",
+  "rows": [
+    {
+      "slot_id": "SOURCE_0025C704",
+      "offset": 2475780,
+      "capacity": 27,
+      "target_ko": "아케이드 코스 클리어",
+      "source_raw_sha256": "7479a48797ee2fc973390c4c8448e31f63f2c4c950fd1b5501212320d8cf50c8",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c748"
+    },
+    {
+      "slot_id": "SOURCE_0025C720",
+      "offset": 2475808,
+      "capacity": 39,
+      "target_ko": "아케이드 코스 클리어(EX 제패)",
+      "source_raw_sha256": "a03a7278cb48a823126d0e443b22de224236e24feafa505cd99ab99e357a6c86",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c74c"
+    },
+    {
+      "slot_id": "SOURCE_0025C750",
+      "offset": 2475856,
+      "capacity": 39,
+      "target_ko": "혼자 모든 아케이드 코스 클리어",
+      "source_raw_sha256": "e019b7cb1c88e95040cf201039da53654259f0c288ea1c1f0bcda067c215b2a6",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c790,0x25c794"
+    },
+    {
+      "slot_id": "SOURCE_0025C778",
+      "offset": 2475896,
+      "capacity": 23,
+      "target_ko": "(컨티뉴 없이)",
+      "source_raw_sha256": "68b2de0a05f42896bd4cb6dab80d2083677aabfcf3671da10485b0c23dddc35f",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c798,0x25c804"
+    },
+    {
+      "slot_id": "SOURCE_0025C79C",
+      "offset": 2475932,
+      "capacity": 51,
+      "target_ko": "자신의 기체만으로 적 전멸 100회",
+      "source_raw_sha256": "8514d94379e1a3ded98ed2b71bcdb1c0d8e8a597afa44ce396931fb5ed720066",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c7d0"
+    },
+    {
+      "slot_id": "SOURCE_0025C7D4",
+      "offset": 2475988,
+      "capacity": 43,
+      "target_ko": "격추당하지 않고 아케이드 클리어",
+      "source_raw_sha256": "3877819213d0df3bed086aadb93702c909f9f5130f597c3b5f47687beb1814a2",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c800"
+    },
+    {
+      "slot_id": "SOURCE_0025C808",
+      "offset": 2476040,
+      "capacity": 39,
+      "target_ko": "격투 공격만으로 1전 클리어",
+      "source_raw_sha256": "61c741ba5c0baa18ff2ef5eafe7afa869f1bf6891d50eb8fc19a2f28a6cfc537",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c830"
+    },
+    {
+      "slot_id": "SOURCE_0025C834",
+      "offset": 2476084,
+      "capacity": 39,
+      "target_ko": "사격 공격만으로 1전 클리어",
+      "source_raw_sha256": "6950071279b8793b5ea8bb82306c3141119e0211d6ad9b153af72ae7ac53289d",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c85c"
+    },
+    {
+      "slot_id": "SOURCE_0025C860",
+      "offset": 2476128,
+      "capacity": 51,
+      "target_ko": "NEXT 대시 없이 1전 클리어",
+      "source_raw_sha256": "648ed96e937eccb9746dbc4b479cd5b0785eb06170255c9484bacb744da95662",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c894"
+    },
+    {
+      "slot_id": "SOURCE_0025C898",
+      "offset": 2476184,
+      "capacity": 35,
+      "target_ko": "아군 기체 격추 10회",
+      "source_raw_sha256": "9b49441326e7713570f9c750f2bade5e8fba6928abaaff7125e0e78c9e0c0b1e",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c8bc"
+    },
+    {
+      "slot_id": "SOURCE_0025C8C0",
+      "offset": 2476224,
+      "capacity": 31,
+      "target_ko": "선제 공격 100회",
+      "source_raw_sha256": "91fbfece09cda00e26b8abb6e05c3fe75fc54127ec93fa52ff373640ccc780c2",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c8e0"
+    },
+    {
+      "slot_id": "SOURCE_0025C8E4",
+      "offset": 2476260,
+      "capacity": 27,
+      "target_ko": "모든 스테이지에서 전투",
+      "source_raw_sha256": "db94beb21a3e50bc99ca8d9fa3ed9f0758434a79c59d3e9f28399e5b45b31b58",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c900"
+    },
+    {
+      "slot_id": "SOURCE_0025C904",
+      "offset": 2476292,
+      "capacity": 23,
+      "target_ko": "모든 기체 사용",
+      "source_raw_sha256": "f39bac271a082040bcdd34f42441a4add59d13fbe352e887634399e7d22ea06b",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c91c"
+    },
+    {
+      "slot_id": "SOURCE_0025C920",
+      "offset": 2476320,
+      "capacity": 31,
+      "target_ko": "갤러리 내용 모두 수집",
+      "source_raw_sha256": "797152214258df7a4bee33ecc8feafd2b846fee27ffe2ca40a1d4c680751108e",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c940"
+    },
+    {
+      "slot_id": "SOURCE_0025C944",
+      "offset": 2476356,
+      "capacity": 39,
+      "target_ko": "다른 사람과 프리 배틀 통신 1회",
+      "source_raw_sha256": "c223c1bae8f0c41f8ca42677415fb7aec275fa0b8403ae18c5db0da6aefe9654",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c96c"
+    },
+    {
+      "slot_id": "SOURCE_0025C970",
+      "offset": 2476400,
+      "capacity": 35,
+      "target_ko": "다른 사람과 아케이드 통신 1회",
+      "source_raw_sha256": "1ab86468abf69ef19767e3bd596e9a68fdbea35c31d1d7afcaae8aa971b97bb2",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25c994"
+    },
+    {
+      "slot_id": "SOURCE_0025C998",
+      "offset": 2476440,
+      "capacity": 43,
+      "target_ko": "프리 배틀 통신 총 격추 100기",
+      "source_raw_sha256": "1d59ee1ac4fd8c3bdf0a90a99079eb007c1c6bfbb34d00ff17cd23634879755b",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ca1c"
+    },
+    {
+      "slot_id": "SOURCE_0025C9C4",
+      "offset": 2476484,
+      "capacity": 43,
+      "target_ko": "프리 배틀 통신 총 격추 300기",
+      "source_raw_sha256": "1dac23a758677923f5b155b52dc923a947f07bf20fc82f9e9855f63009219a24",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ca20"
+    },
+    {
+      "slot_id": "SOURCE_0025C9F0",
+      "offset": 2476528,
+      "capacity": 43,
+      "target_ko": "프리 배틀 통신 총 격추 1000기",
+      "source_raw_sha256": "bde9d44b2691f4871e0e6afa2995f14ef784e136ca13f9c16128f62585e96531",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ca24"
+    },
+    {
+      "slot_id": "SOURCE_0025CA28",
+      "offset": 2476584,
+      "capacity": 43,
+      "target_ko": "프리 배틀 통신 100승",
+      "source_raw_sha256": "b329c9267a9d2cdff024f2751fce6b19922b766207919b19e9f9a0dc34a10c7e",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ca54"
+    },
+    {
+      "slot_id": "SOURCE_0025CA58",
+      "offset": 2476632,
+      "capacity": 39,
+      "target_ko": "프리 배틀 통신 50패",
+      "source_raw_sha256": "e5e058a453828ef1569061cc6554db6af5031417d12ea4d67e92e0e3e706b762",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ca80"
+    },
+    {
+      "slot_id": "SOURCE_0025CA84",
+      "offset": 2476676,
+      "capacity": 43,
+      "target_ko": "파일럿 데이터 30명 이상 보유",
+      "source_raw_sha256": "bd2096caf1aa4bced611b698373bcab9252c141bd71798d1ffc790e179c5a72b",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cab0"
+    },
+    {
+      "slot_id": "SOURCE_0025CAB4",
+      "offset": 2476724,
+      "capacity": 51,
+      "target_ko": "컨티뉴 10회 이상 후 코스 클리어",
+      "source_raw_sha256": "b87e2a3255f1a578206719a4cdab0712da3e952718460a543ea363f457c34f40",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cae8"
+    },
+    {
+      "slot_id": "SOURCE_0025CAEC",
+      "offset": 2476780,
+      "capacity": 43,
+      "target_ko": "프리 배틀 통신 대전에서 무승부",
+      "source_raw_sha256": "e4fb460357ec67761a4b0b301266d296d29a35ef0aedb6d548b0ede8c0a837eb",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cb18"
+    },
+    {
+      "slot_id": "SOURCE_0025CB1C",
+      "offset": 2476828,
+      "capacity": 35,
+      "target_ko": "같은 기체로 100승 이상",
+      "source_raw_sha256": "13c6cc01c20bfa844ab71c7f40010d6737312706611a3fe46611727a7584067f",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cb40"
+    },
+    {
+      "slot_id": "SOURCE_0025CB44",
+      "offset": 2476868,
+      "capacity": 35,
+      "target_ko": "같은 기체로 50패 이상",
+      "source_raw_sha256": "4cd8dd4c4e95eba0244b9a4ee847128361a18261dccb985ac9ff81d074421c21",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cb68"
+    },
+    {
+      "slot_id": "SOURCE_0025CB6C",
+      "offset": 2476908,
+      "capacity": 35,
+      "target_ko": "초급 트라이얼 시험 맵 클리어",
+      "source_raw_sha256": "e3972f9f1485e692c7a122e4ec1396747cfb70794946f968fb2972afedf68e2a",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cbdc"
+    },
+    {
+      "slot_id": "SOURCE_0025CB90",
+      "offset": 2476944,
+      "capacity": 35,
+      "target_ko": "초급 트라이얼 전 맵 클리어",
+      "source_raw_sha256": "cd6fdd70f411899757e26411840978faf78549a6816eb2750317cbfc22fbb6aa",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cbe0"
+    },
+    {
+      "slot_id": "SOURCE_0025CBB4",
+      "offset": 2476980,
+      "capacity": 39,
+      "target_ko": "초급 트라이얼 전 미션 클리어",
+      "source_raw_sha256": "57dc9ad3ae48de3db871a034e8f439f086c8bd3b1ef86431ada6f4249e679955",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cbe4"
+    },
+    {
+      "slot_id": "SOURCE_0025CBE8",
+      "offset": 2477032,
+      "capacity": 35,
+      "target_ko": "중급 트라이얼 시험 맵 클리어",
+      "source_raw_sha256": "512b825f8c35851ab8ca86b07f53ab69ae26e1194466c4dcc9d1293a8a611e2a",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cc58"
+    },
+    {
+      "slot_id": "SOURCE_0025CC0C",
+      "offset": 2477068,
+      "capacity": 35,
+      "target_ko": "중급 트라이얼 전 맵 클리어",
+      "source_raw_sha256": "f9f3faa3c734d6fbf404ce5ce7ee6cd02a83a2993ede5115ce9d2982639f22f9",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cc5c"
+    },
+    {
+      "slot_id": "SOURCE_0025CC30",
+      "offset": 2477104,
+      "capacity": 39,
+      "target_ko": "중급 트라이얼 전 미션 클리어",
+      "source_raw_sha256": "0abfe4b18237902a3f223295007d4ddef95f1d7949632beaa4a42a1486078bea",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cc60"
+    },
+    {
+      "slot_id": "SOURCE_0025CC64",
+      "offset": 2477156,
+      "capacity": 35,
+      "target_ko": "상급 트라이얼 시험 맵 클리어",
+      "source_raw_sha256": "597d68ce3a0d6ba7b9c56207444457a9801209e4ac6a91e3516ff544bcf56b08",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ccd4"
+    },
+    {
+      "slot_id": "SOURCE_0025CC88",
+      "offset": 2477192,
+      "capacity": 35,
+      "target_ko": "상급 트라이얼 전 맵 클리어",
+      "source_raw_sha256": "64a8fbfdb829c035828481ad45983a585e8682bd96c5383e4e44998d5dba239a",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ccd8"
+    },
+    {
+      "slot_id": "SOURCE_0025CCAC",
+      "offset": 2477228,
+      "capacity": 39,
+      "target_ko": "상급 트라이얼 전 미션 클리어",
+      "source_raw_sha256": "df28a72fbd18f0c4f832ce2108bd459ea8df6ced3e5cae499fb8f74e77fd83e4",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ccdc"
+    },
+    {
+      "slot_id": "SOURCE_0025CCE0",
+      "offset": 2477280,
+      "capacity": 39,
+      "target_ko": "NEXT 트라이얼 전 맵 클리어",
+      "source_raw_sha256": "043830622f2fb3818993f0d53e75bc9359b1c73842ba96a43c89432fa5786e31",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cd34"
+    },
+    {
+      "slot_id": "SOURCE_0025CD08",
+      "offset": 2477320,
+      "capacity": 43,
+      "target_ko": "NEXT 트라이얼 전 미션 클리어",
+      "source_raw_sha256": "a0ac59856e94b10bffa45685fc1e0f9891a346f551469a80e6fcaab28dc2928f",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cd38"
+    },
+    {
+      "slot_id": "SOURCE_0025CD3C",
+      "offset": 2477372,
+      "capacity": 39,
+      "target_ko": "전 미션 클리어, 모든 맵 SS",
+      "source_raw_sha256": "398f576eda2d88515743049be30840ac86219eb312a568df033d0b376ee3fa5e",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cd64"
+    },
+    {
+      "slot_id": "SOURCE_0025CD68",
+      "offset": 2477416,
+      "capacity": 27,
+      "target_ko": "팀 10개 슬롯 모두 등록",
+      "source_raw_sha256": "67968e81f3b36cd39717014735a31a1ea7f594fc46a9cd904e2a2996ceca3d01",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cd84"
+    },
+    {
+      "slot_id": "SOURCE_0025CD88",
+      "offset": 2477448,
+      "capacity": 31,
+      "target_ko": "기체 1기의 모든 스킬 습득",
+      "source_raw_sha256": "4915d0e95c253f625e910d1e2d57139d276f44c5842f93aae39848ed7e0f2c2b",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cda8"
+    },
+    {
+      "slot_id": "SOURCE_0025CDAC",
+      "offset": 2477484,
+      "capacity": 31,
+      "target_ko": "기체 1기를 LV.MAX로",
+      "source_raw_sha256": "15c2749af750c307e16151a0c013530c2c6e7f88dd4e94fa9f45bdbd03a9200b",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cdcc"
+    },
+    {
+      "slot_id": "SOURCE_0025CDD0",
+      "offset": 2477520,
+      "capacity": 39,
+      "target_ko": "NEXT PLUS에서 모든 기체 획득",
+      "source_raw_sha256": "ddf7658594a9a828d1ebcc056992b3dc95e4c5b5dad0ae0d3bf1fc0e56ecd7d3",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cdf8"
+    },
+    {
+      "slot_id": "SOURCE_0025CDFC",
+      "offset": 2477564,
+      "capacity": 43,
+      "target_ko": "NEXT PLUS 통신 대전 1회",
+      "source_raw_sha256": "b63ad76c0d54d8557dea7b97e60f8800a6370ddf93c220ef12d395005834d949",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ce28"
+    },
+    {
+      "slot_id": "SOURCE_0025CE2C",
+      "offset": 2477612,
+      "capacity": 43,
+      "target_ko": "NEXT PLUS 통신 협력 1회",
+      "source_raw_sha256": "974b4d052b83e677bd3c245f094e392622ecb4729b574bb9263cf1d0f2b795fa",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ce58"
+    },
+    {
+      "slot_id": "SOURCE_0025CE5C",
+      "offset": 2477660,
+      "capacity": 47,
+      "target_ko": "NEXT PLUS 맵 100회 클리어",
+      "source_raw_sha256": "7ac2769fbc64ebfc63bc24e497ddd8bad428dd63d1bbbc35b11cfffbf0b06a18",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ce8c"
+    },
+    {
+      "slot_id": "SOURCE_0025CE90",
+      "offset": 2477712,
+      "capacity": 43,
+      "target_ko": "NEXT PLUS 맵 20회 실패",
+      "source_raw_sha256": "758380a8fddb169db6d72cfbc3cb0fa96983a87c315493771e08af9075fb02f1",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25cebc"
+    },
+    {
+      "slot_id": "SOURCE_0025CEC0",
+      "offset": 2477760,
+      "capacity": 23,
+      "target_ko": "GP를 최대치까지 모으기",
+      "source_raw_sha256": "bffaafd4d6dd43e086535d3ed9028cf46426a421a4dcebcae0e303ea68d915f8",
+      "existing_font_codes_verified": true,
+      "pointer_refs_hex": "0x25ced8"
+    }
+  ],
+  "runtime_verdict": "NOT_TESTED"
+}

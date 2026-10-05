@@ -20,6 +20,8 @@ from repack_pzz import parse
 from unpack_pzz import detect_xor_key, xor_words
 from pzz_integrity import verify_trailer
 from verify_original_title_logos import DEFAULT_POLICY, verify_records, verify_iso
+from text_control_guard import reject_new_ascii_tilde
+from nontext_protection import reject_nontext_overlap
 
 CHUNK = 8 * 1024 * 1024
 
@@ -98,6 +100,11 @@ def main():
             for row in plan['records']:
                 off=row['offset']; old=bytes.fromhex(row['expected_before_hex'])
                 new=bytes.fromhex(row['replacement_hex']); capacity=row['capacity']
+                reject_nontext_overlap(off, capacity+1, row['slot_id'])
+                # Baselines can contain original CP932 or the Korean codec.
+                # The source-bound planner performs the Unicode source check;
+                # this additional guard must not decode raw CP932 as Korean.
+                reject_new_ascii_tilde('~' * old.count(b'~'), row['target_ko'], row['slot_id'])
                 assert start<=off<off+len(old)<=end and len(old)==len(new)==capacity+1
                 assert elf_before[off:off+len(old)]==old and old!=new
                 encoded=encode_hangul(row['target_ko'])

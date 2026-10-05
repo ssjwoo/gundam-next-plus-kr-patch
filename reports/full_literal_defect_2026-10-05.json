@@ -1,0 +1,13 @@
+{
+  "baseline_revision": "037",
+  "whole_literal_owners": 176,
+  "baseline_whole_literals_rejected_by_host_codec": 176,
+  "prefixes_still_original_cp932": 176,
+  "source_pointers_preserved": true,
+  "public_catalog_plan_reproduction": "PASS",
+  "existing_font_codes_verified": true,
+  "game_consumer_executed": false,
+  "mission_freeze_link": "UNCONFIRMED_RUNTIME_LINK",
+  "runtime_verdict": "NOT_TESTED",
+  "catalog": "translations/full_dialogue_literals_ko_2026-10-05.json"
+}

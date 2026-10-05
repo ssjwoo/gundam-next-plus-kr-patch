@@ -10,6 +10,8 @@ from pathlib import Path
 import re
 
 from make_hangul_poc import encode_hangul
+from text_control_guard import reject_new_ascii_tilde
+from nontext_protection import reject_nontext_overlap
 
 
 TAG_RE = re.compile(r"~[A-Za-z][A-Za-z0-9]?")
@@ -42,6 +44,9 @@ def main() -> None:
         if row["source_jp"] != entry["source"]:
             raise SystemExit(f"{row_id}: source precondition failed")
         target = entry["target"]
+        reject_new_ascii_tilde(row['source_jp'], target, row_id)
+        if row.get('file_offset_hex'):
+            reject_nontext_overlap(int(row['file_offset_hex'],16), int(row['capacity_bytes'])+1, row_id)
         if TAG_RE.findall(row["source_jp"]) != TAG_RE.findall(target):
             raise SystemExit(f"{row_id}: ordered control-tag skeleton changed")
         encoded = encode_hangul(target)

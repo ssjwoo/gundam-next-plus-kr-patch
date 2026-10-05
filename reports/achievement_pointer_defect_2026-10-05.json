@@ -1,0 +1,84 @@
+{
+  "baseline_revision": "027/031",
+  "source_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "source_pointer_words": 49,
+  "corrupted_pointer_words": 18,
+  "repaired_text_slots": 47,
+  "pointers": [
+    {
+      "file_offset": "0x25c830",
+      "points_to": "0x25c808"
+    },
+    {
+      "file_offset": "0x25c8e0",
+      "points_to": "0x25c8c0"
+    },
+    {
+      "file_offset": "0x25c900",
+      "points_to": "0x25c8e4"
+    },
+    {
+      "file_offset": "0x25c91c",
+      "points_to": "0x25c904"
+    },
+    {
+      "file_offset": "0x25c940",
+      "points_to": "0x25c920"
+    },
+    {
+      "file_offset": "0x25ca80",
+      "points_to": "0x25ca58"
+    },
+    {
+      "file_offset": "0x25cab0",
+      "points_to": "0x25ca84"
+    },
+    {
+      "file_offset": "0x25cae8",
+      "points_to": "0x25cab4"
+    },
+    {
+      "file_offset": "0x25cb18",
+      "points_to": "0x25caec"
+    },
+    {
+      "file_offset": "0x25cb40",
+      "points_to": "0x25cb1c"
+    },
+    {
+      "file_offset": "0x25cd34",
+      "points_to": "0x25cce0"
+    },
+    {
+      "file_offset": "0x25cd38",
+      "points_to": "0x25cd08"
+    },
+    {
+      "file_offset": "0x25cda8",
+      "points_to": "0x25cd88"
+    },
+    {
+      "file_offset": "0x25cdcc",
+      "points_to": "0x25cdac"
+    },
+    {
+      "file_offset": "0x25cdf8",
+      "points_to": "0x25cdd0"
+    },
+    {
+      "file_offset": "0x25ce58",
+      "points_to": "0x25ce2c"
+    },
+    {
+      "file_offset": "0x25ce8c",
+      "points_to": "0x25ce5c"
+    },
+    {
+      "file_offset": "0x25cebc",
+      "points_to": "0x25ce90"
+    }
+  ],
+  "proof": "Original aligned pointer values reference separately NUL-terminated Japanese strings; translated text overwrote 18 words. No gameplay consumer executed.",
+  "mission_freeze_link": "UNCONFIRMED_RUNTIME_LINK",
+  "agent_executed_game": false
+}

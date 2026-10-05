@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "scope": "Three source-bound ASCII-tilde punctuation corrections only",
+  "baseline_revision": "027",
+  "source_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "baseline_elf_sha256": "1e2bf67cb6217a2f80fa7ff306cfc9f6158d3745d21555125ae68156fbf32ea2",
+  "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
+  "rows": [
+    {
+      "slot_id": "SOURCE_0027460C",
+      "original_inventory_id": "EBOOT_05302",
+      "offset": 2573836,
+      "capacity": 27,
+      "target_ko": "이젠 실패하면 안 돼!",
+      "before_ko": "이젠 실패하면 안 돼~!",
+      "source_raw_sha256": "6b727d9097b9139c628d102bf9c9882917e343fa3ce8971db9d7ec3cf2042517",
+      "baseline_slot_sha256": "42e3cdd3019563040fa6b4fcf9dee425f1b0895f51c351630b72994fac14ea76",
+      "pointer_refs_hex": "0x00275318",
+      "authoring_policy": "Individual correction of punctuation introducing an absent source control byte; no prose-wide transformation"
+    },
+    {
+      "slot_id": "SOURCE_00275A6C",
+      "original_inventory_id": "EBOOT_05461",
+      "offset": 2579052,
+      "capacity": 19,
+      "target_ko": "헤헤헤!!",
+      "before_ko": "헤헤헤~!!",
+      "source_raw_sha256": "909ddd1c99227e32c4435e4e41f383674c1ce94650ab8f8c458e57800628f05b",
+      "baseline_slot_sha256": "3a95662f53eb0200395a34ae69a02de86514d43c1fa0065232c4ccebc8a57c96",
+      "pointer_refs_hex": "0x00276598",
+      "authoring_policy": "Individual correction of punctuation introducing an absent source control byte; no prose-wide transformation"
+    },
+    {
+      "slot_id": "SOURCE_00281968",
+      "original_inventory_id": "EBOOT_06861",
+      "offset": 2627944,
+      "capacity": 19,
+      "target_ko": "얕보지 마!",
+      "before_ko": "얕보지 마~!",
+      "source_raw_sha256": "f3eb743e17f6a32bf5803dc813c4b70e6ee65c369eac030e5f9a396c5b3fc92d",
+      "baseline_slot_sha256": "0c914abb9074ebc584db7f2fd3d177c8d3b31cdacd4169bf589f26bb13bf45a5",
+      "pointer_refs_hex": "0x00282190",
+      "authoring_policy": "Individual correction of punctuation introducing an absent source control byte; no prose-wide transformation"
+    }
+  ],
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_link": "UNCONFIRMED_RUNTIME_LINK"
+}

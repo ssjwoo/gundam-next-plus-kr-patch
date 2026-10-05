@@ -1,0 +1,134 @@
+{
+  "baseline_elf_sha256": "1e2bf67cb6217a2f80fa7ff306cfc9f6158d3745d21555125ae68156fbf32ea2",
+  "function_va": "0x088838B4",
+  "decoder_va": "0x089BC550",
+  "method": "Unicorn executes the actual isolated text measurement function and decoder on synthetic bounded text buffers; no game entry, no emulator or external API execution",
+  "tilde_control_width": "ASCII tilde consumes the next two decoded characters; a newly authored bare tilde with only one following character consumes NUL and reads beyond the input.",
+  "cases": [
+    {
+      "before_guarded": {
+        "text": "이젠 실패하면 안 돼~!",
+        "guarded_input": true,
+        "error": "Invalid memory read (UC_ERR_READ_UNMAPPED)",
+        "returned": false,
+        "max_read_relative_to_terminator": 0,
+        "executed_instructions": 455,
+        "measured_character_count": 12,
+        "input_bytes_including_nul": 22
+      },
+      "before_adjacent_data": {
+        "text": "이젠 실패하면 안 돼~!",
+        "guarded_input": false,
+        "error": null,
+        "returned": true,
+        "max_read_relative_to_terminator": 15,
+        "executed_instructions": 856,
+        "measured_character_count": 26,
+        "input_bytes_including_nul": 22
+      },
+      "after_guarded": {
+        "text": "이젠 실패하면 안 돼!",
+        "guarded_input": true,
+        "error": null,
+        "returned": true,
+        "max_read_relative_to_terminator": 0,
+        "executed_instructions": 447,
+        "measured_character_count": 12,
+        "input_bytes_including_nul": 21
+      }
+    },
+    {
+      "before_guarded": {
+        "text": "헤헤헤~!!",
+        "guarded_input": true,
+        "error": null,
+        "returned": true,
+        "max_read_relative_to_terminator": 0,
+        "executed_instructions": 185,
+        "measured_character_count": 4,
+        "input_bytes_including_nul": 10
+      },
+      "before_adjacent_data": {
+        "text": "헤헤헤~!!",
+        "guarded_input": false,
+        "error": null,
+        "returned": true,
+        "max_read_relative_to_terminator": 0,
+        "executed_instructions": 185,
+        "measured_character_count": 4,
+        "input_bytes_including_nul": 10
+      },
+      "after_guarded": {
+        "text": "헤헤헤!!",
+        "guarded_input": true,
+        "error": null,
+        "returned": true,
+        "max_read_relative_to_terminator": 0,
+        "executed_instructions": 196,
+        "measured_character_count": 5,
+        "input_bytes_including_nul": 9
+      }
+    },
+    {
+      "before_guarded": {
+        "text": "얕보지 마~!",
+        "guarded_input": true,
+        "error": "Invalid memory read (UC_ERR_READ_UNMAPPED)",
+        "returned": false,
+        "max_read_relative_to_terminator": 0,
+        "executed_instructions": 243,
+        "measured_character_count": 6,
+        "input_bytes_including_nul": 12
+      },
+      "before_adjacent_data": {
+        "text": "얕보지 마~!",
+        "guarded_input": false,
+        "error": null,
+        "returned": true,
+        "max_read_relative_to_terminator": 15,
+        "executed_instructions": 644,
+        "measured_character_count": 20,
+        "input_bytes_including_nul": 12
+      },
+      "after_guarded": {
+        "text": "얕보지 마!",
+        "guarded_input": true,
+        "error": null,
+        "returned": true,
+        "max_read_relative_to_terminator": 0,
+        "executed_instructions": 235,
+        "measured_character_count": 6,
+        "input_bytes_including_nul": 11
+      }
+    }
+  ],
+  "preserved_control_cases": [
+    {
+      "text": "~f0색상~f2복원",
+      "guarded_input": true,
+      "error": null,
+      "returned": true,
+      "max_read_relative_to_terminator": 0,
+      "executed_instructions": 269,
+      "measured_character_count": 6,
+      "input_bytes_including_nul": 15
+    },
+    {
+      "text": "~pSF91~pE",
+      "guarded_input": true,
+      "error": null,
+      "returned": true,
+      "max_read_relative_to_terminator": 0,
+      "executed_instructions": 197,
+      "measured_character_count": 5,
+      "input_bytes_including_nul": 10
+    }
+  ],
+  "verdict": "CONFIRMED_TEXT_CONSUMER_DEFECT",
+  "mission_freeze_cause": "UNCONFIRMED_RUNTIME_LINK",
+  "agent_executed_game": false,
+  "runtime_tested": false,
+  "catalog": "translations/text_control_fix_ko_2026-10-05.json",
+  "guard_tests_passed": 7,
+  "existing_symbol_tests_passed": 7
+}

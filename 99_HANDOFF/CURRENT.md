@@ -1,3 +1,24 @@
+<!-- remaining-2026-10-05:start -->
+# 현재 작업 — 2026-10-05 / 038 로컬 후보
+
+027 중급 트라이얼 마지막 백식 호위 임무의 전투 중 랜덤 프리징은 USER_REPORTED_FAIL / OPEN. 사용 팀: 뉴 건담·아무로, 사자비·샤아. 직접 원인 연결 UNCONFIRMED_RUNTIME_LINK. 과거 023 타이거바움 사용자 해결 확인은 별도 범위로 보존.
+
+최신 로컬 후보 038: ISO SHA-256 `96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2`, CRC32 `EA404316`. 게임 실행 NOT_TESTED, 새 릴리스 미게시. 원판 기반 xdelta 재적용: PASS. 근거 reports/development_038_2026-10-05.json. 원판은 a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3. 사용자 original_jp_.iso는 패치된 입력이며 원판으로 사용하지 않는다.
+
+원본 바이트로 비텍스트 39곳 복원: 수치/벡터 20곳, 내장 PNG 압축 데이터 1곳, 달성 조건 포인터 18개. 내장 PNG 3개 디코딩, 달성 조건 포인터 49개 및 원본 목록 포인터 5,682개 원판 일치. 실제 분리 수치 소비 증거는 최초 2곳에 한정. 나머지 수치는 원본 구조로 분류했고 게임플레이 경로 연결은 미확인.
+
+문구 수정: 도입된 ASCII `~` 오류 3곳, 달성 조건 47개, 선택 안내 2개. 원문 소유권·실제 ELF로 3,953개 슬롯 검사 PASS. 비정렬 조각 중 176개는 원본 CP932 앞부분+한글 뒤쪽 혼합이었음을 확인하고 포인터가 가리키는 전체 대사로 수정했다. 176개 모두 기존 전체 문자열이 호스트 코덱에서 거부됐고 현재 전체 읽기가 통과했다. 공개 카탈로그 계획 재현과 전체 문장 소유권 보호 검사 4개 PASS. 남은 한 비정렬 행은 선택 안내 앞 스칼라의 마지막 바이트를 포함한 스캐너 별칭이며 전체 게임 완료 증거가 아니다. supplementary_slots.private.json의 6개 잘못된 코덱 경고는 전체 문장 중간을 시작점으로 읽은 결과이며 확인한 6개 전체 문장은 정상 디코딩된다. source_population_audit.private.json의 unowned는 손상 판정이 아니다.
+
+프리 배틀 작품·스테이지 목록/선택 안내 3면·36문구 반영. vsel01 네이티브 5개 그림 재읽기, 기존 picture 0/1 및 원본 로고 193면 보호 PASS. 전체 게임/NEXT PLUS 완료 판정 없음. 사용자 인게임 검수 담당, AI 게임·에뮬레이터·CMD 실행 없음.
+
+028~037 중간 후보는 최신 권장 아님. 비교용 033과 최신 038, 원판·사용자 입력·수용 023·공개 027 보존. 정리 근거 reports/cleanup_2026-10-05.json. 기존 027 릴리스 자산을 교체하지 않았으며 알려진 실패 알림만 갱신.
+
+5시간 잔여 35% 관측 (2026-10-05T13:14:34.824016+00:00); 잔여 30%에서 신규 작업 종료 후 인계. 최종 인계 때 새로 관측한다.
+
+다음 AI 작업: Audit remaining image families and actual mode consumers using the existing AFS inventory and source review records; preserve 038 and the open user-reported mission freeze.
+work/remaining_2026-10-05/checkpoint_final.py 사용. checkpoint_progress.py 및 이전 날짜 finalize_public/closing_record/update_checkpoint는 오래된 후보로 덮으므로 실행 금지.
+<!-- remaining-2026-10-05:end -->
+
 <!-- remaining-2026-10-04:start -->
 # 현재 작업 — 2026-10-04 남은 한글화
 

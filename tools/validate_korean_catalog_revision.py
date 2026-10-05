@@ -15,6 +15,7 @@ import re
 import subprocess
 
 from make_hangul_poc import decode_hangul, encode_hangul
+from text_control_guard import reject_new_ascii_tilde
 
 
 CATALOGS = (
@@ -68,6 +69,10 @@ def compare(before: list[dict], after: list[dict], name: str, errors: list[dict]
         if not isinstance(target, str) or not target.strip():
             errors.append({"file": name, "id": row_id, "kind": "empty_or_nonstring_target"})
             continue
+        try:
+            reject_new_ascii_tilde(old[field], target, row_id)
+        except ValueError as exc:
+            errors.append({'file':name,'baseline':label,'id':row_id,'kind':'introduced_ascii_tilde','detail':str(exc)})
         old_info, new_info = protected(old[field]), protected(target)
         for key in old_info:
             if old_info[key] == new_info[key]:
