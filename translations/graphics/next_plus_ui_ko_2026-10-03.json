@@ -10639,11 +10639,13 @@
         127,
         205
       ],
-      "target_ko": "아프리카 사막",
+      "target_ko": "미지의 구역",
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "658ff9a0112c6872f11266c0c5dc9a8f06acf8a0656e3de3fca273655c2fbb28"
+      "source_crop_rgba_sha256": "658ff9a0112c6872f11266c0c5dc9a8f06acf8a0656e3de3fca273655c2fbb28",
+      "corrected_revision": "039",
+      "correction_evidence": "reports/web_ai_review_batch_001_2026-10-06.json"
     },
     {
       "id": "NP_LOCATION_BANNER_0_09",
@@ -10936,11 +10938,13 @@
         255,
         205
       ],
-      "target_ko": "궤도 엘리베이터 우주섬",
+      "target_ko": "궤도 엘리베이터 중계점",
       "status": "development_source_reviewed",
       "approved": false,
       "runtime_verdict": "NOT_TESTED",
-      "source_crop_rgba_sha256": "d114ae03f408f63e02f5c9cc55f1dd7dc9935a9c3c1c6cacc6e7ce1ace6e5cf2"
+      "source_crop_rgba_sha256": "d114ae03f408f63e02f5c9cc55f1dd7dc9935a9c3c1c6cacc6e7ce1ace6e5cf2",
+      "corrected_revision": "039",
+      "correction_evidence": "reports/web_ai_review_batch_001_2026-10-06.json"
     },
     {
       "id": "NP_LOCATION_BANNER_1_09",

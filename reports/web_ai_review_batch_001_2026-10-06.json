@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-06",
+  "baseline_revision": "038",
+  "candidate_revision": "039",
+  "batch_id": "web_graphics_001_038",
+  "received_result_sha256": "39d11ced04d7bdb61ae9f197a4f0e7df2a93c85b360d1bc748e29d0a270e2fb7",
+  "received_result_bytes": 96904,
+  "returned_images": 50,
+  "returned_regions": 119,
+  "image_id_binding": "PASS",
+  "approximate_region_bounds": "PASS",
+  "worker_image_statuses": {
+    "preserve_symbols": 11,
+    "no_text": 25,
+    "mixed": 11,
+    "already_localized": 3
+  },
+  "worker_new_translation_proposals": 0,
+  "worker_review_is_not_supervisor_approval": true,
+  "worker_review_is_not_runtime_evidence": true,
+  "supervisor_confirmed_text_corrections": 2,
+  "supervisor_focus_native_image_ids": [
+    "G017",
+    "G041"
+  ],
+  "decisions": [
+    {
+      "image_id": "G041",
+      "region_id": "G041-R18",
+      "decision": "CORRECTED",
+      "previous_ko": "아프리카 사막",
+      "target_ko": "미지의 구역",
+      "reason": "Supervisor confirmed a different source place name in the original native banner."
+    },
+    {
+      "image_id": "G041",
+      "region_id": "G041-R19",
+      "decision": "CORRECTED",
+      "previous_ko": "궤도 엘리베이터 우주섬",
+      "target_ko": "궤도 엘리베이터 중계점",
+      "reason": "Supervisor confirmed the source denotes a relay point, not a space island."
+    },
+    {
+      "image_id": "G017",
+      "region_id": "G017-R02/G017-R04/G017-R06",
+      "decision": "NUMERIC_PLATE_CLAIM_NOT_ADOPTED",
+      "reason": "Source PMF2 object ckpt00_ck065 uses two atlas cells at the same planar XY coverage, with rear layer depth -3 and gray 0.4 color, and front layer depth 0. Triangle-strip ordering differs. This supports a rear effect layer rather than a separate numeric plate. Other rows have dynamic UV consumers not yet traced; preserve current inputs.",
+      "static_overlap_evidence": "PASS",
+      "runtime_claim": "NONE"
+    },
+    {
+      "image_id": "G017",
+      "region_id": "G017-R07",
+      "decision": "UNRESOLVED_PRESERVED",
+      "reason": "No confirmed reading/function for the angled glyph region; no speculative change."
+    },
+    {
+      "image_id": "G022",
+      "region_id": "G022-R10",
+      "decision": "UNRESOLVED_PRESERVED",
+      "reason": "Unchanged bright raster effects have no verified ordinary-text reading."
+    },
+    {
+      "image_id": "G028",
+      "region_id": "G028-R04",
+      "decision": "UNRESOLVED_PRESERVED",
+      "reason": "Unchanged bright raster effects have no verified ordinary-text reading."
+    }
+  ],
+  "uncertain_regions_preserved": 3,
+  "ordinary_english_ui_not_automatically_excluded": true,
+  "english_ui_followup": "Distinguish font glyph tables, conventional abbreviations and functional English labels before further editing; common English alone is not evidence of an approved scope exclusion.",
+  "worker_summary_uncertain_count_not_adopted": true,
+  "coverage_limit": "50-image bounded external survey; not an exhaustive game/NEXT PLUS review or a remaining-translation count.",
+  "changed_pzz_members": 1,
+  "changed_gim_surfaces": 1,
+  "changed_native_pixels": 828,
+  "protected_native_pixels_changed": 0,
+  "unchanged_gim_roundtrip": "BYTE_EXACT_PASS",
+  "other_pzz_parts_and_gim_pictures_preserved": true,
+  "pzz_loader_checksum": "PASS",
+  "original_title_logo_policy": {
+    "policy": "preserve_original_title_logos",
+    "protected_members": 193,
+    "protected_surfaces": 193,
+    "verdict": "PASS"
+  },
+  "candidate_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "whole_game_localization_complete": false,
+  "whole_next_plus_localization_complete": false,
+  "publication_status": "LOCAL_ONLY",
+  "updated_at": "2026-10-06T13:26:11.302708+00:00",
+  "xdelta_roundtrip": "PASS",
+  "xdelta": {
+    "revision": "039",
+    "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "candidate_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+    "xdelta_sha256": "587a67695c539be3b7ba250153266d60eebd175d315e848304ee6d7116376576",
+    "xdelta_crc32": "A56BDEB8",
+    "xdelta_bytes": 15156262,
+    "roundtrip_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+    "roundtrip_bytes": 1757806592,
+    "roundtrip_method": "Decoded stdout streamed into SHA256 and CRC32; no duplicate ISO",
+    "verdict": "PASS",
+    "runtime_verdict": "NOT_TESTED",
+    "mission_freeze_resolution": "UNCONFIRMED"
+  }
+}

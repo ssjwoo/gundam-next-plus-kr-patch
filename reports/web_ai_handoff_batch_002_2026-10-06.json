@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-06",
+  "batch_id": "web_graphics_002_039",
+  "baseline_revision": "039",
+  "baseline_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "attachment_count": 2,
+  "attachments": [
+    {
+      "filename": "WEB_AI_HANDOFF_BATCH_002.txt",
+      "bytes": 73819,
+      "sha256": "291587c4931592ce072c1f03582c8a25e9dd23ed861a04af918121d422702b0f"
+    },
+    {
+      "filename": "IMAGE_REVIEW_BATCH_002.pdf",
+      "bytes": 25762345,
+      "sha256": "04cf133f9abb048b63b2eec5d55a71dfc84047b8c4fb7eadf5deb06dc2c4fae6"
+    }
+  ],
+  "source_pzz_members": 251,
+  "images": 422,
+  "pdf_pages": 423,
+  "group_image_counts": {
+    "일반 영문·판독 보류 재검토": 20,
+    "공용 UI·메뉴": 115,
+    "기체별 스킬": 66,
+    "기체별 정보": 134,
+    "조작·기체별 안내": 76,
+    "해금 안내": 11
+  },
+  "native_member_hashes_and_checksums": "PASS",
+  "afs_index_name_and_size_in_both_isos": "PASS",
+  "visual_layout_qa": {
+    "rendered_pages": 423,
+    "contact_sheets_inspected": 18,
+    "full_page_inspection": [
+      1,
+      6,
+      72,
+      298,
+      360,
+      420
+    ],
+    "scope": "PDF layout, clipping, labeling and original/current pairing; not full translation QA",
+    "clipped_or_overlapping_labels_observed": 0
+  },
+  "visual_qa": "PASS",
+  "source_assets_modified": false,
+  "worker_results_received": false,
+  "worker_dispatched_by_controller": false,
+  "dynamic_mode_binding": "UNCONFIRMED",
+  "scope": "Bounded 422-image external review; includes localized assets and symbols, not 422 confirmed untranslated assets or exhaustive game coverage",
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "whole_game_localization_complete": false,
+  "whole_next_plus_localization_complete": false,
+  "local_packet_directory": "work/ai_worker_handoff_2026-10-06/web_batch_002",
+  "expected_result_file": "web_ai_result_batch_002.json",
+  "updated_at": "2026-10-06T13:49:18.190136+00:00"
+}

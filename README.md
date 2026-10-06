@@ -2,6 +2,8 @@
 
 PSP 일본판 **NPJH50107**의 비공식 한글화 프로젝트입니다. 최신 배포본은 **038 개발판**이며, 건담 작품·게임 타이틀 로고는 원본으로 유지합니다.
 
+최신 로컬 작업본은 **039**입니다. 웹 AI의 첫 이미지 검수 결과를 감독 검수해 잘못 번역된 지명 두 곳을 수정했습니다. 039 ISO·원판용 xdelta의 정적 검사·재적용은 통과했으며 공개 릴리스는 아직 038입니다. [039 변경·검증](docs/HISTORY.md#revision-039).
+
 ## 다운로드·적용
 
 [038 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038) · [038 xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta)

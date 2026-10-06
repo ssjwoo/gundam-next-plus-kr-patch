@@ -1,0 +1,40 @@
+{
+  "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-06\\next_plus_graphics_revision_039.iso",
+  "baseline_iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+  "iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "iso_crc32": "6398666D",
+  "iso_bytes": 1757806592,
+  "members": [
+    {
+      "name": "trl03.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 2298,
+      "absolute_offset": 1675198464,
+      "bytes": 145552,
+      "old_sha256": "739f4e94b0b33c00d670a12df89836d2c30c7bbb30325717848ba5ab0dab69fd",
+      "new_sha256": "e3f163c6e9ec51b3225d6ec219f1faed94eaf411aac97cd0025f05d0c16837bb",
+      "part_count": 2
+    }
+  ],
+  "elf_data_slots": [],
+  "changed_disc_bytes": 31139,
+  "iso_member_geometry_preserved": true,
+  "unaffected_iso_bytes_preserved": true,
+  "afs_tables_and_pzz_geometry_preserved": true,
+  "pzz_loader_checksums_verified": true,
+  "original_title_logo_policy": {
+    "policy": "preserve_original_title_logos",
+    "protected_members": 193,
+    "protected_surfaces": 193,
+    "verdict": "PASS"
+  },
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "development_only": true,
+  "whole_game_text_complete": false,
+  "graphics_localization_complete": false,
+  "scope": "Two corrected bitmap place names; no executable/font/data-slot changes",
+  "xdelta_roundtrip": "PASS",
+  "publication_status": "LOCAL_ONLY",
+  "candidate_revision": "039"
+}

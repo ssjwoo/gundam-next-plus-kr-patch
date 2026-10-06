@@ -1,0 +1,50 @@
+{
+  "baseline_revision": "038",
+  "target_revision": "039",
+  "batch_id": "web_graphics_001_038",
+  "scope": "Two source-confirmed Korean place-name corrections; bitmap text only",
+  "development_only": true,
+  "runtime_verdict": "NOT_TESTED",
+  "rows": [
+    {
+      "id": "NP_LOCATION_BANNER_0_08",
+      "asset": "trl03.pzz",
+      "part": 1,
+      "picture": 3,
+      "box": [
+        1,
+        193,
+        127,
+        205
+      ],
+      "previous_ko": "아프리카 사막",
+      "target_ko": "미지의 구역",
+      "worker_region_id": "G041-R18",
+      "current038_crop_sha256": "cfb23f7a7fee8cd4ef20df973cf801dab2806165ded30476e3139c47075c9713",
+      "corrected_crop_sha256": "62093a35cbc105ca9a1fdaf44abb2844430933927dd0bfa18fbe499aeceb7493",
+      "source_confirmed": true,
+      "review_state": "supervisor_reviewed_development",
+      "runtime_verdict": "NOT_TESTED"
+    },
+    {
+      "id": "NP_LOCATION_BANNER_1_08",
+      "asset": "trl03.pzz",
+      "part": 1,
+      "picture": 3,
+      "box": [
+        129,
+        193,
+        255,
+        205
+      ],
+      "previous_ko": "궤도 엘리베이터 우주섬",
+      "target_ko": "궤도 엘리베이터 중계점",
+      "worker_region_id": "G041-R19",
+      "current038_crop_sha256": "467e4a11cf013fb0f3dfcda8c4b679faa6a61338aee19912d11df63a8808bd4a",
+      "corrected_crop_sha256": "e43c401ffdf89a32544bf2ed114a4b33a5b56abf862ba79ede54c8085d376376",
+      "source_confirmed": true,
+      "review_state": "supervisor_reviewed_development",
+      "runtime_verdict": "NOT_TESTED"
+    }
+  ]
+}
