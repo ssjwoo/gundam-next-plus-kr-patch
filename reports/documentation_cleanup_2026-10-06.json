@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-06",
+  "scope": "Documentation consolidation and GitHub source synchronization",
+  "source_commit": "78269664824c0ad91e71d5f59f6c3f209f53202c",
+  "active_revision": "038",
+  "game_assets_modified": false,
+  "new_release_created": false,
+  "game_or_emulator_executed": false,
+  "runtime_verdict": "NOT_TESTED",
+  "latest_patch_publication_preserved": true,
+  "before": {
+    "99_HANDOFF/CURRENT.md": {
+      "bytes": 9378,
+      "lines": 61
+    },
+    "PROGRESS.md": {
+      "bytes": 1617,
+      "lines": 13
+    },
+    "README.md": {
+      "bytes": 15472,
+      "lines": 158
+    },
+    "docs/BOOT_FAILURE_020_2026-10-03.md": {
+      "bytes": 3293,
+      "lines": 15
+    },
+    "docs/GRAPHICS_2026-10-03.md": {
+      "bytes": 8256,
+      "lines": 48
+    },
+    "docs/GRAPHICS_2026-10-04.md": {
+      "bytes": 2726,
+      "lines": 21
+    },
+    "docs/GUNDAM_TITLE_LOGO_POLICY.md": {
+      "bytes": 1858,
+      "lines": 11
+    },
+    "docs/HANDOFF_2026-09-26.md": {
+      "bytes": 9673,
+      "lines": 144
+    },
+    "docs/HANDOFF_CURRENT.md": {
+      "bytes": 23841,
+      "lines": 162
+    },
+    "docs/INTEGRATION_2026-10-02.md": {
+      "bytes": 5307,
+      "lines": 55
+    },
+    "docs/MISSION_FREEZE_021_2026-10-03.md": {
+      "bytes": 6998,
+      "lines": 46
+    },
+    "docs/MISSION_FREEZE_027_2026-10-05.md": {
+      "bytes": 3595,
+      "lines": 20
+    },
+    "docs/ORIGINAL_TITLE_LOGOS_023_2026-10-03.md": {
+      "bytes": 3770,
+      "lines": 25
+    },
+    "docs/PUBLICATION_POLICY.md": {
+      "bytes": 1327,
+      "lines": 22
+    },
+    "docs/RELEASE_2026-09-26.md": {
+      "bytes": 6174,
+      "lines": 93
+    },
+    "docs/RELEASE_2026-10-03_021.md": {
+      "bytes": 5340,
+      "lines": 49
+    },
+    "docs/RELEASE_2026-10-03_023.md": {
+      "bytes": 3386,
+      "lines": 32
+    },
+    "docs/RELEASE_2026-10-04_027.md": {
+      "bytes": 4651,
+      "lines": 39
+    },
+    "docs/RESEARCH_NOTES.md": {
+      "bytes": 15204,
+      "lines": 200
+    },
+    "docs/TRANSLATION_REVIEW_2026-10-02.md": {
+      "bytes": 5374,
+      "lines": 76
+    },
+    "docs/UPDATE_2026-10-02.md": {
+      "bytes": 7531,
+      "lines": 87
+    },
+    "docs/UPDATE_2026-10-05.md": {
+      "bytes": 4079,
+      "lines": 29
+    },
+    "translations/baselines/README.md": {
+      "bytes": 1158,
+      "lines": 17
+    }
+  },
+  "after": {
+    "99_HANDOFF/CURRENT.md": {
+      "bytes": 5336,
+      "lines": 47
+    },
+    "PROGRESS.md": {
+      "bytes": 1729,
+      "lines": 14
+    },
+    "README.md": {
+      "bytes": 3143,
+      "lines": 39
+    },
+    "docs/BOOT_FAILURE_020_2026-10-03.md": {
+      "bytes": 315,
+      "lines": 5
+    },
+    "docs/DEVELOPMENT.md": {
+      "bytes": 6885,
+      "lines": 69
+    },
+    "docs/GRAPHICS_2026-10-03.md": {
+      "bytes": 326,
+      "lines": 5
+    },
+    "docs/GRAPHICS_2026-10-04.md": {
+      "bytes": 338,
+      "lines": 5
+    },
+    "docs/GUNDAM_TITLE_LOGO_POLICY.md": {
+      "bytes": 1004,
+      "lines": 7
+    },
+    "docs/HANDOFF_CURRENT.md": {
+      "bytes": 337,
+      "lines": 5
+    },
+    "docs/HISTORY.md": {
+      "bytes": 10087,
+      "lines": 95
+    },
+    "docs/INSTALL.md": {
+      "bytes": 3277,
+      "lines": 40
+    },
+    "docs/MISSION_FREEZE_021_2026-10-03.md": {
+      "bytes": 377,
+      "lines": 5
+    },
+    "docs/MISSION_FREEZE_027_2026-10-05.md": {
+      "bytes": 3640,
+      "lines": 20
+    },
+    "docs/ORIGINAL_TITLE_LOGOS_023_2026-10-03.md": {
+      "bytes": 331,
+      "lines": 5
+    },
+    "docs/PUBLICATION_POLICY.md": {
+      "bytes": 1349,
+      "lines": 22
+    },
+    "docs/RESEARCH_NOTES.md": {
+      "bytes": 7696,
+      "lines": 66
+    },
+    "translations/baselines/README.md": {
+      "bytes": 1152,
+      "lines": 17
+    }
+  },
+  "before_md_files": 23,
+  "after_md_files": 17,
+  "before_md_bytes": 150008,
+  "after_md_bytes": 47322,
+  "before_md_lines": 1423,
+  "after_md_lines": 466,
+  "consolidated_removed_paths": {
+    "docs/HANDOFF_2026-09-26.md": "docs/DEVELOPMENT.md",
+    "docs/UPDATE_2026-10-02.md": "docs/DEVELOPMENT.md",
+    "docs/INTEGRATION_2026-10-02.md": "docs/HISTORY.md#recovery-2026-10-02",
+    "docs/TRANSLATION_REVIEW_2026-10-02.md": "docs/HISTORY.md#recovery-2026-10-02",
+    "docs/RELEASE_2026-09-26.md": "docs/HISTORY.md#revision-v19",
+    "docs/RELEASE_2026-10-03_021.md": "docs/HISTORY.md#revision-021",
+    "docs/RELEASE_2026-10-03_023.md": "docs/HISTORY.md#revision-023",
+    "docs/RELEASE_2026-10-04_027.md": "docs/HISTORY.md#revision-027",
+    "docs/UPDATE_2026-10-05.md": "docs/HISTORY.md#revision-038"
+  },
+  "external_release_link_landing_pages": [
+    "docs/BOOT_FAILURE_020_2026-10-03.md",
+    "docs/GRAPHICS_2026-10-03.md",
+    "docs/GRAPHICS_2026-10-04.md",
+    "docs/MISSION_FREEZE_021_2026-10-03.md",
+    "docs/ORIGINAL_TITLE_LOGOS_023_2026-10-03.md"
+  ],
+  "historical_reports_preserved": true,
+  "historical_detail_access": "Git history at source_commit",
+  "recorded_at": "2026-10-06T12:08:21.421531+00:00",
+  "validation": {
+    "local_markdown_links": "PASS",
+    "checked_links": 103,
+    "missing_targets": [],
+    "current_038_identity": "PASS",
+    "runtime_claims_preserved": "PASS",
+    "git_diff_check": "PASS",
+    "external_release_links_preserved": "PASS",
+    "release_body_doc_links_checked": [
+      {
+        "tag": "dev-2026-10-04-graphics-027",
+        "path": "docs/MISSION_FREEZE_027_2026-10-05.md"
+      },
+      {
+        "tag": "dev-2026-10-04-graphics-027",
+        "path": "docs/GRAPHICS_2026-10-04.md"
+      },
+      {
+        "tag": "dev-2026-10-03-graphics-023",
+        "path": "docs/MISSION_FREEZE_021_2026-10-03.md"
+      },
+      {
+        "tag": "dev-2026-10-03-graphics-023",
+        "path": "docs/ORIGINAL_TITLE_LOGOS_023_2026-10-03.md"
+      },
+      {
+        "tag": "dev-2026-10-03-graphics-021",
+        "path": "docs/MISSION_FREEZE_021_2026-10-03.md"
+      },
+      {
+        "tag": "dev-2026-10-03-graphics-021",
+        "path": "docs/GRAPHICS_2026-10-03.md"
+      },
+      {
+        "tag": "dev-2026-10-03-graphics-021",
+        "path": "docs/BOOT_FAILURE_020_2026-10-03.md"
+      },
+      {
+        "tag": "dev-2026-10-03-graphics-021",
+        "path": "docs/PUBLICATION_POLICY.md"
+      }
+    ],
+    "038_release_asset_preserved": "PASS"
+  }
+}

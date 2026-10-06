@@ -11,7 +11,7 @@ Examples
     python tools/publish_release_asset.py \
         --repo ssjwoo/gundam-next-plus-kr-patch --tag dev-2026-09-26 \
         --asset build/next_plus_development_v19_2026-09-26.xdelta \
-        --body docs/RELEASE_2026-09-26.md \
+        --body work/release_notes.md \
         --name "개발 릴리스 2026-09-26 - 자유 폰트·숫자 테이블 수정 (v19)"
 
     # also drop a superseded asset from the same release

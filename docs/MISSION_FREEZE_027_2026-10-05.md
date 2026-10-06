@@ -15,6 +15,6 @@
 
 모든 274개 미션 메타데이터·포인터와 문자 분류표 257바이트는 원판과 일치했습니다. 023과 027의 실행 코드·폰트는 같았고, 027의 신규 PZZ 255개는 구조와 해제 크기를 보존했습니다. 이 증거도 전체 게임플레이의 통과를 의미하지 않습니다.
 
-038은 위 복원과 프리 배틀 목록·선택 안내 3면·36문구를 포함한 누적 개발판입니다. ISO SHA-256은 `96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2`이며 원판 기반 xdelta 재적용을 통과했습니다. [파일 식별·검사 범위](UPDATE_2026-10-05.md). 028~037은 조사 중간 후보입니다. [038 xdelta 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038)를 게시했으며, 공개 027의 실패 알림과 기존 자산을 보존했습니다.
+038은 위 복원과 프리 배틀 목록·선택 안내 3면·36문구를 포함한 누적 개발판입니다. ISO SHA-256은 `96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2`이며 원판 기반 xdelta 재적용을 통과했습니다. [파일 식별](INSTALL.md), [검사·수정 범위](HISTORY.md#revision-038). 028~037은 조사 중간 후보입니다. [038 xdelta 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038)를 게시했으며, 공개 027의 실패 알림과 기존 자산을 보존했습니다.
 
 근거: [사용자 이슈](../reports/mission_freeze_027_2026-10-05.json), [문자 소비](../reports/text_control_defect_2026-10-05.json), [최초 수치 소비](../reports/numeric_data_defect_2026-10-05.json), [비텍스트 분류](../reports/nontext_population_defect_2026-10-05.json), [달성 조건 포인터](../reports/achievement_pointer_defect_2026-10-05.json), [최종 검사](../reports/development_038_2026-10-05.json).

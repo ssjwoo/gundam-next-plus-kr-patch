@@ -653,7 +653,7 @@
       "whole_game_or_release_runtime_pass_claimed": false
     },
     "handoff": "docs/HANDOFF_CURRENT.md",
-    "reproduction": "docs/UPDATE_2026-10-02.md",
+    "reproduction": "docs/DEVELOPMENT.md",
     "publication_scope": "Code, metadata, checks and handoff; local game artifacts/workbook excluded"
   },
   "translation_review_2026_10_02": {
@@ -1403,5 +1403,24 @@
     "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-04-graphics-027",
     "public_download_verdict": "PASS",
     "runtime_issue": "NEXT_PLUS_HYAKUSHIKI_FREEZE_027"
+  },
+  "documentation_maintenance_2026_10_06": {
+    "date": "2026-10-06",
+    "status": "COMPLETE",
+    "scope": "Latest 038 documentation consolidation",
+    "report": "reports/documentation_cleanup_2026-10-06.json",
+    "primary_handoff": "99_HANDOFF/CURRENT.md",
+    "canonical_guides": [
+      "docs/INSTALL.md",
+      "docs/HISTORY.md",
+      "docs/DEVELOPMENT.md",
+      "docs/RESEARCH_NOTES.md"
+    ],
+    "latest_build_revision": "038",
+    "game_assets_modified": false,
+    "runtime_verdict": "NOT_TESTED",
+    "next_ai_action": "Audit remaining image families and actual mode consumers using the existing AFS inventory and source review records; preserve 038 and the open user-reported mission freeze.",
+    "old_checkpoint_writers_obsolete": true,
+    "updated_at": "2026-10-06T12:10:11.719380+00:00"
   }
 }
