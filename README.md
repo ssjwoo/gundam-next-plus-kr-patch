@@ -34,6 +34,7 @@ xdelta3 -d -s "original_jp.iso" "next_plus_graphics_revision_038.xdelta" "next_p
 | 버전별 변경·오류 수정 | [통합 변경 이력](docs/HISTORY.md) |
 | 현재 진행과 다음 작업 | [진행 현황](PROGRESS.md), [현재 인계](99_HANDOFF/CURRENT.md) |
 | 도구·환경·과거 패치 복구 | [개발 안내](docs/DEVELOPMENT.md), [기술 연구](docs/RESEARCH_NOTES.md) |
+| 다른 AI 작업·결과 반환 | [잔여 한글화 임무 프롬프트](docs/AI_WORKER_TASK.md) |
 | 로고 처리·공개 범위 | [원본 로고 정책](docs/GUNDAM_TITLE_LOGO_POLICY.md), [배포 방침](docs/PUBLICATION_POLICY.md) |
 
 Git에는 도구·한국어 초안·검증 집계를 공개하고, 릴리스에는 `.xdelta`만 제공합니다. 게임 ISO·추출 자산·전체 원문은 포함하지 않습니다. 공개 번역 자료는 초안이며 전부 승인·삽입됐다는 뜻은 아닙니다. 건담 및 관련 자료의 권리는 각 권리자에게 있으며 제작사·배급사와 무관한 팬 프로젝트입니다.
