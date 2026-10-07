@@ -1424,7 +1424,7 @@
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
   "graphics_scope_report": "reports/graphics_scope_039_2026-10-06.json",
-  "updated_at": "2026-10-07T22:14:12.000978+00:00",
+  "updated_at": "2026-10-07T22:29:02.406897+00:00",
   "web_ai_handoff_batch_002": "reports/web_ai_handoff_batch_002_2026-10-06.json",
   "web_ai_handoff_batch_003": {
     "batch_id": "web_graphics_003_039",
@@ -1570,6 +1570,23 @@
     "source_and_current_byte_binding": "PASS",
     "status": "PREPARED_RESULTS_NOT_RECEIVED",
     "report": "reports/web_ai_handoff_batch_010_2026-10-08.json",
+    "game_assets_modified": false
+  },
+  "web_ai_handoff_batch_011": {
+    "batch_id": "web_text_011_039",
+    "packet_kind": "text_review",
+    "records": 953,
+    "text_id_range": [
+      "T03001",
+      "T03953"
+    ],
+    "baseline_revision": "039",
+    "attachment_count": 2,
+    "attachment_size_limit_bytes": 25000000,
+    "source_and_current_byte_binding": "PASS",
+    "current_catalogue_packet_preparation_complete": true,
+    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "report": "reports/web_ai_handoff_batch_011_2026-10-08.json",
     "game_assets_modified": false
   }
 }

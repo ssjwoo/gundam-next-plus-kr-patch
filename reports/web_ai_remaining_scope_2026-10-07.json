@@ -51,7 +51,7 @@
   "iso_hashes_reused_from_build_manifests": true,
   "source_assets_modified": false,
   "runtime_verdict": "NOT_TESTED",
-  "updated_at": "2026-10-07T22:14:12.000978+00:00",
+  "updated_at": "2026-10-07T22:29:02.406897+00:00",
   "batch_006_individual_triage": {
     "unit_art_and_ending_slots": 671,
     "stage_slots": 961,
@@ -73,8 +73,7 @@
     "excluded": 460
   },
   "remaining_controller_work": [
-    "Receive and independently review image batches 002-007 and text batches 008-010",
-    "Prepare remaining 953 source-bound text catalogue records as batch 011",
+    "Receive and independently review image batches 002-007 and text batches 008-011",
     "Resolve actual game consumers for ambiguous/diagnostic name plates and effects",
     "Apply confirmed translation proposals while preserving original title logos and effects",
     "Continue investigation of the open 027 Hyaku Shiki escort mission freeze; runtime QA is user-owned"
@@ -84,22 +83,27 @@
     "actual039_byte_binding": "PASS",
     "source_population_complete": false,
     "batch_008_prepared_records": 1000,
-    "remaining_unprepared_records": 953,
-    "next_text_id": "T03001",
-    "estimated_additional_batches_at_1000_each": 1,
+    "remaining_unprepared_records": 0,
+    "next_text_id": null,
+    "estimated_additional_batches_at_1000_each": 0,
     "scope": "Separate text catalogue; not native graphics or proof of complete game text.",
     "batch_009_prepared_records": 1000,
     "batch_010_prepared_records": 1000,
-    "total_prepared_records": 3000,
+    "total_prepared_records": 3953,
     "pending_results": [
       "web_ai_result_batch_008.json",
       "web_ai_result_batch_009.json",
-      "web_ai_result_batch_010.json"
+      "web_ai_result_batch_010.json",
+      "web_ai_result_batch_011.json"
     ],
     "reports": [
       "reports/web_ai_handoff_batch_008_2026-10-07.json",
       "reports/web_ai_handoff_batch_009_2026-10-08.json",
-      "reports/web_ai_handoff_batch_010_2026-10-08.json"
-    ]
+      "reports/web_ai_handoff_batch_010_2026-10-08.json",
+      "reports/web_ai_handoff_batch_011_2026-10-08.json"
+    ],
+    "batch_011_prepared_records": 953,
+    "current_catalogue_packet_preparation_complete": true,
+    "semantic_review_and_integration_complete": false
   }
 }

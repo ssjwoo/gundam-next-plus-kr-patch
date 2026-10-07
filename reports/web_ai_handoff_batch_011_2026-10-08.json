@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-08",
+  "batch_id": "web_text_011_039",
+  "baseline_revision": "039",
+  "packet_kind": "text_review",
+  "attachments": [
+    {
+      "filename": "WEB_AI_HANDOFF_BATCH_011.txt",
+      "bytes": 7608,
+      "sha256": "d41768e21b18c80ac28e02799399e2eaa2fe99b4c0bd19fdcecc1e175f1b71ba"
+    },
+    {
+      "filename": "TEXT_REVIEW_BATCH_011.json",
+      "bytes": 459360,
+      "sha256": "c63f082997254065de2f4e5d0a2d8f5c2b174251193ccaedc6e631ca5fcbb47e"
+    }
+  ],
+  "attachment_count": 2,
+  "attachment_size_limit_bytes": 25000000,
+  "records": 953,
+  "text_id_range": [
+    "T03001",
+    "T03953"
+  ],
+  "source_and_current_byte_binding": "PASS",
+  "pointer_references_preserved": "PASS",
+  "nontext_and_full_literal_ownership": "PASS",
+  "unique_ids_and_slot_coverage": "PASS",
+  "json_roundtrip_and_utf8": "PASS",
+  "prior_text_slot_overlap": 0,
+  "all_current_catalog_records_rebound": 3953,
+  "combined_catalogue_records_packaged": 3953,
+  "remaining_unprepared_catalogue_records": 0,
+  "next_text_id": null,
+  "current_catalogue_packet_preparation_complete": true,
+  "format_candidates": "ADVISORY_NOT_COMPLETE_GRAMMAR",
+  "worker_results_received": false,
+  "worker_dispatched_by_controller": false,
+  "source_assets_modified": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_game_text_complete": false,
+  "finalized_at": "2026-10-07T22:27:24.488047+00:00",
+  "source_catalogue_records": 3953,
+  "current_catalogue_records_bound_to_actual_039": 3953,
+  "prepared_text_cohort": [
+    "008",
+    "009",
+    "010",
+    "011"
+  ],
+  "estimated_additional_text_batches_at_1000_each": 0,
+  "original_decrypted_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "current039_eboot_sha256": "f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842",
+  "source_catalogue_sha256": "e589e931dd3ab358f7883ce8773f576cecda6c1bc8c7775e5ab39e53714f8b91",
+  "baseline_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "baseline_whole_iso_hash_source": "Existing 039 build manifest; actual EBOOT member newly read and hashed this turn",
+  "local_packet_directory": "work/ai_worker_handoff_2026-10-08/web_batch_011",
+  "expected_result_file": "web_ai_result_batch_011.json",
+  "source_population_complete": false,
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "display_context_and_speakers": "UNCONFIRMED",
+  "scope": "Last 953 complete owned literals of the current canonical catalogue; packet preparation complete, semantic review and game integration pending.",
+  "attachment_publication_policy": "Only metadata is committed; extracted source text and worker packet remain local.",
+  "updated_at": "2026-10-07T22:29:02.406897+00:00"
+}
