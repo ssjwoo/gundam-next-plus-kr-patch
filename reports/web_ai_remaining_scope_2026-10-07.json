@@ -13,21 +13,20 @@
     "batch_005_packaged": 167,
     "batch_005_excluded_no_visible_text": 362,
     "batch_005_excluded_protected_logo": 20,
-    "unique_packaged_slots_total": 1550,
-    "unique_packaged_or_excluded_slots_total": 1932,
-    "remaining_untriaged_slots": 2340,
-    "counts_are_not_untranslated_text_counts": true
+    "unique_packaged_slots_total": 1587,
+    "unique_packaged_or_excluded_slots_total": 3564,
+    "remaining_untriaged_slots": 708,
+    "counts_are_not_untranslated_text_counts": true,
+    "batch_006_candidates_individually_triaged": 1632,
+    "batch_006_packaged": 37,
+    "batch_006_excluded_no_visible_text": 1587,
+    "batch_006_excluded_protected_logo": 8
   },
   "remaining_family_picture_counts": {
     "apl": 72,
     "bo": 14,
-    "edms": 462,
     "em": 84,
     "pl": 462,
-    "rtms": 77,
-    "selms": 66,
-    "st": 961,
-    "trmsh": 66,
     "zk": 76
   },
   "remaining_visible_text_classification": "NOT_PERFORMED",
@@ -44,9 +43,9 @@
     "limitation": "Does not establish absence of ordinary English text; no automatic exclusion."
   },
   "future_batch_estimate": {
-    "all_raw_remaining_pictures_if_packaged_400_to_500_per_batch": "5-6",
+    "all_raw_remaining_pictures_if_packaged_400_to_500_per_batch": "2",
     "text_only_batch_count": "UNCONFIRMED",
-    "reason": "2340 remaining raw picture slots require individual text-presence classification; no-text pictures and protected logos will be excluded.",
+    "reason": "708 raw picture slots still require individual inspection; actual text-bearing batch count is not yet confirmed.",
     "fixed_raw_image_count_is_not_translation_target_count": true
   },
   "future_filter_policy": "Individually inspected text-free pictures and protected logo-only pictures excluded; faint or uncertain text retained. Mixed pictures retain protected logos.",
@@ -54,5 +53,12 @@
   "iso_hashes_reused_from_build_manifests": true,
   "source_assets_modified": false,
   "runtime_verdict": "NOT_TESTED",
-  "updated_at": "2026-10-07T12:13:52.771280+00:00"
+  "updated_at": "2026-10-07T13:09:47.442397+00:00",
+  "batch_006_individual_triage": {
+    "unit_art_and_ending_slots": 671,
+    "stage_slots": 961,
+    "contact_sheets_directly_viewed": 83,
+    "retained": 37,
+    "excluded": 1595
+  }
 }
