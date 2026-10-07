@@ -1424,6 +1424,16 @@
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
   "graphics_scope_report": "reports/graphics_scope_039_2026-10-06.json",
-  "updated_at": "2026-10-06T13:43:54.143678+00:00",
-  "web_ai_handoff_batch_002": "reports/web_ai_handoff_batch_002_2026-10-06.json"
+  "updated_at": "2026-10-07T00:45:46.834452+00:00",
+  "web_ai_handoff_batch_002": "reports/web_ai_handoff_batch_002_2026-10-06.json",
+  "web_ai_handoff_batch_003": {
+    "batch_id": "web_graphics_003_039",
+    "images": 472,
+    "pdf_pages": 473,
+    "report": "reports/web_ai_handoff_batch_003_2026-10-07.json",
+    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "baseline_revision": "039",
+    "visual_qa": "PASS",
+    "game_assets_modified": false
+  }
 }

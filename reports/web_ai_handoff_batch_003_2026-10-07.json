@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-07",
+  "batch_id": "web_graphics_003_039",
+  "baseline_revision": "039",
+  "baseline_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "baseline_whole_iso_hash_source": "Previously calculated build 039 manifest; selected AFS members re-read for this packet",
+  "attachment_count": 2,
+  "attachments": [
+    {
+      "filename": "WEB_AI_HANDOFF_BATCH_003.txt",
+      "bytes": 83762,
+      "sha256": "e95daee568bd2d33cfbf304efaa6104623dcd8d84b12e2c032fdfa06404dcc2b"
+    },
+    {
+      "filename": "IMAGE_REVIEW_BATCH_003.pdf",
+      "bytes": 11055841,
+      "sha256": "728532aaf5222bb14159953f6215650417c341b6e0e8260b4ec4415a33ead3de"
+    }
+  ],
+  "source_pzz_members": 318,
+  "images": 472,
+  "pdf_pages": 473,
+  "image_id_range": [
+    "G453",
+    "G924"
+  ],
+  "next_unused_image_id": "G925",
+  "group_image_counts": {
+    "파일럿 이름": 89,
+    "출격 정보 - 좌측": 150,
+    "출격 정보 - 우측": 66,
+    "브리핑 기체·파일럿 표시": 158,
+    "팀 표시": 9
+  },
+  "group_member_counts": {
+    "파일럿 이름": 89,
+    "출격 정보 - 좌측": 75,
+    "출격 정보 - 우측": 66,
+    "브리핑 기체·파일럿 표시": 79,
+    "팀 표시": 9
+  },
+  "prior_native_slot_overlap": 0,
+  "native_member_hashes_and_checksums": "PASS",
+  "afs_index_name_and_size_in_both_isos": "PASS",
+  "native_png_hashes_and_rgba_dimensions": "PASS",
+  "text_ids_and_bounds": "PASS",
+  "visual_layout_qa": {
+    "rendered_pages": 473,
+    "contact_sheets_inspected": 20,
+    "full_page_inspection": [
+      1,
+      2,
+      66,
+      100,
+      242,
+      326,
+      470
+    ],
+    "scope": "PDF layout, clipping, labeling and original/current pairing; not full translation QA",
+    "clipped_or_overlapping_labels_observed": 0
+  },
+  "visual_qa": "PASS",
+  "source_assets_modified": false,
+  "worker_results_received": false,
+  "worker_dispatched_by_controller": false,
+  "prior_batch_002_result_received": false,
+  "dynamic_mode_binding": "UNCONFIRMED",
+  "scope": "Bounded names, briefing and team review; includes already localized pictures, not 472 confirmed untranslated assets or exhaustive game coverage",
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "whole_game_localization_complete": false,
+  "whole_next_plus_localization_complete": false,
+  "local_packet_directory": "work/ai_worker_handoff_2026-10-07/web_batch_003",
+  "expected_result_file": "web_ai_result_batch_003.json",
+  "updated_at": "2026-10-07T00:45:46.834452+00:00",
+  "generated_preview_cleanup": {
+    "deleted_files": 514,
+    "freed_bytes": 54033843.0,
+    "native_review_png_preserved": 934,
+    "attachments_preserved": 2,
+    "source_assets_modified": false
+  }
+}
