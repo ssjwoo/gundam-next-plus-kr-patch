@@ -1424,7 +1424,7 @@
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
   "graphics_scope_report": "reports/graphics_scope_039_2026-10-06.json",
-  "updated_at": "2026-10-07T22:29:02.406897+00:00",
+  "updated_at": "2026-10-07T23:53:35.288882+00:00",
   "web_ai_handoff_batch_002": "reports/web_ai_handoff_batch_002_2026-10-06.json",
   "web_ai_handoff_batch_003": {
     "batch_id": "web_graphics_003_039",
@@ -1588,5 +1588,16 @@
     "status": "PREPARED_RESULTS_NOT_RECEIVED",
     "report": "reports/web_ai_handoff_batch_011_2026-10-08.json",
     "game_assets_modified": false
+  },
+  "web_ai_results_received_2026_10_08": {
+    "report": "reports/web_ai_results_received_2026-10-08.json",
+    "received_batches": 11,
+    "unique_image_ids": 1835,
+    "returned_text_records": 3906,
+    "missing_text_records": 47,
+    "status": "RECEIVED_WITH_COVERAGE_GAP_SUPERVISOR_REVIEW_PENDING",
+    "game_assets_modified": false,
+    "candidate_revision": "039",
+    "public_release_revision": "038"
   }
 }
