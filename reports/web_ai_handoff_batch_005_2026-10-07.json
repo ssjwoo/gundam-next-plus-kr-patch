@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-07",
+  "batch_id": "web_graphics_005_039",
+  "baseline_revision": "039",
+  "baseline_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "baseline_whole_iso_hash_source": "Previously calculated build 039 manifest; selected native members re-read for this packet",
+  "attachment_count": 2,
+  "attachments": [
+    {
+      "filename": "WEB_AI_HANDOFF_BATCH_005.txt",
+      "bytes": 32945,
+      "sha256": "036074ccb4f645ff36575f00b76fb62d450b51a2dd56d6c806788cc9534b1011"
+    },
+    {
+      "filename": "IMAGE_REVIEW_BATCH_005.pdf",
+      "bytes": 6865452,
+      "sha256": "25799299b8541c18998ed09c377991f31cac4950b29ad86fd0e02c504bf4fce3"
+    }
+  ],
+  "attachment_size_limit_bytes": 25000000,
+  "source_pzz_members": 167,
+  "images": 167,
+  "pdf_pages": 168,
+  "image_id_range": [
+    "G1384",
+    "G1932"
+  ],
+  "image_ids_noncontiguous": true,
+  "image_id_rule": "Only the 167 IDs in TXT are included; 382 excluded draft IDs remain reserved in the local selection receipt.",
+  "next_unused_image_id": "G1933",
+  "group_image_counts": {
+    "전투 표적 아이콘": 79,
+    "음성 안내": 1,
+    "특별 엔딩": 1,
+    "배경 그림": 86
+  },
+  "prior_native_slot_overlap": 0,
+  "filter_counts": {
+    "KEEP_VISIBLE_OR_UNCERTAIN_TEXT": 167,
+    "EXCLUDE_NO_VISIBLE_TEXT": 362,
+    "EXCLUDE_PROTECTED_LOGO": 20
+  },
+  "filter_evidence": "Controller inspected all 23 draft contact sheets. Larger inspection of all 19 candidate background exclusions retained 10 with faint lettering; 9 scene/gradient backgrounds excluded. Uncertain lettering retained. No OCR-negative or filename-only exclusions.",
+  "filter_policy": "Individually inspected text-free pictures and protected logo-only pictures excluded; faint or uncertain text retained. Mixed pictures retain protected logos.",
+  "native_member_hashes_and_checksums": "PASS",
+  "afs_index_name_and_size_in_both_isos": "PASS",
+  "current039_member_inheritance_from_038_or_039_manifest": "PASS",
+  "native_png_hashes_and_rgba_dimensions": "PASS",
+  "text_ids_and_bounds": "PASS",
+  "visual_layout_qa": {
+    "rendered_pages": 168,
+    "full_page_samples": [
+      1,
+      2,
+      81,
+      82,
+      83,
+      168
+    ],
+    "visual_inspection": "PASS",
+    "pdf_bytes": 6865452,
+    "contact_sheets_inspected": 7,
+    "full_pages_inspected": [
+      1,
+      2,
+      81,
+      82,
+      83,
+      168
+    ],
+    "pdf_sha256": "25799299b8541c18998ed09c377991f31cac4950b29ad86fd0e02c504bf4fce3",
+    "inspected_at": "2026-10-07T12:13:52.771280+00:00",
+    "scope": "All-page contact sheets and six full-page samples directly viewed by controller; layout QA, not translation completion.",
+    "clipped_or_overlapping_labels_observed": 0
+  },
+  "visual_qa": "PASS",
+  "lossless_pdf_compaction": {
+    "batch_id": "web_graphics_005_039",
+    "old_bytes": 11574491,
+    "new_bytes": 6865452,
+    "old_sha256": "8a6939d508d29c928f066014ce519f39264b39fda7ffb413db464a29ecadeb89",
+    "new_sha256": "25799299b8541c18998ed09c377991f31cac4950b29ad86fd0e02c504bf4fce3",
+    "pages": 168,
+    "lossless_indexed_images": 166,
+    "pixel_dimensions_preserved": true,
+    "all_rgb_and_alpha_pixels": "BYTE_IDENTICAL",
+    "all_page_content_and_text": "BYTE_IDENTICAL",
+    "all_page_geometry_and_metadata": "IDENTICAL",
+    "compression": "Exact RGB palette indices and Flate level 9; ASCII85 removed",
+    "all_encoded_streams_roundtrip": "PASS",
+    "encoded_streams_checked": 343,
+    "visual_qa": "PASS",
+    "native_assets_modified": false,
+    "size_limit_bytes": 25000000,
+    "verified_at": "2026-10-07T12:04:58.435334+00:00"
+  },
+  "coverage": {
+    "source_gim_picture_slots": 4272,
+    "prior_unique_packaged_slots": 1383,
+    "batch_005_candidates_individually_triaged": 549,
+    "batch_005_packaged": 167,
+    "batch_005_excluded_no_visible_text": 362,
+    "batch_005_excluded_protected_logo": 20,
+    "unique_packaged_slots_total": 1550,
+    "unique_packaged_or_excluded_slots_total": 1932,
+    "remaining_untriaged_slots": 2340,
+    "counts_are_not_untranslated_text_counts": true
+  },
+  "source_assets_modified": false,
+  "worker_results_received": false,
+  "worker_dispatched_by_controller": false,
+  "dynamic_mode_binding": "UNCONFIRMED",
+  "scope": "Text-bearing or uncertain-text target icons, voice guidance, special ending and backgrounds; not 167 confirmed untranslated assets or exhaustive game coverage.",
+  "runtime_verdict": "NOT_TESTED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "whole_game_localization_complete": false,
+  "whole_next_plus_localization_complete": false,
+  "local_packet_directory": "work/ai_worker_handoff_2026-10-07/web_batch_005",
+  "expected_result_file": "web_ai_result_batch_005.json",
+  "updated_at": "2026-10-07T12:15:51.224519+00:00",
+  "generated_preview_cleanup": {
+    "deleted_files": 1152,
+    "freed_bytes": 51312771,
+    "selected_native_png_preserved": 167,
+    "attachments_preserved": 2,
+    "source_assets_modified": false
+  }
+}

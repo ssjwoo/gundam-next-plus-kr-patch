@@ -1424,7 +1424,7 @@
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
   "graphics_scope_report": "reports/graphics_scope_039_2026-10-06.json",
-  "updated_at": "2026-10-07T11:42:53.162866+00:00",
+  "updated_at": "2026-10-07T12:13:52.771280+00:00",
   "web_ai_handoff_batch_002": "reports/web_ai_handoff_batch_002_2026-10-06.json",
   "web_ai_handoff_batch_003": {
     "batch_id": "web_graphics_003_039",
@@ -1472,5 +1472,24 @@
       }
     },
     "game_assets_modified": false
-  }
+  },
+  "web_ai_handoff_batch_005": {
+    "batch_id": "web_graphics_005_039",
+    "images": 167,
+    "pdf_pages": 168,
+    "pdf_bytes": 6865452,
+    "report": "reports/web_ai_handoff_batch_005_2026-10-07.json",
+    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "baseline_revision": "039",
+    "visual_qa": "PASS",
+    "game_assets_modified": false,
+    "filter_counts": {
+      "KEEP_VISIBLE_OR_UNCERTAIN_TEXT": 167,
+      "EXCLUDE_NO_VISIBLE_TEXT": 362,
+      "EXCLUDE_PROTECTED_LOGO": 20
+    },
+    "attachment_size_limit_bytes": 25000000
+  },
+  "web_ai_remaining_scope": "reports/web_ai_remaining_scope_2026-10-07.json",
+  "web_ai_image_filter_policy": "Individually inspected text-free pictures and protected logo-only pictures excluded; faint or uncertain text retained. Mixed pictures retain protected logos."
 }

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-07",
+  "source": "Original JP/Asia AFS PZZ GIM picture metadata",
+  "baseline_revision": "039",
+  "source_pzz_members": 2125,
+  "all_pzz_trailer_checks": "PASS",
+  "survey_failures": [],
+  "missing_prior_slots": [],
+  "coverage": {
+    "source_gim_picture_slots": 4272,
+    "prior_unique_packaged_slots": 1383,
+    "batch_005_candidates_individually_triaged": 549,
+    "batch_005_packaged": 167,
+    "batch_005_excluded_no_visible_text": 362,
+    "batch_005_excluded_protected_logo": 20,
+    "unique_packaged_slots_total": 1550,
+    "unique_packaged_or_excluded_slots_total": 1932,
+    "remaining_untriaged_slots": 2340,
+    "counts_are_not_untranslated_text_counts": true
+  },
+  "remaining_family_picture_counts": {
+    "apl": 72,
+    "bo": 14,
+    "edms": 462,
+    "em": 84,
+    "pl": 462,
+    "rtms": 77,
+    "selms": 66,
+    "st": 961,
+    "trmsh": 66,
+    "zk": 76
+  },
+  "remaining_visible_text_classification": "NOT_PERFORMED",
+  "previous_family_survey": {
+    "report": "reports/graphics_family_survey_2026-10-03.json",
+    "families": [
+      "rtms",
+      "edms",
+      "selms",
+      "trmsh"
+    ],
+    "remaining_picture_slots": 671,
+    "finding": "No Japanese UI observed in all source pictures of those families",
+    "limitation": "Does not establish absence of ordinary English text; no automatic exclusion."
+  },
+  "future_batch_estimate": {
+    "all_raw_remaining_pictures_if_packaged_400_to_500_per_batch": "5-6",
+    "text_only_batch_count": "UNCONFIRMED",
+    "reason": "2340 remaining raw picture slots require individual text-presence classification; no-text pictures and protected logos will be excluded.",
+    "fixed_raw_image_count_is_not_translation_target_count": true
+  },
+  "future_filter_policy": "Individually inspected text-free pictures and protected logo-only pictures excluded; faint or uncertain text retained. Mixed pictures retain protected logos.",
+  "whole_game_scope_complete": false,
+  "iso_hashes_reused_from_build_manifests": true,
+  "source_assets_modified": false,
+  "runtime_verdict": "NOT_TESTED",
+  "updated_at": "2026-10-07T12:13:52.771280+00:00"
+}
