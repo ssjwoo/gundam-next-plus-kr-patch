@@ -1424,7 +1424,7 @@
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
   "graphics_scope_report": "reports/graphics_scope_039_2026-10-06.json",
-  "updated_at": "2026-10-07T01:10:54.704141+00:00",
+  "updated_at": "2026-10-07T11:42:53.162866+00:00",
   "web_ai_handoff_batch_002": "reports/web_ai_handoff_batch_002_2026-10-06.json",
   "web_ai_handoff_batch_003": {
     "batch_id": "web_graphics_003_039",
@@ -1444,6 +1444,33 @@
     "status": "PREPARED_RESULTS_NOT_RECEIVED",
     "baseline_revision": "039",
     "visual_qa": "PASS",
+    "game_assets_modified": false,
+    "pdf_bytes": 20297162,
+    "attachment_size_limit_bytes": 25000000
+  },
+  "web_ai_attachment_policy": {
+    "per_file_bytes_exclusive": 25000000,
+    "attachment_count_per_batch": 2,
+    "preferred_compression": "LOSSLESS",
+    "native_dimensions_and_pixels_preserved": true,
+    "split_batch_if_still_too_large": true,
+    "updated_at": "2026-10-07T11:42:53.162866+00:00"
+  },
+  "web_pdf_size_limit_fix_2026_10_07": {
+    "batches": {
+      "002": {
+        "pdf_bytes": 16637881,
+        "pdf_sha256": "87aba3fefb1723592eb0a1b6c138e945054013353806ec553b764ffcb07acc53",
+        "visual_qa": "PASS",
+        "all_rgb_and_alpha_pixels": "BYTE_IDENTICAL"
+      },
+      "004": {
+        "pdf_bytes": 20297162,
+        "pdf_sha256": "f6f3e4ac4c7bcd7bcc20a4846e2a70c10a90a631714e66ae2ef9d0aa77a09024",
+        "visual_qa": "PASS",
+        "all_rgb_and_alpha_pixels": "BYTE_IDENTICAL"
+      }
+    },
     "game_assets_modified": false
   }
 }

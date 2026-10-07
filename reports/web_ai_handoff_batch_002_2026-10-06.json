@@ -12,8 +12,8 @@
     },
     {
       "filename": "IMAGE_REVIEW_BATCH_002.pdf",
-      "bytes": 25762345,
-      "sha256": "04cf133f9abb048b63b2eec5d55a71dfc84047b8c4fb7eadf5deb06dc2c4fae6"
+      "bytes": 16637881,
+      "sha256": "87aba3fefb1723592eb0a1b6c138e945054013353806ec553b764ffcb07acc53"
     }
   ],
   "source_pzz_members": 251,
@@ -30,9 +30,11 @@
   "native_member_hashes_and_checksums": "PASS",
   "afs_index_name_and_size_in_both_isos": "PASS",
   "visual_layout_qa": {
-    "rendered_pages": 423,
-    "contact_sheets_inspected": 18,
-    "full_page_inspection": [
+    "batch": "002",
+    "renderer": "Poppler pdftoppm",
+    "resolution_dpi": 72,
+    "maximum_dimension_px": 1000,
+    "sample_pages": [
       1,
       6,
       72,
@@ -40,8 +42,15 @@
       360,
       420
     ],
-    "scope": "PDF layout, clipping, labeling and original/current pairing; not full translation QA",
-    "clipped_or_overlapping_labels_observed": 0
+    "rendered_pages_per_version": 6,
+    "raster_comparison": "PASS_BYTE_IDENTICAL",
+    "visual_inspection": "PASS",
+    "verified_at": "2026-10-07T11:40:26.605242+00:00",
+    "visually_inspected_pages": [
+      6,
+      360
+    ],
+    "scope": "Sampled compressed-page rendering; all samples pixel-identical to previously reviewed source PDF. Not new all-page rendering or translation QA."
   },
   "visual_qa": "PASS",
   "source_assets_modified": false,
@@ -55,5 +64,67 @@
   "whole_next_plus_localization_complete": false,
   "local_packet_directory": "work/ai_worker_handoff_2026-10-06/web_batch_002",
   "expected_result_file": "web_ai_result_batch_002.json",
-  "updated_at": "2026-10-06T13:49:18.190136+00:00"
+  "updated_at": "2026-10-07T11:42:53.162866+00:00",
+  "pre_compaction_visual_layout_qa": {
+    "pdf_sha256": "04cf133f9abb048b63b2eec5d55a71dfc84047b8c4fb7eadf5deb06dc2c4fae6",
+    "qa": {
+      "rendered_pages": 423,
+      "contact_sheets_inspected": 18,
+      "full_page_inspection": [
+        1,
+        6,
+        72,
+        298,
+        360,
+        420
+      ],
+      "scope": "PDF layout, clipping, labeling and original/current pairing; not full translation QA",
+      "clipped_or_overlapping_labels_observed": 0
+    }
+  },
+  "lossless_pdf_compaction": {
+    "batch_id": "web_graphics_002_039",
+    "old_bytes": 25762345,
+    "new_bytes": 16637881,
+    "old_sha256": "04cf133f9abb048b63b2eec5d55a71dfc84047b8c4fb7eadf5deb06dc2c4fae6",
+    "new_sha256": "87aba3fefb1723592eb0a1b6c138e945054013353806ec553b764ffcb07acc53",
+    "pages": 423,
+    "lossless_indexed_images": 684,
+    "pixel_dimensions_preserved": true,
+    "all_rgb_and_alpha_pixels": "BYTE_IDENTICAL",
+    "all_page_content_and_text": "BYTE_IDENTICAL",
+    "all_page_geometry_and_metadata": "IDENTICAL",
+    "compression": "Exact RGB palette indices and Flate level 9; ASCII85 removed",
+    "all_encoded_streams_roundtrip": "PASS",
+    "encoded_streams_checked": 1591,
+    "visual_qa": "PASS",
+    "native_assets_modified": false,
+    "size_limit_bytes": 25000000,
+    "verified_at": "2026-10-07T11:39:27.976214+00:00",
+    "final_pdf": "work/ai_worker_handoff_2026-10-06/web_batch_002/IMAGE_REVIEW_BATCH_002.pdf",
+    "visual_layout_qa": {
+      "batch": "002",
+      "renderer": "Poppler pdftoppm",
+      "resolution_dpi": 72,
+      "maximum_dimension_px": 1000,
+      "sample_pages": [
+        1,
+        6,
+        72,
+        298,
+        360,
+        420
+      ],
+      "rendered_pages_per_version": 6,
+      "raster_comparison": "PASS_BYTE_IDENTICAL",
+      "visual_inspection": "PASS",
+      "verified_at": "2026-10-07T11:40:26.605242+00:00",
+      "visually_inspected_pages": [
+        6,
+        360
+      ],
+      "scope": "Sampled compressed-page rendering; all samples pixel-identical to previously reviewed source PDF. Not new all-page rendering or translation QA."
+    }
+  },
+  "attachment_size_limit_bytes": 25000000
 }
