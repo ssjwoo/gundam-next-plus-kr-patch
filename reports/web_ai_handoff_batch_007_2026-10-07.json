@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-07",
+  "batch_id": "web_graphics_007_039",
+  "baseline_revision": "039",
+  "baseline_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "baseline_whole_iso_hash_source": "Existing 039 build manifest; selected original/current native members re-read and hashed this turn",
+  "attachments": [
+    {
+      "filename": "WEB_AI_HANDOFF_BATCH_007.txt",
+      "bytes": 45876,
+      "sha256": "956a69b0edf5932463f6d7fb1d82ef53b07a815e1f32eb2b022d7f419215b73f"
+    },
+    {
+      "filename": "IMAGE_REVIEW_BATCH_007.pdf",
+      "bytes": 1400193,
+      "sha256": "ac11d769f0e10517f7d6266236bfd95fe2d56b740c53bc80f91bfbd26ddd68bf"
+    }
+  ],
+  "attachment_count": 2,
+  "attachment_size_limit_bytes": 25000000,
+  "source_pzz_members": 233,
+  "images": 248,
+  "pdf_pages": 249,
+  "catalog_id_range": [
+    "G3565",
+    "G4272"
+  ],
+  "included_image_id_range": [
+    "G3567",
+    "G4200"
+  ],
+  "image_ids_noncontiguous": true,
+  "next_unused_image_id": "G4273",
+  "prior_native_slot_overlap": 0,
+  "filter_counts": {
+    "EXCLUDE_NO_VISIBLE_TEXT": 460,
+    "KEEP_VISIBLE_OR_UNCERTAIN_TEXT": 248
+  },
+  "group_image_counts": {
+    "기체·파일럿 이름 표시": 233,
+    "기체 그림 내 문자 표식": 10,
+    "효과 안의 문자·판독 후보": 5
+  },
+  "filter_evidence": "Controller directly viewed all 36 contact sheets covering all 708 native slots, then four enlarged sheets for 20 ambiguous markings/effects. Each picture individually classified. 233 ordinary name plates, 10 model-marking candidates and five effect-lettering candidates retained; five blank em plates and enlarged non-letter effects excluded. All ambiguous lettering retained. No family-wide filename or OCR-negative exclusions.",
+  "native_member_hashes_and_checksums": "PASS",
+  "afs_index_name_and_size_in_both_isos": "PASS",
+  "current039_member_inheritance_from_038_or_039_manifest": "PASS",
+  "native_png_hashes_and_rgba_dimensions": "PASS",
+  "text_ids_and_bounds": "PASS",
+  "visual_qa": "PASS",
+  "visual_layout_qa": {
+    "rendered_pages": 249,
+    "full_page_samples": [
+      1,
+      2,
+      14,
+      20,
+      249
+    ],
+    "visual_inspection": "PASS",
+    "pdf_bytes": 1400193,
+    "contact_sheets_inspected": 11,
+    "full_pages_inspected": [
+      1,
+      2,
+      14,
+      20,
+      249
+    ],
+    "pdf_sha256": "ac11d769f0e10517f7d6266236bfd95fe2d56b740c53bc80f91bfbd26ddd68bf",
+    "inspected_at": "2026-10-07T13:31:10.425857+00:00",
+    "scope": "All 249 rendered pages directly inspected through 11 contact sheets; five full-page samples directly viewed. Layout QA only; not translation completion.",
+    "clipped_or_overlapping_document_labels_observed": 0,
+    "source_text_limitation": "Some 64x32 original name plates contain clipped or fragmented source glyphs; native pixels preserved. These are reading candidates, not document layout errors."
+  },
+  "lossless_pdf_compaction": {
+    "batch_id": "web_graphics_007_039",
+    "old_bytes": 1931604,
+    "new_bytes": 1400193,
+    "old_sha256": "32ce0e2a3edd2544ad87b1ab5f5b51f6f1a13a9ab43326f63b32b763e4704367",
+    "new_sha256": "ac11d769f0e10517f7d6266236bfd95fe2d56b740c53bc80f91bfbd26ddd68bf",
+    "pages": 249,
+    "lossless_indexed_images": 166,
+    "pixel_dimensions_preserved": true,
+    "all_rgb_and_alpha_pixels": "BYTE_IDENTICAL",
+    "all_page_content_and_text": "BYTE_IDENTICAL",
+    "all_page_geometry_and_metadata": "IDENTICAL",
+    "compression": "Exact RGB palette indices and Flate level 9; ASCII85 removed",
+    "all_encoded_streams_roundtrip": "PASS",
+    "encoded_streams_checked": 574,
+    "visual_qa": "PASS",
+    "native_assets_modified": false,
+    "size_limit_bytes": 25000000,
+    "verified_at": "2026-10-07T13:27:48.127616+00:00"
+  },
+  "coverage": {
+    "source_gim_picture_slots": 4272,
+    "prior_unique_packaged_slots": 1383,
+    "batch_005_candidates_individually_triaged": 549,
+    "batch_005_packaged": 167,
+    "batch_005_excluded_no_visible_text": 362,
+    "batch_005_excluded_protected_logo": 20,
+    "unique_packaged_slots_total": 1835,
+    "unique_packaged_or_excluded_slots_total": 4272,
+    "remaining_untriaged_slots": 0,
+    "counts_are_not_untranslated_text_counts": true,
+    "batch_006_candidates_individually_triaged": 1632,
+    "batch_006_packaged": 37,
+    "batch_006_excluded_no_visible_text": 1587,
+    "batch_006_excluded_protected_logo": 8,
+    "batch_007_candidates_individually_triaged": 708,
+    "batch_007_packaged": 248,
+    "batch_007_excluded_no_visible_text": 460,
+    "batch_007_excluded_protected_logo": 0
+  },
+  "source_assets_modified": false,
+  "runtime_verdict": "NOT_TESTED",
+  "worker_results_received": false,
+  "worker_dispatched_by_controller": false,
+  "dynamic_mode_binding": "UNCONFIRMED",
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "whole_game_localization_complete": false,
+  "whole_next_plus_localization_complete": false,
+  "scope": "233 unit/pilot name plates, 10 model-marking candidates and five effect-lettering candidates; not 248 confirmed untranslated live UI assets.",
+  "local_packet_directory": "work/ai_worker_handoff_2026-10-07/web_batch_007",
+  "expected_result_file": "web_ai_result_batch_007.json",
+  "updated_at": "2026-10-07T13:31:10.425857+00:00"
+}

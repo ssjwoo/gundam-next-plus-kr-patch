@@ -13,23 +13,21 @@
     "batch_005_packaged": 167,
     "batch_005_excluded_no_visible_text": 362,
     "batch_005_excluded_protected_logo": 20,
-    "unique_packaged_slots_total": 1587,
-    "unique_packaged_or_excluded_slots_total": 3564,
-    "remaining_untriaged_slots": 708,
+    "unique_packaged_slots_total": 1835,
+    "unique_packaged_or_excluded_slots_total": 4272,
+    "remaining_untriaged_slots": 0,
     "counts_are_not_untranslated_text_counts": true,
     "batch_006_candidates_individually_triaged": 1632,
     "batch_006_packaged": 37,
     "batch_006_excluded_no_visible_text": 1587,
-    "batch_006_excluded_protected_logo": 8
+    "batch_006_excluded_protected_logo": 8,
+    "batch_007_candidates_individually_triaged": 708,
+    "batch_007_packaged": 248,
+    "batch_007_excluded_no_visible_text": 460,
+    "batch_007_excluded_protected_logo": 0
   },
-  "remaining_family_picture_counts": {
-    "apl": 72,
-    "bo": 14,
-    "em": 84,
-    "pl": 462,
-    "zk": 76
-  },
-  "remaining_visible_text_classification": "NOT_PERFORMED",
+  "remaining_family_picture_counts": {},
+  "remaining_visible_text_classification": "PASS_INDIVIDUAL_TRIAGE_OF_ALL_REMAINING_SURVEY_SLOTS",
   "previous_family_survey": {
     "report": "reports/graphics_family_survey_2026-10-03.json",
     "families": [
@@ -43,9 +41,9 @@
     "limitation": "Does not establish absence of ordinary English text; no automatic exclusion."
   },
   "future_batch_estimate": {
-    "all_raw_remaining_pictures_if_packaged_400_to_500_per_batch": "2",
-    "text_only_batch_count": "UNCONFIRMED",
-    "reason": "708 raw picture slots still require individual inspection; actual text-bearing batch count is not yet confirmed.",
+    "all_raw_remaining_pictures_if_packaged_400_to_500_per_batch": "0",
+    "text_only_batch_count": "0_FOR_CURRENT_SURVEY",
+    "reason": "All 4272 native slots in the current AFS/PZZ/GIM survey are packaged or individually excluded. Worker result integration, actual consumers and any newly discovered non-survey resources remain open.",
     "fixed_raw_image_count_is_not_translation_target_count": true
   },
   "future_filter_policy": "Individually inspected text-free pictures and protected logo-only pictures excluded; faint or uncertain text retained. Mixed pictures retain protected logos.",
@@ -53,12 +51,31 @@
   "iso_hashes_reused_from_build_manifests": true,
   "source_assets_modified": false,
   "runtime_verdict": "NOT_TESTED",
-  "updated_at": "2026-10-07T13:09:47.442397+00:00",
+  "updated_at": "2026-10-07T13:31:10.425857+00:00",
   "batch_006_individual_triage": {
     "unit_art_and_ending_slots": 671,
     "stage_slots": 961,
     "contact_sheets_directly_viewed": 83,
     "retained": 37,
     "excluded": 1595
-  }
+  },
+  "batch_007_individual_triage": {
+    "family_picture_counts": {
+      "pl": 462,
+      "em": 84,
+      "bo": 14,
+      "zk": 76,
+      "apl": 72
+    },
+    "contact_sheets_directly_viewed": 36,
+    "enlarged_sheets_directly_viewed": 4,
+    "retained": 248,
+    "excluded": 460
+  },
+  "remaining_controller_work": [
+    "Receive and independently review batches 002-007",
+    "Resolve actual game consumers for ambiguous/diagnostic name plates and effects",
+    "Apply confirmed translation proposals while preserving original title logos and effects",
+    "Continue investigation of the open 027 Hyaku Shiki escort mission freeze; runtime QA is user-owned"
+  ]
 }
