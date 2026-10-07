@@ -51,7 +51,7 @@
   "iso_hashes_reused_from_build_manifests": true,
   "source_assets_modified": false,
   "runtime_verdict": "NOT_TESTED",
-  "updated_at": "2026-10-07T13:31:10.425857+00:00",
+  "updated_at": "2026-10-07T13:40:48.019706+00:00",
   "batch_006_individual_triage": {
     "unit_art_and_ending_slots": 671,
     "stage_slots": 961,
@@ -73,9 +73,22 @@
     "excluded": 460
   },
   "remaining_controller_work": [
-    "Receive and independently review batches 002-007",
+    "Receive and independently review image batches 002-007 and text batch 008",
+    "Prepare remaining 2953 source-bound text catalogue records in further text review batches",
     "Resolve actual game consumers for ambiguous/diagnostic name plates and effects",
     "Apply confirmed translation proposals while preserving original title logos and effects",
     "Continue investigation of the open 027 Hyaku Shiki escort mission freeze; runtime QA is user-owned"
-  ]
+  ],
+  "text_review_scope": {
+    "current_catalogue_records": 3953,
+    "actual039_byte_binding": "PASS",
+    "source_population_complete": false,
+    "batch_008_prepared_records": 1000,
+    "remaining_unprepared_records": 2953,
+    "next_text_id": "T01001",
+    "estimated_additional_batches_at_1000_each": 3,
+    "pending_result": "web_ai_result_batch_008.json",
+    "report": "reports/web_ai_handoff_batch_008_2026-10-07.json",
+    "scope": "Separate text catalogue; not native graphics or proof of complete game text."
+  }
 }

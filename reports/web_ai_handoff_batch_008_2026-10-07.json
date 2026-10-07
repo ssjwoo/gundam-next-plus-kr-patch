@@ -1,0 +1,54 @@
+{
+  "batch_id": "web_text_008_039",
+  "baseline_revision": "039",
+  "packet_kind": "text_review",
+  "attachments": [
+    {
+      "filename": "WEB_AI_HANDOFF_BATCH_008.txt",
+      "bytes": 7428,
+      "sha256": "a922968976efd1d46ba453e771c8f4052f2fe2a7821ec704e30dac388dd251a1"
+    },
+    {
+      "filename": "TEXT_REVIEW_BATCH_008.json",
+      "bytes": 444690,
+      "sha256": "f0bc822b1da5b3aaa95f2da497027f8664fceafeedca925681b277be9bacae83"
+    }
+  ],
+  "attachment_count": 2,
+  "attachment_size_limit_bytes": 25000000,
+  "records": 1000,
+  "text_id_range": [
+    "T00001",
+    "T01000"
+  ],
+  "next_text_id": "T01001",
+  "source_and_current_byte_binding": "PASS",
+  "pointer_references_preserved": "PASS",
+  "nontext_and_full_literal_ownership": "PASS",
+  "unique_ids_and_slot_coverage": "PASS",
+  "json_roundtrip_and_utf8": "PASS",
+  "format_candidates": "ADVISORY_NOT_COMPLETE_GRAMMAR",
+  "worker_results_received": false,
+  "worker_dispatched_by_controller": false,
+  "source_assets_modified": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_game_text_complete": false,
+  "finalized_at": "2026-10-07T13:38:54.987198+00:00",
+  "date": "2026-10-07",
+  "source_catalogue_records": 3953,
+  "current_catalogue_records_bound_to_actual_039": 3953,
+  "remaining_unprepared_catalogue_records": 2953,
+  "estimated_additional_text_batches_at_1000_each": 3,
+  "original_decrypted_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "current039_eboot_sha256": "f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842",
+  "baseline_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "baseline_whole_iso_hash_source": "Existing 039 build manifest; actual EBOOT member newly read and hashed",
+  "local_packet_directory": "work/ai_worker_handoff_2026-10-07/web_batch_008",
+  "expected_result_file": "web_ai_result_batch_008.json",
+  "source_population_complete": false,
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "display_context_and_speakers": "UNCONFIRMED",
+  "scope": "First 1000 complete owned literals by source file offset; original/current translation review, not 1000 untranslated lines.",
+  "attachment_publication_policy": "Only metadata is committed; full extracted source text and worker packet remain local.",
+  "updated_at": "2026-10-07T13:40:48.019706+00:00"
+}
