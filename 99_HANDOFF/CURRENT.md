@@ -1,4 +1,4 @@
-# 현재 인계 — 2026-10-07
+# 현재 인계 — 2026-10-08
 
 사용자가 반환한 웹 AI 배치 001을 대조·감독 검수하고 지명 두 곳을 수정한 **039 로컬 ISO·원판용 xdelta**를 만들었다. 공개 릴리스는 038을 유지하며 게임을 실행하지 않았다. [039 변경·검증](../docs/HISTORY.md#revision-039).
 
@@ -55,9 +55,9 @@ G017의 숫자 플레이트 침범 주장은 채택하지 않았다. `ckpt00_ck0
 
 사용자가 007 마무리 뒤 다음 배치를 바로 준비하도록 요청해 **텍스트 배치 008: 문구 1,000개, T00001-T01000**도 준비했다. 첨부는 `work/ai_worker_handoff_2026-10-07/web_batch_008/WEB_AI_HANDOFF_BATCH_008.txt`와 `TEXT_REVIEW_BATCH_008.json`이며 각각 7,428·444,690바이트다. 원판 복호화 ELF SHA·CP932 원문·전체 소유 경계·포인터와 실제 039 EBOOT를 직접 읽어 대조했다. EBOOT SHA `f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842`는 038 카탈로그와 같다. 현재 카탈로그 3,953개 전체의 바이트 대조 PASS이며 첫 1,000개를 외부 검수 자료로 준비했다. 화면·화자·제어 문법 의미는 별도 확인해야 한다. [준비·검증](../reports/web_ai_handoff_batch_008_2026-10-07.json). 이 작업은 의미 검수·게임 적용 완료가 아니다.
 
-다음 텍스트 자료는 **T01001부터 2,953개, 1,000개씩 약 3배치**다. 재개 입력은 `work/ai_worker_handoff_2026-10-07/TEXT_NATIVE_SURVEY.private.json`과 `TEXT_BATCH_COVERAGE.private.json`이며 이미 008에 들어간 native 슬롯·T ID를 중복하지 않는다. 이미지 G 번호·결과 스키마와 섞지 않는다. 원시 이미지 자료 선별 0개와 텍스트 카탈로그의 미준비 2,953개는 별개다.
+이어 **009: T01001-T02000**, **010: T02001-T03000**, 각 1,000개를 준비했다. 첨부는 `work/ai_worker_handoff_2026-10-08/web_batch_009/`와 `web_batch_010/` 안의 `WEB_AI_HANDOFF_BATCH_NNN.txt`·`TEXT_REVIEW_BATCH_NNN.json` 두 개씩이다. TXT는 각각 7,486바이트, JSON은 009가 452,115바이트·010이 452,554바이트다. 원판·실제 039의 전체 3,953개 문자열·소유 경계·포인터를 다시 대조했고 008·009·010 중복은 0개다. [009 검증](../reports/web_ai_handoff_batch_009_2026-10-08.json), [010 검증](../reports/web_ai_handoff_batch_010_2026-10-08.json). 다음 텍스트 자료는 **T03001-T03953의 953개, 추가 1배치**다. 재개 입력은 `work/ai_worker_handoff_2026-10-07/TEXT_NATIVE_SURVEY.private.json`과 `TEXT_BATCH_COVERAGE.private.json`이며 이미 008·009·010에 들어간 native 슬롯·T ID를 중복하지 않는다. 이미지 G 번호·결과 스키마와 섞지 않는다. 원시 이미지 자료 선별 0개와 텍스트 카탈로그의 미준비 953개는 별개다.
 
-다음 AI 작업은 사용자에게서 `web_ai_result_batch_002.json`, `web_ai_result_batch_003.json`, `web_ai_result_batch_004.json`, `web_ai_result_batch_005.json`, `web_ai_result_batch_006.json`, `web_ai_result_batch_007.json` 또는 `web_ai_result_batch_008.json`을 받아 해당 batch_id·그림 ID·원문·기존 한글·영역을 독립 확인한 뒤 채택한 제안만 반영하는 것이다. 배치 002·003·004·005·006·007·008 결과는 아직 미수신이며 자동 전달·웹 AI 작업 시작도 하지 않았다. 일곱 배치 모두 039를 기준으로 만들어 결과를 섞지 않는다. 이미지 TXT는 25개씩, 텍스트 TXT는 50개씩 순서대로 검토하고 중단 시 실제 완료한 JSON·미검토 ID·다음 ID를 보존하도록 지시한다. 첫 배치의 038 자료와 혼동하지 않는다. 배치 001 전체 50개를 이번 턴에 다시 심층 판독한 것은 아니며 이전 감독 심층 검수는 G017·G041에 집중했다. 전체 완료·프리징 해결을 선언하지 않는다.
+다음 AI 작업은 사용자에게서 `web_ai_result_batch_002.json`, `web_ai_result_batch_003.json`, `web_ai_result_batch_004.json`, `web_ai_result_batch_005.json`, `web_ai_result_batch_006.json`, `web_ai_result_batch_007.json`, `web_ai_result_batch_008.json`, `web_ai_result_batch_009.json` 또는 `web_ai_result_batch_010.json`을 받아 해당 batch_id·그림/텍스트 ID·원문·기존 한글·영역/슬롯을 독립 확인한 뒤 채택한 제안만 반영하는 것이다. 배치 002·003·004·005·006·007·008·009·010 결과는 아직 미수신이며 자동 전달·웹 AI 작업 시작도 하지 않았다. 아홉 배치 모두 039를 기준으로 만들어 결과를 섞지 않는다. 이미지 TXT는 25개씩, 텍스트 TXT는 50개씩 순서대로 검토하고 중단 시 실제 완료한 JSON·미검토 ID·다음 ID를 보존하도록 지시한다. 첫 배치의 038 자료와 혼동하지 않는다. 배치 001 전체 50개를 이번 턴에 다시 심층 판독한 것은 아니며 이전 감독 심층 검수는 G017·G041에 집중했다. 전체 완료·프리징 해결을 선언하지 않는다.
 
 - 상태: 로컬 `PROJECT_STATE.json`, `work/resume_2026-10-02/state.json`, `work/remaining_2026-10-05/checkpoint.json`.
 - 최신 근거: [039 개발 검사](../reports/development_039_2026-10-06.json), [038 현재 슬롯](../reports/current_text_readback_2026-10-05.json), [039 이미지 범위](../reports/graphics_scope_039_2026-10-06.json), [038 게시 기록](../reports/release_038_2026-10-05.json).
@@ -67,7 +67,7 @@ G017의 숫자 플레이트 침범 주장은 채택하지 않았다. `ckpt00_ck0
 
 이전 날짜의 `checkpoint_final.py`, `checkpoint_progress.py`, `finalize_public.py`, `closing_record.py`, `update_checkpoint.py`를 무작정 재실행하지 않는다. 옛 문서 구조·후보·게시 필드를 덮을 수 있다. 현재 인계는 이 파일 하나이며 `docs/HANDOFF_CURRENT.md`는 연결 안내다.
 
-사용자가 파일당 25MB 첨부 제한을 알려 배치 002·004 PDF를 무손실 압축본으로 교체했다. 최종 크기는 각각 **16,637,881바이트**, **20,297,162바이트**이며 페이지·ID·TXT·결과 스키마는 유지했다. 모든 이미지 RGB·알파·페이지 내용 및 재인코딩 스트림을 재읽어 일치를 확인했다. 압축 전후 대표 6쪽/11쪽을 새로 렌더링해 픽셀 단위 일치 PASS, 그중 2쪽/3쪽을 직접 확인했다. 위 전체 페이지·축소 비교표 검수는 압축 전 PDF의 이력이며 압축본 전체를 다시 렌더링했다는 뜻이 아니다. 최종 SHA·현재 QA는 각 배치 준비 보고서에 있다. 앞으로 첨부 하나당 **25,000,000바이트 미만**, TXT+PDF 두 개 제한을 적용한다.
+사용자가 파일당 25MB 첨부 제한을 알려 배치 002·004 PDF를 무손실 압축본으로 교체했다. 최종 크기는 각각 **16,637,881바이트**, **20,297,162바이트**이며 페이지·ID·TXT·결과 스키마는 유지했다. 모든 이미지 RGB·알파·페이지 내용 및 재인코딩 스트림을 재읽어 일치를 확인했다. 압축 전후 대표 6쪽/11쪽을 새로 렌더링해 픽셀 단위 일치 PASS, 그중 2쪽/3쪽을 직접 확인했다. 위 전체 페이지·축소 비교표 검수는 압축 전 PDF의 이력이며 압축본 전체를 다시 렌더링했다는 뜻이 아니다. 최종 SHA·현재 QA는 각 배치 준비 보고서에 있다. 앞으로 첨부 하나당 **25,000,000바이트 미만**, 이미지는 TXT+PDF, 텍스트는 TXT+JSON 두 개 제한을 적용한다.
 
 ## 유지할 사용자 지시
 

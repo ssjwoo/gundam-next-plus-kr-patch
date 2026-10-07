@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-08",
+  "batch_id": "web_text_010_039",
+  "baseline_revision": "039",
+  "packet_kind": "text_review",
+  "attachments": [
+    {
+      "filename": "WEB_AI_HANDOFF_BATCH_010.txt",
+      "bytes": 7486,
+      "sha256": "e177c33568f1bd4f30ec6cf8543bfa2be1d877aca37b7cf48718523f2a41a270"
+    },
+    {
+      "filename": "TEXT_REVIEW_BATCH_010.json",
+      "bytes": 452554,
+      "sha256": "f3090663980b8612d9e6234497a3cff73ea2c68875da3a02e132693282948b78"
+    }
+  ],
+  "attachment_count": 2,
+  "attachment_size_limit_bytes": 25000000,
+  "records": 1000,
+  "text_id_range": [
+    "T02001",
+    "T03000"
+  ],
+  "source_and_current_byte_binding": "PASS",
+  "pointer_references_preserved": "PASS",
+  "nontext_and_full_literal_ownership": "PASS",
+  "unique_ids_and_slot_coverage": "PASS",
+  "json_roundtrip_and_utf8": "PASS",
+  "prior_text_slot_overlap": 0,
+  "other_new_batch_overlap": 0,
+  "format_candidates": "ADVISORY_NOT_COMPLETE_GRAMMAR",
+  "worker_results_received": false,
+  "worker_dispatched_by_controller": false,
+  "source_assets_modified": false,
+  "runtime_verdict": "NOT_TESTED",
+  "whole_game_text_complete": false,
+  "finalized_at": "2026-10-07T22:08:15.086660+00:00",
+  "source_catalogue_records": 3953,
+  "current_catalogue_records_bound_to_actual_039": 3953,
+  "prepared_text_cohort": [
+    "008",
+    "009",
+    "010"
+  ],
+  "combined_prepared_catalogue_records": 3000,
+  "remaining_unprepared_catalogue_records": 953,
+  "next_text_id": "T03001",
+  "estimated_additional_text_batches_at_1000_each": 1,
+  "original_decrypted_elf_sha256": "ce917a0f7289ccce3a0db8f0783529f93ff31789c0ee0bb1842ce632f0dd0c06",
+  "current039_eboot_sha256": "f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842",
+  "source_catalogue_sha256": "e589e931dd3ab358f7883ce8773f576cecda6c1bc8c7775e5ab39e53714f8b91",
+  "baseline_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "baseline_whole_iso_hash_source": "Existing 039 build manifest; EBOOT member newly read and hashed this turn",
+  "local_packet_directory": "work/ai_worker_handoff_2026-10-08/web_batch_010",
+  "expected_result_file": "web_ai_result_batch_010.json",
+  "source_population_complete": false,
+  "mission_freeze_resolution": "UNCONFIRMED",
+  "display_context_and_speakers": "UNCONFIRMED",
+  "scope": "1000 complete owned literals by native file offset; source/current translation review, not 1000 untranslated lines.",
+  "attachment_publication_policy": "Only metadata is committed; extracted source text and worker packet remain local.",
+  "updated_at": "2026-10-07T22:14:12.000978+00:00"
+}
