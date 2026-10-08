@@ -47,7 +47,16 @@
       "integrated_into_iso": false,
       "integration_scope": "Source-bound selected rows integrated with per-slot fitting; whole public catalog not injected"
     },
-    "inventory_as_of": "2026-09-26"
+    "inventory_as_of": "2026-09-26",
+    "current_native_catalog": {
+      "path": "translations/current_bound_text_ko_2026-10-08.json",
+      "candidate_revision": "042",
+      "rows": 3953,
+      "native_readback": "PASS",
+      "supervisor_changed_slots": 51,
+      "semantic_review_state": "SUPERVISED_CHANGES_AND_EXISTING_DRAFT",
+      "whole_game_text_complete": false
+    }
   },
   "next_plus_missions": {
     "structurally_verified_records": 274,
@@ -360,35 +369,44 @@
       "background_sources_reviewed": 96,
       "background_japanese_logo_pending": 1,
       "mode_state_and_dynamic_uv": "UNRESOLVED"
+    },
+    "current_integrated_scope": {
+      "latest_candidate_revision": "042",
+      "integrated_modified_pzz_members": 938,
+      "integrated_edited_surfaces": 1126,
+      "original_title_logo_surfaces_protected": 193,
+      "whole_game_graphics_complete": false,
+      "whole_next_plus_graphics_complete": false
     }
   },
   "latest_local_development_artifact": {
-    "candidate_revision": "039",
-    "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-06\\next_plus_graphics_revision_039.iso",
-    "iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
-    "iso_crc32": "6398666D",
+    "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-08\\next_plus_graphics_revision_042.iso",
+    "iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+    "iso_crc32": "87C3C2B8",
     "iso_bytes": 1757806592,
-    "elf_sha256": "f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842",
-    "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
     "static_verdict": "PASS",
     "runtime_verdict": "NOT_TESTED",
+    "candidate_revision": "042",
+    "elf_sha256": "d0c116d8165f72b8f65c524eeb5809cfd80cf58330ecf5ce5619c8a9c250c760",
+    "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
     "mission_freeze_resolution": "UNCONFIRMED",
     "published": false,
     "delta_roundtrip": {
-      "revision": "039",
+      "revision": "042",
       "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
-      "candidate_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
-      "xdelta_sha256": "587a67695c539be3b7ba250153266d60eebd175d315e848304ee6d7116376576",
-      "xdelta_crc32": "A56BDEB8",
-      "xdelta_bytes": 15156262,
-      "roundtrip_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+      "candidate_iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+      "xdelta_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+      "xdelta_crc32": "57A36B08",
+      "xdelta_bytes": 15273684,
+      "roundtrip_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
       "roundtrip_bytes": 1757806592,
       "roundtrip_method": "Decoded stdout streamed into SHA256 and CRC32; no duplicate ISO",
       "verdict": "PASS",
       "runtime_verdict": "NOT_TESTED",
       "mission_freeze_resolution": "UNCONFIRMED"
     },
-    "publication_status": "LOCAL_ONLY"
+    "source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "current_catalog": "translations/current_bound_text_ko_2026-10-08.json"
   },
   "runtime_verified": {
     "emulator": "PPSSPP v1.20.4 development build",
@@ -1253,32 +1271,33 @@
     }
   },
   "latest_local_artifact": {
-    "candidate_revision": "039",
-    "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-06\\next_plus_graphics_revision_039.iso",
-    "iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
-    "iso_crc32": "6398666D",
+    "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-08\\next_plus_graphics_revision_042.iso",
+    "iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+    "iso_crc32": "87C3C2B8",
     "iso_bytes": 1757806592,
-    "elf_sha256": "f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842",
-    "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
     "static_verdict": "PASS",
     "runtime_verdict": "NOT_TESTED",
+    "candidate_revision": "042",
+    "elf_sha256": "d0c116d8165f72b8f65c524eeb5809cfd80cf58330ecf5ce5619c8a9c250c760",
+    "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
     "mission_freeze_resolution": "UNCONFIRMED",
     "published": false,
     "delta_roundtrip": {
-      "revision": "039",
+      "revision": "042",
       "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
-      "candidate_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
-      "xdelta_sha256": "587a67695c539be3b7ba250153266d60eebd175d315e848304ee6d7116376576",
-      "xdelta_crc32": "A56BDEB8",
-      "xdelta_bytes": 15156262,
-      "roundtrip_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+      "candidate_iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+      "xdelta_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+      "xdelta_crc32": "57A36B08",
+      "xdelta_bytes": 15273684,
+      "roundtrip_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
       "roundtrip_bytes": 1757806592,
       "roundtrip_method": "Decoded stdout streamed into SHA256 and CRC32; no duplicate ISO",
       "verdict": "PASS",
       "runtime_verdict": "NOT_TESTED",
       "mission_freeze_resolution": "UNCONFIRMED"
     },
-    "publication_status": "LOCAL_ONLY"
+    "source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "current_catalog": "translations/current_bound_text_ko_2026-10-08.json"
   },
   "remaining_work_2026_10_05": {
     "revision": "038",
@@ -1423,30 +1442,37 @@
     }
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
-  "graphics_scope_report": "reports/graphics_scope_039_2026-10-06.json",
-  "updated_at": "2026-10-07T23:53:35.288882+00:00",
-  "web_ai_handoff_batch_002": "reports/web_ai_handoff_batch_002_2026-10-06.json",
+  "graphics_scope_report": "reports/graphics_scope_042_2026-10-08.json",
+  "updated_at": "2026-10-08T01:16:16.007557+00:00",
+  "web_ai_handoff_batch_002": {
+    "report": "reports/web_ai_handoff_batch_002_2026-10-06.json",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
+    "game_assets_modified": true,
+    "supervision_report": "reports/web_ai_graphics_supervision_2026-10-08.json"
+  },
   "web_ai_handoff_batch_003": {
     "batch_id": "web_graphics_003_039",
     "images": 472,
     "pdf_pages": 473,
     "report": "reports/web_ai_handoff_batch_003_2026-10-07.json",
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "baseline_revision": "039",
     "visual_qa": "PASS",
-    "game_assets_modified": false
+    "game_assets_modified": true,
+    "supervision_report": "reports/web_ai_graphics_supervision_2026-10-08.json"
   },
   "web_ai_handoff_batch_004": {
     "batch_id": "web_graphics_004_039",
     "images": 459,
     "pdf_pages": 460,
     "report": "reports/web_ai_handoff_batch_004_2026-10-07.json",
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "baseline_revision": "039",
     "visual_qa": "PASS",
-    "game_assets_modified": false,
+    "game_assets_modified": true,
     "pdf_bytes": 20297162,
-    "attachment_size_limit_bytes": 25000000
+    "attachment_size_limit_bytes": 25000000,
+    "supervision_report": "reports/web_ai_graphics_supervision_2026-10-08.json"
   },
   "web_ai_attachment_policy": {
     "per_file_bytes_exclusive": 25000000,
@@ -1479,16 +1505,17 @@
     "pdf_pages": 168,
     "pdf_bytes": 6865452,
     "report": "reports/web_ai_handoff_batch_005_2026-10-07.json",
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "baseline_revision": "039",
     "visual_qa": "PASS",
-    "game_assets_modified": false,
+    "game_assets_modified": true,
     "filter_counts": {
       "KEEP_VISIBLE_OR_UNCERTAIN_TEXT": 167,
       "EXCLUDE_NO_VISIBLE_TEXT": 362,
       "EXCLUDE_PROTECTED_LOGO": 20
     },
-    "attachment_size_limit_bytes": 25000000
+    "attachment_size_limit_bytes": 25000000,
+    "supervision_report": "reports/web_ai_graphics_supervision_2026-10-08.json"
   },
   "web_ai_remaining_scope": "reports/web_ai_remaining_scope_2026-10-07.json",
   "web_ai_image_filter_policy": "Individually inspected text-free pictures and protected logo-only pictures excluded; faint or uncertain text retained. Mixed pictures retain protected logos.",
@@ -1503,10 +1530,11 @@
       "KEEP_VISIBLE_OR_UNCERTAIN_TEXT": 37,
       "EXCLUDE_PROTECTED_LOGO": 8
     },
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "pdf_bytes": 630060,
     "report": "reports/web_ai_handoff_batch_006_2026-10-07.json",
-    "game_assets_modified": false
+    "game_assets_modified": false,
+    "supervision_report": "reports/web_ai_graphics_supervision_2026-10-08.json"
   },
   "web_ai_handoff_batch_007": {
     "batch_id": "web_graphics_007_039",
@@ -1518,11 +1546,12 @@
       "EXCLUDE_NO_VISIBLE_TEXT": 460,
       "KEEP_VISIBLE_OR_UNCERTAIN_TEXT": 248
     },
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "pdf_bytes": 1400193,
     "attachment_size_limit_bytes": 25000000,
     "report": "reports/web_ai_handoff_batch_007_2026-10-07.json",
-    "game_assets_modified": false
+    "game_assets_modified": true,
+    "supervision_report": "reports/web_ai_graphics_supervision_2026-10-08.json"
   },
   "web_ai_handoff_batch_008": {
     "batch_id": "web_text_008_039",
@@ -1533,12 +1562,13 @@
       "T01000"
     ],
     "baseline_revision": "039",
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "attachment_count": 2,
     "attachment_size_limit_bytes": 25000000,
     "report": "reports/web_ai_handoff_batch_008_2026-10-07.json",
     "source_and_current_byte_binding": "PASS",
-    "game_assets_modified": false
+    "game_assets_modified": true,
+    "supervision_report": "reports/web_ai_text_supervision_2026-10-08.json"
   },
   "web_ai_handoff_batch_009": {
     "batch_id": "web_text_009_039",
@@ -1552,9 +1582,10 @@
     "attachment_count": 2,
     "attachment_size_limit_bytes": 25000000,
     "source_and_current_byte_binding": "PASS",
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "report": "reports/web_ai_handoff_batch_009_2026-10-08.json",
-    "game_assets_modified": false
+    "game_assets_modified": true,
+    "supervision_report": "reports/web_ai_text_supervision_2026-10-08.json"
   },
   "web_ai_handoff_batch_010": {
     "batch_id": "web_text_010_039",
@@ -1568,9 +1599,13 @@
     "attachment_count": 2,
     "attachment_size_limit_bytes": 25000000,
     "source_and_current_byte_binding": "PASS",
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "report": "reports/web_ai_handoff_batch_010_2026-10-08.json",
-    "game_assets_modified": false
+    "game_assets_modified": true,
+    "supervision_report": "reports/web_ai_text_supervision_2026-10-08.json",
+    "returned_records": 953,
+    "original_missing_records": 47,
+    "missing_records_supervisor_reviewed": true
   },
   "web_ai_handoff_batch_011": {
     "batch_id": "web_text_011_039",
@@ -1585,9 +1620,10 @@
     "attachment_size_limit_bytes": 25000000,
     "source_and_current_byte_binding": "PASS",
     "current_catalogue_packet_preparation_complete": true,
-    "status": "PREPARED_RESULTS_NOT_RECEIVED",
+    "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
     "report": "reports/web_ai_handoff_batch_011_2026-10-08.json",
-    "game_assets_modified": false
+    "game_assets_modified": true,
+    "supervision_report": "reports/web_ai_text_supervision_2026-10-08.json"
   },
   "web_ai_results_received_2026_10_08": {
     "report": "reports/web_ai_results_received_2026-10-08.json",
@@ -1595,9 +1631,56 @@
     "unique_image_ids": 1835,
     "returned_text_records": 3906,
     "missing_text_records": 47,
-    "status": "RECEIVED_WITH_COVERAGE_GAP_SUPERVISOR_REVIEW_PENDING",
-    "game_assets_modified": false,
-    "candidate_revision": "039",
-    "public_release_revision": "038"
+    "status": "SUPERVISED_CONFIRMED_CHANGES_INTEGRATED_OTHER_SCOPE_PENDING",
+    "game_assets_modified": true,
+    "candidate_revision": "042",
+    "public_release_revision": "038",
+    "original_missing_text_records": 47,
+    "missing47_supervisor_reviewed": true,
+    "supervision_report": "reports/web_ai_text_supervision_2026-10-08.json"
+  },
+  "web_ai_supervision_2026_10_08": {
+    "status": "SUPERVISED_CONFIRMED_CHANGES_INTEGRATED_OTHER_SCOPE_PENDING",
+    "latest_candidate_revision": "042",
+    "text_changed_slots": 51,
+    "missing47_supervisor_reviewed": true,
+    "original_worker_missing_text_count": 47,
+    "independently_supervised_flagged_text_records": 196,
+    "text_decision_counts": {
+      "rejected_preserve_current": 71,
+      "held_context_or_terminology": 61,
+      "supervisor_reauthored_development": 33,
+      "held_consumer_unconfirmed": 31
+    },
+    "native_images_edited": 250,
+    "native_label_regions": 440,
+    "model_nameplates_localized": 232,
+    "changed_native_pzz_members": 248,
+    "integrated_modified_pzz_members": 938,
+    "integrated_edited_surfaces": 1126,
+    "original_title_logo_surfaces_protected": 193,
+    "protected_native_pixels_changed": 0,
+    "static_verdict": "PASS",
+    "original_xdelta_roundtrip": "PASS",
+    "runtime_verdict": "NOT_TESTED",
+    "whole_game_text_complete": false,
+    "whole_game_graphics_complete": false,
+    "whole_next_plus_graphics_complete": false,
+    "text_report": "reports/web_ai_text_supervision_2026-10-08.json",
+    "graphics_report": "reports/web_ai_graphics_supervision_2026-10-08.json",
+    "scope_report": "reports/graphics_scope_042_2026-10-08.json",
+    "additional_scope": "Held context/terminology, name-filter consumer, residual English, tiny markings and mode/UV consumers remain unconfirmed."
+  },
+  "cleanup_2026_10_08": {
+    "date": "2026-10-08",
+    "status": "BLOCKED_AUTOMATIC_APPROVAL_REVIEW",
+    "attempted_scope": "Intermediate040/041 ISO files and bounded recreatable/rejected GIM/PZZ caches within the workspace",
+    "stated_reason": "blocked by policy",
+    "command_executed": false,
+    "deleted_files": 0,
+    "observed_freed_bytes": 0,
+    "planned_logical_bytes": 3750291456,
+    "current042_and_all_inputs_preserved": true,
+    "follow_up": "The plan remains private. No alternate deletion tool used to bypass the rejection."
   }
 }

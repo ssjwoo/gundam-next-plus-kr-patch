@@ -1,0 +1,53 @@
+{
+  "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-08\\next_plus_graphics_revision_041.iso",
+  "baseline_iso_sha256": "a0e4aeb016979d7bc278bea4aa15ce2832e477c2bd7c801a2c5b29cefea07664",
+  "iso_sha256": "2fd914d206efe95d973953843dd08345058a2cdc7d5bb1935116be068ccf1961",
+  "iso_crc32": "1537656F",
+  "iso_bytes": 1757806592,
+  "members": [
+    {
+      "name": "trl01.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 2296,
+      "absolute_offset": 1674975232,
+      "bytes": 61328,
+      "old_sha256": "aee5364440d0f0298e0fc91d197e6f292794f61feacbede4f54d8415a7bf4e40",
+      "new_sha256": "e689dc7285d5f539d24ad6231292adfd66488de9747446081df3623d08accdb5",
+      "part_count": 2
+    }
+  ],
+  "elf_data_slots": [],
+  "changed_disc_bytes": 40307,
+  "iso_member_geometry_preserved": true,
+  "unaffected_iso_bytes_preserved": true,
+  "afs_tables_and_pzz_geometry_preserved": true,
+  "pzz_loader_checksums_verified": true,
+  "original_title_logo_policy": {
+    "policy": "preserve_original_title_logos",
+    "protected_members": 193,
+    "protected_surfaces": 193,
+    "verdict": "PASS"
+  },
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "development_only": true,
+  "whole_game_text_complete": false,
+  "graphics_localization_complete": false,
+  "candidate_revision": "041",
+  "xdelta_roundtrip": {
+    "revision": "041",
+    "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "candidate_iso_sha256": "2fd914d206efe95d973953843dd08345058a2cdc7d5bb1935116be068ccf1961",
+    "xdelta_sha256": "cd465ebac1cf2f664151d4121f26adc7cd9404b70d884933b880fc6e74f5fea1",
+    "xdelta_crc32": "740BD475",
+    "xdelta_bytes": 15274213,
+    "roundtrip_sha256": "2fd914d206efe95d973953843dd08345058a2cdc7d5bb1935116be068ccf1961",
+    "roundtrip_bytes": 1757806592,
+    "roundtrip_method": "Decoded stdout streamed into SHA256 and CRC32; no duplicate ISO",
+    "verdict": "PASS",
+    "runtime_verdict": "NOT_TESTED",
+    "mission_freeze_resolution": "UNCONFIRMED"
+  },
+  "publication_status": "LOCAL_ONLY",
+  "scope": "20 functional NEXT PLUS UI labels on 3 atlas surfaces; inherited 040 text/graphics preserved"
+}

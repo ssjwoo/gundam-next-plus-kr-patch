@@ -1,0 +1,500 @@
+{
+  "baseline_revision": "041",
+  "intended_revision": "042",
+  "baseline_iso_sha256": "2fd914d206efe95d973953843dd08345058a2cdc7d5bb1935116be068ccf1961",
+  "font_file_sha256": "21f9d3a7f1ca82ca1dc9a288e30138b4f1feb6e71fc89b5a9181fed174b6bbe2",
+  "review_state": "supervisor_reviewed_development",
+  "runtime_verdict": "NOT_TESTED",
+  "images": [
+    {
+      "image_id": "G068",
+      "packet": "work/ai_worker_handoff_2026-10-06/web_batch_002",
+      "reason": "Supervisor directly viewed native menu atlas and individually measured lettering masks. File/volume/info/message/data/difficulty/update and range labels are functional UI. DPL II audio format, numbers, button glyphs and original game logo stay outside masks. S.BOOST was retained with the other audio mode identifier; amplitude-boost meaning was not proven and the first draft was rejected.",
+      "labels": [
+        {
+          "id": "G068_FILE",
+          "text": "파일",
+          "box": [
+            143,
+            100,
+            184,
+            117
+          ],
+          "size": 13,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_OFF",
+          "text": "끄기",
+          "box": [
+            92,
+            157,
+            125,
+            174
+          ],
+          "size": 13,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_INFO",
+          "text": "정보",
+          "box": [
+            0,
+            213,
+            86,
+            226
+          ],
+          "size": 12,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_BGM",
+          "text": "BGM 켜기",
+          "box": [
+            99,
+            213,
+            163,
+            231
+          ],
+          "size": 12,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_CUSTOM",
+          "text": "사용자 메시지",
+          "box": [
+            165,
+            213,
+            248,
+            223
+          ],
+          "size": 8,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_DATA",
+          "text": "데이터",
+          "box": [
+            0,
+            226,
+            34,
+            239
+          ],
+          "size": 10,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_EASY",
+          "text": "쉬움",
+          "box": [
+            35,
+            227,
+            64,
+            239
+          ],
+          "size": 10,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_HARD",
+          "text": "어려움",
+          "box": [
+            66,
+            227,
+            97,
+            239
+          ],
+          "size": 10,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_MS",
+          "text": "모빌슈트",
+          "box": [
+            0,
+            239,
+            81,
+            249
+          ],
+          "size": 9,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_UPDATE",
+          "text": "최종갱신",
+          "box": [
+            82,
+            239,
+            117,
+            249
+          ],
+          "size": 8,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_LOW",
+          "text": "낮음",
+          "box": [
+            230,
+            60,
+            255,
+            72
+          ],
+          "size": 9,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_MIN",
+          "text": "최소",
+          "box": [
+            232,
+            72,
+            255,
+            84
+          ],
+          "size": 9,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_HIGH",
+          "text": "높음",
+          "box": [
+            228,
+            84,
+            256,
+            96
+          ],
+          "size": 9,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_MAX",
+          "text": "최대",
+          "box": [
+            228,
+            96,
+            255,
+            108
+          ],
+          "size": 9,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G068_LEVEL",
+          "text": "레벨",
+          "box": [
+            230,
+            108,
+            255,
+            119
+          ],
+          "size": 9,
+          "sample_x": 255,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            255,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        }
+      ]
+    }
+  ],
+  "packet_bindings_sha256": {
+    "work/ai_worker_handoff_2026-10-06/web_batch_002": "c763d6e4fa732b7de13d434c3be8c3f98f96fa8b6eb98104c5d8a24d2473ebba"
+  }
+}

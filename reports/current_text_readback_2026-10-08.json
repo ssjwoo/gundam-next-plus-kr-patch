@@ -1,0 +1,17 @@
+{
+  "candidate_revision": "042",
+  "rows_checked": 3953,
+  "changed_slots": 51,
+  "source_raw_hashes": "PASS",
+  "source_pointers_preserved": 5090,
+  "native_ko_readback": "PASS",
+  "remaining_slot_padding": "PASS",
+  "font_preserved": true,
+  "candidate_elf_sha256": "d0c116d8165f72b8f65c524eeb5809cfd80cf58330ecf5ce5619c8a9c250c760",
+  "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
+  "runtime_verdict": "NOT_TESTED",
+  "whole_game_text_complete": false,
+  "fully_checked_base_revision": "040",
+  "042_elf_and_font_byte_exact_vs_checked040": true,
+  "catalog": "translations/current_bound_text_ko_2026-10-08.json"
+}

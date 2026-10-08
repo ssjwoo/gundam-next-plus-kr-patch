@@ -1,6 +1,6 @@
 # 개발·복구 안내
 
-현재 로컬 작업 기준은 **039**, 공개 릴리스는 **038**, 마지막 사용자 수용 기준은 **023**입니다. 실제 로컬 입력과 다음 작업은 [현재 인계](../99_HANDOFF/CURRENT.md), 결과 집계는 [status.json](../reports/status.json)을 먼저 읽으세요. 아래 과거 복구 절차는 최신 빌드 전체를 재생성하는 단일 명령이 아닙니다.
+현재 로컬 작업 기준은 **042**, 공개 릴리스는 **038**, 마지막 사용자 수용 기준은 **023**입니다. 실제 로컬 입력과 다음 작업은 [현재 인계](../99_HANDOFF/CURRENT.md), 결과 집계는 [status.json](../reports/status.json)을 먼저 읽으세요. 아래 과거 복구 절차는 최신 빌드 전체를 재생성하는 단일 명령이 아닙니다.
 
 ## 환경
 
@@ -47,7 +47,7 @@ git clone https://github.com/yazzang-homelab/hanpatch.git ..\hanpatch
 .\.venv\Scripts\python.exe tools\recover_source_workbook.py analysis\original_decrypted_eboot.elf analysis\v19.elf analysis\provided\PSP_GAME\SYSDIR\EBOOT.BIN analysis\eboot_inventory\eboot_text_inventory.json translations\baselines\development_draft_2026-09-26_ko_only_pre_polish.jsonl work\recovered --mission-records work\next_plus_mission_handoff_v2\structural_records.jsonl
 ```
 
-이 명령은 당시 추출 입력과 구조 레코드가 준비된 경우의 복구 절차입니다. 원문 주소·바이트·포인터를 확인하며 스캐너 ID만으로 연결하지 않습니다. 현재 슬롯 근거는 [현재 한국어 카탈로그](../translations/current_bound_text_ko_2026-10-05.json)와 [읽기 검사](../reports/current_text_readback_2026-10-05.json)에 있습니다.
+이 명령은 당시 추출 입력과 구조 레코드가 준비된 경우의 복구 절차입니다. 원문 주소·바이트·포인터를 확인하며 스캐너 ID만으로 연결하지 않습니다. 현재 슬롯 근거는 [현재 한국어 카탈로그](../translations/current_bound_text_ko_2026-10-08.json)와 [읽기 검사](../reports/current_text_readback_2026-10-08.json)에 있습니다.
 
 숫자 수정용 `repair_fixed_width_digits.py`·`build_digit_repair_iso.py`는 당시의 특정 ELF·폰트·보관 ISO 해시만 받아들입니다. 과거 v10_base·텍스트 002·005·020 빌드 명령을 현재 038에 무조건 재사용하면 이후 수정이 누락됩니다. 당시 전체 명령은 [통합 전 문서](https://github.com/ssjwoo/gundam-next-plus-kr-patch/blob/78269664824c0ad91e71d5f59f6c3f209f53202c/docs/UPDATE_2026-10-02.md)에 보존돼 있습니다.
 
@@ -64,6 +64,14 @@ git clone https://github.com/yazzang-homelab/hanpatch.git ..\hanpatch
 
 공개 자료는 한국어 초안과 검수 상태를 담습니다. `development_draft_2026-09-26_ko_only.jsonl`의 4,271행이나 오래된 숫자 ID를 현재 게임의 전체 번역·승인·삽입 완료 증거로 쓰지 않습니다. 원문·원시 바이트·전체 워크북·일본어 인계 패키지는 로컬에 둡니다.
 
-2026-10-02 검수의 변경 전후·파일 해시·보류 항목은 [검수 보고서](../reports/translation_review_2026-10-02.json)에 있습니다. 최신 원문 경계 확인과 개별 보정은 `translations/current_bound_text_ko_2026-10-05.json` 및 개별 수정 카탈로그를 함께 사용합니다.
+2026-10-02 검수의 변경 전후·파일 해시·보류 항목은 [검수 보고서](../reports/translation_review_2026-10-02.json)에 있습니다. 최신 원문 경계 확인과 개별 보정은 `translations/current_bound_text_ko_2026-10-08.json` 및 개별 수정 카탈로그를 함께 사용합니다.
 
 현재 최신 빌드의 실행은 미확인이며 전체 게임·NEXT PLUS 한글화 완료 판정은 없습니다. [진행 현황](../PROGRESS.md), [현재 문제](MISSION_FREEZE_027_2026-10-05.md), [배포 방침](PUBLICATION_POLICY.md).
+
+## 040–042 감독 검수 재현
+
+공개 규칙은 `translations/web_ai_supervised_text_040_2026-10-08.json`과 `translations/graphics/web_ai_supervised_040_2026-10-08.json`, `web_ai_supervised_041_2026-10-08.json`, `web_ai_supervised_042_2026-10-08.json`입니다. 전체 원문·패킷 그림·native 바인딩·폰트와 기준 ISO는 로컬에 보관합니다.
+
+`prepare_residual_text_plan.py --owned-catalog`는 기준 ELF/원판 해시가 일치하는 소유권 카탈로그를 추가로 받습니다. 실제 리터럴과 NUL만 소유하는 슬롯에 인접 정렬 패딩을 빌려주지 않으며 주소·용량·원문 해시·포인터·기준 한글·폰트·비텍스트 보호를 모두 검사합니다. 출력 바이트 계획은 비공개입니다.
+
+`build_supervised_graphics_batch.py`는 공개 편집 규칙, 기준 ISO, 로컬 AFS 인벤토리, 폰트, 새 출력 폴더를 인자로 받습니다. 규칙의 ISO·폰트·패킷 바인딩 해시를 검증하고 정확한 그림 칸만 교체해 native 재읽기·팔레트·나머지 모델 데이터·고정 PZZ 구조와 검사값을 확인합니다. 이후 `build_graphics_revision_iso.py`와 `make_verified_original_delta.py`로 새 ISO와 원판용 패치를 만듭니다. 040→041→042의 중간 ISO는 해당 원판용 xdelta로 재구성할 수 있습니다.

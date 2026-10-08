@@ -1,0 +1,53 @@
+{
+  "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-08\\next_plus_graphics_revision_042.iso",
+  "baseline_iso_sha256": "2fd914d206efe95d973953843dd08345058a2cdc7d5bb1935116be068ccf1961",
+  "iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+  "iso_crc32": "87C3C2B8",
+  "iso_bytes": 1757806592,
+  "members": [
+    {
+      "name": "menu.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 474,
+      "absolute_offset": 1483266048,
+      "bytes": 58512,
+      "old_sha256": "77622922dc22e506bc705ba1a562bdd8336f9643d3b0c1390031a6c416c2bb15",
+      "new_sha256": "860dead20e141ec0affd6f6dffb66b48116db23c000540aa6bf8f168cc7bb0d3",
+      "part_count": 2
+    }
+  ],
+  "elf_data_slots": [],
+  "changed_disc_bytes": 46580,
+  "iso_member_geometry_preserved": true,
+  "unaffected_iso_bytes_preserved": true,
+  "afs_tables_and_pzz_geometry_preserved": true,
+  "pzz_loader_checksums_verified": true,
+  "original_title_logo_policy": {
+    "policy": "preserve_original_title_logos",
+    "protected_members": 193,
+    "protected_surfaces": 193,
+    "verdict": "PASS"
+  },
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "development_only": true,
+  "whole_game_text_complete": false,
+  "graphics_localization_complete": false,
+  "candidate_revision": "042",
+  "xdelta_roundtrip": {
+    "revision": "042",
+    "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "candidate_iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+    "xdelta_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "xdelta_crc32": "57A36B08",
+    "xdelta_bytes": 15273684,
+    "roundtrip_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+    "roundtrip_bytes": 1757806592,
+    "roundtrip_method": "Decoded stdout streamed into SHA256 and CRC32; no duplicate ISO",
+    "verdict": "PASS",
+    "runtime_verdict": "NOT_TESTED",
+    "mission_freeze_resolution": "UNCONFIRMED"
+  },
+  "publication_status": "LOCAL_ONLY",
+  "scope": "15 functional menu/settings labels on one atlas surface; inherited 040/041 text/graphics preserved"
+}

@@ -1,0 +1,2963 @@
+{
+  "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-08\\next_plus_graphics_revision_040.iso",
+  "baseline_iso_sha256": "fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb",
+  "iso_sha256": "a0e4aeb016979d7bc278bea4aa15ce2832e477c2bd7c801a2c5b29cefea07664",
+  "iso_crc32": "70613AD3",
+  "iso_bytes": 1757806592,
+  "members": [
+    {
+      "name": "bo00.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1845,
+      "absolute_offset": 1642301440,
+      "bytes": 424080,
+      "old_sha256": "22107863aa1044584df905e2dcde7eb4333cecee9358e1d7f7d21a8c12320b90",
+      "new_sha256": "7243cba0021d25baeca397c4beaff35dae149b70de760b13b95051b37da28126",
+      "part_count": 12
+    },
+    {
+      "name": "bo00l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1847,
+      "absolute_offset": 1643423744,
+      "bytes": 394896,
+      "old_sha256": "ce37a920decce1c7c6bbcc0c288490f7ffafb46bb1e773da99f32aac862f3a37",
+      "new_sha256": "35b100fe96ee8751f39a9cd93b143f1a0b95f530a4f3a7b6512314733653dd27",
+      "part_count": 12
+    },
+    {
+      "name": "bo01.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1846,
+      "absolute_offset": 1642727424,
+      "bytes": 695440,
+      "old_sha256": "cca8c398260721f0257031041a169054a52ab073ebeb4220e30819ca7cc31a6f",
+      "new_sha256": "e6747915503c1d6cadd67318096bced6c20f7eee6e69e73c2ab5bfdce9cb8e91",
+      "part_count": 12
+    },
+    {
+      "name": "bo01l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1848,
+      "absolute_offset": 1643819008,
+      "bytes": 684432,
+      "old_sha256": "fde84472e93bd3615fd91f3d0c2dcfc43e0309cb2b4212d5640d3ff8aea93c2e",
+      "new_sha256": "015f405fdc1f156f89f65d686b0371398527a32f27e149ab4627f175c219e986",
+      "part_count": 12
+    },
+    {
+      "name": "brfmb2f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1142,
+      "absolute_offset": 1505486848,
+      "bytes": 17936,
+      "old_sha256": "7f2e9d7e346989cdd206543af259dd44732b64f24ae113ec3169802a6bd97fc5",
+      "new_sha256": "4aad3c2ffbd071dc11d5432cd3f37b702ce47c2764b4fc4a4c6dd9f7ced0b6af",
+      "part_count": 2
+    },
+    {
+      "name": "brfmr2f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 973,
+      "absolute_offset": 1502894080,
+      "bytes": 16784,
+      "old_sha256": "72de6b94191a9e32917f8f056bbb39dbf851c0422b4d7abe501fe58569bc7988",
+      "new_sha256": "4b1d59adf91f922999e1314c8c828921dbfdf3fa5e6455dfbf241205ef876388",
+      "part_count": 2
+    },
+    {
+      "name": "em01.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1804,
+      "absolute_offset": 1635872768,
+      "bytes": 166544,
+      "old_sha256": "2aca22eaa6f47e2285ec4b738752dcef500d01a491344b744ec26248e559827e",
+      "new_sha256": "fe33713f7ef04c9dbff5adfb53fd44236105dc4c2e9230dbc8a0776e704e76e0",
+      "part_count": 11
+    },
+    {
+      "name": "em02.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1805,
+      "absolute_offset": 1636040704,
+      "bytes": 175632,
+      "old_sha256": "44d78718ce7b466555e73e3a91efee4d2026d9542151abdab4f9a2d38a7ca9dc",
+      "new_sha256": "0ea60d01fcdd75c1ba9e640360f61c74278d91ad03802e75ba1b028853799354",
+      "part_count": 11
+    },
+    {
+      "name": "em03.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1806,
+      "absolute_offset": 1636216832,
+      "bytes": 161424,
+      "old_sha256": "18a0575d0fa816d5f238438aabf1b6df1bf860ebc725d4900a23e571dec8db45",
+      "new_sha256": "1ed3f9af0a9eea3fbeb77f3caf17d95d68b115a9b853310365614ca73a1009b4",
+      "part_count": 11
+    },
+    {
+      "name": "em04.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1807,
+      "absolute_offset": 1636378624,
+      "bytes": 151952,
+      "old_sha256": "96f6464572075ba58c4320ee677333bdc56f5339cec56ce2e5899a7c9ce5e2a5",
+      "new_sha256": "505405dae760a639921bd544388ad7c87f2ac3dad480cf735a996da905a7ff8a",
+      "part_count": 11
+    },
+    {
+      "name": "em05.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1808,
+      "absolute_offset": 1636532224,
+      "bytes": 146448,
+      "old_sha256": "6ab5c5a5457e402555d18a566df013bf5559ef327d48202afc33a30b46e60317",
+      "new_sha256": "5e1fc19bb578f3529ee7837273c474caac5cd7614268dbb715d257baebadc0d1",
+      "part_count": 11
+    },
+    {
+      "name": "em06.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1809,
+      "absolute_offset": 1636679680,
+      "bytes": 163344,
+      "old_sha256": "7965e12ba5d735026652d0525f8cf88ec80cecd5443378c2e188caee3f2ca292",
+      "new_sha256": "a55ee7a7a343f10ac2676f4f75ac5237888cfb2a1993c287270d7cd7718bee5e",
+      "part_count": 11
+    },
+    {
+      "name": "em07.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1810,
+      "absolute_offset": 1636843520,
+      "bytes": 143248,
+      "old_sha256": "78b30094358789a4fd1714fbba32f931f87f65e67ce777c4d8d7c371a2cb830f",
+      "new_sha256": "8c48de884705a97434b29cb14d04ebec7c589c40564d3a50fb15b915667d9dd2",
+      "part_count": 11
+    },
+    {
+      "name": "em08.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1811,
+      "absolute_offset": 1636986880,
+      "bytes": 155536,
+      "old_sha256": "df9813ac25789d73b98b3e119098bae8d4105264eec1fc546ad98f0f7e127c7c",
+      "new_sha256": "914308edf5337d8ad5ad49c49798fbf9bad9905a101c69ac1756a0f8d0a50b60",
+      "part_count": 11
+    },
+    {
+      "name": "em09.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1812,
+      "absolute_offset": 1637142528,
+      "bytes": 133904,
+      "old_sha256": "9937bdc66a8858b7faf8a68c9ca98a28107686d5343fa89187a80b61be82fbb6",
+      "new_sha256": "622584fc436532d3c09dd58d9f3134ed24355ad3e5b8dc8b2e29d766d7842cd9",
+      "part_count": 11
+    },
+    {
+      "name": "em0a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1813,
+      "absolute_offset": 1637277696,
+      "bytes": 112016,
+      "old_sha256": "34c649bf58180bbf963f631c2de0c4c4ac0b73e296d92cf0b1c412128f7be3be",
+      "new_sha256": "8b6bf7a8bf7ac012e4d59e846cf4acb6d6dc93f4ecea6cdd05a71ca1fd25b814",
+      "part_count": 11
+    },
+    {
+      "name": "em0b.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1814,
+      "absolute_offset": 1637390336,
+      "bytes": 161296,
+      "old_sha256": "2aaac68d3ac52a94c23f300ad553e71e299ee66a4d43821d7976f83d83c5d2e5",
+      "new_sha256": "5c6743e3efc9c1fca1151dff113ea2f9e2b723a1cfd6ef85ccb3769328f42bd0",
+      "part_count": 11
+    },
+    {
+      "name": "em0c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1815,
+      "absolute_offset": 1637552128,
+      "bytes": 126736,
+      "old_sha256": "5dae892c22d5ce5562b2777757cc7dbe75f066245ebbd43c390e08f5c8818ef0",
+      "new_sha256": "b2c3517300b5d14c2e82c7723466545c5d718d6a44c7ec42cfc3961880cad3d7",
+      "part_count": 11
+    },
+    {
+      "name": "em0d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1816,
+      "absolute_offset": 1637679104,
+      "bytes": 147344,
+      "old_sha256": "e7ae00edada10c66b68829a1bf0e0060ca02a6ed3ab05ac86c47bac6116b8b83",
+      "new_sha256": "01d291707de2e936c6e35ba6ec00e514d3dcaa15ea35f47bd7a31e1cd3263304",
+      "part_count": 11
+    },
+    {
+      "name": "em0e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1817,
+      "absolute_offset": 1637826560,
+      "bytes": 165904,
+      "old_sha256": "0831464cae40b4775b2d76c43f3d02e76cbba7e8c46727dc14c606159ff84d9b",
+      "new_sha256": "041ce14d7b6af71e9a8aaa29cc708e735ea371a855966f1411e5a4c9223fecff",
+      "part_count": 11
+    },
+    {
+      "name": "em0f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1818,
+      "absolute_offset": 1637994496,
+      "bytes": 133520,
+      "old_sha256": "5229d3cf6d8c3b82325b1b6a4ccb775992284f833a52b7412d9dfa2adb84fbe9",
+      "new_sha256": "8684cf31db98648e6fa5b8f45b9a89316ecc3dcb7fac4d1de64df78c4c871c19",
+      "part_count": 11
+    },
+    {
+      "name": "em10.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1819,
+      "absolute_offset": 1638129664,
+      "bytes": 177168,
+      "old_sha256": "fcb4127a340e271461ba5bbb447d53fdb3cad8a3553661606bd52d8aa6775666",
+      "new_sha256": "7195f2ff6e788b1302f551854044e8691da5adbcad7f3d16fa636a1b4d7217f6",
+      "part_count": 11
+    },
+    {
+      "name": "em11.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1820,
+      "absolute_offset": 1638307840,
+      "bytes": 218128,
+      "old_sha256": "69f3256a4030b9305d448d1af44cc452decd33078d404d49240804df90de20b1",
+      "new_sha256": "b7f59509a3df0a658ab1785fd8d608e95fa648664d6a99894303d1d41f57688b",
+      "part_count": 11
+    },
+    {
+      "name": "em12.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1821,
+      "absolute_offset": 1638526976,
+      "bytes": 194448,
+      "old_sha256": "5e1aee1ff289373319ff6d42a8591423b1c6b0036a75985a31eeca95878cb56b",
+      "new_sha256": "1dfac4aaced61889b672ccc03edc07454d991c42544b0d40c5f9d449da8ea2a3",
+      "part_count": 11
+    },
+    {
+      "name": "em13.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1822,
+      "absolute_offset": 1638721536,
+      "bytes": 163344,
+      "old_sha256": "d18aebdae3fdf0436f302dfc1a775cc6c02ddf982ba227666f50352abc570216",
+      "new_sha256": "88424d5d2de382eed935a3d25ac43881d807c3f8e84a8dc527b938e634d57bed",
+      "part_count": 11
+    },
+    {
+      "name": "em14.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1823,
+      "absolute_offset": 1638885376,
+      "bytes": 156560,
+      "old_sha256": "09a2c9ff4184cad3887faabda6e9728192e1cd9827a556b383dfa2fa6b720cda",
+      "new_sha256": "27b5bca0deb1855664704fdbe31e4bf76977b2271379851574764ad6ada18b63",
+      "part_count": 11
+    },
+    {
+      "name": "em15.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1824,
+      "absolute_offset": 1639043072,
+      "bytes": 149648,
+      "old_sha256": "c4694f2d873156f5a70cc786a1818015e7b76cd4ca7c2c5ab397f81c0c899213",
+      "new_sha256": "e7361d1f208c251993a3a4e1e7af42cf8057c7aed6871487ba134d9d4e03773d",
+      "part_count": 11
+    },
+    {
+      "name": "em16.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1825,
+      "absolute_offset": 1639194624,
+      "bytes": 148240,
+      "old_sha256": "8a1435b1df66a72204a84f0042a2f9c762ed9bbe292180110c93cdc17216eaeb",
+      "new_sha256": "f476641cc7c97fd3327bf877966ed7f3c75c1aa1c919357bd44c242c04f75589",
+      "part_count": 11
+    },
+    {
+      "name": "em17.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1826,
+      "absolute_offset": 1639344128,
+      "bytes": 150800,
+      "old_sha256": "7ab340ce9bba3dee47f3a1218573fbd204b432771fa874b3149261faa0b457aa",
+      "new_sha256": "2a3b0012d48fff2de263a98837a7013d187cae43719e1ea1b3dea84c639c2d5e",
+      "part_count": 11
+    },
+    {
+      "name": "em18.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1827,
+      "absolute_offset": 1639495680,
+      "bytes": 145808,
+      "old_sha256": "d9c9500dde05781a0b1b9cca000f2be163c531db5118cbb4ed1a48dab9760bdd",
+      "new_sha256": "2b06fddf9c13e119d65642be1fa97b34ea9bbaa3d2d34e46a51b9ac0765ec295",
+      "part_count": 11
+    },
+    {
+      "name": "em1a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1829,
+      "absolute_offset": 1639761920,
+      "bytes": 137488,
+      "old_sha256": "c084e05d79fb6fc9240fa839c85db65c979dc0b7a81ffda0d14465096c87fdae",
+      "new_sha256": "5ff65bc17dc642f751fb0d2df57b0a82522bd320375f6b36e9f23fafd1908e2b",
+      "part_count": 11
+    },
+    {
+      "name": "em1c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1831,
+      "absolute_offset": 1640026112,
+      "bytes": 131600,
+      "old_sha256": "21d9fd874c72e0fcbbedd158a68e460c59d834ebe6b3d59e51a5eec748ea6e75",
+      "new_sha256": "dcef6129b3bd0a3c8c0e04256a664eba69fba251afb8c13d19b18cb35d19d1aa",
+      "part_count": 11
+    },
+    {
+      "name": "em1d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1832,
+      "absolute_offset": 1640159232,
+      "bytes": 213008,
+      "old_sha256": "a389239a4491e0acef5c38dae62cc9f2cb3989517bfe89855024268ddd9787e1",
+      "new_sha256": "7ae62e54f878b4c8d50c59bc6453b48ec1f9d22a092f0f63386f6090169d87c2",
+      "part_count": 11
+    },
+    {
+      "name": "em1e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1833,
+      "absolute_offset": 1640374272,
+      "bytes": 120080,
+      "old_sha256": "315731fcd83fce831e133a27991312fbdffbeac64ebcd8ef0ea593f6f0cfacff",
+      "new_sha256": "f67fe18a8354b8598840d5016642c6b0313ede2a4be0750ff8fb38fc8c9dcb42",
+      "part_count": 11
+    },
+    {
+      "name": "em20.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1835,
+      "absolute_offset": 1640617984,
+      "bytes": 131728,
+      "old_sha256": "c62c7987c8c55b8916f7cc303b8f7fcb99dd0820442f48b5bf4a35914f289e7c",
+      "new_sha256": "cf5d869a01c46cd2ac2e527f5fe11fff42ddea684518802c93d721a2f39b6386",
+      "part_count": 11
+    },
+    {
+      "name": "em21.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1836,
+      "absolute_offset": 1640751104,
+      "bytes": 145168,
+      "old_sha256": "a649118299251f7c6bd899925eee05ed7987dfa759a44c6ae2941d74e5df9e05",
+      "new_sha256": "9943c9c86f82f838024c9dffc3ebfbd3074f56ff574c749e48c5ebd0fd9da8d0",
+      "part_count": 11
+    },
+    {
+      "name": "em24.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1839,
+      "absolute_offset": 1641152512,
+      "bytes": 184080,
+      "old_sha256": "6121099338a100b6704e3e08d3579d20d52fed5e4fc950dc6ee9499556ed0799",
+      "new_sha256": "9f7a3e7207e78b75cc136a7c0f4da0ce30599702924d1f5489a46c5b7d2e9d05",
+      "part_count": 11
+    },
+    {
+      "name": "em25.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1840,
+      "absolute_offset": 1641336832,
+      "bytes": 225296,
+      "old_sha256": "1498a57b650ac874fa42ffb1bdfd88a34268b9c8f984e22c161c832d4d48b605",
+      "new_sha256": "4d732c861a7d525fc291bad72d2ba1f16b620a5883b5174b59ec441e8f163832",
+      "part_count": 11
+    },
+    {
+      "name": "em26.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1841,
+      "absolute_offset": 1641564160,
+      "bytes": 198800,
+      "old_sha256": "f676034d2f5f5c46405853380478db48cfb7e8c9c87bd1ce26dd046bb96452b8",
+      "new_sha256": "592f7be4669de3360ee2050a09307045c5e4a3a8852d0b609c918a9dbb0190f5",
+      "part_count": 11
+    },
+    {
+      "name": "em27.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1842,
+      "absolute_offset": 1641764864,
+      "bytes": 186384,
+      "old_sha256": "7b350b947d76684ae83faf906f02c02786e0a57ec6ece780108448e69118c535",
+      "new_sha256": "2e4377565b45b3500e2eb241fafe16e73febd72451e35dfb13bfab6e08ad53aa",
+      "part_count": 11
+    },
+    {
+      "name": "em28.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1843,
+      "absolute_offset": 1641953280,
+      "bytes": 172176,
+      "old_sha256": "f22b25ba46b9c08c28ab04b5b85155c843ea8117a303d89a9244167cf5ed867b",
+      "new_sha256": "2f4be32ea4ba3c8427bc66f51d91e6b751cd73c375d4404df304a40196cf751b",
+      "part_count": 11
+    },
+    {
+      "name": "em29.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1844,
+      "absolute_offset": 1642127360,
+      "bytes": 172304,
+      "old_sha256": "5bf8e2327e5ea975ffdb1d89072a5341601c54eeb7b4d6df19dadae08a544d1e",
+      "new_sha256": "e5cc9336b0610ed287f8d927174d25b64a923e4cc2e1da3e468448fac137b99f",
+      "part_count": 11
+    },
+    {
+      "name": "glc0F.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 508,
+      "absolute_offset": 1484861440,
+      "bytes": 40080,
+      "old_sha256": "79cc3ebec6d979f3cb0fac0eae9dcbf7bc35414ae5d75018949bfb96d5e4d531",
+      "new_sha256": "d6c2bf4b9b449bf80da1522bbcc19a78d52e128d9395279b60f275dc88f9810a",
+      "part_count": 2
+    },
+    {
+      "name": "inst_23.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 645,
+      "absolute_offset": 1493696512,
+      "bytes": 69008,
+      "old_sha256": "e4760fae72132d3fb38d61b4371f1b2a4ebc98095e3c1ea793f92c3a346e9e33",
+      "new_sha256": "249ac26852559f5649abc3896994e48a6547e33bd846a2542caba084a878dc88",
+      "part_count": 1
+    },
+    {
+      "name": "inst_39.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 661,
+      "absolute_offset": 1494818816,
+      "bytes": 63504,
+      "old_sha256": "07dadd87a8de152ae8fdeb1b899e7b1aa6b50cd462c67808129e5a736347938f",
+      "new_sha256": "e4897fcff718087309a1ba3b33d233d9f0c864e201d2d19254e387b6e089e54d",
+      "part_count": 1
+    },
+    {
+      "name": "inst_58.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 680,
+      "absolute_offset": 1496123392,
+      "bytes": 64784,
+      "old_sha256": "9320b1b551260469ac674040971591f090800096a309a855a5f9d3c07311973f",
+      "new_sha256": "1ace2397fe4b0ba3ac42cc5333407c8f2b145700b9f22d3271edbf4f7976cf99",
+      "part_count": 1
+    },
+    {
+      "name": "logo.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 472,
+      "absolute_offset": 1483153408,
+      "bytes": 32016,
+      "old_sha256": "50a1ecd942614db1ca6d4e78c04485bdca000209335766874e73459e3af46c88",
+      "new_sha256": "e029831f6299d780d1ae78192c4b1e04836abc5d8bd4fbb5789f33de78903b15",
+      "part_count": 2
+    },
+    {
+      "name": "pl00.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1649,
+      "absolute_offset": 1535137792,
+      "bytes": 877072,
+      "old_sha256": "1e2ad7aa285fc55883cf1f166540037e0aaa4e1a31866fbcc4631c2feb282627",
+      "new_sha256": "7c30896a895d350ed691f5c1c88664d531ad348b926a570ec1f8154bf6f180ea",
+      "part_count": 12
+    },
+    {
+      "name": "pl00l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1726,
+      "absolute_offset": 1586767872,
+      "bytes": 861968,
+      "old_sha256": "b767ceab0e27b09f4f6eb56a347f25cb8113f211ed64a21611f18a733dbaf788",
+      "new_sha256": "71c4869b566377c7cb9590b83f86dd89c6f2ad006627c1e157f36cd7282094ba",
+      "part_count": 12
+    },
+    {
+      "name": "pl01.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1650,
+      "absolute_offset": 1536016384,
+      "bytes": 685328,
+      "old_sha256": "064d390951cafcc9f5ccb710c229524aee65703fd291b9dcd146d81cf47d0e20",
+      "new_sha256": "5e929cf7e8edf9f141b05b9aa15a07e898bc7e911029461aa75457a72c43c7fc",
+      "part_count": 12
+    },
+    {
+      "name": "pl01l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1727,
+      "absolute_offset": 1587630080,
+      "bytes": 659728,
+      "old_sha256": "b259e4d7bffdc7bc799ce30f532acc97cc2ad9d1e5b9b356d59e155db6f25f30",
+      "new_sha256": "d5a582a010723830ce0dd06b6c06a5c2b7c3ec4033f3416c539e73db1ee207c7",
+      "part_count": 12
+    },
+    {
+      "name": "pl02.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1651,
+      "absolute_offset": 1536702464,
+      "bytes": 270864,
+      "old_sha256": "769129e2688396957a7707e7b0b41d8be4c1e638340f07c5f5d39cc7bea14357",
+      "new_sha256": "beeeedb65fad488cf6d2a325f1ef9e5b9334432195d8ca738e456de9bd4efa0a",
+      "part_count": 12
+    },
+    {
+      "name": "pl02l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1728,
+      "absolute_offset": 1588291584,
+      "bytes": 253584,
+      "old_sha256": "42da8991fab854c323966e11e6e4b5eb466ed37c0ff3bf417926596fce5234dc",
+      "new_sha256": "36415d5fc271486d4f883ae1842d84324e548158dab6ac0e3da7240e3f6c1da3",
+      "part_count": 12
+    },
+    {
+      "name": "pl03.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1652,
+      "absolute_offset": 1536974848,
+      "bytes": 636048,
+      "old_sha256": "0873ac3d7601e7744164cf6f31ed5b439970b8a53a6a362a283889c4e759a427",
+      "new_sha256": "1d0bc04dcc64273f6fef8b20d63ce8ff7149c046a7438bf7365ad056f2dbd5f3",
+      "part_count": 12
+    },
+    {
+      "name": "pl03l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1729,
+      "absolute_offset": 1588545536,
+      "bytes": 613520,
+      "old_sha256": "d892cb199c45b9c54ef12f49c75bbfd222d6290d1c9ad3820a9185627622b96a",
+      "new_sha256": "a0e85138a8b3ffb40dfbbd9d1c78442ef9fa8a22254b950158e3c0fce2021e43",
+      "part_count": 12
+    },
+    {
+      "name": "pl04.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1653,
+      "absolute_offset": 1537611776,
+      "bytes": 710032,
+      "old_sha256": "96b492f5c05e6dd28718aaf88eef44770c28bbf8ea007b4bd8c37e81fa64757c",
+      "new_sha256": "8c5b80da8dc58f7bbccc9955d3e61aa1b928daf330a4ab533a5e3b472922d905",
+      "part_count": 12
+    },
+    {
+      "name": "pl04l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1730,
+      "absolute_offset": 1589159936,
+      "bytes": 695056,
+      "old_sha256": "2d070033b5f81536cc9edecd077cdf4d568d8f27ca9d0724654626689c147c8c",
+      "new_sha256": "f83296e687eaa1380b5da367f234480e18fb1f03fe42b5d1f19d8a77fce86551",
+      "part_count": 12
+    },
+    {
+      "name": "pl05.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1654,
+      "absolute_offset": 1538322432,
+      "bytes": 620944,
+      "old_sha256": "ba0454c66d2ad5a4297da7ce3e737cf7888f29669769429aed418bed7f6db320",
+      "new_sha256": "57bbb4992fd750771ce9128873c1353c1615ce74866822265bf302e04228ba21",
+      "part_count": 12
+    },
+    {
+      "name": "pl05l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1731,
+      "absolute_offset": 1589856256,
+      "bytes": 607632,
+      "old_sha256": "052c57c4f2ea54bad0b661b17f89549dd0b8a84a229d05414715fc8df2ff0b09",
+      "new_sha256": "3feec7ec0172f2cb94879f6ba73818c2fd39ef37720b96b37cfad46c9266314d",
+      "part_count": 12
+    },
+    {
+      "name": "pl06.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1655,
+      "absolute_offset": 1538945024,
+      "bytes": 702864,
+      "old_sha256": "5aa6628c4bf783c120b114268ecd12e606c06767beb59e50f0c3220d58b69c72",
+      "new_sha256": "d73bf71ae0dfdfc0a7d57d91a40b589cadaa114ec30d087e639f4d99cffb2be1",
+      "part_count": 12
+    },
+    {
+      "name": "pl06l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1732,
+      "absolute_offset": 1590464512,
+      "bytes": 657424,
+      "old_sha256": "21e4c19f7f9b22e5a94972c6f28213eecf1c3f7f119ab75dc8134642f83b395d",
+      "new_sha256": "4eb339997e18dd6f554ee0da835555496c8bea1a2d3441dff30e66b169abfe1d",
+      "part_count": 12
+    },
+    {
+      "name": "pl07.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1656,
+      "absolute_offset": 1539649536,
+      "bytes": 694032,
+      "old_sha256": "82460234a0fc4a9a3ac1af84cd633afd69ff9e347470d0936be685809035ed4d",
+      "new_sha256": "c60143a163f5fa5a962d8eb521d69d8f2c19f2dafc3dc681d24051a79bdbf2cb",
+      "part_count": 12
+    },
+    {
+      "name": "pl07l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1733,
+      "absolute_offset": 1591123968,
+      "bytes": 633488,
+      "old_sha256": "b4aef6b863882386de9f32d5a01418d213ad029bcfdee7a70e41c1846f58ec01",
+      "new_sha256": "adcd38de617e47657e3a6ebe2526f4b9ee4acd0c1bd9855c33408d8811e0cfe3",
+      "part_count": 12
+    },
+    {
+      "name": "pl08.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1657,
+      "absolute_offset": 1540343808,
+      "bytes": 815888,
+      "old_sha256": "435022399880d4b71d854ced7d79bebc654cfe28d5f3685b4871a216d5363ae7",
+      "new_sha256": "56b596e07b2286274d54f1fefef9b4f7721235157ee363b3392d45bdc34ce3af",
+      "part_count": 12
+    },
+    {
+      "name": "pl08l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1734,
+      "absolute_offset": 1591758848,
+      "bytes": 784784,
+      "old_sha256": "699b31515167ad19a7008264e3190c24f03f50a5f73f6c5a372d7dffa6d94952",
+      "new_sha256": "b4272e3f3d63767d381c001c6b1b33efc1ad971ec5b68bd5ac2a899a2ce23d2d",
+      "part_count": 12
+    },
+    {
+      "name": "pl09.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1658,
+      "absolute_offset": 1541160960,
+      "bytes": 651920,
+      "old_sha256": "8db8593a45e4e4e783a5c278c4b52136b901b0d77187e3f57038717557962730",
+      "new_sha256": "225fbfec6d192058b61ee29a1894df9dac68b30cb96efbb67ddf3fc3854566cc",
+      "part_count": 12
+    },
+    {
+      "name": "pl09l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1735,
+      "absolute_offset": 1592545280,
+      "bytes": 635280,
+      "old_sha256": "f36a551710f5e89d5982ea724fa152f54ae4ebab89299fcb022332ccf488fa41",
+      "new_sha256": "722fb0ea9ad315b5b4c8d6a328f060622f67e492759e85daded17515a7e44350",
+      "part_count": 12
+    },
+    {
+      "name": "pl0a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1659,
+      "absolute_offset": 1541814272,
+      "bytes": 631184,
+      "old_sha256": "d7017304c26f9228d8e786b3d15b49752e9e8f5677ce4f5616c3527d55ac9901",
+      "new_sha256": "84cebccef940f075b389f6a54766a75244c095d23516c48ce75850c17ffa1a0a",
+      "part_count": 12
+    },
+    {
+      "name": "pl0al.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1736,
+      "absolute_offset": 1593182208,
+      "bytes": 609680,
+      "old_sha256": "495b0c0fa0d601f0d978ec0724d921c76d8241d90c1ddfce7564577658b4d565",
+      "new_sha256": "fdfda9ac349bad5eded629600ca216e022150500da6a9afc96f46224818a5ff8",
+      "part_count": 12
+    },
+    {
+      "name": "pl0b.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1660,
+      "absolute_offset": 1542447104,
+      "bytes": 764944,
+      "old_sha256": "a15e1a32d96604e329cba36696482bac1920f659fe781c781390bc4fbd6f3955",
+      "new_sha256": "0b85f1b4b44c1d9ed6407ea52c1507351565138fcb3f19cab05bd9480cbfd1da",
+      "part_count": 12
+    },
+    {
+      "name": "pl0bl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1737,
+      "absolute_offset": 1593792512,
+      "bytes": 751120,
+      "old_sha256": "62e0252d21aaac3d18c311d821b188a3ecca356b385e2f7c6c86cb59062ae53c",
+      "new_sha256": "44d7f55b1dc30beff7b891c343fc1e963921d8795ea49c0626216035f654712c",
+      "part_count": 12
+    },
+    {
+      "name": "pl0c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1661,
+      "absolute_offset": 1543213056,
+      "bytes": 705808,
+      "old_sha256": "04c7a6f1461cc9fad0c63142ca5f75b63d2eae618df9950275ceed514131a6cc",
+      "new_sha256": "350fe792ea8d5c720e4bb1689a42f79d05b4fadefb375e1525ac322b591fc761",
+      "part_count": 12
+    },
+    {
+      "name": "pl0cl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1738,
+      "absolute_offset": 1594544128,
+      "bytes": 648336,
+      "old_sha256": "1bb1649d6edc8eb74b501be4447fb87d3793aa0cce3ab2394a98ddf429aa127d",
+      "new_sha256": "f486c94bdc3bbde52c97acc0be0c213d5a8e1261c6d80b9450107df07ac3b853",
+      "part_count": 12
+    },
+    {
+      "name": "pl0d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1662,
+      "absolute_offset": 1543919616,
+      "bytes": 618000,
+      "old_sha256": "6612fc92d0d9cdf5238b941386e87c608f09fc0b2264c876185dbbbdcadf1f06",
+      "new_sha256": "b8b3bae9e0d84e98f60ee238f937a94d975c48fe5dc0e8e8cd6a5d8f2336fa24",
+      "part_count": 12
+    },
+    {
+      "name": "pl0dl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1739,
+      "absolute_offset": 1595193344,
+      "bytes": 601488,
+      "old_sha256": "66a156a0613849e5007d1a6243d202126a7af5697253f4aca016b84fb21c1cc0",
+      "new_sha256": "7401ca89be29ca3254bb704b986d8eb30e3caa702847b7eb8c161ab01e2acabd",
+      "part_count": 12
+    },
+    {
+      "name": "pl0e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1663,
+      "absolute_offset": 1544538112,
+      "bytes": 672528,
+      "old_sha256": "aef80a48477a882608a12b81afb3d6228a90c3fecd43e72b0aeabb19f3fb2b51",
+      "new_sha256": "63c7f8fa53cc12bb494deda568e113b500dd3e2072339561f838e8db4aa56052",
+      "part_count": 12
+    },
+    {
+      "name": "pl0el.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1740,
+      "absolute_offset": 1595795456,
+      "bytes": 622864,
+      "old_sha256": "3bd7afacf1763b601182f04ee3b36a30bfecc378b4aa3b7935090f52ca166972",
+      "new_sha256": "50d4c4626bce33ca2ef6d70a58bffaad6de9f1c6c6ec36f2c5a72e1ea024f65c",
+      "part_count": 12
+    },
+    {
+      "name": "pl0f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1664,
+      "absolute_offset": 1545211904,
+      "bytes": 707216,
+      "old_sha256": "1536f10d31ba0eda38f4fce5aea7a3f41b9e15d9270f3769a03f1033854d219c",
+      "new_sha256": "229a59677f9c618667d4d53e56b0d2a4515d09af5a78d0d168e3dd59f361568c",
+      "part_count": 12
+    },
+    {
+      "name": "pl0fl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1741,
+      "absolute_offset": 1596420096,
+      "bytes": 660368,
+      "old_sha256": "fe8ccabcf1186337f6aa090d2b2bd68a56de243aa4a839c41724f1343d2b572e",
+      "new_sha256": "4b0f4b19004bb52924e70c651c27512bb1e68b08f998b00d15d907e8728f2526",
+      "part_count": 12
+    },
+    {
+      "name": "pl10.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1665,
+      "absolute_offset": 1545920512,
+      "bytes": 870672,
+      "old_sha256": "9477ac2a61b4da016b1104cdb9221b28cae55a3e74dcfeaa893c93da180234e1",
+      "new_sha256": "4b174817cb5a8f4246938ae57da2938e3640aa555ab9ac08ee64bf5a2ae3e448",
+      "part_count": 12
+    },
+    {
+      "name": "pl10l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1742,
+      "absolute_offset": 1597081600,
+      "bytes": 810384,
+      "old_sha256": "c65926b3d9773a116339cb168681a39062c8b7b7d999aea5c07df5d056537c76",
+      "new_sha256": "2029356c13acf410edf8c9920b2620e11237cd3d946b706f3a87f5c6118d7a99",
+      "part_count": 12
+    },
+    {
+      "name": "pl11.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1666,
+      "absolute_offset": 1546792960,
+      "bytes": 858000,
+      "old_sha256": "5feaba35bc1f71691c3e46deb5bc075b51d6bd6c8ff6954609890f03cdfe7c2c",
+      "new_sha256": "e64980f8f2e9d400391d35dce025731fb098b6f39beeefedf0dd480f03e17c68",
+      "part_count": 12
+    },
+    {
+      "name": "pl11l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1743,
+      "absolute_offset": 1597892608,
+      "bytes": 791568,
+      "old_sha256": "91c515af905678eead6d7157a6cb11637ec835ea1040e8e9f702726096303a99",
+      "new_sha256": "2a66ebb3f3aab9770d03a9cedec1efbc45116149ff867a0c761d4d558bc97ef3",
+      "part_count": 12
+    },
+    {
+      "name": "pl12.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1667,
+      "absolute_offset": 1547651072,
+      "bytes": 665104,
+      "old_sha256": "666330b73f1ce367eec3425bc7feb81437a794299e07a9a9e1d887b30157cd25",
+      "new_sha256": "26d2cc5d164c5d938cd124b341021af4d3da538f367e7d5bca35f92f1706bd4f",
+      "part_count": 12
+    },
+    {
+      "name": "pl12l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1744,
+      "absolute_offset": 1598685184,
+      "bytes": 640784,
+      "old_sha256": "0fe7a079a684832adb83169780a57e7e68b4139d605bf196765796bbfea0f322",
+      "new_sha256": "f73a7ff6c7461996fac5b14ce322be92a15a7d6ea26e6fbb84f61e6cd6bdbbbb",
+      "part_count": 12
+    },
+    {
+      "name": "pl13.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1668,
+      "absolute_offset": 1548316672,
+      "bytes": 481808,
+      "old_sha256": "e3421066ebaeec45eecda8d916d5074ec7aeeda05f2950267c698815b78d5a3d",
+      "new_sha256": "5ffb2d3b328e8f395ec60177881314e725878efe32a021c2f4cd7d369b9dd360",
+      "part_count": 12
+    },
+    {
+      "name": "pl13l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1745,
+      "absolute_offset": 1599326208,
+      "bytes": 465680,
+      "old_sha256": "71095ece8cc2c97984be1ff1f95730b99e24f1fd285670207ea99bf2c52f63c8",
+      "new_sha256": "75785b58e3f8879caef814f92ecd3d127068286c69af7677935974c902a70997",
+      "part_count": 12
+    },
+    {
+      "name": "pl14.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1669,
+      "absolute_offset": 1548800000,
+      "bytes": 728336,
+      "old_sha256": "4e488795dbe8783688e84fe49fa0a70fadc78e418fa2ba083c062f2c5c2aedc7",
+      "new_sha256": "03d0e502eed32cca479d54f31a5ca0710fbd6be6b23711433477fd8f627782f7",
+      "part_count": 12
+    },
+    {
+      "name": "pl14l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1746,
+      "absolute_offset": 1599793152,
+      "bytes": 669072,
+      "old_sha256": "7b765608fa59e6536e875070aa54562dcee393cd659c93deabf3179243efd400",
+      "new_sha256": "ac84573fd145c88731984257b5615d2cc31a044d52d3d221a3540548a578072e",
+      "part_count": 12
+    },
+    {
+      "name": "pl15.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1670,
+      "absolute_offset": 1549529088,
+      "bytes": 837904,
+      "old_sha256": "c8014411561d964d49b89a749346e375b4b620b335624686a887b857f8389e5d",
+      "new_sha256": "59aaf54ac44ef52086f085f02c6dc886d328f2295f361b861d9ae37f027c03e6",
+      "part_count": 12
+    },
+    {
+      "name": "pl15l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1747,
+      "absolute_offset": 1600462848,
+      "bytes": 783760,
+      "old_sha256": "281362f4196d1cb37ad6bf27a357de0b439c93fd6da9433b338cc4024a9796b1",
+      "new_sha256": "c83e1c12690745e05ed1ae26f003263ac490dc69e147e28f89a507e43c0c7de8",
+      "part_count": 12
+    },
+    {
+      "name": "pl16.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1671,
+      "absolute_offset": 1550368768,
+      "bytes": 769296,
+      "old_sha256": "2428da403a390080673503dbd5b44fc09c75637ba4462f0a7ea51300f717269c",
+      "new_sha256": "abfece901fd8d57f2c424b5244bf502fb331c285e462c9c32117b77026f5ab07",
+      "part_count": 12
+    },
+    {
+      "name": "pl16l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1748,
+      "absolute_offset": 1601247232,
+      "bytes": 734224,
+      "old_sha256": "6cb992b2801bf33b80055d7e044994d69f61ac2d89d4c0d86a46addf8f429fb7",
+      "new_sha256": "19d7a8ff540075e96ca50d55aaf2d8ddce9a4bc46a4fcc03f33441182215892d",
+      "part_count": 12
+    },
+    {
+      "name": "pl17.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1672,
+      "absolute_offset": 1551138816,
+      "bytes": 586896,
+      "old_sha256": "12a8ec56dae7c1ed67ad5b52b0425ec52b8f4787b3c39844a7a7769e213e8341",
+      "new_sha256": "1a99b16eb4bb9a853afe20f2f2a0ee958e05f5f000b66be73d696d4c3ccc930c",
+      "part_count": 12
+    },
+    {
+      "name": "pl17l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1749,
+      "absolute_offset": 1601982464,
+      "bytes": 562576,
+      "old_sha256": "2150525114128fe0a68cb008ef5e22900dd29ecb9d8e1a819dc72953b8ec69c7",
+      "new_sha256": "6525982896ec76446609ea1559eaa9898b4dc1c92eda1232fe8d619b4f7ec8c9",
+      "part_count": 12
+    },
+    {
+      "name": "pl18.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1673,
+      "absolute_offset": 1551726592,
+      "bytes": 736528,
+      "old_sha256": "5175e61256564b1b9bde537e38bacc1e9f1d5487be69c63697420f90a7904908",
+      "new_sha256": "071176644d66a0b67f34f9ca59c3f434a5525b899445d1419272ddead6e43757",
+      "part_count": 12
+    },
+    {
+      "name": "pl18l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1750,
+      "absolute_offset": 1602545664,
+      "bytes": 694416,
+      "old_sha256": "d12da32ae501b403634dac3a98b777ae0fa3e10fde54467790d338bf2984fdc4",
+      "new_sha256": "5108c59eb2f9375ac77b3260b636729f6a64dbe3cc0d2a920497b2ecf1df624e",
+      "part_count": 12
+    },
+    {
+      "name": "pl19.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1674,
+      "absolute_offset": 1552463872,
+      "bytes": 610576,
+      "old_sha256": "20a14e89225594d7d9a0c279fab95c287d2b8fb3c35d5963e5a0748251de7f6a",
+      "new_sha256": "dbc784eb88cecb30a09285a75c4414838af009329e36c4b75b8d11c991b07b80",
+      "part_count": 12
+    },
+    {
+      "name": "pl19l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1751,
+      "absolute_offset": 1603241984,
+      "bytes": 585104,
+      "old_sha256": "69ecfe0339e8031b2fc16885d6a9b46de9b358d11368b2ab233723c2198c4414",
+      "new_sha256": "d776a477ba93023a686950f9fdad507e6ec60217974ee897c81e650d082f9e3c",
+      "part_count": 12
+    },
+    {
+      "name": "pl1a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1675,
+      "absolute_offset": 1553076224,
+      "bytes": 660240,
+      "old_sha256": "0ca752a3114456495072f59c9cef37b97a652b462ba0630ce3f38945010b5a4e",
+      "new_sha256": "4c5eb00a7c2e3e4c596e4e4cc0e41c27d245c2da5c9b02798787eda5ef416e8c",
+      "part_count": 12
+    },
+    {
+      "name": "pl1al.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1752,
+      "absolute_offset": 1603827712,
+      "bytes": 595344,
+      "old_sha256": "af7a025eb08fab0bacf018a7f03cee13eb789fb8e97ec6717916c4734087e753",
+      "new_sha256": "c571e2952fc2d9b9ca0ec97074f3f9196e60f2550f71d240a3313ebd9a2b8e87",
+      "part_count": 12
+    },
+    {
+      "name": "pl1b.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1676,
+      "absolute_offset": 1553737728,
+      "bytes": 717328,
+      "old_sha256": "b23e6908e064f4e874ec3900dd36f3e1b4782bbb1f0cf9f8403caf1b712a284d",
+      "new_sha256": "150de84ab604aa669afbf78d16ab33f7542c779d3bdb55754cbf5f001ad19789",
+      "part_count": 12
+    },
+    {
+      "name": "pl1bl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1753,
+      "absolute_offset": 1604423680,
+      "bytes": 673424,
+      "old_sha256": "99a4eff3f080002848432ddc9a3452b96b63c1d675cdcb18bdd231170797e591",
+      "new_sha256": "45492ba3f1efe5196ce1978a1332c5d8fbb3ff6b638eb349f07593b0551d607f",
+      "part_count": 12
+    },
+    {
+      "name": "pl1c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1677,
+      "absolute_offset": 1554456576,
+      "bytes": 565776,
+      "old_sha256": "3a2ec16e5a34d6588c594a9f8795adfb653dac12313279452d066cd648a63917",
+      "new_sha256": "833eea5b64e43510de12a66a35efd4a55fb2472532a4c1951bc3155175c216f5",
+      "part_count": 12
+    },
+    {
+      "name": "pl1cl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1754,
+      "absolute_offset": 1605097472,
+      "bytes": 543760,
+      "old_sha256": "d368cadf8b4119033eaf8770973774ecf80704d20da5cf0c53bf45f7de348b42",
+      "new_sha256": "0d67ffbd599902d54d40b40bab41d29c4e1fd287a542e13f8b0a5750ac8e58b5",
+      "part_count": 12
+    },
+    {
+      "name": "pl1d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1678,
+      "absolute_offset": 1555023872,
+      "bytes": 702736,
+      "old_sha256": "c83fd53d2a1be7e9d1c8e3285f2a3f935daa15095df8dacf54035831f808d918",
+      "new_sha256": "91ae239a9634ca25e5b85958cd56787536dc7b538e2688236f7cae4a19302cec",
+      "part_count": 12
+    },
+    {
+      "name": "pl1dl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1755,
+      "absolute_offset": 1605642240,
+      "bytes": 677776,
+      "old_sha256": "06bc5cdd24c41d28abf135bf5669d25a437abbb46e1de4f8e93cde5f9ff2f34a",
+      "new_sha256": "cff7ab90ed59294414e084517433a839accff8e70c0839dfc667dbb117038876",
+      "part_count": 12
+    },
+    {
+      "name": "pl1e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1679,
+      "absolute_offset": 1555728384,
+      "bytes": 736784,
+      "old_sha256": "794023ac602245888193f6c8bfb9b3a818847d342ad1243e602966d6b8dff125",
+      "new_sha256": "d5f2db6b7f263008fd9f3d4efde28a7d9e6369cd990abe37c4d7be3a7a2f0e43",
+      "part_count": 12
+    },
+    {
+      "name": "pl1el.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1756,
+      "absolute_offset": 1606320128,
+      "bytes": 721040,
+      "old_sha256": "9b51d35c28498e0ada0a185ead02818e2ca9430a6ae19c760e39a21fdaad013a",
+      "new_sha256": "6931fcd68d41317f83860f91b664572a094bdc38dc22521d1f364c6993889d00",
+      "part_count": 12
+    },
+    {
+      "name": "pl1f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1680,
+      "absolute_offset": 1556465664,
+      "bytes": 810512,
+      "old_sha256": "c58e28606323aac5ee4af6e92db8a3ed01fdcca0203be55db1deafbbf09e75c7",
+      "new_sha256": "6cbccde964c7d06afffc8728e687e8c8b0c1650758a657a4cb13e7112deae969",
+      "part_count": 12
+    },
+    {
+      "name": "pl1fl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1757,
+      "absolute_offset": 1607043072,
+      "bytes": 773520,
+      "old_sha256": "f87cb8d7a915950e30d7fc9c28282d0b2b2f7d0d2afcbff7a154291166e79e37",
+      "new_sha256": "25e2243fdb5aff92d5cb8457b3afab59fd94284f42dbcc9b9d6b7a5badf9fdd3",
+      "part_count": 12
+    },
+    {
+      "name": "pl20.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1681,
+      "absolute_offset": 1557276672,
+      "bytes": 755728,
+      "old_sha256": "91a5ae94936d9a166d3c5b588931c036a40c6a138ba56b8d39220a19fa646a53",
+      "new_sha256": "d84046a172c58558ebc709edd13d65bd969a08c7ab819ddbd11e9f27383f056f",
+      "part_count": 12
+    },
+    {
+      "name": "pl20l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1758,
+      "absolute_offset": 1607817216,
+      "bytes": 736272,
+      "old_sha256": "611409fcb4b881a924e7ade15d93407ca76273df77b1f853e59943de523cf705",
+      "new_sha256": "464bb65f10e536af880920da1a57c8f0dd856332e21b368286c8f850537fee3e",
+      "part_count": 12
+    },
+    {
+      "name": "pl21.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1682,
+      "absolute_offset": 1558034432,
+      "bytes": 831632,
+      "old_sha256": "9f845150c5728702613f0b13545e8bde65bb930ff0e4a2e4b564ad9b6e0ed66a",
+      "new_sha256": "fef594d8078c86ee7cb15ddd06d64288087d6300d1e1322c9c9107140b07f4bd",
+      "part_count": 12
+    },
+    {
+      "name": "pl21l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1759,
+      "absolute_offset": 1608554496,
+      "bytes": 778512,
+      "old_sha256": "9ec58daf68b3f9846fcb89904f3ac95fbfc70252e4e0c8ae5c42de8307e3a7fd",
+      "new_sha256": "6de6f8859a7d2f788a507113e3c079ce73153af5dc83e2909c9aa310560cfa28",
+      "part_count": 12
+    },
+    {
+      "name": "pl22.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1683,
+      "absolute_offset": 1558867968,
+      "bytes": 813968,
+      "old_sha256": "f1c8de4261fa02b11af6725aa42e1bbca3b307365902f3dd7fc70e33ced8fbd3",
+      "new_sha256": "6ceb250619b7a159b360a396e417918295db478b3ab8fb9a9d754a9383ebe685",
+      "part_count": 12
+    },
+    {
+      "name": "pl22l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1760,
+      "absolute_offset": 1609334784,
+      "bytes": 766224,
+      "old_sha256": "dfdf5be9053de95c14ad9619cc293f85e4116e7df17bb0c25f89bd76bb5d1b79",
+      "new_sha256": "5ed24dfc27b22b1ce0eeb933ca0fc3443f6f4b8aafa8b8fd6bb3f017afe045fe",
+      "part_count": 12
+    },
+    {
+      "name": "pl23.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1684,
+      "absolute_offset": 1559683072,
+      "bytes": 836752,
+      "old_sha256": "545f8650b1b0ecc19e2b904cf4ffaeed08b80269d8c1a71b72e0b716cbc846ab",
+      "new_sha256": "986c465c2075354aca2aa3c1333e574fc7155ef74bbbf8de9e20b8f74651fe0b",
+      "part_count": 12
+    },
+    {
+      "name": "pl23l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1761,
+      "absolute_offset": 1610102784,
+      "bytes": 814096,
+      "old_sha256": "e5f70fad276f9c4728fd3fa81034830b88e1ba401b84a67ffd5b68ddbd7294c2",
+      "new_sha256": "023e22b9ce555b7e4f2cb53478b08edbb31999e568d135f94a3b093ec33b6a5b",
+      "part_count": 12
+    },
+    {
+      "name": "pl24.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1685,
+      "absolute_offset": 1560520704,
+      "bytes": 610704,
+      "old_sha256": "4cedd59d7983276fa3f2f6f24664f050bd63b9d7cc9ab600ccd3d372b572a147",
+      "new_sha256": "8db31c7d48b0ce303f355577692f934d1fe942f5fadc5a24008ca100b1927a35",
+      "part_count": 12
+    },
+    {
+      "name": "pl24l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1762,
+      "absolute_offset": 1610917888,
+      "bytes": 507920,
+      "old_sha256": "aa6fcd06ef3f5011566817f22e14fc951018c5cb33a706093adfc10d6008c4b6",
+      "new_sha256": "af80dd46e46a1885cdb507abb037d6b9a75a4562295a36c419b24e58aaae9283",
+      "part_count": 12
+    },
+    {
+      "name": "pl25.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1686,
+      "absolute_offset": 1561133056,
+      "bytes": 738704,
+      "old_sha256": "a4e25d7d49170ec50ef81b62fc9b2310033f56e968d284c97cb82955f2e41545",
+      "new_sha256": "caf01dfd62544d2f2de633a42650b37df3aab562595deb9795170dff69f096b8",
+      "part_count": 12
+    },
+    {
+      "name": "pl25l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1763,
+      "absolute_offset": 1611427840,
+      "bytes": 681616,
+      "old_sha256": "74f2c09c61bcc3005a68e5f55c738374ef8347634139074153c039896980e026",
+      "new_sha256": "eba077bdba03af17a00f0ef94a8185787e71603330697091107076eaa8b5c180",
+      "part_count": 12
+    },
+    {
+      "name": "pl26.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1687,
+      "absolute_offset": 1561872384,
+      "bytes": 744464,
+      "old_sha256": "d9c8db5d5e2bddbe652ccb4ef9be05e8c281f94310d8fe173c7130933563400c",
+      "new_sha256": "f7c1a2bc88869369911952b72dc6db6b4944b518b9868dc8292388ae340f2be3",
+      "part_count": 12
+    },
+    {
+      "name": "pl26l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1764,
+      "absolute_offset": 1612109824,
+      "bytes": 695440,
+      "old_sha256": "eace04b895215c92d97ae53bebad046ca93722e9f762dac69fb284f79a85545a",
+      "new_sha256": "73107eabc3f2382036e48012866929ca3730f3fa86632c39ab92402b1600bb34",
+      "part_count": 12
+    },
+    {
+      "name": "pl27.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1688,
+      "absolute_offset": 1562617856,
+      "bytes": 650256,
+      "old_sha256": "f2e42d8b94b2b8e16e12a8e59caf4e5893ab086c5c212424e064f151aa34eca0",
+      "new_sha256": "041465690094117ce511cf327ea95652d03044c7f7964c9e38ce965b27265156",
+      "part_count": 12
+    },
+    {
+      "name": "pl27l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1765,
+      "absolute_offset": 1612806144,
+      "bytes": 606352,
+      "old_sha256": "3540a5da63fa26325520f430287e865d21d5ee8ae833413db1d5bc3b46066244",
+      "new_sha256": "15a285a5d6860935760495f95ee2d0e15b03003bcf7c4ad4ce0bce39620de673",
+      "part_count": 12
+    },
+    {
+      "name": "pl28.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1689,
+      "absolute_offset": 1563269120,
+      "bytes": 614288,
+      "old_sha256": "47e52f69981ca7fe46064dd4c194594942aa3172510e06ad864f0b86fd5d3672",
+      "new_sha256": "7ff9d5bd7d0c7b2f8af5f54c5c961a07e5264056a7ec92453fe5b61150a29cc5",
+      "part_count": 12
+    },
+    {
+      "name": "pl28l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1766,
+      "absolute_offset": 1613414400,
+      "bytes": 596240,
+      "old_sha256": "06c49eea0ff76b3963e4775166dd7e7698396c1a58fda2e26045cd649c4f69d8",
+      "new_sha256": "7de540c2ec8e040af6739116407b35cd40e2f56d251d43e6888b8324d9fbb30a",
+      "part_count": 12
+    },
+    {
+      "name": "pl29.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1690,
+      "absolute_offset": 1563883520,
+      "bytes": 571280,
+      "old_sha256": "b4cec7151f0636d5eed6e0196cdffcec77a23d78f4584d5d13475e8f823e6f0a",
+      "new_sha256": "b5347d4a6e82351d8a19ff183957c54e857d2eb383e0aa05a334c4f59c6201aa",
+      "part_count": 12
+    },
+    {
+      "name": "pl29l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1767,
+      "absolute_offset": 1614012416,
+      "bytes": 532368,
+      "old_sha256": "edaa521345d817fae96c1d8e24448c6791e39cd85a632c8ead244bbfd8fbf344",
+      "new_sha256": "951c62d43e186c1898189dad7b492ef1a38ae8fd9f3dcc7043bfb73982a4d46c",
+      "part_count": 12
+    },
+    {
+      "name": "pl2a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1691,
+      "absolute_offset": 1564454912,
+      "bytes": 790416,
+      "old_sha256": "9e08d3cb67ca4239c7615c93453f1303ed68d1d85a9549f3005e963e259150bf",
+      "new_sha256": "9a1b44817d4450ffddd60762146d37f0806777c56747d8af08f6368ea1b37703",
+      "part_count": 12
+    },
+    {
+      "name": "pl2al.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1768,
+      "absolute_offset": 1614544896,
+      "bytes": 734352,
+      "old_sha256": "646668008d987c7a2fc677d279759b483b591bc7c079872c37fcfb2ef2bc2d1d",
+      "new_sha256": "26c646e8cc8eaf373b7c0a91d64877e12f6c9bc5f81feecb6b124c6cd1f1999c",
+      "part_count": 12
+    },
+    {
+      "name": "pl2b.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1692,
+      "absolute_offset": 1565245440,
+      "bytes": 822032,
+      "old_sha256": "385bd35b64a5420947ad9c2134b93a5295708e7228aaa26154c15695e0882c7b",
+      "new_sha256": "e6e65fe2371a7a602eb87ad42bfa61b6828c1a3c066f667bd68b69cf438ab497",
+      "part_count": 12
+    },
+    {
+      "name": "pl2bl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1769,
+      "absolute_offset": 1615280128,
+      "bytes": 799760,
+      "old_sha256": "d1cfc247549617e9e32438d6516b04d0773398f646b86a9494cebef5c74db4be",
+      "new_sha256": "fad07599c56d00ea09e820bf6aba31fce1acff946c817dadc20ae4d7cae6b286",
+      "part_count": 12
+    },
+    {
+      "name": "pl2c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1693,
+      "absolute_offset": 1566068736,
+      "bytes": 621328,
+      "old_sha256": "f4e48ce99b946a83ce0f17ee9553d4919326c46da0a23de2df132f1e8656735b",
+      "new_sha256": "79dc681726b6e560910b1bef11aa4ffd15cb4ba6640d0c9c6a604345316bf126",
+      "part_count": 12
+    },
+    {
+      "name": "pl2cl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1770,
+      "absolute_offset": 1616080896,
+      "bytes": 610832,
+      "old_sha256": "67f7437b3977eccc49b570ed658dd7b2324f2a21cd1e38b10a9053de3464f0fa",
+      "new_sha256": "e0ff506ce39ce370edf897acf700c22d2dc6ffe1f9d3e029b02cde2edf75c948",
+      "part_count": 12
+    },
+    {
+      "name": "pl2d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1694,
+      "absolute_offset": 1566691328,
+      "bytes": 688016,
+      "old_sha256": "a8e780b1f698c4a0c51e141ef69797a1ae8f472c61eec8f5ed05dd48fad8b7cf",
+      "new_sha256": "002ab61f19feab8f5100548ec325fd4ee0702c3798ccf4458a4c82bf4befc175",
+      "part_count": 12
+    },
+    {
+      "name": "pl2dl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1771,
+      "absolute_offset": 1616693248,
+      "bytes": 592912,
+      "old_sha256": "b6e4ebddd00d8b3e50533fb429b7d6f9af0ee5d3c8cea4ecaf22f36d4f8b46da",
+      "new_sha256": "a8bd219326fdb19cc02f7b4262f98ce0f67062d8d1cdd251be6eebb7b21b6596",
+      "part_count": 12
+    },
+    {
+      "name": "pl2e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1695,
+      "absolute_offset": 1567379456,
+      "bytes": 544656,
+      "old_sha256": "5ae12b7eb2f9415e979c86096552071864bbbe23b54db8d87d7a8f4403364de3",
+      "new_sha256": "e0404989833cd5bba28eb2db2ec074c852750eecc2afe975f1ca84e5b2c26ee3",
+      "part_count": 12
+    },
+    {
+      "name": "pl2el.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1772,
+      "absolute_offset": 1617287168,
+      "bytes": 499088,
+      "old_sha256": "91c91e338e614b9a744e882db69dc72afdf927a4b681d07d4fabb361c71b1d74",
+      "new_sha256": "9039bdacf3f7ab2c60cfc1e0ec566683c3fd4f4051ff6ecd1e6e0ff94b5fb1ce",
+      "part_count": 12
+    },
+    {
+      "name": "pl2f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1696,
+      "absolute_offset": 1567924224,
+      "bytes": 719760,
+      "old_sha256": "cd48921c6895087d225efb2fae2724a77fefa7f881e0f958842c33ccffe4be7f",
+      "new_sha256": "38328802e64a11ddcd00dfd5fa2af21e1715e310627dae284fd926e122559c14",
+      "part_count": 12
+    },
+    {
+      "name": "pl2fl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1773,
+      "absolute_offset": 1617786880,
+      "bytes": 622352,
+      "old_sha256": "35b93dc3107158a1bb9f4ac7806712add6a1fdc4837f406ada95e018437ee12e",
+      "new_sha256": "24fee65afa8f489958e80079e9cb9629c0137dd6504473891f0ebb0b32d6e68b",
+      "part_count": 12
+    },
+    {
+      "name": "pl30.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1697,
+      "absolute_offset": 1568645120,
+      "bytes": 852112,
+      "old_sha256": "e21a447c2c058a53bf400be7f45eb92c86fd4fc5c247e9f56fd03279e3f08c99",
+      "new_sha256": "1071c51374c2a456e7bb8d74a44af1d4fbf1d68bf9f00f2763adfff49143832a",
+      "part_count": 12
+    },
+    {
+      "name": "pl30l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1774,
+      "absolute_offset": 1618409472,
+      "bytes": 771216,
+      "old_sha256": "446a487ae570d7465a557217e944058c4a41f4c8cf55a90cc38e7b41669bb600",
+      "new_sha256": "9aecfc30a663f45e2c9a4622c4ef825e0562e5bad7b5425c0d61c5bc50b30921",
+      "part_count": 12
+    },
+    {
+      "name": "pl31.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1698,
+      "absolute_offset": 1569499136,
+      "bytes": 748048,
+      "old_sha256": "d072983bcd3bbbb27a686a19c1b6a327118b549ddf926a5a113f5d3ae54fab92",
+      "new_sha256": "c900cebe077a5e01fa7cb074108d1e0820f9f3611fd29b7b4ec0d9d3a13de5cc",
+      "part_count": 12
+    },
+    {
+      "name": "pl31l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1775,
+      "absolute_offset": 1619181568,
+      "bytes": 700688,
+      "old_sha256": "e9957b7da0cb8f8061b93fe2a0fa6c0234f1476d3d8b3f105c6fa7909bfbc1aa",
+      "new_sha256": "58268d7bb260ea5e3dbd6d7e2c130a422b691d9b739f18c8f9fd18e2fdbb522d",
+      "part_count": 12
+    },
+    {
+      "name": "pl32.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1699,
+      "absolute_offset": 1570248704,
+      "bytes": 873872,
+      "old_sha256": "cfd84a1c8dbdd51e6079e65529c730e7fa502fd260efc3be40ff59dd35b1fcc5",
+      "new_sha256": "d3e7a4ac972c68bffbcd748716aa877e4c629dc809d4f4da7a40699682c515b9",
+      "part_count": 12
+    },
+    {
+      "name": "pl32l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1776,
+      "absolute_offset": 1619884032,
+      "bytes": 781584,
+      "old_sha256": "a7a27c943aede3699251660d58d405d59b465eff440631cee55a1522fca29127",
+      "new_sha256": "b4a4afd919bd9ec00d0407325595ce8c5691f6d3d5070f72aa77bf4427d26123",
+      "part_count": 12
+    },
+    {
+      "name": "pl33.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1700,
+      "absolute_offset": 1571123200,
+      "bytes": 831376,
+      "old_sha256": "e6f169b3f67fcd5a9d221fbddc386d5891b2d4e580de3330a1724e4a27893abd",
+      "new_sha256": "21a0731a3c4312f05d1ae2a5b8daec61680c8d3eb6762be64ab5ea84464c5b7a",
+      "part_count": 12
+    },
+    {
+      "name": "pl33l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1777,
+      "absolute_offset": 1620666368,
+      "bytes": 817936,
+      "old_sha256": "63a2fbd134eac8919d08e14d606b51f5d40038dee1dab8859a891317a4e4d4a2",
+      "new_sha256": "3940e2e315daa44ddad72382c4db61cf7a47e4e4bf52de0057f33f94f1b8251e",
+      "part_count": 12
+    },
+    {
+      "name": "pl34.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1701,
+      "absolute_offset": 1571954688,
+      "bytes": 666256,
+      "old_sha256": "ef56b50fbe514ecfe59d49024dc87242799666d14904a6dd2b534c7f210b93ba",
+      "new_sha256": "8ad7293e6f1cf8b601ea45a142a1e73f62578a306ef3d5fcff20607780410fbb",
+      "part_count": 12
+    },
+    {
+      "name": "pl34l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1778,
+      "absolute_offset": 1621485568,
+      "bytes": 630800,
+      "old_sha256": "f97e634fbf0eb7d7686230710d0fc09bd235148f1c011482f361ddda56ec9eaa",
+      "new_sha256": "7df13e43cae37e5ff5744a9507991ac9842a45b405ce4ee64bfb7a1f60832cde",
+      "part_count": 12
+    },
+    {
+      "name": "pl35.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1702,
+      "absolute_offset": 1572622336,
+      "bytes": 778512,
+      "old_sha256": "c1e274baf3f439b781eb992abd4a264131d2d2e86efd672868c56a4b549d2938",
+      "new_sha256": "b10ca7a06f525e7535bfaf894b79d5de028fda3a51844ffc8afb5200702a40ee",
+      "part_count": 12
+    },
+    {
+      "name": "pl35l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1779,
+      "absolute_offset": 1622118400,
+      "bytes": 715792,
+      "old_sha256": "16267d486c7e554ac2cd7a0a9a686b50cf24b5ee0d6d3817978ac70c70f3b60f",
+      "new_sha256": "20db1740bbbbb88e63ace4af683f26721f99c3e1440e5993cd8db1312e1f2f05",
+      "part_count": 12
+    },
+    {
+      "name": "pl36.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1703,
+      "absolute_offset": 1573402624,
+      "bytes": 518928,
+      "old_sha256": "46f280f9dcd41560cf40fa6603cdbadcc32281e34a83e99340662029517430af",
+      "new_sha256": "c7641e965f17a539c61299fd0f2c84088b4e8cfc8130f9afa6be53372637d9fe",
+      "part_count": 12
+    },
+    {
+      "name": "pl36l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1780,
+      "absolute_offset": 1622835200,
+      "bytes": 506256,
+      "old_sha256": "44b2f3ca7f7b1ac4b7a97f9ed1b24b10170cc21a94c1b3fe1d01b42e592884c9",
+      "new_sha256": "3f7f2e64ba2ab14fc9856929b7b0a5cb720d6e36ef41f3951ed435085f9f0725",
+      "part_count": 12
+    },
+    {
+      "name": "pl37.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1704,
+      "absolute_offset": 1573922816,
+      "bytes": 667408,
+      "old_sha256": "039f018a98382f8b7fc0689d72b619eebb146e7bdfdb275b894f30911c1ceae3",
+      "new_sha256": "e2f9461da5b9c9bb3819e68294d508aa6fc825034c5a6eb2ff1d5e7415f32818",
+      "part_count": 12
+    },
+    {
+      "name": "pl37l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1781,
+      "absolute_offset": 1623343104,
+      "bytes": 645008,
+      "old_sha256": "7e25831b9af1fa085180ac8fcc913171b60353ad7842159c7fa9b8e34a126037",
+      "new_sha256": "64494038f359aa89709deabcf5f4235955d74f0fc4054367e72de604972eef8e",
+      "part_count": 12
+    },
+    {
+      "name": "pl38.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1705,
+      "absolute_offset": 1574590464,
+      "bytes": 827792,
+      "old_sha256": "94f7d9675c86e66c7cb4fb6522ad459a63aa377676989493be760a675f6c51f8",
+      "new_sha256": "0ab539fb791f8d7944f8f01b00012ca0b9cf0d64e90265f0575f10490bc4fa5a",
+      "part_count": 12
+    },
+    {
+      "name": "pl38l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1782,
+      "absolute_offset": 1623988224,
+      "bytes": 774416,
+      "old_sha256": "b1aa444e77c36aec15e1220d601df07b76618afa2c7f790e3d7e836eecc4ead5",
+      "new_sha256": "c9f7dbccae8cd6e19c05c2119cc2436ec8b87d62ee0c52900a225e0e337332ea",
+      "part_count": 12
+    },
+    {
+      "name": "pl39.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1706,
+      "absolute_offset": 1575419904,
+      "bytes": 585488,
+      "old_sha256": "06ae25e7d691b803e93eb378c428be49a5e98352078dfb1b29b82a94c8ba3097",
+      "new_sha256": "c34c1694a4e048a84c56a0b4c2520850a20a9dabb750e27e266368a9035896b1",
+      "part_count": 12
+    },
+    {
+      "name": "pl39l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1783,
+      "absolute_offset": 1624764416,
+      "bytes": 557456,
+      "old_sha256": "9a950e9a5c550dccb86c730731d14ae308c02e0966a8e917d01e0b0f96f51ef5",
+      "new_sha256": "178b71577b138ac7078bbf4372f6b648c40250966f4f1039ac3a00cb82c7da55",
+      "part_count": 12
+    },
+    {
+      "name": "pl3a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1707,
+      "absolute_offset": 1576005632,
+      "bytes": 748048,
+      "old_sha256": "6e890da0da3b60cbf36c4faec7477503c3467fd1a602a745fa00f8b31859cce8",
+      "new_sha256": "b03d01b1e587d54ceef6bfab48dd435408c5318e7bf0a78d15b3e02a84b03670",
+      "part_count": 12
+    },
+    {
+      "name": "pl3al.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1784,
+      "absolute_offset": 1625323520,
+      "bytes": 700688,
+      "old_sha256": "99c9631ccfa5074b60c3c2f8a046469e7696dbf2afb64b9be10e488c1f41ce96",
+      "new_sha256": "b3a51c4d13071a6757c5fd0c16c9bd38757bac720f72c52a6379e6f2acaf82a4",
+      "part_count": 12
+    },
+    {
+      "name": "pl3b.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1708,
+      "absolute_offset": 1576755200,
+      "bytes": 705936,
+      "old_sha256": "2aa85b6f2c3905b0bba915ad869308afeaeb0b7b3aa423b5e9e233488944e43d",
+      "new_sha256": "e69166db3f8e406793d26078b417a0ca0d6317d4cd676921aa8eed2f3d457dec",
+      "part_count": 12
+    },
+    {
+      "name": "pl3bl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1785,
+      "absolute_offset": 1626025984,
+      "bytes": 686352,
+      "old_sha256": "abe66f061e4013ec6f5e8fa2600616e8767367cec5f9836e287d9d8bfc70ab83",
+      "new_sha256": "58397514e03a67b99681b71b2a5e3fed74fdb5b543c03982a8f61b46972ddd5e",
+      "part_count": 12
+    },
+    {
+      "name": "pl3c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1709,
+      "absolute_offset": 1577461760,
+      "bytes": 613392,
+      "old_sha256": "1c534389892390976f0d61a41f053b04d356d89f81e798c6bf561cf5e75307a4",
+      "new_sha256": "c82f66fa20642b73381f996604dbab8257b65741f13d659a35044bc856b6ccdf",
+      "part_count": 12
+    },
+    {
+      "name": "pl3cl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1786,
+      "absolute_offset": 1626714112,
+      "bytes": 608016,
+      "old_sha256": "c123ba7abdc4aad8214e751e481851699599e336b35282444a670f5d7794b3af",
+      "new_sha256": "ea246ea6080e53fa057c4a114a9b686810d5da3b89a21cb4e8f1e30ebb82588d",
+      "part_count": 12
+    },
+    {
+      "name": "pl3d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1710,
+      "absolute_offset": 1578076160,
+      "bytes": 311312,
+      "old_sha256": "af1903fe1f754edbee075be031f8c0ca6b58b84be57d8a6ed1d6955624aba9ea",
+      "new_sha256": "564761e9d037526e4582e89876c7b231f11fe13819560f654ab5710f61dee3fb",
+      "part_count": 12
+    },
+    {
+      "name": "pl3dl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1787,
+      "absolute_offset": 1627322368,
+      "bytes": 312208,
+      "old_sha256": "8362d27149bdb37317523dcd6be0c71cb4e9246d9be297359003be9dfa1ddc4b",
+      "new_sha256": "11e3f30790230a9ac8c68864e1af83eec13afae43e3adbb1324484f58c161931",
+      "part_count": 12
+    },
+    {
+      "name": "pl3e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1711,
+      "absolute_offset": 1578389504,
+      "bytes": 589712,
+      "old_sha256": "c6cb0313df0b3bc278f05d01fed4e88075078f3564adc09bb83cbfe49d0000db",
+      "new_sha256": "cc8bdc29000ec6062014f8b094a2d5efa5fb85983eae332781153f6dabeec52d",
+      "part_count": 12
+    },
+    {
+      "name": "pl3el.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1788,
+      "absolute_offset": 1627635712,
+      "bytes": 540816,
+      "old_sha256": "717120ef4838e07822e34f4495213b4565d342fa53c3184ef2392e61304831ca",
+      "new_sha256": "b46b97a47c07ff78ef81de521e25a7dcc1c4a454c6549e84f69dc7113d7f731a",
+      "part_count": 12
+    },
+    {
+      "name": "pl3f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1712,
+      "absolute_offset": 1578979328,
+      "bytes": 378640,
+      "old_sha256": "8e2b440f7ff574dd9acdf0ecdc6a98eeb12820de76bf87f47c4d42a0b94d0805",
+      "new_sha256": "a0161c8f2212a034567983f15fc8c8cced79e640bb367b88cb74b64393fce6e2",
+      "part_count": 12
+    },
+    {
+      "name": "pl3fl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1789,
+      "absolute_offset": 1628178432,
+      "bytes": 356624,
+      "old_sha256": "b4b610aed653a02bf89b9d1510ceea3dc4c06a76d56b0046943faae35ad09cc2",
+      "new_sha256": "416f1ec9af80ba66ccb9de70e3340c1239025d78f7950b0fed377f226004b0e4",
+      "part_count": 12
+    },
+    {
+      "name": "pl40.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1713,
+      "absolute_offset": 1579358208,
+      "bytes": 462352,
+      "old_sha256": "fac5cf9364501ba7947eb7e2015014503b64496f8619d5bfa67af313a789c57f",
+      "new_sha256": "2139823d1591109eb829f64095c46fc4debf0540aebfd11372758fe6381a9612",
+      "part_count": 12
+    },
+    {
+      "name": "pl40l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1790,
+      "absolute_offset": 1628536832,
+      "bytes": 460560,
+      "old_sha256": "631a294c5210afa07734450898b47057da774ad4eb865636e8af3c3db218913c",
+      "new_sha256": "46a5162a2656b0d433ad742ee53a449025f377e3c8f46df82101febf29fa1f62",
+      "part_count": 12
+    },
+    {
+      "name": "pl41.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1714,
+      "absolute_offset": 1579821056,
+      "bytes": 849936,
+      "old_sha256": "d4ce0a5fbe63b9cb91c36aeaf42751a21d0fbb83d24b6ab54434ff65db218ba2",
+      "new_sha256": "e36d476aa9c7c7fcb9f8955d92f67b5fb5ee2566bd7da1b6eb2d18503decd2d5",
+      "part_count": 12
+    },
+    {
+      "name": "pl41l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1791,
+      "absolute_offset": 1628997632,
+      "bytes": 793104,
+      "old_sha256": "3dabc43fa9304eba6cbff23aefcaf20e5733423f1df9277086f758d6ee4ad066",
+      "new_sha256": "66fb15f6af8001b2d169a971c893e87aebce4bccecfa9ebd9a7dbcd3b63c1cf6",
+      "part_count": 12
+    },
+    {
+      "name": "pl42.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1715,
+      "absolute_offset": 1580673024,
+      "bytes": 713360,
+      "old_sha256": "05b27af60c33f025fba75e7b15accaaf8ead804a7c5446149aae5db6fdbb52d7",
+      "new_sha256": "da5b0b618ecc4414137d2052b3c66ab884adea08d7b76e5712d9d6eb04b6e3b4",
+      "part_count": 12
+    },
+    {
+      "name": "pl42l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1792,
+      "absolute_offset": 1629792256,
+      "bytes": 654864,
+      "old_sha256": "c584b694a004dea8e8daae78ca48695631da71413163df74a277095c0c16a00c",
+      "new_sha256": "bcf03c2d760c56affdb5bb0c6e013e1b9aee11b0b394d6b10cd5faea83ebbf1e",
+      "part_count": 12
+    },
+    {
+      "name": "pl43.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1716,
+      "absolute_offset": 1581387776,
+      "bytes": 707216,
+      "old_sha256": "d254bb4574f00578fe02932775b187f7d6601316dbc99127ab2b79db9176a47c",
+      "new_sha256": "bdb3a23792b3c023c863563a2c629bf7949749ff6471a22f5ada13f538dabc83",
+      "part_count": 12
+    },
+    {
+      "name": "pl43l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1793,
+      "absolute_offset": 1630447616,
+      "bytes": 697616,
+      "old_sha256": "57631ad1d287001a8bdf5af3671add7dc6e8a287d77f8f182c0d61b3804318f6",
+      "new_sha256": "7bbcfdaa362fb6627ab0aaa08b51c9b2a27d0b8cd7550d8ec7df5b7194fcea26",
+      "part_count": 12
+    },
+    {
+      "name": "pl44.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1717,
+      "absolute_offset": 1582096384,
+      "bytes": 798864,
+      "old_sha256": "475578b3fc3f7917f44e2453beb9c5d1d8d1c34fd9b6a55e7b615ade2cc1feb4",
+      "new_sha256": "8397c5acf074bd6262faf593385d42029f0d56ed484e0d830bf6130fa7525f4a",
+      "part_count": 12
+    },
+    {
+      "name": "pl44l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1794,
+      "absolute_offset": 1631145984,
+      "bytes": 783504,
+      "old_sha256": "e4fd0beea957b93927d989886ad49fb9f74e0c72a3cd1722bd1bd9a69786e128",
+      "new_sha256": "b5c9b5e73e5136a4123e1c2c7c2ddd34b44895a5401b26bdcb158cd5f8be47bb",
+      "part_count": 12
+    },
+    {
+      "name": "pl45.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1718,
+      "absolute_offset": 1582897152,
+      "bytes": 619408,
+      "old_sha256": "98c9ba9b0fe55a63feebf1e930604baaaa8e3b2c66efeb4e526826a6db94d86d",
+      "new_sha256": "208cc895efdbecfdf594eb580068cc4bc73f5b7d2998548058e816e3d10e8df9",
+      "part_count": 12
+    },
+    {
+      "name": "pl45l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1795,
+      "absolute_offset": 1631930368,
+      "bytes": 613264,
+      "old_sha256": "0411b13df84625ace3b9f509e9eecb2398fcac193991d43e1f8c9f005b791427",
+      "new_sha256": "8eb5058809058a37ce128e6252e7acd80f88300fd303eda1cf3744953f0c54bd",
+      "part_count": 12
+    },
+    {
+      "name": "pl46.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1719,
+      "absolute_offset": 1583517696,
+      "bytes": 422160,
+      "old_sha256": "147ebd32c998454d48f336f002e774a3febd02f240e772e12e1ab886a0d8e323",
+      "new_sha256": "6125c848488b9af13add16db022a4ec1f026611e3ec38f68d535f79b69de83b8",
+      "part_count": 12
+    },
+    {
+      "name": "pl46l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1796,
+      "absolute_offset": 1632544768,
+      "bytes": 403472,
+      "old_sha256": "2c7d07a8b20f1ea1f95a4ac702b3599e081f0243867e0f768f01cda3ba2b9da5",
+      "new_sha256": "12b9df82f56608aa59fd004bf4acab1792de7afdc2d95645d57a0b7fe81e29e7",
+      "part_count": 12
+    },
+    {
+      "name": "pl47.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1720,
+      "absolute_offset": 1583941632,
+      "bytes": 494480,
+      "old_sha256": "ef8001cee579697cedd62d10d87aa63977b9d48ffe8a1313dc33a98d1a075794",
+      "new_sha256": "a4d073c93ba9f611df840adf9be891c36204dce7484aaad041ca593bed730ad8",
+      "part_count": 12
+    },
+    {
+      "name": "pl47l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1797,
+      "absolute_offset": 1632950272,
+      "bytes": 487184,
+      "old_sha256": "ad92105d49a7ce23ed3bad458ba4e07471147fe55117f0aa8201e254785d67d9",
+      "new_sha256": "f03c278fb52bc508364c073426a0796ecfdc1beb8d7483e6208b4d27965bece1",
+      "part_count": 12
+    },
+    {
+      "name": "pl48.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1721,
+      "absolute_offset": 1584437248,
+      "bytes": 662160,
+      "old_sha256": "11fb9f2e0824e07d1298959a237b4abf7a3bd4f69e453f9e0a82aeac4aef1283",
+      "new_sha256": "a9e1d8bbc0f681bba4efb8b1a8f74a2495930a60f89fb7d411971e16b52d9e16",
+      "part_count": 12
+    },
+    {
+      "name": "pl48l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1798,
+      "absolute_offset": 1633437696,
+      "bytes": 657808,
+      "old_sha256": "b51d653e7c148239facf70a9b6131dbacd9299ea835771aeaf067d355a4eb170",
+      "new_sha256": "503814e625109300e20018b8bf46fd28c06515c04734e8deba9f5406ba3bf4c8",
+      "part_count": 12
+    },
+    {
+      "name": "pl49.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1722,
+      "absolute_offset": 1585100800,
+      "bytes": 187280,
+      "old_sha256": "665e2e8e5b835bc36182bac04703223540305cb867f70aad810e08008dfba241",
+      "new_sha256": "3cf41277b6653076a7382bdcff62d19254392e9ff8a6ad92093aed07f4bb49fc",
+      "part_count": 12
+    },
+    {
+      "name": "pl49l.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1799,
+      "absolute_offset": 1634097152,
+      "bytes": 187152,
+      "old_sha256": "3f48fae91091db15b9053d5b7e1e3961c20e8f71211722cfc651dc491acbe4cb",
+      "new_sha256": "482b349717f10684235a50712ca84e51e45e1dfe741222dd70e536e64b080127",
+      "part_count": 12
+    },
+    {
+      "name": "pl4a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1723,
+      "absolute_offset": 1585289216,
+      "bytes": 404880,
+      "old_sha256": "b57be3bde863bba99f856a1b739ee6740b2eb017c6eca8ef63583f1b96a79b94",
+      "new_sha256": "a43b791941d0496f3ad64d536ec9a6f03e1e4212e7aecae069c41d8df619e1c1",
+      "part_count": 12
+    },
+    {
+      "name": "pl4al.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1800,
+      "absolute_offset": 1634285568,
+      "bytes": 404112,
+      "old_sha256": "ea6f2d446e7b98e0c509df1e8beaa58fb605f5a4411b7952d7d896aabc087693",
+      "new_sha256": "9e9ababb079d3baf31e1f43bb6680e1e6eb1d25b96357a9ee77b4bcc1d8d78eb",
+      "part_count": 12
+    },
+    {
+      "name": "pl4b.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1724,
+      "absolute_offset": 1585694720,
+      "bytes": 651024,
+      "old_sha256": "ab266dad1656c00800a50d5984b1d82f5b88c55da6c71a8c23391487c0e77be6",
+      "new_sha256": "d63d026aca8b1adf25b5a84e0b3359bcbea407cc5cf9c6c0b0a6951a74b80352",
+      "part_count": 12
+    },
+    {
+      "name": "pl4bl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1801,
+      "absolute_offset": 1634691072,
+      "bytes": 647056,
+      "old_sha256": "3f75cfec1c8e6168c62341c330b4a57e8f32f6840abf5912d371a52d1a49dfda",
+      "new_sha256": "be8c2878b00385df1849c59eef94f5a7727c43723325e58b42526435e8ea4ac8",
+      "part_count": 12
+    },
+    {
+      "name": "pl4c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1725,
+      "absolute_offset": 1586345984,
+      "bytes": 421136,
+      "old_sha256": "4a1d0994c54002527095412cb7a8f822b2004d391f29cd4cea6b4bd905364809",
+      "new_sha256": "f1b68078f359d8639647a4f057b75a45a01d70af7a682612a376c2cf171aca78",
+      "part_count": 12
+    },
+    {
+      "name": "pl4cl.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1802,
+      "absolute_offset": 1635338240,
+      "bytes": 406672,
+      "old_sha256": "95953d08ba4795bbab1ed539a441c880833c93425fdf0b78965d32f94fe97256",
+      "new_sha256": "1739550a26dac0aa0dff19139472bfec2b062850ffafadfac942eb0c5ab09801",
+      "part_count": 12
+    },
+    {
+      "name": "pn06.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1349,
+      "absolute_offset": 1507284992,
+      "bytes": 2704,
+      "old_sha256": "1dcdbfd0ba5003050a5fbce9ddfe937581d9d6567be969a103d6b8ba94040a00",
+      "new_sha256": "9a42f3b75a310becce0336146554114fab6be4dd6769761133e0fc61ba17d759",
+      "part_count": 2
+    },
+    {
+      "name": "pn0e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1357,
+      "absolute_offset": 1507317760,
+      "bytes": 2832,
+      "old_sha256": "f8d05e535782ccee96babed57b5c208d425be447c8dba08e8c44eaec46942788",
+      "new_sha256": "f21f0901ac18ae1484aa69f20a050f6e8ccefe0b7f32517a5da2cb0781d684e2",
+      "part_count": 2
+    },
+    {
+      "name": "pn34.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1395,
+      "absolute_offset": 1507473408,
+      "bytes": 2704,
+      "old_sha256": "c1e1933b9453ee37445cefc2cc73a2800a869fbadeb25be5e140d516d0904d78",
+      "new_sha256": "5f0a89b119b5796fd8317c652f9c41b5f01babe21832d754fbb7176e2dc2fb15",
+      "part_count": 2
+    },
+    {
+      "name": "pn3d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1404,
+      "absolute_offset": 1507510272,
+      "bytes": 2704,
+      "old_sha256": "1d1c8d4673eff1b96f6227904d33148468d1b81fa56ca293eb7f6896b3b3ca09",
+      "new_sha256": "99e9d04e378a5a0a90b5ab1c5502c21b6bddd289e3889aad4446422926b9c782",
+      "part_count": 2
+    },
+    {
+      "name": "pn52.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1425,
+      "absolute_offset": 1507596288,
+      "bytes": 2832,
+      "old_sha256": "cbc31fa04d028a47fbc2d76d981b4fe27f2715f21900744172f359d2c5f9bb32",
+      "new_sha256": "72daa26c14f41716ed0a6c6d0b71bf41e47aa4b7d1ab38f39b83024c693a8d0c",
+      "part_count": 2
+    },
+    {
+      "name": "trl00.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 2295,
+      "absolute_offset": 1674942464,
+      "bytes": 31888,
+      "old_sha256": "3631170f43370bfe19233770edfd5bd62bd1ae1103a6406dd092682d93cdab7c",
+      "new_sha256": "732fd3082a2b1a82803f0f27d1e7a8c01c27e358f5bc894a804aa35b6e6fff5e",
+      "part_count": 2
+    },
+    {
+      "name": "vsel01.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 831,
+      "absolute_offset": 1500663808,
+      "bytes": 116496,
+      "old_sha256": "331209abb8e922eb9852f7c99ca58d5206853cdc5991876582fd38d1ef987be4",
+      "new_sha256": "4fe1678c81849733d96d3bf016a277c71412ebdcc7162c2a22f5a50db76316d4",
+      "part_count": 2
+    },
+    {
+      "name": "zk00.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1849,
+      "absolute_offset": 1644505088,
+      "bytes": 22160,
+      "old_sha256": "b3c450624304048ed4ea1e1b50083dbe045d72f37419abc1413f938f417444c5",
+      "new_sha256": "c57d18c0aefdc5fc42c01e6e30ddca5ee5b196ca66235b7b50100582044e16c6",
+      "part_count": 4
+    },
+    {
+      "name": "zk01.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1850,
+      "absolute_offset": 1644527616,
+      "bytes": 33168,
+      "old_sha256": "21d29376fc36a55b77a0e5261079fa6277ad928f35fd38f274a657a63e0b4ed3",
+      "new_sha256": "832b914c18755986a361bd19a9bdd93a680dbc59cc6f5181ab18ec935cc00099",
+      "part_count": 4
+    },
+    {
+      "name": "zk02.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1851,
+      "absolute_offset": 1644562432,
+      "bytes": 24080,
+      "old_sha256": "39b5fcc7a944a70453df4b38e523d0587a621d16c09ff6178716000d97165733",
+      "new_sha256": "620c6bccaa06e0a1aed838ea9b4dd9bb7043d797d039c30038ae348bb6b366a6",
+      "part_count": 4
+    },
+    {
+      "name": "zk03.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1852,
+      "absolute_offset": 1644587008,
+      "bytes": 23824,
+      "old_sha256": "293fcff0d257426dd263a00ccee97fb4c1ee2ff005acbe52af58cc9dd0a2de6f",
+      "new_sha256": "ed912a4d8d87a7449fe6594b9433c191dcee1a0ad1036afbc434eaac0fed1eec",
+      "part_count": 4
+    },
+    {
+      "name": "zk04.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1853,
+      "absolute_offset": 1644611584,
+      "bytes": 23184,
+      "old_sha256": "8b58e55a1877396ea029fd4d9d03202915508aee334a15d4058d1f6ce71de668",
+      "new_sha256": "7cd22db4971409b5f821c37d6c0912353bfdec3f50fa319465e68f16cd58c338",
+      "part_count": 4
+    },
+    {
+      "name": "zk05.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1854,
+      "absolute_offset": 1644636160,
+      "bytes": 13328,
+      "old_sha256": "a51efdb808803442979a148aeb7ab8db85ccce0693ae88c956fef3a2e8458d63",
+      "new_sha256": "ab169f594a9d78ea674ca1b13e03047306a5766ea5e7f5197d9582bf5dbfafe2",
+      "part_count": 4
+    },
+    {
+      "name": "zk06.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1855,
+      "absolute_offset": 1644650496,
+      "bytes": 4880,
+      "old_sha256": "53f1540b3224ffd85bbf03dba1800a26ac10020cc6839ade6b799b09952635ad",
+      "new_sha256": "351cc69a3f583aa51dd0b4b94d7bcb1fbc00880b3573b0c6eb1ae62909878aff",
+      "part_count": 4
+    },
+    {
+      "name": "zk07.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1856,
+      "absolute_offset": 1644656640,
+      "bytes": 32272,
+      "old_sha256": "06fb34edb38353c95c2aa6ef845f73f44f67973c3f02a5bd25327d2d84a0ec56",
+      "new_sha256": "6360cd64bd601a3d114a8dfc167136f8bb4623f0ac513811bf58b022c424f307",
+      "part_count": 4
+    },
+    {
+      "name": "zk08.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1857,
+      "absolute_offset": 1644689408,
+      "bytes": 24464,
+      "old_sha256": "2efce249b37d190f54f711c2e529e4febe01ef20dfd804f3529252504f37d2ec",
+      "new_sha256": "2af76e2026a725f80bef8a71257b89beac9adcc4c37b2576213c34c049bb1242",
+      "part_count": 4
+    },
+    {
+      "name": "zk09.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1858,
+      "absolute_offset": 1644713984,
+      "bytes": 23952,
+      "old_sha256": "0aaa69e0b1c88d546a9e1b3298a3eab6a566c6a5322f5251b609c830ccb4fc2f",
+      "new_sha256": "913c01c32bc5689892527ab06eb46477693b0431ee3d13afae5697a3edc554fb",
+      "part_count": 4
+    },
+    {
+      "name": "zk0a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1859,
+      "absolute_offset": 1644738560,
+      "bytes": 24720,
+      "old_sha256": "d7d8339eda7dd21f2fe41992aadb292dbc9b9d0db12f305659939e6c7380403b",
+      "new_sha256": "9b88407af132000235a28826a1b3bd00bdc6f6d98c1bbaff234a064dfca75304",
+      "part_count": 4
+    },
+    {
+      "name": "zk0b.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1860,
+      "absolute_offset": 1644765184,
+      "bytes": 31888,
+      "old_sha256": "6ce7a65c273058fd2282d01448d89fb906fc73aa091a294e8e68ae49d161e072",
+      "new_sha256": "e0af1ee2a6374b6ee5d180a14ea3e9ccdf7651b3440bc98d07c41efcb9522ee2",
+      "part_count": 4
+    },
+    {
+      "name": "zk0c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1861,
+      "absolute_offset": 1644797952,
+      "bytes": 29584,
+      "old_sha256": "8456cc4856673433001b7ce238527087fbd83a972590307294e4b5a0db3ce53f",
+      "new_sha256": "cda5426422fd7bcbe89ffe7dd9be69ce1a2b23c028487be5e0637e14c4c29822",
+      "part_count": 4
+    },
+    {
+      "name": "zk0d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1862,
+      "absolute_offset": 1644828672,
+      "bytes": 32144,
+      "old_sha256": "06891a4b7daed5ca872427f31eb2b4d80f6a8dd50f6dfb722c747dc45bdaebd8",
+      "new_sha256": "88e51783bd52f4db9541c96ae1cf78da2b85586858eba2caea3047b1781edf00",
+      "part_count": 4
+    },
+    {
+      "name": "zk0e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1863,
+      "absolute_offset": 1644861440,
+      "bytes": 23312,
+      "old_sha256": "83993cc40b7c2d0448a7574ce7a7bd14260df8a049d2c55a41040fd8638b1781",
+      "new_sha256": "88ff86b6f9ddeca7365044f2ab9b8ed1827e7370437144b4fc5b1bc0661a180b",
+      "part_count": 4
+    },
+    {
+      "name": "zk0f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1864,
+      "absolute_offset": 1644886016,
+      "bytes": 32272,
+      "old_sha256": "9a7aa9d0c5aa33aeb171f716e52163402b8dad4642b7f87e0434939a5e9c6d31",
+      "new_sha256": "d14ad3f14c3ab712967a198d5478801c9ce93578818c45dcb5d49e480a8dfe7f",
+      "part_count": 4
+    },
+    {
+      "name": "zk10.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1865,
+      "absolute_offset": 1644918784,
+      "bytes": 28048,
+      "old_sha256": "bf7f10cecc33eb85b334047c10e5057a13eb10801782227f8b0e6fe6e13e7962",
+      "new_sha256": "41adc9c99c8e0187c9ce7bc6db170aa6c7fbafb53bfb65360c2e2ec5ca124b7c",
+      "part_count": 4
+    },
+    {
+      "name": "zk11.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1866,
+      "absolute_offset": 1644947456,
+      "bytes": 27152,
+      "old_sha256": "b49b83edb28256e25d4f346c05ebc26bf6cdeac051700ca6cfda0bfdd0d81aad",
+      "new_sha256": "7a6c8f920df7d6ca833c58e6d4ef3f5a170030274dbd9feb32e9ab2f86f306f3",
+      "part_count": 4
+    },
+    {
+      "name": "zk12.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1867,
+      "absolute_offset": 1644976128,
+      "bytes": 27920,
+      "old_sha256": "499f2564576a39d93d65f76770f4fd178d253ba53919e638de4c7eec8bd4390e",
+      "new_sha256": "fb2255b41499fc0fe95a209cfd172d6e6a69926baf5f050249d746cf104ec21e",
+      "part_count": 4
+    },
+    {
+      "name": "zk13.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1868,
+      "absolute_offset": 1645004800,
+      "bytes": 28176,
+      "old_sha256": "6827f5dced1b7aeae916828c65b8b0e4dff35225b6f8a559cd28c6800ae379c0",
+      "new_sha256": "60f09af2aab9f97385a499245298da132c025fe231b912202c84fdaa8ea93fff",
+      "part_count": 4
+    },
+    {
+      "name": "zk14.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1869,
+      "absolute_offset": 1645033472,
+      "bytes": 27792,
+      "old_sha256": "ab5b5b8245482ed5fd3ce8235d5891e9b0ee9ec26af63ebe7392a9e625897605",
+      "new_sha256": "90b0484b669d75eb8150d7aaa11b855998c51b8fd9e7c7ee276fddb6ec21a679",
+      "part_count": 4
+    },
+    {
+      "name": "zk15.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1870,
+      "absolute_offset": 1645062144,
+      "bytes": 23440,
+      "old_sha256": "7eadc5fecc68f5176b3edec6dad9a965083ba3acaddec84040f4bd1c1e8f2a7a",
+      "new_sha256": "11889f6df8f5986e693cba9271e55f1b72a47b023e912a672714d7ae355ab6ab",
+      "part_count": 4
+    },
+    {
+      "name": "zk16.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1871,
+      "absolute_offset": 1645086720,
+      "bytes": 32912,
+      "old_sha256": "7d50d491c482e8ae433cd1e2d69df9e13fa300e123b058dad8c40009ca7e9432",
+      "new_sha256": "7298d1670abe84b8044c37904e38602182de2c7d1c9c97fa06c1d1d151b6538a",
+      "part_count": 4
+    },
+    {
+      "name": "zk17.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1872,
+      "absolute_offset": 1645121536,
+      "bytes": 39184,
+      "old_sha256": "091f938fe2ec6c873188a0343d346f0ac8d5622de4582b3ea9e18495fa26df5c",
+      "new_sha256": "a941ef480fe556316fde4642df698ee5feb94eea2bcbdd4dd0432a17e21642bd",
+      "part_count": 4
+    },
+    {
+      "name": "zk18.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1873,
+      "absolute_offset": 1645162496,
+      "bytes": 32144,
+      "old_sha256": "a4063e4cab9feb6dedba44e3a2da560f17bf83dfab35d320ca0d1f2a05fb6ff2",
+      "new_sha256": "5f8c49d4a40b73069924b5dcf092acd43e633e4c4c72c9fd4553806e0b0a4ae6",
+      "part_count": 4
+    },
+    {
+      "name": "zk19.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1874,
+      "absolute_offset": 1645195264,
+      "bytes": 33936,
+      "old_sha256": "b9bd1dfd83a3e98810b0aaa008b0495794bd63354b337601b7ac09c2be790652",
+      "new_sha256": "caa52b5305e45539b5fe8a096cab64eb169aab4ee71b1c261f7b04b20016aaa7",
+      "part_count": 4
+    },
+    {
+      "name": "zk1a.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1875,
+      "absolute_offset": 1645230080,
+      "bytes": 32656,
+      "old_sha256": "429927e62efc1c6478555f62af117e44209cb1dd9cd51dbc31f374bb1b57c778",
+      "new_sha256": "84b2883ad45a034c3744e2bf3a0e48ef25eb5e1dc1523ebba25f3939a157e4a6",
+      "part_count": 4
+    },
+    {
+      "name": "zk1b.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1876,
+      "absolute_offset": 1645262848,
+      "bytes": 29456,
+      "old_sha256": "e8e5e56df2c8c847865979366209c523ccea8df9e5fd2d52696f42f60303ec66",
+      "new_sha256": "e42691e8be442f3b54f68960e0f2da619bb4cab1909ea86a76f2a9ca50e11bc0",
+      "part_count": 4
+    },
+    {
+      "name": "zk1c.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1877,
+      "absolute_offset": 1645293568,
+      "bytes": 29712,
+      "old_sha256": "d0063272393c662ba8d661dcab91a29ab7ffd2c1b96ff1b80615c3091a6c3bfb",
+      "new_sha256": "67bbd5d49e1463ab26951f26de09d857d738b79fe3144e3dbed754e94bdbfac9",
+      "part_count": 4
+    },
+    {
+      "name": "zk1d.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1878,
+      "absolute_offset": 1645324288,
+      "bytes": 35600,
+      "old_sha256": "78877eea7d2c6dee967c63aa9b9377acce72427bc04c66aadc240d00622e64e2",
+      "new_sha256": "97488c42eff3b05d4188ac13c7eabe5f66162ac45d47f4a180016a4ea8b258bb",
+      "part_count": 4
+    },
+    {
+      "name": "zk1e.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1879,
+      "absolute_offset": 1645361152,
+      "bytes": 39312,
+      "old_sha256": "63c831034875dca4e0bb7761d8ef022fe54043a276fac3c09adf73d013f03616",
+      "new_sha256": "ba5dd3a2e7f85ac15c2be6332d0900983cb1557859e9306daddcf9cc1e811156",
+      "part_count": 4
+    },
+    {
+      "name": "zk1f.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1880,
+      "absolute_offset": 1645402112,
+      "bytes": 33296,
+      "old_sha256": "46bf0f2177f230c882994b70d4fd1058c189b86ddbbf09e00e68ee7ceb07d097",
+      "new_sha256": "3bfe4c4adddbb566ba11e5168db32ddd761df71a45bf648aedc62f322f114d8b",
+      "part_count": 4
+    },
+    {
+      "name": "zk20.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1881,
+      "absolute_offset": 1645436928,
+      "bytes": 35984,
+      "old_sha256": "bbdcd1579e292689c0484d985a20f10e5ec5b2282e3edff48b63424dcdebe0ea",
+      "new_sha256": "dfecc4777b1814cbb3d6b11c67edb14ddd0390e92c7bb9979b5df84a2947f257",
+      "part_count": 4
+    },
+    {
+      "name": "zk21.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1882,
+      "absolute_offset": 1645473792,
+      "bytes": 35984,
+      "old_sha256": "3c82c635c09b0eb370570010dfbd71b4d39f2cfdcd69c7ae95a89acaa4e2d26f",
+      "new_sha256": "cc79667fa0f71c2bee2ee89da4b2f6662093438259fa560840129dcd5fd30f65",
+      "part_count": 4
+    },
+    {
+      "name": "zk22.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1883,
+      "absolute_offset": 1645510656,
+      "bytes": 40720,
+      "old_sha256": "ebc57e9c717630920a8b95216e06e6b62168fa5e85394b17b22e329669ea5a56",
+      "new_sha256": "f6b150c7a74f853ceb43b033a765d0b86f02cb7d621028552139f08a75d900fe",
+      "part_count": 4
+    },
+    {
+      "name": "zk23.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1884,
+      "absolute_offset": 1645551616,
+      "bytes": 23568,
+      "old_sha256": "2cf85f9e79e512f47eec32424d3b85fe34bcfcd1fb1e8106479f78b46474a0bc",
+      "new_sha256": "648ce58be75029e2616db8926f5fe8f3b37e545eca051f769601ed8eff34eb0b",
+      "part_count": 4
+    },
+    {
+      "name": "zk24.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1885,
+      "absolute_offset": 1645576192,
+      "bytes": 27024,
+      "old_sha256": "738f261f0a2a940a0cce900286ff363ef019ae111c3c462e9a80aac58d4289d4",
+      "new_sha256": "7455527a9f939dbf747d35df1ecc15e7622c350517698960f235279226936b78",
+      "part_count": 4
+    },
+    {
+      "name": "zk25.pzz",
+      "archive": "/PSP_GAME/USRDIR/Z_DATA.BIN",
+      "index": 1886,
+      "absolute_offset": 1645604864,
+      "bytes": 30864,
+      "old_sha256": "6032388a14c3033be5f2675aa2fa5e1bfcf8d3f7777e05e2b4d369591676c9af",
+      "new_sha256": "7c5dceea680ca56a144455400526ae97bba751690644e0fccb2449af8fdefc26",
+      "part_count": 4
+    }
+  ],
+  "elf_data_slots": [
+    {
+      "name": "SOURCE_00218810",
+      "elf_file_offset": 2197520,
+      "absolute_offset": 3311632,
+      "bytes": 19,
+      "old_sha256": "eed4928d1964cbac8078ff69213c711924918a047cdbb065ee6d92f9545e57a4",
+      "new_sha256": "fcbbeb08cdfd33061e1c1cb6ddf2a365a947f90ecb60788f7daf64c088dc3e5e",
+      "target_ko": "건담 바체"
+    },
+    {
+      "name": "SOURCE_00219B94",
+      "elf_file_offset": 2202516,
+      "absolute_offset": 3316628,
+      "bytes": 51,
+      "old_sha256": "046c10cf996c4cb340fc998c3dbd1158fd4653382d150b605821f91010f13f90",
+      "new_sha256": "2e7133491ff3b7f3533c1aa4df1bcb78d2aecd6b29001f58ceb2ce06272009c7",
+      "target_ko": "~f0티에리아 아데                  ~f2바체"
+    },
+    {
+      "name": "SOURCE_00220E28",
+      "elf_file_offset": 2231848,
+      "absolute_offset": 3345960,
+      "bytes": 29,
+      "old_sha256": "729faa92c43d2d2ffeaa816d7145e1422b4200a8635ed8cafe7efc6d3deb6359",
+      "new_sha256": "a54d8b5b72e1608c04eda89440a2ad62730102a0fe9ff76b9ebb47c2bfc580c4",
+      "target_ko": "상대와의 통신이 끊겼습니다"
+    },
+    {
+      "name": "SOURCE_0025A944",
+      "elf_file_offset": 2468164,
+      "absolute_offset": 3582276,
+      "bytes": 11,
+      "old_sha256": "9e74f6a8acb838b77db70b6b1279e490d3854836dc255d4e05dfcf3ab32a6c87",
+      "new_sha256": "870e199ef1994944d49237ca64d03d508026a67822e3f6cb23e8ffe5cae76243",
+      "target_ko": "바체"
+    },
+    {
+      "name": "SOURCE_0025B09C",
+      "elf_file_offset": 2470044,
+      "absolute_offset": 3584156,
+      "bytes": 19,
+      "old_sha256": "eed4928d1964cbac8078ff69213c711924918a047cdbb065ee6d92f9545e57a4",
+      "new_sha256": "fcbbeb08cdfd33061e1c1cb6ddf2a365a947f90ecb60788f7daf64c088dc3e5e",
+      "target_ko": "건담 바체"
+    },
+    {
+      "name": "SOURCE_0025B7BC",
+      "elf_file_offset": 2471868,
+      "absolute_offset": 3585980,
+      "bytes": 17,
+      "old_sha256": "f3a0c1f48523ebeae22171dc8059cd76e8bc24483b489c5e1a8c599bec3fa1c9",
+      "new_sha256": "6d57b72264f12918259d95082ef5e3a85820fa841fb4179b85eba8338d5be180",
+      "target_ko": "네델 건담"
+    },
+    {
+      "name": "SOURCE_0025C144",
+      "elf_file_offset": 2474308,
+      "absolute_offset": 3588420,
+      "bytes": 19,
+      "old_sha256": "eed4928d1964cbac8078ff69213c711924918a047cdbb065ee6d92f9545e57a4",
+      "new_sha256": "fcbbeb08cdfd33061e1c1cb6ddf2a365a947f90ecb60788f7daf64c088dc3e5e",
+      "target_ko": "건담 바체"
+    },
+    {
+      "name": "SOURCE_0027229C",
+      "elf_file_offset": 2564764,
+      "absolute_offset": 3678876,
+      "bytes": 35,
+      "old_sha256": "6d18d2f6e1173b7042ff205fcbeb267d2dcffd20ea54c9a6f787e1c75ec6f7dd",
+      "new_sha256": "7ccb9f938b1b66cb4846c8c2e01998b837b4431002d29fca092b86cc816c588a",
+      "target_ko": "바체, 목표 지점에 도착하면"
+    },
+    {
+      "name": "SOURCE_00273C88",
+      "elf_file_offset": 2571400,
+      "absolute_offset": 3685512,
+      "bytes": 35,
+      "old_sha256": "4c07fe91021ae17ccbdc6d9083bdf435ed59c44eef0bc0b4114f837315000598",
+      "new_sha256": "940f6b375e6cfe7be8ee6f859f33e6483c83afe074460e483aa0280c0f868955",
+      "target_ko": "바체, 최종 도달 지점 확인."
+    },
+    {
+      "name": "SOURCE_002785C0",
+      "elf_file_offset": 2590144,
+      "absolute_offset": 3704256,
+      "bytes": 35,
+      "old_sha256": "3f09f1c1cfe09b48d4861ca93f98e29bbcac432fa2a6024ce47bec967c80352b",
+      "new_sha256": "2911fbabc387d444bc9756d69ae058a8a789f94cd417afd865b9aad114c77081",
+      "target_ko": "바체, 전황 변화를 확인했다."
+    },
+    {
+      "name": "SOURCE_0027D400",
+      "elf_file_offset": 2610176,
+      "absolute_offset": 3724288,
+      "bytes": 29,
+      "old_sha256": "75ef564e684fdaf31acd2004f97440a9d62451f5494f5060571dbf079f7c4174",
+      "new_sha256": "478e853dadb9b1a38a23287ff2118bfd76740b4388778e592342860a3a9d8849",
+      "target_ko": "바체, 목표를 파괴한다!"
+    },
+    {
+      "name": "SOURCE_0027EC24",
+      "elf_file_offset": 2616356,
+      "absolute_offset": 3730468,
+      "bytes": 19,
+      "old_sha256": "dba9c5e1b42ba419580728f3f0f25bd31090e857659c3bdc77e78c25b4053a2a",
+      "new_sha256": "1111589e7924bdd83fff5a9f50d59a8c5063a9ce331a9b9877dcf480c4b60425",
+      "target_ko": "여기는 바체."
+    },
+    {
+      "name": "SOURCE_0025D35C",
+      "elf_file_offset": 2478940,
+      "absolute_offset": 3593052,
+      "bytes": 32,
+      "old_sha256": "ecf906ca72f04b1f54e1a7208ebc772723c2740ba9e4f992fc094848a1f3a6e6",
+      "new_sha256": "c552900629aa01f9c32892fe252cfd45de1c89ac9d3c1f1310325e3927b61e8e",
+      "target_ko": "큐베레이 Mk-II (플 투 기)"
+    },
+    {
+      "name": "SOURCE_0026D370",
+      "elf_file_offset": 2544496,
+      "absolute_offset": 3658608,
+      "bytes": 15,
+      "old_sha256": "c8c5a25bda846e001b766e91132c0e224ffe9a4fd326fa26f18e88ab0466f642",
+      "new_sha256": "e7af218f2aecef8b64daecdbeb7625197e324cc7730ee849fe790fe7d51c6ef7",
+      "target_ko": "전송 중입니다"
+    },
+    {
+      "name": "SOURCE_0026D390",
+      "elf_file_offset": 2544528,
+      "absolute_offset": 3658640,
+      "bytes": 41,
+      "old_sha256": "d5b11d1281b03bf1d56c1be7fab98e292f513d6b4ea110bcab9f62e957927468",
+      "new_sha256": "537bbb0aeaddd276fd686017da1669fb4103a672b8df92a144742892901e94e6",
+      "target_ko": "는 파일럿 데이터가 가득 차서"
+    },
+    {
+      "name": "SOURCE_00273DF0",
+      "elf_file_offset": 2571760,
+      "absolute_offset": 3685872,
+      "bytes": 32,
+      "old_sha256": "e761b953b5cfb47352c24894bb3a96e9c507978f01c289bdf586a2b3fb8781bf",
+      "new_sha256": "e187c24acdc07909230d1c15d18515c2384ba563f6f5645260c3308cb7d4a624",
+      "target_ko": "좋아, 다들! 조금만 더!!"
+    },
+    {
+      "name": "SOURCE_00276BCC",
+      "elf_file_offset": 2583500,
+      "absolute_offset": 3697612,
+      "bytes": 25,
+      "old_sha256": "90367ffbac1849664e9b8de18d50410a2d1bc71fcc311bc7dfd5ea02aeef5c3c",
+      "new_sha256": "49bf6829153894d0287e7a2b90dc23679e42ae2a152166e2f307fc6bcff8281b",
+      "target_ko": "나, 날 갖고 노는 건가!?"
+    },
+    {
+      "name": "SOURCE_0027FCAC",
+      "elf_file_offset": 2620588,
+      "absolute_offset": 3734700,
+      "bytes": 31,
+      "old_sha256": "744985169ea2ca84029c0baffeffa401023cbc19e6fa7c6fd8582519725fd518",
+      "new_sha256": "1cc4565d2fc36defe6ebc717f7c3eb1a5b414c4c6c0822fcf631bfd164074ecc",
+      "target_ko": "어른들 멋대로 벌인 전쟁이잖아."
+    },
+    {
+      "name": "SOURCE_00280CFC",
+      "elf_file_offset": 2624764,
+      "absolute_offset": 3738876,
+      "bytes": 9,
+      "old_sha256": "c8b4534a0c0a8e5deea07a33d1dc2e6f32c96fc3b8b317c123f9e0db0ed5a2a8",
+      "new_sha256": "8e5c99e00feca3e48b5c102ed831511ee524792ca8de5b64e72208c03e3fee55",
+      "target_ko": "야 여자!"
+    },
+    {
+      "name": "SOURCE_00280D3C",
+      "elf_file_offset": 2624828,
+      "absolute_offset": 3738940,
+      "bytes": 21,
+      "old_sha256": "8697541591a2fa8a0aa3bcd6eaecfebbebddb0aaabd7f00623aa38e5e51acc2e",
+      "new_sha256": "f381446fd2d5ba88546e5e5516255c58ef6b7e363638a13ef0db731f05166393",
+      "target_ko": "나도 엄연히 군인이야"
+    },
+    {
+      "name": "SOURCE_002813CC",
+      "elf_file_offset": 2626508,
+      "absolute_offset": 3740620,
+      "bytes": 15,
+      "old_sha256": "21999f83e24725205461f04b048eccab8e1a7367847e4868e7993a4b587bf5e4",
+      "new_sha256": "63f5034ed858151a1fabd36d1559922b84754dd30b23979af3488f654f17e378",
+      "target_ko": "전성능강화LV.1"
+    },
+    {
+      "name": "SOURCE_00281400",
+      "elf_file_offset": 2626560,
+      "absolute_offset": 3740672,
+      "bytes": 19,
+      "old_sha256": "972179a2adb636631886b5d467d56fd9b065b53538657999f57f4579f59c260a",
+      "new_sha256": "bfcd05d8a4a0fb6e93a97d8140f5b23b8c754cce97bf8a81b2660bb6cc982de3",
+      "target_ko": "부스트강화LV.3베타"
+    },
+    {
+      "name": "SOURCE_0028152C",
+      "elf_file_offset": 2626860,
+      "absolute_offset": 3740972,
+      "bytes": 19,
+      "old_sha256": "a86516cf7f91e65f1f83e47d11b2f4c8970229d572545e8a1adc81d6394c0d69",
+      "new_sha256": "441026a79ad51a6bc4cb2a3c14b88ab60baf984ec680f7cd733426082389f44f",
+      "target_ko": "부스트강화LV.1알파"
+    },
+    {
+      "name": "SOURCE_00281540",
+      "elf_file_offset": 2626880,
+      "absolute_offset": 3740992,
+      "bytes": 19,
+      "old_sha256": "793536acec0dbe2169d4721d1cbbffa5a7440763a8be2ab6933d206a92867c69",
+      "new_sha256": "22a8046bd9ecec0466582e3584fa55cbd752a93aad338738bcd249efc8eba710",
+      "target_ko": "부스트강화LV.3알파"
+    },
+    {
+      "name": "SOURCE_00281554",
+      "elf_file_offset": 2626900,
+      "absolute_offset": 3741012,
+      "bytes": 19,
+      "old_sha256": "17fca9734fe0b54f125add3c88fd463823c15ab3ae2ef2b75c25485d59109d1e",
+      "new_sha256": "38f8d0ae06d477f99cc8a2f5b4af7335420ab54d12458dec8da15e4b3cc826cb",
+      "target_ko": "스피드강화LV.3베타"
+    },
+    {
+      "name": "SOURCE_00281698",
+      "elf_file_offset": 2627224,
+      "absolute_offset": 3741336,
+      "bytes": 13,
+      "old_sha256": "9bdcadd65fd5cdf9dd8da0666d4fd1b26bc6edfe52ef85c27934ed22776e8667",
+      "new_sha256": "74800c63f5a399a5d1ed17f37ad7efa73fd34baf8ed6542a255687de3da85ae6",
+      "target_ko": "역경저력베타"
+    },
+    {
+      "name": "SOURCE_00281740",
+      "elf_file_offset": 2627392,
+      "absolute_offset": 3741504,
+      "bytes": 19,
+      "old_sha256": "cd6067e099510b6cd2a09fc15849280192d13bd2e68ac3660482b4b3897da01e",
+      "new_sha256": "e6fa3cd22ba9c207efc201e7403037a0b384fd1218713c8e160b5ccc86e19668",
+      "target_ko": "스피드강화LV.1알파"
+    },
+    {
+      "name": "SOURCE_002819D0",
+      "elf_file_offset": 2628048,
+      "absolute_offset": 3742160,
+      "bytes": 19,
+      "old_sha256": "57c99c1e9cf0059a5a3cf3a75d7a4d352347482808eecebf37166d9b2d6c5dfd",
+      "new_sha256": "ca99eef237d7b8a50b2178985f09b80f8432ce5acf4f2a417db0765ffde964ea",
+      "target_ko": "부스트강화LV.2알파"
+    },
+    {
+      "name": "SOURCE_002819E4",
+      "elf_file_offset": 2628068,
+      "absolute_offset": 3742180,
+      "bytes": 19,
+      "old_sha256": "c03dfeeeb02f9ccac48999cdddfb11250de575084f33163805d5f43175f9717a",
+      "new_sha256": "f1b65a3b51dc832499f17b9a862a782767fa4c4d182f50daf8634ce41912a059",
+      "target_ko": "스피드강화LV.2베타"
+    },
+    {
+      "name": "SOURCE_00281A1C",
+      "elf_file_offset": 2628124,
+      "absolute_offset": 3742236,
+      "bytes": 19,
+      "old_sha256": "78b76b679d172dc432e5599ac20960b26adc2194e23e64a25e32b64ba7fdbec1",
+      "new_sha256": "88c192d1538b1b85f55405a58cd59ab66a233a6a2bd86a4476d0ba710747f44b",
+      "target_ko": "스피드강화LV.2알파"
+    },
+    {
+      "name": "SOURCE_00281B50",
+      "elf_file_offset": 2628432,
+      "absolute_offset": 3742544,
+      "bytes": 19,
+      "old_sha256": "d0b39a7871dc2afb20995907de2665f7bd39c3c9d52d7a4f36471bd62c197d22",
+      "new_sha256": "fc92daa0282f66c2af93785e2265ca1fec58c6f2d9310a4bd00deb2fd2f408ef",
+      "target_ko": "퀵 리로드 베타"
+    },
+    {
+      "name": "SOURCE_00281B9C",
+      "elf_file_offset": 2628508,
+      "absolute_offset": 3742620,
+      "bytes": 19,
+      "old_sha256": "afc40643e70272c17c370bff8f8383157c0fe1922ba2367d2e5d0b51418da263",
+      "new_sha256": "ec8c5ab138a2aceec753edab2b100484b788fb1d39d46901b0e3ad2839a21a2a",
+      "target_ko": "아머강화LV.3알파"
+    },
+    {
+      "name": "SOURCE_00281E34",
+      "elf_file_offset": 2629172,
+      "absolute_offset": 3743284,
+      "bytes": 19,
+      "old_sha256": "f9053f9e4f20067bdad795639cdcce1fbe044ff890ac7bfc599ed112bb9f6e66",
+      "new_sha256": "fba6fb8fbbf4211e30a2a590c3e463944603b2d6ab138d58da4ce7fd8dd8b207",
+      "target_ko": "아머강화LV.2베타"
+    },
+    {
+      "name": "SOURCE_00281E9C",
+      "elf_file_offset": 2629276,
+      "absolute_offset": 3743388,
+      "bytes": 19,
+      "old_sha256": "ca4b471dd434509f760085d2230bd2c58ffa2db0987decb66459d3bc41e9c68f",
+      "new_sha256": "893693a983515c1d675ce62886ddd00a4e2dbb41d0fbabf270e36a815e92294c",
+      "target_ko": "아머강화LV.4알파"
+    },
+    {
+      "name": "SOURCE_0028A4C4",
+      "elf_file_offset": 2663620,
+      "absolute_offset": 3777732,
+      "bytes": 27,
+      "old_sha256": "1b3682a13db054b1665e07fe011335c45da29bb822656e6ffd2ee3410e93ba2d",
+      "new_sha256": "2d734561af843662e3b225b2ea648000348d5e61befccfbf800e689c3a0067c3",
+      "target_ko": "노린다면 가시밭길일지도!?"
+    },
+    {
+      "name": "SOURCE_0028A79C",
+      "elf_file_offset": 2664348,
+      "absolute_offset": 3778460,
+      "bytes": 21,
+      "old_sha256": "ed2e2a84ac32d34f384cb69f474195fe254674ceb67cad0760cbbed94237b315",
+      "new_sha256": "2a413cd07b86e04460339185e5e0e1aad3373c32d5c199fbd2a921127d0a83ed",
+      "target_ko": "상급 라이선스 맵"
+    },
+    {
+      "name": "SOURCE_0028B184",
+      "elf_file_offset": 2666884,
+      "absolute_offset": 3780996,
+      "bytes": 23,
+      "old_sha256": "bcb85454ca3a8994db821965dc3e04b8a1bddac2d3cc4d5e657532a61291b342",
+      "new_sha256": "1815cce49449336ec13445b0781af2e57ca18cf344002b3e5e6f023b2524df4b",
+      "target_ko": "영광의 NEXT 마스터"
+    },
+    {
+      "name": "SOURCE_0028C310",
+      "elf_file_offset": 2671376,
+      "absolute_offset": 3785488,
+      "bytes": 29,
+      "old_sha256": "cb12c90b2d388b0ea5d2e0cc1ae682bd79bbeafb3249f294f0ba4003ca3ceaec",
+      "new_sha256": "b3c33f48abea3667b4a47a6d6209db28590cfd89672a0a570ae65b48621e768d",
+      "target_ko": "전쟁 한복판에 있었다. 시로와"
+    },
+    {
+      "name": "SOURCE_002915D8",
+      "elf_file_offset": 2692568,
+      "absolute_offset": 3806680,
+      "bytes": 88,
+      "old_sha256": "a89c8cc8470f9194184960937f61f22ba6de97726fdb0980efb8e26935b20408",
+      "new_sha256": "55268849838a1229c1bd56dc82831437da40985eb83c366bb9e8b134414ed0da",
+      "target_ko": "네델 타이푼!\n네델 건담 30기를 쓰러뜨려라!\n10기가 이탈하면 실패, 방해에 주의!\n"
+    },
+    {
+      "name": "SOURCE_002916E0",
+      "elf_file_offset": 2692832,
+      "absolute_offset": 3806944,
+      "bytes": 80,
+      "old_sha256": "98323c5839045707db8c98d7cf237fbe931e87d3d77dba47bb70b53a8c704c13",
+      "new_sha256": "5b884c7fa73b5b91b752d2cad5101d0c3d90b0b69e88842793baddd2a7864a03",
+      "target_ko": "만들어진 뉴타입\n그레미군의 최종 병기, 플 투의\n퀸 만사를 쓰러뜨려라!\n"
+    },
+    {
+      "name": "SOURCE_00292534",
+      "elf_file_offset": 2696500,
+      "absolute_offset": 3810612,
+      "bytes": 80,
+      "old_sha256": "60950a69ae0dbb1902bacf5c1a944e89e938067b64825e6512efe5e0575216a3",
+      "new_sha256": "0f055580eeabeba8c38b798f4110b398657b5366f9d12282ea6734f46b93e614",
+      "target_ko": "더 높은 곳으로 가기 위해\n카풀 부대와의 무한 배틀!\nG링 3개 회수로 전투 종료다\n"
+    },
+    {
+      "name": "SOURCE_002936CC",
+      "elf_file_offset": 2701004,
+      "absolute_offset": 3815116,
+      "bytes": 80,
+      "old_sha256": "2a60e8a9c50328111265d606b8341cc81478783e26f47f6de26261175b7f613d",
+      "new_sha256": "dc7f53c284357470d540e704815e4c758f6e909a2871e0773ca6e3d2e3ec08ca",
+      "target_ko": "불타라 일반병!!\n제한 시간 내내 싸워라!\n이번 상대는 각양각색의 양산기들이다!\n"
+    },
+    {
+      "name": "SOURCE_0029395C",
+      "elf_file_offset": 2701660,
+      "absolute_offset": 3815772,
+      "bytes": 84,
+      "old_sha256": "bc497014453de11e56a4963748acb4f21ec5282221e2a2fa8809f32593fe22dd",
+      "new_sha256": "af2008bbf5b6886afcc235817fd7afcdc75487390a3e9ed7520f7d3ecc0bb7fb",
+      "target_ko": "고마운 민폐!?\n비밀리에 배치된 적 기지의 병기를\n파괴하라! 간단한 임무일 텐데!\n"
+    },
+    {
+      "name": "SOURCE_00293BDC",
+      "elf_file_offset": 2702300,
+      "absolute_offset": 3816412,
+      "bytes": 76,
+      "old_sha256": "c230235444ebd9a8540852edda36c6cdb17bf3b63f53b2c5114861c06dd9b31f",
+      "new_sha256": "97c344f52b65f9632aa6f4ecb4835aaf8ccb7a2aa428478cdd8316e393375a94",
+      "target_ko": "여제 강림\n하만 출진! 판넬의 폭풍을\n뚫고, 멋지게 여제에게 다다르라!\n"
+    },
+    {
+      "name": "SOURCE_00293C58",
+      "elf_file_offset": 2702424,
+      "absolute_offset": 3816536,
+      "bytes": 92,
+      "old_sha256": "b1e77181f97d5b40a6a8d6e3974490261d98d68014ef87e3422d657704cb8260",
+      "new_sha256": "971a0cf5c90470dd3022310191dbd94184f5cd811fb5ddd80e5f4c019ac0d1a3",
+      "target_ko": "건담 배틀 로열\n사람을 착각해 건담 파이트 발발!?\n혼전을 제압하고 파이트에서 살아남아라!\n"
+    },
+    {
+      "name": "SOURCE_00294460",
+      "elf_file_offset": 2704480,
+      "absolute_offset": 3818592,
+      "bytes": 80,
+      "old_sha256": "f0c324cecc0629e73d977b7feff2c252a66725763ec2f2c94df206d7946d2a75",
+      "new_sha256": "2e3bbadba11c6ce3de6a54db1c2d8e4e594e69a99415af1fba11d39a9d47d020",
+      "target_ko": "철가면에 감춘 의지\n카로조 로나의 꿈, 그것은...\n시간 내내 라프레시아를 지켜라!\n"
+    },
+    {
+      "name": "SOURCE_00294950",
+      "elf_file_offset": 2705744,
+      "absolute_offset": 3819856,
+      "bytes": 80,
+      "old_sha256": "8232e675adc9aa842f11de7b44761421fc44e247c180e517055a766483c00c34",
+      "new_sha256": "03c6ca25a441d8f03619fa9b1756a89bfb0e420a670a1593fabdc0cc1b8a3314",
+      "target_ko": "알파 2 You!\n알파 아질 2기를 격파하라!\n끊임없는 초근접 사격을 견딜 수 있나\n"
+    },
+    {
+      "name": "SOURCE_00294B44",
+      "elf_file_offset": 2706244,
+      "absolute_offset": 3820356,
+      "bytes": 76,
+      "old_sha256": "8844ef41702f4987d7d85868fe2006bd61f21ada3d3a09febc7a6096a007830d",
+      "new_sha256": "13a6dd9f80606c2761afb0288468d4a5ee8c6a15412201e1f53b907517bad03c",
+      "target_ko": "하이퍼 점퍼즈\n워돔 3기를 쓰러뜨려라!\n6개의 다리가 대지를 박찬다!\n"
+    },
+    {
+      "name": "SOURCE_00294CB8",
+      "elf_file_offset": 2706616,
+      "absolute_offset": 3820728,
+      "bytes": 84,
+      "old_sha256": "1ae04b31fe6f0b49241757e9a9ff2b8d718a7d8914581f05ab0142c67be53703",
+      "new_sha256": "3a4f911a018376bdb2f1f9402217b3aa6ba7af236584d7ddbdb522d09a3e5b87",
+      "target_ko": "카풀 격파 대작전\n상대보다 1기라도 많은 카풀을\n쓰러뜨려라! 90초간의 집중력 승부다!\n"
+    },
+    {
+      "name": "SOURCE_00296884",
+      "elf_file_offset": 2713732,
+      "absolute_offset": 3827844,
+      "bytes": 84,
+      "old_sha256": "b96fb26104945728ab4a780d4f6158667dfe8bbbd7b946ec5a6bf9edaead6f99",
+      "new_sha256": "9e92cc0f5f2a3bd28c1ae29eec5013176831df48fd1044efbd7bca17105efe87",
+      "target_ko": "다시 만날 수 없을 것 같아서\n황야에서 만난 소년과 소녀\n싸움 속에서 인연은 깊어진다\n"
+    },
+    {
+      "name": "SOURCE_00296A08",
+      "elf_file_offset": 2714120,
+      "absolute_offset": 3828232,
+      "bytes": 76,
+      "old_sha256": "c076a5c3bed52c99847339718e308139fdf4a72e384a0cde3c0db0d92f72933f",
+      "new_sha256": "80eb0753a616f7628980f931c743bedc5a103c16fbee4c93566f596c1bd7e412",
+      "target_ko": "흑역사\n지구와 달, 쌍방의 미래를 건 싸움\n이제...! 바람은 다시 살랑거린다\n"
+    }
+  ],
+  "changed_disc_bytes": 424781,
+  "iso_member_geometry_preserved": true,
+  "unaffected_iso_bytes_preserved": true,
+  "afs_tables_and_pzz_geometry_preserved": true,
+  "pzz_loader_checksums_verified": true,
+  "original_title_logo_policy": {
+    "policy": "preserve_original_title_logos",
+    "protected_members": 193,
+    "protected_surfaces": 193,
+    "verdict": "PASS"
+  },
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "development_only": true,
+  "whole_game_text_complete": false,
+  "graphics_localization_complete": false,
+  "candidate_revision": "040",
+  "xdelta_roundtrip": {
+    "revision": "040",
+    "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "candidate_iso_sha256": "a0e4aeb016979d7bc278bea4aa15ce2832e477c2bd7c801a2c5b29cefea07664",
+    "xdelta_sha256": "8c379c9cfc1b67d820d4e72cfc13df1ffeda00fb9e7da80fb4724b936823c221",
+    "xdelta_crc32": "B25874EC",
+    "xdelta_bytes": 15275518,
+    "roundtrip_sha256": "a0e4aeb016979d7bc278bea4aa15ce2832e477c2bd7c801a2c5b29cefea07664",
+    "roundtrip_bytes": 1757806592,
+    "roundtrip_method": "Decoded stdout streamed into SHA256 and CRC32; no duplicate ISO",
+    "verdict": "PASS",
+    "runtime_verdict": "NOT_TESTED",
+    "mission_freeze_resolution": "UNCONFIRMED"
+  },
+  "publication_status": "LOCAL_ONLY",
+  "scope": "51 fixed ELF .data slots and 246 independently authored bitmap surfaces"
+}

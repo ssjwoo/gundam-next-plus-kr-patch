@@ -1,0 +1,674 @@
+{
+  "baseline_revision": "040",
+  "intended_revision": "041",
+  "baseline_iso_sha256": "a0e4aeb016979d7bc278bea4aa15ce2832e477c2bd7c801a2c5b29cefea07664",
+  "font_file_sha256": "21f9d3a7f1ca82ca1dc9a288e30138b4f1feb6e71fc89b5a9181fed174b6bbe2",
+  "review_state": "supervisor_reviewed_development",
+  "runtime_verdict": "NOT_TESTED",
+  "images": [
+    {
+      "image_id": "G054",
+      "packet": "work/ai_worker_handoff_2026-10-06/web_batch_002",
+      "reason": "Supervisor directly reviewed actual native atlas and measured alpha extents. Functional English is translated; grades, star/all markers, numeric glyphs, arrow/unknown close marker and button tokens remain outside authored masks. Consumer/runtime remains unconfirmed.",
+      "labels": [
+        {
+          "id": "G054_RANK",
+          "text": "등급",
+          "box": [
+            0,
+            21,
+            30,
+            35
+          ],
+          "size": 9,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            63
+          ],
+          "expected_sample_rgba": [
+            65,
+            65,
+            65,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "image_id": "G055",
+      "packet": "work/ai_worker_handoff_2026-10-06/web_batch_002",
+      "reason": "Supervisor directly reviewed actual native atlas and measured alpha extents. Functional English is translated; grades, star/all markers, numeric glyphs, arrow/unknown close marker and button tokens remain outside authored masks. Consumer/runtime remains unconfirmed.",
+      "labels": [
+        {
+          "id": "G055_MAP",
+          "text": "지도",
+          "box": [
+            0,
+            52,
+            32,
+            68
+          ],
+          "size": 12,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_MAP_UNKNOWN",
+          "text": "지도?",
+          "box": [
+            33,
+            52,
+            67,
+            68
+          ],
+          "size": 10,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_TITLE",
+          "text": "제목",
+          "box": [
+            0,
+            68,
+            33,
+            82
+          ],
+          "size": 12,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_INFORMATION",
+          "text": "정보",
+          "box": [
+            0,
+            82,
+            60,
+            92
+          ],
+          "size": 8,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_BEST_RECORD",
+          "text": "최고 기록",
+          "box": [
+            60,
+            82,
+            121,
+            92
+          ],
+          "size": 8,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_COMPLETE_STAR",
+          "text": "완료!",
+          "box": [
+            0,
+            92,
+            50,
+            103
+          ],
+          "size": 9,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_COMPLETE",
+          "text": "완료!",
+          "box": [
+            63,
+            92,
+            114,
+            103
+          ],
+          "size": 9,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_NEXT",
+          "text": "다음",
+          "box": [
+            42,
+            147,
+            85,
+            166
+          ],
+          "size": 17,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_GOAL",
+          "text": "목표",
+          "box": [
+            55,
+            167,
+            98,
+            185
+          ],
+          "size": 17,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_CLEAR_STAR",
+          "text": "클리어!",
+          "box": [
+            68,
+            19,
+            110,
+            31
+          ],
+          "size": 9,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G055_CLEAR_ALL",
+          "text": "클리어!",
+          "box": [
+            68,
+            32,
+            110,
+            46
+          ],
+          "size": 10,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "image_id": "G059",
+      "packet": "work/ai_worker_handoff_2026-10-06/web_batch_002",
+      "reason": "Supervisor directly reviewed actual native atlas and measured alpha extents. Functional English is translated; grades, star/all markers, numeric glyphs, arrow/unknown close marker and button tokens remain outside authored masks. Consumer/runtime remains unconfirmed.",
+      "labels": [
+        {
+          "id": "G059_MISSION",
+          "text": "미션",
+          "box": [
+            0,
+            141,
+            64,
+            157
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G059_NEXT",
+          "text": "다음",
+          "box": [
+            65,
+            141,
+            125,
+            165
+          ],
+          "size": 20,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G059_CLOSE",
+          "text": "닫기",
+          "box": [
+            65,
+            165,
+            103,
+            181
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G059_CLEAR",
+          "text": "클리어",
+          "box": [
+            65,
+            181,
+            110,
+            197
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G059_FAILED",
+          "text": "실패",
+          "box": [
+            65,
+            198,
+            113,
+            214
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G059_GOAL",
+          "text": "목표",
+          "box": [
+            64,
+            214,
+            114,
+            234
+          ],
+          "size": 17,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G059_TEAM",
+          "text": "팀",
+          "box": [
+            97,
+            236,
+            128,
+            248
+          ],
+          "size": 10,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        },
+        {
+          "id": "G059_RETRY",
+          "text": "재시도",
+          "box": [
+            100,
+            248,
+            128,
+            256
+          ],
+          "size": 8,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            255
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "center"
+        }
+      ]
+    }
+  ],
+  "packet_bindings_sha256": {
+    "work/ai_worker_handoff_2026-10-06/web_batch_002": "c763d6e4fa732b7de13d434c3be8c3f98f96fa8b6eb98104c5d8a24d2473ebba"
+  }
+}

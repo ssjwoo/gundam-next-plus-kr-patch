@@ -29,6 +29,8 @@ def main():
     p.add_argument('baseline_font',type=Path)
     p.add_argument('catalog',type=Path)
     p.add_argument('output',type=Path)
+    p.add_argument('--owned-catalog',type=Path,
+                   help='Verified source-bound catalog for literal-only spans without alignment padding')
     a=p.parse_args()
     if a.output.exists():
         p.error('Use a fresh private output filename')
@@ -37,6 +39,13 @@ def main():
     assert sha(source)==catalog['source_elf_sha256']
     assert sha(baseline)==catalog['baseline_elf_sha256']
     assert font_meta['sha256']==catalog['font_sha256']
+    owned = None
+    if a.owned_catalog:
+        owner_catalog=json.loads(a.owned_catalog.read_bytes())
+        assert owner_catalog['source_elf_sha256']==sha(source)
+        assert owner_catalog['candidate_elf_sha256']==sha(baseline)
+        owned={r['slot_id']:r for r in owner_catalog['rows']}
+        assert len(owned)==len(owner_catalog['rows'])
     src_section=ELFFile(BytesIO(source)).get_section_by_name('.data')
     section=ELFFile(BytesIO(baseline)).get_section_by_name('.data')
     assert section and src_section
@@ -48,7 +57,17 @@ def main():
         reject_nontext_overlap(off, limit-off, r['slot_id'])
         assert r['slot_id']==f'SOURCE_{off:08X}' and start<=off<limit<=end
         nul=source.find(b'\0',off,limit)
-        assert nul>off and (nul+4)&~3==limit
+        assert nul>off
+        if owned is None:
+            assert (nul+4)&~3==limit
+        else:
+            owner=owned[r['slot_id']]
+            assert owner['source_and_readback_verified'] is True
+            assert (owner['offset'],owner['capacity'],owner['source_raw_sha256'],owner['pointer_refs_hex']) == (off,r['capacity'],r['source_raw_sha256'],r['pointer_refs_hex'])
+            assert owner['target_ko']==r['before_ko']
+            # The whole original literal (including its terminator) must fit.
+            # No extra aligned bytes are borrowed from an adjacent owner.
+            assert nul+1<=limit
         assert not any(source[nul:limit])
         assert sha(source[off:nul])==r['source_raw_sha256']
         reject_new_ascii_tilde(source[off:nul].decode('cp932'), r['target_ko'], r['slot_id'])

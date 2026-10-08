@@ -28,16 +28,16 @@ xdelta3 -d -s "original_jp.iso" "next_plus_graphics_revision_038.xdelta" "next_p
 
 적용에 실패하면 먼저 원본 해시를 확인하세요. 게임 문제를 보고할 때는 패치 버전, 기기, 발생 미션·상황을 함께 알려주세요.
 
-## 039 로컬 작업본
+## 042 로컬 작업본
 
-039는 지명 두 곳을 보정한 로컬 개발판이며 GitHub 배포본은 아직 038입니다. 같은 일본/아시아판 원본에 `next_plus_graphics_revision_039.xdelta`를 적용합니다. 로컬 결과 파일과 해시는 다음과 같습니다. 정적 검사·원판 재적용은 PASS, 실행은 NOT_TESTED입니다.
+042는 웹 AI 결과 감독 검수와 일반 UI 추가 한글화를 반영한 로컬 개발판입니다. GitHub 공개 배포본은 038입니다. 같은 원판에 `next_plus_graphics_revision_042.xdelta`를 적용하며, 패치는 `build/graphics_revision_2026-10-08/`에 있습니다. 정적 검사·원판 재적용은 PASS, 실행은 NOT_TESTED입니다.
 
 | 구분 | 크기(바이트) | CRC32 | SHA-256 |
 |---|---:|---|---|
-| 039 ISO | 1,757,806,592 | `6398666D` | `fa44294cc63f214f983209a95937872617d96920b942cfcd29fa9868c4e829cb` |
-| 039 xdelta | 15,156,262 | `A56BDEB8` | `587a67695c539be3b7ba250153266d60eebd175d315e848304ee6d7116376576` |
+| 042 ISO | 1,757,806,592 | `87C3C2B8` | `86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b` |
+| 042 xdelta | 15,273,684 | `57A36B08` | `eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8` |
 
-[변경·검수 근거](HISTORY.md#revision-039).
+[변경·검수 근거](HISTORY.md#revision-042). 중간 작업본의 해시는 각 개발 검사 보고서에 보존합니다.
 
 ## 이전 배포본
 

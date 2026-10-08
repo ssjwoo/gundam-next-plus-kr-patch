@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-08",
+  "status": "BLOCKED_AUTOMATIC_APPROVAL_REVIEW",
+  "attempted_scope": "Intermediate040/041 ISO files and bounded recreatable/rejected GIM/PZZ caches within the workspace",
+  "stated_reason": "blocked by policy",
+  "command_executed": false,
+  "deleted_files": 0,
+  "observed_freed_bytes": 0,
+  "planned_logical_bytes": 3750291456,
+  "current042_and_all_inputs_preserved": true,
+  "follow_up": "The plan remains private. No alternate deletion tool used to bypass the rejection."
+}
