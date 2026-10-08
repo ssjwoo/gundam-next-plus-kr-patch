@@ -1,8 +1,8 @@
 # 패치 다운로드·적용
 
-현재 배포본은 **038 개발판**입니다. [릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038)에서 [next_plus_graphics_revision_038.xdelta](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta)를 받으세요.
+현재 배포본은 **042 개발판**입니다. [릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042)에서 [next_plus_graphics_revision_042.xdelta](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta)를 받으세요.
 
-038의 정적 검사·패치 재적용·공개 다운로드 확인은 통과했습니다. **백식 호위 임무 프리징은 038에서 해결됐다는 사용자 확인을 받았습니다.** 042의 게임 실행은 미확인입니다. [해결 기록](MISSION_FREEZE_027_2026-10-05.md)를 참고하세요.
+042의 정적 검사·패치 재적용·공개 다운로드 확인은 통과했습니다. **백식 호위 임무 프리징은 038에서 해결됐다는 사용자 확인을 받았습니다.** 042의 게임 실행은 미확인입니다. [해결 기록](MISSION_FREEZE_027_2026-10-05.md)를 참고하세요.
 
 ## 지원 원본
 
@@ -11,8 +11,8 @@
 | 구분 | 크기(바이트) | CRC32 | SHA-256 |
 |---|---:|---|---|
 | 원본 ISO | 1,757,806,592 | `F9D9B854` | `a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3` |
-| 038 패치 ISO | 1,757,806,592 | `EA404316` | `96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2` |
-| 038 xdelta | 15,156,246 | `80FAB14B` | `8c9677e709d49883f20c6ea9bc43f1f6b714aa3a34f3140a22abfc7914f4b3ea` |
+| 042 패치 ISO | 1,757,806,592 | `87C3C2B8` | `86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b` |
+| 042 xdelta | 15,273,684 | `57A36B08` | `eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8` |
 
 ## 적용 순서
 
@@ -21,28 +21,22 @@
 3. 출력의 크기·해시를 위 표와 비교한 뒤 PSP 또는 PPSSPP에서 실행합니다.
 
 ```text
-xdelta3 -d -s "original_jp.iso" "next_plus_graphics_revision_038.xdelta" "next_plus_graphics_revision_038.iso"
+xdelta3 -d -s "original_jp.iso" "next_plus_graphics_revision_042.xdelta" "next_plus_graphics_revision_042.iso"
 ```
 
 `original_jp.iso`는 명령의 원본 파일명 예시입니다. 실제 원본 파일명을 사용하세요. 폰트는 결과 ISO의 `/PSP_GAME/SYSDIR/UPDATE/DATA.BIN`에 내장되므로 별도 PSP 폰트 추출은 필요하지 않습니다.
 
 적용에 실패하면 먼저 원본 해시를 확인하세요. 게임 문제를 보고할 때는 패치 버전, 기기, 발생 미션·상황을 함께 알려주세요.
 
-## 042 로컬 작업본
+## 042 변경 범위
 
-042는 웹 AI 결과 감독 검수와 일반 UI 추가 한글화를 반영한 로컬 개발판입니다. GitHub 공개 배포본은 038입니다. 같은 원판에 `next_plus_graphics_revision_042.xdelta`를 적용하며, 패치는 `build/graphics_revision_2026-10-08/`에 있습니다. 정적 검사·원판 재적용은 PASS, 실행은 NOT_TESTED입니다.
-
-| 구분 | 크기(바이트) | CRC32 | SHA-256 |
-|---|---:|---|---|
-| 042 ISO | 1,757,806,592 | `87C3C2B8` | `86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b` |
-| 042 xdelta | 15,273,684 | `57A36B08` | `eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8` |
-
-[변경·검수 근거](HISTORY.md#revision-042). 중간 작업본의 해시는 각 개발 검사 보고서에 보존합니다.
+웹 AI 감독 검수로 039 이후 텍스트 51곳과 이미지 250면·440문구를 보완했습니다. 기체·파일럿 이름판 232개와 조작·NEXT PLUS·결과·설정 UI를 포함하며 원본 타이틀 로고를 유지합니다. 게임 실행 검수와 남은 한글화는 진행 중입니다. [변경·검수 근거](HISTORY.md#revision-042), [게시·다운로드 검사](../reports/release_042_2026-10-08.json).
 
 ## 이전 배포본
 
 | 버전 | 배포 페이지 | 확인 범위 |
 |---|---|---|
+| 038 | [2026-10-05 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038) | 백식 호위 임무 프리징 해결 사용자 확인 |
 | 027 | [2026-10-04 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-04-graphics-027) | 백식 호위 임무에서 랜덤 프리징 보고 |
 | 023 | [2026-10-03 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-023) | 사용자 요청 수정 및 이전 타이거바움 프리징 해결 확인 |
 | 021 | [2026-10-03 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-03-graphics-021) | 첫 로딩 수정 확인; 후속 전투 프리징 보고 |

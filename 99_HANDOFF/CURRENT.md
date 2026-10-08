@@ -1,6 +1,6 @@
 # 현재 인계 — 2026-10-08
 
-웹 AI 결과 001–011을 모두 수신하고, 확인된 텍스트 51곳·이미지 250면을 통합한 **042 로컬 ISO·원판용 xdelta**를 만들었다. 공개 릴리스는 038, 마지막 사용자 수용 기준은 023이다. 게임은 실행하지 않았다.
+웹 AI 결과 001–011을 모두 수신하고, 확인된 텍스트 51곳·이미지 250면을 통합한 **042 로컬 ISO·원판용 xdelta**를 만들었다. 공개 릴리스는 042, 마지막 전체 변경 수용 기준은 023이며 백식 미션 해결은 038에 대한 사용자 확인이다. 게임은 실행하지 않았다.
 
 ## 현재 산출물
 
@@ -12,7 +12,7 @@
 | 원판용 패치 | 같은 폴더의 `next_plus_graphics_revision_042.xdelta` |
 | 패치 SHA-256 | `eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8` |
 | 패치 크기·CRC32 | 15,273,684바이트 / `57A36B08` |
-| 정적 검사·원판 재적용 | PASS; 실행 NOT_TESTED; 공개 릴리스 게시 안 함 |
+| 정적 검사·원판 재적용 | PASS; 실행 NOT_TESTED; 042 공개 다운로드 해시 PASS |
 
 원판은 `Kidou Senshi Gundam - Gundam vs. Gundam Next Plus (Japan, Asia).iso`, SHA-256 `a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3`다. 사용자 제공 `original_jp_.iso`는 패치된 입력이다. 원판·사용자 입력을 수정하지 않는다.
 
@@ -26,7 +26,7 @@
 
 브리핑 이름 영역이 로고 보호 범위를 넘은 초안, 기존 글자 흔적이 남은 초안, 잘못 짚은 등급·곡명 행은 폐기하고 다시 만들었다. 유효한 그래픽 입력은 로컬 `work/web_result_review_2026-10-08/graphics_integration/approved_combined_v2`, `english_verified_v2`, `menu_verified_v2`다. 이전 v1/v2/v3 초안을 현재 후보로 쓰지 않는다. public 재현 규칙은 `translations/graphics/web_ai_supervised_040_2026-10-08.json`, `web_ai_supervised_041_2026-10-08.json`, `web_ai_supervised_042_2026-10-08.json`이다.
 
-근거: [텍스트 감독 검수](../reports/web_ai_text_supervision_2026-10-08.json), [이미지 감독 검수](../reports/web_ai_graphics_supervision_2026-10-08.json), [최종 개발 검사](../reports/development_042_2026-10-08.json), [누적 범위](../reports/graphics_scope_042_2026-10-08.json).
+근거: [042 게시·다운로드 검사](../reports/release_042_2026-10-08.json), [텍스트 감독 검수](../reports/web_ai_text_supervision_2026-10-08.json), [이미지 감독 검수](../reports/web_ai_graphics_supervision_2026-10-08.json), [최종 개발 검사](../reports/development_042_2026-10-08.json), [누적 범위](../reports/graphics_scope_042_2026-10-08.json).
 
 ## 남은 감독 작업
 

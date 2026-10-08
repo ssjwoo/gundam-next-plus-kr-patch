@@ -1,12 +1,12 @@
 # 기동전사 건담 VS. 건담 NEXT PLUS 한글패치
 
-PSP 일본판 **NPJH50107**의 비공식 한글화 프로젝트입니다. 최신 배포본은 **038 개발판**이며, 건담 작품·게임 타이틀 로고는 원본으로 유지합니다.
+PSP 일본판 **NPJH50107**의 비공식 한글화 프로젝트입니다. 최신 배포본은 **042 개발판**이며, 건담 작품·게임 타이틀 로고는 원본으로 유지합니다.
 
-최신 로컬 작업본은 **042**입니다. 웹 AI 결과 11개를 수신한 뒤 실제 원문·그림으로 감독 검수해 텍스트 51곳과 이미지 250면을 반영했습니다. 기체·파일럿 이름판 232개, 조작 안내의 오역, 지도·미션·결과·설정 UI를 보완했습니다. 정적 검사와 원판용 xdelta 재적용은 PASS이며 공개 릴리스는 038입니다. [040–042 변경·검증](docs/HISTORY.md#revision-042).
+최신 로컬·공개 작업본은 **042**입니다. 웹 AI 결과 11개를 수신한 뒤 실제 원문·그림으로 감독 검수해 텍스트 51곳과 이미지 250면을 반영했습니다. 기체·파일럿 이름판 232개, 조작 안내의 오역, 지도·미션·결과·설정 UI를 보완했습니다. 정적 검사·원판용 xdelta 재적용·공개 다운로드 해시 확인은 PASS입니다. [040–042 변경·검증](docs/HISTORY.md#revision-042).
 
 ## 다운로드·적용
 
-[038 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038) · [038 xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta)
+[042 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042) · [042 xdelta 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta)
 
 합법적으로 보유한 **패치하지 않은 일본/아시아판 원본 ISO**에 적용하는 누적 패치입니다. 기존 패치 ISO에 덧씌우지 않고 별도 출력 파일을 만드세요. 폰트는 패치 결과 ISO에 내장됩니다.
 
@@ -15,14 +15,14 @@ PSP 일본판 **NPJH50107**의 비공식 한글화 프로젝트입니다. 최신
 - 적용 순서·패치 및 출력 해시: [설치 안내](docs/INSTALL.md)
 
 ```text
-xdelta3 -d -s "original_jp.iso" "next_plus_graphics_revision_038.xdelta" "next_plus_graphics_revision_038.iso"
+xdelta3 -d -s "original_jp.iso" "next_plus_graphics_revision_042.xdelta" "next_plus_graphics_revision_042.iso"
 ```
 
 `original_jp.iso`는 원본 파일명 예시입니다. 실제 원본 파일명을 사용하세요.
 
 ## 현재 상태
 
-038은 비텍스트 데이터 복원, 잘못된 제어 구두점·달성 조건 수정, 대사 176개의 전체 문장 교체와 프리 배틀 목록·선택 안내 이미지 3면을 포함합니다. 현재 번역 슬롯 3,953개와 수정 이미지 892면을 확인했습니다. [수정 범위와 근거](docs/HISTORY.md#revision-038).
+042는 038의 비텍스트·제어 구두점·달성 조건 복원과 전체 대사 수정을 포함한 누적 개발판입니다. 현재 번역 슬롯 3,953개, 수정 PZZ 938개·이미지 1,126면과 원본 타이틀 로고 193면 보호를 확인했습니다. [수정 범위와 근거](docs/HISTORY.md#revision-042).
 
 **백식 호위 임무 프리징은 038에서 해결됐다는 사용자 확인을 받았습니다.** 027에서 보고된 NEXT PLUS 중급 트라이얼 마지막 백식 호위 임무의 랜덤 프리징은 [해결 확인](docs/MISSION_FREEZE_027_2026-10-05.md)으로 닫았습니다. 042의 게임 실행은 아직 미확인입니다. 과거 023의 타이거바움 해결 확인은 별도 범위입니다.
 

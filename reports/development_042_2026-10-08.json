@@ -48,6 +48,32 @@
     "runtime_verdict": "NOT_TESTED",
     "mission_freeze_resolution": "UNCONFIRMED"
   },
-  "publication_status": "LOCAL_ONLY",
-  "scope": "15 functional menu/settings labels on one atlas surface; inherited 040/041 text/graphics preserved"
+  "publication_status": "PUBLISHED_DOWNLOAD_VERIFIED",
+  "scope": "15 functional menu/settings labels on one atlas surface; inherited 040/041 text/graphics preserved",
+  "publication": {
+    "tag": "dev-2026-10-08-graphics-042",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
+    "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
+    "asset_name": "next_plus_graphics_revision_042.xdelta",
+    "asset_bytes": 15273684,
+    "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "public_download_verdict": "PASS",
+    "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d"
+  },
+  "previous_hyakushiki_issue_resolution": {
+    "status": "RESOLVED_USER_REPORTED",
+    "confirmed_on": "2026-10-08",
+    "recorded_at": "2026-10-08T01:36:16.595700+00:00",
+    "authority": "USER",
+    "user_message": "릴리스 올려. 백식 미션 프리징은 038에 진즉에 잘해결됬더라",
+    "revision": "038",
+    "iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+    "artifact_binding": "User explicitly confirms revision 038; bound to its published local build hash, not rehashed from the user device.",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "runtime_scope": "Previously reported random battle freeze in NEXT PLUS intermediate trial final Hyakushiki escort mission.",
+    "cause": "UNCONFIRMED_RUNTIME_LINK",
+    "agent_executed_game": false,
+    "whole_game_runtime_pass": false,
+    "runtime_result_transferred_to_042": false
+  }
 }

@@ -1,6 +1,6 @@
 # 개발·복구 안내
 
-현재 로컬 작업 기준은 **042**, 공개 릴리스는 **038**, 마지막 사용자 수용 기준은 **023**입니다. 실제 로컬 입력과 다음 작업은 [현재 인계](../99_HANDOFF/CURRENT.md), 결과 집계는 [status.json](../reports/status.json)을 먼저 읽으세요. 아래 과거 복구 절차는 최신 빌드 전체를 재생성하는 단일 명령이 아닙니다.
+현재 로컬 작업 기준은 **042**, 공개 릴리스는 **042**, 마지막 사용자 수용 기준은 **023**입니다. 실제 로컬 입력과 다음 작업은 [현재 인계](../99_HANDOFF/CURRENT.md), 결과 집계는 [status.json](../reports/status.json)을 먼저 읽으세요. 아래 과거 복구 절차는 최신 빌드 전체를 재생성하는 단일 명령이 아닙니다.
 
 ## 환경
 
@@ -49,7 +49,7 @@ git clone https://github.com/yazzang-homelab/hanpatch.git ..\hanpatch
 
 이 명령은 당시 추출 입력과 구조 레코드가 준비된 경우의 복구 절차입니다. 원문 주소·바이트·포인터를 확인하며 스캐너 ID만으로 연결하지 않습니다. 현재 슬롯 근거는 [현재 한국어 카탈로그](../translations/current_bound_text_ko_2026-10-08.json)와 [읽기 검사](../reports/current_text_readback_2026-10-08.json)에 있습니다.
 
-숫자 수정용 `repair_fixed_width_digits.py`·`build_digit_repair_iso.py`는 당시의 특정 ELF·폰트·보관 ISO 해시만 받아들입니다. 과거 v10_base·텍스트 002·005·020 빌드 명령을 현재 038에 무조건 재사용하면 이후 수정이 누락됩니다. 당시 전체 명령은 [통합 전 문서](https://github.com/ssjwoo/gundam-next-plus-kr-patch/blob/78269664824c0ad91e71d5f59f6c3f209f53202c/docs/UPDATE_2026-10-02.md)에 보존돼 있습니다.
+숫자 수정용 `repair_fixed_width_digits.py`·`build_digit_repair_iso.py`는 당시의 특정 ELF·폰트·보관 ISO 해시만 받아들입니다. 과거 v10_base·텍스트 002·005·020 빌드 명령을 현재 042에 무조건 재사용하면 이후 수정이 누락됩니다. 당시 전체 명령은 [통합 전 문서](https://github.com/ssjwoo/gundam-next-plus-kr-patch/blob/78269664824c0ad91e71d5f59f6c3f209f53202c/docs/UPDATE_2026-10-02.md)에 보존돼 있습니다.
 
 ## 재발 방지
 
@@ -66,7 +66,7 @@ git clone https://github.com/yazzang-homelab/hanpatch.git ..\hanpatch
 
 2026-10-02 검수의 변경 전후·파일 해시·보류 항목은 [검수 보고서](../reports/translation_review_2026-10-02.json)에 있습니다. 최신 원문 경계 확인과 개별 보정은 `translations/current_bound_text_ko_2026-10-08.json` 및 개별 수정 카탈로그를 함께 사용합니다.
 
-현재 최신 빌드의 실행은 미확인이며 전체 게임·NEXT PLUS 한글화 완료 판정은 없습니다. [진행 현황](../PROGRESS.md), [현재 문제](MISSION_FREEZE_027_2026-10-05.md), [배포 방침](PUBLICATION_POLICY.md).
+현재 최신 빌드의 실행은 미확인이며 전체 게임·NEXT PLUS 한글화 완료 판정은 없습니다. [진행 현황](../PROGRESS.md), [백식 미션 해결 기록](MISSION_FREEZE_027_2026-10-05.md), [배포 방침](PUBLICATION_POLICY.md).
 
 ## 040–042 감독 검수 재현
 

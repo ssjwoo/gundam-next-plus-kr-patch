@@ -389,8 +389,8 @@
     "candidate_revision": "042",
     "elf_sha256": "d0c116d8165f72b8f65c524eeb5809cfd80cf58330ecf5ce5619c8a9c250c760",
     "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
-    "mission_freeze_resolution": "UNCONFIRMED",
-    "published": false,
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED_IN_038",
+    "published": true,
     "delta_roundtrip": {
       "revision": "042",
       "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
@@ -406,7 +406,35 @@
       "mission_freeze_resolution": "UNCONFIRMED"
     },
     "source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
-    "current_catalog": "translations/current_bound_text_ko_2026-10-08.json"
+    "current_catalog": "translations/current_bound_text_ko_2026-10-08.json",
+    "publication_status": "PUBLISHED_DOWNLOAD_VERIFIED",
+    "hyakushiki_resolution": {
+      "status": "RESOLVED_USER_REPORTED",
+      "confirmed_on": "2026-10-08",
+      "recorded_at": "2026-10-08T01:36:16.595700+00:00",
+      "authority": "USER",
+      "user_message": "릴리스 올려. 백식 미션 프리징은 038에 진즉에 잘해결됬더라",
+      "revision": "038",
+      "iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+      "artifact_binding": "User explicitly confirms revision 038; bound to its published local build hash, not rehashed from the user device.",
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "runtime_scope": "Previously reported random battle freeze in NEXT PLUS intermediate trial final Hyakushiki escort mission.",
+      "cause": "UNCONFIRMED_RUNTIME_LINK",
+      "agent_executed_game": false,
+      "whole_game_runtime_pass": false,
+      "runtime_result_transferred_to_042": false
+    },
+    "hyakushiki_runtime_result_transferred_to_042": false,
+    "publication": {
+      "tag": "dev-2026-10-08-graphics-042",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
+      "asset_name": "next_plus_graphics_revision_042.xdelta",
+      "asset_bytes": 15273684,
+      "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+      "public_download_verdict": "PASS",
+      "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d"
+    }
   },
   "runtime_verified": {
     "emulator": "PPSSPP v1.20.4 development build",
@@ -602,7 +630,7 @@
       "runtime_issue": "NEXT_PLUS_MISSION_FREEZE_021"
     }
   ],
-  "latest_public_release_tag": "dev-2026-10-05-graphics-038",
+  "latest_public_release_tag": "dev-2026-10-08-graphics-042",
   "resume_2026_10_02": {
     "original_inventory_candidates": 8731,
     "recovered_source_bound_rows": 3920,
@@ -946,7 +974,7 @@
       "runtime_result_transferred_to_042": false
     }
   ],
-  "latest_public_release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038",
+  "latest_public_release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
   "release_023_2026_10_03": {
     "tag": "dev-2026-10-03-graphics-023",
     "release_id": 402532087,
@@ -1496,8 +1524,8 @@
     "candidate_revision": "042",
     "elf_sha256": "d0c116d8165f72b8f65c524eeb5809cfd80cf58330ecf5ce5619c8a9c250c760",
     "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
-    "mission_freeze_resolution": "UNCONFIRMED",
-    "published": false,
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED_IN_038",
+    "published": true,
     "delta_roundtrip": {
       "revision": "042",
       "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
@@ -1513,7 +1541,35 @@
       "mission_freeze_resolution": "UNCONFIRMED"
     },
     "source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
-    "current_catalog": "translations/current_bound_text_ko_2026-10-08.json"
+    "current_catalog": "translations/current_bound_text_ko_2026-10-08.json",
+    "publication_status": "PUBLISHED_DOWNLOAD_VERIFIED",
+    "hyakushiki_resolution": {
+      "status": "RESOLVED_USER_REPORTED",
+      "confirmed_on": "2026-10-08",
+      "recorded_at": "2026-10-08T01:36:16.595700+00:00",
+      "authority": "USER",
+      "user_message": "릴리스 올려. 백식 미션 프리징은 038에 진즉에 잘해결됬더라",
+      "revision": "038",
+      "iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+      "artifact_binding": "User explicitly confirms revision 038; bound to its published local build hash, not rehashed from the user device.",
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "runtime_scope": "Previously reported random battle freeze in NEXT PLUS intermediate trial final Hyakushiki escort mission.",
+      "cause": "UNCONFIRMED_RUNTIME_LINK",
+      "agent_executed_game": false,
+      "whole_game_runtime_pass": false,
+      "runtime_result_transferred_to_042": false
+    },
+    "hyakushiki_runtime_result_transferred_to_042": false,
+    "publication": {
+      "tag": "dev-2026-10-08-graphics-042",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
+      "asset_name": "next_plus_graphics_revision_042.xdelta",
+      "asset_bytes": 15273684,
+      "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+      "public_download_verdict": "PASS",
+      "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d"
+    }
   },
   "remaining_work_2026_10_05": {
     "revision": "038",
@@ -1620,43 +1676,35 @@
     "updated_at": "2026-10-06T12:10:11.719380+00:00"
   },
   "latest_published_artifact": {
-    "candidate_revision": "038",
-    "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-05\\next_plus_graphics_revision_038.iso",
-    "iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
-    "iso_crc32": "EA404316",
+    "candidate_iso": "E:\\codex\\work\\gundam\\build\\graphics_revision_2026-10-08\\next_plus_graphics_revision_042.iso",
+    "iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+    "iso_crc32": "87C3C2B8",
     "iso_bytes": 1757806592,
-    "elf_sha256": "f8e634128ef2c81f243a0edef60e2edaf7a698285bf68cc40a29ee7acec3a842",
-    "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
     "static_verdict": "PASS",
     "runtime_verdict": "NOT_TESTED",
+    "candidate_revision": "042",
+    "elf_sha256": "d0c116d8165f72b8f65c524eeb5809cfd80cf58330ecf5ce5619c8a9c250c760",
+    "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
     "mission_freeze_resolution": "RESOLVED_USER_REPORTED_IN_038",
     "published": true,
     "delta_roundtrip": {
-      "revision": "038",
+      "revision": "042",
       "original_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
-      "candidate_iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
-      "xdelta_sha256": "8c9677e709d49883f20c6ea9bc43f1f6b714aa3a34f3140a22abfc7914f4b3ea",
-      "xdelta_crc32": "80FAB14B",
-      "xdelta_bytes": 15156246,
-      "roundtrip_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+      "candidate_iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+      "xdelta_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+      "xdelta_crc32": "57A36B08",
+      "xdelta_bytes": 15273684,
+      "roundtrip_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
       "roundtrip_bytes": 1757806592,
       "roundtrip_method": "Decoded stdout streamed into SHA256 and CRC32; no duplicate ISO",
       "verdict": "PASS",
       "runtime_verdict": "NOT_TESTED",
       "mission_freeze_resolution": "UNCONFIRMED"
     },
+    "source_iso_sha256": "a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3",
+    "current_catalog": "translations/current_bound_text_ko_2026-10-08.json",
     "publication_status": "PUBLISHED_DOWNLOAD_VERIFIED",
-    "publication": {
-      "tag": "dev-2026-10-05-graphics-038",
-      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038",
-      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta",
-      "asset_name": "next_plus_graphics_revision_038.xdelta",
-      "asset_bytes": 15156246,
-      "asset_sha256": "8c9677e709d49883f20c6ea9bc43f1f6b714aa3a34f3140a22abfc7914f4b3ea",
-      "public_download_verdict": "PASS",
-      "release_code_commit": "b09a9364f819b52583b76fb0135fbb768c291938"
-    },
-    "post_release_user_runtime_confirmation": {
+    "hyakushiki_resolution": {
       "status": "RESOLVED_USER_REPORTED",
       "confirmed_on": "2026-10-08",
       "recorded_at": "2026-10-08T01:36:16.595700+00:00",
@@ -1671,11 +1719,22 @@
       "agent_executed_game": false,
       "whole_game_runtime_pass": false,
       "runtime_result_transferred_to_042": false
+    },
+    "hyakushiki_runtime_result_transferred_to_042": false,
+    "publication": {
+      "tag": "dev-2026-10-08-graphics-042",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
+      "asset_name": "next_plus_graphics_revision_042.xdelta",
+      "asset_bytes": 15273684,
+      "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+      "public_download_verdict": "PASS",
+      "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d"
     }
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
   "graphics_scope_report": "reports/graphics_scope_042_2026-10-08.json",
-  "updated_at": "2026-10-08T01:36:16.603707+00:00",
+  "updated_at": "2026-10-08T01:39:20.685100+00:00",
   "web_ai_handoff_batch_002": {
     "report": "reports/web_ai_handoff_batch_002_2026-10-06.json",
     "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
@@ -1930,5 +1989,49 @@
     "agent_executed_game": false,
     "whole_game_runtime_pass": false,
     "runtime_result_transferred_to_042": false
-  }
+  },
+  "release_042_2026_10_08": {
+    "tag": "dev-2026-10-08-graphics-042",
+    "release_id": 406318430,
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
+    "published_at": "2026-10-08T01:36:55Z",
+    "prerelease": true,
+    "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d",
+    "tag_commit_verified": true,
+    "asset_id": 620354577,
+    "asset_name": "next_plus_graphics_revision_042.xdelta",
+    "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
+    "asset_bytes": 15273684,
+    "asset_crc32": "57A36B08",
+    "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "github_digest": "sha256:eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "anonymous_download_bytes": 15273684,
+    "anonymous_download_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "public_download_verdict": "PASS",
+    "latest_release_in_list": true,
+    "verified_at": "2026-10-08T01:37:55.796702+00:00",
+    "runtime_verdict": "NOT_TESTED",
+    "runtime_owner": "USER",
+    "agent_executed_game": false,
+    "hyakushiki_freeze_issue_status": "RESOLVED_USER_REPORTED_IN_038",
+    "hyakushiki_runtime_confirmation": "reports/runtime_hyakushiki_038_2026-10-08.json",
+    "hyakushiki_runtime_result_transferred_to_042": false,
+    "publication_authorization": "릴리스 올려. 백식 미션 프리징은 038에 진즉에 잘해결됬더라",
+    "accepted_baseline_revision": "023",
+    "whole_game_or_next_plus_localization_complete": false,
+    "prior_releases_preserved": [
+      "dev-2026-10-05-graphics-038",
+      "dev-2026-10-04-graphics-027",
+      "dev-2026-10-03-graphics-023",
+      "dev-2026-10-03-graphics-021",
+      "dev-2026-09-26"
+    ],
+    "only_xdelta_asset_published": true,
+    "game_iso_or_extracted_assets_uploaded": false,
+    "anonymous_download_method": "Unauthenticated public asset URL with cache-busting query streamed into SHA256.",
+    "original_source_roundtrip_report": "build/graphics_revision_2026-10-08/xdelta_roundtrip_042.json",
+    "static_report": "reports/development_042_2026-10-08.json"
+  },
+  "release_042_authorized": "릴리스 올려. 백식 미션 프리징은 038에 진즉에 잘해결됬더라",
+  "development_publication_status": "042_PUBLISHED_DOWNLOAD_VERIFIED"
 }
