@@ -26,6 +26,19 @@ from hanpatch.platforms.psp.iso9660 import Iso
 def sha(data):
     return hashlib.sha256(data).hexdigest()
 
+def verify_text_areas(decoded, labels):
+    """Enforce declared transparent name-row bounds after palette conversion."""
+    for label in labels:
+        if not label.get('require_alpha_within_text_box'):
+            continue
+        x0,y0,x1,y1 = label['box']
+        tx0,ty0,tx1,ty1 = label.get('text_box', label['box'])
+        assert x0 <= tx0 < tx1 <= x1 and y0 <= ty0 < ty1 <= y1
+        outside = decoded[y0:y1,x0:x1,3].copy()
+        outside[ty0-y0:ty1-y0,tx0-x0:tx1-x0] = 0
+        assert not np.any(outside), ('Native name pixels outside sampled row', label['id'])
+        assert np.any(decoded[ty0:ty1,tx0:tx1,3]), ('Native name row is blank', label['id'])
+
 def write(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
@@ -72,7 +85,7 @@ def main():
         for member, items in grouped.items():
             meta = items[0][2]
             raw = bytes(iso.blob[meta['iso_absolute_offset']:meta['iso_absolute_offset'] + meta['size']])
-            assert sha(raw) == meta['current039_member_sha256']
+            assert sha(raw) == meta.get('baseline_member_sha256', meta.get('current039_member_sha256'))
             folder = OUT / 'members' / Path(member).stem
             folder.mkdir(parents=True, exist_ok=True)
             source = folder / member; source.write_bytes(raw)
@@ -88,11 +101,11 @@ def main():
                 changed = {}
                 current = gim
                 for item, b in pictures:
-                    png = Path(b['current039_png']); original = Path(b['original_png'])
-                    assert sha(png.read_bytes()) == b['current039_png_sha256']
+                    png = Path(b.get('baseline_png', b.get('current039_png'))); original = Path(b['original_png'])
+                    assert sha(png.read_bytes()) == b.get('baseline_png_sha256', b.get('current039_png_sha256'))
                     assert sha(original.read_bytes()) == b['original_png_sha256']
                     source_image = render_picture(gim, old_chunks[b['picture']]).convert('RGBA')
-                    assert sha(source_image.tobytes()) == b['current039_rgba_sha256']
+                    assert sha(source_image.tobytes()) == b.get('baseline_rgba_sha256', b.get('current039_rgba_sha256'))
                     assert source_image.tobytes() == Image.open(png).convert('RGBA').tobytes()
                     assert sha(Image.open(original).convert('RGBA').tobytes()) == b['original_rgba_sha256']
                     tag = b['image_id']
@@ -111,6 +124,7 @@ def main():
                     call('replace_gim_picture.py', input_gim, b['picture'], edited, output_gim,
                          '--preview', readback, '--report', folder / f'{tag}_gim.private.json')
                     decoded = np.array(Image.open(readback).convert('RGBA')); before = np.array(source_image)
+                    verify_text_areas(decoded, item['labels'])
                     mask = np.zeros(before.shape[:2], dtype=bool)
                     for label in item['labels']:
                         x0, y0, x1, y1 = label['box']; mask[y0:y1, x0:x1] = True

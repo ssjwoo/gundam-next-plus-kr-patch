@@ -1,0 +1,3612 @@
+{
+  "baseline_revision": "042",
+  "intended_revision": "043",
+  "baseline_iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+  "font_file_sha256": "21f9d3a7f1ca82ca1dc9a288e30138b4f1feb6e71fc89b5a9181fed174b6bbe2",
+  "packet_bindings_sha256": {
+    "work/npc_nameplate_fix_2026-10-08/native_bindings": "0db5f3c263da8ca6374f8e9090eac6dbf6b298c46d275a55d175e6a57d0e04ed"
+  },
+  "review_state": "supervisor_reviewed_npc_name_row_correction",
+  "runtime_verdict": "NOT_TESTED",
+  "images": [
+    {
+      "image_id": "G4030",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4030_UNIT",
+          "text": "자쿠",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        24,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        24,
+        22
+      ]
+    },
+    {
+      "image_id": "G4032",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4032_UNIT",
+          "text": "네모",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        25,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        24,
+        22
+      ]
+    },
+    {
+      "image_id": "G4034",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4034_UNIT",
+          "text": "하이잭",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        57,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        36,
+        23
+      ]
+    },
+    {
+      "image_id": "G4036",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4036_UNIT",
+          "text": "제간",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        47,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        25,
+        23
+      ]
+    },
+    {
+      "image_id": "G4038",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4038_UNIT",
+          "text": "기라 도가",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        61,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        53,
+        22
+      ]
+    },
+    {
+      "image_id": "G4040",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4040_UNIT",
+          "text": "데난 존",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        63,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        40,
+        23
+      ]
+    },
+    {
+      "image_id": "G4042",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4042_UNIT",
+          "text": "조로아트",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        53,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        48,
+        22
+      ]
+    },
+    {
+      "image_id": "G4044",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4044_UNIT",
+          "text": "데스 아미",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        66,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        51,
+        23
+      ]
+    },
+    {
+      "image_id": "G4046",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4046_UNIT",
+          "text": "리오",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        2,
+        44,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        24,
+        22
+      ]
+    },
+    {
+      "image_id": "G4048",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4048_UNIT",
+          "text": "도트레스",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        2,
+        52,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        48,
+        22
+      ]
+    },
+    {
+      "image_id": "G4050",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4050_UNIT",
+          "text": "볼쟈논",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        2,
+        79,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        36,
+        23
+      ]
+    },
+    {
+      "image_id": "G4052",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4052_UNIT",
+          "text": "진",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        24,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        11,
+        22
+      ]
+    },
+    {
+      "image_id": "G4054",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4054_UNIT",
+          "text": "M1 아스트레이",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        75,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        84,
+        22
+      ]
+    },
+    {
+      "image_id": "G4056",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4056_UNIT",
+          "text": "플래그",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        45,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        36,
+        22
+      ]
+    },
+    {
+      "image_id": "G4058",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4058_UNIT",
+          "text": "어헤드",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        41,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        36,
+        22
+      ]
+    },
+    {
+      "image_id": "G4060",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4060_UNIT",
+          "text": "플래그 커스텀",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        83,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        75,
+        23
+      ]
+    },
+    {
+      "image_id": "G4062",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4062_UNIT",
+          "text": "어헤드 사키가케",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        84,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        88,
+        22
+      ]
+    },
+    {
+      "image_id": "G4064",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4064_UNIT",
+          "text": "V 건담 헥사",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        83,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        66,
+        23
+      ]
+    },
+    {
+      "image_id": "G4066",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4066_UNIT",
+          "text": "짐 스나이퍼",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        83,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        63,
+        23
+      ]
+    },
+    {
+      "image_id": "G4068",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4068_UNIT",
+          "text": "기라 도가",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        61,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        53,
+        22
+      ]
+    },
+    {
+      "image_id": "G4070",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4070_UNIT",
+          "text": "헤비건",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        1,
+        58,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        36,
+        22
+      ]
+    },
+    {
+      "image_id": "G4072",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4072_UNIT",
+          "text": "건이지",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        57,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        35,
+        22
+      ]
+    },
+    {
+      "image_id": "G4074",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4074_UNIT",
+          "text": "건블래스터",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        79,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        59,
+        23
+      ]
+    },
+    {
+      "image_id": "G4076",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4076_UNIT",
+          "text": "짐 커스텀",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        72,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        51,
+        23
+      ]
+    },
+    {
+      "image_id": "G4080",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4080_UNIT",
+          "text": "짐 캐논 II",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        78,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        50,
+        22
+      ]
+    },
+    {
+      "image_id": "G4084",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4084_UNIT",
+          "text": "버고 II",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        1,
+        46,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        34,
+        22
+      ]
+    },
+    {
+      "image_id": "G4086",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4086_UNIT",
+          "text": "양산형 큐베레이",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        2,
+        83,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        87,
+        23
+      ]
+    },
+    {
+      "image_id": "G4088",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4088_UNIT",
+          "text": "서펜트",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        56,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        36,
+        23
+      ]
+    },
+    {
+      "image_id": "G4092",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4092_UNIT",
+          "text": "게이츠",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        36,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        36,
+        22
+      ]
+    },
+    {
+      "image_id": "G4094",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4094_UNIT",
+          "text": "거너 자쿠 워리어",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        84,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        91,
+        22
+      ]
+    },
+    {
+      "image_id": "G4100",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4100_UNIT",
+          "text": "스트라이크 루즈",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        83,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        88,
+        22
+      ]
+    },
+    {
+      "image_id": "G4102",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4102_UNIT",
+          "text": "육전형 건담",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        2,
+        74,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        65,
+        22
+      ]
+    },
+    {
+      "image_id": "G4104",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4104_UNIT",
+          "text": "버스터",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        48,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        35,
+        22
+      ]
+    },
+    {
+      "image_id": "G4106",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4106_UNIT",
+          "text": "블리츠",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        43,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        36,
+        23
+      ]
+    },
+    {
+      "image_id": "G4108",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4108_UNIT",
+          "text": "샌드록 개",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        76,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        52,
+        22
+      ]
+    },
+    {
+      "image_id": "G4110",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4110_UNIT",
+          "text": "짐 스나이퍼 II",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        83,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        74,
+        23
+      ]
+    },
+    {
+      "image_id": "G4114",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4114_UNIT",
+          "text": "데빌 건담",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        1,
+        77,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        53,
+        23
+      ]
+    },
+    {
+      "image_id": "G4117",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4117_UNIT",
+          "text": "건담 헤드",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        74,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        52,
+        23
+      ]
+    },
+    {
+      "image_id": "G4121",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4121_UNIT",
+          "text": "데빌 건담",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        1,
+        77,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        9,
+        53,
+        23
+      ]
+    },
+    {
+      "image_id": "G4124",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4124_UNIT",
+          "text": "건담 헤드",
+          "box": [
+            0,
+            0,
+            128,
+            32
+          ],
+          "size": 13,
+          "sample_x": 127,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            127,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            128,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        74,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        9,
+        52,
+        23
+      ]
+    },
+    {
+      "image_id": "G4128",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4128_UNIT",
+          "text": "플래그",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        45,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        11,
+        31,
+        22
+      ]
+    },
+    {
+      "image_id": "G4132",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4132_UNIT",
+          "text": "앗시마",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        55,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        31,
+        21
+      ]
+    },
+    {
+      "image_id": "G4134",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4134_UNIT",
+          "text": "자쿠 탱크",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        56,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        44,
+        22
+      ]
+    },
+    {
+      "image_id": "G4136",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4136_UNIT",
+          "text": "미사일",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        45,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        10,
+        30,
+        22
+      ]
+    },
+    {
+      "image_id": "G4138",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4138_UNIT",
+          "text": "G링",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        2,
+        44,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        18,
+        21
+      ]
+    },
+    {
+      "image_id": "G4140",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4140_UNIT",
+          "text": "캐틀",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        43,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        11,
+        21,
+        22
+      ]
+    },
+    {
+      "image_id": "G4144",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4144_UNIT",
+          "text": "돕",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        2,
+        32,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        11,
+        11,
+        21
+      ]
+    },
+    {
+      "image_id": "G4148",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4148_UNIT",
+          "text": "헤비건",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        1,
+        59,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        30,
+        22
+      ]
+    },
+    {
+      "image_id": "G4150",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4150_UNIT",
+          "text": "건이지",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        58,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        30,
+        22
+      ]
+    },
+    {
+      "image_id": "G4170",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4170_UNIT",
+          "text": "건페리",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        57,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        30,
+        22
+      ]
+    },
+    {
+      "image_id": "G4174",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4174_UNIT",
+          "text": "조크",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        34,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        12,
+        21,
+        19
+      ]
+    },
+    {
+      "image_id": "G4176",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4176_UNIT",
+          "text": "가자 D",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        36,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        11,
+        31,
+        22
+      ]
+    },
+    {
+      "image_id": "G4178",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4178_UNIT",
+          "text": "에어리즈",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        57,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        41,
+        22
+      ]
+    },
+    {
+      "image_id": "G4180",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4180_UNIT",
+          "text": "마히로",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        3,
+        45,
+        14
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        31,
+        22
+      ]
+    },
+    {
+      "image_id": "G4182",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4182_UNIT",
+          "text": "무라사메",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        46,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        40,
+        22
+      ]
+    },
+    {
+      "image_id": "G4184",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4184_UNIT",
+          "text": "가자 C",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        37,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        11,
+        30,
+        22
+      ]
+    },
+    {
+      "image_id": "G4186",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4186_UNIT",
+          "text": "버고 II",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        1,
+        46,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        10,
+        29,
+        21
+      ]
+    },
+    {
+      "image_id": "G4190",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4190_UNIT",
+          "text": "서펜트",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        57,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        31,
+        21
+      ]
+    },
+    {
+      "image_id": "G4192",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4192_UNIT",
+          "text": "겔구그",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        51,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        10,
+        31,
+        22
+      ]
+    },
+    {
+      "image_id": "G4196",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4196_UNIT",
+          "text": "돕",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        2,
+        2,
+        32,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        0,
+        11,
+        11,
+        21
+      ]
+    },
+    {
+      "image_id": "G4198",
+      "packet": "work/npc_nameplate_fix_2026-10-08/native_bindings",
+      "labels": [
+        {
+          "id": "G4198_UNIT",
+          "text": "미데아",
+          "box": [
+            0,
+            0,
+            64,
+            32
+          ],
+          "size": 11,
+          "sample_x": 63,
+          "reviewed_background_sample_inside_box": true,
+          "background_mode": "point_sample",
+          "sample_xy": [
+            63,
+            0
+          ],
+          "expected_sample_rgba": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "fill": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "stroke_width": 0,
+          "align": "left",
+          "line_spacing": 1,
+          "text_box": [
+            0,
+            0,
+            64,
+            16
+          ],
+          "require_alpha_within_text_box": true
+        }
+      ],
+      "reason": "Preserve original top16 name-row placement. Clear stale lower-row Korean pixels while retaining wording, font size, original palette and fixed container geometry.",
+      "original_source_ink_bbox": [
+        1,
+        2,
+        35,
+        15
+      ],
+      "rejected042_ink_bbox": [
+        1,
+        10,
+        31,
+        22
+      ]
+    }
+  ]
+}

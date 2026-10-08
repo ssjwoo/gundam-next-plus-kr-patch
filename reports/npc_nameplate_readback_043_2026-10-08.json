@@ -1,0 +1,2028 @@
+{
+  "baseline_revision": "042",
+  "candidate_revision": "043",
+  "checked_nameplates": 61,
+  "baseline_actual_clipping_rejected": true,
+  "corrected_top16_sampling": "PASS",
+  "records": [
+    {
+      "image_id": "G4030",
+      "member": "em01.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        24,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        24,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        24,
+        14
+      ],
+      "visible_pixels_before_below16": 40,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "a879d6f0be3bedacf9ec0f6a8a65cd64b9bcc5d430b264c09720bea48b75670e"
+    },
+    {
+      "image_id": "G4032",
+      "member": "em02.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        25,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        24,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        24,
+        14
+      ],
+      "visible_pixels_before_below16": 55,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "d5be7066846ef3da638cffdbc30efb879511ef6eed2c44bb62974a38e713a5e1"
+    },
+    {
+      "image_id": "G4034",
+      "member": "em03.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        57,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        36,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        36,
+        15
+      ],
+      "visible_pixels_before_below16": 105,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "d8445b0da857f6c7ac2fbd265b40f53657585cf0dbe88d5fc23e8edbdb5f01ee"
+    },
+    {
+      "image_id": "G4036",
+      "member": "em04.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        47,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        25,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        25,
+        15
+      ],
+      "visible_pixels_before_below16": 82,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "391d9c77caea0ac44e5360686086972e8948156bc2598008fb2b1a0e742f7dcf"
+    },
+    {
+      "image_id": "G4038",
+      "member": "em05.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        61,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        53,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        53,
+        14
+      ],
+      "visible_pixels_before_below16": 94,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "a1b5c5e61b37e22b21e3a13584ee954e1f3a13e7588cc0875616992cd18afe3d"
+    },
+    {
+      "image_id": "G4040",
+      "member": "em06.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        63,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        40,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        40,
+        15
+      ],
+      "visible_pixels_before_below16": 111,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "5ff500b5da33c7f36ea1f1f2680fb76c848b0fba04b29f795af17b67e2c98de9"
+    },
+    {
+      "image_id": "G4042",
+      "member": "em07.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        53,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        48,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        48,
+        14
+      ],
+      "visible_pixels_before_below16": 72,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "167542e3bac8c3649c3b9b07bf3b264f0229a1f343e54b7357a3eace34566243"
+    },
+    {
+      "image_id": "G4044",
+      "member": "em08.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        66,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        51,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        51,
+        15
+      ],
+      "visible_pixels_before_below16": 132,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "8da9400c0f1c2e24ceaec58131ab09ea6a482716f43948921367f5538b43552c"
+    },
+    {
+      "image_id": "G4046",
+      "member": "em09.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        2,
+        44,
+        14
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        24,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        24,
+        14
+      ],
+      "visible_pixels_before_below16": 42,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "f3724c18fbb5838eb87d3deb99dcd2c9d1b29a96e58f8dee1a1735543529c5cc"
+    },
+    {
+      "image_id": "G4048",
+      "member": "em0a.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        2,
+        52,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        48,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        48,
+        14
+      ],
+      "visible_pixels_before_below16": 83,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "c20853773bed537a75b73ed922262f2d38708fade28022d350eb9759ccc52bab"
+    },
+    {
+      "image_id": "G4050",
+      "member": "em0b.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        2,
+        79,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        36,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        36,
+        15
+      ],
+      "visible_pixels_before_below16": 112,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "6062140cf78e698087d0faf3880c83ce20696fcadffa6cf71c0c572298584cbe"
+    },
+    {
+      "image_id": "G4052",
+      "member": "em0c.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        24,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        11,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        11,
+        14
+      ],
+      "visible_pixels_before_below16": 30,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "74253f38a008a2e8d2f676cb811adbc81f9ce12d9808a4f006a32c78924d6e60"
+    },
+    {
+      "image_id": "G4054",
+      "member": "em0d.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        75,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        84,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        84,
+        14
+      ],
+      "visible_pixels_before_below16": 162,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "f8f354eb41850113d3de8f28e3c900693dd9ce8b92b30e3e13d4e410380f9998"
+    },
+    {
+      "image_id": "G4056",
+      "member": "em0e.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        45,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        36,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        36,
+        14
+      ],
+      "visible_pixels_before_below16": 89,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "9ce1c56fffeb3eed607be9e60262c2ee33168e0e89ded3e2820946a3efcc5a47"
+    },
+    {
+      "image_id": "G4058",
+      "member": "em0f.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        41,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        36,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        36,
+        14
+      ],
+      "visible_pixels_before_below16": 78,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "b1cf5548fb691430a0873eda908fe24555dfd7eac5cbc071f045eb5ef4cf41b7"
+    },
+    {
+      "image_id": "G4060",
+      "member": "em10.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        83,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        75,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        75,
+        15
+      ],
+      "visible_pixels_before_below16": 176,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "3c6657a18e4f6746369386d9769a126b4f7396e30da8250568f3a04a8c0ebb55"
+    },
+    {
+      "image_id": "G4062",
+      "member": "em11.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        84,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        88,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        88,
+        14
+      ],
+      "visible_pixels_before_below16": 201,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "babd9f51011798a04553c71ce5def9743e4660ffbdac09106ec7ff2386b1a786"
+    },
+    {
+      "image_id": "G4064",
+      "member": "em12.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        83,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        66,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        66,
+        15
+      ],
+      "visible_pixels_before_below16": 161,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "faf0fa5135c50a89880788b3f6bb81340f01be4dfe8421973ac9041413a4e541"
+    },
+    {
+      "image_id": "G4066",
+      "member": "em13.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        83,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        63,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        63,
+        15
+      ],
+      "visible_pixels_before_below16": 152,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "f8b2b3ae1dad5d206ccd04f6c5cfd524b214549fe29f27e804e0b5b7d8bbcea7"
+    },
+    {
+      "image_id": "G4068",
+      "member": "em14.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        61,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        53,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        53,
+        14
+      ],
+      "visible_pixels_before_below16": 94,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "a1b5c5e61b37e22b21e3a13584ee954e1f3a13e7588cc0875616992cd18afe3d"
+    },
+    {
+      "image_id": "G4070",
+      "member": "em15.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        1,
+        58,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        36,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        36,
+        14
+      ],
+      "visible_pixels_before_below16": 88,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "b6c0550398c5dc2c55c7336c321b6b31a414da11deb525068525288dc32bd598"
+    },
+    {
+      "image_id": "G4072",
+      "member": "em16.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        57,
+        14
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        35,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        35,
+        14
+      ],
+      "visible_pixels_before_below16": 69,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "984318cd68a105b0a7475a092e297b7ce26837ad89edc64a489c9222d5fd7eda"
+    },
+    {
+      "image_id": "G4074",
+      "member": "em17.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        79,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        59,
+        23
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        59,
+        15
+      ],
+      "visible_pixels_before_below16": 156,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "6e0af26d4fb5b26666524e1f8d20c6db5d78498d6b206e2e17ef38b6c520b8d9"
+    },
+    {
+      "image_id": "G4076",
+      "member": "em18.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        72,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        51,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        51,
+        15
+      ],
+      "visible_pixels_before_below16": 112,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "8dc129ebfbeb80e20bbbfb9f181c874933c05929b7f601bd3fbd5e1a930ef310"
+    },
+    {
+      "image_id": "G4080",
+      "member": "em1a.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        78,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        50,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        50,
+        14
+      ],
+      "visible_pixels_before_below16": 101,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "b99e4873698a54c7271c16f22854a595b8ccb7a104647fa138375721a2ecc2ff"
+    },
+    {
+      "image_id": "G4084",
+      "member": "em1c.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        1,
+        46,
+        14
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        34,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        34,
+        14
+      ],
+      "visible_pixels_before_below16": 85,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "c76f3a790bb9a3ddf259b90c74f19c0a3641811d1068833f0c7c7aff1b75835c"
+    },
+    {
+      "image_id": "G4086",
+      "member": "em1d.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        2,
+        83,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        87,
+        23
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        87,
+        15
+      ],
+      "visible_pixels_before_below16": 279,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "bd273d9d6a690d6ea394e4a853f966c5115dec50ef8c1db60eaa19c8b504401f"
+    },
+    {
+      "image_id": "G4088",
+      "member": "em1e.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        56,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        36,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        36,
+        15
+      ],
+      "visible_pixels_before_below16": 92,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "be7cbe51064ca9f6bb50b51266dae86ed77e1320ff7463c4b2730365a8b4c7e7"
+    },
+    {
+      "image_id": "G4092",
+      "member": "em20.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        36,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        36,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        36,
+        14
+      ],
+      "visible_pixels_before_below16": 70,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "85f71e433749511d38f53e5018e042a37b9dedf41e82d946b9ad106fa5053dc6"
+    },
+    {
+      "image_id": "G4094",
+      "member": "em21.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        84,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        91,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        91,
+        14
+      ],
+      "visible_pixels_before_below16": 172,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "de7cfc76449d768b4f9c998479bd000f2e0227f90bf71daf1f95b9b266a941be"
+    },
+    {
+      "image_id": "G4100",
+      "member": "em24.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        83,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        88,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        88,
+        14
+      ],
+      "visible_pixels_before_below16": 126,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "61c43cff0f8760c993f05c87f3f5a268314c379faad422ceff362d5a71329dac"
+    },
+    {
+      "image_id": "G4102",
+      "member": "em25.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        2,
+        74,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        65,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        65,
+        14
+      ],
+      "visible_pixels_before_below16": 170,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "19301cd028c14dd0fd18f6d4b8ef23f97c0f2052831943e85b94a2b36a0327aa"
+    },
+    {
+      "image_id": "G4104",
+      "member": "em26.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        48,
+        14
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        35,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        35,
+        14
+      ],
+      "visible_pixels_before_below16": 77,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "6f446fdc73bb71186affebcc992eae4fcf3c298520956901f9bd0e61b0d93876"
+    },
+    {
+      "image_id": "G4106",
+      "member": "em27.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        43,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        36,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        36,
+        15
+      ],
+      "visible_pixels_before_below16": 81,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "3b40c18fb39f713d95568c5a037fda30361e8ae4f4661a52331f774c865ffa70"
+    },
+    {
+      "image_id": "G4108",
+      "member": "em28.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        76,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        52,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        52,
+        14
+      ],
+      "visible_pixels_before_below16": 105,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "8b41fb250ef7a5284c561ab240e5b4a8506d912a8df30cc7253138370e0df2a1"
+    },
+    {
+      "image_id": "G4110",
+      "member": "em29.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        83,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        74,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        74,
+        15
+      ],
+      "visible_pixels_before_below16": 182,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "c6b9e1ba567d3045f4b570ac12038635dc8434cb8b1ec1a58000ccec3dfbc15d"
+    },
+    {
+      "image_id": "G4114",
+      "member": "bo00.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        1,
+        77,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        53,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        53,
+        15
+      ],
+      "visible_pixels_before_below16": 137,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "c2ffb09123f08f7c6e10d6a80a2c28d31034d11538aa2435631663cbc673c33b"
+    },
+    {
+      "image_id": "G4117",
+      "member": "bo01.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        74,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        52,
+        23
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        52,
+        15
+      ],
+      "visible_pixels_before_below16": 124,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "3b8eab2552b0ac21922790de52860e0daf0cbd2b8761705db096b07353c6b87b"
+    },
+    {
+      "image_id": "G4121",
+      "member": "bo00l.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        1,
+        77,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        9,
+        53,
+        23
+      ],
+      "corrected_ink_bbox": [
+        0,
+        1,
+        53,
+        15
+      ],
+      "visible_pixels_before_below16": 137,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "c2ffb09123f08f7c6e10d6a80a2c28d31034d11538aa2435631663cbc673c33b"
+    },
+    {
+      "image_id": "G4124",
+      "member": "bo01l.pzz",
+      "dimensions": [
+        128,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        74,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        9,
+        52,
+        23
+      ],
+      "corrected_ink_bbox": [
+        1,
+        1,
+        52,
+        15
+      ],
+      "visible_pixels_before_below16": 124,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "3b8eab2552b0ac21922790de52860e0daf0cbd2b8761705db096b07353c6b87b"
+    },
+    {
+      "image_id": "G4128",
+      "member": "zk01.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        45,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        11,
+        31,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        3,
+        31,
+        14
+      ],
+      "visible_pixels_before_below16": 77,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "b9cdd0f1c49f0b8568b5c69b00ea09b70bd1e12fec8f1254d13835ac417d3709"
+    },
+    {
+      "image_id": "G4132",
+      "member": "zk03.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        55,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        31,
+        21
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        31,
+        13
+      ],
+      "visible_pixels_before_below16": 61,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "7276caa26bef31b44232dc693e70b72c94e000c7ece694682aca268d6a4ab2cf"
+    },
+    {
+      "image_id": "G4134",
+      "member": "zk04.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        56,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        44,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        44,
+        14
+      ],
+      "visible_pixels_before_below16": 102,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "5f925cd60bcf67bd3d6d16ae7ad71ef0601f38590a802b1841aa6eb89ce3a36c"
+    },
+    {
+      "image_id": "G4136",
+      "member": "zk05.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        45,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        10,
+        30,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        2,
+        30,
+        14
+      ],
+      "visible_pixels_before_below16": 79,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "d25a55047b19c1eec3364ab59f0f54ddb27cb7ca7df32d85c97b876026608e2e"
+    },
+    {
+      "image_id": "G4138",
+      "member": "zk06.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        2,
+        44,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        18,
+        21
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        18,
+        13
+      ],
+      "visible_pixels_before_below16": 54,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "f97a4f5051ee037f6ae55f8d3ebba8b5aecd482750b93d0e843ead23e4b12080"
+    },
+    {
+      "image_id": "G4140",
+      "member": "zk07.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        43,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        11,
+        21,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        3,
+        21,
+        14
+      ],
+      "visible_pixels_before_below16": 56,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "2300631cf3bcbf9edb5529ef2bc2ebec5e4a8aa04832d36c0666bea3c1b817ce"
+    },
+    {
+      "image_id": "G4144",
+      "member": "zk09.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        2,
+        32,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        11,
+        11,
+        21
+      ],
+      "corrected_ink_bbox": [
+        0,
+        3,
+        11,
+        13
+      ],
+      "visible_pixels_before_below16": 29,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "56767c97a6f2709606ffe46bd123e505e60812d9853b4854ef4b54df4bf334cf"
+    },
+    {
+      "image_id": "G4148",
+      "member": "zk0b.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        1,
+        59,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        30,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        30,
+        14
+      ],
+      "visible_pixels_before_below16": 88,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "fd2759d9ce38340ad86f6a1a11ae3b163cc07feacd167e74245ed26d64e2e4fc"
+    },
+    {
+      "image_id": "G4150",
+      "member": "zk0c.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        58,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        30,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        30,
+        14
+      ],
+      "visible_pixels_before_below16": 86,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "3e1a975c76e611d56e000351e28e352d65de548a283676905c49c40756eeb583"
+    },
+    {
+      "image_id": "G4170",
+      "member": "zk16.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        57,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        30,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        30,
+        14
+      ],
+      "visible_pixels_before_below16": 86,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "a949848bbbe12ba0d7ed1bae0a050a1b85a36d606fc5a36429984db1b6629cf7"
+    },
+    {
+      "image_id": "G4174",
+      "member": "zk18.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        34,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        12,
+        21,
+        19
+      ],
+      "corrected_ink_bbox": [
+        0,
+        4,
+        21,
+        11
+      ],
+      "visible_pixels_before_below16": 35,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "e2e8c4c5d19e2fb8b36047a682b8e3f3f9ba33bed6bf2b217667482ae154d431"
+    },
+    {
+      "image_id": "G4176",
+      "member": "zk19.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        36,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        11,
+        31,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        3,
+        31,
+        14
+      ],
+      "visible_pixels_before_below16": 69,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "dcaea214fb7c5b76ff4af1634c9f635ecb976c4e07cbf61c3c32cb5233d939af"
+    },
+    {
+      "image_id": "G4178",
+      "member": "zk1a.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        57,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        41,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        41,
+        14
+      ],
+      "visible_pixels_before_below16": 111,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "f54b931d14ea97852c15e061e18e1372af0bbf91b41d5873bb831c32f746d6a3"
+    },
+    {
+      "image_id": "G4180",
+      "member": "zk1b.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        3,
+        45,
+        14
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        31,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        31,
+        14
+      ],
+      "visible_pixels_before_below16": 76,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "b6e61341e739cf94bf66f2cb96b35d362d1eafe27394c7b11d5c741f0e10d677"
+    },
+    {
+      "image_id": "G4182",
+      "member": "zk1c.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        46,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        40,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        40,
+        14
+      ],
+      "visible_pixels_before_below16": 103,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "1cd923c4c22fe21a00422a616f4f2733aedf664cfd2709ccb7609de70e7ec3f9"
+    },
+    {
+      "image_id": "G4184",
+      "member": "zk1d.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        37,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        11,
+        30,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        3,
+        30,
+        14
+      ],
+      "visible_pixels_before_below16": 64,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "1c4d3dbdd03c2e6f8e4caed5beb68b9d76edf71d2b95f586d8b1f162b21ae74b"
+    },
+    {
+      "image_id": "G4186",
+      "member": "zk1e.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        1,
+        46,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        10,
+        29,
+        21
+      ],
+      "corrected_ink_bbox": [
+        1,
+        2,
+        29,
+        13
+      ],
+      "visible_pixels_before_below16": 68,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "7a6e3a8661688a9d753dd0b6b984266945cc30062e2735051065eb5fab5f27c9"
+    },
+    {
+      "image_id": "G4190",
+      "member": "zk20.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        57,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        31,
+        21
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        31,
+        13
+      ],
+      "visible_pixels_before_below16": 72,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "a256516b065bd02830c4b2906831b3dc91ca634a27339d3007b9d2197b78baf7"
+    },
+    {
+      "image_id": "G4192",
+      "member": "zk21.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        51,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        10,
+        31,
+        22
+      ],
+      "corrected_ink_bbox": [
+        0,
+        2,
+        31,
+        14
+      ],
+      "visible_pixels_before_below16": 65,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "1caf82860fbfcfe46a4b3f822fb872674d129aa847a67f98f00e0412455cc257"
+    },
+    {
+      "image_id": "G4196",
+      "member": "zk23.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        2,
+        2,
+        32,
+        15
+      ],
+      "before_ink_bbox": [
+        0,
+        11,
+        11,
+        21
+      ],
+      "corrected_ink_bbox": [
+        0,
+        3,
+        11,
+        13
+      ],
+      "visible_pixels_before_below16": 29,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "56767c97a6f2709606ffe46bd123e505e60812d9853b4854ef4b54df4bf334cf"
+    },
+    {
+      "image_id": "G4198",
+      "member": "zk24.pzz",
+      "dimensions": [
+        64,
+        32
+      ],
+      "source_ink_bbox": [
+        1,
+        2,
+        35,
+        15
+      ],
+      "before_ink_bbox": [
+        1,
+        10,
+        31,
+        22
+      ],
+      "corrected_ink_bbox": [
+        1,
+        2,
+        31,
+        14
+      ],
+      "visible_pixels_before_below16": 86,
+      "visible_pixels_after_below16": 0,
+      "name_row_verdict": "PASS",
+      "text_unchanged": true,
+      "font_size_unchanged": true,
+      "same_native_glyph_pixels_shifted_up8": true,
+      "corrected_rgba_sha256": "cc8b72c7111b6ba5953d3a75d0b2f0674614cff1d0d2c20704e394058400a377"
+    }
+  ],
+  "static_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "runtime_owner": "USER",
+  "game_or_emulator_launched": false,
+  "legacy_playable_recipe_same_output_sha256": "PASS",
+  "legacy_playable_fixture": "G3579"
+}

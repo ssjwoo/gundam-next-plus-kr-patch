@@ -1,0 +1,68 @@
+{
+  "id": "NPC_NAMEPLATE_ROW_CLIPPING_V1_0_0",
+  "reported_on": "2026-10-08",
+  "status": "CORRECTED_STATIC_AWAITING_USER_OBSERVATION",
+  "reported_artifact_revision": "042",
+  "reported_public_version": "v1.0.0",
+  "artifact_binding": "Latest v1.0.0/042 in conversation; user did not restate the patch version or hash in this report.",
+  "baseline_iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+  "user_report": "주인공급 기체들이나 플레이어블 기체들은 이름이 정상적으로 출력되는데, 이런 플레이어블이 아니라 적npc용 전용 기체들은 글자가 반만 출력되도라..?",
+  "photo_sha256": "1f364bd3c3d7f3c027573c937d0507fe46555757c8da818d3084dcd4bfe5831c",
+  "mode": "NEXT PLUS mission battle",
+  "reported_platform": "Photographed game display; device/configuration not separately specified in this report.",
+  "symptom": "NPC unit name glyphs clipped vertically; playable unit names reported normal.",
+  "baseline_runtime_verdict": "USER_REPORTED_VISUAL_FAIL",
+  "agent_executed_game": false,
+  "confirmed_static_defect": {
+    "writer": "040 enemy/boss/support nameplate recipe centered lettering in the full32-row texture; playable names used separate16-row boxes.",
+    "first_incorrect_state": "Original top-row names occupy rows1..14; corresponding Korean lettering was placed around rows9..22.",
+    "observed_propagation": "Restricting the actual042 native texture to its original top16 name row reproduces the missing lower glyph portions seen in the supplied photograph.",
+    "example_asset": "em08.pzz/part005/picture000 (G4044; 데스 아미)",
+    "example_source_ink_bbox": [
+      1,
+      2,
+      66,
+      15
+    ],
+    "example042_ink_bbox": [
+      0,
+      9,
+      51,
+      23
+    ],
+    "example042_visible_pixels_below16": 132,
+    "consumer_evidence_limit": "Source-defined name-row layout and analytical sampling reproduction; live renderer trace and corrected in-game observation not performed."
+  },
+  "necessary_impact_range": {
+    "audited_nonplayer_nameplates": 78,
+    "corrected_existing_nameplates": 61,
+    "ordinary_enemy": 36,
+    "boss_normal_and_low": 4,
+    "single_row_support": 21,
+    "original_two_line_support_nameplates_preserved": 17,
+    "playable_normal_low_nameplates_preserved": 154
+  },
+  "correction": "Move the same native lettering up8 rows into the original top16 name row, erasing stale lower glyph pixels. Wording, size, palettes, meshes, loader metadata, code and font remain unchanged.",
+  "regression_evidence": {
+    "native_readback_report": "reports/npc_nameplate_readback_043_2026-10-08.json",
+    "all61_same_native_glyph_pixels_shifted_up8": true,
+    "all61_visible_pixels_below16_after": 0,
+    "actual_rejected042_sample_rejected_by_native_guard": true,
+    "renderer_and_native_reinsertion_guards_enforce_text_box": true
+  },
+  "adopted_recipe": "translations/graphics/npc_nameplate_row_fix_043_2026-10-08.json",
+  "candidate_revision": "043",
+  "static_verdict": "PASS",
+  "candidate_runtime_verdict": "NOT_TESTED",
+  "runtime_owner": "USER",
+  "whole_game_runtime_pass": false,
+  "next_action": "Use the corrected043 ISO for normal gameplay and collect the user observation if supplied; do not claim live issue closure from analytical texture sampling alone.",
+  "updated_at": "2026-10-08T07:08:46.327156+00:00",
+  "candidate_iso_sha256": "932ccd4d761ec8532a85441ba0e52b46db8e386048c3f511e77fba6bad698044",
+  "candidate_xdelta_sha256": "8912bfa5bfe0b1488df949d7d64b2cea896c10144121cf42948e2ec125f98d3f",
+  "candidate_iso_crc32": "6527EB82",
+  "candidate_original_roundtrip": "PASS",
+  "affected_iso_bytes": 16384,
+  "elf_and_font_unchanged": true,
+  "candidate_build_report": "reports/development_043_2026-10-08.json"
+}

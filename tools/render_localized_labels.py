@@ -164,7 +164,12 @@ def main():
         rgba[cv_mask!=0,:3]=rgb[cv_mask!=0]
         edited=Image.fromarray(rgba)
     for r in rules['labels']:
-        x0,y0,x1,y1=r['box']
+        # The erase rectangle may include stale pixels outside the sampled row.
+        # Keep actual glyph placement inside the separately declared text area.
+        text_box = r.get('text_box', r['box'])
+        x0,y0,x1,y1=text_box
+        bx0,by0,bx1,by1=r['box']
+        assert bx0 <= x0 < x1 <= bx1 and by0 <= y0 < y1 <= by1, ('Text area outside editable box', r['id'])
         font = ImageFont.truetype(str(a.font),r['size'])
         stroke_width = r.get('stroke_width',1)
         draw=ImageDraw.Draw(edited)
@@ -202,8 +207,16 @@ def main():
             xy = (x-bbox[0],y0+(y1-y0-h)//2-bbox[1])
             draw.multiline_text(xy,r['text'],font=font,fill=fill,stroke_width=stroke_width,stroke_fill=stroke,spacing=r.get('line_spacing',1),align='center')
         md.rectangle((x0,y0,x1-1,y1-1),fill=1)
-        placed.append({'id':r['id'],'box':r['box'],'text':r['text'],'font_size':r['size'],'ink_size':[w,h],
+        placed.append({'id':r['id'],'box':r['box'],'text_box':text_box,'text':r['text'],'font_size':r['size'],'ink_size':[w,h],
                        'fallback_font_used':uses_fallback})
+    for r in rules['labels']:
+        if r.get('require_alpha_within_text_box'):
+            assert r.get('background_mode') == 'point_sample' and r['expected_sample_rgba'][3] == 0
+            bx0,by0,bx1,by1 = r['box']
+            tx0,ty0,tx1,ty1 = r.get('text_box', r['box'])
+            alpha = edited.getchannel('A').crop(r['box'])
+            alpha.paste(0, (tx0-bx0,ty0-by0,tx1-bx0,ty1-by0))
+            assert alpha.getbbox() is None, ('Visible pixels outside sampled name row', r['id'])
     diffs = protected = 0
     for x in range(original.width):
         for y in range(original.height):

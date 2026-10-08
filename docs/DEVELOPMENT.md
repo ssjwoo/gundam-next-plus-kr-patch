@@ -2,6 +2,8 @@
 
 현재 정식 릴리스는 **v1.0.0**, 내부 빌드 기준은 **042**입니다. 사용자가 042를 간단히 플레이하고 정식 배포를 승인했습니다. 이 확인은 전체 게임 완주나 한글화 전수 검수와 구분합니다. 실제 로컬 입력과 다음 작업은 [현재 인계](../99_HANDOFF/CURRENT.md), 결과 집계는 [status.json](../reports/status.json)을 먼저 읽으세요. 아래 과거 복구 절차는 최신 빌드 전체를 재생성하는 단일 명령이 아닙니다.
 
+현재 로컬 수정본은 **043**입니다. NPC 이름 행 보정 입력은 `translations/graphics/npc_nameplate_row_fix_043_2026-10-08.json`이며, `build_supervised_graphics_batch.py`는 기존 039 바인딩과 명시적인 `baseline_*` 바인딩을 모두 받습니다. `render_localized_labels.py`의 `box`는 지울 범위, 선택적인 `text_box`는 실제 글자 배치 범위입니다. `require_alpha_within_text_box`는 투명 이름판의 범위 밖 글자를 편집 및 native 변환 단계에서 거부합니다. 새 필드가 없는 기존 입력의 배치 방식은 같습니다. [수정 근거](HISTORY.md#revision-043).
+
 ## 환경
 
 Python 3.11 이상과 프로젝트 Python 의존성을 사용합니다. ISO 도구는 [hanpatch](https://github.com/yazzang-homelab/hanpatch)의 PSP 모듈에 의존합니다. 이미지 배경 복원은 선택적 `requirements-graphics.txt` 환경을 사용합니다.
