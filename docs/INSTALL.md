@@ -2,7 +2,7 @@
 
 현재 배포본은 **038 개발판**입니다. [릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038)에서 [next_plus_graphics_revision_038.xdelta](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-05-graphics-038/next_plus_graphics_revision_038.xdelta)를 받으세요.
 
-038의 정적 검사·패치 재적용·공개 다운로드 확인은 통과했습니다. **038 게임 실행과 백식 호위 임무 프리징 해결은 아직 미확인입니다.** [현재 문제](MISSION_FREEZE_027_2026-10-05.md)를 참고하세요.
+038의 정적 검사·패치 재적용·공개 다운로드 확인은 통과했습니다. **백식 호위 임무 프리징은 038에서 해결됐다는 사용자 확인을 받았습니다.** 042의 게임 실행은 미확인입니다. [해결 기록](MISSION_FREEZE_027_2026-10-05.md)를 참고하세요.
 
 ## 지원 원본
 

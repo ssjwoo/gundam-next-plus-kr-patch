@@ -1,6 +1,6 @@
-# 027 백식 호위 임무 — 미해결 사용자 보고
+# 027 백식 호위 임무 — 038에서 해결 확인
 
-사용자는 027 패치의 NEXT PLUS 중급 트라이얼 마지막 백식 호위 임무에서 전투 중 랜덤 프리징을 보고했습니다. 사용 팀은 뉴 건담/아무로와 사자비/샤아입니다. 이 경로는 `USER_REPORTED_FAIL`, 상태는 `OPEN`입니다. 023의 과거 타이거바움 해결 보고는 별도 범위로 보존합니다.
+사용자는 027 패치의 NEXT PLUS 중급 트라이얼 마지막 백식 호위 임무에서 전투 중 랜덤 프리징을 보고했습니다. 사용 팀은 뉴 건담/아무로와 사자비/샤아입니다. 027의 당시 실행 결과는 `USER_REPORTED_FAIL`로 보존합니다. 2026-10-08 사용자가 “백식 미션 프리징은 038에 진즉에 잘해결됬더라”라고 확인해 이슈를 `RESOLVED_USER_REPORTED`로 닫았습니다. 023의 과거 타이거바움 해결 보고는 별도 범위로 보존합니다.
 
 조사 과정에서 발견한 결함을 038에 반영했습니다.
 
@@ -11,10 +11,10 @@
 - 스캐너가 문장 중간을 번역한 176개는 원본 CP932 앞부분과 한글 뒤쪽이 섞여 있었습니다. 원본 포인터가 가리키는 전체 대사로 교체했고 전체 읽기와 같은 폰트의 글자 검사가 통과했습니다. 이 결함의 게임플레이 소비 함수는 실행하지 않았습니다.
 - 선택 안내 문자열 2곳은 독립 원문 경계와 기존 글자 용량에 맞춰 수정했고 앞의 수치 필드도 복원했습니다.
 
-**이 결함들이 보고된 미션의 랜덤 프리징을 실제로 일으켰는지는 미확인입니다.** 038 게임 실행은 `NOT_TESTED`, 직접 원인 연결은 `UNCONFIRMED_RUNTIME_LINK`입니다. AI는 게임·에뮬레이터·CMD를 실행하지 않았습니다.
+**백식 호위 임무 프리징은 038에서 해결됐다는 사용자 확인을 받았습니다.** 해당 미션의 사용자 실행 결과는 `USER_REPORTED_PASS`입니다. 확인은 공개 038 ISO 해시에 연결하며 사용자 기기의 파일을 다시 해시한 것은 아닙니다. 각 결함과 프리징의 직접 원인 연결은 `UNCONFIRMED_RUNTIME_LINK`로 유지합니다. 이 결과를 042나 전체 게임의 실행 통과로 확대하지 않습니다. AI는 게임·에뮬레이터·CMD를 실행하지 않았습니다.
 
 모든 274개 미션 메타데이터·포인터와 문자 분류표 257바이트는 원판과 일치했습니다. 023과 027의 실행 코드·폰트는 같았고, 027의 신규 PZZ 255개는 구조와 해제 크기를 보존했습니다. 이 증거도 전체 게임플레이의 통과를 의미하지 않습니다.
 
 038은 위 복원과 프리 배틀 목록·선택 안내 3면·36문구를 포함한 누적 개발판입니다. ISO SHA-256은 `96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2`이며 원판 기반 xdelta 재적용을 통과했습니다. [파일 식별](INSTALL.md), [검사·수정 범위](HISTORY.md#revision-038). 028~037은 조사 중간 후보입니다. [038 xdelta 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038)를 게시했으며, 공개 027의 실패 알림과 기존 자산을 보존했습니다.
 
-근거: [사용자 이슈](../reports/mission_freeze_027_2026-10-05.json), [문자 소비](../reports/text_control_defect_2026-10-05.json), [최초 수치 소비](../reports/numeric_data_defect_2026-10-05.json), [비텍스트 분류](../reports/nontext_population_defect_2026-10-05.json), [달성 조건 포인터](../reports/achievement_pointer_defect_2026-10-05.json), [최종 검사](../reports/development_038_2026-10-05.json).
+근거: [038 사용자 해결 확인](../reports/runtime_hyakushiki_038_2026-10-08.json), [사용자 이슈](../reports/mission_freeze_027_2026-10-05.json), [문자 소비](../reports/text_control_defect_2026-10-05.json), [최초 수치 소비](../reports/numeric_data_defect_2026-10-05.json), [비텍스트 분류](../reports/nontext_population_defect_2026-10-05.json), [달성 조건 포인터](../reports/achievement_pointer_defect_2026-10-05.json), [최종 검사](../reports/development_038_2026-10-05.json).

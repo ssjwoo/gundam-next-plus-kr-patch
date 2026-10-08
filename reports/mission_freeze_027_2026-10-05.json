@@ -1,6 +1,6 @@
 {
   "id": "NEXT_PLUS_HYAKUSHIKI_FREEZE_027",
-  "status": "OPEN",
+  "status": "RESOLVED_USER_REPORTED",
   "reported_on": "2026-10-05",
   "revision": "027",
   "candidate_iso_sha256": "2c58ba6fc1d06cb2c4c3bfbbe16e230281accff972a7f308ecd2938a45d64cb8",
@@ -17,7 +17,7 @@
   "cause": "UNCONFIRMED_RUNTIME_LINK",
   "agent_executed_game": false,
   "earlier_tigerbaum_issue_reopened": false,
-  "next_ai_action": "Audit remaining image families and actual mode consumers using the existing AFS inventory and source review records; preserve 038 and the open user-reported mission freeze.",
+  "next_ai_action": "Continue held translation and image consumer supervision. Hyakushiki issue resolved by user observation in 038; 042 runtime remains NOT_TESTED.",
   "recorded_at": "2026-10-05T11:07:03.026486+00:00",
   "confirmed_independent_defect": "Three introduced ASCII-tilde control starts in translated dialogue/skill slots; two read past the text terminator in the actual isolated game consumer",
   "defect_proof": "reports/text_control_defect_2026-10-05.json",
@@ -37,7 +37,7 @@
     "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
     "static_verdict": "PASS",
     "runtime_verdict": "NOT_TESTED",
-    "mission_freeze_resolution": "UNCONFIRMED",
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED_IN_038",
     "published": true,
     "delta_roundtrip": {
       "revision": "038",
@@ -63,9 +63,25 @@
       "asset_sha256": "8c9677e709d49883f20c6ea9bc43f1f6b714aa3a34f3140a22abfc7914f4b3ea",
       "public_download_verdict": "PASS",
       "release_code_commit": "b09a9364f819b52583b76fb0135fbb768c291938"
+    },
+    "post_release_user_runtime_confirmation": {
+      "status": "RESOLVED_USER_REPORTED",
+      "confirmed_on": "2026-10-08",
+      "recorded_at": "2026-10-08T01:36:16.595700+00:00",
+      "authority": "USER",
+      "user_message": "릴리스 올려. 백식 미션 프리징은 038에 진즉에 잘해결됬더라",
+      "revision": "038",
+      "iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+      "artifact_binding": "User explicitly confirms revision 038; bound to its published local build hash, not rehashed from the user device.",
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "runtime_scope": "Previously reported random battle freeze in NEXT PLUS intermediate trial final Hyakushiki escort mission.",
+      "cause": "UNCONFIRMED_RUNTIME_LINK",
+      "agent_executed_game": false,
+      "whole_game_runtime_pass": false,
+      "runtime_result_transferred_to_042": false
     }
   },
-  "updated_at": "2026-10-05T13:36:54.866982+00:00",
+  "updated_at": "2026-10-08T01:36:16.595700+00:00",
   "user_team_confirmation": "내가 사용한 기체는 뉴건담/아무로 , 팀원 기체는 사자비/샤아",
   "player_unit": "뉴 건담",
   "player_pilot": "아무로 레이",
@@ -84,7 +100,7 @@
     "font_sha256": "ab8aeb1aa4d715a8a77432341b51983e923efd551ebdd9c1bfc99d70548aef22",
     "static_verdict": "PASS",
     "runtime_verdict": "NOT_TESTED",
-    "mission_freeze_resolution": "UNCONFIRMED",
+    "mission_freeze_resolution": "RESOLVED_USER_REPORTED_IN_038",
     "published": true,
     "delta_roundtrip": {
       "revision": "038",
@@ -110,6 +126,22 @@
       "asset_sha256": "8c9677e709d49883f20c6ea9bc43f1f6b714aa3a34f3140a22abfc7914f4b3ea",
       "public_download_verdict": "PASS",
       "release_code_commit": "b09a9364f819b52583b76fb0135fbb768c291938"
+    },
+    "post_release_user_runtime_confirmation": {
+      "status": "RESOLVED_USER_REPORTED",
+      "confirmed_on": "2026-10-08",
+      "recorded_at": "2026-10-08T01:36:16.595700+00:00",
+      "authority": "USER",
+      "user_message": "릴리스 올려. 백식 미션 프리징은 038에 진즉에 잘해결됬더라",
+      "revision": "038",
+      "iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+      "artifact_binding": "User explicitly confirms revision 038; bound to its published local build hash, not rehashed from the user device.",
+      "runtime_verdict": "USER_REPORTED_PASS",
+      "runtime_scope": "Previously reported random battle freeze in NEXT PLUS intermediate trial final Hyakushiki escort mission.",
+      "cause": "UNCONFIRMED_RUNTIME_LINK",
+      "agent_executed_game": false,
+      "whole_game_runtime_pass": false,
+      "runtime_result_transferred_to_042": false
     }
   },
   "source_inventory_pointer_words_verified": 5682,
@@ -117,5 +149,23 @@
   "diagnostic_history": {
     "031": "superseded; incomplete repair population",
     "033": "superseded; retained comparison artifact, missing later numeric/UI fixes"
-  }
+  },
+  "resolution": {
+    "status": "RESOLVED_USER_REPORTED",
+    "confirmed_on": "2026-10-08",
+    "recorded_at": "2026-10-08T01:36:16.595700+00:00",
+    "authority": "USER",
+    "user_message": "릴리스 올려. 백식 미션 프리징은 038에 진즉에 잘해결됬더라",
+    "revision": "038",
+    "iso_sha256": "96781a2918ab6999d06411f225ef432578d072f8c4c4aba24b3d3c24026ce7e2",
+    "artifact_binding": "User explicitly confirms revision 038; bound to its published local build hash, not rehashed from the user device.",
+    "runtime_verdict": "USER_REPORTED_PASS",
+    "runtime_scope": "Previously reported random battle freeze in NEXT PLUS intermediate trial final Hyakushiki escort mission.",
+    "cause": "UNCONFIRMED_RUNTIME_LINK",
+    "agent_executed_game": false,
+    "whole_game_runtime_pass": false,
+    "runtime_result_transferred_to_042": false
+  },
+  "resolved_revision": "038",
+  "latest_runtime_verdict": "USER_REPORTED_PASS"
 }
