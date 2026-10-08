@@ -57,12 +57,14 @@
   "runtime_owner": "USER",
   "whole_game_runtime_pass": false,
   "next_action": "Use the corrected043 ISO for normal gameplay and collect the user observation if supplied; do not claim live issue closure from analytical texture sampling alone.",
-  "updated_at": "2026-10-08T07:08:46.327156+00:00",
+  "updated_at": "2026-10-08T07:28:13.091489+00:00",
   "candidate_iso_sha256": "932ccd4d761ec8532a85441ba0e52b46db8e386048c3f511e77fba6bad698044",
   "candidate_xdelta_sha256": "8912bfa5bfe0b1488df949d7d64b2cea896c10144121cf42948e2ec125f98d3f",
   "candidate_iso_crc32": "6527EB82",
   "candidate_original_roundtrip": "PASS",
   "affected_iso_bytes": 16384,
   "elf_and_font_unchanged": true,
-  "candidate_build_report": "reports/development_043_2026-10-08.json"
+  "candidate_build_report": "reports/development_043_2026-10-08.json",
+  "publication_version": "v1.0.1",
+  "publication_receipt": "reports/release_v1.0.1_2026-10-08.json"
 }

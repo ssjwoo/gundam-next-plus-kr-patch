@@ -26,7 +26,7 @@
 
 브리핑 이름 영역이 로고 보호 범위를 넘은 초안, 기존 글자 흔적이 남은 초안, 잘못 짚은 등급·곡명 행은 폐기하고 다시 만들었다. 유효한 그래픽 입력은 로컬 `work/web_result_review_2026-10-08/graphics_integration/approved_combined_v2`, `english_verified_v2`, `menu_verified_v2`다. 이전 v1/v2/v3 초안을 현재 후보로 쓰지 않는다. public 재현 규칙은 `translations/graphics/web_ai_supervised_040_2026-10-08.json`, `web_ai_supervised_041_2026-10-08.json`, `web_ai_supervised_042_2026-10-08.json`이다.
 
-근거: [v1.0.0 정식 게시·다운로드 검사](../reports/release_v1.0.0_2026-10-08.json), [042 게시·다운로드 검사](../reports/release_042_2026-10-08.json), [텍스트 감독 검수](../reports/web_ai_text_supervision_2026-10-08.json), [이미지 감독 검수](../reports/web_ai_graphics_supervision_2026-10-08.json), [최종 개발 검사](../reports/development_042_2026-10-08.json), [누적 범위](../reports/graphics_scope_042_2026-10-08.json).
+근거: [v1.0.1 정식 게시·다운로드 검사](../reports/release_v1.0.1_2026-10-08.json), [v1.0.0 정식 게시·다운로드 검사](../reports/release_v1.0.0_2026-10-08.json), [042 게시·다운로드 검사](../reports/release_042_2026-10-08.json), [텍스트 감독 검수](../reports/web_ai_text_supervision_2026-10-08.json), [이미지 감독 검수](../reports/web_ai_graphics_supervision_2026-10-08.json), [최종 개발 검사](../reports/development_042_2026-10-08.json), [누적 범위](../reports/graphics_scope_042_2026-10-08.json).
 
 ## 남은 감독 작업
 
@@ -37,7 +37,7 @@
 
 ## 열린 문제·사용자 지시
 
-현재 열린 이슈는 v1.0.0/042의 **적 NPC 이름표 세로 잘림**이다. 원본은 위쪽 16행에 이름이 있으나 040에서 32행 전체 중앙으로 배치했다. 043에서 일반 적 36·보스 4·한 줄 지원 21개를 같은 글자 픽셀 그대로 8행 위로 이동했다. 두 줄 지원 이름 17개·플레이어블 이름판 154개와 다른 데이터는 보존했다. 61개 native 재읽기·원판 재적용은 PASS, 실제 게임 확인은 NOT_TESTED다. 사용자가 수정본 게시를 요청해 v1.0.1로 배포한다. 게시 승인은 게임 내 수정 확인을 뜻하지 않는다. [이슈·범위](../reports/npc_nameplate_clipping_2026-10-08.json), [043 검사](../reports/development_043_2026-10-08.json). 원래 042 ISO는 사용자가 둔 `E:/next_plus_graphics_revision_042.iso`에서 같은 SHA-256을 확인했다.
+현재 열린 이슈는 v1.0.0/042의 **적 NPC 이름표 세로 잘림**이다. 원본은 위쪽 16행에 이름이 있으나 040에서 32행 전체 중앙으로 배치했다. 043에서 일반 적 36·보스 4·한 줄 지원 21개를 같은 글자 픽셀 그대로 8행 위로 이동했다. 두 줄 지원 이름 17개·플레이어블 이름판 154개와 다른 데이터는 보존했다. 61개 native 재읽기·원판 재적용은 PASS, 실제 게임 확인은 NOT_TESTED다. 사용자가 수정본 게시를 요청해 v1.0.1로 배포했고 공개 다운로드 해시를 확인했다. 게시 승인은 게임 내 수정 확인을 뜻하지 않는다. [이슈·범위](../reports/npc_nameplate_clipping_2026-10-08.json), [043 검사](../reports/development_043_2026-10-08.json). 원래 042 ISO는 사용자가 둔 `E:/next_plus_graphics_revision_042.iso`에서 같은 SHA-256을 확인했다.
 
 027 NEXT PLUS 중급 트라이얼 마지막 **백식 호위 임무**의 랜덤 전투 프리징은 2026-10-08 사용자 확인으로 `RESOLVED_USER_REPORTED`다. 해결 확인은 공개 038 ISO에 연결하며 해당 미션에 한정한다. 042는 별도 사용자 간단 플레이 확인 `USER_REPORTED_SMOKE_PASS`이며 직접 원인 연결은 `UNCONFIRMED_RUNTIME_LINK`다. 당시 팀은 뉴 건담/아무로와 사자비/샤아. 이전 타이거바움 해결은 023에 대한 사용자 수용 기록이다. [현재 문제](../docs/MISSION_FREEZE_027_2026-10-05.md).
 

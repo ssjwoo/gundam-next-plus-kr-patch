@@ -10,7 +10,7 @@
 
 61개 이름판의 이미지 재읽기·정적 검사·원판용 패치 재적용은 PASS입니다. 043의 게임 내 수정 관측은 NOT_TESTED이며 이슈 상태는 `CORRECTED_STATIC_AWAITING_USER_OBSERVATION`입니다. 게시 승인을 실행 검수나 전체 한글화 완료로 확대하지 않습니다.
 
-근거: [게시 요청·범위](../reports/release_authorization_043_v1.0.1_2026-10-08.json), [수정 근거](../reports/npc_nameplate_clipping_2026-10-08.json), [정식 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.1).
+근거: [게시 요청·범위](../reports/release_authorization_043_v1.0.1_2026-10-08.json), [게시·공개 다운로드 검사](../reports/release_v1.0.1_2026-10-08.json), [수정 근거](../reports/npc_nameplate_clipping_2026-10-08.json), [정식 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.1).
 
 <a id="revision-043"></a>
 
