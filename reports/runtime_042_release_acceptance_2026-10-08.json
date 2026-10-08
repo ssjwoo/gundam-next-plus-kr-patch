@@ -1,0 +1,20 @@
+{
+  "id": "USER_RELEASE_ACCEPTANCE_042_V1_2026_10_08",
+  "date": "2026-10-08",
+  "recorded_at": "2026-10-08T03:10:56.410162+00:00",
+  "authority": "USER",
+  "user_message": "대충 굴려봤는데 이제 개발판 딱지 뗴고 정식판으로 릴리스랑 깃허브 다시 짜줘",
+  "candidate_revision": "042",
+  "candidate_iso_sha256": "86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b",
+  "xdelta_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+  "artifact_binding": "Latest 042 release in conversation; user device filename and hash were not independently repeated or rehashed.",
+  "runtime_verdict": "USER_REPORTED_SMOKE_PASS",
+  "runtime_scope": "User reports a brief play session and authorizes this artifact for regular release.",
+  "test_platforms": "not specified in this confirmation",
+  "test_repetitions": "not specified in this confirmation",
+  "agent_executed_game": false,
+  "whole_game_runtime_pass": false,
+  "whole_localization_complete": false,
+  "release_decision": "Publish the existing 042 artifact as regular release v1.0.0; retain remaining localization and QA work as follow-up scope.",
+  "reassessment": "A new user defect report or artifact change reopens the affected release claims."
+}
