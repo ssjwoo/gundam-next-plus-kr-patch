@@ -426,14 +426,14 @@
     },
     "hyakushiki_runtime_result_transferred_to_042": false,
     "publication": {
-      "tag": "dev-2026-10-08-graphics-042",
-      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
-      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
-      "asset_name": "next_plus_graphics_revision_042.xdelta",
+      "tag": "v1.0.0",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0",
+      "asset_name": "gundam_next_plus_ko_v1.0.0.xdelta",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.0/gundam_next_plus_ko_v1.0.0.xdelta",
       "asset_bytes": 15273684,
       "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
       "public_download_verdict": "PASS",
-      "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d"
+      "release_code_commit": "5d7d1e9c0f75cdb906802b6f03d0c30d2bd0042c"
     },
     "runtime_approval": {
       "id": "USER_RELEASE_ACCEPTANCE_042_V1_2026_10_08",
@@ -454,7 +454,15 @@
       "whole_localization_complete": false,
       "release_decision": "Publish the existing 042 artifact as regular release v1.0.0; retain remaining localization and QA work as follow-up scope.",
       "reassessment": "A new user defect report or artifact change reopens the affected release claims."
-    }
+    },
+    "user_current_scope_accepted": true,
+    "release_version": "v1.0.0",
+    "release_ready": true,
+    "release_ready_scope": "User-authorized regular release of current 042 with disclosed remaining localization scope.",
+    "release_channel": "REGULAR",
+    "development_only": false,
+    "release_tag": "v1.0.0",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0"
   },
   "runtime_verified": {
     "emulator": "PPSSPP v1.20.4 development build",
@@ -650,7 +658,7 @@
       "runtime_issue": "NEXT_PLUS_MISSION_FREEZE_021"
     }
   ],
-  "latest_public_release_tag": "dev-2026-10-08-graphics-042",
+  "latest_public_release_tag": "v1.0.0",
   "resume_2026_10_02": {
     "original_inventory_candidates": 8731,
     "recovered_source_bound_rows": 3920,
@@ -994,7 +1002,7 @@
       "runtime_result_transferred_to_042": false
     }
   ],
-  "latest_public_release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
+  "latest_public_release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0",
   "release_023_2026_10_03": {
     "tag": "dev-2026-10-03-graphics-023",
     "release_id": 402532087,
@@ -1140,14 +1148,14 @@
     },
     "hyakushiki_runtime_result_transferred_to_042": false,
     "publication": {
-      "tag": "dev-2026-10-08-graphics-042",
-      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
-      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
-      "asset_name": "next_plus_graphics_revision_042.xdelta",
+      "tag": "v1.0.0",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0",
+      "asset_name": "gundam_next_plus_ko_v1.0.0.xdelta",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.0/gundam_next_plus_ko_v1.0.0.xdelta",
       "asset_bytes": 15273684,
       "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
       "public_download_verdict": "PASS",
-      "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d"
+      "release_code_commit": "5d7d1e9c0f75cdb906802b6f03d0c30d2bd0042c"
     },
     "runtime_approval": {
       "id": "USER_RELEASE_ACCEPTANCE_042_V1_2026_10_08",
@@ -1172,7 +1180,11 @@
     "user_current_scope_accepted": true,
     "release_version": "v1.0.0",
     "release_ready": true,
-    "release_ready_scope": "User-authorized regular release of current 042 with disclosed remaining localization scope."
+    "release_ready_scope": "User-authorized regular release of current 042 with disclosed remaining localization scope.",
+    "release_channel": "REGULAR",
+    "development_only": false,
+    "release_tag": "v1.0.0",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0"
   },
   "release_027_2026_10_04": {
     "tag": "dev-2026-10-04-graphics-027",
@@ -1598,14 +1610,14 @@
     },
     "hyakushiki_runtime_result_transferred_to_042": false,
     "publication": {
-      "tag": "dev-2026-10-08-graphics-042",
-      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
-      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
-      "asset_name": "next_plus_graphics_revision_042.xdelta",
+      "tag": "v1.0.0",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0",
+      "asset_name": "gundam_next_plus_ko_v1.0.0.xdelta",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.0/gundam_next_plus_ko_v1.0.0.xdelta",
       "asset_bytes": 15273684,
       "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
       "public_download_verdict": "PASS",
-      "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d"
+      "release_code_commit": "5d7d1e9c0f75cdb906802b6f03d0c30d2bd0042c"
     },
     "runtime_approval": {
       "id": "USER_RELEASE_ACCEPTANCE_042_V1_2026_10_08",
@@ -1626,7 +1638,15 @@
       "whole_localization_complete": false,
       "release_decision": "Publish the existing 042 artifact as regular release v1.0.0; retain remaining localization and QA work as follow-up scope.",
       "reassessment": "A new user defect report or artifact change reopens the affected release claims."
-    }
+    },
+    "user_current_scope_accepted": true,
+    "release_version": "v1.0.0",
+    "release_ready": true,
+    "release_ready_scope": "User-authorized regular release of current 042 with disclosed remaining localization scope.",
+    "release_channel": "REGULAR",
+    "development_only": false,
+    "release_tag": "v1.0.0",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0"
   },
   "remaining_work_2026_10_05": {
     "revision": "038",
@@ -1779,14 +1799,14 @@
     },
     "hyakushiki_runtime_result_transferred_to_042": false,
     "publication": {
-      "tag": "dev-2026-10-08-graphics-042",
-      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042",
-      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/dev-2026-10-08-graphics-042/next_plus_graphics_revision_042.xdelta",
-      "asset_name": "next_plus_graphics_revision_042.xdelta",
+      "tag": "v1.0.0",
+      "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0",
+      "asset_name": "gundam_next_plus_ko_v1.0.0.xdelta",
+      "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.0/gundam_next_plus_ko_v1.0.0.xdelta",
       "asset_bytes": 15273684,
       "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
       "public_download_verdict": "PASS",
-      "release_code_commit": "78e18017a59d25a867830d5b56749246406a296d"
+      "release_code_commit": "5d7d1e9c0f75cdb906802b6f03d0c30d2bd0042c"
     },
     "runtime_approval": {
       "id": "USER_RELEASE_ACCEPTANCE_042_V1_2026_10_08",
@@ -1807,11 +1827,19 @@
       "whole_localization_complete": false,
       "release_decision": "Publish the existing 042 artifact as regular release v1.0.0; retain remaining localization and QA work as follow-up scope.",
       "reassessment": "A new user defect report or artifact change reopens the affected release claims."
-    }
+    },
+    "user_current_scope_accepted": true,
+    "release_version": "v1.0.0",
+    "release_ready": true,
+    "release_ready_scope": "User-authorized regular release of current 042 with disclosed remaining localization scope.",
+    "release_channel": "REGULAR",
+    "development_only": false,
+    "release_tag": "v1.0.0",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0"
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
   "graphics_scope_report": "reports/graphics_scope_042_2026-10-08.json",
-  "updated_at": "2026-10-08T03:10:56.415158+00:00",
+  "updated_at": "2026-10-08T03:14:27.300240+00:00",
   "web_ai_handoff_batch_002": {
     "report": "reports/web_ai_handoff_batch_002_2026-10-06.json",
     "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
@@ -2199,7 +2227,49 @@
   "regular_release_promotion": {
     "version": "v1.0.0",
     "artifact_revision": "042",
-    "status": "AUTHORIZED_READY_TO_PUBLISH",
-    "acceptance_report": "reports/runtime_042_release_acceptance_2026-10-08.json"
-  }
+    "status": "PUBLISHED_DOWNLOAD_VERIFIED",
+    "acceptance_report": "reports/runtime_042_release_acceptance_2026-10-08.json",
+    "receipt": "reports/release_v1.0.0_2026-10-08.json"
+  },
+  "latest_regular_release_version": "v1.0.0",
+  "release_v1_0_0_2026_10_08": {
+    "version": "v1.0.0",
+    "artifact_revision": "042",
+    "tag": "v1.0.0",
+    "release_id": 406370295,
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0",
+    "published_at": "2026-10-08T03:12:48Z",
+    "prerelease": false,
+    "latest_regular_release_verified": true,
+    "release_code_commit": "5d7d1e9c0f75cdb906802b6f03d0c30d2bd0042c",
+    "tag_commit_verified": true,
+    "asset_id": 620569398,
+    "asset_name": "gundam_next_plus_ko_v1.0.0.xdelta",
+    "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.0/gundam_next_plus_ko_v1.0.0.xdelta",
+    "asset_bytes": 15273684,
+    "asset_crc32": "57A36B08",
+    "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "github_digest": "sha256:eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "anonymous_download_bytes": 15273684,
+    "anonymous_download_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "public_download_verdict": "PASS",
+    "verified_at": "2026-10-08T03:13:19.460819+00:00",
+    "runtime_verdict": "USER_REPORTED_SMOKE_PASS",
+    "runtime_acceptance": "reports/runtime_042_release_acceptance_2026-10-08.json",
+    "runtime_owner": "USER",
+    "agent_executed_game": false,
+    "whole_game_runtime_pass": false,
+    "whole_localization_complete": false,
+    "publication_authorization": "대충 굴려봤는데 이제 개발판 딱지 뗴고 정식판으로 릴리스랑 깃허브 다시 짜줘",
+    "byte_identical_to_042": true,
+    "previous_042_release_and_asset_preserved": true,
+    "only_xdelta_asset_published": true,
+    "game_iso_or_extracted_assets_uploaded": false,
+    "repository_about_updated": true,
+    "repository_description": "PSP 기동전사 건담 VS. 건담 NEXT PLUS 한글패치 | 정식 v1.0.0 | NPJH50107",
+    "repository_homepage": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/latest",
+    "static_report": "reports/development_042_2026-10-08.json",
+    "original_source_roundtrip_report": "build/graphics_revision_2026-10-08/xdelta_roundtrip_042.json"
+  },
+  "regular_release_ready": true
 }

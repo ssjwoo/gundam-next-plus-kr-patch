@@ -10,7 +10,7 @@
 
 GitHub 정식 릴리스는 `v1.0.0`, 파일명은 `gundam_next_plus_ko_v1.0.0.xdelta`입니다. 기존 개발 릴리스는 변경 이력으로 보존합니다. 사용자 실행 관측은 `USER_REPORTED_SMOKE_PASS`이며 전체 게임 완주·텍스트 및 이미지 전수 검수와 구분합니다. 남은 영문·작은 표식·문맥 보완은 후속 작업으로 유지합니다.
 
-근거: [사용자 정식 배포 승인](../reports/runtime_042_release_acceptance_2026-10-08.json), [정식 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0), [사용자 변경 이력](../CHANGELOG.md).
+근거: [사용자 정식 배포 승인](../reports/runtime_042_release_acceptance_2026-10-08.json), [정식 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0), [정식 게시·다운로드 검사](../reports/release_v1.0.0_2026-10-08.json), [사용자 변경 이력](../CHANGELOG.md).
 
 <a id="revision-042"></a>
 

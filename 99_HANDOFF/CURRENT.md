@@ -26,7 +26,7 @@
 
 브리핑 이름 영역이 로고 보호 범위를 넘은 초안, 기존 글자 흔적이 남은 초안, 잘못 짚은 등급·곡명 행은 폐기하고 다시 만들었다. 유효한 그래픽 입력은 로컬 `work/web_result_review_2026-10-08/graphics_integration/approved_combined_v2`, `english_verified_v2`, `menu_verified_v2`다. 이전 v1/v2/v3 초안을 현재 후보로 쓰지 않는다. public 재현 규칙은 `translations/graphics/web_ai_supervised_040_2026-10-08.json`, `web_ai_supervised_041_2026-10-08.json`, `web_ai_supervised_042_2026-10-08.json`이다.
 
-근거: [042 게시·다운로드 검사](../reports/release_042_2026-10-08.json), [텍스트 감독 검수](../reports/web_ai_text_supervision_2026-10-08.json), [이미지 감독 검수](../reports/web_ai_graphics_supervision_2026-10-08.json), [최종 개발 검사](../reports/development_042_2026-10-08.json), [누적 범위](../reports/graphics_scope_042_2026-10-08.json).
+근거: [v1.0.0 정식 게시·다운로드 검사](../reports/release_v1.0.0_2026-10-08.json), [042 게시·다운로드 검사](../reports/release_042_2026-10-08.json), [텍스트 감독 검수](../reports/web_ai_text_supervision_2026-10-08.json), [이미지 감독 검수](../reports/web_ai_graphics_supervision_2026-10-08.json), [최종 개발 검사](../reports/development_042_2026-10-08.json), [누적 범위](../reports/graphics_scope_042_2026-10-08.json).
 
 ## 남은 감독 작업
 

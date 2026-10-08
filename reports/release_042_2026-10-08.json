@@ -38,5 +38,12 @@
   "game_iso_or_extracted_assets_uploaded": false,
   "anonymous_download_method": "Unauthenticated public asset URL with cache-busting query streamed into SHA256.",
   "original_source_roundtrip_report": "build/graphics_revision_2026-10-08/xdelta_roundtrip_042.json",
-  "static_report": "reports/development_042_2026-10-08.json"
+  "static_report": "reports/development_042_2026-10-08.json",
+  "subsequent_regular_release": {
+    "version": "v1.0.0",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0",
+    "byte_identical": true,
+    "receipt": "reports/release_v1.0.0_2026-10-08.json",
+    "user_runtime_confirmation": "reports/runtime_042_release_acceptance_2026-10-08.json"
+  }
 }

@@ -99,7 +99,18 @@
   "regular_release_promotion": {
     "version": "v1.0.0",
     "artifact_revision": "042",
-    "status": "AUTHORIZED_READY_TO_PUBLISH",
-    "acceptance_report": "reports/runtime_042_release_acceptance_2026-10-08.json"
+    "status": "PUBLISHED_DOWNLOAD_VERIFIED",
+    "acceptance_report": "reports/runtime_042_release_acceptance_2026-10-08.json",
+    "receipt": "reports/release_v1.0.0_2026-10-08.json"
+  },
+  "regular_release_publication": {
+    "tag": "v1.0.0",
+    "release_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0",
+    "asset_name": "gundam_next_plus_ko_v1.0.0.xdelta",
+    "asset_url": "https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.0/gundam_next_plus_ko_v1.0.0.xdelta",
+    "asset_bytes": 15273684,
+    "asset_sha256": "eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8",
+    "public_download_verdict": "PASS",
+    "release_code_commit": "5d7d1e9c0f75cdb906802b6f03d0c30d2bd0042c"
   }
 }
