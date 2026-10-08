@@ -451,7 +451,7 @@
     "Whole-game text and NEXT PLUS graphic localization remain incomplete.",
     "v1.0.0/042 NPC nameplate vertical clipping. Corrected61 name rows in local043; actual game observation pending."
   ],
-  "release_ready": false,
+  "release_ready": true,
   "notation_policy": {
     "decided": "2026-09-26",
     "english": "kept as English; the patch ships its own font",
@@ -1730,7 +1730,7 @@
   },
   "web_ai_result_review_batch_001": "reports/web_ai_review_batch_001_2026-10-06.json",
   "graphics_scope_report": "reports/graphics_scope_043_2026-10-08.json",
-  "updated_at": "2026-10-08T07:13:22.537591+00:00",
+  "updated_at": "2026-10-08T07:26:39.775040+00:00",
   "web_ai_handoff_batch_002": {
     "report": "reports/web_ai_handoff_batch_002_2026-10-06.json",
     "status": "RECEIVED_SUPERVISED_PARTIAL_OTHER_SCOPE_PENDING",
@@ -2114,13 +2114,12 @@
     "release_decision": "Publish the existing 042 artifact as regular release v1.0.0; retain remaining localization and QA work as follow-up scope.",
     "reassessment": "A new user defect report or artifact change reopens the affected release claims."
   },
-  "release_ready_scope": "Local043 static correction; in-game nameplate observation pending. Published v1.0.0/042 has the user-reported clipping issue.",
+  "release_ready_scope": "User-authorized v1.0.1/043 publication, static PASS; corrected in-game observation remains NOT_TESTED.",
   "regular_release_promotion": {
-    "version": "v1.0.0",
-    "artifact_revision": "042",
-    "status": "PUBLISHED_DOWNLOAD_VERIFIED",
-    "acceptance_report": "reports/runtime_042_release_acceptance_2026-10-08.json",
-    "receipt": "reports/release_v1.0.0_2026-10-08.json"
+    "version": "v1.0.1",
+    "artifact_revision": "043",
+    "status": "AUTHORIZED_STATIC_PASS_RUNTIME_PENDING",
+    "authorization_report": "reports/release_authorization_043_v1.0.1_2026-10-08.json"
   },
   "latest_regular_release_version": "v1.0.0",
   "release_v1_0_0_2026_10_08": {
@@ -2162,7 +2161,7 @@
     "static_report": "reports/development_042_2026-10-08.json",
     "original_source_roundtrip_report": "build/graphics_revision_2026-10-08/xdelta_roundtrip_042.json"
   },
-  "regular_release_ready": false,
+  "regular_release_ready": true,
   "npc_nameplate_clipping_2026_10_08": {
     "id": "NPC_NAMEPLATE_ROW_CLIPPING_V1_0_0",
     "reported_on": "2026-10-08",
@@ -2230,5 +2229,30 @@
     "affected_iso_bytes": 16384,
     "elf_and_font_unchanged": true,
     "candidate_build_report": "reports/development_043_2026-10-08.json"
+  },
+  "publication_authorization_043": {
+    "version": "v1.0.1",
+    "artifact_revision": "043",
+    "authority": "USER",
+    "user_message": "깃허브 릴리스 ㄱㄱ",
+    "authorized_at": "2026-10-08T07:26:39.752002+00:00",
+    "artifact_binding": "Explicit release request follows delivery of local043 ISO and pristine-source xdelta.",
+    "candidate_iso_sha256": "932ccd4d761ec8532a85441ba0e52b46db8e386048c3f511e77fba6bad698044",
+    "xdelta_sha256": "8912bfa5bfe0b1488df949d7d64b2cea896c10144121cf42948e2ec125f98d3f",
+    "static_verdict": "PASS",
+    "original_roundtrip_verdict": "PASS",
+    "runtime_verdict": "NOT_TESTED",
+    "runtime_owner": "USER",
+    "runtime_acceptance_claim": false,
+    "whole_game_runtime_pass": false,
+    "whole_localization_complete": false,
+    "decision": "Publish current043 as regular v1.0.1 with static verification and pending in-game correction observation explicitly disclosed."
+  },
+  "previous_regular_release_promotion_v1_0_0": {
+    "version": "v1.0.0",
+    "artifact_revision": "042",
+    "status": "PUBLISHED_DOWNLOAD_VERIFIED",
+    "acceptance_report": "reports/runtime_042_release_acceptance_2026-10-08.json",
+    "receipt": "reports/release_v1.0.0_2026-10-08.json"
   }
 }

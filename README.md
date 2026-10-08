@@ -1,12 +1,12 @@
 # 기동전사 건담 VS. 건담 NEXT PLUS 한글패치
 
-PSP **기동전사 건담 VS. 건담 NEXT PLUS** 일본/아시아판 `NPJH50107`의 비공식 한국어 패치입니다. 최신 정식 버전은 **v1.0.0**입니다.
+PSP **기동전사 건담 VS. 건담 NEXT PLUS** 일본/아시아판 `NPJH50107`의 비공식 한국어 패치입니다. 최신 정식 버전은 **v1.0.1**입니다.
 
 ## 다운로드
 
-**[v1.0.0 정식 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0)** · **[한글패치 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.0/gundam_next_plus_ko_v1.0.0.xdelta)**
+**[v1.0.1 정식 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.1)** · **[한글패치 다운로드](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.1/gundam_next_plus_ko_v1.0.1.xdelta)**
 
-이미 042 패치를 사용 중이면 그대로 이용하셔도 됩니다. v1.0.0은 같은 패치를 정식 버전으로 배포한 것입니다.
+v1.0.1은 적 NPC 이름표가 세로로 잘리는 배치 오류를 수정한 누적 패치입니다. 기존 v1.0.0·042 이용자도 원본 ISO에 새 패치를 적용하세요.
 
 ## 적용 방법
 
@@ -29,9 +29,9 @@ a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3
 - 첫 로딩 정지와 전투 프리징 관련 수정 반영. 백식 호위 미션은 038에서 해결 확인.
 - 건담 작품·게임 타이틀 로고는 원본 유지.
 
-사용자 플레이 확인과 원판 기반 패치 재적용·공개 다운로드 해시 검사를 거쳐 정식 배포합니다. 일부 영문·작은 이미지 표식과 문맥 보완은 후속 업데이트 대상입니다. [변경 이력](CHANGELOG.md) · [진행 현황](PROGRESS.md).
+v1.0.1은 이미지 재읽기·원판 기반 패치 재적용·공개 다운로드 해시 검사를 거쳐 배포합니다. 이번 이름표 수정의 게임 내 확인은 아직 전입니다. 일부 영문·작은 이미지 표식과 문맥 보완은 후속 업데이트 대상입니다. [변경 이력](CHANGELOG.md) · [진행 현황](PROGRESS.md).
 
-v1.0.0에서 발견된 적 NPC 이름표의 세로 잘림은 후속 로컬 수정본 043에 반영했습니다. [수정 범위와 확인 상태](reports/npc_nameplate_clipping_2026-10-08.json).
+v1.0.0에서 발견된 적 NPC 이름표의 세로 잘림은 v1.0.1(내부 빌드 043)에 반영했습니다. 일반 적·보스·지원 기체 이름판 61개를 보정했습니다. [수정 범위와 확인 상태](reports/npc_nameplate_clipping_2026-10-08.json).
 
 ## 안내·개발 자료
 

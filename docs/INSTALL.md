@@ -1,8 +1,8 @@
 # 한글패치 설치 안내
 
-현재 정식 버전은 **v1.0.0**입니다. [릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0)에서 [gundam_next_plus_ko_v1.0.0.xdelta](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.0/gundam_next_plus_ko_v1.0.0.xdelta)를 내려받으세요.
+현재 정식 버전은 **v1.0.1**입니다. [릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.1)에서 [gundam_next_plus_ko_v1.0.1.xdelta](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/download/v1.0.1/gundam_next_plus_ko_v1.0.1.xdelta)를 내려받으세요.
 
-기존 042 패치와 내용이 같습니다. 이미 042를 적용했다면 다시 패치할 필요가 없습니다. 사용자가 042를 간단히 플레이한 뒤 정식 배포를 승인했습니다. **백식 호위 임무 프리징은 038에서 해결 확인을 받았습니다.** [해결 기록](MISSION_FREEZE_027_2026-10-05.md).
+v1.0.1은 적 NPC 이름표의 세로 잘림을 보정한 내부 빌드 043입니다. 기존 v1.0.0·042 이용자도 원본 ISO에 새 패치를 적용하세요. 이번 수정의 게임 내 확인은 아직 전이며, 이전 042의 간단 플레이 확인과 구분합니다. **백식 호위 임무 프리징은 038에서 해결 확인을 받았습니다.** [해결 기록](MISSION_FREEZE_027_2026-10-05.md).
 
 ## 지원 원본
 
@@ -11,8 +11,8 @@
 | 구분 | 크기(바이트) | CRC32 | SHA-256 |
 |---|---:|---|---|
 | 원본 ISO | 1,757,806,592 | `F9D9B854` | `a00c38959d52377b65f9afb5223e02c4ac5a876b8a33c998a7fe3f07dbf1feb3` |
-| 출력 ISO | 1,757,806,592 | `87C3C2B8` | `86b0b410d965d9b3947c5c088e736ae29173590b9489df27f7dd8d42b34f6e9b` |
-| v1.0.0 패치 | 15,273,684 | `57A36B08` | `eb2f1765be5f4efc0820b327edd0c06cbbccd4c27fbb90cb8df5423642eb12a8` |
+| 출력 ISO | 1,757,806,592 | `6527EB82` | `932ccd4d761ec8532a85441ba0e52b46db8e386048c3f511e77fba6bad698044` |
+| v1.0.1 패치 | 15,273,956 | `137D050C` | `8912bfa5bfe0b1488df949d7d64b2cea896c10144121cf42948e2ec125f98d3f` |
 
 ## 적용 순서
 
@@ -21,7 +21,7 @@
 3. 출력의 크기·해시를 위 표와 비교한 뒤 PSP 또는 PPSSPP에서 실행합니다.
 
 ```text
-xdelta3 -d -s "original_jp.iso" "gundam_next_plus_ko_v1.0.0.xdelta" "gundam_next_plus_ko_v1.0.0.iso"
+xdelta3 -d -s "original_jp.iso" "gundam_next_plus_ko_v1.0.1.xdelta" "gundam_next_plus_ko_v1.0.1.iso"
 ```
 
 `original_jp.iso`는 명령의 원본 파일명 예시입니다. 실제 원본 파일명을 사용하세요. 폰트는 결과 ISO의 `/PSP_GAME/SYSDIR/UPDATE/DATA.BIN`에 내장되므로 별도 PSP 폰트 추출은 필요하지 않습니다.
@@ -30,14 +30,15 @@ xdelta3 -d -s "original_jp.iso" "gundam_next_plus_ko_v1.0.0.xdelta" "gundam_next
 
 ## 확인 범위와 후속 업데이트
 
-v1.0.0은 원판 기반 패치 재적용과 정적 검사를 통과한 내부 빌드 042입니다. 웹 AI 감독 검수로 텍스트 51곳과 이미지 250면·440문구를 추가 보완했으며 원본 타이틀 로고를 유지합니다.
+v1.0.1은 원판 기반 패치 재적용과 정적 검사를 통과한 내부 빌드 043입니다. 일반 적·보스·지원 기체 이름판 61개를 원본 표시 행 안으로 보정했고, 수정 결과의 게임 내 확인은 아직 전입니다. 웹 AI 감독 검수로 텍스트 51곳과 이미지 250면·440문구를 추가 보완했으며 원본 타이틀 로고를 유지합니다.
 
-일부 영문·작은 이미지 표식과 문맥 보완은 후속 업데이트 대상이며 전체 게임 완주 검수는 별도 범위입니다. [주요 변경](../CHANGELOG.md), [상세 수정·검증](HISTORY.md#release-v1-0-0), [진행 현황](../PROGRESS.md).
+일부 영문·작은 이미지 표식과 문맥 보완은 후속 업데이트 대상이며 전체 게임 완주 검수는 별도 범위입니다. [주요 변경](../CHANGELOG.md), [상세 수정·검증](HISTORY.md#release-v1-0-1), [진행 현황](../PROGRESS.md).
 
 ## 이전 배포본
 
 | 버전 | 배포 페이지 | 확인 범위 |
 |---|---|---|
+| v1.0.0 | [첫 정식 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.0) | 내부 042; 적 NPC 이름표 잘림 보고 후 v1.0.1에서 보정 |
 | 042 | [2026-10-08 개발 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-08-graphics-042) | v1.0.0과 동일한 패치 |
 | 038 | [2026-10-05 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-05-graphics-038) | 백식 호위 임무 프리징 해결 사용자 확인 |
 | 027 | [2026-10-04 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/dev-2026-10-04-graphics-027) | 백식 호위 임무에서 랜덤 프리징 보고 |

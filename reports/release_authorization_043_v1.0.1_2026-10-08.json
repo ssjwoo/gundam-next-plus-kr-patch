@@ -1,0 +1,18 @@
+{
+  "version": "v1.0.1",
+  "artifact_revision": "043",
+  "authority": "USER",
+  "user_message": "깃허브 릴리스 ㄱㄱ",
+  "authorized_at": "2026-10-08T07:26:39.752002+00:00",
+  "artifact_binding": "Explicit release request follows delivery of local043 ISO and pristine-source xdelta.",
+  "candidate_iso_sha256": "932ccd4d761ec8532a85441ba0e52b46db8e386048c3f511e77fba6bad698044",
+  "xdelta_sha256": "8912bfa5bfe0b1488df949d7d64b2cea896c10144121cf42948e2ec125f98d3f",
+  "static_verdict": "PASS",
+  "original_roundtrip_verdict": "PASS",
+  "runtime_verdict": "NOT_TESTED",
+  "runtime_owner": "USER",
+  "runtime_acceptance_claim": false,
+  "whole_game_runtime_pass": false,
+  "whole_localization_complete": false,
+  "decision": "Publish current043 as regular v1.0.1 with static verification and pending in-game correction observation explicitly disclosed."
+}

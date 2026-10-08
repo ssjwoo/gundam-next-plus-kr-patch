@@ -2,6 +2,16 @@
 
 날짜별 릴리스·이미지 작업·복구·오류 조사 문서의 핵심 내용을 모았습니다. 현재 적용법은 [INSTALL.md](INSTALL.md), 현재 상태와 다음 작업은 [인계](../99_HANDOFF/CURRENT.md)를 기준으로 합니다. 정적 검사 통과와 사용자 실행 확인은 서로 다른 근거입니다.
 
+<a id="release-v1-0-1"></a>
+
+## v1.0.1 · 2026-10-08 · NPC 이름표 수정 업데이트
+
+사용자가 043 수정본을 전달받은 뒤 “깃허브 릴리스 ㄱㄱ”라고 게시를 요청했습니다. 바이트가 같은 043 원판용 xdelta를 `gundam_next_plus_ko_v1.0.1.xdelta` 이름으로 정식 배포합니다. 이전 v1.0.0과 개발 릴리스는 보존합니다.
+
+61개 이름판의 이미지 재읽기·정적 검사·원판용 패치 재적용은 PASS입니다. 043의 게임 내 수정 관측은 NOT_TESTED이며 이슈 상태는 `CORRECTED_STATIC_AWAITING_USER_OBSERVATION`입니다. 게시 승인을 실행 검수나 전체 한글화 완료로 확대하지 않습니다.
+
+근거: [게시 요청·범위](../reports/release_authorization_043_v1.0.1_2026-10-08.json), [수정 근거](../reports/npc_nameplate_clipping_2026-10-08.json), [정식 릴리스](https://github.com/ssjwoo/gundam-next-plus-kr-patch/releases/tag/v1.0.1).
+
 <a id="revision-043"></a>
 
 ## 043 · 2026-10-08 · NPC 이름표 수정본
@@ -10,7 +20,7 @@ v1.0.0 플레이 중 사용자가 NEXT PLUS의 적 NPC 이름이 세로로 잘�
 
 일반 적 36·보스와 저해상도 변형 4·한 줄 지원 이름 21개, 합계 61면을 원본 이름 행 안으로 복원했습니다. 글자 픽셀은 원래 한글에서 정확히 8행 위로 옮긴 것과 동일하며 명칭·글꼴 크기·팔레트·모델·코드·폰트는 보존했습니다. 원본의 두 줄 지원 이름 17개와 플레이어블 이름판 154개도 유지합니다. 렌더러에 지울 영역과 실제 글자 영역을 분리하고, 편집 및 native 변환 후 영역 밖 글자 픽셀을 거부하는 검사를 추가했습니다.
 
-61개 이름판의 native 재읽기와 위쪽 16행 내 완전한 글자 보존, 원판용 xdelta 재적용, 고정 할당·PZZ 검사값·다른 데이터 및 원본 로고 193면 보호는 PASS입니다. 바뀐 디스크 바이트는 16,384개입니다. 실제 게임에서의 수정 확인은 NOT_TESTED이며 이슈는 `CORRECTED_STATIC_AWAITING_USER_OBSERVATION`으로 유지합니다. 새 공개 릴리스는 게시하지 않았습니다.
+61개 이름판의 native 재읽기와 위쪽 16행 내 완전한 글자 보존, 원판용 xdelta 재적용, 고정 할당·PZZ 검사값·다른 데이터 및 원본 로고 193면 보호는 PASS입니다. 바뀐 디스크 바이트는 16,384개입니다. 실제 게임에서의 수정 확인은 NOT_TESTED이며 이슈는 `CORRECTED_STATIC_AWAITING_USER_OBSERVATION`으로 유지합니다. 이 로컬 수정 단계에서는 공개 릴리스를 게시하지 않았고, 후속 사용자 요청에 따라 위 v1.0.1 배포로 이어졌습니다.
 
 근거: [이슈·원인·범위](../reports/npc_nameplate_clipping_2026-10-08.json), [043 빌드·패치](../reports/development_043_2026-10-08.json), [이름 행 검사](../reports/npc_nameplate_readback_043_2026-10-08.json), [재현 입력](../translations/graphics/npc_nameplate_row_fix_043_2026-10-08.json).
 

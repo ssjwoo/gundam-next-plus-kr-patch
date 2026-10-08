@@ -1,8 +1,8 @@
 # 개발·복구 안내
 
-현재 정식 릴리스는 **v1.0.0**, 내부 빌드 기준은 **042**입니다. 사용자가 042를 간단히 플레이하고 정식 배포를 승인했습니다. 이 확인은 전체 게임 완주나 한글화 전수 검수와 구분합니다. 실제 로컬 입력과 다음 작업은 [현재 인계](../99_HANDOFF/CURRENT.md), 결과 집계는 [status.json](../reports/status.json)을 먼저 읽으세요. 아래 과거 복구 절차는 최신 빌드 전체를 재생성하는 단일 명령이 아닙니다.
+현재 정식 릴리스는 **v1.0.1**, 내부 빌드 기준은 **043**입니다. 이번 NPC 이름판 보정은 정적 검사를 통과했고 사용자가 게시를 승인했습니다. 043 실행은 NOT_TESTED입니다. 사용자가 042를 간단히 플레이하고 정식 배포를 승인했습니다. 이 확인은 전체 게임 완주나 한글화 전수 검수와 구분합니다. 실제 로컬 입력과 다음 작업은 [현재 인계](../99_HANDOFF/CURRENT.md), 결과 집계는 [status.json](../reports/status.json)을 먼저 읽으세요. 아래 과거 복구 절차는 최신 빌드 전체를 재생성하는 단일 명령이 아닙니다.
 
-현재 로컬 수정본은 **043**입니다. NPC 이름 행 보정 입력은 `translations/graphics/npc_nameplate_row_fix_043_2026-10-08.json`이며, `build_supervised_graphics_batch.py`는 기존 039 바인딩과 명시적인 `baseline_*` 바인딩을 모두 받습니다. `render_localized_labels.py`의 `box`는 지울 범위, 선택적인 `text_box`는 실제 글자 배치 범위입니다. `require_alpha_within_text_box`는 투명 이름판의 범위 밖 글자를 편집 및 native 변환 단계에서 거부합니다. 새 필드가 없는 기존 입력의 배치 방식은 같습니다. [수정 근거](HISTORY.md#revision-043).
+현재 수정본은 **043**입니다. NPC 이름 행 보정 입력은 `translations/graphics/npc_nameplate_row_fix_043_2026-10-08.json`이며, `build_supervised_graphics_batch.py`는 기존 039 바인딩과 명시적인 `baseline_*` 바인딩을 모두 받습니다. `render_localized_labels.py`의 `box`는 지울 범위, 선택적인 `text_box`는 실제 글자 배치 범위입니다. `require_alpha_within_text_box`는 투명 이름판의 범위 밖 글자를 편집 및 native 변환 단계에서 거부합니다. 새 필드가 없는 기존 입력의 배치 방식은 같습니다. [수정 근거](HISTORY.md#revision-043).
 
 ## 환경
 
